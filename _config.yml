@@ -1,0 +1,44 @@
+# Site settings
+title: NIST Pages Shell
+description: NIST Pages Shell Site
+baseurl: "/pages-shell" # the subpath of your site, e.g. /blog
+
+# Build settings
+markdown: kramdown
+
+exclude:
+- ".ruby-version"
+- ".jekyll-metadata"
+- ".gitignore"
+- Gemfile
+- Gemfile.lock
+- Makefile
+- vendor
+- README.md
+
+# GitHub information will uncomment ones names are finalized and NIST GitHub Pages resources have been allocated
+#org_name: usnistgov
+#repo_name: nistpages-shell
+
+# Navigation
+# List links that should appear in the site sidebar here
+# 5/7/2018 - Updating the "collname" property to match the folder names in the repository 
+navigation:
+#- text: Introduction
+#  url: /
+#  internal: true
+#  collection: false
+  
+collections:
+#  general:
+#    output: true
+
+#Uncomment when we go live 
+host: 0.0.0.0
+
+include:
+- _stylesheets
+- _javascript
+
+# Custom site configuration
+lang: en

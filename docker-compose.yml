@@ -1,0 +1,16 @@
+#
+# Docker compose configuration file for NIST Pages development support.
+#
+# From https://github.com/bspk/nistpages-docker/blob/master/docker-compose.yml
+#
+
+version: '3'
+
+services:
+  server:
+    image: jricher/nistpages-dev
+    volumes:
+      - .:/srv/jekyll
+    command: serve
+    ports:
+      - "4000:4000"
