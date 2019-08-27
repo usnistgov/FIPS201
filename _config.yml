@@ -1,7 +1,7 @@
 # Site settings
-title: NIST Pages Shell
-description: NIST Pages Shell Site
-baseurl: "/pages-shell" # the subpath of your site, e.g. /blog
+title: FIPS 201
+description: FIPS 201
+baseurl: "/FIPS-201" # the subpath of your site, e.g. /blog
 
 # Build settings
 markdown: kramdown
@@ -15,6 +15,7 @@ exclude:
 - Makefile
 - vendor
 - README.md
+- abstract.md
 
 # GitHub information will uncomment ones names are finalized and NIST GitHub Pages resources have been allocated
 #org_name: usnistgov
@@ -22,16 +23,22 @@ exclude:
 
 # Navigation
 # List links that should appear in the site sidebar here
-# 5/7/2018 - Updating the "collname" property to match the folder names in the repository 
 navigation:
-#- text: Introduction
-#  url: /
-#  internal: true
-#  collection: false
+- text: Home
+  url: /
+- text: FIPS 201
+  url: /introduction/
+  collection: FIPS201
+- text: Appendices
+  url: /accreditation/
+  collection: Appendix
+  
   
 collections:
-#  general:
-#    output: true
+  FIPS201:
+    output: true
+  Appendix:
+    output: true
 
 #Uncomment when we go live 
 host: 0.0.0.0
