@@ -6,11 +6,11 @@ navTitle: Glossary
 permalink: /glossary/
 ---
 
-## Appendix C— Glossary of Terms, Acronyms, and Notations ..............................................
+# Appendix C— Glossary of Terms, Acronyms, and Notations
 
 This informative appendix describes the vocabulary and textual representations used in the document.
 
-### C.1 Glossary of Terms
+## C.1 Glossary of Terms
 
 The following terms are used throughout this Standard.
 
@@ -225,7 +225,7 @@ specification of that system. [INCITS/M1-040211]
 
 Verification: See “Identity Verification.”
 
-### C.2 Acronyms
+## C.2 Acronyms
 
 The following acronyms and abbreviations are used throughout this Standard:
 
@@ -281,7 +281,7 @@ ICAMSC Identity, Credential, and Access Management Subcommittee
 ICC Integrated Circuit Chip
 ID Identification
 
-### IDMS Identity Management System
+## IDMS Identity Management System
 
 IEC International Electrotechnical Commission
 IETF Internet Engineering Task Force
@@ -332,7 +332,7 @@ URI Uniform Resource Identifier
 U.S.C. United States Code
 UUID Universally Unique IDentifier
 
-### C.3 Notations
+## C.3 Notations
 
 This Standard uses the following typographical conventions in text:
 

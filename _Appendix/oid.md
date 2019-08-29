@@ -6,15 +6,15 @@ navTitle: OID
 permalink: /oid/
 ---
 
-## Appendix B— PIV Object Identifiers and Certificate Extension ...........................................
+# Appendix B— PIV Object Identifiers and Certificate Extension
 
 This normative appendix provides additional details for the PIV objects identified in Section 4.
 
-### B.1 PIV Object Identifiers
+## B.1 PIV Object Identifiers
 
 Table B-1 lists details for PIV object identifiers.
 
-## Table B-1. PIV Object Identifiers ..............................................................................................
+# Table B-1. PIV Object Identifiers
 
 ```
 ID Object Identifier Description
@@ -51,7 +51,7 @@ cardholder.
 ```
 The OIDs for certificate policies are specified in [COMMON].
 
-### B.2 PIV Certificate Extension
+## B.2 PIV Certificate Extension
 
 The PIV NACI indicator (background investigation indicator) extension indicates whether the subject’s
 background investigation was incomplete at the time of credential issuance. The PIV NACI indicator
@@ -92,6 +92,6 @@ id- piv- NACI OBJECT IDENTIFIER ::= { 2 16 840 1 101 3 6 9 1 }
 ```
 NACI-indicator ::= BOOLEAN
 ```
-### END
+## END
 
 

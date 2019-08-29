@@ -6,7 +6,7 @@ navTitle: Authentication
 permalink: /authentication/
 ---
 
-## 6. PIV Cardholder Authentication
+# 6. PIV Cardholder Authentication
 
 This section defines a suite of authentication mechanisms that are supported by all the PIV Cards, and
 their applicability in meeting the requirements for a set of graduated levels of identity assurance. This
@@ -19,7 +19,7 @@ authentication is defined as the process of establishing confidence in the ident
 presenting a PIV Card. The authenticated identity can then be used to determine the permissions or
 authorizations granted to that identity for access to various physical and logical resources.
 
-### 6.1 PIV Assurance Levels
+## 6.1 PIV Assurance Levels
 
 This Standard defines four levels of assurance for identity authentication supported by the PIV Card
 Application. Each assurance level sets a degree of confidence established in the identity of the holder of
@@ -58,14 +58,14 @@ specified within this section may be applied to achieve the required degree of c
 the PIV cardholder.
 
 
-#### 6.1.1 Relationship to OMB’s E-Authentication Guidance .......................................
+### 6.1.1 Relationship to OMB’s E-Authentication Guidance
 
 The levels of identity authentication assurance defined within this Standard are closely aligned with
 Section 2 of OMB’s E-Authentication Guidance for Federal Agencies, M- 04 -04 [OMB0404].
 Specifically, Table 6-1 shows the notional relationship between the PIV assurance levels and the M- 04 -04
 E-Authentication assurance levels.
 
-## Table 6-1. Relationship Between PIV and E-Authentication Assurance Levels ........................
+# Table 6-1. Relationship Between PIV and E-Authentication Assurance Levels
 
 ```
 PIV
@@ -86,7 +86,7 @@ for access to physical resources may use a methodology similar to that defined i
 determine the PIV assurance level required for access to their physical resource; they may also use other
 applicable methodologies to determine the required level of identity assurance for their application.
 
-### 6.2 PIV Card Authentication Mechanisms......................................................................
+## 6.2 PIV Card Authentication Mechanisms
 
 The following subsections define the basic types of authentication mechanisms that are supported by the
 credential set hosted by the PIV Card Application. PIV Cards can be used for identity authentication in
@@ -94,7 +94,7 @@ environments that are equipped with card readers as well as those that lack card
 when present, can be contact readers or contactless readers. The usage environment affects the PIV
 authentication mechanisms that may be applied to a particular situation.
 
-#### 6.2.1 Authentication Using Off-Card Biometric Comparison ..................................
+### 6.2.1 Authentication Using Off-Card Biometric Comparison
 
 The PIV Card Application hosts the signed fingerprint templates and, optionally, the signed iris images.
 Either biometric can be read from the card following cardholder-to-card (CTC) authentication using a PIN
@@ -145,7 +145,7 @@ In this higher assurance variant, an attendant (e.g., security guard) supervises
 the submission of the biometric by the cardholder. Otherwise, the steps for this authentication mechanism
 are the same as for the unattended biometric (BIO) authentication mechanism.
 
-#### 6.2.2 Authentication Using On-Card Biometric Comparison (OCC-AUTH) ............
+### 6.2.2 Authentication Using On-Card Biometric Comparison (OCC-AUTH)
 
 The PIV Card Application may host the optional on-card biometric comparison algorithm. In this case,
 on-card biometric comparison data is stored on the card, which cannot be read, but could be used for
@@ -169,7 +169,7 @@ Some of the characteristics of the on-card biometric comparison authentication m
 - Strong resistance to use of unaltered card by non-owner.
 - Applicable with contact and contactless card readers.
 
-#### 6.2.3 Authentication Using PIV Asymmetric Cryptography
+### 6.2.3 Authentication Using PIV Asymmetric Cryptography
 
 The PIV Card contains two mandatory asymmetric authentication private keys and corresponding
 certificates to support cardholder-to-external system (CTE) authentication, as described in Section 4. The
@@ -230,7 +230,7 @@ Some of the characteristics of the PKI-CAK authentication mechanism are as follo
 - Low resistance to use of unaltered card by non-owner of card.
 - Applicable with contact and contactless readers.
 
-#### 6.2.4 Authentication with the Symmetric Card Authentication Key (SYM-CAK) .....
+### 6.2.4 Authentication with the Symmetric Card Authentication Key (SYM-CAK)
 
 The PIV Card Application may host the optional symmetric Card Authentication key. In this case, the
 symmetric Card Authentication key shall be used for PIV cardholder authentication using the following
@@ -260,7 +260,7 @@ follows:
 - Low resistance to use of unaltered card by non-owner of card.
 - Applicable with contact and contactless readers.
 
-#### 6.2.5 Authentication Using the CHUID ..................................................................
+### 6.2.5 Authentication Using the CHUID
 
 The PIV Card provides a mandatory data element called the CHUID. As described in Section 4.2.1, the
 CHUID contains numerous data elements.
@@ -285,7 +285,7 @@ As the CHUID authentication mechanism provides LITTLE or NO assurance in the ide
 cardholder, use of the CHUID authentication mechanism is deprecated. It is expected that the CHUID
 authentication mechanism will be removed from this Standard at the next five-year revision.
 
-#### 6.2.6 Authentication Using PIV Visual Credentials (VIS) .......................................
+### 6.2.6 Authentication Using PIV Visual Credentials (VIS)
 
 Visual authentication of a PIV cardholder shall be used only to support access control to physical
 facilities and resources.
@@ -338,7 +338,7 @@ Some characteristics of the visual authentication mechanism are as follows:
 - Does not provide protection against use of a revoked card.
 - Applicable in environments with and without card readers.
 
-### 6.3 PIV Support of Graduated Assurance Levels for Identity Authentication
+## 6.3 PIV Support of Graduated Assurance Levels for Identity Authentication
 
 The PIV Card supports a set of authentication mechanisms that can be used to implement graduated
 assurance levels for identity authentication. The following subsections specify which basic PIV
@@ -356,7 +356,7 @@ the functional mechanism, physical protection of the mechanism, and environmenta
 authentication point. Additional standards and best practice guidelines apply to the design and
 implementation of relying systems, e.g., [FIPS140] and [SP 800-116].
 
-#### 6.3.1 Physical Access ...........................................................................................
+### 6.3.1 Physical Access
 
 The PIV Card may be used to authenticate the identity of the cardholder in a physical access control
 environment. For example, a Federal facility may have physical entry doors that have human guards at
@@ -366,7 +366,7 @@ suitable for a higher assurance level can also be applied to meet the requiremen
 level. Moreover, the authentication mechanisms in Table 6-2 can be combined to achieve higher
 assurance levels.^35
 
-## Table 6-2. Authentication for Physical Access ..........................................................................
+# Table 6-2. Authentication for Physical Access
 
 (^35) Combinations of authentication mechanisms are specified in [SP 800-116].
 PIV Assurance Level
@@ -380,7 +380,7 @@ HIGH confidence BIO
 VERY HIGH confidence BIO-A, OCC-AUTH, PKI-AUTH
 
 
-#### 6.3.2 Logical Access .............................................................................................
+### 6.3.2 Logical Access
 
 The PIV Card may be used to authenticate the cardholder in support of decisions concerning access to
 logical information resources. For example, a cardholder may log in to his or her department or agency
@@ -391,7 +391,7 @@ Table 6-3 describes the authentication mechanisms defined for this Standard to s
 control. An authentication mechanism that is suitable for a higher assurance level can also be applied to
 meet the requirements for a lower assurance level.
 
-## Table 6-3. Authentication for Logical Access ............................................................................
+# Table 6-3. Authentication for Logical Access
 
 ```
 PIV Assurance Level

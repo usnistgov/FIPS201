@@ -6,7 +6,7 @@ navTitle: References
 permalink: /references/
 ---
 
-## Appendix D— References ......................................................................................................
+# Appendix D— References
 
 [ANSI322] ANSI INCITS 322 Information Technology, Card Durability Test Methods, ANSI,
 2002.
@@ -172,6 +172,6 @@ Cards under HSPD-12, July 31, 2008.
 [SSP REP] Shared Service Provider Repository Service Requirements, December 13, 2011, or as
 amended. Available at [http://idmanagement.gov/documents/shared-service-provider-repository-](http://idmanagement.gov/documents/shared-service-provider-repository-)
 
-### service-requirements.
+## service-requirements.
 
 

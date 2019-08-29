@@ -5,12 +5,12 @@ navOrder: 2
 navTitle: Requirements
 permalink: /requirements/
 ---
-## 2. Common Identification, Security, and Privacy Requirements
+# 2. Common Identification, Security, and Privacy Requirements
 
 This section addresses the fundamental control and security objectives outlined in [HSPD-12], including
 the identity proofing requirements for Federal employees and contractors.
 
-### 2.1 Control Objectives
+## 2.1 Control Objectives
 
 [HSPD-12] established control objectives for secure and reliable identification of Federal employees and
 contractors. These control objectives, provided in paragraph 3 of the directive, are quoted here:
@@ -58,12 +58,12 @@ person not entitled to the credential.
 Management (OPM), or other Federal background investigation service provider (if authorized).
 
 
-### 2.2 Credentialing Requirements
+## 2.2 Credentialing Requirements
 
 Federal departments and agencies shall use the credentialing guidance issued by the Director of the Office
 of Personnel Management (OPM)^4 and OMB^5.
 
-### 2.3 Biometric Data Collection for Background Investigations
+## 2.3 Biometric Data Collection for Background Investigations
 
 The following biometric data shall be collected from each PIV applicant:
 
@@ -78,7 +78,7 @@ and referenced.
 
 Fingerprint collection shall conform to the procedural and technical specifications of [SP 800-76].
 
-### 2.4 Biometric Data Collection for PIV Card
+## 2.4 Biometric Data Collection for PIV Card
 
 The following biometric data shall be collected from each PIV applicant:
 
@@ -102,7 +102,7 @@ Biometric data collection shall conform to the procedural and technical specific
 The choice of which two fingers is important and may vary between persons. The recommended
 selection and order is specified in [SP 800-76].
 
-### 2.5 Biometric Data Use
+## 2.5 Biometric Data Use
 
 The full set of fingerprints shall be used for one-to-many identification in the databases of fingerprints
 maintained by the FBI.
@@ -138,7 +138,7 @@ visual authentication process defined in Section 6.2.6; and
 + may be used for automated facial authentication in operator-attended PIV issuance, reissuance, and
 verification data reset processes.
 
-### 2.6 Chain-of-Trust
+## 2.6 Chain-of-Trust
 
 A card issuer may optionally maintain, for each PIV Card issued, a documentary chain-of-trust for the
 identification data it collects. The chain-of-trust is a sequence of related enrollment data records that are
@@ -204,7 +204,7 @@ employee’s chain-of-trust from the card issuer in the old agency, and receives
 employee performs a 1:1 biometric match against the chain-of-trust, and the interaction proceeds as
 described in Section 2.8.2.
 
-### 2.7 PIV Identity Proofing and Registration Requirements
+## 2.7 PIV Identity Proofing and Registration Requirements
 
 Departments and agencies shall follow an identity proofing and registration process that meets the
 requirements defined below when issuing PIV Cards.
@@ -344,7 +344,7 @@ must be established using a method approved by the U.S. Department of State’s 
 Security, except for employees under the command of a U.S. area military commander. These procedures
 may vary depending on the country.
 
-### 2.8 PIV Card Issuance Requirements
+## 2.8 PIV Card Issuance Requirements
 
 Departments and agencies shall meet the requirements defined below when issuing PIV Cards. The
 issuance process used when issuing PIV Cards shall be accredited by the department or agency as
@@ -393,7 +393,7 @@ PIV Cards that contain topographical defects (e.g., scratches, poor color, fadin
 properly printed shall be destroyed. The PIV Card issuer is responsible for the card stock, its
 management, and its integrity.
 
-#### 2.8.1 Special Rule for Pseudonyms ......................................................................
+### 2.8.1 Special Rule for Pseudonyms
 
 In limited circumstances Federal employees and contractors are permitted to use pseudonyms during the
 performance of their official duties with the approval of their employing agency. If an agency determines
@@ -404,7 +404,7 @@ authorized pseudonym shall follow the procedures in Section 2.8, PIV Card Issuan
 except that the card issuer must receive satisfactory evidence that the pseudonym is authorized by the
 agency.
 
-#### 2.8.2 Grace Period ................................................................................................
+### 2.8.2 Grace Period
 
 In some instances an individual's status as a Federal employee or contractor will lapse for a brief time
 period. For example, a Federal employee may leave one Federal agency for another Federal agency and
@@ -430,7 +430,7 @@ two identity source documents (as specified in Section 2.7), and an attending op
 and compare the cardholder with the facial image retrieved from the enrollment data record and the facial
 image printed on the new PIV Card.
 
-### 2.9 PIV Card Maintenance Requirements
+## 2.9 PIV Card Maintenance Requirements
 
 The PIV Card shall be maintained using processes that comply with this section.
 
@@ -443,7 +443,7 @@ agencies may require PIV Card update, reissuance, or biometric enrollment more f
 maximum PIV Card and biometric lifetimes stated in this Standard. Shorter lifetimes may be specified by
 agency policy collectively, or on a case-by-case basis as sub-par operation is encountered.
 
-#### 2.9.1 PIV Card Reissuance Requirements ............................................................
+### 2.9.1 PIV Card Reissuance Requirements
 
 Reissuance is the process by which a new PIV Card is issued to a cardholder without the need to repeat
 the entire identity proofing and registration procedure. The reissuance process may be used to replace a
@@ -526,7 +526,7 @@ old PIV Card and no data about the cardholder, other than the cardholder’s nam
 the new PIV Card may be issued without obtaining the approval of a proper authority and without
 performing a re-investigation.
 
-#### 2.9.2 PIV Card Post Issuance Update Requirements ............................................
+### 2.9.2 PIV Card Post Issuance Update Requirements
 
 A PIV Card post issuance update may be performed without replacing the PIV Card in cases where none
 of the printed information on the surface of the card is changed. The post issuance update applies to cases
@@ -554,7 +554,7 @@ biometric data objects, shall satisfy the requirements for verification data res
 If the PIV Authentication key, asymmetric Card Authentication key, the digital signature key, or the key
 management key, was compromised, the corresponding certificate shall be revoked.
 
-#### 2.9.3 PIV Card Verification Data Reset
+### 2.9.3 PIV Card Verification Data Reset
 
 The Personal Identification Number (PIN) on a PIV Card may need to be reset if the cardholder has
 forgotten the PIN or if PIN-based cardholder authentication has been disabled from the usage of an
@@ -618,7 +618,7 @@ Departments and agencies may adopt more stringent procedures for verification da
 disallowing verification data reset); such procedures shall be formally documented by each department
 and agency.
 
-#### 2.9.4 PIV Card Termination Requirements ............................................................
+### 2.9.4 PIV Card Termination Requirements
 
 A PIV card is terminated when the department or agency that issued the card determines that the
 cardholder is no longer eligible to have a PIV Card. The PIV Card shall be terminated under the
@@ -662,14 +662,14 @@ notification. In certain cases, 18 hours is an unacceptable delay and in those c
 must be executed to disseminate the information as rapidly as possible. Departments and agencies are
 required to have procedures in place to issue emergency notifications in such cases.
 
-### 2.10 Derived PIV Credentials Issuance Requirements
+## 2.10 Derived PIV Credentials Issuance Requirements
 
 Valid PIV Cards may be used as the basis for issuing derived PIV credentials in accordance with NIST
 Special Publication 800-157, Guidelines for Derived Personal Identity Verification (PIV) Credentials
 [SP 800-157]. When a cardholder's PIV Card is terminated as specified in Section 2.9.4, any derived PIV
 credentials issued to the cardholder shall also be terminated.
 
-### 2.11 PIV Privacy Requirements
+## 2.11 PIV Privacy Requirements
 
 HSPD-12 explicitly states that “protect[ing] personal privacy” is a requirement of the PIV system. As
 such, all departments and agencies shall implement the PIV system in accordance with the spirit and letter

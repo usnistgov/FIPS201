@@ -5,7 +5,7 @@ navOrder: 1
 navTitle: Introduction
 permalink: /introduction/
 ---
-### 1. Introduction
+# 1. Introduction
 
 Authentication of an individual’s identity is a fundamental component of physical and logical access
 control processes. When an individual attempts to access security-sensitive buildings, computer systems,
@@ -29,7 +29,7 @@ controlled facilities, information systems, and applications. This Standard addr
 initial identity proofing, infrastructures to support interoperability of identity credentials, and
 accreditation of organizations and processes issuing PIV credentials.
 
-### 1.1 Purpose
+## 1.1 Purpose
 
 This Standard defines a reliable, government-wide identity credential for use in applications such as
 access to Federally controlled facilities and information systems. This Standard has been developed
@@ -40,7 +40,7 @@ This Standard specifies a PIV system within which a common identity credential c
 used to verify a claimed identity. The Standard also identifies Federal government-wide requirements for
 security levels that are dependent on risks to the facility or information being protected.
 
-### 1.2 Scope
+## 1.2 Scope
 
 Homeland Security Presidential Directive-12 [HSPD-12], signed by President George W. Bush on August
 27, 2004, established the requirements for a common identification standard for identity credentials issued
@@ -68,7 +68,7 @@ Standard is limited to authentication of an individual’s identity. Authorizati
 decisions are outside the scope of this Standard. Moreover, requirements for a temporary card used until
 a new or replacement PIV Card arrives are out of scope of this Standard.
 
-### 1.3 Change Management
+## 1.3 Change Management
 
 Every revision of this Standard introduces refinements and changes that may impact existing
 implementations. FIPS 201 and its normative specifications encourage implementation approaches that
@@ -80,14 +80,14 @@ This section provides change management principles and guidance to implementers 
 manage newly introduced changes and modifications to the previous version of this Standard.
 Specifically, this section provides a description of the types of changes expected in FIPS 201 revisions.
 
-#### 1.3.1 Backward Compatible Change
+### 1.3.1 Backward Compatible Change
 
 A backward compatible change is a change or modification to an existing feature that does not break the
 relying systems using this feature. For example, changing the Card Authentication certificate from
 optional to mandatory does not affect the systems using the Card Authentication certificate for
 authentication (i.e., using the PKI-CAK authentication mechanism).
 
-#### 1.3.2 Non-Backward Compatible Change
+### 1.3.2 Non-Backward Compatible Change
 
 A non-backward compatible change is a change or modification to an existing feature such that the
 modified feature cannot be used with existing relying systems. For example, changing the format of the
@@ -96,7 +96,7 @@ attempt with the modified format would fail. Similarly, changing the PIV Card Ap
 (AID) would introduce a non-backward compatible change. As a result, all systems interacting with the
 PIV Card would need to be changed to accept the new PIV AID.
 
-#### 1.3.3 New Features
+### 1.3.3 New Features
 
 New features are optional or mandatory features that are added to the Standard. New features do not
 interfere with backward compatibility because they are not part of the existing relying systems. For
@@ -104,7 +104,7 @@ example, the addition of an optional on-card biometric comparison (OCC) authenti
 new feature that does not affect the features in current systems. The systems will need to be updated if an
 agency decides to support the OCC-AUTH authentication mechanism.
 
-#### 1.3.4 Deprecated and Removed
+### 1.3.4 Deprecated and Removed
 
 When a feature is to be discontinued or is no longer needed, it is deprecated. In general, a feature that is
 currently in use by relying systems would only be deprecated if there were a compelling (e.g., security)
@@ -120,7 +120,7 @@ In the case of deprecated features on PIV Cards, such as the authentication key 
 with the deprecated features remain valid, however, new PIV Cards should not include the deprecated
 features.
 
-#### 1.3.5 FIPS 201 Version Management
+### 1.3.5 FIPS 201 Version Management
 
 Subsequent revisions of this Standard may necessitate FIPS 201 version management that introduces new
 version numbers for FIPS 201 products. Components that may be affected by version management
@@ -131,7 +131,7 @@ example, new mandatory features introduced in a revision of this Standard may ne
 Card Application version number so that systems can quickly discover the new mandatory features.
 Optional features, on the other hand, may be discoverable by an on-card discovery mechanism.
 
-### 1.4 Document Organization
+## 1.4 Document Organization
 
 This Standard describes the minimum requirements for a Federal personal identification system that
 meets the control and security objectives of [HSPD-12], including identity proofing, registration, and

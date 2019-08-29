@@ -6,14 +6,14 @@ navTitle: Front-End
 permalink: /frontend/
 ---
 
-## 4. PIV Front-End Subsystem
+# 4. PIV Front-End Subsystem
 
 This section identifies the requirements for the components of the PIV front-end subsystem. Section 4.1
 provides the physical card specifications. Section 4.2 provides the logical card specifications. Section
 4.3 specifies the requirements for card activation. Section 4.4 provides requirements for PIV Card
 readers.
 
-### 4.1 PIV Card Physical Characteristics
+## 4.1 PIV Card Physical Characteristics
 
 References to the PIV Card in this section pertain to the physical characteristics only. References to the
 front of the card apply to the side of the card that contains the electronic contacts; references to the back
@@ -30,14 +30,14 @@ Standardization (ISO)/International Electrotechnical Commission (IEC) 7810 [ISO7
 [ISO10373], ISO/IEC 7816 for contact cards [ISO7816], and ISO/IEC 14443 for contactless cards
 [ISO14443].
 
-#### 4.1.1 Printed Material
+### 4.1.1 Printed Material
 
 The printed material shall not rub off during the life of the PIV Card, nor shall the printing process
 deposit debris on the printer rollers during printing and laminating. Printed material shall not interfere
 with the contact and contactless ICC(s) and related components, nor shall it obstruct access to machine-
 readable information.
 
-#### 4.1.2 Tamper Proofing and Resistance
+### 4.1.2 Tamper Proofing and Resistance
 
 The PIV Card shall contain security features that aid in reducing counterfeiting, are resistant to tampering,
 and provide visual evidence of tampering attempts. At a minimum, a PIV Card shall incorporate one such
@@ -64,7 +64,7 @@ As a generally accepted security procedure, Federal departments and agencies are
 periodically review the viability, effectiveness, and currency of employed tamper resistance and anti-
 counterfeiting methods.
 
-#### 4.1.3 Physical Characteristics and Durability ........................................................
+### 4.1.3 Physical Characteristics and Durability
 
 The following list describes the physical requirements for the PIV Card.
 
@@ -106,13 +106,13 @@ The following list describes the physical requirements for the PIV Card.
     material integrity and printing process is not adversely impacted. Departments and agencies are
     strongly encouraged to ensure such alterations do not—
 
-### – compromise card body durability requirements and characteristics;
+## – compromise card body durability requirements and characteristics;
 
-### – invalidate card manufacturer warranties or other product claims;
+## – invalidate card manufacturer warranties or other product claims;
 
-### – alter or interfere with printed information, including the photo; or
+## – alter or interfere with printed information, including the photo; or
 
-### – damage or interfere with machine-readable technology, such as the embedded antenna.
+## – damage or interfere with machine-readable technology, such as the embedded antenna.
 
 - The c ard material shall withstand the effects of temperatures required by the application of a polyester
     laminate on one or both sides of the card by commercial off-the-shelf (COTS) equipment. The
@@ -122,7 +122,7 @@ The following list describes the physical requirements for the PIV Card.
 
 The PIV Card may be subjected to additional testing.
 
-#### 4.1.4 Visual Card Topography ..............................................................................
+### 4.1.4 Visual Card Topography
 
 The information on a PIV Card shall be in visual printed and electronic form. This section covers the
 placement of visual and printed information. It does not cover information stored in electronic form, such
@@ -234,7 +234,7 @@ font size to 8 points.
 
 Name: Vaasa Silvaan Beenelong Wooloomooloo
 
-### Warrandyte Warwarnambool
+## Warrandyte Warwarnambool
 
 Characteristics: longer full name, two lines NOT
 sufficient with 8 point, 7 point allows sufficient
@@ -450,31 +450,31 @@ in Figure 4-8. This is necessary to display information required by the Geneva A
 legislatively mandated medical entitlements.
 
 
-## Figure 4-1. Card Front—Printable Areas and Required Data ...................................................
+# Figure 4-1. Card Front—Printable Areas and Required Data
 
 
-## Figure 4-2. Card Front—Optional Data Placement—Example 1 ...............................................
+# Figure 4-2. Card Front—Optional Data Placement—Example 1
 
 
-## Figure 4-3. Card Front—Optional Data Placement—Example 2 ...............................................
+# Figure 4-3. Card Front—Optional Data Placement—Example 2
 
 
-## Figure 4-4. Card Front—Optional Data Placement—Example 3 ...............................................
+# Figure 4-4. Card Front—Optional Data Placement—Example 3
 
 
-## Figure 4-5. Card Front—Optional Data Placement—Example 4 ...............................................
+# Figure 4-5. Card Front—Optional Data Placement—Example 4
 
 
-## Figure 4-6. Card Back—Printable Areas and Required Data ....................................................
+# Figure 4-6. Card Back—Printable Areas and Required Data
 
 
-## Figure 4-7. Card Back—Optional Data Placement—Example 1 ...............................................
+# Figure 4-7. Card Back—Optional Data Placement—Example 1
 
 
-## Figure 4-8. Card Back—Optional Data Placement—Example 2 ...............................................
+# Figure 4-8. Card Back—Optional Data Placement—Example 2
 
 
-#### 4.1.5 Color Representation ...................................................................................
+### 4.1.5 Color Representation
 
 Table 4-2 provides quantitative specifications for colors in three different color systems: sRGB
 Tristimulus, sRGB ([IEC61966], Color management – default RGB color space), and CMYK (Cyan,
@@ -484,27 +484,27 @@ printed regions, may modify the perceived color. In the case of colored regions,
 shall not prevent the recognition of the principal color by a person with normal vision (corrected or
 uncorrected) at a working distance of 50 cm to 200 cm.
 
-## Table 4-2. Color Representation ..............................................................................................
+# Table 4-2. Color Representation
 
-### Color Zone sRGB Tristimulus
+## Color Zone sRGB Tristimulus
 
-### Value (IEC 61966- 2 - 1)
+## Value (IEC 61966- 2 - 1)
 
-### sRGB Value
+## sRGB Value
 
-### (IEC 61966- 2 - 1)
+## (IEC 61966- 2 - 1)
 
-### CMYK Value
+## CMYK Value
 
-### {C,M,Y,K}
+## {C,M,Y,K}
 
-### White 15F {255, 255, 255} {255, 255, 255} {0, 0, 0, 0}
+## White 15F {255, 255, 255} {255, 255, 255} {0, 0, 0, 0}
 
-### Green 15F {153, 255, 153} {203, 255, 203} {40, 0, 40, 0}
+## Green 15F {153, 255, 153} {203, 255, 203} {40, 0, 40, 0}
 
-### Blue 15 F {0, 255, 255} {0, 255, 255} {100, 0, 0, 0}
+## Blue 15 F {0, 255, 255} {0, 255, 255} {100, 0, 0, 0}
 
-### Red 12F {253, 27, 20} {254, 92, 79} {0, 90, 86, 0}
+## Red 12F {253, 27, 20} {254, 92, 79} {0, 90, 86, 0}
 
 The colors in Table 4-2 can be mapped to the Pantone^21 color cue; however, note that this will not
 produce an exact match. An agency or department may use the following Pantone mappings in cases
@@ -515,7 +515,7 @@ where Table 4-2 scales are not available.
 - Green—359C
 - Red—032C
 
-### 4.2 PIV Card Logical Characteristics
+## 4.2 PIV Card Logical Characteristics
 
 This section defines logical identity credentials and the requirements for use of these credentials.
 
@@ -563,7 +563,7 @@ The PIN falls into the first category, the PIV Card Application Administration K
 category, and the CHUID, biometric credentials, symmetric keys, and asymmetric keys into the third.
 The fingerprint templates for on-card comparison fall into the first and third categories.
 
-#### 4.2.1 Cardholder Unique Identifier (CHUID) ..........................................................
+### 4.2.1 Cardholder Unique Identifier (CHUID)
 
 The PIV Card shall include the CHUID as defined in [SP 800-73]. The CHUID includes the Federal
 Agency Smart Credential Number (FASC-N) and the Global Unique Identification Number (GUID),
@@ -594,7 +594,7 @@ content-signing. Additional descriptions for the PIV object identifiers are prov
 content signing certificate on a valid PIV Card (one that is neither expired nor revoked) shall not be
 expired.
 
-#### 4.2.2 Cryptographic Specifications ........................................................................
+### 4.2.2 Cryptographic Specifications
 
 The PIV Card shall implement the cryptographic operations and support functions as defined in
 [SP 800-78] and [SP 800-73].
@@ -743,7 +743,7 @@ related to digital signatures.
     the PIV Card Application Administration Key must only be accessible using the contact interface of
     the PIV Card.
 
-#### 4.2.3 PIV Biometric Data Specifications ................................................................
+### 4.2.3 PIV Biometric Data Specifications
 
 4.2.3.1 Biometric Data Representation
 
@@ -832,7 +832,7 @@ Other identifiers may be present in credentials on the PIV Card that identity th
 the card. Examples include the subject name and names that may appear in the subjectAltName
 extension in the PIV Authentication certificate.
 ```
-### 4.3 PIV Card Activation
+## 4.3 PIV Card Activation
 
 The PIV Card shall be activated^27 to perform privileged^28 operations such as using the PIV Authentication
 key, digital signature key, and key management key. The PIV Card shall be activated for privileged
@@ -844,7 +844,7 @@ Section 4.3.2.
 (^28) A read of a CHUID or use of the Card Authentication key is not considered a privileged operation.
 
 
-#### 4.3.1 Activation by Cardholder ..............................................................................
+### 4.3.1 Activation by Cardholder
 
 PIV Cards shall implement user-based cardholder activation to allow privileged operations using PIV
 credentials held by the card. At a minimum, the PIV Card shall implement PIN-based cardholder
@@ -859,7 +859,7 @@ consecutive failed activation attempts may vary by activation mechanism.
 The PIN should not be easily guessable or otherwise individually identifiable in nature (e.g., part of a
 Social Security Number, phone number). The required PIN length shall be a minimum of six digits.
 
-#### 4.3.2 Activation by Card Management System......................................................
+### 4.3.2 Activation by Card Management System
 
 PIV Cards may support card activation by the card management system to support card personalization
 and post-issuance card update. To activate the card for personalization or update, the card management
@@ -869,12 +869,12 @@ shall be set to be specific to each PIV Card. That is, each PIV Card shall conta
 Application Administration Key. PIV Card Application Administration Keys shall meet the algorithm
 and key size requirements stated in [SP 800-78].
 
-### 4.4 Card Reader Requirements
+## 4.4 Card Reader Requirements
 
 This section provides minimum requirements for the contact and contactless card readers. Also, this
 section provides requirements for PIN input devices. Further requirements are specified in [SP 800-96].
 
-#### 4.4.1 Contact Reader Requirements .....................................................................
+### 4.4.1 Contact Reader Requirements
 
 Contact card readers shall conform to the [ISO7816] standard for the card-to-reader interface. These
 readers shall conform to the Personal Computer/Smart Card (PC/SC) Specification [PCSC] for the reader-
@@ -883,7 +883,7 @@ shall conform to the requirements specified in [SP 800-96]. In systems where the
 connected to general-purpose desktop computing systems, the reader-to-host system interface is not
 specified in this Standard.
 
-#### 4.4.2 Contactless Reader Requirements...............................................................
+### 4.4.2 Contactless Reader Requirements
 
 Contactless card readers shall conform to [ISO14443] standard for the card-to-reader interface and data
 transmitted over the [ISO14443] link shall conform to [ISO7816]. In cases where these readers are
@@ -893,7 +893,7 @@ specified in [SP 800-96]. In systems where the readers are not connected to gene
 computing systems, the reader-to-host system interface is not specified in this Standard.
 
 
-#### 4.4.3 Reader Resilience and Flexibility
+### 4.4.3 Reader Resilience and Flexibility
 
 The international standard ISO/IEC 24727 [ISO24727] enables a high degree of interoperability between
 electronic credentials and relying subsystems by means of an adaptation layer. To make interoperability
