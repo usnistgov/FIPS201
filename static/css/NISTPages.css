@@ -167,7 +167,11 @@ table.authors td{
   border:hidden;
 }
 
-
+.footnotes {
+  background: #f8f8f8;
+  border-top: 2px solid #e7e7e7;
+  margin-top: 3em;
+}
 
 @media screen and (max-width: 767px) {
   .nist-header {
