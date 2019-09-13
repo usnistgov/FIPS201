@@ -28,7 +28,7 @@ Policy for the U.S. Federal PKI Common Policy Framework [COMMON]. The requiremen
 certificate policy cover identity proofing and the management of CAs and registration authorities. CAs
 and registration authorities may be operated by departments and agencies, or may be outsourced to PKI
 service providers. For a list of PKI service providers that have been approved to operate under
-[COMMON], see [http://www.idmanagement.gov.](http://www.idmanagement.gov.)
+[COMMON], see [http://www.idmanagement.gov.](http://www.idmanagement.gov)
 
 ### 5.2.1 X.509 Certificate Contents
 
@@ -44,11 +44,11 @@ relationship is described below:
 - Certificates containing the public key associated with a PIV Authentication private key shall conform
     to Worksheet 9: PIV Authentication Certificate Profile in [PROF].
 - Certificates containing the public key associated with a key management private key shall conform to
-    Worksheet 6: Key Management Certificate Profile in [PROF].^30
+    Worksheet 6: Key Management Certificate Profile in [PROF].[^keypolicy]
 - Requirements for algorithms and key sizes for each type of PIV asymmetric key are given in
     [SP 800-78].
 
-(^30) Note that key management certificates may assert the id-fpki-common-policy, id-fpki-common-hardware, or id-fpki-common-
+[^keypolicy]: Note that key management certificates may assert the id-fpki-common-policy, id-fpki-common-hardware, or id-fpki-common-
 High policy of [COMMON] in the certificate policies extension. Applications / relying systems sensitive to the assurance level
 may choose not to accept certificates that only assert id-fpki-common-policy.
 

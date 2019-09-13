@@ -26,16 +26,11 @@ Application. Each assurance level sets a degree of confidence established in the
 the PIV Card. The entity performing the authentication establishes confidence in the identity of the PIV
 cardholder through the following:
 
-```
-1) the rigor of the identity proofing process conducted prior to issuing the PIV Card;
-```
-```
-2) the security of the PIV Card issuance and maintenance processes; and
-```
-```
-3) the strength of the technical mechanisms used to verify that the cardholder is the owner of the
+1. the rigor of the identity proofing process conducted prior to issuing the PIV Card;
+2. the security of the PIV Card issuance and maintenance processes; and
+3. the strength of the technical mechanisms used to verify that the cardholder is the owner of the
 PIV Card.
-```
+
 Section 2 of this Standard defines requirements for the identity proofing, registration, issuance, and
 maintenance processes for PIV Cards and establishes a common level of assurance in these processes.
 The PIV identity proofing, registration, issuance, and maintenance processes meet or exceed the
@@ -65,18 +60,15 @@ Section 2 of OMB’s E-Authentication Guidance for Federal Agencies, M- 04 -04 [
 Specifically, Table 6-1 shows the notional relationship between the PIV assurance levels and the M- 04 -04
 E-Authentication assurance levels.
 
-# Table 6-1. Relationship Between PIV and E-Authentication Assurance Levels
+Table 6-1. Relationship Between PIV and E-Authentication Assurance Levels
 
-```
-PIV
-Assurance Levels Comparable OMB E-Authentication Levels^
-Level
-Number Description^
-LITTLE or NO confidence Level 1 Little or no confidence in the asserted identity’s validity
-SOME confidence Level 2 Some confidence in the asserted identity’s validity
-HIGH confidence Level 3 High confidence in the asserted identity’s validity
-VERY HIGH confidence Level 4 Very high confidence in the asserted identity’s validity
-```
+|PIV Assurance Levels|Comparable OMB E-Authentication Levels| Description|
+|---|---|---|
+|LITTLE or NO confidence|Level 1|Little or no confidence in the asserted identity’s validity|
+|SOME confidence|Level 2|Some confidence in the asserted identity’s validity|
+|HIGH confidence|Level 3|High confidence in the asserted identity’s validity|
+|VERY HIGH confidence|Level 4|Very high confidence in the asserted identity’s validity|
+
 [OMB0404] addresses “four levels of identity assurance for electronic transactions requiring
 authentication” and prescribes a methodology for determining the level of identity assurance required
 based on the risks and potential impacts of errors in identity authentication. In the context of the PIV
@@ -100,14 +92,9 @@ The PIV Card Application hosts the signed fingerprint templates and, optionally,
 Either biometric can be read from the card following cardholder-to-card (CTC) authentication using a PIN
 supplied by the cardholder. These PIV biometrics are designed to support a cardholder-to-external
 system (CTE) authentication mechanism through a match-off-card scheme. The following subsections
-define two authentication schemes that make use of the PIV biometrics.^31
+define two authentication schemes that make use of the PIV biometrics.[^bioreaders]
 
 Some characteristics of the PIV Biometrics authentication mechanisms (described below) are as follows:
-
-(^31) As noted in Section 4.2.3.1, neither the fingerprint templates nor the iris images are guaranteed to be present on a PIV Card,
-since it may not be possible to collect fingerprints from some cardholders and iris images collection is optional. When biometric
-authentication cannot be performed, PKI-AUTH is the recommended alternate authentication mechanism.
-
 
 - Strong resistance to use of unaltered card by non-owner since PIN and cardholder biometric are
     required.
@@ -118,11 +105,16 @@ authentication cannot be performed, PKI-AUTH is the recommended alternate authen
 - Applicable with contact card readers, and contactless card readers that support the virtual contact
     interface.
 
-6.2.1.1 Unattended Authentication Using PIV Biometric (BIO)
+[^bioreaders]: As noted in Section 4.2.3.1, neither the fingerprint templates nor the iris images are guaranteed to be present on a PIV Card,
+since it may not be possible to collect fingerprints from some cardholders and iris images collection is optional. When biometric
+authentication cannot be performed, PKI-AUTH is the recommended alternate authentication mechanism.
+
+
+#### 6.2.1.1 Unattended Authentication Using PIV Biometric (BIO)
 
 The following steps shall be performed for unattended authentication of the PIV biometric:
 
-- The CHUID or another data element^32 is read from the card and is checked to ensure the card has not
+- The CHUID or another data element[^expired] is read from the card and is checked to ensure the card has not
     expired and that it is from a trusted source.
 - The cardholder is prompted to submit a PIN, activating the PIV Card.
 - The PIV biometric is read from the card.
@@ -135,11 +127,13 @@ The following steps shall be performed for unattended authentication of the PIV 
     be the owner of the card.
 - The FASC-N (or UUID) in the CHUID or other data element is compared with the FASC-N (or
     UUID) in the Signed Attributes field of the external digital signature on the biometric.
-
-+ A unique identifier within the CHUID or other data element is used as input to the authorization
+- A unique identifier within the CHUID or other data element is used as input to the authorization
 check to determine whether the cardholder should be granted access.
 
-6.2.1.2 Attended Authentication of PIV Biometric (BIO-A)
+[^expired]: The PIV Authentication certificate or Card Authentication certificate may be leveraged instead of the CHUID to verify that the
+card is not expired.
+
+#### 6.2.1.2 Attended Authentication of PIV Biometric (BIO-A)
 
 In this higher assurance variant, an attendant (e.g., security guard) supervises the use of the PIV Card and
 the submission of the biometric by the cardholder. Otherwise, the steps for this authentication mechanism
@@ -150,11 +144,6 @@ are the same as for the unattended biometric (BIO) authentication mechanism.
 The PIV Card Application may host the optional on-card biometric comparison algorithm. In this case,
 on-card biometric comparison data is stored on the card, which cannot be read, but could be used for
 identity verification. A live-scan biometric is supplied to the card to perform cardholder-to-card (CTC)
-
-(^32) The PIV Authentication certificate or Card Authentication certificate may be leveraged instead of the CHUID to verify that the
-card is not expired.
-
-
 authentication and the card responds with an indication of the success of the on-card biometric
 comparison. The response includes information that allows the reader to authenticate the card. The
 cardholder PIN is not required for this operation. The PIV Card shall include a mechanism to block this
@@ -175,13 +164,13 @@ The PIV Card contains two mandatory asymmetric authentication private keys and c
 certificates to support cardholder-to-external system (CTE) authentication, as described in Section 4. The
 following subsections shall be used to perform authentication using the authentication keys.
 
-6.2.3.1 Authentication with the PIV Authentication Certificate Credential (PKI-AUTH)
+#### 6.2.3.1 Authentication with the PIV Authentication Certificate Credential (PKI-AUTH)
 
 The following steps shall be performed for PKI-AUTH:
 
 - The PIV Authentication certificate is read from the PIV Card Application.
 - The relying system validates the PIV Authentication certificate from the PIV Card Application using
-    standards-compliant PKI path validation^33 to ensure that it is neither expired nor revoked and that it is
+    standards-compliant PKI path validation[^pivpath] to ensure that it is neither expired nor revoked and that it is
     from a trusted source.
 - The cardholder is prompted to submit a PIN, which is used to activate the card. (If implemented,
     other card activation mechanisms, as specified in [SP 800-73], may be used to activate the card.)
@@ -197,23 +186,21 @@ Some of the characteristics of the PKI-based authentication mechanism are as fol
 
 - Requires the use of certificate status checking infrastructure.
 - Highly resistant to credential forgery.
-
-(^33) Path validation should be configured to specify which policy OIDs are trusted. The policy OID for the PIV Authentication
-certificate is id-fpki-common-authentication.
-
-
 - Strong resistance to use of unaltered card by non-owner since card activation is required.
 - Provides protection against use of a revoked card.
 - Applicable with contact card readers, and contactless card readers that support the virtual contact
     interface.
 
-6.2.3.2 Authentication with the Card Authentication Certificate Credential (PKI-CAK)
+[^pivpath]: Path validation should be configured to specify which policy OIDs are trusted. The policy OID for the PIV Authentication
+certificate is id-fpki-common-authentication.
+
+#### 6.2.3.2 Authentication with the Card Authentication Certificate Credential (PKI-CAK)
 
 The following steps shall be performed for PKI-CAK:
 
 - The Card Authentication certificate is read from the PIV Card Application.
 - The relying system validates the Card Authentication certificate from the PIV Card Application using
-    standards-compliant PKI path validation^34 to ensure that it is neither expired nor revoked and that it is
+    standards-compliant PKI path validation[^cacpath] to ensure that it is neither expired nor revoked and that it is
     from a trusted source.
 - The relying system issues a challenge string to the card and requests an asymmetric operation in
     response.
@@ -230,6 +217,9 @@ Some of the characteristics of the PKI-CAK authentication mechanism are as follo
 - Low resistance to use of unaltered card by non-owner of card.
 - Applicable with contact and contactless readers.
 
+[^cacpath]: Path validation should be configured to specify which policy OIDs are trusted. The policy OID for the Card Authentication
+certificate is id-fpki-common-cardAuth.
+
 ### 6.2.4 Authentication with the Symmetric Card Authentication Key (SYM-CAK)
 
 The PIV Card Application may host the optional symmetric Card Authentication key. In this case, the
@@ -241,11 +231,6 @@ steps:
 - The digital signature on the data element is checked to ensure that it was signed by a trusted source
     and is unaltered.
 - The reader issues a challenge string to the card and requests a response.
-
-(^34) Path validation should be configured to specify which policy OIDs are trusted. The policy OID for the Card Authentication
-certificate is id-fpki-common-cardAuth.
-
-
 - The card responds to the previously issued challenge by encrypting the challenge using the symmetric
     Card Authentication key.
 - The response is validated as the expected response to the issued challenge.
@@ -331,8 +316,6 @@ Some characteristics of the visual authentication mechanism are as follows:
 
 - Human inspection of card, which is not amenable for rapid or high volume access control and is
     susceptible to human error.
-
-
 - Some resistance to use of unaltered card by non-owner of card.
 - Low resistance to tampering and forgery.
 - Does not provide protection against use of a revoked card.
@@ -364,21 +347,18 @@ checkpoints, or may have electronic access control points. The PIV-supported aut
 for physical access control systems are summarized in Table 6-2. An authentication mechanism that is
 suitable for a higher assurance level can also be applied to meet the requirements for a lower assurance
 level. Moreover, the authentication mechanisms in Table 6-2 can be combined to achieve higher
-assurance levels.^35
+assurance levels.[^combinations]
 
-# Table 6-2. Authentication for Physical Access
+[^combinations]: Combinations of authentication mechanisms are specified in [SP 800-116].
 
-(^35) Combinations of authentication mechanisms are specified in [SP 800-116].
-PIV Assurance Level
-Required by
-Application/Resource
-Applicable PIV
-Authentication Mechanism
-LITTLE or NO confidence VIS, CHUID
-SOME confidence PKI-CAK, SYM-CAK
-HIGH confidence BIO
-VERY HIGH confidence BIO-A, OCC-AUTH, PKI-AUTH
+Table 6-2. Authentication for Physical Access
 
+|PIV Assurance Level Required by Application/Resource|Applicable PIV Authentication Mechanism|
+|---|---|
+|LITTLE or NO confidence|VIS, CHUID|
+|SOME confidence|PKI-CAK, SYM-CAK|
+|HIGH confidence|BIO|
+|VERY HIGH confidence|BIO-A, OCC-AUTH, PKI-AUTH|
 
 ### 6.3.2 Logical Access
 
@@ -391,32 +371,12 @@ Table 6-3 describes the authentication mechanisms defined for this Standard to s
 control. An authentication mechanism that is suitable for a higher assurance level can also be applied to
 meet the requirements for a lower assurance level.
 
-# Table 6-3. Authentication for Logical Access
+Table 6-3. Authentication for Logical Access
 
-```
-PIV Assurance Level
-Required by
-Application/Resource
-```
-```
-Applicable PIV Authentication Mechanism
-```
-```
-Local Workstation
-Environment
-```
-```
-Remote/Network
-System Environment
-```
-```
-LITTLE or NO confidence CHUID
-```
-```
-SOME confidence PKI-CAK PKI-CAK
-```
-```
-HIGH confidence BIO
-VERY HIGH confidence BIO-A, OCC-AUTH, PKI-AUTH PKI-AUTH^
-```
+|PIV Assurance Level Required by Application/Resource|Applicable PIV Authentication Mechanism: Local Workstation Environment|Applicable PIV Authentication Mechanism: Remote/Network System Environment|
+|---|---|---|
+|LITTLE or NO confidence|CHUID||
+|SOME confidence|PKI-CAK|PKI-CAK|
+|HIGH confidence|BIO||
+|VERY HIGH confidence|BIO-A, OCC-AUTH, PKI-AUTH|PKI-AUTH|
 

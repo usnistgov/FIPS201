@@ -51,14 +51,10 @@ Information Processing Standards (FIPS) publication to define such a common iden
 accordance with HSPD-12, this Standard defines the technical requirements for the identity credential
 that—
 
-(a) is issued based on sound criteria for verifying an individual employee’s identity;
-
-(b) is strongly resistant to identity fraud, tampering, counterfeiting, and terrorist exploitation;
-
-(c) can be rapidly authenticated electronically; and
-
-
-(d) is issued only by providers whose reliability has been established by an official accreditation process.
+- (a) is issued based on sound criteria for verifying an individual employee’s identity;
+- (b) is strongly resistant to identity fraud, tampering, counterfeiting, and terrorist exploitation;
+- (c) can be rapidly authenticated electronically; and
+- (d) is issued only by providers whose reliability has been established by an official accreditation process.
 
 This Standard defines authentication mechanisms offering varying degrees of security for both logical and
 physical access applications. Federal departments and agencies will determine the level of security and
@@ -114,7 +110,7 @@ since the feature will likely be removed in the next revision of the Standard. F
 
 authentication mechanism (Section 6.2.5) has been deprecated, since it provides LITTLE or NO assurance
 in the identity of the cardholder, and so relying systems should phase out use of this authentication
-mechanism.^2
+mechanism. [^CHUID]
 
 In the case of deprecated features on PIV Cards, such as the authentication key map, existing PIV Cards
 with the deprecated features remain valid, however, new PIV Cards should not include the deprecated
@@ -160,57 +156,35 @@ citation these documents are included by reference in this Standard. Should norm
 Standard conflict with normative text in a referenced document the normative text in this Standard
 prevails for this Standard.
 
-(^2) The CHUID data element has not been deprecated and continues to be mandatory.
+[^CHUID]: The CHUID data element has not been deprecated and continues to be mandatory.
 
 
 All sections in this document are normative (i.e., mandatory for compliance) unless specified as
 informative (i.e., non-mandatory). Following is the structure of this document:
 
-```
-+ Section 1, Introduction, provides background information for understanding the scope of this
++ [Section 1, Introduction](introduction.md), provides background information for understanding the scope of this
 Standard. This section is informative.
-```
-```
-+ Section 2, Common Identification, Security, and Privacy Requirements, outlines the requirements
++ [Section 2, Common Identification, Security, and Privacy Requirements](requirements.md), outlines the requirements
 for identity proofing, registration, and issuance, by establishing the control and security
 objectives for compliance with [HSPD-12]. This section is normative.
-```
-```
-+ Section 3, PIV System Overview, serves to provide a PIV system overview. This section is
++ [Section 3, PIV System Overview](system.md), serves to provide a PIV system overview. This section is
 informative.
-```
-```
-+ Section 4, PIV Front-End Subsystem, provides the requirements for the components of the PIV
++ [Section 4, PIV Front-End Subsystem](frontend.md), provides the requirements for the components of the PIV
 front-end subsystem. Specifically, this section defines requirements for the PIV Card, logical
 data elements, biometrics, cryptography, and card readers. This section is normative.
-```
-```
-+ Section 5, PIV Key Management Requirements, defines the processes and components required
++ [Section 5, PIV Key Management Requirements](keymanagement.md), defines the processes and components required
 for managing a PIV Card’s lifecycle. It also provides the requirements and specifications related
 to this subsystem. This section is normative.
-```
-```
-+ Section 6, PIV Cardholder Authentication, defines a suite of authentication mechanisms that are
++ [Section 6, PIV Cardholder Authentication](authentication.md), defines a suite of authentication mechanisms that are
 supported by the PIV Card, and their applicability in meeting the requirements of graduated
 levels of identity assurance. This section is normative.
-```
-```
-+ Appendix A, PIV Validation, Certification, and Accreditation, provides additional information
++ [Appendix A, PIV Validation, Certification, and Accreditation](../_Appendix/accreditation.md), provides additional information
 regarding compliance with this document. This appendix is normative.
-```
-```
-+ Appendix B, PIV Object Identifiers and Certificate Extension, provides additional details for the
++ [Appendix B, PIV Object Identifiers and Certificate Extension](../_Appendix/oid.md), provides additional details for the
 PIV objects identified in Section 4. This appendix is normative.
-```
-```
-+ Appendix C, Glossary of Terms, Acronyms, and Notations, describes the vocabulary and textual
++ [Appendix C, Glossary of Terms, Acronyms, and Notations](../_Appendix/glossary.md), describes the vocabulary and textual
 representations used in the document. This appendix is informative.
-```
-```
-+ Appendix D, References, lists the specifications and standards referred to in this document. This
++ [Appendix D, References](../_Appendix/references.md), lists the specifications and standards referred to in this document. This
 appendix is informative.
-```
-```
-+ Appendix E, Revision History, lists changes made to this Standard from its inception. This
++ [Appendix E, Revision History](../_Appendix/revisions.md), lists changes made to this Standard from its inception. This
 appendix is informative.
-```

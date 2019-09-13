@@ -50,10 +50,7 @@ security feature. Examples of these security features include the following:
 - holographic images; and
 - watermarks.
 
-Incorporation of security features shall—
-
-- be in accordance with durability requirements;
-
+Incorporation of security features shallbe in accordance with durability requirements;
 
 - be free of defects, such as fading and discoloration;
 - not obscure printed information; and
@@ -89,38 +86,32 @@ The following list describes the physical requirements for the PIV Card.
     may be subjected to the [ANSI322] tests for ultraviolet and daylight fading resistance and subjected
     to the same [ISO10373] dynamic bending test.
 - There are methods by which proper card orientation can be indicated. Section 4.1.4.3, for example,
-    defines Zones 21F and 22F, where card orientation features may be applied.^19 Note: If an agency
+    defines Zones 21F and 22F, where card orientation features may be applied.[^orientation] Note: If an agency
     determines that tactilely discernible markers for PIV Cards imposes an undue burden, the agency
     must implement policies and procedures to accommodate employees and contractors with disabilities
     in accordance with Sections 501 and 504 of the Rehabilitation Act.
 - The card shall be 27- to 33-mil thick (before lamination) in accordance with [ISO7810].
 - The PIV Card shall not be embossed.
 - Decals shall not be adhered to the card.
-
-(^19) For some individuals, the contact surface for the ICC may be sufficient for determining the orientation of the card.
-
-
 - Departments and agencies may choose to punch an opening in the card body to enable the card to be
     oriented by touch or to be worn on a lanyard. Departments and agencies should ensure such
     alterations are closely coordinated with the card vendor and/or manufacturer to ensure the card
     material integrity and printing process is not adversely impacted. Departments and agencies are
-    strongly encouraged to ensure such alterations do not—
+    strongly encouraged to ensure such alterations do not 
+    compromise card body durability requirements and characteristics;
+    invalidate card manufacturer warranties or other product claims;
+    alter or interfere with printed information, including the photo; or
+    damage or interfere with machine-readable technology, such as the embedded antenna.
 
-## – compromise card body durability requirements and characteristics;
-
-## – invalidate card manufacturer warranties or other product claims;
-
-## – alter or interfere with printed information, including the photo; or
-
-## – damage or interfere with machine-readable technology, such as the embedded antenna.
-
-- The c ard material shall withstand the effects of temperatures required by the application of a polyester
+- The card material shall withstand the effects of temperatures required by the application of a polyester
     laminate on one or both sides of the card by commercial off-the-shelf (COTS) equipment. The
     thickness added due to a laminate layer shall not interfere with the smart card reader operation. The
     card material shall allow production of a flat card in accordance with [ISO7810] after lamination of
     one or both sides of the card.
 
 The PIV Card may be subjected to additional testing.
+
+[^orientation]: For some individuals, the contact surface for the ICC may be sufficient for determining the orientation of the card.
 
 ### 4.1.4 Visual Card Topography
 
@@ -152,13 +143,13 @@ manufacturers to ensure current printing procedures and methods are applied as w
 integration of features that may improve tamper resistance and anti-counterfeiting of the PIV Card.
 
 
-4.1.4.1 Mandatory Items on the Front of the PIV Card
+#### 4.1.4.1 Mandatory Items on the Front of the PIV Card
 
 Zone 1F—Photograph. The photograph shall be placed in the upper left corner, as depicted in Figure 4-1,
 and be a full frontal pose from top of the head to shoulder. A minimum of 300 dots per inch (dpi)
 resolution shall be used. The background should follow recommendations set forth in [SP 800-76].
 
-Zone 2F—Name. The full name^20 shall be printed directly under the photograph in capital letters. The
+Zone 2F—Name. The full name[^pseudonym] shall be printed directly under the photograph in capital letters. The
 full name shall be composed of a Primary Identifier (i.e., surnames or family names) and a Secondary
 Identifier (i.e., pre-names or given names). The printed name shall match the name on the identity source
 documents provided during identity proofing and registration to the extent possible. The full name shall
@@ -179,79 +170,10 @@ Figure 4-2. Other uses of special symbols (e.g., “O’BRIEN”) are at the dis
 ```
 Table 4-1. Name Examples
 ```
-Name: John Doe
 
-Characteristics: simple full name of individual
-who does not have a middle name, two lines
-sufficient with 10 points.
+> Note: Table To Be Re-created
 
-Name: Anna Maria Eriksson
-
-Characteristics: simple full name, two lines
-sufficient with 10 points.
-
-Name: Anna Maria Eriksson
-
-Characteristics: simple full name with abbreviated
-middle name, two lines sufficient with 10 points.
-
-Name: Anna Maria Eriksson
-
-Characteristics: simple full name, one line
-sufficient for full name with 10 points.
-
-Name: Susie Margaret Smith-Jones
-
-Characteristics: longer full name in two lines,
-sufficient space in 10 points.
-
-(^20) Alternatively, an authorized pseudonym as provided under the law as discussed in Section 2.8.1.
-DOE,
-JOHN
-G
-ERIKSSON,
-ANNA MARIA
-G
-ERIKSSON,
-ANNA M. G
-ERIKSSON, ANNA MARIA G
-SMITH-JONES,
-SUSIE MARGARET
-G
-
-
-Name: Susie Margaret Smith-Jones
-
-Characteristics: longer full name wrapped, two
-lines sufficient with 10 points.
-
-Name: Chayapa Dejthamrong Krusuang
-Nilavadhanananda
-
-Characteristics: longer full name wrapped, two
-lines NOT sufficient with 10 points. Reduce the
-font size to 8 points.
-
-Name: Vaasa Silvaan Beenelong Wooloomooloo
-
-## Warrandyte Warwarnambool
-
-Characteristics: longer full name, two lines NOT
-sufficient with 8 point, 7 point allows sufficient
-space for three lines in Zone 2F.
-
-Name: Vaasa Silvaan Beenelong Wooloomooloo
-Warrandyte Warwarnambool
-
-Characteristics: same as previous but full name is
-wrapped.
-
-Name: Dingo Pontooroomooloo Vaasa Silvaan
-Beenelong Wooloomooloo Warrandyte
-Warwarnambool
-
-Characteristics: truncated full name, three lines
-with 7 point NOT sufficient.
+[^pseudonym]: Alternatively, an authorized pseudonym as provided under the law as discussed in Section 2.8.1.
 
 Zone 8F—Employee Affiliation. An employee affiliation shall be printed on the card as depicted in Figure
 4- 1. Some examples of employee affiliation are “Employee,” “Contractor,” “Active Duty,” and
@@ -271,43 +193,6 @@ and 4-4. The following color scheme shall be used:
 
 - Blue—Foreign National
 - White—Government Employee
-
-```
-SMITH-JONES, SUSIE MA>
-RGARET
-```
-```
-G
-```
-```
-NILAVADHANANANDA, CHAYA>
-PA DEJTHAMRONG KRUSUANGG
-```
-```
-BEENELONG WOOLOOMOOLOO
-WARRANDYTE WARWARNAMBOOL,
-VAASA SI L VAAN
-```
-```
-G
-```
-```
-BEENELONG WOOLOOMOOLOO W>
-ARRANDYTE WARWARNAMBOOL, V>
-AASA SI L VAAN
-```
-```
-G
-```
-```
-BEENELONG WOOLOOMOOLOO W>
-ARRANDYTE WARWARNAMBOOL, D>
-INGO PONTOOROOMOOLOO VAASA
-```
-```
-G
-```
-
 - Green—Contractor.
 
 Foreign National color-coding has precedence over Government Employee and Contractor color-coding.
@@ -323,7 +208,7 @@ Zone 19F—Card Expiration Date. The card expiration date shall be printed in a 
 the upper right-hand corner as depicted in Figure 4-1. The Zone 19F expiration date shall be printed in
 Arial 12pt Bold.
 
-4.1.4.2 Mandatory Items on the Back of the PIV Card
+#### 4.1.4.2 Mandatory Items on the Back of the PIV Card
 
 Zone 1B—Agency Card Serial Number. This item shall be printed as depicted in Figure 4-6 and contain
 the unique serial number from the issuing department or agency. The format shall be at the discretion of
@@ -333,7 +218,7 @@ Zone 2B—Issuer Identification Number. This item shall be printed as depicted i
 of six characters for the department code, four characters for the agency code, and a five-digit number
 that uniquely identifies the issuing facility within the department or agency.
 
-4.1.4.3 Optional Items on the Front of the PIV Card
+#### 4.1.4.3 Optional Items on the Front of the PIV Card
 
 This section contains a description of the optional information and machine-readable technologies that
 may be used and their respective placement. The storage capacity of all optional technologies is as
@@ -408,7 +293,7 @@ alterations are closely coordinated with the card vendor and/or manufacturer to 
 integrity and printing process is not adversely impacted.
 
 
-4.1.4.4 Optional Items on the Back of the PIV Card
+#### 4.1.4.4 Optional Items on the Back of the PIV Card
 
 Zone 3B—Magnetic Stripe. If used, the magnetic stripe shall be high coercivity and placed in accordance
 with [ISO7811], as illustrated in Figure 4-7.
@@ -450,29 +335,37 @@ in Figure 4-8. This is necessary to display information required by the Geneva A
 legislatively mandated medical entitlements.
 
 
-# Figure 4-1. Card Front—Printable Areas and Required Data
+Figure 4-1. Card Front—Printable Areas and Required Data
 
+> Figure to be imported
 
-# Figure 4-2. Card Front—Optional Data Placement—Example 1
+Figure 4-2. Card Front—Optional Data Placement—Example 1
 
+> Figure to be imported
 
-# Figure 4-3. Card Front—Optional Data Placement—Example 2
+Figure 4-3. Card Front—Optional Data Placement—Example 2
 
+> Figure to be imported
 
-# Figure 4-4. Card Front—Optional Data Placement—Example 3
+Figure 4-4. Card Front—Optional Data Placement—Example 3
 
+> Figure to be imported
 
-# Figure 4-5. Card Front—Optional Data Placement—Example 4
+Figure 4-5. Card Front—Optional Data Placement—Example 4
 
+> Figure to be imported
 
-# Figure 4-6. Card Back—Printable Areas and Required Data
+Figure 4-6. Card Back—Printable Areas and Required Data
 
+> Figure to be imported
 
-# Figure 4-7. Card Back—Optional Data Placement—Example 1
+Figure 4-7. Card Back—Optional Data Placement—Example 1
 
+> Figure to be imported
 
-# Figure 4-8. Card Back—Optional Data Placement—Example 2
+Figure 4-8. Card Back—Optional Data Placement—Example 2
 
+> Figure to be imported
 
 ### 4.1.5 Color Representation
 
@@ -484,29 +377,16 @@ printed regions, may modify the perceived color. In the case of colored regions,
 shall not prevent the recognition of the principal color by a person with normal vision (corrected or
 uncorrected) at a working distance of 50 cm to 200 cm.
 
-# Table 4-2. Color Representation
+Table 4-2. Color Representation
 
-## Color Zone sRGB Tristimulus
+|Color|Zone|sRGB Tristimulus Value (IEC 61966- 2 - 1)|sRGB Value (IEC 61966- 2 - 1)|CMYK Value {C,M,Y,K}|
+|---|---|---|---|---|
+|White|15F|{255, 255, 255}|{255, 255, 255}|{0, 0, 0, 0}|
+|Green|15F|{153, 255, 153}|{203, 255, 203}|{40, 0, 40, 0}|
+|Blue|15F|{0, 255, 255}|{0, 255, 255}|{100, 0, 0, 0}|
+|Red|12F|{253, 27, 20}|{254, 92, 79}|{0, 90, 86, 0}|
 
-## Value (IEC 61966- 2 - 1)
-
-## sRGB Value
-
-## (IEC 61966- 2 - 1)
-
-## CMYK Value
-
-## {C,M,Y,K}
-
-## White 15F {255, 255, 255} {255, 255, 255} {0, 0, 0, 0}
-
-## Green 15F {153, 255, 153} {203, 255, 203} {40, 0, 40, 0}
-
-## Blue 15 F {0, 255, 255} {0, 255, 255} {100, 0, 0, 0}
-
-## Red 12F {253, 27, 20} {254, 92, 79} {0, 90, 86, 0}
-
-The colors in Table 4-2 can be mapped to the Pantone^21 color cue; however, note that this will not
+The colors in Table 4-2 can be mapped to the Pantone[^pantone] color cue; however, note that this will not
 produce an exact match. An agency or department may use the following Pantone mappings in cases
 where Table 4-2 scales are not available.
 
@@ -514,6 +394,8 @@ where Table 4-2 scales are not available.
 - White—White
 - Green—359C
 - Red—032C
+
+[^pantone]: Pantone is a registered name protected by law.
 
 ## 4.2 PIV Card Logical Characteristics
 
@@ -529,10 +411,6 @@ mechanisms interoperable across agencies:
 - PIV authentication data (one asymmetric private key and corresponding certificate);
 - two fingerprint templates;
 - an electronic facial image; and
-
-(^21) Pantone is a registered name protected by law.
-
-
 - card authentication data (one asymmetric private key and corresponding certificate).
 
 This Standard also defines two data elements for the PIV data model that are mandatory if the cardholder
@@ -580,12 +458,11 @@ asymmetric signature data element of the CHUID shall be encoded as a Cryptograph
 (CMS) external digital signature, as specified in [SP 800-73]. Algorithm and key size requirements for
 the asymmetric signature and digest algorithm are detailed in [SP 800-78].
 
-
 For signatures created before October 15, 2015, the public key required to verify the digital signature
 shall be provided in the certificates field of the CMS external digital signature in a content signing
 certificate, which shall be an X.509 digital signature certificate issued under the id-fpki-common-piv-
 contentSigning, id-fpki-common-devices, id-fpki-common-devicesHardware, id-fpki-common-hardware,
-or id-fpki-common-High policy of [COMMON].^22 For signatures created on or after October 15, 2015,
+or id-fpki-common-High policy of [COMMON].[^legacypki] For signatures created on or after October 15, 2015,
 the public key required to verify the digital signature shall be provided in the certificates field of the CMS
 external digital signature in a content signing certificate, which shall be an X.509 digital signature
 certificate issued under the id-fpki-common-piv-contentSigning policy of [COMMON]. The content
@@ -593,6 +470,9 @@ signing certificate shall also include an extended key usage (extKeyUsage) exten
 content-signing. Additional descriptions for the PIV object identifiers are provided in Appendix B. The
 content signing certificate on a valid PIV Card (one that is neither expired nor revoked) shall not be
 expired.
+
+[^legacypki]: For legacy PKIs, as defined in Section 5.4, the certificates may be issued under a department or agency-specific policy that has
+been cross-certified with the Federal Bridge CA (FBCA) at the Medium Hardware or High Assurance Level.
 
 ### 4.2.2 Cryptographic Specifications
 
@@ -627,10 +507,6 @@ physical access, the PIV Card must contain storage for the AES key and support A
 the contactless interface. Algorithms and key sizes for each PIV key type are specified in [SP 800-78].
 
 The PIV Card has both mandatory keys and optional keys:
-
-(^22) For legacy PKIs, as defined in Section 5.4, the certificates may be issued under a department or agency-specific policy that has
-been cross-certified with the Federal Bridge CA (FBCA) at the Medium Hardware or High Assurance Level.
-
 
 - The PIV Authentication key is a mandatory asymmetric private key that supports card and cardholder
     authentication for an interoperable environment.
@@ -668,7 +544,6 @@ management requirements are also specified.
     PIV Card. Private key operations may be performed using an activated PIV Card without explicit
     user action (e.g., the PIN need not be supplied for each operation).
 
-```
 The PIV Card shall store a corresponding X.509 certificate to support validation of the public key.
 The X.509 certificate shall include the FASC-N in the subject alternative name extension using the
 pivFASC-N attribute to support physical access procedures. The X.509 certificate shall also include
@@ -677,12 +552,9 @@ The UUID shall be encoded as a uniform resource identifier (URI), as specified i
 [RFC4122]. The expiration date of the certificate must be no later than the expiration date of the PIV
 Card. The PIV Authentication certificate shall include a PIV NACI indicator (background
 investigation indicator) extension (see Appendix B.2); this non-critical extension indicates the status
-```
-
-```
-of the subject’s background investigation at the time of card issuance.^23 Section 5 of this document
+of the subject’s background investigation at the time of card issuance.[^backgroundstatus] Section 5 of this document
 specifies the certificate format and the key management infrastructure for the PIV Authentication key.
-```
+
 + Asymmetric Card Authentication Key. The asymmetric Card Authentication key may be generated
 on the PIV Card or imported to the card. The PIV Card shall not permit exportation of the Card
 Authentication key. Cryptographic operations that use the Card Authentication key shall be available
@@ -690,7 +562,6 @@ through the contact and the contactless interfaces of the PIV Card. Private key 
 performed using this key without card activation (e.g., the PIN need not be supplied for operations
 with this key).
 
-```
 The PIV Card shall store a corresponding X.509 certificate to support validation of the public key.
 The X.509 certificate shall include the FASC-N in the subject alternative name extension using the
 pivFASC-N attribute to support physical access procedures. The X.509 certificate shall also include
@@ -699,7 +570,7 @@ The UUID shall be encoded as a URI, as specified in Section 3 of [RFC4122]. The 
 the certificate must be no later than the expiration date of the PIV Card. Section 5 of this document
 specifies the certificate format and the key management infrastructure for asymmetric PIV Card
 Authentication keys.
-```
+
 + Symmetric Card Authentication Key. The symmetric Card Authentication key may be imported
 onto the card by the issuer or be generated on the card. If present, the symmetric Card Authentication
 key shall be unique for each PIV Card and shall meet the algorithm and key size requirements stated
@@ -714,38 +585,37 @@ infrastructure requirements.
     using the digital signature key may only be performed using the contact and the virtual contact
     interfaces of the PIV Card. Private key operations may not be performed without explicit user action,
     as this Standard requires the cardholder to authenticate to the PIV Card each time it performs a
-    private key computation with the digital signature key.^24
+    private key computation with the digital signature key.[^cardholderauthentication]
 
-```
+
 The PIV Card shall store a corresponding X.509 certificate to support validation of the public key.
 The expiration date of the certificate must be no later than the expiration date of the PIV Card.
 Section 5 of this document specifies the certificate format and the key management infrastructure for
 PIV digital signature keys.
-```
+
 - Key Management Key. This key may be generated on the PIV Card or imported to the card. If
     present, the cryptographic operations that use the key management key must only be accessible using
     the contact and the virtual contact interfaces of the PIV Card. Private key operations may be
     performed using an activated PIV Card without explicit user action (e.g., the PIN need not be
     supplied for each operation).
 
-```
+
 The PIV Card shall store a corresponding X.509 certificate to support validation of the public key.
 Section 5 of this document specifies the certificate format and the key management infrastructure for
 key management keys.
-```
-(^23) Other methods to indicate background investigative status will be explored in a future revision of this Standard.
-(^24) [NISTIR7863], Cardholder Authentication for the PIV Digital Signature Key, addresses the appropriate use of PIN caching
-related to digital signatures.
-
 
 - PIV Card Application Administration Key. If present, the PIV Card Application Administration
     Key shall be imported onto the card by the issuer. If present, the cryptographic operations that use
     the PIV Card Application Administration Key must only be accessible using the contact interface of
     the PIV Card.
 
+[^backgroundstatus]: Other methods to indicate background investigative status will be explored in a future revision of this Standard.
+[^cardholderauthentication]: [NISTIR7863], Cardholder Authentication for the PIV Digital Signature Key, addresses the appropriate use of PIN caching
+related to digital signatures.
+
 ### 4.2.3 PIV Biometric Data Specifications
 
-4.2.3.1 Biometric Data Representation
+#### 4.2.3.1 Biometric Data Representation
 
 The following biometric data shall be stored on the PIV Card:
 
@@ -757,12 +627,15 @@ The following biometric data shall be stored on the PIV Card:
 The following biometric data may also be stored on the PIV Card:
 
 - One or two iris images.
-- Fingerprint templates for on-card comparison.^25
+- Fingerprint templates for on-card comparison.[^fingerprints]
 
 All biometric data shall be stored in the data elements referenced by [SP 800-73] and in conformance
 with the preparation and formatting specifications of [SP 800-76].
 
-4.2.3.2 Biometric Data Protection
+[^fingerprints]: The on-card and off-card fingerprint reference data are stored separately and, as conformant instances of different formal
+fingerprint standards, are syntactically different. This is described more fully in [SP 800-76].
+
+#### 4.2.3.2 Biometric Data Protection
 
 The integrity of all biometric data, except for fingerprint templates for on-card comparison, shall be
 protected using digital signatures as follows. The records shall be prepended with a Common Biometric
@@ -779,24 +652,20 @@ requirements for the digital signature and digest algorithm are detailed in [SP 
 For signatures created before October 15, 2015, the public key required to verify the digital signature
 shall be contained in a content signing certificate, which shall be issued under the id-fpki-common-piv-
 contentSigning, id-fpki-common-devices, id-fpki-common-devicesHardware, id-fpki-common-hardware,
-or id-fpki-common-High policy of [COMMON].^26 For signatures created on or after October 15, 2015,
+or id-fpki-common-High policy of [COMMON].[^crosscert] For signatures created on or after October 15, 2015,
 the public key required to verify the digital signature shall be contained in a content signing certificate,
 which shall be issued under the id-fpki-common-piv-contentSigning policy of [COMMON]. The content
 signing certificate shall also include an extended key usage (extKeyUsage) extension asserting id-PIV-
 content-signing. If the signature on the biometric was generated with a different key than the signature on
-
-(^25) The on-card and off-card fingerprint reference data are stored separately and, as conformant instances of different formal
-fingerprint standards, are syntactically different. This is described more fully in [SP 800-76].
-(^26) For legacy PKIs, as defined in Section 5.4, the certificates may be issued under a department or agency-specific policy that has
-been cross-certified with the Federal Bridge CA (FBCA) at the Medium Hardware or High Assurance Level.
-
-
 the CHUID, the certificates field of the CMS external digital signature shall include the content signing
 certificate required to verify the signature on the biometric. Otherwise, the certificates field shall be
 omitted. Additional descriptions for the PIV object identifiers are provided in Appendix B. The content
 signing certificate on a valid PIV Card (one that is neither expired nor revoked) shall not be expired.
 
-4.2.3.3 Biometric Data Access
+[^crosscert]: For legacy PKIs, as defined in Section 5.4, the certificates may be issued under a department or agency-specific policy that has
+been cross-certified with the Federal Bridge CA (FBCA) at the Medium Hardware or High Assurance Level.
+
+#### 4.2.3.3 Biometric Data Access
 
 The PIV biometric data, except for fingerprint templates for on-card comparison, that is stored on the card
 
@@ -809,7 +678,7 @@ PIV Card to support card activation (Section 4.3.1) and cardholder authenticatio
 fingerprint templates for on-card comparison shall not be exportable. If implemented, on-card biometric
 comparison shall be implemented and used in accordance with [SP 800-73] and [SP 800-76].
 
-4.2.4 PIV Unique Identifiers
+### 4.2.4 PIV Unique Identifiers
 
 A cardholder is authenticated through identification and authentication (I&A) using the PIV Card (and its
 identifier) in authentication mechanisms described in Section 6. The authenticated identity may then be
@@ -818,31 +687,26 @@ authorization are provided in this Standard in order to uniquely identify the ca
 identifiers that serve as identification (of the cardholder) for authentication and authorization purposes,
 are described as follows:
 
-+ Card identifiers
-
-```
-Each PIV card contains a UUID and a FASC-N that uniquely identify the card and, by
+Card identifiers
+:   Each PIV card contains a UUID and a FASC-N that uniquely identify the card and, by
 correspondence, the cardholder. These two card identifiers are represented in all of the authentication
 data elements for the purpose of binding the PIV data elements to the same PIV Card.
-```
-+ Cardholder Identifiers
 
-```
-Other identifiers may be present in credentials on the PIV Card that identity the cardholder rather than
+Cardholder Identifiers
+:   Other identifiers may be present in credentials on the PIV Card that identity the cardholder rather than
 the card. Examples include the subject name and names that may appear in the subjectAltName
 extension in the PIV Authentication certificate.
-```
+
 ## 4.3 PIV Card Activation
 
-The PIV Card shall be activated^27 to perform privileged^28 operations such as using the PIV Authentication
+The PIV Card shall be activated[^activation] to perform privileged[^priviledged] operations such as using the PIV Authentication
 key, digital signature key, and key management key. The PIV Card shall be activated for privileged
 operations only after authenticating the cardholder or the appropriate card management system.
 Cardholder activation is described in Section 4.3.1 and card management system activation is described in
 Section 4.3.2.
 
-(^27) Activation in this context refers to the unlocking of the PIV Card Application so privileged operations can be performed.
-(^28) A read of a CHUID or use of the Card Authentication key is not considered a privileged operation.
-
+[^activation]: Activation in this context refers to the unlocking of the PIV Card Application so privileged operations can be performed.
+[^priviledged]: A read of a CHUID or use of the Card Authentication key is not considered a privileged operation.
 
 ### 4.3.1 Activation by Cardholder
 
@@ -906,7 +770,7 @@ Specifications of the profile will become effective, as an optional means to imp
 readers and middleware, when OMB determines that the profile specifications are complete and ready for
 deployment.
 
-4.4.4 Card Activation Device Requirements
+### 4.4.4 Card Activation Device Requirements
 
 When the PIV Card is used with OCC data or a PIN for physical access, the input device shall be
 integrated with the PIV Card reader. When the PIV Card is used with OCC data or a PIN for logical
@@ -918,8 +782,8 @@ The specifications for fingerprint capture devices for on-card comparison are gi
 
 Malicious code could be introduced into the PIN capture and biometric reader devices for the purpose of
 compromising or otherwise exploiting the PIV Card. General good practice to mitigate malicious code
-threats is outside the scope of this document.^29
+threats is outside the scope of this document.[^maliciouscode]
 
-(^29) See SP 800-53, Recommended Security Controls for Federal Information Systems and Organizations [SP 800-53].
+[^maliciouscode]: See SP 800-53, Recommended Security Controls for Federal Information Systems and Organizations [SP 800-53].
 
 

@@ -43,110 +43,6 @@ Figure 3-1 illustrates a notional model for the operational PIV system, identify
 components and the direction of data flow between these components. The boundary shown in the figure
 is not meant to preclude FIPS 201 requirements on systems outside these boundaries.
 
-
-```
-Key
-Management
-```
-```
-Card Issuance
-& Maintenance
-```
-```
-Identity Proofing
-& Registration
-```
-```
-Authorization
-Data
-```
-```
-PIV Front-End
-Subsystem
-```
-```
-PIV Card Issuance and Management
-Subsystem
-```
-```
-PIV Relying Subsystem
-```
-```
-PIV Cardholder
-```
-```
-Authorization
-Data
-```
-```
-PKI Directory &
-Certificate Status
-Responder
-```
-```
-PIV Card
-```
-```
-I&A Authorization
-```
-```
-Logical Access Control
-```
-```
-Physical Access Control
-```
-```
-Card Reader
-/ Writer
-```
-```
-PIN Input
-Device
-Biometric
-Reader
-```
-```
-Physical
-Resource
-```
-```
-Logical
-Resource
-```
-```
-LEGEND
-```
-```
-I&A Authorization
-```
-```
-I&A - Identification & Authentication
-```
-```
-Direction of Information Flow
-```
-```
-PIV Card Issuance and Management Subsystem
-PIV Relying Subsystem
-```
-```
-Processes
-```
-```
-Components
-```
-```
-Shapes
-```
-```
-Shading
-```
-```
-PIV Front-End Subsystem
-```
-```
-Figure 3-1. PIV System Notional Model
-```
 ### 3.1.1 PIV Front-End Subsystem
 
 The PIV Card will be issued to the applicant when all identity proofing, registration, and issuance
@@ -170,8 +66,8 @@ required. The cardholder presenting the PIV Card must type in his or her PIN int
 For physical access, the PIN is typically entered using a PIN pad device; a keyboard is generally used for
 
 
-logical access. The input of a PIN provides a “something you know”^17 authentication factor that
-activates^18 the PIV Card and enables access to other credentials resident on the card that provide
+logical access. The input of a PIN provides a “something you know”[^somethingyou] authentication factor that
+activates[^oncardbiometric] the PIV Card and enables access to other credentials resident on the card that provide
 additional factors of authentication. A cryptographic key and certificate, for example, provides an
 additional authentication factor of “something you have” (i.e., the card) through PKI-based
 authentication.
@@ -182,6 +78,9 @@ comparison with a real-time biometric sample. The use of biometrics provides an 
 authentication (“something you are”) in addition to entering the PIN (“something you know”) and
 providing the card (“something you have”) for cryptographic key-based authentication. This provides for
 a higher level of authentication assurance.
+
+[^somethingyou]: For more information on the terms “something you know,” ”something you have,” and “something you are,” see [SP 800-63].
+[^oncardbiometric]: Alternatively, on-card biometric comparison can be used to activate the PIV Card.
 
 ### 3.1.2 PIV Card Issuance and Management Subsystem
 
@@ -219,10 +118,6 @@ an access control list (ACL) associated with a file on a computer system.
 The physical and logical access control system grants or denies access to a particular resource and
 includes an identification and authentication (I&A) component as well as an authorization component.
 
-(^17) For more information on the terms “something you know,” ”something you have,” and “something you are,” see [SP 800 -63].
-(^18) Alternatively, on-card biometric comparison can be used to activate the PIV Card.
-
-
 The I&A component interacts with the PIV Card and uses mechanisms discussed in Section 6 to identify
 and authenticate cardholders. Once authenticated, the I&A component passes information to the
 authorization component which in turn interacts with the authorization data component to match the
@@ -237,7 +132,7 @@ pre-personalization of the card at the manufacturer are not considered a part of
 Figure 3-2 presents these PIV activities and depicts the PIV Card request as the initial activity and PIV
 Card termination as the end of life.
 
-# Figure 3-2. PIV Card Lifecycle Activities
+Figure 3-2. PIV Card Lifecycle Activities
 
 Descriptions of the seven card lifecycle activities are as follows:
 

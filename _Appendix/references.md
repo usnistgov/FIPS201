@@ -16,19 +16,18 @@ permalink: /references/
 
 [COMMON] X.509 Certificate Policy for the U.S. Federal PKI Common Policy Framework,
 Version 1.21, December 18, 2012, or as amended. Available at
-[http://idmanagement.gov/documents/common-policy-framework-certificate-policy.](http://idmanagement.gov/documents/common-policy-framework-certificate-policy.)
+[http://idmanagement.gov/documents/common-policy-framework-certificate-policy.](http://idmanagement.gov/documents/common-policy-framework-certificate-policy)
 
 [E-Gov] E-Government Act of 2002, U.S. Public Law 107-347, 2002.
 
 [FIPS140] FIPS Publication 140-2, Security Requirements for Cryptographic Modules, NIST,
-May 25, 2001, or as amended. Available at [http://csrc.nist.gov/publications/fips/fips140-](http://csrc.nist.gov/publications/fips/fips140-)
-2/fips1402.pdf.
+May 25, 2001, or as amended. Available at [http://csrc.nist.gov/publications/fips/fips140-2.pdf](http://csrc.nist.gov/publications/fips/fips140-2/fips140-2.pdf).
 
 [FIPS180] FIPS Publication 180-4, Secure Hash Standard (SHS), March 2012, or as amended.
-Available at [http://csrc.nist.gov/publications/fips/fips180-4/fips-180-4.pdf.](http://csrc.nist.gov/publications/fips/fips180-4/fips-180-4.pdf.)
+Available at [http://csrc.nist.gov/publications/fips/fips180-4/fips-180-4.pdf.](http://csrc.nist.gov/publications/fips/fips180-4/fips-180-4.pdf)
 
 [FISMA] Federal Information Security Management Act of 2002. Available at
-[http://csrc.nist.gov/drivers/documents/FISMA-final.pdf.](http://csrc.nist.gov/drivers/documents/FISMA-final.pdf.)
+[http://csrc.nist.gov/drivers/documents/FISMA-final.pdf.](http://csrc.nist.gov/drivers/documents/FISMA-final.pdf)
 
 [G155-00] ASTM G155-00, Standard Practice for Operating Xenon Arc Light Apparatus for
 Exposure of Non-metallic Materials, Vol. 14.04, ASTM, July 2000.
@@ -103,21 +102,21 @@ Employees and Contractors, February 2011.
 
 [PROF] X.509 Certificate and Certificate Revocation List (CRL) Extensions Profile for the
 Shared Service Provider (SSP) Program, Version 1.5, January 7, 2008 or as amended. Available
-at [http://idmanagement.gov/sites/default/files/documents/CertCRLprofileForCP.pdf.](http://idmanagement.gov/sites/default/files/documents/CertCRLprofileForCP.pdf.)
+at [http://idmanagement.gov/sites/default/files/documents/CertCRLprofileForCP.pdf.](http://idmanagement.gov/sites/default/files/documents/CertCRLprofileForCP.pdf)
 
 [RFC2560] RFC 2560, X.509 Internet Public Key Infrastructure Online Certificate Status
 Protocol - OCSP, Internet Engineering Task Force (IETF), June 1999. Available at
-[http://www.ietf.org/rfc/rfc2560.txt.](http://www.ietf.org/rfc/rfc2560.txt.)
+[http://www.ietf.org/rfc/rfc2560.txt.](http://www.ietf.org/rfc/rfc2560.txt)
 
 
 [RFC4122] RFC 4122, A Universally Unique IDentifier (UUID) URN Namespace, Internet
-Engineering Task Force (IETF), July 2005. Available at [http://www.ietf.org/rfc/rfc4122.txt.](http://www.ietf.org/rfc/rfc4122.txt.)
+Engineering Task Force (IETF), July 2005. Available at [http://www.ietf.org/rfc/rfc4122.txt.](http://www.ietf.org/rfc/rfc4122.txt)
 
 [RFC5280] RFC 5280, Internet X.509 Public Key Infrastructure Certificate and Certificate
-Revocation List (CRL) Profile, IETF, May 2008. Available at [http://www.ietf.org/rfc/rfc5280.txt.](http://www.ietf.org/rfc/rfc5280.txt.)
+Revocation List (CRL) Profile, IETF, May 2008. Available at [http://www.ietf.org/rfc/rfc5280.txt.](http://www.ietf.org/rfc/rfc5280.txt)
 
 [RFC5652] RFC 5652, Cryptographic Message Syntax (CMS), IETF, September 2009. Available
-at [http://www.ietf.org/rfc/rfc5652.txt.](http://www.ietf.org/rfc/rfc5652.txt.)
+at [http://www.ietf.org/rfc/rfc5652.txt.](http://www.ietf.org/rfc/rfc5652.txt)
 
 [SP 800-37] NIST Special Publication 800-37 Revision 1, Guide for Applying the Risk
 Management Framework to Federal Information Systems: A Security Life Cycle Approach, NIST,
@@ -170,8 +169,6 @@ Verification (PIV) Credentials, NIST.
 Cards under HSPD-12, July 31, 2008.
 
 [SSP REP] Shared Service Provider Repository Service Requirements, December 13, 2011, or as
-amended. Available at [http://idmanagement.gov/documents/shared-service-provider-repository-](http://idmanagement.gov/documents/shared-service-provider-repository-)
-
-## service-requirements.
+amended. Available at [http://idmanagement.gov/documents/shared-service-provider-repository-service-requirements](http://idmanagement.gov/documents/shared-service-provider-repository-service-requirements).
 
 
