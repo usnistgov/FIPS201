@@ -40,6 +40,10 @@ collections:
   Appendix:
     output: true
 
+relative_links:
+  enabled:     true
+  collections: true
+
 #Uncomment when we go live 
 host: 0.0.0.0
 
