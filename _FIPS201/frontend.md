@@ -481,8 +481,7 @@ content-signing. Additional descriptions for the PIV object identifiers are prov
 content signing certificate on a valid PIV Card (one that is neither expired nor revoked) shall not be
 expired.
 
-[^legacypki]: For legacy PKIs, as defined in Section 5.4, the certificates may be issued under a department or agency-specific policy that has
-been cross-certified with the Federal Bridge CA (FBCA) at the Medium Hardware or High Assurance Level.
+[^legacypki]: For legacy PKIs, as defined in Section 5.4, the certificates may be issued under a department or agency-specific policy that has been cross-certified with the Federal Bridge CA (FBCA) at the Medium Hardware or High Assurance Level.
 
 ### 4.2.2 Cryptographic Specifications
 
@@ -620,8 +619,7 @@ key management keys.
     the PIV Card.
 
 [^backgroundstatus]: Other methods to indicate background investigative status will be explored in a future revision of this Standard.
-[^cardholderauthentication]: [NISTIR7863], Cardholder Authentication for the PIV Digital Signature Key, addresses the appropriate use of PIN caching
-related to digital signatures.
+[^cardholderauthentication]: [NISTIR7863], Cardholder Authentication for the PIV Digital Signature Key, addresses the appropriate use of PIN cachingrelated to digital signatures.
 
 ### 4.2.3 PIV Biometric Data Specifications
 
@@ -642,8 +640,7 @@ The following biometric data may also be stored on the PIV Card:
 All biometric data shall be stored in the data elements referenced by [SP 800-73] and in conformance
 with the preparation and formatting specifications of [SP 800-76].
 
-[^fingerprints]: The on-card and off-card fingerprint reference data are stored separately and, as conformant instances of different formal
-fingerprint standards, are syntactically different. This is described more fully in [SP 800-76].
+[^fingerprints]: The on-card and off-card fingerprint reference data are stored separately and, as conformant instances of different formal fingerprint standards, are syntactically different. This is described more fully in [SP 800-76].
 
 #### 4.2.3.2 Biometric Data Protection
 
@@ -672,8 +669,7 @@ certificate required to verify the signature on the biometric. Otherwise, the ce
 omitted. Additional descriptions for the PIV object identifiers are provided in Appendix B. The content
 signing certificate on a valid PIV Card (one that is neither expired nor revoked) shall not be expired.
 
-[^crosscert]: For legacy PKIs, as defined in Section 5.4, the certificates may be issued under a department or agency-specific policy that has
-been cross-certified with the Federal Bridge CA (FBCA) at the Medium Hardware or High Assurance Level.
+[^crosscert]: For legacy PKIs, as defined in Section 5.4, the certificates may be issued under a department or agency-specific policy that has been cross-certified with the Federal Bridge CA (FBCA) at the Medium Hardware or High Assurance Level.
 
 #### 4.2.3.3 Biometric Data Access
 

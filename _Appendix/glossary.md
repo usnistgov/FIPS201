@@ -21,7 +21,7 @@ military establishments, border crossing entrances).
 
 Applicant
 : An individual applying for a PIV Card/credential. The applicant may be a current or
-prospective Federal hire, a Federal employee, a government affiliate, or a contractor.^37
+prospective Federal hire, a Federal employee, a government affiliate, or a contractor.[^eligibility]
 
 Application
 : A hardware/software system implemented to satisfy a particular set of requirements. In
@@ -66,8 +66,6 @@ Application.
 Certificate Revocation List
 : A list of revoked public key certificates created and digitally signed by a
 certification authority. [RFC5280]
-
-(^37) See Page 2 of [OMB0524] for further details of individuals who are eligible to be issued PIV Cards.
 
 Certification
 : The process of verifying the correctness of a statement or claim and issuing a certificate as
@@ -524,6 +522,8 @@ U.S.C.
 
 UUID
 : Universally Unique IDentifier
+
+[^eligibility]: See Page 2 of [OMB0524] for further details of individuals who are eligible to be issued PIV Cards.
 
 ## C.3 Notations
 

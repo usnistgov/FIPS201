@@ -54,8 +54,7 @@ person not entitled to the credential.
 
 + An issued credential is not duplicated or forged, and is not modified by an unauthorized entity.
 
-[^background]: The initiation of a background investigation is defined as the submission of the investigative request to the Office of Personnel
-Management (OPM), or other Federal background investigation service provider (if authorized).
+[^background]: The initiation of a background investigation is defined as the submission of the investigative request to the Office of Personnel Management (OPM), or other Federal background investigation service provider (if authorized).
 
 
 ## 2.2 Credentialing Requirements
@@ -63,8 +62,7 @@ Management (OPM), or other Federal background investigation service provider (if
 Federal departments and agencies shall use the credentialing guidance issued by the Director of the Office
 of Personnel Management (OPM)[^OPM] and OMB[^OMB].
 
-[^OPM]: For example, [SPRINGER MEMO] at [http://www.opm.gov/investigate/resources/final_credentialing_standards.pdf](http://www.opm.gov/investigate/resources/final_credentialing_standards.pdf) and the
-Federal Investigative Standards 5.
+[^OPM]: For example, [SPRINGER MEMO] at [http://www.opm.gov/investigate/resources/final_credentialing_standards.pdf](http://www.opm.gov/investigate/resources/final_credentialing_standards.pdf) and the Federal Investigative Standards 5.
 
 [^OMB]: For example, [OMB0524] at [http://www.whitehouse.gov/sites/default/files/omb/memoranda/fy2005/m05-24.pdf.](http://www.whitehouse.gov/sites/default/files/omb/memoranda/fy2005/m05-24.pdf.)
 
@@ -146,9 +144,7 @@ identification data it collects. The chain-of-trust is a sequence of related enr
 created and maintained through the methods of contemporaneous acquisition of data within each
 enrollment data record, and biometric matching of samples between enrollment data records.[^fingerprints]
 
-[^fingerprints]: For example, ten fingerprints for law enforcement checks may be collected at one time and place, and two fingerprints for PIV
-Card templates may be collected at a later time and different place, provided that the two fingerprints are verified as among the
-ten original fingerprints.
+[^fingerprints]: For example, ten fingerprints for law enforcement checks may be collected at one time and place, and two fingerprints for PIV Card templates may be collected at a later time and different place, provided that the two fingerprints are verified as among the ten original fingerprints.
 
 It is recommended that the following data be included in the chain-of-trust:
 
@@ -281,14 +277,9 @@ may vary depending on the country.
 
 [^NAC]: The NAC is an automated record check.
 
-[^documents]: Departments and agencies may choose to accept only a subset of the identity source documents listed in this section. For
-example, in cases where identity proofing for PIV Card issuance is performed prior to verification of employment authorization,
-departments and agencies may choose to require the applicant to provide identity source documents that satisfy the requirements
-of Form I-9, Employment Eligibility Verification, in addition to the requirements specified in this section. It is recommended that
-departments and agencies perform electronic verification of identity source documents, where possible.
+[^documents]: Departments and agencies may choose to accept only a subset of the identity source documents listed in this section. For example, in cases where identity proofing for PIV Card issuance is performed prior to verification of employment authorization, departments and agencies may choose to require the applicant to provide identity source documents that satisfy the requirements of Form I-9, Employment Eligibility Verification, in addition to the requirements specified in this section. It is recommended that departments and agencies perform electronic verification of identity source documents, where possible.
 
-[^secondary]: For example, if the primary source document is a foreign passport (e.g., Italy), the secondary source document should not be
-another foreign passport (e.g., France).
+[^secondary]: For example, if the primary source document is a foreign passport (e.g., Italy), the secondary source document should not be another foreign passport (e.g., France).
 
 
 ## 2.8 PIV Card Issuance Requirements
@@ -348,8 +339,7 @@ authorized pseudonym shall follow the procedures in Section 2.8, PIV Card Issuan
 except that the card issuer must receive satisfactory evidence that the pseudonym is authorized by the
 agency.
 
-[^pseudonym]: See, for example, Section 10.5.7 of the Internal Revenue Service Manual (http://www.irs.gov/irm/index.html), which
-authorizes approval by an employee's supervisor of the use of a pseudonym to protect the employee's personal safety.
+[^pseudonym]: See, for example, Section 10.5.7 of the Internal Revenue Service Manual (http://www.irs.gov/irm/index.html), which authorizes approval by an employee's supervisor of the use of a pseudonym to protect the employee's personal safety.
 
 ### 2.8.2 Grace Period
 
@@ -372,9 +362,7 @@ two identity source documents (as specified in Section 2.7), and an attending op
 and compare the cardholder with the facial image retrieved from the enrollment data record and the facial
 image printed on the new PIV Card.
 
-[^lapse]: For the purposes of this section, a lapse is considered to be brief if it is not long enough to require that a new background
-investigation be performed. OPM currently requires a new background investigation to be performed when there has been a
-break in service of greater than two years. 
+[^lapse]: For the purposes of this section, a lapse is considered to be brief if it is not long enough to require that a new background investigation be performed. OPM currently requires a new background investigation to be performed when there has been a break in service of greater than two years. 
 
 ## 2.9 PIV Card Maintenance Requirements
 
@@ -645,5 +633,4 @@ To ensure the privacy throughout PIV lifecycle, departments and agencies shall d
 
 [^privacyofficial]: Privacy official refers to the Senior Agency Official for Privacy (SAOP) or Chief Privacy Officer (CPO).
 
-[^access]: Agencies may refer to NIST SP 800-122 [SP 800-122], Guide to Protecting the Confidentiality of Personally Identifiable
-Information (PII), for a best practice guideline on protection of PII.
+[^access]: Agencies may refer to NIST SP 800-122 [SP 800-122], Guide to Protecting the Confidentiality of Personally Identifiable Information (PII), for a best practice guideline on protection of PII.

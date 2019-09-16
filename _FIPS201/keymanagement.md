@@ -48,8 +48,7 @@ relationship is described below:
 - Requirements for algorithms and key sizes for each type of PIV asymmetric key are given in
     [SP 800-78].
 
-[^keypolicy]: Note that key management certificates may assert the id-fpki-common-policy, id-fpki-common-hardware, or id-fpki-common-
-High policy of [COMMON] in the certificate policies extension. Applications / relying systems sensitive to the assurance level
+[^keypolicy]: Note that key management certificates may assert the id-fpki-common-policy, id-fpki-common-hardware, or id-fpki-common- High policy of [COMMON] in the certificate policies extension. Applications / relying systems sensitive to the assurance level
 may choose not to accept certificates that only assert id-fpki-common-policy.
 
 

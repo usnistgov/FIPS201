@@ -105,9 +105,7 @@ Some characteristics of the PIV Biometrics authentication mechanisms (described 
 - Applicable with contact card readers, and contactless card readers that support the virtual contact
     interface.
 
-[^bioreaders]: As noted in Section 4.2.3.1, neither the fingerprint templates nor the iris images are guaranteed to be present on a PIV Card,
-since it may not be possible to collect fingerprints from some cardholders and iris images collection is optional. When biometric
-authentication cannot be performed, PKI-AUTH is the recommended alternate authentication mechanism.
+[^bioreaders]: As noted in Section 4.2.3.1, neither the fingerprint templates nor the iris images are guaranteed to be present on a PIV Card, since it may not be possible to collect fingerprints from some cardholders and iris images collection is optional. When biometric authentication cannot be performed, PKI-AUTH is the recommended alternate authentication mechanism.
 
 
 #### 6.2.1.1 Unattended Authentication Using PIV Biometric (BIO)
@@ -130,8 +128,7 @@ The following steps shall be performed for unattended authentication of the PIV 
 - A unique identifier within the CHUID or other data element is used as input to the authorization
 check to determine whether the cardholder should be granted access.
 
-[^expired]: The PIV Authentication certificate or Card Authentication certificate may be leveraged instead of the CHUID to verify that the
-card is not expired.
+[^expired]: The PIV Authentication certificate or Card Authentication certificate may be leveraged instead of the CHUID to verify that the card is not expired.
 
 #### 6.2.1.2 Attended Authentication of PIV Biometric (BIO-A)
 
@@ -191,8 +188,7 @@ Some of the characteristics of the PKI-based authentication mechanism are as fol
 - Applicable with contact card readers, and contactless card readers that support the virtual contact
     interface.
 
-[^pivpath]: Path validation should be configured to specify which policy OIDs are trusted. The policy OID for the PIV Authentication
-certificate is id-fpki-common-authentication.
+[^pivpath]: Path validation should be configured to specify which policy OIDs are trusted. The policy OID for the PIV Authentication certificate is id-fpki-common-authentication.
 
 #### 6.2.3.2 Authentication with the Card Authentication Certificate Credential (PKI-CAK)
 
@@ -217,8 +213,7 @@ Some of the characteristics of the PKI-CAK authentication mechanism are as follo
 - Low resistance to use of unaltered card by non-owner of card.
 - Applicable with contact and contactless readers.
 
-[^cacpath]: Path validation should be configured to specify which policy OIDs are trusted. The policy OID for the Card Authentication
-certificate is id-fpki-common-cardAuth.
+[^cacpath]: Path validation should be configured to specify which policy OIDs are trusted. The policy OID for the Card Authentication certificate is id-fpki-common-cardAuth.
 
 ### 6.2.4 Authentication with the Symmetric Card Authentication Key (SYM-CAK)
 
