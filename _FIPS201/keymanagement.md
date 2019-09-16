@@ -38,8 +38,7 @@ relationship is described below:
 - Certificates containing the public key associated with an asymmetric Card Authentication private key
     shall conform to Worksheet 8: Card Authentication Certificate Profile in [PROF].
 - Certificates containing the public key associated with a digital signature private key shall conform to
-    Worksheet 5: End Entity Signature Certificate Profile in [PROF] and shall specify either the id-fpki-
-    common-hardware or id-fpki-common-High policy of [COMMON] in the certificate policies
+    Worksheet 5: End Entity Signature Certificate Profile in [PROF] and shall specify either the id-fpki-common-hardware or id-fpki-common-High policy of [COMMON] in the certificate policies
     extension.
 - Certificates containing the public key associated with a PIV Authentication private key shall conform
     to Worksheet 9: PIV Authentication Certificate Profile in [PROF].
@@ -48,7 +47,7 @@ relationship is described below:
 - Requirements for algorithms and key sizes for each type of PIV asymmetric key are given in
     [SP 800-78].
 
-[^keypolicy]: Note that key management certificates may assert the id-fpki-common-policy, id-fpki-common-hardware, or id-fpki-common- High policy of [COMMON] in the certificate policies extension. Applications / relying systems sensitive to the assurance level
+[^keypolicy]: Note that key management certificates may assert the id-fpki-common-policy, id-fpki-common-hardware, or id-fpki-common-High policy of [COMMON] in the certificate policies extension. Applications / relying systems sensitive to the assurance level
 may choose not to accept certificates that only assert id-fpki-common-policy.
 
 
@@ -59,14 +58,12 @@ CAs that issue certificates corresponding to PIV private keys shall issue CRLs a
 
 ## 5.4 Legacy PKIs
 
-For the purposes of this Standard, legacy PKIs are the PKIs of departments and agencies that have cross-
-certified with the Federal Bridge CA (FBCA) at the Medium Hardware or High Assurance Level. Legacy
+For the purposes of this Standard, legacy PKIs are the PKIs of departments and agencies that have cross-certified with the Federal Bridge CA (FBCA) at the Medium Hardware or High Assurance Level. Legacy
 PKIs that issue PIV Authentication certificates and Card Authentication certificates shall meet the
 requirements specified in Sections 5.2.1, 5.3, 5.5, 5.5.1, and 5.5.2, with respect to the PIV Authentication
 certificates and Card Authentication certificates that they issue. Departments and agencies may assert
 department or agency-specific policy object identifiers (OIDs) in PIV Authentication Certificates and
-Card Authentication Certificates in addition to the id-fpki-common-authentication policy OID and the id-
-fpki-common-cardAuth policy OID of [COMMON], respectively. This specification imposes no
+Card Authentication Certificates in addition to the id-fpki-common-authentication policy OID and the id-fpki-common-cardAuth policy OID of [COMMON], respectively. This specification imposes no
 requirements on digital signature or key management certificates issued by legacy PKIs.
 
 ## 5.5 PKI Repository and OCSP Responder(s)

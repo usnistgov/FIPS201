@@ -394,7 +394,7 @@ HSPD
 HTTP
 : Hypertext Transfer Protocol
 
-FBI&A
+I&A
 : Identification and Authentication
 
 IAB

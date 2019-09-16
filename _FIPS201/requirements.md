@@ -183,14 +183,12 @@ representation described in [SP 800-156].
 The chain-of-trust can be applied in several situations to include:
 
 + Extended enrollment: a PIV applicant enrolls a full set of fingerprints for background investigations
-at one place and time, and two fingerprints for the PIV Card at another place and time. The chain-of-
-trust would contain identifiers and two enrollment data records, one with a full-set fingerprint
+at one place and time, and two fingerprints for the PIV Card at another place and time. The chain-of-trust would contain identifiers and two enrollment data records, one with a full-set fingerprint
 transaction, and one with two fingerprint templates. The two fingerprint templates would be matched
 against the corresponding fingers in the ten-fingerprint data set to link the chain.
 
 + Reissuance: a PIV cardholder loses his/her card. Since the card issuer has biometric enrollment data
-records, the cardholder can perform a 1:1 biometric match to reconnect to the card issuer’s chain-of-
-trust. The card issuer need not repeat the identity proofing and registration process. The card issuer
+records, the cardholder can perform a 1:1 biometric match to reconnect to the card issuer’s chain-of-trust. The card issuer need not repeat the identity proofing and registration process. The card issuer
 proceeds to issue a new card as described in Section 2.9.1.
 
 + Interagency transfer: a Federal employee is transferred from one agency to another. When the
@@ -354,8 +352,7 @@ be reconnected to the chain-of-trust record.[^lapse]
 When issuing a PIV Card under the grace period, the card issuer shall verify that PIV Card issuance has
 been authorized by a proper authority and that the employee’s or contractor’s background investigation is
 valid. Re-investigations shall be performed if required, in accordance with OPM guidance. At the time
-of issuance, the card issuer shall perform a 1:1 biometric match of the applicant to reconnect to the chain-
-of-trust. The 1:1 biometric match requires either a match of fingerprint(s) or, if unavailable, other
+of issuance, the card issuer shall perform a 1:1 biometric match of the applicant to reconnect to the chain-of-trust. The 1:1 biometric match requires either a match of fingerprint(s) or, if unavailable, other
 optional biometric data that are available. On successful match, the new PIV Card shall be released to the
 applicant. If the match is unsuccessful, or if no biometric data is available, the cardholder shall provide
 two identity source documents (as specified in Section 2.7), and an attending operator shall inspect these
@@ -490,15 +487,13 @@ remotely via a general computing platform:
 
 + When PIN reset is performed in-person at the issuer's facility, before providing the reset PIV Card
 back to the cardholder, the issuer shall perform a 1:1 biometric match to ensure that the cardholder's
-biometric matches either the stored biometric on the PIV Card or biometric data stored in the chain-
-of-trust. In cases where a biometric match is not possible, the cardholder shall provide the PIV Card
+biometric matches either the stored biometric on the PIV Card or biometric data stored in the chain-of-trust. In cases where a biometric match is not possible, the cardholder shall provide the PIV Card
 to be reset and another primary identity source document (as specified in Section 2.7). An attending
 operator shall inspect these and compare the cardholder with the facial image retrieved from the
 enrollment data record and the facial image printed on the card.
 
 + PIN reset at an unattended issuer-operated kiosk shall ensure that the PIV Card is authenticated and
-that the cardholder’s biometric matches either the stored biometric on the PIV Card, through an on-
-card 1:1 biometric match, or biometric data stored in the chain-of-trust, through an off-card 1:1
+that the cardholder’s biometric matches either the stored biometric on the PIV Card, through an on-card 1:1 biometric match, or biometric data stored in the chain-of-trust, through an off-card 1:1
 biometric match. If the biometric match or card authentication is unsuccessful, the kiosk shall not
 reset the PIV Card.
 
@@ -508,8 +503,7 @@ the following requirements are met:
   * the cardholder initiates a PIN reset with the issuer operator;
   * the operator authenticates the owner of the PIV Card through an out-of-band authentication
   procedure (e.g., pre-registered knowledge tokens); and
-  * the cardholder’s biometric matches the stored biometric on the PIV Card through a 1:1 on-
-  card biometric comparison.
+  * the cardholder’s biometric matches the stored biometric on the PIV Card through a 1:1 on-  card biometric comparison.
 
 The remote PIN reset operation shall satisfy the requirements for remote post issuance updates
 specified in Section 2.9.2.

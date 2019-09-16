@@ -34,8 +34,7 @@ Standardization (ISO)/International Electrotechnical Commission (IEC) 7810 [ISO7
 
 The printed material shall not rub off during the life of the PIV Card, nor shall the printing process
 deposit debris on the printer rollers during printing and laminating. Printed material shall not interfere
-with the contact and contactless ICC(s) and related components, nor shall it obstruct access to machine-
-readable information.
+with the contact and contactless ICC(s) and related components, nor shall it obstruct access to machine-readable information.
 
 ### 4.1.2 Tamper Proofing and Resistance
 
@@ -58,8 +57,7 @@ Incorporation of security features shallbe in accordance with durability require
 
 Departments and agencies may incorporate additional tamper-resistance and anti-counterfeiting methods.
 As a generally accepted security procedure, Federal departments and agencies are strongly encouraged to
-periodically review the viability, effectiveness, and currency of employed tamper resistance and anti-
-counterfeiting methods.
+periodically review the viability, effectiveness, and currency of employed tamper resistance and anti-counterfeiting methods.
 
 ### 4.1.3 Physical Characteristics and Durability
 
@@ -470,14 +468,12 @@ the asymmetric signature and digest algorithm are detailed in [SP 800-78].
 
 For signatures created before October 15, 2015, the public key required to verify the digital signature
 shall be provided in the certificates field of the CMS external digital signature in a content signing
-certificate, which shall be an X.509 digital signature certificate issued under the id-fpki-common-piv-
-contentSigning, id-fpki-common-devices, id-fpki-common-devicesHardware, id-fpki-common-hardware,
+certificate, which shall be an X.509 digital signature certificate issued under the id-fpki-common-piv-contentSigning, id-fpki-common-devices, id-fpki-common-devicesHardware, id-fpki-common-hardware,
 or id-fpki-common-High policy of [COMMON].[^legacypki] For signatures created on or after October 15, 2015,
 the public key required to verify the digital signature shall be provided in the certificates field of the CMS
 external digital signature in a content signing certificate, which shall be an X.509 digital signature
 certificate issued under the id-fpki-common-piv-contentSigning policy of [COMMON]. The content
-signing certificate shall also include an extended key usage (extKeyUsage) extension asserting id-PIV-
-content-signing. Additional descriptions for the PIV object identifiers are provided in Appendix B. The
+signing certificate shall also include an extended key usage (extKeyUsage) extension asserting id-PIV-content-signing. Additional descriptions for the PIV object identifiers are provided in Appendix B. The
 content signing certificate on a valid PIV Card (one that is neither expired nor revoked) shall not be
 expired.
 
@@ -530,8 +526,7 @@ The PIV Card has both mandatory keys and optional keys:
     and it is mandatory, unless the cardholder does not have a government-issued email account at the
     time of credential issuance. Optionally, up to twenty retired key management keys may also be
     stored on the PIV Card.
-- The PIV Card Application Administration Key is a symmetric key used for personalization and post-
-    issuance activities, and it is optional.
+- The PIV Card Application Administration Key is a symmetric key used for personalization and post-    issuance activities, and it is optional.
 - The PIV Card may include additional key(s) for use with secure messaging. These keys are defined
     in [SP 800-73] or [SP 800-78].
 
@@ -657,13 +652,11 @@ encoded as a CMS external digital signature as specified in [SP 800-76]. The alg
 requirements for the digital signature and digest algorithm are detailed in [SP 800-78].
 
 For signatures created before October 15, 2015, the public key required to verify the digital signature
-shall be contained in a content signing certificate, which shall be issued under the id-fpki-common-piv-
-contentSigning, id-fpki-common-devices, id-fpki-common-devicesHardware, id-fpki-common-hardware,
+shall be contained in a content signing certificate, which shall be issued under the id-fpki-common-piv-contentSigning, id-fpki-common-devices, id-fpki-common-devicesHardware, id-fpki-common-hardware,
 or id-fpki-common-High policy of [COMMON].[^crosscert] For signatures created on or after October 15, 2015,
 the public key required to verify the digital signature shall be contained in a content signing certificate,
 which shall be issued under the id-fpki-common-piv-contentSigning policy of [COMMON]. The content
-signing certificate shall also include an extended key usage (extKeyUsage) extension asserting id-PIV-
-content-signing. If the signature on the biometric was generated with a different key than the signature on
+signing certificate shall also include an extended key usage (extKeyUsage) extension asserting id-PIV-content-signing. If the signature on the biometric was generated with a different key than the signature on
 the CHUID, the certificates field of the CMS external digital signature shall include the content signing
 certificate required to verify the signature on the biometric. Otherwise, the certificates field shall be
 omitted. Additional descriptions for the PIV object identifiers are provided in Appendix B. The content
@@ -747,8 +740,7 @@ section provides requirements for PIN input devices. Further requirements are sp
 ### 4.4.1 Contact Reader Requirements
 
 Contact card readers shall conform to the [ISO7816] standard for the card-to-reader interface. These
-readers shall conform to the Personal Computer/Smart Card (PC/SC) Specification [PCSC] for the reader-
-to-host system interface in general desktop computing environment. Specifically, the contact card readers
+readers shall conform to the Personal Computer/Smart Card (PC/SC) Specification [PCSC] for the reader-to-host system interface in general desktop computing environment. Specifically, the contact card readers
 shall conform to the requirements specified in [SP 800-96]. In systems where the readers are not
 connected to general-purpose desktop computing systems, the reader-to-host system interface is not
 specified in this Standard.
@@ -757,8 +749,7 @@ specified in this Standard.
 
 Contactless card readers shall conform to [ISO14443] standard for the card-to-reader interface and data
 transmitted over the [ISO14443] link shall conform to [ISO7816]. In cases where these readers are
-connected to general-purpose desktop computing systems, they shall conform to [PCSC] for the reader-to-
-host system interface. Specifically, the contactless card readers shall conform to the requirements
+connected to general-purpose desktop computing systems, they shall conform to [PCSC] for the reader-to-host system interface. Specifically, the contactless card readers shall conform to the requirements
 specified in [SP 800-96]. In systems where the readers are not connected to general-purpose desktop
 computing systems, the reader-to-host system interface is not specified in this Standard.
 
@@ -768,8 +759,7 @@ computing systems, the reader-to-host system interface is not specified in this 
 The international standard ISO/IEC 24727 [ISO24727] enables a high degree of interoperability between
 electronic credentials and relying subsystems by means of an adaptation layer. To make interoperability
 among PIV System middleware, card readers, and credentials more resilient and flexible, the Department
-of Commerce will evaluate ISO/IEC 24727 and propose an optional profile of ISO/IEC 24727 in [SP 800-
-73]. The profile will explain how profile-conformant middleware, card readers, and PIV Cards can be
+of Commerce will evaluate ISO/IEC 24727 and propose an optional profile of ISO/IEC 24727 in [SP 800-73]. The profile will explain how profile-conformant middleware, card readers, and PIV Cards can be
 used interchangeably with middleware, card readers, and PIV Cards currently deployed.
 
 Specifications of the profile will become effective, as an optional means to implement PIV System

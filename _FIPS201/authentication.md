@@ -322,8 +322,7 @@ The PIV Card supports a set of authentication mechanisms that can be used to imp
 assurance levels for identity authentication. The following subsections specify which basic PIV
 authentication mechanisms may be used to support the various levels of identity authentication assurance
 as defined in Section 6.1. Two or more complementing authentication mechanisms may be applied in
-unison to achieve a higher degree of assurance of the identity of the PIV cardholder. For example, PKI-
-AUTH and BIO may be applied in unison to achieve a higher degree of assurance in cardholder identity.
+unison to achieve a higher degree of assurance of the identity of the PIV cardholder. For example, PKI-AUTH and BIO may be applied in unison to achieve a higher degree of assurance in cardholder identity.
 
 Adequately designed and implemented relying systems can achieve the PIV Card authentication
 assurance levels stated in Tables 6-2 (physical access) and 6-3 (logical access). Less adequately designed
