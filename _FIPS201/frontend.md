@@ -167,13 +167,21 @@ Other names and conventional prefixes and suffixes, which shall be included in t
 may be abbreviated. The special character “.” (period) shall indicate such abbreviations, as shown in
 Figure 4-2. Other uses of special symbols (e.g., “O’BRIEN”) are at the discretion of the issuer.
 
-```
 Table 4-1. Name Examples
-```
 
-> Note: Table To Be Re-created
+|Name|Characteristics|Example|
+|---|---|---|
+|John Doe|simple full name of individual who does not have a middle name, two lines sufficient with 10 points.|![]({{site.baseurl}}/{{page.collection}}/images/name1.png){:style="width: 400px;"}|
+|Anna Maria Eriksson|simple full name, two lines sufficient with 10 points.|![]({{site.baseurl}}/{{page.collection}}/images/name2.png){:style="width: 400px;"}|
+|Anna Maria Eriksson|simple full name with abbreviated middle name, two lines sufficient with 10 points.|![]({{site.baseurl}}/{{page.collection}}/images/name3.png){:style="width: 400px;"}|
+|Anna Maria Eriksson|simple full name, one line sufficient for full name with 10 points.|![]({{site.baseurl}}/{{page.collection}}/images/name4.png){:style="width: 400px;"}|
+|Susie Margaret Smith-Jones|longer full name in two lines, sufficient space in 10 points.|![]({{site.baseurl}}/{{page.collection}}/images/name5.png){:style="width: 400px;"}|
+|Susie Margaret Smith-Jones|longer full name wrapped, two lines sufficient with 10 points.|![]({{site.baseurl}}/{{page.collection}}/images/name6.png){:style="width: 400px;"}|
+|Chayapa Dejthamrong Krusuang Nilavadhanananda|longer full name wrapped, two lines NOT sufficient with 10 points. Reduce the font size to 8 points.|![]({{site.baseurl}}/{{page.collection}}/images/name7.png){:style="width: 400px;"}|
+|Vaasa Silvaan Beenelong Wooloomooloo Warrandyte Warwarnambool|longer full name, two lines NOT sufficient with 8 point, 7 point allows sufficient space for three lines in Zone 2F.|![]({{site.baseurl}}/{{page.collection}}/images/name8.png){:style="width: 400px;"}|
+|Vaasa Silvaan Beenelong Wooloomooloo Warrandyte Warwarnambool|same as previous but full name is wrapped.|![]({{site.baseurl}}/{{page.collection}}/images/name9.png){:style="width: 400px;"}|
+|Dingo Pontooroomooloo Vaasa Silvaan Beenelong Wooloomooloo Warrandyte Warwarnambool|truncated full name, three lines with 7 point NOT sufficient.|![]({{site.baseurl}}/{{page.collection}}/images/name10.png){:style="width: 400px;"}|
 
-[^pseudonym]: Alternatively, an authorized pseudonym as provided under the law as discussed in Section 2.8.1.
 
 Zone 8F—Employee Affiliation. An employee affiliation shall be printed on the card as depicted in Figure
 4- 1. Some examples of employee affiliation are “Employee,” “Contractor,” “Active Duty,” and
@@ -207,6 +215,8 @@ shall not be more than 5 mm. Note that the lettering shall correspond to the pri
 Zone 19F—Card Expiration Date. The card expiration date shall be printed in a MMMYYYY format in
 the upper right-hand corner as depicted in Figure 4-1. The Zone 19F expiration date shall be printed in
 Arial 12pt Bold.
+
+[^pseudonym]: Alternatively, an authorized pseudonym as provided under the law as discussed in Section 2.8.1.
 
 #### 4.1.4.2 Mandatory Items on the Back of the PIV Card
 
@@ -337,35 +347,35 @@ legislatively mandated medical entitlements.
 
 Figure 4-1. Card Front—Printable Areas and Required Data
 
-> Figure to be imported
+![Figure 4-1]({{site.baseurl}}/{{page.collection}}/images/cardfront-required.jpg){:style="width: 1047px;"}
 
 Figure 4-2. Card Front—Optional Data Placement—Example 1
 
-> Figure to be imported
+![Figure 4-2]({{site.baseurl}}/{{page.collection}}/images/cardfront-optional1.jpg){:style="width: 1047px;"}
 
 Figure 4-3. Card Front—Optional Data Placement—Example 2
 
-> Figure to be imported
+![Figure 4-3]({{site.baseurl}}/{{page.collection}}/images/cardfront-optional2.jpg){:style="width: 1047px;"}
 
 Figure 4-4. Card Front—Optional Data Placement—Example 3
 
-> Figure to be imported
+![Figure 4-4]({{site.baseurl}}/{{page.collection}}/images/cardfront-optional3.jpg){:style="width: 1047px;"}
 
 Figure 4-5. Card Front—Optional Data Placement—Example 4
 
-> Figure to be imported
+![Figure 4-5]({{site.baseurl}}/{{page.collection}}/images/cardfront-optional4.jpg){:style="width: 1047px;"}
 
 Figure 4-6. Card Back—Printable Areas and Required Data
 
-> Figure to be imported
+![Figure 4-6]({{site.baseurl}}/{{page.collection}}/images/cardback-required.jpg){:style="width: 1047px;"}
 
 Figure 4-7. Card Back—Optional Data Placement—Example 1
 
-> Figure to be imported
+![Figure 4-7]({{site.baseurl}}/{{page.collection}}/images/cardback-optional1.jpg){:style="width: 1047px;"}
 
 Figure 4-8. Card Back—Optional Data Placement—Example 2
 
-> Figure to be imported
+![Figure 4-8]({{site.baseurl}}/{{page.collection}}/images/cardback-optional2.jpg){:style="width: 1047px;"}
 
 ### 4.1.5 Color Representation
 
