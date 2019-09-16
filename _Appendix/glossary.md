@@ -69,7 +69,6 @@ certification authority. [RFC5280]
 
 (^37) See Page 2 of [OMB0524] for further details of individuals who are eligible to be issued PIV Cards.
 
-
 Certification
 : The process of verifying the correctness of a statement or claim and issuing a certificate as
 to its correctness.
@@ -133,7 +132,6 @@ hash functions [FIPS180] satisfy the following properties:
 
 1. One-Way. It is computationally infeasible to find any input that maps to any pre-specified
     output.
-
 
 2. Collision Resistant. It is computationally infeasible to find any two distinct inputs that map to
     the same output.
@@ -202,7 +200,6 @@ On-Card Comparison
 : Comparison of fingerprint data transmitted to the card with reference data
 previously stored on the card.
 
-
 Online Certificate Status Protocol (OCSP)
 : An online protocol used to determine the status of a public
 key certificate. [RFC2560]
@@ -269,7 +266,6 @@ use or procedures to follow to achieve a common level of quality or level of int
 Registration
 : See “Identity Registration.”
 
-
 Symmetric Key
 : A cryptographic key that is used to perform both the cryptographic operation and its
 inverse, for example to encrypt and decrypt, or create a message authentication code and to verify the
@@ -310,7 +306,6 @@ ASTM
 ATO
 : Authorization to Operate
 
-
 CA
 : Certification Authority
 
@@ -350,7 +345,6 @@ CTC
 CTE
 : Cardholder to External System
 
-
 DATO
 : Denial of Authorization to Operate
 
@@ -366,10 +360,8 @@ DOB
 dpi
 : Dots Per Inch
 
-
 ERT
 : Emergency Response Team
-
 
 FASC-N
 : Federal Agency Smart Credential Number
@@ -392,14 +384,11 @@ FIPS
 FISMA
 : Federal Information Security Management Act
 
-
-
 GSA
 : U.S. General Services Administration
 
 GUID
 : Global Unique Identification Number
-
 
 HSPD
 : Homeland Security Presidential Directive
@@ -407,8 +396,7 @@ HSPD
 HTTP
 : Hypertext Transfer Protocol
 
-
-I&A
+FBI&A
 : Identification and Authentication
 
 IAB
@@ -423,10 +411,8 @@ ICC
 ID
 : Identification
 
-
 IDMS
 : Identity Management System
-
 
 IEC
 : International Electrotechnical Commission
@@ -446,17 +432,14 @@ IT
 ITL
 : Information Technology Laboratory
 
-
 LDAP
 : Lightweight Directory Access Protocol
-
 
 mm
 : Millimeter
 
 MWR
 : Morale, Welfare, and Recreation
-
 
 NAC
 : National Agency Check
@@ -479,7 +462,6 @@ NPIVP
 NVLAP
 : National Voluntary Laboratory Accreditation Program
 
-
 OCC
 : On-Card Biometric Comparison
 
@@ -494,7 +476,6 @@ OMB
 
 OPM
 : Office of Personnel Management
-
 
 PCI
 : PIV Card Issuer
@@ -520,10 +501,8 @@ PIV
 PKI
 : Public Key Infrastructure
 
-
 RFC
 : Request for Comments
-
 
 SES
 : Senior Executive Service
@@ -531,15 +510,11 @@ SES
 SP
 : Special Publication
 
-
-
 SSP
 : Shared Service Provider
 
-
 TSA
 : Transportation Security Administration
-
 
 URI
 : Uniform Resource Identifier
@@ -550,7 +525,6 @@ U.S.C.
 UUID
 : Universally Unique IDentifier
 
-
 ## C.3 Notations
 
 This Standard uses the following typographical conventions in text:
@@ -559,5 +533,4 @@ This Standard uses the following typographical conventions in text:
     defined for digital signatures.
 - Letters or words in CAPITALS separated with underscore represent CBEFF-compliant data
     structures. For example, CBEFF_HEADER is a header field in the CBEFF structure.
-
 
