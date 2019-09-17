@@ -34,8 +34,7 @@ Standardization (ISO)/International Electrotechnical Commission (IEC) 7810 [ISO7
 
 The printed material shall not rub off during the life of the PIV Card, nor shall the printing process
 deposit debris on the printer rollers during printing and laminating. Printed material shall not interfere
-with the contact and contactless ICC(s) and related components, nor shall it obstruct access to machine-
-readable information.
+with the contact and contactless ICC(s) and related components, nor shall it obstruct access to machine-readable information.
 
 ### 4.1.2 Tamper Proofing and Resistance
 
@@ -50,16 +49,16 @@ security feature. Examples of these security features include the following:
 - holographic images; and
 - watermarks.
 
-Incorporation of security features shallbe in accordance with durability requirements;
+Incorporation of security features shall—
 
+- be in accordance with durability requirements;
 - be free of defects, such as fading and discoloration;
 - not obscure printed information; and
 - not impede access to machine-readable information.
 
 Departments and agencies may incorporate additional tamper-resistance and anti-counterfeiting methods.
 As a generally accepted security procedure, Federal departments and agencies are strongly encouraged to
-periodically review the viability, effectiveness, and currency of employed tamper resistance and anti-
-counterfeiting methods.
+periodically review the viability, effectiveness, and currency of employed tamper resistance and anti-counterfeiting methods.
 
 ### 4.1.3 Physical Characteristics and Durability
 
@@ -153,9 +152,9 @@ Zone 2F—Name. The full name[^pseudonym] shall be printed directly under the ph
 full name shall be composed of a Primary Identifier (i.e., surnames or family names) and a Secondary
 Identifier (i.e., pre-names or given names). The printed name shall match the name on the identity source
 documents provided during identity proofing and registration to the extent possible. The full name shall
-be printed in the <Primary Identifier>, <Secondary Identifier> format. The entire full name should be
+be printed in the &lt;Primary Identifier&gt;, &lt;Secondary Identifier&gt; format. The entire full name should be
 printed on available lines of Zone 2F and either identifier could be wrapped. The wrapped identifier shall
-be indicated with “>” character at the end of the line. The identifiers may be printed on separate lines if
+be indicated with “&gt;” character at the end of the line. The identifiers may be printed on separate lines if
 each fits on one line. Departments and agencies shall use the largest font size of 7 to 10 points that allows
 the full name to be printed. The font size 7 point allows space for 3 lines and shall only be used if the full
 name does not fit on two lines with font size 8 point. Table 4-1 provides examples of separate Primary
@@ -167,13 +166,21 @@ Other names and conventional prefixes and suffixes, which shall be included in t
 may be abbreviated. The special character “.” (period) shall indicate such abbreviations, as shown in
 Figure 4-2. Other uses of special symbols (e.g., “O’BRIEN”) are at the discretion of the issuer.
 
-```
 Table 4-1. Name Examples
-```
 
-> Note: Table To Be Re-created
+|Name|Characteristics|Example|
+|---|---|---|
+|John Doe|simple full name of individual who does not have a middle name, two lines sufficient with 10 points.|![]({{site.baseurl}}/{{page.collection}}/images/name1.png){:style="width: 400px;"}|
+|Anna Maria Eriksson|simple full name, two lines sufficient with 10 points.|![]({{site.baseurl}}/{{page.collection}}/images/name2.png){:style="width: 400px;"}|
+|Anna Maria Eriksson|simple full name with abbreviated middle name, two lines sufficient with 10 points.|![]({{site.baseurl}}/{{page.collection}}/images/name3.png){:style="width: 400px;"}|
+|Anna Maria Eriksson|simple full name, one line sufficient for full name with 10 points.|![]({{site.baseurl}}/{{page.collection}}/images/name4.png){:style="width: 400px;"}|
+|Susie Margaret Smith-Jones|longer full name in two lines, sufficient space in 10 points.|![]({{site.baseurl}}/{{page.collection}}/images/name5.png){:style="width: 400px;"}|
+|Susie Margaret Smith-Jones|longer full name wrapped, two lines sufficient with 10 points.|![]({{site.baseurl}}/{{page.collection}}/images/name6.png){:style="width: 400px;"}|
+|Chayapa Dejthamrong Krusuang Nilavadhanananda|longer full name wrapped, two lines NOT sufficient with 10 points. Reduce the font size to 8 points.|![]({{site.baseurl}}/{{page.collection}}/images/name7.png){:style="width: 400px;"}|
+|Vaasa Silvaan Beenelong Wooloomooloo Warrandyte Warwarnambool|longer full name, two lines NOT sufficient with 8 point, 7 point allows sufficient space for three lines in Zone 2F.|![]({{site.baseurl}}/{{page.collection}}/images/name8.png){:style="width: 400px;"}|
+|Vaasa Silvaan Beenelong Wooloomooloo Warrandyte Warwarnambool|same as previous but full name is wrapped.|![]({{site.baseurl}}/{{page.collection}}/images/name9.png){:style="width: 400px;"}|
+|Dingo Pontooroomooloo Vaasa Silvaan Beenelong Wooloomooloo Warrandyte Warwarnambool|truncated full name, three lines with 7 point NOT sufficient.|![]({{site.baseurl}}/{{page.collection}}/images/name10.png){:style="width: 400px;"}|
 
-[^pseudonym]: Alternatively, an authorized pseudonym as provided under the law as discussed in Section 2.8.1.
 
 Zone 8F—Employee Affiliation. An employee affiliation shall be printed on the card as depicted in Figure
 4- 1. Some examples of employee affiliation are “Employee,” “Contractor,” “Active Duty,” and
@@ -207,6 +214,8 @@ shall not be more than 5 mm. Note that the lettering shall correspond to the pri
 Zone 19F—Card Expiration Date. The card expiration date shall be printed in a MMMYYYY format in
 the upper right-hand corner as depicted in Figure 4-1. The Zone 19F expiration date shall be printed in
 Arial 12pt Bold.
+
+[^pseudonym]: Alternatively, an authorized pseudonym as provided under the law as discussed in Section 2.8.1.
 
 #### 4.1.4.2 Mandatory Items on the Back of the PIV Card
 
@@ -337,35 +346,35 @@ legislatively mandated medical entitlements.
 
 Figure 4-1. Card Front—Printable Areas and Required Data
 
-> Figure to be imported
+![Figure 4-1]({{site.baseurl}}/{{page.collection}}/images/cardfront-required.jpg){:style="width: 1047px;"}
 
 Figure 4-2. Card Front—Optional Data Placement—Example 1
 
-> Figure to be imported
+![Figure 4-2]({{site.baseurl}}/{{page.collection}}/images/cardfront-optional1.jpg){:style="width: 1047px;"}
 
 Figure 4-3. Card Front—Optional Data Placement—Example 2
 
-> Figure to be imported
+![Figure 4-3]({{site.baseurl}}/{{page.collection}}/images/cardfront-optional2.jpg){:style="width: 1047px;"}
 
 Figure 4-4. Card Front—Optional Data Placement—Example 3
 
-> Figure to be imported
+![Figure 4-4]({{site.baseurl}}/{{page.collection}}/images/cardfront-optional3.jpg){:style="width: 1047px;"}
 
 Figure 4-5. Card Front—Optional Data Placement—Example 4
 
-> Figure to be imported
+![Figure 4-5]({{site.baseurl}}/{{page.collection}}/images/cardfront-optional4.jpg){:style="width: 1047px;"}
 
 Figure 4-6. Card Back—Printable Areas and Required Data
 
-> Figure to be imported
+![Figure 4-6]({{site.baseurl}}/{{page.collection}}/images/cardback-required.jpg){:style="width: 1047px;"}
 
 Figure 4-7. Card Back—Optional Data Placement—Example 1
 
-> Figure to be imported
+![Figure 4-7]({{site.baseurl}}/{{page.collection}}/images/cardback-optional1.jpg){:style="width: 1047px;"}
 
 Figure 4-8. Card Back—Optional Data Placement—Example 2
 
-> Figure to be imported
+![Figure 4-8]({{site.baseurl}}/{{page.collection}}/images/cardback-optional2.jpg){:style="width: 1047px;"}
 
 ### 4.1.5 Color Representation
 
@@ -460,19 +469,16 @@ the asymmetric signature and digest algorithm are detailed in [SP 800-78].
 
 For signatures created before October 15, 2015, the public key required to verify the digital signature
 shall be provided in the certificates field of the CMS external digital signature in a content signing
-certificate, which shall be an X.509 digital signature certificate issued under the id-fpki-common-piv-
-contentSigning, id-fpki-common-devices, id-fpki-common-devicesHardware, id-fpki-common-hardware,
+certificate, which shall be an X.509 digital signature certificate issued under the id-fpki-common-piv-contentSigning, id-fpki-common-devices, id-fpki-common-devicesHardware, id-fpki-common-hardware,
 or id-fpki-common-High policy of [COMMON].[^legacypki] For signatures created on or after October 15, 2015,
 the public key required to verify the digital signature shall be provided in the certificates field of the CMS
 external digital signature in a content signing certificate, which shall be an X.509 digital signature
 certificate issued under the id-fpki-common-piv-contentSigning policy of [COMMON]. The content
-signing certificate shall also include an extended key usage (extKeyUsage) extension asserting id-PIV-
-content-signing. Additional descriptions for the PIV object identifiers are provided in Appendix B. The
+signing certificate shall also include an extended key usage (extKeyUsage) extension asserting id-PIV-content-signing. Additional descriptions for the PIV object identifiers are provided in Appendix B. The
 content signing certificate on a valid PIV Card (one that is neither expired nor revoked) shall not be
 expired.
 
-[^legacypki]: For legacy PKIs, as defined in Section 5.4, the certificates may be issued under a department or agency-specific policy that has
-been cross-certified with the Federal Bridge CA (FBCA) at the Medium Hardware or High Assurance Level.
+[^legacypki]: For legacy PKIs, as defined in Section 5.4, the certificates may be issued under a department or agency-specific policy that has been cross-certified with the Federal Bridge CA (FBCA) at the Medium Hardware or High Assurance Level.
 
 ### 4.2.2 Cryptographic Specifications
 
@@ -512,7 +518,7 @@ The PIV Card has both mandatory keys and optional keys:
     authentication for an interoperable environment.
 - The asymmetric Card Authentication key is a mandatory private key that supports card authentication
     for an interoperable environment.
-- The symmetric (secret) C ard Authentication key supports card authentication for physical access, and
+- The symmetric (secret) Card Authentication key supports card authentication for physical access, and
     it is optional.
 - The digital signature key is an asymmetric private key supporting document signing, and it is
     mandatory, unless the cardholder does not have a government-issued email account at the time of
@@ -521,8 +527,7 @@ The PIV Card has both mandatory keys and optional keys:
     and it is mandatory, unless the cardholder does not have a government-issued email account at the
     time of credential issuance. Optionally, up to twenty retired key management keys may also be
     stored on the PIV Card.
-- The PIV Card Application Administration Key is a symmetric key used for personalization and post-
-    issuance activities, and it is optional.
+- The PIV Card Application Administration Key is a symmetric key used for personalization and post-issuance activities, and it is optional.
 - The PIV Card may include additional key(s) for use with secure messaging. These keys are defined
     in [SP 800-73] or [SP 800-78].
 
@@ -610,8 +615,7 @@ key management keys.
     the PIV Card.
 
 [^backgroundstatus]: Other methods to indicate background investigative status will be explored in a future revision of this Standard.
-[^cardholderauthentication]: [NISTIR7863], Cardholder Authentication for the PIV Digital Signature Key, addresses the appropriate use of PIN caching
-related to digital signatures.
+[^cardholderauthentication]: [NISTIR7863], Cardholder Authentication for the PIV Digital Signature Key, addresses the appropriate use of PIN caching related to digital signatures.
 
 ### 4.2.3 PIV Biometric Data Specifications
 
@@ -632,8 +636,7 @@ The following biometric data may also be stored on the PIV Card:
 All biometric data shall be stored in the data elements referenced by [SP 800-73] and in conformance
 with the preparation and formatting specifications of [SP 800-76].
 
-[^fingerprints]: The on-card and off-card fingerprint reference data are stored separately and, as conformant instances of different formal
-fingerprint standards, are syntactically different. This is described more fully in [SP 800-76].
+[^fingerprints]: The on-card and off-card fingerprint reference data are stored separately and, as conformant instances of different formal fingerprint standards, are syntactically different. This is described more fully in [SP 800-76].
 
 #### 4.2.3.2 Biometric Data Protection
 
@@ -650,20 +653,17 @@ encoded as a CMS external digital signature as specified in [SP 800-76]. The alg
 requirements for the digital signature and digest algorithm are detailed in [SP 800-78].
 
 For signatures created before October 15, 2015, the public key required to verify the digital signature
-shall be contained in a content signing certificate, which shall be issued under the id-fpki-common-piv-
-contentSigning, id-fpki-common-devices, id-fpki-common-devicesHardware, id-fpki-common-hardware,
+shall be contained in a content signing certificate, which shall be issued under the id-fpki-common-piv-contentSigning, id-fpki-common-devices, id-fpki-common-devicesHardware, id-fpki-common-hardware,
 or id-fpki-common-High policy of [COMMON].[^crosscert] For signatures created on or after October 15, 2015,
 the public key required to verify the digital signature shall be contained in a content signing certificate,
 which shall be issued under the id-fpki-common-piv-contentSigning policy of [COMMON]. The content
-signing certificate shall also include an extended key usage (extKeyUsage) extension asserting id-PIV-
-content-signing. If the signature on the biometric was generated with a different key than the signature on
+signing certificate shall also include an extended key usage (extKeyUsage) extension asserting id-PIV-content-signing. If the signature on the biometric was generated with a different key than the signature on
 the CHUID, the certificates field of the CMS external digital signature shall include the content signing
 certificate required to verify the signature on the biometric. Otherwise, the certificates field shall be
 omitted. Additional descriptions for the PIV object identifiers are provided in Appendix B. The content
 signing certificate on a valid PIV Card (one that is neither expired nor revoked) shall not be expired.
 
-[^crosscert]: For legacy PKIs, as defined in Section 5.4, the certificates may be issued under a department or agency-specific policy that has
-been cross-certified with the Federal Bridge CA (FBCA) at the Medium Hardware or High Assurance Level.
+[^crosscert]: For legacy PKIs, as defined in Section 5.4, the certificates may be issued under a department or agency-specific policy that has been cross-certified with the Federal Bridge CA (FBCA) at the Medium Hardware or High Assurance Level.
 
 #### 4.2.3.3 Biometric Data Access
 
@@ -741,8 +741,7 @@ section provides requirements for PIN input devices. Further requirements are sp
 ### 4.4.1 Contact Reader Requirements
 
 Contact card readers shall conform to the [ISO7816] standard for the card-to-reader interface. These
-readers shall conform to the Personal Computer/Smart Card (PC/SC) Specification [PCSC] for the reader-
-to-host system interface in general desktop computing environment. Specifically, the contact card readers
+readers shall conform to the Personal Computer/Smart Card (PC/SC) Specification [PCSC] for the reader-to-host system interface in general desktop computing environment. Specifically, the contact card readers
 shall conform to the requirements specified in [SP 800-96]. In systems where the readers are not
 connected to general-purpose desktop computing systems, the reader-to-host system interface is not
 specified in this Standard.
@@ -751,8 +750,7 @@ specified in this Standard.
 
 Contactless card readers shall conform to [ISO14443] standard for the card-to-reader interface and data
 transmitted over the [ISO14443] link shall conform to [ISO7816]. In cases where these readers are
-connected to general-purpose desktop computing systems, they shall conform to [PCSC] for the reader-to-
-host system interface. Specifically, the contactless card readers shall conform to the requirements
+connected to general-purpose desktop computing systems, they shall conform to [PCSC] for the reader-to-host system interface. Specifically, the contactless card readers shall conform to the requirements
 specified in [SP 800-96]. In systems where the readers are not connected to general-purpose desktop
 computing systems, the reader-to-host system interface is not specified in this Standard.
 
@@ -762,8 +760,7 @@ computing systems, the reader-to-host system interface is not specified in this 
 The international standard ISO/IEC 24727 [ISO24727] enables a high degree of interoperability between
 electronic credentials and relying subsystems by means of an adaptation layer. To make interoperability
 among PIV System middleware, card readers, and credentials more resilient and flexible, the Department
-of Commerce will evaluate ISO/IEC 24727 and propose an optional profile of ISO/IEC 24727 in [SP 800-
-73]. The profile will explain how profile-conformant middleware, card readers, and PIV Cards can be
+of Commerce will evaluate ISO/IEC 24727 and propose an optional profile of ISO/IEC 24727 in [SP 800-73]. The profile will explain how profile-conformant middleware, card readers, and PIV Cards can be
 used interchangeably with middleware, card readers, and PIV Cards currently deployed.
 
 Specifications of the profile will become effective, as an optional means to implement PIV System

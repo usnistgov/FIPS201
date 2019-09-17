@@ -13,8 +13,7 @@ is normative.
 ## A.1 Accreditation of PIV Card Issuers (PCI)
 
 [HSPD-12] requires that all cards be issued by providers whose reliability has been established by an
-official accreditation process. The accreditation of the PIV Card issuer shall be reviewed through a third-
-party assessment to enhance the trustworthiness of the credential. To facilitate consistent independent
+official accreditation process. The accreditation of the PIV Card issuer shall be reviewed through a third-party assessment to enhance the trustworthiness of the credential. To facilitate consistent independent
 validation of the PCI, NIST developed a set of attributes as the basis of reliability assessment of PIV Card
 issuers in SP 800-79 and published this document in July 2005. Subsequent lessons learned in
 implementation experience (in credential management and PIV Card issuance) of various agencies

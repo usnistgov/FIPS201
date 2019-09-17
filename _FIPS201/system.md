@@ -39,6 +39,8 @@ specifications for this subsystem, various mechanisms for identification and aut
 Section 6 to provide consistent and secure means for performing the authentication function preceding an
 access control decision.
 
+![Figure 3-1]({{site.baseurl}}/{{page.collection}}/images/system.png){:style="width: 1047px;"}
+
 Figure 3-1 illustrates a notional model for the operational PIV system, identifying the various system
 components and the direction of data flow between these components. The boundary shown in the figure
 is not meant to preclude FIPS 201 requirements on systems outside these boundaries.
@@ -57,7 +59,7 @@ retrieve the appropriate information, located in the card’s memory, to relay i
 systems for granting or denying access.
 
 Card writers, which are very similar to the card readers, personalize and initialize the information stored
-on PIV Cards. Card writers may also be used to perform remote PIV Card updates (see Section 2.9. 2 ).
+on PIV Cards. Card writers may also be used to perform remote PIV Card updates (see Section 2.9.2).
 The data to be stored on PIV Cards includes personal information, certificates, cryptographic keys, the
 PIN, and biometric data, and is discussed in further detail in subsequent sections.
 
@@ -131,6 +133,8 @@ The PIV Card lifecycle consists of seven activities. The activities that take pl
 pre-personalization of the card at the manufacturer are not considered a part of this lifecycle model.
 Figure 3-2 presents these PIV activities and depicts the PIV Card request as the initial activity and PIV
 Card termination as the end of life.
+
+![Figure 3-2]({{site.baseurl}}/{{page.collection}}/images/lifecycle.png){:style="width: 1047px;"}
 
 Figure 3-2. PIV Card Lifecycle Activities
 

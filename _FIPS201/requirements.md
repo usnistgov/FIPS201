@@ -54,8 +54,7 @@ person not entitled to the credential.
 
 + An issued credential is not duplicated or forged, and is not modified by an unauthorized entity.
 
-[^background]: The initiation of a background investigation is defined as the submission of the investigative request to the Office of Personnel
-Management (OPM), or other Federal background investigation service provider (if authorized).
+[^background]: The initiation of a background investigation is defined as the submission of the investigative request to the Office of Personnel Management (OPM), or other Federal background investigation service provider (if authorized).
 
 
 ## 2.2 Credentialing Requirements
@@ -63,8 +62,7 @@ Management (OPM), or other Federal background investigation service provider (if
 Federal departments and agencies shall use the credentialing guidance issued by the Director of the Office
 of Personnel Management (OPM)[^OPM] and OMB[^OMB].
 
-[^OPM]: For example, [SPRINGER MEMO] at [http://www.opm.gov/investigate/resources/final_credentialing_standards.pdf](http://www.opm.gov/investigate/resources/final_credentialing_standards.pdf) and the
-Federal Investigative Standards 5.
+[^OPM]: For example, [SPRINGER MEMO] at [http://www.opm.gov/investigate/resources/final_credentialing_standards.pdf](http://www.opm.gov/investigate/resources/final_credentialing_standards.pdf) and the Federal Investigative Standards 5.
 
 [^OMB]: For example, [OMB0524] at [http://www.whitehouse.gov/sites/default/files/omb/memoranda/fy2005/m05-24.pdf.](http://www.whitehouse.gov/sites/default/files/omb/memoranda/fy2005/m05-24.pdf.)
 
@@ -146,9 +144,7 @@ identification data it collects. The chain-of-trust is a sequence of related enr
 created and maintained through the methods of contemporaneous acquisition of data within each
 enrollment data record, and biometric matching of samples between enrollment data records.[^fingerprints]
 
-[^fingerprints]: For example, ten fingerprints for law enforcement checks may be collected at one time and place, and two fingerprints for PIV
-Card templates may be collected at a later time and different place, provided that the two fingerprints are verified as among the
-ten original fingerprints.
+[^fingerprints]: For example, ten fingerprints for law enforcement checks may be collected at one time and place, and two fingerprints for PIV Card templates may be collected at a later time and different place, provided that the two fingerprints are verified as among the ten original fingerprints.
 
 It is recommended that the following data be included in the chain-of-trust:
 
@@ -187,14 +183,12 @@ representation described in [SP 800-156].
 The chain-of-trust can be applied in several situations to include:
 
 + Extended enrollment: a PIV applicant enrolls a full set of fingerprints for background investigations
-at one place and time, and two fingerprints for the PIV Card at another place and time. The chain-of-
-trust would contain identifiers and two enrollment data records, one with a full-set fingerprint
+at one place and time, and two fingerprints for the PIV Card at another place and time. The chain-of-trust would contain identifiers and two enrollment data records, one with a full-set fingerprint
 transaction, and one with two fingerprint templates. The two fingerprint templates would be matched
 against the corresponding fingers in the ten-fingerprint data set to link the chain.
 
 + Reissuance: a PIV cardholder loses his/her card. Since the card issuer has biometric enrollment data
-records, the cardholder can perform a 1:1 biometric match to reconnect to the card issuer’s chain-of-
-trust. The card issuer need not repeat the identity proofing and registration process. The card issuer
+records, the cardholder can perform a 1:1 biometric match to reconnect to the card issuer’s chain-of-trust. The card issuer need not repeat the identity proofing and registration process. The card issuer
 proceeds to issue a new card as described in Section 2.9.1.
 
 + Interagency transfer: a Federal employee is transferred from one agency to another. When the
@@ -229,7 +223,7 @@ be neither expired nor cancelled. If the two identity source documents bear diff
 of a formal name change shall be provided. The primary identity source document shall be one of the
 following forms of identification:
 
-  * a U .S. Passport or a U.S. Passport Card;
+  * a U.S. Passport or a U.S. Passport Card;
   * a Permanent Resident Card or an Alien Registration Receipt Card (Form I-551);
   * a foreign passport;
   * an Employment Authorization Document that contains a photograph (Form I-766);
@@ -281,14 +275,9 @@ may vary depending on the country.
 
 [^NAC]: The NAC is an automated record check.
 
-[^documents]: Departments and agencies may choose to accept only a subset of the identity source documents listed in this section. For
-example, in cases where identity proofing for PIV Card issuance is performed prior to verification of employment authorization,
-departments and agencies may choose to require the applicant to provide identity source documents that satisfy the requirements
-of Form I-9, Employment Eligibility Verification, in addition to the requirements specified in this section. It is recommended that
-departments and agencies perform electronic verification of identity source documents, where possible.
+[^documents]: Departments and agencies may choose to accept only a subset of the identity source documents listed in this section. For example, in cases where identity proofing for PIV Card issuance is performed prior to verification of employment authorization, departments and agencies may choose to require the applicant to provide identity source documents that satisfy the requirements of Form I-9, Employment Eligibility Verification, in addition to the requirements specified in this section. It is recommended that departments and agencies perform electronic verification of identity source documents, where possible.
 
-[^secondary]: For example, if the primary source document is a foreign passport (e.g., Italy), the secondary source document should not be
-another foreign passport (e.g., France).
+[^secondary]: For example, if the primary source document is a foreign passport (e.g., Italy), the secondary source document should not be another foreign passport (e.g., France).
 
 
 ## 2.8 PIV Card Issuance Requirements
@@ -348,8 +337,7 @@ authorized pseudonym shall follow the procedures in Section 2.8, PIV Card Issuan
 except that the card issuer must receive satisfactory evidence that the pseudonym is authorized by the
 agency.
 
-[^pseudonym]: See, for example, Section 10.5.7 of the Internal Revenue Service Manual (http://www.irs.gov/irm/index.html), which
-authorizes approval by an employee's supervisor of the use of a pseudonym to protect the employee's personal safety.
+[^pseudonym]: See, for example, Section 10.5.7 of the Internal Revenue Service Manual (http://www.irs.gov/irm/index.html), which authorizes approval by an employee's supervisor of the use of a pseudonym to protect the employee's personal safety.
 
 ### 2.8.2 Grace Period
 
@@ -364,17 +352,14 @@ be reconnected to the chain-of-trust record.[^lapse]
 When issuing a PIV Card under the grace period, the card issuer shall verify that PIV Card issuance has
 been authorized by a proper authority and that the employee’s or contractor’s background investigation is
 valid. Re-investigations shall be performed if required, in accordance with OPM guidance. At the time
-of issuance, the card issuer shall perform a 1:1 biometric match of the applicant to reconnect to the chain-
-of-trust. The 1:1 biometric match requires either a match of fingerprint(s) or, if unavailable, other
+of issuance, the card issuer shall perform a 1:1 biometric match of the applicant to reconnect to the chain-of-trust. The 1:1 biometric match requires either a match of fingerprint(s) or, if unavailable, other
 optional biometric data that are available. On successful match, the new PIV Card shall be released to the
 applicant. If the match is unsuccessful, or if no biometric data is available, the cardholder shall provide
 two identity source documents (as specified in Section 2.7), and an attending operator shall inspect these
 and compare the cardholder with the facial image retrieved from the enrollment data record and the facial
 image printed on the new PIV Card.
 
-[^lapse]: For the purposes of this section, a lapse is considered to be brief if it is not long enough to require that a new background
-investigation be performed. OPM currently requires a new background investigation to be performed when there has been a
-break in service of greater than two years. 
+[^lapse]: For the purposes of this section, a lapse is considered to be brief if it is not long enough to require that a new background investigation be performed. OPM currently requires a new background investigation to be performed when there has been a break in service of greater than two years. 
 
 ## 2.9 PIV Card Maintenance Requirements
 
@@ -409,7 +394,6 @@ then re-investigations shall be performed if required, in accordance with OPM gu
 
 The issuer shall perform a 1:1 biometric match of the applicant to reconnect to the chain-of-trust. The 1:1
 biometric match requires either a match of fingerprint(s) or, if unavailable, other optional biometric data
-
 that are available (either on the PIV Card or in the chain-of-trust). Minimum accuracy requirements for
 the biometric match are specified in [SP 800-76]. On successful match, the new PIV Card shall be
 released to the applicant. If the match is unsuccessful, or if no biometric data is available, the cardholder
@@ -502,15 +486,13 @@ remotely via a general computing platform:
 
 + When PIN reset is performed in-person at the issuer's facility, before providing the reset PIV Card
 back to the cardholder, the issuer shall perform a 1:1 biometric match to ensure that the cardholder's
-biometric matches either the stored biometric on the PIV Card or biometric data stored in the chain-
-of-trust. In cases where a biometric match is not possible, the cardholder shall provide the PIV Card
+biometric matches either the stored biometric on the PIV Card or biometric data stored in the chain-of-trust. In cases where a biometric match is not possible, the cardholder shall provide the PIV Card
 to be reset and another primary identity source document (as specified in Section 2.7). An attending
 operator shall inspect these and compare the cardholder with the facial image retrieved from the
 enrollment data record and the facial image printed on the card.
 
 + PIN reset at an unattended issuer-operated kiosk shall ensure that the PIV Card is authenticated and
-that the cardholder’s biometric matches either the stored biometric on the PIV Card, through an on-
-card 1:1 biometric match, or biometric data stored in the chain-of-trust, through an off-card 1:1
+that the cardholder’s biometric matches either the stored biometric on the PIV Card, through an on-card 1:1 biometric match, or biometric data stored in the chain-of-trust, through an off-card 1:1
 biometric match. If the biometric match or card authentication is unsuccessful, the kiosk shall not
 reset the PIV Card.
 
@@ -520,8 +502,7 @@ the following requirements are met:
   * the cardholder initiates a PIN reset with the issuer operator;
   * the operator authenticates the owner of the PIV Card through an out-of-band authentication
   procedure (e.g., pre-registered knowledge tokens); and
-  * the cardholder’s biometric matches the stored biometric on the PIV Card through a 1:1 on-
-  card biometric comparison.
+  * the cardholder’s biometric matches the stored biometric on the PIV Card through a 1:1 on-  card biometric comparison.
 
 The remote PIN reset operation shall satisfy the requirements for remote post issuance updates
 specified in Section 2.9.2.
@@ -645,5 +626,4 @@ To ensure the privacy throughout PIV lifecycle, departments and agencies shall d
 
 [^privacyofficial]: Privacy official refers to the Senior Agency Official for Privacy (SAOP) or Chief Privacy Officer (CPO).
 
-[^access]: Agencies may refer to NIST SP 800-122 [SP 800-122], Guide to Protecting the Confidentiality of Personally Identifiable
-Information (PII), for a best practice guideline on protection of PII.
+[^access]: Agencies may refer to NIST SP 800-122 [SP 800-122], Guide to Protecting the Confidentiality of Personally Identifiable Information (PII), for a best practice guideline on protection of PII.

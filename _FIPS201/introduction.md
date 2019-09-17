@@ -15,8 +15,7 @@ needed to make sound access control decisions.
 A wide range of mechanisms is employed to authenticate an identity, utilizing various classes of identity
 credentials. For physical access, an individual’s identity has traditionally been authenticated by use of
 paper or other non-automated, hand-carried credentials, such as driver’s licenses and badges. Access
-authorization to computers and data has traditionally been based on identities authenticated through user-
-selected passwords. More recently, cryptographic mechanisms and biometric techniques have been used
+authorization to computers and data has traditionally been based on identities authenticated through user-selected passwords. More recently, cryptographic mechanisms and biometric techniques have been used
 in physical and logical security applications, replacing or supplementing the traditional identity
 credentials.
 
@@ -106,8 +105,6 @@ When a feature is to be discontinued or is no longer needed, it is deprecated. I
 currently in use by relying systems would only be deprecated if there were a compelling (e.g., security)
 reason to do so. Deprecated features may continue to be used, but should be phased out in future systems
 since the feature will likely be removed in the next revision of the Standard. For example, the CHUID
-
-
 authentication mechanism (Section 6.2.5) has been deprecated, since it provides LITTLE or NO assurance
 in the identity of the cardholder, and so relying systems should phase out use of this authentication
 mechanism. [^CHUID]
@@ -143,8 +140,7 @@ for Personal Identity Verification. The requirements for cryptographic algorithm
 Publication 800-78 [SP 800-78], Cryptographic Algorithms and Key Sizes for Personal Identity
 Verification. The requirements for the accreditation of PIV Card issuers are specified in Special
 Publication 800-79 [SP 800-79], Guidelines for the Accreditation of Personal Identity Verification Card
-Issuers. The unique organizational codes for Federal agencies are assigned in Special Publication 800-
-[SP 800-87], Codes for the Identification of Federal and Federally-Assisted Organizations. The
+Issuers. The unique organizational codes for Federal agencies are assigned in Special Publication 800-87 [SP 800-87], Codes for the Identification of Federal and Federally-Assisted Organizations. The
 requirements for the PIV Card reader are provided in Special Publication 800-96 [SP 800-96], PIV Card
 to Reader Interoperability Guidelines. The format for encoding the chain-of-trust for import and export is
 specified in Special Publication 800-156 [SP 800-156], Representation of PIV Chain-of-Trust for Import
