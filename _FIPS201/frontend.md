@@ -49,8 +49,9 @@ security feature. Examples of these security features include the following:
 - holographic images; and
 - watermarks.
 
-Incorporation of security features shallbe in accordance with durability requirements;
+Incorporation of security features shall—
 
+- be in accordance with durability requirements;
 - be free of defects, such as fading and discoloration;
 - not obscure printed information; and
 - not impede access to machine-readable information.
@@ -151,9 +152,9 @@ Zone 2F—Name. The full name[^pseudonym] shall be printed directly under the ph
 full name shall be composed of a Primary Identifier (i.e., surnames or family names) and a Secondary
 Identifier (i.e., pre-names or given names). The printed name shall match the name on the identity source
 documents provided during identity proofing and registration to the extent possible. The full name shall
-be printed in the <Primary Identifier>, <Secondary Identifier> format. The entire full name should be
+be printed in the &lt;Primary Identifier&gt;, &lt;Secondary Identifier&gt; format. The entire full name should be
 printed on available lines of Zone 2F and either identifier could be wrapped. The wrapped identifier shall
-be indicated with “>” character at the end of the line. The identifiers may be printed on separate lines if
+be indicated with “&gt;” character at the end of the line. The identifiers may be printed on separate lines if
 each fits on one line. Departments and agencies shall use the largest font size of 7 to 10 points that allows
 the full name to be printed. The font size 7 point allows space for 3 lines and shall only be used if the full
 name does not fit on two lines with font size 8 point. Table 4-1 provides examples of separate Primary
@@ -517,7 +518,7 @@ The PIV Card has both mandatory keys and optional keys:
     authentication for an interoperable environment.
 - The asymmetric Card Authentication key is a mandatory private key that supports card authentication
     for an interoperable environment.
-- The symmetric (secret) C ard Authentication key supports card authentication for physical access, and
+- The symmetric (secret) Card Authentication key supports card authentication for physical access, and
     it is optional.
 - The digital signature key is an asymmetric private key supporting document signing, and it is
     mandatory, unless the cardholder does not have a government-issued email account at the time of
@@ -614,7 +615,7 @@ key management keys.
     the PIV Card.
 
 [^backgroundstatus]: Other methods to indicate background investigative status will be explored in a future revision of this Standard.
-[^cardholderauthentication]: [NISTIR7863], Cardholder Authentication for the PIV Digital Signature Key, addresses the appropriate use of PIN cachingrelated to digital signatures.
+[^cardholderauthentication]: [NISTIR7863], Cardholder Authentication for the PIV Digital Signature Key, addresses the appropriate use of PIN caching related to digital signatures.
 
 ### 4.2.3 PIV Biometric Data Specifications
 

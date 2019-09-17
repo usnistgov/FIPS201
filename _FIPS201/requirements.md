@@ -223,7 +223,7 @@ be neither expired nor cancelled. If the two identity source documents bear diff
 of a formal name change shall be provided. The primary identity source document shall be one of the
 following forms of identification:
 
-  * a U .S. Passport or a U.S. Passport Card;
+  * a U.S. Passport or a U.S. Passport Card;
   * a Permanent Resident Card or an Alien Registration Receipt Card (Form I-551);
   * a foreign passport;
   * an Employment Authorization Document that contains a photograph (Form I-766);
@@ -394,7 +394,6 @@ then re-investigations shall be performed if required, in accordance with OPM gu
 
 The issuer shall perform a 1:1 biometric match of the applicant to reconnect to the chain-of-trust. The 1:1
 biometric match requires either a match of fingerprint(s) or, if unavailable, other optional biometric data
-
 that are available (either on the PIV Card or in the chain-of-trust). Minimum accuracy requirements for
 the biometric match are specified in [SP 800-76]. On successful match, the new PIV Card shall be
 released to the applicant. If the match is unsuccessful, or if no biometric data is available, the cardholder

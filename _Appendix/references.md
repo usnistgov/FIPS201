@@ -56,7 +56,6 @@ Cards—Proximity Cards, ISO, 2000.
 [ISO3166] ISO 3166-1:2006. Codes for the representation of names of countries and their
 subdivisions—Part 1: Country codes.
 
-
 [ISO7810] ISO/IEC 7810:2003, Identification Cards—Physical Characteristics, ISO, 2003.
 
 [ISO7811] ISO/IEC 7811, Identification cards -- Recording technique. Part 6—Magnetic
@@ -128,19 +127,19 @@ Federal Information Systems and Organizations, NIST, August 2009 or as amended.
 [SP 800-59] NIST Special Publication 800-59, Guideline for Identifying an Information System
 as a National Security System, NIST, August 2003 or as amended.
 
-[SP 800-63] NIST Special Publication 800- 63 -1, Electronic Authentication Guideline, NIST,
+[SP 800-63] NIST Special Publication 800-63-1, Electronic Authentication Guideline, NIST,
 December 2011 or as amended.
 
-[SP 800-73] NIST Special Publication 800- 73 -3, Interfaces for Personal Identity Verification,
+[SP 800-73] NIST Special Publication 800-73-3, Interfaces for Personal Identity Verification,
 NIST, February 2010 or as amended.
 
-[SP 800-76] NIST Special Publication 800- 76 -2, Biometric Specifications for Personal Identity
+[SP 800-76] NIST Special Publication 800-76-2, Biometric Specifications for Personal Identity
 Verification, NIST, July 2013 or as amended.
 
-[SP 800-78] NIST Special Publication 800- 78 -3, Cryptographic Algorithms and Key Sizes for
+[SP 800-78] NIST Special Publication 800-78-3, Cryptographic Algorithms and Key Sizes for
 Personal Identity Verification, NIST, December 2010 or as amended.
 
-[SP 800-79] NIST Special Publication 800- 79 -1, Guidelines for the Accreditation of Personal
+[SP 800-79] NIST Special Publication 800-79-1, Guidelines for the Accreditation of Personal
 Identity Verification Card Issuers, NIST, June 2008 or as amended.
 
 [SP 800-85A] NIST Special Publication 800-85A-2, PIV Card Application and Middleware

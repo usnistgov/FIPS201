@@ -210,7 +210,7 @@ Successful path validation provides strong evidence that the information in the 
 trustworthy.
 
 Personally Identifiable Information (PII)
-: I nformation that can be used to distinguish or trace an
+: Information that can be used to distinguish or trace an
 individual's identity, such as name, social security number, biometric records, etc. alone, or when
 combined with other personal or identifying information that is linked or linkable to a specific individual,
 such as date and place of birth, mother’s maiden name, etc. [OMB0716]
