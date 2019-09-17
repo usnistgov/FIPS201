@@ -526,7 +526,7 @@ The PIV Card has both mandatory keys and optional keys:
     and it is mandatory, unless the cardholder does not have a government-issued email account at the
     time of credential issuance. Optionally, up to twenty retired key management keys may also be
     stored on the PIV Card.
-- The PIV Card Application Administration Key is a symmetric key used for personalization and post-    issuance activities, and it is optional.
+- The PIV Card Application Administration Key is a symmetric key used for personalization and post-issuance activities, and it is optional.
 - The PIV Card may include additional key(s) for use with secure messaging. These keys are defined
     in [SP 800-73] or [SP 800-78].
 
