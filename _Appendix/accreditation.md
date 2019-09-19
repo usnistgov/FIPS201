@@ -19,7 +19,7 @@ issuers in SP 800-79 and published this document in July 2005. Subsequent lesson
 implementation experience (in credential management and PIV Card issuance) of various agencies
 together with the evolution of PCI organizations motivated NIST to develop a new accreditation
 methodology that is objective, efficient, and will result in consistent and repeatable accreditation
-decisions and published the substantial revision as SP 800- 79 -1 in June 2008 [SP 800-79]. The new PCI
+decisions and published the substantial revision as SP 800-79-1 in June 2008 [SP 800-79]. The new PCI
 accreditation methodology is built on a foundation of four major accreditation topics, 13 accreditation
 focus areas, and a total of 79 control requirements distributed under the various accreditation focus areas.
 Associated with each control requirement is a set of assessment methods, the exercise of the latter will
@@ -68,8 +68,8 @@ mandatory for issuing PCI accreditation using [SP 800-79].
 Assurance of conformance of the PIV Card Application and PIV Middleware interfaces to this Standard
 and its associated technical specifications is needed in order to meet the security and interoperability
 goals of [HSPD-12]. To facilitate this, NIST has established the NIST Personal Identity Verification
-Program (NPIVP). Under this program NIST has developed test procedures in SP 800-85A, PIV Card
-Application and Middleware Interface Test Guidelines (SP 800-73 compliance), and an associated toolkit
+Program (NPIVP). Under this program NIST has developed test procedures in SP 800-85A, *PIV Card
+Application and Middleware Interface Test Guidelines (SP 800-73 compliance)*, and an associated toolkit
 for conformance testing of PIV Card Applications and PIV Middleware [SP 800-85A]. Commercial
 products under these two categories are tested by the set of accredited test laboratories, accredited under
 the National Voluntary Laboratory Accreditation Program (NVLAP) program, using the NIST supplied

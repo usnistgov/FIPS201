@@ -101,7 +101,7 @@ If the biometric data that is collected as specified in this section and in Sect
 occasions, then a 1:1 biometric match of the applicant shall be performed at each visit against biometric
 data collected during a previous visit.
 
-Biometric data collection shall conform to the procedural and technical specifications of [SP 800 -76].
+Biometric data collection shall conform to the procedural and technical specifications of [SP 800-76].
 The choice of which two fingers is important and may vary between persons. The recommended
 selection and order is specified in [SP 800-76].
 
@@ -275,7 +275,7 @@ may vary depending on the country.
 
 [^NAC]: The NAC is an automated record check.
 
-[^documents]: Departments and agencies may choose to accept only a subset of the identity source documents listed in this section. For example, in cases where identity proofing for PIV Card issuance is performed prior to verification of employment authorization, departments and agencies may choose to require the applicant to provide identity source documents that satisfy the requirements of Form I-9, Employment Eligibility Verification, in addition to the requirements specified in this section. It is recommended that departments and agencies perform electronic verification of identity source documents, where possible.
+[^documents]: Departments and agencies may choose to accept only a subset of the identity source documents listed in this section. For example, in cases where identity proofing for PIV Card issuance is performed prior to verification of employment authorization, departments and agencies may choose to require the applicant to provide identity source documents that satisfy the requirements of Form I-9, *Employment Eligibility Verification*, in addition to the requirements specified in this section. It is recommended that departments and agencies perform electronic verification of identity source documents, where possible.
 
 [^secondary]: For example, if the primary source document is a foreign passport (e.g., Italy), the secondary source document should not be another foreign passport (e.g., France).
 
@@ -570,7 +570,7 @@ required to have procedures in place to issue emergency notifications in such ca
 ## 2.10 Derived PIV Credentials Issuance Requirements
 
 Valid PIV Cards may be used as the basis for issuing derived PIV credentials in accordance with NIST
-Special Publication 800-157, Guidelines for Derived Personal Identity Verification (PIV) Credentials
+Special Publication 800-157, *Guidelines for Derived Personal Identity Verification (PIV) Credentials*
 [SP 800-157]. When a cardholder's PIV Card is terminated as specified in Section 2.9.4, any derived PIV
 credentials issued to the cardholder shall also be terminated.
 
@@ -626,4 +626,4 @@ To ensure the privacy throughout PIV lifecycle, departments and agencies shall d
 
 [^privacyofficial]: Privacy official refers to the Senior Agency Official for Privacy (SAOP) or Chief Privacy Officer (CPO).
 
-[^access]: Agencies may refer to NIST SP 800-122 [SP 800-122], Guide to Protecting the Confidentiality of Personally Identifiable Information (PII), for a best practice guideline on protection of PII.
+[^access]: Agencies may refer to NIST SP 800-122 [SP 800-122], *Guide to Protecting the Confidentiality of Personally Identifiable Information (PII)*, for a best practice guideline on protection of PII.

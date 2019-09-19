@@ -134,18 +134,18 @@ the policies and minimum requirements of a PIV Card that allows interoperability
 physical and logical access. The physical card characteristics, storage media, and data elements that make
 up identity credentials are specified in this Standard. The interfaces and card architecture for storing and
 retrieving identity credentials from a smart card are specified in Special Publication 800-73 [SP 800-73],
-Interfaces for Personal Identity Verification. Similarly, the requirements for collection and formatting of
-biometric information are specified in Special Publication 800-76 [SP 800-76], Biometric Specifications
-for Personal Identity Verification. The requirements for cryptographic algorithms are specified in Special
-Publication 800-78 [SP 800-78], Cryptographic Algorithms and Key Sizes for Personal Identity
-Verification. The requirements for the accreditation of PIV Card issuers are specified in Special
-Publication 800-79 [SP 800-79], Guidelines for the Accreditation of Personal Identity Verification Card
-Issuers. The unique organizational codes for Federal agencies are assigned in Special Publication 800-87 [SP 800-87], Codes for the Identification of Federal and Federally-Assisted Organizations. The
-requirements for the PIV Card reader are provided in Special Publication 800-96 [SP 800-96], PIV Card
-to Reader Interoperability Guidelines. The format for encoding the chain-of-trust for import and export is
-specified in Special Publication 800-156 [SP 800-156], Representation of PIV Chain-of-Trust for Import
-and Export. The requirements for issuing derived PIV credentials are specified in Special Publication
-800-157 [SP 800-157], Guidelines for Derived Personal Identity Verification (PIV) Credentials.
+*Interfaces for Personal Identity Verification*. Similarly, the requirements for collection and formatting of
+biometric information are specified in Special Publication 800-76 [SP 800-76], *Biometric Specifications
+for Personal Identity Verification*. The requirements for cryptographic algorithms are specified in Special
+Publication 800-78 [SP 800-78], *Cryptographic Algorithms and Key Sizes for Personal Identity
+Verification*. The requirements for the accreditation of PIV Card issuers are specified in Special
+Publication 800-79 [SP 800-79], *Guidelines for the Accreditation of Personal Identity Verification Card
+Issuers*. The unique organizational codes for Federal agencies are assigned in Special Publication 800-87 [SP 800-87], *Codes for the Identification of Federal and Federally-Assisted Organizations*. The
+requirements for the PIV Card reader are provided in Special Publication 800-96 [SP 800-96], *PIV Card
+to Reader Interoperability Guidelines*. The format for encoding the chain-of-trust for import and export is
+specified in Special Publication 800-156 [SP 800-156], *Representation of PIV Chain-of-Trust for Import
+and Export*. The requirements for issuing derived PIV credentials are specified in Special Publication
+800-157 [SP 800-157], *Guidelines for Derived Personal Identity Verification (PIV) Credentials*.
 
 This Standard contains normative references to other documents, and to the extent described in each
 citation these documents are included by reference in this Standard. Should normative text in this
@@ -155,32 +155,32 @@ prevails for this Standard.
 [^CHUID]: The CHUID data element has not been deprecated and continues to be mandatory.
 
 
-All sections in this document are normative (i.e., mandatory for compliance) unless specified as
+All sections in this document are *normative* (i.e., mandatory for compliance) unless specified as
 informative (i.e., non-mandatory). Following is the structure of this document:
 
 + [Section 1, Introduction](introduction.md), provides background information for understanding the scope of this
-Standard. This section is informative.
+Standard. This section is *informative*.
 + [Section 2, Common Identification, Security, and Privacy Requirements](requirements.md), outlines the requirements
 for identity proofing, registration, and issuance, by establishing the control and security
-objectives for compliance with [HSPD-12]. This section is normative.
+objectives for compliance with [HSPD-12]. This section is *normative*.
 + [Section 3, PIV System Overview](system.md), serves to provide a PIV system overview. This section is
-informative.
+*informative*.
 + [Section 4, PIV Front-End Subsystem](frontend.md), provides the requirements for the components of the PIV
 front-end subsystem. Specifically, this section defines requirements for the PIV Card, logical
-data elements, biometrics, cryptography, and card readers. This section is normative.
+data elements, biometrics, cryptography, and card readers. This section is *normative*.
 + [Section 5, PIV Key Management Requirements](keymanagement.md), defines the processes and components required
 for managing a PIV Card’s lifecycle. It also provides the requirements and specifications related
-to this subsystem. This section is normative.
+to this subsystem. This section is *normative*.
 + [Section 6, PIV Cardholder Authentication](authentication.md), defines a suite of authentication mechanisms that are
 supported by the PIV Card, and their applicability in meeting the requirements of graduated
-levels of identity assurance. This section is normative.
+levels of identity assurance. This section is *normative*.
 + [Appendix A, PIV Validation, Certification, and Accreditation](../_Appendix/accreditation.md), provides additional information
-regarding compliance with this document. This appendix is normative.
+regarding compliance with this document. This appendix is *normative*.
 + [Appendix B, PIV Object Identifiers and Certificate Extension](../_Appendix/oid.md), provides additional details for the
-PIV objects identified in Section 4. This appendix is normative.
+PIV objects identified in Section 4. This appendix is *normative*.
 + [Appendix C, Glossary of Terms, Acronyms, and Notations](../_Appendix/glossary.md), describes the vocabulary and textual
-representations used in the document. This appendix is informative.
+representations used in the document. This appendix is *informative*.
 + [Appendix D, References](../_Appendix/references.md), lists the specifications and standards referred to in this document. This
-appendix is informative.
+appendix is *informative*.
 + [Appendix E, Revision History](../_Appendix/revisions.md), lists changes made to this Standard from its inception. This
-appendix is informative.
+appendix is *informative*.

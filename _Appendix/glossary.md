@@ -128,10 +128,10 @@ Hash Function
 : A function that maps a bit string of arbitrary length to a fixed length bit string. Secure
 hash functions [FIPS180] satisfy the following properties:
 
-1. One-Way. It is computationally infeasible to find any input that maps to any pre-specified
+1. **One-Way.** It is computationally infeasible to find any input that maps to any pre-specified
     output.
 
-2. Collision Resistant. It is computationally infeasible to find any two distinct inputs that map to
+2. **Collision Resistant.** It is computationally infeasible to find any two distinct inputs that map to
     the same output.
 
 Identification
@@ -529,7 +529,7 @@ UUID
 
 This Standard uses the following typographical conventions in text:
 
-- ASN.1 data types are represented in italics. For example, SignedData and SignerInfo are data types
+- ASN.1 data types are represented in *italics*. For example, *SignedData* and *SignerInfo* are data types
     defined for digital signatures.
 - Letters or words in CAPITALS separated with underscore represent CBEFF-compliant data
     structures. For example, CBEFF_HEADER is a header field in the CBEFF structure.
