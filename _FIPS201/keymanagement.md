@@ -16,15 +16,15 @@ manage X.509 public key certificates as specified below.
 
 The CA that issues certificates to support PIV Card authentication shall participate in the hierarchical PKI
 for the Common Policy managed by the Federal PKI. Self-signed, self-issued, and CA certificates issued
-by these CAs shall conform to Worksheet 1: Self-Signed Certificate Profile, Worksheet 2: Self-Issued CA
-Certificate Profile, and Worksheet 3: Cross Certificate Profile, respectively, in X.509 Certificate and
-Certificate Revocation List (CRL) Extensions Profile for the Shared Service Providers (SSP) Program
+by these CAs shall conform to *Worksheet 1: Self-Signed Certificate Profile*, *Worksheet 2: Self-Issued CA
+Certificate Profile*, and *Worksheet 3: Cross Certificate Profile*, respectively, in *X.509 Certificate and
+Certificate Revocation List (CRL) Extensions Profile for the Shared Service Providers (SSP) Program*
 [PROF]. The requirements for legacy PKIs are defined in Section 5.4.
 
 ## 5.2 PKI Certificate
 
-All certificates issued to support PIV Card authentication shall be issued under the X.509 Certificate
-Policy for the U.S. Federal PKI Common Policy Framework [COMMON]. The requirements in this
+All certificates issued to support PIV Card authentication shall be issued under the *X.509 Certificate
+Policy for the U.S. Federal PKI Common Policy Framework* [COMMON]. The requirements in this
 certificate policy cover identity proofing and the management of CAs and registration authorities. CAs
 and registration authorities may be operated by departments and agencies, or may be outsourced to PKI
 service providers. For a list of PKI service providers that have been approved to operate under
@@ -36,14 +36,14 @@ The required contents of X.509 certificates associated with PIV private keys are
 relationship is described below:
 
 - Certificates containing the public key associated with an asymmetric Card Authentication private key
-    shall conform to Worksheet 8: Card Authentication Certificate Profile in [PROF].
+    shall conform to *Worksheet 8: Card Authentication Certificate Profile* in [PROF].
 - Certificates containing the public key associated with a digital signature private key shall conform to
-    Worksheet 5: End Entity Signature Certificate Profile in [PROF] and shall specify either the id-fpki-common-hardware or id-fpki-common-High policy of [COMMON] in the certificate policies
+    *Worksheet 5: End Entity Signature Certificate Profile* in [PROF] and shall specify either the id-fpki-common-hardware or id-fpki-common-High policy of [COMMON] in the certificate policies
     extension.
 - Certificates containing the public key associated with a PIV Authentication private key shall conform
-    to Worksheet 9: PIV Authentication Certificate Profile in [PROF].
+    to *Worksheet 9: PIV Authentication Certificate Profile* in [PROF].
 - Certificates containing the public key associated with a key management private key shall conform to
-    Worksheet 6: Key Management Certificate Profile in [PROF].[^keypolicy]
+    *Worksheet 6: Key Management Certificate Profile* in [PROF].[^keypolicy]
 - Requirements for algorithms and key sizes for each type of PIV asymmetric key are given in
     [SP 800-78].
 
@@ -54,7 +54,7 @@ may choose not to accept certificates that only assert id-fpki-common-policy.
 ## 5.3 X.509 CRL Contents
 
 CAs that issue certificates corresponding to PIV private keys shall issue CRLs as specified in
-[COMMON]. The contents of X.509 CRLs shall conform to Worksheet 4: CRL Profile in [PROF].
+[COMMON]. The contents of X.509 CRLs shall conform to *Worksheet 4: CRL Profile* in [PROF].
 
 ## 5.4 Legacy PKIs
 
@@ -90,8 +90,8 @@ issues PIV Authentication or Card Authentication certificates shall operate an O
 certificate status for every authentication certificate the CA issues.
 
 PIV Authentication, Card Authentication, digital signature, and key management certificates shall contain
-the crlDistributionPoints extension needed to locate CRLs. PIV Authentication certificates and Card
-Authentication certificates shall also contain the authorityInfoAccess extension needed to locate the
+the *crlDistributionPoints* extension needed to locate CRLs. PIV Authentication certificates and Card
+Authentication certificates shall also contain the *authorityInfoAccess* extension needed to locate the
 authoritative OCSP responder.
 
 ### 5.5.1 Certificate and CRL Distribution
@@ -111,7 +111,7 @@ Table IV—End-Entity Certificate Repository Service Requirements of [SSP REP] s
 
 OCSP [RFC2560] status responders shall be implemented as a supplementary certificate status
 mechanism. The OCSP status responders must be updated at least as frequently as CRLs are issued. The
-definitive OCSP responder for each certificate shall be specified in the authorityInfoAccess extension as
+definitive OCSP responder for each certificate shall be specified in the *authorityInfoAccess* extension as
 described in [PROF].
 
 
