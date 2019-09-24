@@ -480,7 +480,7 @@ management key, was compromised, the corresponding certificate shall be revoked.
 
 The Personal Identification Number (PIN) on a PIV Card may need to be reset if the cardholder has
 forgotten the PIN or if PIN-based cardholder authentication has been disabled from the usage of an
-invalid PIN more than the allowed number of retries. A maximum of 10 PIN retries shall be permitted unless a lower limit is stipulated by the department or agency.[^pinreset] PIN reset
+invalid PIN more than the allowed number of retries. A maximum of ten PIN retries shall be permitted unless a lower limit is stipulated by the department or agency.[^pinreset] PIN reset
 may be performed in-person at the issuer’s facility, at an unattended kiosk operated by the issuer, or
 remotely via a general computing platform:
 
