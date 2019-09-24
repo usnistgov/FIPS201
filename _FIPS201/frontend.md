@@ -720,7 +720,7 @@ activation of the card after a number of consecutive failed activation attempts.
 consecutive failed activation attempts may vary by activation mechanism.
 
 The PIN should not be easily guessable or otherwise individually identifiable in nature (e.g., part of a
-Social Security Number, phone number). The required PIN length shall be a minimum of six digits.
+Social Security Number, phone number). The PIN shall be a minimum of six digits in length. The PIV Card shall compare the chosen PIN against a list of at least 10 commonly-chosen values (e.g., 000000, 123456) and require the choice of a different value if one of those is selected by the user. 
 
 ### 4.3.2 Activation by Card Management System
 

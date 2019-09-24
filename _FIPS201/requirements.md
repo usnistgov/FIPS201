@@ -480,7 +480,7 @@ management key, was compromised, the corresponding certificate shall be revoked.
 
 The Personal Identification Number (PIN) on a PIV Card may need to be reset if the cardholder has
 forgotten the PIN or if PIN-based cardholder authentication has been disabled from the usage of an
-invalid PIN more than the allowed number of retries stipulated by the department or agency.[^pinreset] PIN reset
+invalid PIN more than the allowed number of retries. A maximum of 10 PIN retries shall be permitted unless a lower limit is stipulated by the department or agency.[^pinreset] PIN reset
 may be performed in-person at the issuer’s facility, at an unattended kiosk operated by the issuer, or
 remotely via a general computing platform:
 
@@ -500,15 +500,17 @@ reset the PIV Card.
 the following requirements are met:
 
   * the cardholder initiates a PIN reset with the issuer operator;
-  * the operator authenticates the owner of the PIV Card through an out-of-band authentication
-  procedure (e.g., pre-registered knowledge tokens); and
-  * the cardholder’s biometric matches the stored biometric on the PIV Card through a 1:1 on-  card biometric comparison.
+  * the operator authenticates the owner of the PIV Card through an independent authentication
+  procedure; and
+  * the cardholder’s biometric matches the stored biometric on the PIV Card through a 1:1 on-card biometric comparison.
 
 The remote PIN reset operation shall satisfy the requirements for remote post issuance updates
 specified in Section 2.9.2.
 
 Departments and agencies may adopt more stringent procedures for PIN reset (including disallowing PIN
 reset). PIN reset procedures shall be formally documented by each department and agency.
+
+Regardless of the PIN reset procedure used, the chosen PIN shall meet the activation requirements specified in Section 4.3.1.
 
 Verification data other than the PIN may also be reset (i.e., re-enrollment) by the card issuer. Before the
 reset, the issuer shall perform a 1:1 biometric match of the cardholder to reconnect to the chain-of-trust.
