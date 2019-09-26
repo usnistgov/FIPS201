@@ -500,7 +500,7 @@ reset the PIV Card.
 the following requirements are met:
 
   * the cardholder initiates a PIN reset with the issuer operator;
-  * the operator authenticates the owner of the PIV Card through an independent authentication
+  * the operator authenticates the owner of the PIV Card through an independent
   procedure; and
   * the cardholder’s biometric matches the stored biometric on the PIV Card through a 1:1 on-card biometric comparison.
 
