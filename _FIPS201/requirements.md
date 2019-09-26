@@ -169,7 +169,7 @@ completed.
 + The evidence of authorization if the credential is issued under a pseudonym.
 
 + Any data or any subsequent changes in the data about the cardholder. If the changed data is the
-cardholder’s name, then the issuer should include the evidence of a formal name change.
+cardholder’s name, then the issuer SHOULD include the evidence of a formal name change.
 
 The biometric data in the chain-of-trust SHALL be valid for at most 12 years. In order to mitigate ageing
 effects and thereby maintain operational readiness of a cardholder's PIV Card, agencies may require
@@ -277,7 +277,7 @@ may vary depending on the country.
 
 [^documents]: Departments and agencies may choose to accept only a subset of the identity source documents listed in this section. For example, in cases where identity proofing for PIV Card issuance is performed prior to verification of employment authorization, departments and agencies may choose to require the applicant to provide identity source documents that satisfy the requirements of Form I-9, *Employment Eligibility Verification*, in addition to the requirements specified in this section. It is recommended that departments and agencies perform electronic verification of identity source documents, where possible.
 
-[^secondary]: For example, if the primary source document is a foreign passport (e.g., Italy), the secondary source document should not be another foreign passport (e.g., France).
+[^secondary]: For example, if the primary source document is a foreign passport (e.g., Italy), the secondary source document SHOULD NOT be another foreign passport (e.g., France).
 
 
 ## 2.8 PIV Card Issuance Requirements
@@ -294,8 +294,7 @@ of the Federal department or agency.
 
 + Before issuing the PIV Card, the process SHALL ensure that a previously completed and favorably adjudicated
 NACI (or equivalent or higher) or Tier 1 or higher federal background investigation is on record. In the
-absence of a record, the required federal background investigation SHALL be initiated.[^IDMS] The PIV Card should
-not be issued before the results of the NAC are complete. However, if the results of the NAC have not been
+absence of a record, the required federal background investigation SHALL be initiated.[^IDMS] The PIV Card SHOULD NOT be issued before the results of the NAC are complete. However, if the results of the NAC have not been
 received in 5 days, the PIV Card may be issued based on the FBI NCHC. In the absence of an FBI NCHC
 (e.g., due to unclassifiable fingerprints) the NAC results are required prior to issuing a PIV Card. The PIV
 Card SHALL be terminated if the results of the background investigation so justify.
@@ -324,7 +323,7 @@ PIV Cards that contain topographical defects (e.g., scratches, poor color, fadin
 properly printed SHALL be destroyed. The PIV Card issuer is responsible for the card stock, its
 management, and its integrity.
 
-[^IDMS]: The identity management system (IDMS) should reflect the adjudication status of each PIV cardholder.
+[^IDMS]: The identity management system (IDMS) SHOULD reflect the adjudication status of each PIV cardholder.
 
 ### 2.8.1 Special Rule for Pseudonyms
 

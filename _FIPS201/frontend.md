@@ -129,7 +129,7 @@ optional printed information and mandated and optional machine-readable technolo
 optional items SHALL generally be placed as described and depicted. Printed data SHALL NOT interfere with
 machine-readable technology.
 
-Areas that are marked as reserved should not be used for printing. The reason for the recommended
+Areas that are marked as reserved SHOULD NOT be used for printing. The reason for the recommended
 reserved areas is that placement of the embedded contactless ICC module may vary from manufacturer to
 manufacturer, and there are constraints that prohibit printing over the embedded contactless module. The
 PIV Card topography provides flexibility for placement of the embedded module, either in the upper
@@ -146,20 +146,20 @@ integration of features that may improve tamper resistance and anti-counterfeiti
 
 *Zone 1F—Photograph*. The photograph SHALL be placed in the upper left corner, as depicted in Figure 4-1,
 and be a full frontal pose from top of the head to shoulder. A minimum of 300 dots per inch (dpi)
-resolution SHALL be used. The background should follow recommendations set forth in [SP 800-76].
+resolution SHALL be used. The background SHOULD follow recommendations set forth in [SP 800-76].
 
 *Zone 2F—Name*. The full name[^pseudonym] SHALL be printed directly under the photograph in capital letters. The
 full name SHALL be composed of a Primary Identifier (i.e., surnames or family names) and a Secondary
 Identifier (i.e., pre-names or given names). The printed name SHALL match the name on the identity source
 documents provided during identity proofing and registration to the extent possible. The full name SHALL
-be printed in the &lt;Primary Identifier&gt;, &lt;Secondary Identifier&gt; format. The entire full name should be
+be printed in the &lt;Primary Identifier&gt;, &lt;Secondary Identifier&gt; format. The entire full name SHOULD be
 printed on available lines of Zone 2F and either identifier could be wrapped. The wrapped identifier SHALL
 be indicated with “&gt;” character at the end of the line. The identifiers may be printed on separate lines if
 each fits on one line. Departments and agencies SHALL use the largest font size of 7 to 10 points that allows
 the full name to be printed. The font size 7 point allows space for 3 lines and SHALL only be used if the full
 name does not fit on two lines with font size 8 point. Table 4-1 provides examples of separate Primary
 and Secondary Identifier lines, single line with identifiers, wrapped full names, and full name in three
-lines. Note that the truncation should only occur if the full name cannot be printed in 7 point font.
+lines. Note that the truncation SHOULD only occur if the full name cannot be printed in 7 point font.
 
 Names in the Primary Identifier and the first name in the Secondary Identifier SHALL NOT be abbreviated.
 Other names and conventional prefixes and suffixes, which SHALL be included in the Secondary Identifier,
