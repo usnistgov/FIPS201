@@ -234,7 +234,7 @@ following forms of identification:
 
   The second piece of evidence may be from the list above, provided it is not of the same type
 as the primary identity source document.[^second] The second identity source document may also be one
-of the following, provided it meets the requirements of Fair evidence as specified in [SP 800-63A] Section 5.2.1:
+of the following:
 
   * a U.S. Social Security Card issued by the Social Security Administration;
   * an original or certified copy of a birth certificate issued by a state, county, municipal
@@ -255,14 +255,15 @@ of the following, provided it meets the requirements of Fair evidence as specifi
   * a Refugee Travel Document (Form I-571);
   * an Employment authorization document issued by Department of Homeland Security (DHS);
   * an Employment Authorization Document issued by DHS with photograph (Form I-688B);
-  * a driver's license issued by a Canadian government entity; or
-  * a Native American tribal document.
+  * a driver's license issued by a Canadian government entity;
+  * a Native American tribal document; or
+  * another piece of evidence that meets the requirements of Fair evidence specified in [SP 800-63A] Section 5.2.1.
 
 + The PIV identity proofing, registration, issuance, and reissuance processes SHALL adhere to the
 principle of separation of duties to ensure that no single individual has the capability to issue a PIV
 Card without the cooperation of another authorized person.
 
-> Note: One piece of Strong evidence and one piece of Fair evidence are considered sufficient for issuance of a PIV card because the the eligibility and background check requirements are considered compensating controls for issuance of an Identity Assurance Level 3 credential.
+> Note: One piece of Strong evidence and one other piece of evidence are considered sufficient for issuance of a PIV card because the the eligibility and background check requirements are considered compensating controls for issuance of an Identity Assurance Level 3 credential.
 
 The identity proofing and registration process used when verifying the identity of the applicant SHALL be
 accredited by the department or agency as satisfying the requirements above and approved in writing by
