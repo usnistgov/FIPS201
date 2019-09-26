@@ -8,11 +8,13 @@ permalink: /federation/
 
 # Federation Considerations for PIV
 
-Federation protocols allow a trusted identity provider (IdP) to proclaim a subscriber's identity to a relying party (RP) across a network in a trusted and verifiable fashion. The IdP creates an identity assertion 
+This section outlines ways in which PIV credentials can be used for logical access via a federation protocol. Federation protocols allow a trusted identity provider (IdP) to proclaim a subscriber's identity to a relying party (RP) across a network in a trusted and verifiable fashion. The IdP creates an identity assertion based on a subscriber authenticating to the IdP. The assertion is then presented to the RP by the subscriber as proof that the subscriber has successfully logged in to the IdP. The federation protocol can also convey attributes about the authentication event as well as attributes about the subscriber. These attributes can be conveyed inside the assertion generated during the login event, or through a secondary API at the IdP for the RP to call.
 
 ## Why a PIV Credential is Not Federation
 
-While it may seem like accepting the PIV certificates of another organization is a type of federation, this fails the basic definitions of using a federation protocol. The certificate of the PIV card represents a _credential_, which is the combination of an authenticator with some subscriber attributes. This certificate, and its associated keys, are used many times at different RP's without modification. However, a federation protocol relies on an _assertion_, which is created on a per-login basis based on the subscriber's log in at an IdP. This assertion is created in reaction to the login request, and it is targeted specifically to the RP. 
+While it may seem like accepting the PIV certificates of another organization is a type of federation, this fails the basic definitions of using a federation protocol. Instead, the certificate of the PIV card represents a _credential_, which is the combination of an authenticator with some subscriber attributes. This certificate, and its associated keys, are used many times at different RP's without modification. However, a federation protocol relies on an _assertion_, which is created on a per-login basis based on the subscriber's log in at an IdP. This assertion is created in reaction to the login request, and it is targeted specifically to the RP. 
+
+This fact allows an assertion to contain a stable identifier for a given subscriber that is consistent across many different authenticators, including different PIV cards and certificates, without affecting any identifiers bound into those authenticators themselves. Additionally, since the assertion is short-lived and created for a single authentication event, as long as the RP confirms that the certificate presented is the same as the one in the assertion, the RP does not need to process CRL's or OCSP to check certificate validity itself. 
 
 ## How to Use Federation with PIV
 
@@ -20,13 +22,15 @@ The PIV is used as an authenticator to log the subscriber in to the IdP. The IdP
 
 ### Reaching FAL3
 
-An IdP can reach FAL3 by using a PIV certificate as the primary authenticator and then asserting a reference to that certificate, such as its fingerprint, in the resulting assertion. The RP then has the ability to prompt the subscriber for that authenticator directly in addition to the incoming assertion. This proves that the referenced subscriber has access to a specified key, which is required for FAL3.
+While FAL3 is not required for the vast majority of use cases, an IdP can reach FAL3 by using a PIV certificate as the primary authenticator and then asserting a reference to that certificate, such as its fingerprint, in the resulting assertion. The RP then has the ability to prompt the subscriber for that authenticator directly in addition to the incoming assertion. This proves that the referenced subscriber has access to a specified key, which is required for FAL3.
+
+Note that the RP is not operating at FAL3 unless it verifies that the subscriber's PIV certificate is in fact the certificate listed in the assertion. The RP does not need to validate the certificate's signature chain or any other information, nor does the RP need to rely on any attributes within the certificate to identify the subscriber. The validity of the account, the liveness of the authentication event, and the attributes of the subscriber are all managed by the IdP directly.
 
 ## Benefits of Using Federation with PIV
 
 ### Simplified RPs
 
-Since the IdP is the only party validating the certificate, it is the only party that needs to check CRLs, OCSP, or other liveness mechanisms for the certificate. It is also the only site that needs to properly deploy mutual TLS for certificate prompting and verification. 
+Since the IdP is the only party validating the certificate, it is the only party that needs to check CRLs, OCSP, or other liveness mechanisms for the certificate. The IdP is also the only application that needs to deploy mutual TLS for certificate prompting and verification. The IdP can also incorporate additional and alternative credential mechanisms, including Derived PIV credentials and multi-factor authentication. 
 
 ### Attribute Collection
 
@@ -36,7 +40,9 @@ This approach also allows for greater privacy protection of the subscriber. When
 
 ### Account Lifetime Verification
 
-Because the IdP is checking the validity of the certificate, the RP doesn't need to check to see if the certificate has been revoked when processing the assertion. 
+Because the IdP is checking the validity of the certificate, and therefore the validity of the associated account, the RP can depend on the IdP for managing this. If an account has been revoked, the IdP will no longer create assertions for it. 
+
+The RP and IdP may want to use a provisioning or signaling protocol to proactively communicate account status, allowing the RP to purge information and access for accounts no longer available from the IdP. 
 
 ### Session Management
 
