@@ -24,8 +24,10 @@ exclude:
 # Navigation
 # List links that should appear in the site sidebar here
 navigation:
-- text: Home
+- text: Abstract
   url: /
+- text: Foreword
+  url: /foreword/
 - text: FIPS 201
   url: /introduction/
   collection: FIPS201
