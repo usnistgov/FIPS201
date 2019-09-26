@@ -25,9 +25,9 @@ Table B-1. PIV Object Identifiers
 |pivCardholder-Name|2.16.840.1.101.3.6.3|The attribute value is of type DirectoryString and specifies the PIV cardholder’s name.|
 |pivCardholder-DN|2.16.840.1.101.3.6.4|The attribute value is an X.501 type Name and specifies the DN associated with the PIV cardholder in the PIV certificate(s).|
 |pivSigner-DN|2.16.840.1.101.3.6.5|The attribute value is an X.501 type Name and specifies the subject name that appears in the PKI certificate for the entity that signed the biometric or CHUID.|
-|pivFASC-N|2.16.840.1.101.3.6.6|The pivFASC-N OID may appear as a name type in the otherName field of the subjectAltName extension of X.509 certificates or a signed attribute in CMS external signatures. Where used as a name type, the syntax is OCTET STRING. Where used as an attribute, the attribute value is of type OCTET STRING. In each case, the value specifies the FASC-N of the PIV Card.|
+|pivFASC-N|2.16.840.1.101.3.6.6|The pivFASC-N OID MAY appear as a name type in the otherName field of the subjectAltName extension of X.509 certificates or a signed attribute in CMS external signatures. Where used as a name type, the syntax is OCTET STRING. Where used as an attribute, the attribute value is of type OCTET STRING. In each case, the value specifies the FASC-N of the PIV Card.|
 |PIV Extended Key Usage|||
-|id-PIV-content-signing|2.16.840.1.101.3.6.7|This specifies that the public key may be used to verify signatures on CHUIDs and PIV biometrics.|
+|id-PIV-content-signing|2.16.840.1.101.3.6.7|This specifies that the public key MAY be used to verify signatures on CHUIDs and PIV biometrics.|
 |id-PIV-cardAuth|2.16.840.1.101.3.6.8|This specifies that the public key is used to authenticate the PIV Card rather than the PIV cardholder.|
 
 The OIDs for certificate policies are specified in [COMMON].

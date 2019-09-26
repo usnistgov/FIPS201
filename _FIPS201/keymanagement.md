@@ -26,7 +26,7 @@ Certificate Revocation List (CRL) Extensions Profile for the Shared Service Prov
 All certificates issued to support PIV Card authentication SHALL be issued under the *X.509 Certificate
 Policy for the U.S. Federal PKI Common Policy Framework* [COMMON]. The requirements in this
 certificate policy cover identity proofing and the management of CAs and registration authorities. CAs
-and registration authorities may be operated by departments and agencies, or may be outsourced to PKI
+and registration authorities MAY be operated by departments and agencies, or MAY be outsourced to PKI
 service providers. For a list of PKI service providers that have been approved to operate under
 [COMMON], see [http://www.idmanagement.gov.](http://www.idmanagement.gov)
 
@@ -47,7 +47,7 @@ relationship is described below:
 - Requirements for algorithms and key sizes for each type of PIV asymmetric key are given in
     [SP 800-78].
 
-[^keypolicy]: Note that key management certificates may assert the id-fpki-common-policy, id-fpki-common-hardware, or id-fpki-common-High policy of [COMMON] in the certificate policies extension. Applications / relying systems sensitive to the assurance level
+[^keypolicy]: Note that key management certificates MAY assert the id-fpki-common-policy, id-fpki-common-hardware, or id-fpki-common-High policy of [COMMON] in the certificate policies extension. Applications / relying systems sensitive to the assurance level
 may choose not to accept certificates that only assert id-fpki-common-policy.
 
 
@@ -61,7 +61,7 @@ CAs that issue certificates corresponding to PIV private keys SHALL issue CRLs a
 For the purposes of this Standard, legacy PKIs are the PKIs of departments and agencies that have cross-certified with the Federal Bridge CA (FBCA) at the Medium Hardware or High Assurance Level. Legacy
 PKIs that issue PIV Authentication certificates and Card Authentication certificates SHALL meet the
 requirements specified in Sections 5.2.1, 5.3, 5.5, 5.5.1, and 5.5.2, with respect to the PIV Authentication
-certificates and Card Authentication certificates that they issue. Departments and agencies may assert
+certificates and Card Authentication certificates that they issue. Departments and agencies MAY assert
 department or agency-specific policy object identifiers (OIDs) in PIV Authentication Certificates and
 Card Authentication Certificates in addition to the id-fpki-common-authentication policy OID and the id-fpki-common-cardAuth policy OID of [COMMON], respectively. This specification imposes no
 requirements on digital signature or key management certificates issued by legacy PKIs.

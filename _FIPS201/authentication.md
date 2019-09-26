@@ -10,7 +10,7 @@ permalink: /authentication/
 
 This section defines a suite of authentication mechanisms that are supported by all the PIV Cards, and
 their applicability in meeting the requirements for a set of graduated levels of identity assurance. This
-section also defines some authentication mechanisms that make use of credential elements that may
+section also defines some authentication mechanisms that make use of credential elements that MAY
 optionally be included on PIV Cards. Specific implementation details of authentication mechanisms
 identified in this section are provided in [SP 800-73]. Moreover, while a wide range of authentication
 mechanisms is identified in this section, departments and agencies may adopt additional mechanisms that
@@ -138,7 +138,7 @@ are the same as for the unattended biometric (BIO) authentication mechanism.
 
 ### 6.2.2 Authentication Using On-Card Biometric Comparison (OCC-AUTH)
 
-The PIV Card Application may host the optional on-card biometric comparison algorithm. In this case,
+The PIV Card Application MAY host the optional on-card biometric comparison algorithm. In this case,
 on-card biometric comparison data is stored on the card, which cannot be read, but could be used for
 identity verification. A live-scan biometric is supplied to the card to perform cardholder-to-card (CTC)
 authentication and the card responds with an indication of the success of the on-card biometric
@@ -170,7 +170,7 @@ The following steps SHALL be performed for PKI-AUTH:
     standards-compliant PKI path validation[^pivpath] to ensure that it is neither expired nor revoked and that it is
     from a trusted source.
 - The cardholder is prompted to submit a PIN, which is used to activate the card. (If implemented,
-    other card activation mechanisms, as specified in [SP 800-73], may be used to activate the card.)
+    other card activation mechanisms, as specified in [SP 800-73], MAY be used to activate the card.)
 - The relying system issues a challenge string to the card and requests an asymmetric operation in
     response.
 - The card responds to the previously issued challenge by signing it using the PIV Authentication
@@ -217,7 +217,7 @@ Some of the characteristics of the PKI-CAK authentication mechanism are as follo
 
 ### 6.2.4 Authentication with the Symmetric Card Authentication Key (SYM-CAK)
 
-The PIV Card Application may host the optional symmetric Card Authentication key. In this case, the
+The PIV Card Application MAY host the optional symmetric Card Authentication key. In this case, the
 symmetric Card Authentication key SHALL be used for PIV cardholder authentication using the following
 steps:
 
@@ -283,7 +283,7 @@ identification and authentication, as follows:
 - Zone 1B – Agency Card Serial Number (back of card);
 - Zone 2B – Issuer Identification Number (back of card).
 
-The PIV Card may also bear optional components, some of which are:
+The PIV Card MAY also bear optional components, some of which are:
 
 - Zone 11F – Agency Seal;
 - Zone 5B – Physical Characteristics of Cardholder (back of card);
@@ -320,13 +320,13 @@ Some characteristics of the visual authentication mechanism are as follows:
 
 The PIV Card supports a set of authentication mechanisms that can be used to implement graduated
 assurance levels for identity authentication. The following subsections specify which basic PIV
-authentication mechanisms may be used to support the various levels of identity authentication assurance
-as defined in Section 6.1. Two or more complementing authentication mechanisms may be applied in
-unison to achieve a higher degree of assurance of the identity of the PIV cardholder. For example, PKI-AUTH and BIO may be applied in unison to achieve a higher degree of assurance in cardholder identity.
+authentication mechanisms MAY be used to support the various levels of identity authentication assurance
+as defined in Section 6.1. Two or more complementing authentication mechanisms MAY be applied in
+unison to achieve a higher degree of assurance of the identity of the PIV cardholder. For example, PKI-AUTH and BIO MAY be applied in unison to achieve a higher degree of assurance in cardholder identity.
 
 Adequately designed and implemented relying systems can achieve the PIV Card authentication
 assurance levels stated in Tables 6-2 (physical access) and 6-3 (logical access). Less adequately designed
-or implemented relying systems may only achieve lower authentication assurance levels. The design of
+or implemented relying systems MAY only achieve lower authentication assurance levels. The design of
 components of relying systems, including card readers, biometric readers, cryptographic modules, and
 key management systems, involves many factors not fully specified by FIPS 201, such as correctness of
 the functional mechanism, physical protection of the mechanism, and environmental conditions at the
@@ -335,7 +335,7 @@ implementation of relying systems, e.g., [FIPS140] and [SP 800-116].
 
 ### 6.3.1 Physical Access
 
-The PIV Card may be used to authenticate the identity of the cardholder in a physical access control
+The PIV Card MAY be used to authenticate the identity of the cardholder in a physical access control
 environment. For example, a Federal facility may have physical entry doors that have human guards at
 checkpoints, or may have electronic access control points. The PIV-supported authentication mechanisms
 for physical access control systems are summarized in Table 6-2. An authentication mechanism that is
@@ -356,7 +356,7 @@ Table 6-2. Authentication for Physical Access
 
 ### 6.3.2 Logical Access
 
-The PIV Card may be used to authenticate the cardholder in support of decisions concerning access to
+The PIV Card MAY be used to authenticate the cardholder in support of decisions concerning access to
 logical information resources. For example, a cardholder may log in to his or her department or agency
 network using the PIV Card; the identity established through this authentication process can be used for
 determining access to file systems, databases, and other services available on the network.

@@ -59,7 +59,7 @@ retrieve the appropriate information, located in the card’s memory, to relay i
 systems for granting or denying access.
 
 Card writers, which are very similar to the card readers, personalize and initialize the information stored
-on PIV Cards. Card writers may also be used to perform remote PIV Card updates (see Section 2.9.2).
+on PIV Cards. Card writers MAY also be used to perform remote PIV Card updates (see Section 2.9.2).
 The data to be stored on PIV Cards includes personal information, certificates, cryptographic keys, the
 PIN, and biometric data, and is discussed in further detail in subsequent sections.
 

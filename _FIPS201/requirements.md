@@ -90,7 +90,7 @@ collected in Section 2.3, or collected independently.
 
 + An electronic facial image.
 
-The following biometric data may optionally be collected from a PIV applicant:
+The following biometric data MAY optionally be collected from a PIV applicant:
 
 + One or two iris images.
 
@@ -102,7 +102,7 @@ occasions, then a 1:1 biometric match of the applicant SHALL be performed at eac
 data collected during a previous visit.
 
 Biometric data collection SHALL conform to the procedural and technical specifications of [SP 800-76].
-The choice of which two fingers is important and may vary between persons. The recommended
+The choice of which two fingers is important and MAY vary between persons. The recommended
 selection and order is specified in [SP 800-76].
 
 ## 2.5 Biometric Data Use
@@ -116,11 +116,11 @@ described in Section 4.2.3.1. The fingerprints provide an interagency-interopera
 mechanism through a match-off-card scheme as described in Section 6.2.1. These fingerprints are also
 the primary means of authentication during PIV issuance and maintenance processes.
 
-The optional fingerprints may be used for preparation of the fingerprint templates for on-card comparison
-as described in Section 4.2.3.1. OCC may be used to support card activation as described in Section
-4.3.1. OCC may also be used for cardholder authentication (OCC-AUTH) as described in Section 6.2.2.
+The optional fingerprints MAY be used for preparation of the fingerprint templates for on-card comparison
+as described in Section 4.2.3.1. OCC MAY be used to support card activation as described in Section
+4.3.1. OCC MAY also be used for cardholder authentication (OCC-AUTH) as described in Section 6.2.2.
 
-The electronic iris images may be stored on the PIV Card as described in Section 4.2.3.1. Agencies may
+The electronic iris images MAY be stored on the PIV Card as described in Section 4.2.3.1. Agencies MAY
 choose to collect iris biometrics as a second biometric to support multimodal authentication to improve
 accuracy, operational suitability, to accommodate user preferences, or as a backup when the fingerprint
 biometric is unavailable.
@@ -131,20 +131,20 @@ The electronic facial image:
 
 + SHALL be printed on the PIV Card according to Section 4.1.4.1;
 
-+ may be used for generating a visual image on the monitor of a guard workstation for augmenting the
++ MAY be used for generating a visual image on the monitor of a guard workstation for augmenting the
 visual authentication process defined in Section 6.2.6; and
 
-+ may be used for automated facial authentication in operator-attended PIV issuance, reissuance, and
++ MAY be used for automated facial authentication in operator-attended PIV issuance, reissuance, and
 verification data reset processes.
 
 ## 2.6 Chain-of-Trust
 
-A card issuer may optionally maintain, for each PIV Card issued, a documentary chain-of-trust for the
+A card issuer MAY optionally maintain, for each PIV Card issued, a documentary chain-of-trust for the
 identification data it collects. The chain-of-trust is a sequence of related enrollment data records that are
 created and maintained through the methods of contemporaneous acquisition of data within each
 enrollment data record, and biometric matching of samples between enrollment data records.[^fingerprints]
 
-[^fingerprints]: For example, ten fingerprints for law enforcement checks may be collected at one time and place, and two fingerprints for PIV Card templates may be collected at a later time and different place, provided that the two fingerprints are verified as among the ten original fingerprints.
+[^fingerprints]: For example, ten fingerprints for law enforcement checks MAY be collected at one time and place, and two fingerprints for PIV Card templates MAY be collected at a later time and different place, provided that the two fingerprints are verified as among the ten original fingerprints.
 
 It is recommended that the following data be included in the chain-of-trust:
 
@@ -172,7 +172,7 @@ completed.
 cardholder’s name, then the issuer SHOULD include the evidence of a formal name change.
 
 The biometric data in the chain-of-trust SHALL be valid for at most 12 years. In order to mitigate ageing
-effects and thereby maintain operational readiness of a cardholder's PIV Card, agencies may require
+effects and thereby maintain operational readiness of a cardholder's PIV Card, agencies MAY require
 biometric enrollment more frequently than 12 years.
 
 The chain-of-trust contains personally identifiable information (PII). If implemented, it SHALL be protected
@@ -188,7 +188,7 @@ transaction, and one with two fingerprint templates. The two fingerprint templat
 against the corresponding fingers in the ten-fingerprint data set to link the chain.
 
 + Reissuance: a PIV cardholder loses his/her card. Since the card issuer has biometric enrollment data
-records, the cardholder can perform a 1:1 biometric match to reconnect to the card issuer’s chain-of-trust. The card issuer need not repeat the identity proofing and registration process. The card issuer
+records, the cardholder can perform a 1:1 biometric match to reconnect to the card issuer’s chain-of-trust. The card issuer NEED NOT repeat the identity proofing and registration process. The card issuer
 proceeds to issue a new card as described in Section 2.9.1.
 
 + Interagency transfer: a Federal employee is transferred from one agency to another. When the
@@ -275,7 +275,7 @@ may vary depending on the country.
 
 [^NAC]: The NAC is an automated record check.
 
-[^documents]: Departments and agencies may choose to accept only a subset of the identity source documents listed in this section. For example, in cases where identity proofing for PIV Card issuance is performed prior to verification of employment authorization, departments and agencies may choose to require the applicant to provide identity source documents that satisfy the requirements of Form I-9, *Employment Eligibility Verification*, in addition to the requirements specified in this section. It is recommended that departments and agencies perform electronic verification of identity source documents, where possible.
+[^documents]: Departments and agencies may choose to accept only a subset of the identity source documents listed in this section. For example, in cases where identity proofing for PIV Card issuance is performed prior to verification of employment authorization, departments and agencies MAY choose to require the applicant to provide identity source documents that satisfy the requirements of Form I-9, *Employment Eligibility Verification*, in addition to the requirements specified in this section. It is recommended that departments and agencies perform electronic verification of identity source documents, where possible.
 
 [^secondary]: For example, if the primary source document is a foreign passport (e.g., Italy), the secondary source document SHOULD NOT be another foreign passport (e.g., France).
 
@@ -344,7 +344,7 @@ In some instances an individual's status as a Federal employee or contractor wil
 period. For example, a Federal employee may leave one Federal agency for another Federal agency and
 thus occur a short employment lapse period, or an individual who was under contract to a Federal agency
 may receive a new contract from that agency shortly after the previous contract expired. In these
-instances, the card issuer may issue a new PIV Card without repeating the identity proofing and
+instances, the card issuer MAY issue a new PIV Card without repeating the identity proofing and
 registration process if the issuer has access to the applicant’s chain-of-trust record and the applicant can
 be reconnected to the chain-of-trust record.[^lapse]
 
@@ -370,7 +370,7 @@ employment may be terminated, thus requiring invalidation of a previously issued
 procedures for PIV Card maintenance must be integrated into department and agency procedures to
 ensure effective card maintenance. In order to maintain operational readiness of a cardholder's PIV Card,
 agencies may require PIV Card update, reissuance, or biometric enrollment more frequently than the
-maximum PIV Card and biometric lifetimes stated in this Standard. Shorter lifetimes may be specified by
+maximum PIV Card and biometric lifetimes stated in this Standard. Shorter lifetimes MAY be specified by
 agency policy collectively, or on a case-by-case basis as sub-par operation is encountered.
 
 ### 2.9.1 PIV Card Reissuance Requirements
@@ -423,7 +423,7 @@ If there is any data change about the cardholder, the issuer will record this in
 applicable. If the changed data is the cardholder’s name, then the issuer SHALL meet the requirements in
 Section 2.9.1.1, Special Rule for Name Change by Cardholder.
 
-Previously collected biometric data may be reused with the new PIV Card if the expiration date of the
+Previously collected biometric data MAY be reused with the new PIV Card if the expiration date of the
 new PIV Card is no later than 12 years after the date that the biometric data was obtained. As biometric
 authentication accuracy degrades with the time elapsed since initial collection, issuers may elect to refresh
 the biometric data after reconnecting the applicant to their chain-of-trust. Even if the same biometric data
@@ -433,7 +433,7 @@ UUID.
 A new PIV Authentication certificate and a new Card Authentication certificate SHALL be generated. The
 corresponding certificates SHALL be populated with the new FASC-N and UUID. For cardholders who are
 required to have a digital signature certificate, a new digital signature certificate SHALL also be generated.
-Key management key(s) and certificate(s) may be imported to the new PIV Card.
+Key management key(s) and certificate(s) MAY be imported to the new PIV Card.
 
 #### 2.9.1.1 Special Rule for Name Change by Cardholder
 
@@ -444,17 +444,17 @@ recognition of a name change, or other mechanism permitted by State law or regul
 SHALL issue the cardholder a new card following the procedures set out in Section 2.9.1, PIV Card
 Reissuance Requirements. If the expiration date of the new card is no later than the expiration date of the
 old PIV Card and no data about the cardholder, other than the cardholder’s name, is being changed, then
-the new PIV Card may be issued without obtaining the approval of a proper authority and without
+the new PIV Card MAY be issued without obtaining the approval of a proper authority and without
 performing a re-investigation.
 
 ### 2.9.2 PIV Card Post Issuance Update Requirements
 
-A PIV Card post issuance update may be performed without replacing the PIV Card in cases where none
+A PIV Card post issuance update MAY be performed without replacing the PIV Card in cases where none
 of the printed information on the surface of the card is changed. The post issuance update applies to cases
 where one or more certificates, keys, biometric data objects, or signed data objects are updated. A post
 issuance update SHALL NOT modify the PIV Card expiration date, FASC-N, or UUID.
 
-A PIV Card post issuance update may be done locally (performed with the issuer in physical custody of
+A PIV Card post issuance update MAY be done locally (performed with the issuer in physical custody of
 the PIV Card) or remotely (performed with the PIV Card at a remote location). Post issuance updates
 SHALL be performed with issuer security controls equivalent to those applied during PIV Card reissuance.
 For remote post issuance updates, the following SHALL apply:
@@ -527,7 +527,7 @@ Departments and agencies may adopt more stringent procedures for verification da
 disallowing verification data reset); such procedures SHALL be formally documented by each department
 and agency.
 
-[^pinreset]: Cardholders may change their PINs anytime by providing the current PIN and the new PIN values.
+[^pinreset]: Cardholders MAY change their PINs anytime by providing the current PIN and the new PIN values.
 
 ### 2.9.4 PIV Card Termination Requirements
 
@@ -570,7 +570,7 @@ required to have procedures in place to issue emergency notifications in such ca
 
 ## 2.10 Derived PIV Credentials Issuance Requirements
 
-Valid PIV Cards may be used as the basis for issuing derived PIV credentials in accordance with NIST
+Valid PIV Cards MAY be used as the basis for issuing derived PIV credentials in accordance with NIST
 Special Publication 800-157, *Guidelines for Derived Personal Identity Verification (PIV) Credentials*
 [SP 800-157]. When a cardholder's PIV Card is terminated as specified in Section 2.9.4, any derived PIV
 credentials issued to the cardholder SHALL also be terminated.
