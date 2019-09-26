@@ -71,9 +71,9 @@ This Standard is effective immediately and supersedes FIPS 201-1 (Change Notice 
 
 # 10. Implementation Schedule.
 
-This Standard mandates the implementation of some PIV Card features that were optional to implement in FIPS 201-1. To comply with FIPS 201-2, all new and replacement PIV Cards shall be issued with the mandatory PIV Card features no later than 12 months after the effective date of this Standard.
+This Standard mandates the implementation of some PIV Card features that were optional to implement in FIPS 201-1. To comply with FIPS 201-2, all new and replacement PIV Cards SHALL be issued with the mandatory PIV Card features no later than 12 months after the effective date of this Standard.
 
-Accreditations of PIV Card issuers (PCIs) that occur 12 months after the effective date of this Standard shall be in compliance with 
+Accreditations of PIV Card issuers (PCIs) that occur 12 months after the effective date of this Standard SHALL be in compliance with 
 FIPS 201-2.
 
 FIPS 201-2 compliance of PIV components and subsystems is provided in accordance with M-06-18 [OMB0618] and M-11-11 [OMB1111] through products and services from GSA’s Interoperability Test Program and Approved Products and Services List, once available. Implementation Guidance to PIV enable federal facilities and information systems, in accordance to M-11-11 will be outlined in the “Federal Identity, Credential, and Access Management (FICAM) Roadmap and Implementation Guidance.”
@@ -88,7 +88,7 @@ The security provided by the PIV system is dependent on many factors outside the
 
 Although it is the intent of this Standard to specify mechanisms and support systems that provide high assurance personal identity verification, conformance to this Standard does not assure that a particular implementation is secure. It is the implementer’s responsibility to ensure that components, interfaces, communications, storage media, managerial processes, and services used within the identity verification system are designed and built in a secure manner.
 
-Similarly, the use of a product that conforms to this Standard does not guarantee the security of the overall system in which the product is used. The responsible authority in each department and agency shall ensure that an overall system provides the acceptable level of security.
+Similarly, the use of a product that conforms to this Standard does not guarantee the security of the overall system in which the product is used. The responsible authority in each department and agency SHALL ensure that an overall system provides the acceptable level of security.
 
 Because a standard of this nature must be flexible enough to adapt to advancements and innovations in science and technology, NIST has a policy to review this Standard within five years to assess its adequacy.
 

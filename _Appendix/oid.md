@@ -38,7 +38,7 @@ The OIDs for certificate policies are specified in [COMMON].
 
 The PIV NACI indicator (background investigation indicator) extension indicates whether the subject’s
 background investigation was incomplete at the time of credential issuance. The PIV NACI indicator
-(background investigation indicator) extension is always non-critical, and shall appear in all PIV
+(background investigation indicator) extension is always non-critical, and SHALL appear in all PIV
 Authentication certificates and Card Authentication certificates. The value of this extension is asserted as
 follows:
 
