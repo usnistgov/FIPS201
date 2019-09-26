@@ -112,23 +112,13 @@ Some characteristics of the PIV Biometrics authentication mechanisms (described 
 
 The following steps SHALL be performed for unattended authentication of the PIV biometric:
 
-- The CHUID or another data element[^expired] is read from the card and is checked to ensure the card has not
-    expired and that it is from a trusted source.
 - The cardholder is prompted to submit a PIN, activating the PIV Card.
 - The PIV biometric is read from the card.
 - The signature on the biometric is verified to ensure the biometric is intact and comes from a trusted
-    source. Note that the signature verification may require retrieval of the content signing certificate
-    from the CHUID if the signature on the biometric was generated with the same key as the signature
-    on the CHUID.
+    source.
 - The cardholder is prompted to submit a live biometric sample.
 - If the biometric sample matches the biometric read from the card, the cardholder is authenticated to
     be the owner of the card.
-- The FASC-N (or UUID) in the CHUID or other data element is compared with the FASC-N (or
-    UUID) in the Signed Attributes field of the external digital signature on the biometric.
-- A unique identifier within the CHUID or other data element is used as input to the authorization
-check to determine whether the cardholder should be granted access.
-
-[^expired]: The PIV Authentication certificate or Card Authentication certificate may be leveraged instead of the CHUID to verify that the card is not expired.
 
 #### 6.2.1.2 Attended Authentication of PIV Biometric (BIO-A)
 
@@ -221,7 +211,7 @@ The PIV Card Application MAY host the optional symmetric Card Authentication key
 symmetric Card Authentication key SHALL be used for PIV cardholder authentication using the following
 steps:
 
-- The CHUID, PIV Authentication certificate, or Card Authentication certificate data element is read
+- The PIV Authentication certificate or Card Authentication certificate data element is read
     from the PIV Card and is checked to ensure the card has not expired.
 - The digital signature on the data element is checked to ensure that it was signed by a trusted source
     and is unaltered.
@@ -242,28 +232,7 @@ follows:
 
 ### 6.2.5 Authentication Using the CHUID
 
-The PIV Card provides a mandatory data element called the CHUID. As described in Section 4.2.1, the
-CHUID contains numerous data elements.
-
-The CHUID SHALL be used for PIV cardholder authentication using the following steps:
-
-- The CHUID is read electronically from the PIV Card.
-- The digital signature on the CHUID is checked to ensure the CHUID was signed by a trusted source
-    and is unaltered.
-- The expiration date on the CHUID is checked to ensure that the card has not expired.
-- A unique identifier within the CHUID is used as input to the authorization check to determine
-    whether the cardholder should be granted access.
-
-Some characteristics of the CHUID-based authentication mechanism are as follows:
-
-- Can be used for rapid authentication for high volume access control.
-- Low resistance to use of unaltered card by non-owner of card.
-- Does not provide protection against use of a revoked card.
-- Applicable with contact and contactless readers.
-
-As the CHUID authentication mechanism provides LITTLE or NO assurance in the identity of the
-cardholder, use of the CHUID authentication mechanism is deprecated. It is expected that the CHUID
-authentication mechanism will be removed from this Standard at the next five-year revision.
+This section has been deleted.
 
 ### 6.2.6 Authentication Using PIV Visual Credentials (VIS)
 
@@ -349,7 +318,7 @@ Table 6-2. Authentication for Physical Access
 
 |PIV Assurance Level Required by Application/Resource|Applicable PIV Authentication Mechanism|
 |---|---|
-|LITTLE or NO confidence|VIS, CHUID|
+|LITTLE or NO confidence|VIS|
 |SOME confidence|PKI-CAK, SYM-CAK|
 |HIGH confidence|BIO|
 |VERY HIGH confidence|BIO-A, OCC-AUTH, PKI-AUTH|

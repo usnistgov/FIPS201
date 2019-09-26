@@ -104,10 +104,10 @@ agency decides to support the OCC-AUTH authentication mechanism.
 When a feature is to be discontinued or is no longer needed, it is deprecated. In general, a feature that is
 currently in use by relying systems would only be deprecated if there were a compelling (e.g., security)
 reason to do so. Deprecated features MAY continue to be used, but SHOULD be phased out in future systems
-since the feature will likely be removed in the next revision of the Standard. For example, the CHUID
-authentication mechanism (Section 6.2.5) has been deprecated, since it provides LITTLE or NO assurance
+since the feature will likely be removed in the next revision of the Standard. For example, the VIS
+authentication mechanism (Section 6.2.6) has been deprecated, since it provides LITTLE or NO assurance
 in the identity of the cardholder, and so relying systems SHOULD phase out use of this authentication
-mechanism. [^CHUID]
+mechanism. The CHUID has been removed from PIV 201-3 and SHOULD no longer be used or supported.
 
 In the case of deprecated features on PIV Cards, such as the authentication key map, existing PIV Cards
 with the deprecated features remain valid, however, new PIV Cards SHOULD NOT include the deprecated
@@ -151,9 +151,6 @@ This Standard contains normative references to other documents, and to the exten
 citation these documents are included by reference in this Standard. Should normative text in this
 Standard conflict with normative text in a referenced document the normative text in this Standard
 prevails for this Standard.
-
-[^CHUID]: The CHUID data element has not been deprecated and continues to be mandatory.
-
 
 All sections in this document are *normative* (i.e., mandatory for compliance) unless specified as
 informative (i.e., non-mandatory). Following is the structure of this document:
