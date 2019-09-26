@@ -268,7 +268,7 @@ authentication mechanism will be removed from this Standard at the next five-yea
 ### 6.2.6 Authentication Using PIV Visual Credentials (VIS)
 
 Visual authentication of a PIV cardholder SHALL be used only to support access control to physical
-facilities and resources.
+facilities and resources. As some aspects of VIS authentication mechanisms provide LITTLE or NO assurance in the identity of the cardholder, use of the VIS authentication mechanism is deprecated.  
 
 
 The PIV Card has several mandatory topographical features on the front and back that support visual
@@ -296,11 +296,11 @@ the visual authentication process:
 
 - The guard at the access control entry point determines whether the PIV Card appears to be genuine
     and has not been altered in any way.
-- The guard compares the cardholder’s facial features with the picture on the card to ensure that they
-    match.
+- ~~The guard compares the cardholder’s facial features with the picture on the card to ensure that they
+    match.~~ (This aspect of VIS is deprecated and should be phased out in favor of automated visual verification mechanisms)
 - The guard checks the expiration date on the card to ensure that the card has not expired.
-- The guard compares the cardholder’s physical characteristic descriptions to those of the cardholder.
-    (Optional)
+- ~~The guard compares the cardholder’s physical characteristic descriptions to those of the cardholder. (Optional)~~
+    (This aspect of VIS is deprecated and should be phased out in favor of automated visual verification mechanisms)
 - The guard collects the cardholder’s signature and compares it with the signature on the card.
     (Optional)
 - One or more of the other data elements on the card (e.g., name, employee affiliation, agency card
