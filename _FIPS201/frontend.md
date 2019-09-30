@@ -449,7 +449,33 @@ The fingerprint templates for on-card comparison fall into the first and third c
 
 ### 4.2.1 Cardholder Unique Identifier (CHUID)
 
-The CHUID is no longer required in the PIV card. It’s use SHALL be phased out.  However, to support legacy Physical Access Control Systems (PACS) agencies may continue to use the CUID but there will be no guarantee of interoperability with newly issued PIV cards. SP800-116 will provide guidelines on use with legacy PACS.
+The PIV Card SHALL include the CHUID as defined in [SP 800-73]. The CHUID includes the Federal
+Agency Smart Credential Number (FASC-N) and the Global Unique Identification Number (GUID),
+which uniquely identify each card as described in [SP 800-73]. The value of the GUID data element SHALL
+be a 16-byte binary representation of a valid Universally Unique IDentifier (UUID) [RFC4122]. The
+CHUID SHALL also include an expiration date data element in machine-readable format that specifies when
+the card expires. The expiration date format and encoding rules are as specified in [SP 800-73].
+
+The CHUID SHALL be accessible from both the contact and contactless interfaces of the PIV Card without
+card activation. The FASC-N, UUID, and expiration date SHALL NOT be modified post-issuance.
+
+This Standard requires inclusion of the asymmetric signature field in the CHUID container. The
+asymmetric signature data element of the CHUID SHALL be encoded as a Cryptographic Message Syntax
+(CMS) external digital signature, as specified in [SP 800-73]. Algorithm and key size requirements for
+the asymmetric signature and digest algorithm are detailed in [SP 800-78].
+
+For signatures created before October 15, 2015, the public key required to verify the digital signature
+SHALL be provided in the *certificates* field of the CMS external digital signature in a content signing
+certificate, which SHALL be an X.509 digital signature certificate issued under the id-fpki-common-piv-contentSigning, id-fpki-common-devices, id-fpki-common-devicesHardware, id-fpki-common-hardware,
+or id-fpki-common-High policy of [COMMON].[^legacypki] For signatures created on or after October 15, 2015,
+the public key required to verify the digital signature SHALL be provided in the *certificates* field of the CMS
+external digital signature in a content signing certificate, which SHALL be an X.509 digital signature
+certificate issued under the id-fpki-common-piv-contentSigning policy of [COMMON]. The content
+signing certificate SHALL also include an extended key usage (*extKeyUsage*) extension asserting id-PIV-content-signing. Additional descriptions for the PIV object identifiers are provided in Appendix B. The
+content signing certificate on a valid PIV Card (one that is neither expired nor revoked) SHALL NOT be
+expired.
+
+[^legacypki]: For legacy PKIs, as defined in Section 5.4, the certificates MAY be issued under a department or agency-specific policy that has been cross-certified with the Federal Bridge CA (FBCA) at the Medium Hardware or High Assurance Level.
 
 ### 4.2.2 Cryptographic Specifications
 
