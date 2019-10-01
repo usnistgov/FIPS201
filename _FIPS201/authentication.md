@@ -267,7 +267,9 @@ authentication mechanism will be removed from this Standard at the next five-yea
 
 ### 6.2.6 Authentication Using PIV Visual Credentials (VIS)
 
-The use of the VIS authentication mechanism provide is deprecated as it  provide little or no assurance in the identity of the cardholder.   It is expected that the authentication mechanism will be removed from this Standard at the next five-year revision. The PIV Card has several mandatory topographical features on the front and back that support visual identification and authentication, as follows:
+The use of the VIS authentication mechanism is deprecated as it provides little or no assurance in the identity of the cardholder.  It is expected that this authentication mechanism will be removed from this Standard at the next five-year revision.
+
+The PIV Card has several mandatory topographical features on the front and back that support visual identification and authentication, as follows:
 
 - Zone 1F – Photograph;
 - Zone 2F – Name;
