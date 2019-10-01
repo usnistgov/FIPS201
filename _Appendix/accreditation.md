@@ -13,7 +13,7 @@ is normative.
 ## A.1 Accreditation of PIV Card Issuers (PCI)
 
 [HSPD-12] requires that all cards be issued by providers whose reliability has been established by an
-official accreditation process. The accreditation of the PIV Card issuer shall be reviewed through a third-party assessment to enhance the trustworthiness of the credential. To facilitate consistent independent
+official accreditation process. The accreditation of the PIV Card issuer SHALL be reviewed through a third-party assessment to enhance the trustworthiness of the credential. To facilitate consistent independent
 validation of the PCI, NIST developed a set of attributes as the basis of reliability assessment of PIV Card
 issuers in SP 800-79 and published this document in July 2005. Subsequent lessons learned in
 implementation experience (in credential management and PIV Card issuance) of various agencies
@@ -80,7 +80,7 @@ validation certificates. Information about NPIVP is available at
 ## A.4 Cryptographic Testing and Validation
 
 All on-card cryptographic modules hosting the PIV Card Application and cryptographic modules of card
-issuance and maintenance systems shall be validated to [FIPS140] with an overall Security Level 2 (or
+issuance and maintenance systems SHALL be validated to [FIPS140] with an overall Security Level 2 (or
 higher). The facilities for [FIPS140] testing are the Cryptographic and Security Testing laboratories
 accredited by the NVLAP program of NIST. Vendors wanting to supply cryptographic modules can
 select any of the accredited laboratories. The tests conducted by these laboratories for all vendor

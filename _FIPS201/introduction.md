@@ -103,14 +103,14 @@ agency decides to support the OCC-AUTH authentication mechanism.
 
 When a feature is to be discontinued or is no longer needed, it is deprecated. In general, a feature that is
 currently in use by relying systems would only be deprecated if there were a compelling (e.g., security)
-reason to do so. Deprecated features may continue to be used, but should be phased out in future systems
+reason to do so. Deprecated features MAY continue to be used, but SHOULD be phased out in future systems
 since the feature will likely be removed in the next revision of the Standard. For example, the CHUID
 authentication mechanism (Section 6.2.5) has been deprecated, since it provides LITTLE or NO assurance
-in the identity of the cardholder, and so relying systems should phase out use of this authentication
+in the identity of the cardholder, and so relying systems SHOULD phase out use of this authentication
 mechanism. [^CHUID]
 
 In the case of deprecated features on PIV Cards, such as the authentication key map, existing PIV Cards
-with the deprecated features remain valid, however, new PIV Cards should not include the deprecated
+with the deprecated features remain valid, however, new PIV Cards SHOULD NOT include the deprecated
 features.
 
 ### 1.3.5 FIPS 201 Version Management
