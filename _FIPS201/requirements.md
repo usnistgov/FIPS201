@@ -220,21 +220,20 @@ portion of the NAC SHALL be complete before PIV Card issuance.
 + During identity proofing, the applicant SHALL be required to provide two forms of identity source
 documents in original form.[^documents] The identity source documents SHALL be bound to that applicant and SHALL
 be neither expired nor cancelled. If the two identity source documents bear different names, evidence
-of a formal name change SHALL be provided. The primary identity source document SHALL be one of the
+of a formal name change SHALL be provided. At least one identity source document SHALL meet the requirements of Strong evidence as specified in [SP 800-63A] Section 5.2.1 and be one of the
 following forms of identification:
 
   * a U.S. Passport or a U.S. Passport Card;
   * a Permanent Resident Card or an Alien Registration Receipt Card (Form I-551);
   * a foreign passport;
   * an Employment Authorization Document that contains a photograph (Form I-766);
-  * a Driver's license or an ID card issued by a state or possession of the United States provided it
-  contains a photograph;
+  * a [REAL-ID] compliant Driver's license or ID card issued by a state or possession of the United States;
   * a U.S. Military ID card;
   * a U.S. Military dependent's ID card; or
   * a PIV Card.
 
-  The secondary identity source document may be from the list above, but cannot be of the same type
-as the primary identity source document.[^secondary] The secondary identity source document may also be one
+  The second piece of evidence may be from the list above, provided it is not of the same type
+as the primary identity source document.[^second] The second identity source document may also be one
 of the following:
 
   * a U.S. Social Security Card issued by the Social Security Administration;
@@ -256,12 +255,15 @@ of the following:
   * a Refugee Travel Document (Form I-571);
   * an Employment authorization document issued by Department of Homeland Security (DHS);
   * an Employment Authorization Document issued by DHS with photograph (Form I-688B);
-  * a driver's license issued by a Canadian government entity; or
-  * a Native American tribal document.
+  * a driver's license issued by a Canadian government entity;
+  * a Native American tribal document; or
+  * another piece of evidence that meets the requirements of Fair evidence specified in [SP 800-63A] Section 5.2.1.
 
 + The PIV identity proofing, registration, issuance, and reissuance processes SHALL adhere to the
 principle of separation of duties to ensure that no single individual has the capability to issue a PIV
 Card without the cooperation of another authorized person.
+
+> Note: One piece of Strong evidence and one other piece of evidence are considered sufficient for issuance of a PIV card because the the eligibility and background check requirements are considered compensating controls for identity proofing at Identity Assurance Level 3.
 
 The identity proofing and registration process used when verifying the identity of the applicant SHALL be
 accredited by the department or agency as satisfying the requirements above and approved in writing by
@@ -277,8 +279,7 @@ may vary depending on the country.
 
 [^documents]: Departments and agencies may choose to accept only a subset of the identity source documents listed in this section. For example, in cases where identity proofing for PIV Card issuance is performed prior to verification of employment authorization, departments and agencies MAY choose to require the applicant to provide identity source documents that satisfy the requirements of Form I-9, *Employment Eligibility Verification*, in addition to the requirements specified in this section. It is recommended that departments and agencies perform electronic verification of identity source documents, where possible.
 
-[^secondary]: For example, if the primary source document is a foreign passport (e.g., Italy), the secondary source document SHOULD NOT be another foreign passport (e.g., France).
-
+[^second]: For example, if the first source document is a foreign passport (e.g., Italy), the second source document SHOULD NOT be another foreign passport (e.g., France).
 
 ## 2.8 PIV Card Issuance Requirements
 

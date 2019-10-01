@@ -103,6 +103,9 @@ Employees and Contractors*, February 2011.
 Shared Service Provider (SSP) Program*, Version 1.5, January 7, 2008 or as amended. Available
 at [http://idmanagement.gov/sites/default/files/documents/CertCRLprofileForCP.pdf.](http://idmanagement.gov/sites/default/files/documents/CertCRLprofileForCP.pdf)
 
+[REAL-ID] *Minimum Standards for Driver's Licenses and Identification Cards 
+Acceptable by Federal Agencies for Official Purposes; Final Rule*, Department of Homeland Security, Federal Register Vol. 73 No. 19, January 29, 2008. Available at [https://www.govinfo.gov/content/pkg/FR-2008-01-29/html/08-140.htm](https://www.govinfo.gov/content/pkg/FR-2008-01-29/html/08-140.htm)
+
 [RFC2560] RFC 2560, *X.509 Internet Public Key Infrastructure Online Certificate Status
 Protocol - OCSP*, Internet Engineering Task Force (IETF), June 1999. Available at
 [http://www.ietf.org/rfc/rfc2560.txt.](http://www.ietf.org/rfc/rfc2560.txt)
@@ -127,8 +130,10 @@ Federal Information Systems and Organizations*, NIST, August 2009 or as amended.
 [SP 800-59] NIST Special Publication 800-59, *Guideline for Identifying an Information System
 as a National Security System*, NIST, August 2003 or as amended.
 
-[SP 800-63] NIST Special Publication 800-63-1, *Electronic Authentication Guideline*, NIST,
-December 2011 or as amended.
+[SP 800-63] NIST Special Publication 800-63-3, *Digital Identity Guidelines*, NIST,
+June 2017 or as amended.
+
+[SP 800-63A] NIST Special Publication 800-63A, *Digital Identity Guidelines: Enrollment and Identity Proofing Requirements*, NIST, June 2017 or as amended.
 
 [SP 800-73] NIST Special Publication 800-73-3, *Interfaces for Personal Identity Verification*,
 NIST, February 2010 or as amended.
