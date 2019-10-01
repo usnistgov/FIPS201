@@ -94,7 +94,7 @@ The following biometric data MAY optionally be collected from a PIV applicant:
 
 + One or two iris images.
 
-+ Two fingerprints, for on-card comparison. It is recommended that these fingerprints be imaged from fingers different than those
++ Two fingerprints, for on-card comparison. These MAY be taken from the full set of fingerprints collected in Section 2.3. It is recommended that these fingerprints be imaged from fingers different than those
 used for off-card comparison.
 
 If the biometric data that is collected as specified in this section and in Section 2.3 is collected on separate
