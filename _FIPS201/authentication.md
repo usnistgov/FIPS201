@@ -232,7 +232,7 @@ follows:
 
 ### 6.2.5 Authentication Using the CHUID
 
-This section has been deleted.
+The CHUID authentication method is no longer allowed under FIPS-201. This section has been deleted.
 
 ### 6.2.6 Authentication Using PIV Visual Credentials (VIS)
 
