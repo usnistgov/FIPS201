@@ -294,7 +294,7 @@ the visual authentication process:
 - The guard at the access control entry point determines whether the PIV Card appears to be genuine
     and has not been altered in any way.
 - The guard compares the cardholder’s facial features with the picture on the card to ensure that they
-    match. 
+    match.
 - The guard checks the expiration date on the card to ensure that the card has not expired.
 - The guard compares the cardholder’s physical characteristic descriptions to those of the cardholder. (Optional)
 - The guard collects the cardholder’s signature and compares it with the signature on the card.
