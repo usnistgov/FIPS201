@@ -227,7 +227,7 @@ following forms of identification:
   * a Permanent Resident Card or an Alien Registration Receipt Card (Form I-551);
   * a foreign passport;
   * an Employment Authorization Document that contains a photograph (Form I-766);
-  * a [REAL-ID] compliant Driver's license or ID card issued by a state or possession of the United States;
+  * a [REAL-ID] compliant Driver's license or [REAL-ID] compliant ID card issued by a state or possession of the United States;
   * a U.S. Military ID card;
   * a U.S. Military dependent's ID card; or
   * a PIV Card.
