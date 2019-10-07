@@ -246,6 +246,7 @@ of the following:
   * an Identification Card for Use of Resident Citizen in the United States (Form I-179);
   * a Certification of Birth Abroad or Certification of Report of Birth issued by the Department
   of State (Form FS-545 or Form DS-1350);
+  * a Reentry Permit (Form I-327);
   * an Employment authorization document issued by Department of Homeland Security (DHS);
   * a driver's license issued by a Canadian government entity;
   * a Native American tribal document;
