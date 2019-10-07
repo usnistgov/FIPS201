@@ -259,7 +259,7 @@ of the following:
 principle of separation of duties to ensure that no single individual has the capability to issue a PIV
 Card without the cooperation of another authorized person.
 
-> Note: One piece of Strong evidence and one other piece of evidence are considered sufficient for issuance of a PIV card because the background check requirement is considered a compensating control for identity proofing at Identity Assurance Level 3.
+> Note: One piece of Strong evidence and one other piece of evidence meeting the requirements of Fair evidence in [SP 800-63A] are considered sufficient for issuance of a PIV card because the background check requirement is considered a compensating control for identity proofing at Identity Assurance Level 3.
 
 The identity proofing and registration process used when verifying the identity of the applicant SHALL be
 accredited by the department or agency as satisfying the requirements above and approved in writing by
