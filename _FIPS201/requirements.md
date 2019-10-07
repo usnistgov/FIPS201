@@ -240,6 +240,8 @@ of the following:
   contains a photograph;
   * a voter's registration card;
   * a U.S. Coast Guard Merchant Mariner Card;
+  * a Certificate of U.S. Citizenship (Form N-560 or N-561);
+  * a Certificate of Naturalization (Form N-550 or N-570);
   * a U.S. Citizen ID Card (Form I-197);
   * an Identification Card for Use of Resident Citizen in the United States (Form I-179);
   * a Certification of Birth Abroad or Certification of Report of Birth issued by the Department
