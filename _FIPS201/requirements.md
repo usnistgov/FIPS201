@@ -567,10 +567,11 @@ required to have procedures in place to issue emergency notifications in such ca
 
 ## 2.10 Derived PIV Credentials Issuance Requirements
 
-Valid PIV Cards MAY be used as the basis for issuing derived PIV credentials in accordance with NIST
+Valid PIV Cards MAY be used as the basis for issuing or binding derived PIV credentials in accordance with NIST
 Special Publication 800-157, *Guidelines for Derived Personal Identity Verification (PIV) Credentials*
-[SP 800-157]. When a cardholder's PIV Card is terminated as specified in Section 2.9.4, any derived PIV
-credentials issued to the cardholder SHALL also be terminated.
+[SP 800-157]. Derived PIV credentials MAY be created at the same authentication assurance level as the PIV card itself (AAL3), or MAY be created at a lower AAL (AAL2) depending on the security characteristics of the authenticator. The CSP SHALL attempt to promptly notify the subscriber of the binding of a derived PIV credential through an independent means that would not afford an attacker with an opportunity to erase the notification. More than one independent notification method MAY be used to ensure prompt receipt by the subscriber. Derived PIV credentials SHALL be bound to the subscriber's PIV account only by the issuer of that PIV account.
+When a cardholder's PIV Card is terminated as specified in Section 2.9.4, any derived PIV
+credentials associated with the PIV account SHALL also be terminated.
 
 ## 2.11 PIV Privacy Requirements
 
