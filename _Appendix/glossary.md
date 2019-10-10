@@ -26,8 +26,8 @@ prospective Federal hire, a Federal employee, a government affiliate, or a contr
 Application
 : A hardware/software system implemented to satisfy a particular set of requirements. In
 this context, an application incorporates a system used to satisfy a subset of requirements related to the
-verification or identification of an end user’s identity so that the end user’s identifier can be used to
-facilitate the end user’s interaction with the system.
+verification or identification of an end user's identity so that the end user's identifier can be used to
+facilitate the end user's interaction with the system.
 
 Architecture
 : A highly structured specification of an acceptable approach within a framework for
@@ -42,7 +42,7 @@ verification.
 
 Authentication
 : The process of establishing confidence of authenticity; in this case, in the validity of a
-person’s identity and the PIV Card.
+person's identity and the PIV Card.
 
 Biometric
 : A measurable, physical characteristic or personal behavioral trait used to recognize the
@@ -80,7 +80,7 @@ maintained by PIV Card issuers.
 
 Comparison
 : The process of comparing a biometric with a previously stored reference. See also
-“Identification” and “Identity Verification”. [INCITS/M1-040211]
+"Identification" and "Identity Verification". [INCITS/M1-040211]
 
 Component
 : An element of a large system, such as an identity card, issuer, card reader, or identity
@@ -92,7 +92,7 @@ promulgating, and supporting FIPS for testing specific characteristics of compon
 services, as well as people and organizations for compliance with a FIPS.
 
 Credential
-: Evidence attesting to one’s right to credit or authority; in this Standard, it is the PIV Card
+: Evidence attesting to one's right to credit or authority; in this Standard, it is the PIV Card
 and data elements associated with an individual that authoritatively binds an identity (and, optionally,
 additional attributes) to that individual.
 
@@ -139,7 +139,7 @@ Identification
 from the entire collection of similar persons or items.
 
 Identifier
-: Unique data used to represent a person’s identity and associated attributes. A name or a card
+: Unique data used to represent a person's identity and associated attributes. A name or a card
 number are examples of identifiers.
 
 Identity
@@ -155,8 +155,8 @@ Identity Management System (IDMS)
 or applications that manages the identity verification, validation, and issuance process.
 
 Identity Registration
-: The process of making a person’s identity known to the PIV system, associating a
-unique identifier with that identity, and collecting and recording the person’s relevant attributes into the
+: The process of making a person's identity known to the PIV system, associating a
+unique identifier with that identity, and collecting and recording the person's relevant attributes into the
 system.
 
 Identity Verification
@@ -167,7 +167,7 @@ the identity being claimed.
 
 Interoperability
 : For the purposes of this Standard, interoperability allows any government facility or
-information system, regardless of the issuer, to verify a cardholder’s identity using the credentials on the
+information system, regardless of the issuer, to verify a cardholder's identity using the credentials on the
 PIV Card.
 
 Issuer
@@ -175,7 +175,7 @@ Issuer
 for which the applicant is working.
 
 Key
-: See “Cryptographic Key.”
+: See "Cryptographic Key."
 
 Match/Matching
 : The process of comparing biometric information against a previously stored biometric
@@ -213,14 +213,14 @@ Personally Identifiable Information (PII)
 : Information that can be used to distinguish or trace an
 individual's identity, such as name, social security number, biometric records, etc. alone, or when
 combined with other personal or identifying information that is linked or linkable to a specific individual,
-such as date and place of birth, mother’s maiden name, etc. [OMB0716]
+such as date and place of birth, mother's maiden name, etc. [OMB0716]
 
 Personal Identification Number (PIN)
 : A secret that a cardholder memorizes and uses to authenticate
 his or her identity.
 
 Personal Identity Verification (PIV) Card
-: A physical artifact (e.g., identity card, “smart” card) issued
+: A physical artifact (e.g., identity card, "smart" card) issued
 to an individual that contains a PIV Card Application which stores identity credentials (e.g., photograph,
 cryptographic keys, digitized fingerprint representation) so that the claimed identity of the cardholder can
 be verified against the stored credentials by another person (human readable and verifiable) or an
@@ -262,7 +262,7 @@ Recommendation
 use or procedures to follow to achieve a common level of quality or level of interoperability.
 
 Registration
-: See “Identity Registration.”
+: See "Identity Registration."
 
 Symmetric Key
 : A cryptographic key that is used to perform both the cryptographic operation and its
@@ -274,7 +274,7 @@ Validation
 specification of that system. [INCITS/M1-040211]
 
 Verification
-: See “Identity Verification.”
+: See "Identity Verification."
 
 ## C.2 Acronyms
 
@@ -534,10 +534,10 @@ This Standard uses the following typographical conventions in text:
 - Letters or words in CAPITALS separated with underscore represent CBEFF-compliant data
     structures. For example, CBEFF_HEADER is a header field in the CBEFF structure.
 - Specific terms in CAPITALS represent normative requirements. When these same terms are not in CAPITALS, the term does not represent a normative requirement. 
-  - The terms “SHALL” and “SHALL NOT” indicate requirements to be followed strictly in order to conform to the publication and from which no deviation is permitted.
+  - The terms "SHALL" and "SHALL NOT" indicate requirements to be followed strictly in order to conform to the publication and from which no deviation is permitted.
 
-  - The terms “SHOULD” and “SHOULD NOT” indicate that among several possibilities one is recommended as particularly suitable, without mentioning or excluding others, or that a certain course of action is preferred but not necessarily required, or that (in the negative form) a certain possibility or course of action is discouraged but not prohibited.
+  - The terms "SHOULD" and "SHOULD NOT" indicate that among several possibilities one is recommended as particularly suitable, without mentioning or excluding others, or that a certain course of action is preferred but not necessarily required, or that (in the negative form) a certain possibility or course of action is discouraged but not prohibited.
 
-  - The terms “MAY” and “NEED NOT” indicate a course of action permissible within the limits of the publication.
+  - The terms "MAY" and "NEED NOT" indicate a course of action permissible within the limits of the publication.
 
-  - The terms “CAN” and “CANNOT” indicate a possibility and capability, whether material, physical or causal or, in the negative, the absence of that possibility or capability.
+  - The terms "CAN" and "CANNOT" indicate a possibility and capability, whether material, physical or causal or, in the negative, the absence of that possibility or capability.

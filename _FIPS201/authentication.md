@@ -53,10 +53,10 @@ specified within this section may be applied to achieve the required degree of c
 the PIV cardholder.
 
 
-### 6.1.1 Relationship to OMB’s E-Authentication Guidance
+### 6.1.1 Relationship to OMB's E-Authentication Guidance
 
 The levels of identity authentication assurance defined within this Standard are closely aligned with
-Section 2 of OMB’s E-Authentication Guidance for Federal Agencies, M- 04 -04 [OMB0404].
+Section 2 of OMB's E-Authentication Guidance for Federal Agencies, M- 04 -04 [OMB0404].
 Specifically, Table 6-1 shows the notional relationship between the PIV assurance levels and the M- 04 -04
 E-Authentication assurance levels.
 
@@ -64,13 +64,13 @@ Table 6-1. Relationship Between PIV and E-Authentication Assurance Levels
 
 |PIV Assurance Levels|Comparable OMB E-Authentication Levels| Description|
 |---|---|---|
-|LITTLE or NO confidence|Level 1|Little or no confidence in the asserted identity’s validity|
-|SOME confidence|Level 2|Some confidence in the asserted identity’s validity|
-|HIGH confidence|Level 3|High confidence in the asserted identity’s validity|
-|VERY HIGH confidence|Level 4|Very high confidence in the asserted identity’s validity|
+|LITTLE or NO confidence|Level 1|Little or no confidence in the asserted identity's validity|
+|SOME confidence|Level 2|Some confidence in the asserted identity's validity|
+|HIGH confidence|Level 3|High confidence in the asserted identity's validity|
+|VERY HIGH confidence|Level 4|Very high confidence in the asserted identity's validity|
 
-[OMB0404] addresses “four levels of identity assurance for electronic transactions requiring
-authentication” and prescribes a methodology for determining the level of identity assurance required
+[OMB0404] addresses "four levels of identity assurance for electronic transactions requiring
+authentication" and prescribes a methodology for determining the level of identity assurance required
 based on the risks and potential impacts of errors in identity authentication. In the context of the PIV
 Card, owners of logical resources SHALL apply the methodology defined in [OMB0404] to identify the level
 of identity authentication assurance required for their electronic transaction. Parties that are responsible
@@ -175,7 +175,7 @@ The following steps SHALL be performed for PKI-AUTH:
     response.
 - The card responds to the previously issued challenge by signing it using the PIV Authentication
     private key.
-- The relying system verifies that the card’s response is the expected response to the issued challenge.
+- The relying system verifies that the card's response is the expected response to the issued challenge.
 - A unique identifier from the PIV Authentication certificate is extracted and passed as input to the
     access control decision.
 
@@ -202,7 +202,7 @@ The following steps SHALL be performed for PKI-CAK:
     response.
 - The card responds to the previously issued challenge by signing it using the Card Authentication
     private key.
-- The relying system verifies that the card’s response is the expected response to the issued challenge.
+- The relying system verifies that the card's response is the expected response to the issued challenge.
 - A unique identifier from the Card Authentication certificate is extracted and passed as input to the
     access control decision.
 
@@ -296,12 +296,12 @@ the visual authentication process:
 
 - The guard at the access control entry point determines whether the PIV Card appears to be genuine
     and has not been altered in any way.
-- The guard compares the cardholder’s facial features with the picture on the card to ensure that they
+- The guard compares the cardholder's facial features with the picture on the card to ensure that they
     match.
 - The guard checks the expiration date on the card to ensure that the card has not expired.
-- The guard compares the cardholder’s physical characteristic descriptions to those of the cardholder.
+- The guard compares the cardholder's physical characteristic descriptions to those of the cardholder.
     (Optional)
-- The guard collects the cardholder’s signature and compares it with the signature on the card.
+- The guard collects the cardholder's signature and compares it with the signature on the card.
     (Optional)
 - One or more of the other data elements on the card (e.g., name, employee affiliation, agency card
     serial number, issuer identification, agency name) are used to determine whether the cardholder

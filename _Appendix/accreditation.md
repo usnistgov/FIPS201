@@ -57,7 +57,7 @@ assurance that such a security exists in a PCI is obtained through evidence of t
 Management Framework guidelines specified in [SP 800-37]. The methodology in [SP 800-37] in turn
 was created pursuant to a mandate in Appendix III of Office of Management and Budget (OMB) Circular
 A-130. An Information system authorization decision together with evidence of security control
-monitoring compliant with [SP 800-37] guidelines signifies that a PCI organization’s official accepts
+monitoring compliant with [SP 800-37] guidelines signifies that a PCI organization's official accepts
 responsibility for the security (in terms of confidentiality, integrity, and availability of information) of the
 information systems that will be involved in carrying out the PCI functions. Hence evidence of
 successful application of Risk Management Framework consistent with [ SP 800-37] guidelines is
