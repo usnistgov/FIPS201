@@ -85,8 +85,8 @@ Fingerprint collection SHALL conform to the procedural and technical specificati
 
 The following biometric data SHALL be collected from each PIV applicant:
 
-+ Two fingerprints, for off-card comparison. These SHALL be taken either from the full set of fingerprints
-collected in Section 2.3, or collected independently.
++ Two fingerprints, for off-card comparison. These fingerprints MAY be taken from the full set of fingerprints
+collected in Section 2.3.
 
 + An electronic facial image.
 
@@ -94,8 +94,7 @@ The following biometric data MAY optionally be collected from a PIV applicant:
 
 + One or two iris images.
 
-+ Two fingerprints, for on-card comparison. It is recommended that these be different than the
-fingerprints collected for off-card comparison.
++ Two fingerprints, for on-card comparison. These fingerprints MAY be taken from the full set of fingerprints collected in Section 2.3 and SHOULD be imaged from fingers not imaged for off-card comparison.
 
 If the biometric data that is collected as specified in this section and in Section 2.3 is collected on separate
 occasions, then a 1:1 biometric match of the applicant SHALL be performed at each visit against biometric
