@@ -124,6 +124,12 @@ example, new mandatory features introduced in a revision of this Standard may ne
 Card Application version number so that systems can quickly discover the new mandatory features.
 Optional features, on the other hand, may be discoverable by an on-card discovery mechanism.
 
+### 1.3.6 Section Number Stability
+
+Section numbers have not been changed in this revision. Any deleted sections have had their contents 
+removed and replaced with a removal notice while retaining the section header and number. New subsections
+have been added at the end of their respective sections with a new section number in the header.
+
 ## 1.4 Document Organization
 
 This Standard describes the minimum requirements for a Federal personal identification system that
