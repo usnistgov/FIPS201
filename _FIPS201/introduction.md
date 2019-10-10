@@ -107,7 +107,8 @@ reason to do so. Deprecated features MAY continue to be used, but SHOULD be phas
 since the feature will likely be removed in the next revision of the Standard. For example, the CHUID
 authentication mechanism (Section 6.2.5) has been deprecated, since it provides LITTLE or NO assurance
 in the identity of the cardholder, and so relying systems SHOULD phase out use of this authentication
-mechanism. [^CHUID]
+mechanism. [^CHUID] The VIS authentication mechanism (Section 6.2.6) has been deprecated as a stand-alone
+authentication mechanism, but it MAY still be used in conjunction with other authentication mechanisms.
 
 In the case of deprecated features on PIV Cards, such as the authentication key map, existing PIV Cards
 with the deprecated features remain valid, however, new PIV Cards SHOULD NOT include the deprecated
