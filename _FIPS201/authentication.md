@@ -265,7 +265,7 @@ As the CHUID authentication mechanism provides LITTLE or NO assurance in the ide
 cardholder, use of the CHUID authentication mechanism is deprecated. It is expected that the CHUID
 authentication mechanism will be removed from this Standard at the next five-year revision.
 
-### 6.2.6 Authentication Using PIV Visual Credentials (VIS)
+### 6.2.6 Authentication Using PIV Visual Credentials (VIS) (Deprecated)
 
 Visual authentication of a PIV cardholder has been deprecated in this version and SHOULD NOT be
 used as a stand alone authentication mechanism. It is expected that this authentication mechanism
