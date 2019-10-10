@@ -236,9 +236,6 @@ following forms of identification:
 as the primary identity source document.[^second] The second identity source document may also be one
 of the following:
 
-  * a U.S. Social Security Card issued by the Social Security Administration;
-  * an original or certified copy of a birth certificate issued by a state, county, municipal
-  authority, possession, or outlying possession of the United States bearing an official seal;
   * an ID card issued by a federal, state, or local government agency or entity, provided it
   contains a photograph;
   * a voter's registration card;
@@ -249,21 +246,20 @@ of the following:
   * an Identification Card for Use of Resident Citizen in the United States (Form I-179);
   * a Certification of Birth Abroad or Certification of Report of Birth issued by the Department
   of State (Form FS-545 or Form DS-1350);
-  * a Temporary Resident Card (Form I-688);
-  * an Employment Authorization Card (Form I-688A);
   * a Reentry Permit (Form I-327);
-  * a Refugee Travel Document (Form I-571);
   * an Employment authorization document issued by Department of Homeland Security (DHS);
-  * an Employment Authorization Document issued by DHS with photograph (Form I-688B);
   * a driver's license issued by a Canadian government entity;
-  * a Native American tribal document; or
+  * a Native American tribal document;
+  * a U.S. Social Security Card issued by the Social Security Administration;
+  * an original or certified copy of a birth certificate issued by a state, county, municipal
+  authority, possession, or outlying possession of the United States bearing an official seal; or
   * another piece of evidence that meets the requirements of Fair evidence specified in [SP 800-63A] Section 5.2.1.
 
 + The PIV identity proofing, registration, issuance, and reissuance processes SHALL adhere to the
 principle of separation of duties to ensure that no single individual has the capability to issue a PIV
 Card without the cooperation of another authorized person.
 
-> Note: One piece of Strong evidence and one other piece of evidence are considered sufficient for issuance of a PIV card because the the eligibility and background check requirements are considered compensating controls for identity proofing at Identity Assurance Level 3.
+> Note: One piece of Strong evidence and one other piece of evidence meeting the requirements of Fair evidence in [SP 800-63A] are considered sufficient for issuance of a PIV card because the requirement for a federal background investigation is considered a compensating control for identity proofing at Identity Assurance Level 3.
 
 The identity proofing and registration process used when verifying the identity of the applicant SHALL be
 accredited by the department or agency as satisfying the requirements above and approved in writing by
