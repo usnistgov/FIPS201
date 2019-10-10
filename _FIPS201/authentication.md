@@ -242,28 +242,10 @@ follows:
 
 ### 6.2.5 Authentication Using the CHUID
 
-The PIV Card provides a mandatory data element called the CHUID. As described in Section 4.2.1, the
-CHUID contains numerous data elements.
+The CHUID authentication method is no longer allowed under FIPS-201. This section has been removed.
 
-The CHUID SHALL be used for PIV cardholder authentication using the following steps:
-
-- The CHUID is read electronically from the PIV Card.
-- The digital signature on the CHUID is checked to ensure the CHUID was signed by a trusted source
-    and is unaltered.
-- The expiration date on the CHUID is checked to ensure that the card has not expired.
-- A unique identifier within the CHUID is used as input to the authorization check to determine
-    whether the cardholder should be granted access.
-
-Some characteristics of the CHUID-based authentication mechanism are as follows:
-
-- Can be used for rapid authentication for high volume access control.
-- Low resistance to use of unaltered card by non-owner of card.
-- Does not provide protection against use of a revoked card.
-- Applicable with contact and contactless readers.
-
-As the CHUID authentication mechanism provides LITTLE or NO assurance in the identity of the
-cardholder, use of the CHUID authentication mechanism is deprecated. It is expected that the CHUID
-authentication mechanism will be removed from this Standard at the next five-year revision.
+The CHUID data element remains a required data element, and CHUID verification MAY be used to support
+other authentication mechanisms. 
 
 ### 6.2.6 Authentication Using PIV Visual Credentials (VIS)
 
@@ -349,7 +331,7 @@ Table 6-2. Authentication for Physical Access
 
 |PIV Assurance Level Required by Application/Resource|Applicable PIV Authentication Mechanism|
 |---|---|
-|LITTLE or NO confidence|VIS, CHUID|
+|LITTLE or NO confidence|VIS|
 |SOME confidence|PKI-CAK, SYM-CAK|
 |HIGH confidence|BIO|
 |VERY HIGH confidence|BIO-A, OCC-AUTH, PKI-AUTH|
@@ -369,7 +351,7 @@ Table 6-3. Authentication for Logical Access
 
 |PIV Assurance Level Required by Application/Resource|Applicable PIV Authentication Mechanism: Local Workstation Environment|Applicable PIV Authentication Mechanism: Remote/Network System Environment|
 |---|---|---|
-|LITTLE or NO confidence|CHUID||
+|LITTLE or NO confidence|||
 |SOME confidence|PKI-CAK|PKI-CAK|
 |HIGH confidence|BIO||
 |VERY HIGH confidence|BIO-A, OCC-AUTH, PKI-AUTH|PKI-AUTH|

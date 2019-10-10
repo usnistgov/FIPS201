@@ -445,7 +445,7 @@ PIV logical credentials fall into the following three categories:
     (CTE authentication) such as a host computer system.
 
 The PIN falls into the first category, the PIV Card Application Administration Key into the second
-category, and the CHUID, biometric credentials, symmetric keys, and asymmetric keys into the third.
+category, and the biometric credentials, symmetric keys, and asymmetric keys into the third.
 The fingerprint templates for on-card comparison fall into the first and third categories.
 
 ### 4.2.1 Cardholder Unique Identifier (CHUID)
