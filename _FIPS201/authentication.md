@@ -140,7 +140,7 @@ are the same as for the unattended biometric (BIO) authentication mechanism.
 
 The PIV Card Application MAY host the optional on-card biometric comparison algorithm. In this case,
 on-card biometric comparison data is stored on the card, which cannot be read, but could be used for
-identity verification. A live-scan biometric is supplied to the card to perform cardholder-to-card (CTC)
+identity verification. A fingerprint template is supplied to the card to perform cardholder-to-card (CTC)
 authentication and the card responds with an indication of the success of the on-card biometric
 comparison. The response includes information that allows the reader to authenticate the card. The
 cardholder PIN is not required for this operation. The PIV Card SHALL include a mechanism to block this
