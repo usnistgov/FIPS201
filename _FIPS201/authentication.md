@@ -240,7 +240,7 @@ follows:
 - Low resistance to use of unaltered card by non-owner of card.
 - Applicable with contact and contactless readers.
 
-### 6.2.5 Authentication Using the CHUID
+### 6.2.5 Authentication Using the CHUID (Removed)
 
 The CHUID authentication method is no longer allowed under FIPS-201. This section has been removed.
 
