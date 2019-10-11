@@ -267,7 +267,7 @@ authentication mechanism will be removed from this Standard at the next five-yea
 
 ### 6.2.6 Authentication Using PIV Visual Credentials (VIS) (Deprecated)
 
-Visual authentication of a PIV cardholder has been deprecated in this version of the Standard. The mechanism  povides Little or No assurance of the cardholder's identity and SHOULD NOT be used as a stand-alone a mechanism. It is expected that this authentication mechanism will be removed from this standard in a future revision. 
+Visual authentication of a PIV cardholder has been deprecated in this version of the Standard. The mechanism  povides Little or No assurance of the cardholder's identity and SHOULD NOT be used as a stand-alone mechanism. It is expected that this authentication mechanism will be removed from this standard in a future revision. 
 
 The PIV Card has several mandatory features on the front and back that support visual
 identification and authentication, as follows:
