@@ -6,11 +6,11 @@ navTitle: Glossary
 permalink: /glossary/
 ---
 
-# Appendix C— Glossary of Terms, Acronyms, and Notations
+# Appendix C— Glossary of Terms, Acronyms, and Notations {#s-appendix-c}
 
 This informative appendix describes the vocabulary and textual representations used in the document.
 
-## C.1 Glossary of Terms
+## C.1 Glossary of Terms {#s-c-1}
 
 The following terms are used throughout this Standard.
 
@@ -276,7 +276,7 @@ specification of that system. [INCITS/M1-040211]
 Verification
 : See "Identity Verification."
 
-## C.2 Acronyms
+## C.2 Acronyms {#s-c-2}
 
 The following acronyms and abbreviations are used throughout this Standard:
 
@@ -525,7 +525,7 @@ UUID
 
 [^eligibility]: See Page 2 of [OMB0524] for further details of individuals who are eligible to be issued PIV Cards.
 
-## C.3 Notations
+## C.3 Notations {#s-c-3}
 
 This Standard uses the following typographical conventions in text:
 

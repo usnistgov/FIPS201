@@ -3,9 +3,9 @@ layout: default
 title: PIV System Overview
 navOrder: 3
 navTitle: System
-permalink: /system/ 
+permalink: /system/
 ---
-# 3. PIV System Overview
+# 3. PIV System Overview {#s-3}
 
 The PIV system is composed of components and processes that support a common (smart card-based)
 platform for identity authentication across Federal departments and agencies for access to multiple types
@@ -19,7 +19,7 @@ authenticated identity information can then be used as a basis for access contro
 physical and logical access environments. The following sections briefly discuss the functional
 components of the PIV system and the lifecycle activities of the PIV Card.
 
-## 3.1 Functional Components
+## 3.1 Functional Components {#s-3-1}
 
 An operational PIV system can be logically divided into the following three major subsystems:
 
@@ -45,7 +45,7 @@ Figure 3-1 illustrates a notional model for the operational PIV system, identify
 components and the direction of data flow between these components. The boundary shown in the figure
 is not meant to preclude FIPS 201 requirements on systems outside these boundaries.
 
-### 3.1.1 PIV Front-End Subsystem
+### 3.1.1 PIV Front-End Subsystem {#s-3-1-1}
 
 The PIV Card will be issued to the applicant when all identity proofing, registration, and issuance
 processes have been completed. The PIV Card has a credit card-size form factor, with one or more
@@ -84,7 +84,7 @@ a higher level of authentication assurance.
 [^somethingyou]: For more information on the terms "something you know," "something you have," and "something you are," see [SP 800-63].
 [^oncardbiometric]: Alternatively, on-card biometric comparison can be used to activate the PIV Card.
 
-### 3.1.2 PIV Card Issuance and Management Subsystem
+### 3.1.2 PIV Card Issuance and Management Subsystem {#s-3-1-2}
 
 The identity proofing and registration component in Figure 3-1 refers to the process of collecting, storing,
 and maintaining all information and documentation that is required for verifying and assuring the
@@ -105,7 +105,7 @@ management component is also responsible for the provisioning of publicly access
 services (such as PKI directories and certificate status responders) that provide information to the
 requesting application about the status of the PKI credentials.
 
-### 3.1.3 PIV Relying Subsystem
+### 3.1.3 PIV Relying Subsystem {#s-3-1-3}
 
 The PIV relying subsystem includes components responsible for determining a particular PIV
 cardholder's access to a physical or logical resource. A physical resource is the secured facility (e.g.,
@@ -127,7 +127,7 @@ cardholder information to the information on record. Access control components t
 the card reader, the PIN input device, the biometric reader, supplementary databases, and any certificate
 status service.
 
-## 3.2 PIV Card Lifecycle Activities
+## 3.2 PIV Card Lifecycle Activities {#s-3-2}
 
 The PIV Card lifecycle consists of seven activities. The activities that take place during fabrication and
 pre-personalization of the card at the manufacturer are not considered a part of this lifecycle model.

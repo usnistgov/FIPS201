@@ -6,14 +6,14 @@ navTitle: Front-End
 permalink: /frontend/
 ---
 
-# 4. PIV Front-End Subsystem
+# 4. PIV Front-End Subsystem {#s-4}
 
 This section identifies the requirements for the components of the PIV front-end subsystem. Section 4.1
 provides the physical card specifications. Section 4.2 provides the logical card specifications. Section
 4.3 specifies the requirements for card activation. Section 4.4 provides requirements for PIV Card
 readers.
 
-## 4.1 PIV Card Physical Characteristics
+## 4.1 PIV Card Physical Characteristics {#s-4-1}
 
 References to the PIV Card in this section pertain to the physical characteristics only. References to the
 front of the card apply to the side of the card that contains the electronic contacts; references to the back
@@ -30,13 +30,13 @@ Standardization (ISO)/International Electrotechnical Commission (IEC) 7810 [ISO7
 [ISO10373], ISO/IEC 7816 for contact cards [ISO7816], and ISO/IEC 14443 for contactless cards
 [ISO14443].
 
-### 4.1.1 Printed Material
+### 4.1.1 Printed Material {#s-4-1-1}
 
 The printed material SHALL NOT rub off during the life of the PIV Card, nor SHALL the printing process
 deposit debris on the printer rollers during printing and laminating. Printed material SHALL NOT interfere
 with the contact and contactless ICC(s) and related components, nor SHALL it obstruct access to machine-readable information.
 
-### 4.1.2 Tamper Proofing and Resistance
+### 4.1.2 Tamper Proofing and Resistance {#s-4-1-2}
 
 The PIV Card SHALL contain security features that aid in reducing counterfeiting, are resistant to tampering,
 and provide visual evidence of tampering attempts. At a minimum, a PIV Card SHALL incorporate one such
@@ -60,7 +60,7 @@ Departments and agencies MAY incorporate additional tamper-resistance and anti-c
 As a generally accepted security procedure, Federal departments and agencies are strongly encouraged to
 periodically review the viability, effectiveness, and currency of employed tamper resistance and anti-counterfeiting methods.
 
-### 4.1.3 Physical Characteristics and Durability
+### 4.1.3 Physical Characteristics and Durability {#s-4-1-3}
 
 The following list describes the physical requirements for the PIV Card.
 
@@ -96,7 +96,7 @@ The following list describes the physical requirements for the PIV Card.
     oriented by touch or to be worn on a lanyard. Departments and agencies should ensure such
     alterations are closely coordinated with the card vendor and/or manufacturer to ensure the card
     material integrity and printing process is not adversely impacted. Departments and agencies are
-    strongly encouraged to ensure such alterations do not 
+    strongly encouraged to ensure such alterations do not
     compromise card body durability requirements and characteristics;
     invalidate card manufacturer warranties or other product claims;
     alter or interfere with printed information, including the photo; or
@@ -112,7 +112,7 @@ The PIV Card MAY be subjected to additional testing.
 
 [^orientation]: For some individuals, the contact surface for the ICC MAY be sufficient for determining the orientation of the card.
 
-### 4.1.4 Visual Card Topography
+### 4.1.4 Visual Card Topography {#s-4-1-4}
 
 The information on a PIV Card SHALL be in visual printed and electronic form. This section covers the
 placement of visual and printed information. It does not cover information stored in electronic form, such
@@ -142,7 +142,7 @@ manufacturers to ensure current printing procedures and methods are applied as w
 integration of features that may improve tamper resistance and anti-counterfeiting of the PIV Card.
 
 
-#### 4.1.4.1 Mandatory Items on the Front of the PIV Card
+#### 4.1.4.1 Mandatory Items on the Front of the PIV Card {#s-4-1-4-1}
 
 *Zone 1F—Photograph*. The photograph SHALL be placed in the upper left corner, as depicted in Figure 4-1,
 and be a full frontal pose from top of the head to shoulder. A minimum of 300 dots per inch (dpi)
@@ -217,7 +217,7 @@ Arial 12pt Bold.
 
 [^pseudonym]: Alternatively, an authorized pseudonym as provided under the law as discussed in Section 2.8.1.
 
-#### 4.1.4.2 Mandatory Items on the Back of the PIV Card
+#### 4.1.4.2 Mandatory Items on the Back of the PIV Card {#s-4-1-4-2}
 
 *Zone 1B—Agency Card Serial Number*. This item SHALL be printed as depicted in Figure 4-6 and contain
 the unique serial number from the issuing department or agency. The format SHALL be at the discretion of
@@ -227,7 +227,7 @@ the issuing department or agency.
 of six characters for the department code, four characters for the agency code, and a five-digit number
 that uniquely identifies the issuing facility within the department or agency.
 
-#### 4.1.4.3 Optional Items on the Front of the PIV Card
+#### 4.1.4.3 Optional Items on the Front of the PIV Card {#s-4-1-4-3}
 
 This section contains a description of the optional information and machine-readable technologies that
 may be used and their respective placement. The storage capacity of all optional technologies is as
@@ -301,7 +301,7 @@ alterations are closely coordinated with the card vendor and/or manufacturer to 
 integrity and printing process is not adversely impacted.
 
 
-#### 4.1.4.4 Optional Items on the Back of the PIV Card
+#### 4.1.4.4 Optional Items on the Back of the PIV Card {#s-4-1-4-4}
 
 *Zone 3B—Magnetic Stripe*. If used, the magnetic stripe SHALL be high coercivity and placed in accordance
 with [ISO7811], as illustrated in Figure 4-7.
@@ -374,7 +374,7 @@ Figure 4-8. Card Back—Optional Data Placement—Example 2
 
 ![Figure 4-8]({{site.baseurl}}/{{page.collection}}/images/cardback-optional2.jpg){:style="width: 1047px;"}
 
-### 4.1.5 Color Representation
+### 4.1.5 Color Representation {#s-4-1-5}
 
 Table 4-2 provides quantitative specifications for colors in three different color systems: sRGB
 Tristimulus, sRGB ([IEC61966], Color management – default RGB color space), and CMYK (Cyan,
@@ -404,7 +404,7 @@ where Table 4-2 scales are not available.
 
 [^pantone]: Pantone is a registered name protected by law.
 
-## 4.2 PIV Card Logical Characteristics
+## 4.2 PIV Card Logical Characteristics {#s-4-2}
 
 This section defines logical identity credentials and the requirements for use of these credentials.
 
@@ -448,7 +448,7 @@ The PIN falls into the first category, the PIV Card Application Administration K
 category, and the biometric credentials, symmetric keys, and asymmetric keys into the third.
 The fingerprint templates for on-card comparison fall into the first and third categories.
 
-### 4.2.1 Cardholder Unique Identifier (CHUID)
+### 4.2.1 Cardholder Unique Identifier (CHUID) {#s-4-2-1}
 
 The PIV Card SHALL include the CHUID as defined in [SP 800-73]. The CHUID includes the Federal
 Agency Smart Credential Number (FASC-N) and the Global Unique Identification Number (GUID),
@@ -478,7 +478,7 @@ expired.
 
 [^legacypki]: For legacy PKIs, as defined in Section 5.4, the certificates MAY be issued under a department or agency-specific policy that has been cross-certified with the Federal Bridge CA (FBCA) at the Medium Hardware or High Assurance Level.
 
-### 4.2.2 Cryptographic Specifications
+### 4.2.2 Cryptographic Specifications {#s-4-2-2}
 
 The PIV Card SHALL implement the cryptographic operations and support functions as defined in
 [SP 800-78] and [SP 800-73].
@@ -615,9 +615,9 @@ key management keys.
 [^backgroundstatus]: Other methods to indicate background investigative status will be explored in a future revision of this Standard.
 [^cardholderauthentication]: [NISTIR7863], *Cardholder Authentication for the PIV Digital Signature Key*, addresses the appropriate use of PIN caching related to digital signatures.
 
-### 4.2.3 PIV Biometric Data Specifications
+### 4.2.3 PIV Biometric Data Specifications {#s-4-2-3}
 
-#### 4.2.3.1 Biometric Data Representation
+#### 4.2.3.1 Biometric Data Representation {#s-4-2-3-1}
 
 The following biometric data SHALL be stored on the PIV Card:
 
@@ -636,7 +636,7 @@ with the preparation and formatting specifications of [SP 800-76].
 
 [^fingerprints]: The on-card and off-card fingerprint reference data are stored separately and, as conformant instances of different formal fingerprint standards, are syntactically different. This is described more fully in [SP 800-76].
 
-#### 4.2.3.2 Biometric Data Protection
+#### 4.2.3.2 Biometric Data Protection {#s-4-2-3-2}
 
 The integrity of all biometric data, except for fingerprint templates for on-card comparison, SHALL be
 protected using digital signatures as follows. The records SHALL be prepended with a Common Biometric
@@ -663,7 +663,7 @@ signing certificate on a valid PIV Card (one that is neither expired nor revoked
 
 [^crosscert]: For legacy PKIs, as defined in Section 5.4, the certificates MAY be issued under a department or agency-specific policy that has been cross-certified with the Federal Bridge CA (FBCA) at the Medium Hardware or High Assurance Level.
 
-#### 4.2.3.3 Biometric Data Access
+#### 4.2.3.3 Biometric Data Access {#s-4-2-3-3}
 
 The PIV biometric data, except for fingerprint templates for on-card comparison, that is stored on the card
 
@@ -676,7 +676,7 @@ PIV Card to support card activation (Section 4.3.1) and cardholder authenticatio
 fingerprint templates for on-card comparison SHALL NOT be exportable. If implemented, on-card biometric
 comparison SHALL be implemented and used in accordance with [SP 800-73] and [SP 800-76].
 
-### 4.2.4 PIV Unique Identifiers
+### 4.2.4 PIV Unique Identifiers {#s-4-2-4}
 
 A cardholder is authenticated through identification and authentication (I&A) using the PIV Card (and its
 identifier) in authentication mechanisms described in Section 6. The authenticated identity MAY then be
@@ -695,7 +695,7 @@ Cardholder Identifiers
 the card. Examples include the subject name and names that may appear in the subjectAltName
 extension in the PIV Authentication certificate.
 
-## 4.3 PIV Card Activation
+## 4.3 PIV Card Activation {#s-4-3}
 
 The PIV Card SHALL be activated[^activation] to perform privileged[^priviledged] operations such as using the PIV Authentication
 key, digital signature key, and key management key. The PIV Card SHALL be activated for privileged
@@ -706,7 +706,7 @@ Section 4.3.2.
 [^activation]: Activation in this context refers to the unlocking of the PIV Card Application so privileged operations can be performed.
 [^priviledged]: A read of a CHUID or use of the Card Authentication key is not considered a privileged operation.
 
-### 4.3.1 Activation by Cardholder
+### 4.3.1 Activation by Cardholder {#s-4-3-1}
 
 PIV Cards SHALL implement user-based cardholder activation to allow privileged operations using PIV
 credentials held by the card. At a minimum, the PIV Card SHALL implement PIN-based cardholder
@@ -719,9 +719,9 @@ activation of the card after a number of consecutive failed activation attempts.
 consecutive failed activation attempts MAY vary by activation mechanism.
 
 The PIN should not be easily guessable or otherwise individually identifiable in nature (e.g., part of a
-Social Security Number, phone number). The PIN SHALL be a minimum of six digits in length. The PIV Card SHALL compare the chosen PIN against a list of at least 10 commonly-chosen values (e.g., 000000, 123456) and require the choice of a different value if one of those is selected by the user. 
+Social Security Number, phone number). The PIN SHALL be a minimum of six digits in length. The PIV Card SHALL compare the chosen PIN against a list of at least 10 commonly-chosen values (e.g., 000000, 123456) and require the choice of a different value if one of those is selected by the user.
 
-### 4.3.2 Activation by Card Management System
+### 4.3.2 Activation by Card Management System {#s-4-3-2}
 
 PIV Cards MAY support card activation by the card management system to support card personalization
 and post-issuance card update. To activate the card for personalization or update, the card management
@@ -731,12 +731,12 @@ SHALL be set to be specific to each PIV Card. That is, each PIV Card SHALL conta
 Application Administration Key. PIV Card Application Administration Keys SHALL meet the algorithm
 and key size requirements stated in [SP 800-78].
 
-## 4.4 Card Reader Requirements
+## 4.4 Card Reader Requirements {#s-4-4}
 
 This section provides minimum requirements for the contact and contactless card readers. Also, this
 section provides requirements for PIN input devices. Further requirements are specified in [SP 800-96].
 
-### 4.4.1 Contact Reader Requirements
+### 4.4.1 Contact Reader Requirements {#s-4-4-1}
 
 Contact card readers SHALL conform to the [ISO7816] standard for the card-to-reader interface. These
 readers SHALL conform to the Personal Computer/Smart Card (PC/SC) Specification [PCSC] for the reader-to-host system interface in general desktop computing environment. Specifically, the contact card readers
@@ -744,7 +744,7 @@ SHALL conform to the requirements specified in [SP 800-96]. In systems where the
 connected to general-purpose desktop computing systems, the reader-to-host system interface is not
 specified in this Standard.
 
-### 4.4.2 Contactless Reader Requirements
+### 4.4.2 Contactless Reader Requirements {#s-4-4-2}
 
 Contactless card readers SHALL conform to [ISO14443] standard for the card-to-reader interface and data
 transmitted over the [ISO14443] link SHALL conform to [ISO7816]. In cases where these readers are
@@ -753,7 +753,7 @@ specified in [SP 800-96]. In systems where the readers are not connected to gene
 computing systems, the reader-to-host system interface is not specified in this Standard.
 
 
-### 4.4.3 Reader Resilience and Flexibility
+### 4.4.3 Reader Resilience and Flexibility {#s-4-4-3}
 
 The international standard ISO/IEC 24727 [ISO24727] enables a high degree of interoperability between
 electronic credentials and relying subsystems by means of an adaptation layer. To make interoperability
@@ -765,7 +765,7 @@ Specifications of the profile will become effective, as an optional means to imp
 readers and middleware, when OMB determines that the profile specifications are complete and ready for
 deployment.
 
-### 4.4.4 Card Activation Device Requirements
+### 4.4.4 Card Activation Device Requirements {#s-4-4-4}
 
 When the PIV Card is used with OCC data or a PIN for physical access, the input device SHALL be
 integrated with the PIV Card reader. When the PIV Card is used with OCC data or a PIN for logical

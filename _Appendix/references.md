@@ -6,7 +6,7 @@ navTitle: References
 permalink: /references/
 ---
 
-# Appendix D— References
+# Appendix D— References {#s-appendix-d}
 
 [ANSI322] ANSI INCITS 322 Information Technology, *Card Durability Test Methods*, ANSI,
 2002.
@@ -103,7 +103,7 @@ Employees and Contractors*, February 2011.
 Shared Service Provider (SSP) Program*, Version 1.5, January 7, 2008 or as amended. Available
 at [http://idmanagement.gov/sites/default/files/documents/CertCRLprofileForCP.pdf.](http://idmanagement.gov/sites/default/files/documents/CertCRLprofileForCP.pdf)
 
-[REAL-ID] *Minimum Standards for Driver's Licenses and Identification Cards 
+[REAL-ID] *Minimum Standards for Driver's Licenses and Identification Cards
 Acceptable by Federal Agencies for Official Purposes; Final Rule*, Department of Homeland Security, Federal Register Vol. 73 No. 19, January 29, 2008. Available at [https://www.govinfo.gov/content/pkg/FR-2008-01-29/html/08-140.htm](https://www.govinfo.gov/content/pkg/FR-2008-01-29/html/08-140.htm)
 
 [RFC2560] RFC 2560, *X.509 Internet Public Key Infrastructure Online Certificate Status

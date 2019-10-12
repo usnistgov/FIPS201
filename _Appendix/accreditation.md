@@ -5,12 +5,12 @@ navOrder: 1
 navTitle: Accreditation
 permalink: /accreditation/
 ---
-# Appendix A—PIV Validation, Certification, and Accreditation
+# Appendix A—PIV Validation, Certification, and Accreditation {#s-appendix-a}
 
 This appendix provides compliance requirements for PIV validation, certification, and accreditation, and
 is normative.
 
-## A.1 Accreditation of PIV Card Issuers (PCI)
+## A.1 Accreditation of PIV Card Issuers (PCI) {#s-a-1}
 
 [HSPD-12] requires that all cards be issued by providers whose reliability has been established by an
 official accreditation process. The accreditation of the PIV Card issuer SHALL be reviewed through a third-party assessment to enhance the trustworthiness of the credential. To facilitate consistent independent
@@ -49,7 +49,7 @@ authorization to operate (ATO) or the denial of authorization to operate (DATO),
 the accreditation decision.
 
 
-## A.2 Application of Risk Management Framework to IT System(s) Supporting PCI
+## A.2 Application of Risk Management Framework to IT System(s) Supporting PCI {#s-a-2}
 
 The accreditation of the capability and reliability of a PCI using the methodology outlined in [SP 800-79]
 depends upon adequate security for the information systems that are used for PCI functions. The
@@ -63,7 +63,7 @@ information systems that will be involved in carrying out the PCI functions. Hen
 successful application of Risk Management Framework consistent with [ SP 800-37] guidelines is
 mandatory for issuing PCI accreditation using [SP 800-79].
 
-## A.3 Conformance Testing of PIV Card Application and Middleware
+## A.3 Conformance Testing of PIV Card Application and Middleware {#s-a-3}
 
 Assurance of conformance of the PIV Card Application and PIV Middleware interfaces to this Standard
 and its associated technical specifications is needed in order to meet the security and interoperability
@@ -77,7 +77,7 @@ test procedures and toolkit. The outcomes of the test results are validated by N
 validation certificates. Information about NPIVP is available at
 [http://csrc.nist.gov/groups/SNS/piv/npivp.](http://csrc.nist.gov/groups/SNS/piv/npivp.)
 
-## A.4 Cryptographic Testing and Validation
+## A.4 Cryptographic Testing and Validation {#s-a-4}
 
 All on-card cryptographic modules hosting the PIV Card Application and cryptographic modules of card
 issuance and maintenance systems SHALL be validated to [FIPS140] with an overall Security Level 2 (or
@@ -90,7 +90,7 @@ Communications Security Establishment (CSE) of the Government of Canada. The det
 and NVLAP programs and the list of testing laboratories can be found at the CMVP Web site at
 [http://csrc.nist.gov/groups/STM/cmvp/index.html.](http://csrc.nist.gov/groups/STM/cmvp/index.html.)
 
-## A.5 FIPS 201 Evaluation Program
+## A.5 FIPS 201 Evaluation Program {#s-a-5}
 
 In order to evaluate the conformance of different families of products that support the PIV processes to
 this Standard and its associated technical specifications, the Office of Governmentwide Policy under GSA
