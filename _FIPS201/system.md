@@ -81,7 +81,7 @@ authentication ("something you are") in addition to entering the PIN ("something
 providing the card ("something you have") for cryptographic key-based authentication. This provides for
 a higher level of authentication assurance.
 
-[^somethingyou]: For more information on the terms "something you know," "something you have," and "something you are," see [SP 800-63].
+[^somethingyou]: For more information on the terms "something you know," "something you have," and "something you are," see [[SP 800-63]](../_Appendix/references.md#ref-SP-800-63).
 [^oncardbiometric]: Alternatively, on-card biometric comparison can be used to activate the PIV Card.
 
 ### 3.1.2 PIV Card Issuance and Management Subsystem {#s-3-1-2}

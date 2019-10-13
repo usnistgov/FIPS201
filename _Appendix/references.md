@@ -120,52 +120,52 @@ Revocation List (CRL) Profile*, IETF, May 2008. Available at [http://www.ietf.or
 [RFC5652](#ref-RFC5652){:name="ref-RFC5652"} RFC 5652, *Cryptographic Message Syntax (CMS)*, IETF, September 2009. Available
 at [http://www.ietf.org/rfc/rfc5652.txt.](http://www.ietf.org/rfc/rfc5652.txt)
 
-[SP 800-37](#ref-SP 800-37){:name="ref-SP 800-37"} NIST Special Publication 800-37 Revision 1, *Guide for Applying the Risk
+[SP 800-37](#ref-SP-800-37){:name="ref-SP-800-37"} NIST Special Publication 800-37 Revision 1, *Guide for Applying the Risk
 Management Framework to Federal Information Systems: A Security Life Cycle Approach*, NIST,
 February 2010 or as amended.
 
-[SP 800-53](#ref-SP 800-53){:name="ref-SP 800-53"} NIST Special Publication 800-53 Revision 3, *Recommended Security Controls for
+[SP 800-53](#ref-SP-800-53){:name="ref-SP-800-53"} NIST Special Publication 800-53 Revision 3, *Recommended Security Controls for
 Federal Information Systems and Organizations*, NIST, August 2009 or as amended.
 
-[SP 800-59](#ref-SP 800-59){:name="ref-SP 800-59"} NIST Special Publication 800-59, *Guideline for Identifying an Information System
+[SP 800-59](#ref-SP-800-59){:name="ref-SP-800-59"} NIST Special Publication 800-59, *Guideline for Identifying an Information System
 as a National Security System*, NIST, August 2003 or as amended.
 
-[SP 800-63](#ref-SP 800-63){:name="ref-SP 800-63"} NIST Special Publication 800-63-3, *Digital Identity Guidelines*, NIST,
+[SP 800-63](#ref-SP-800-63){:name="ref-SP-800-63"} NIST Special Publication 800-63-3, *Digital Identity Guidelines*, NIST,
 June 2017 or as amended.
 
-[SP 800-63A](#ref-SP 800-63A){:name="ref-SP 800-63A"} NIST Special Publication 800-63A, *Digital Identity Guidelines: Enrollment and Identity Proofing Requirements*, NIST, June 2017 or as amended.
+[SP 800-63A](#ref-SP-800-63A){:name="ref-SP-800-63A"} NIST Special Publication 800-63A, *Digital Identity Guidelines: Enrollment and Identity Proofing Requirements*, NIST, June 2017 or as amended.
 
-[SP 800-73](#ref-SP 800-73){:name="ref-SP 800-73"} NIST Special Publication 800-73-3, *Interfaces for Personal Identity Verification*,
+[SP 800-73](#ref-SP-800-73){:name="ref-SP-800-73"} NIST Special Publication 800-73-3, *Interfaces for Personal Identity Verification*,
 NIST, February 2010 or as amended.
 
-[SP 800-76](#ref-SP 800-76){:name="ref-SP 800-76"} NIST Special Publication 800-76-2, *Biometric Specifications for Personal Identity
+[SP 800-76](#ref-SP-800-76){:name="ref-SP-800-76"} NIST Special Publication 800-76-2, *Biometric Specifications for Personal Identity
 Verification*, NIST, July 2013 or as amended.
 
-[SP 800-78](#ref-SP 800-78){:name="ref-SP 800-78"} NIST Special Publication 800-78-3, *Cryptographic Algorithms and Key Sizes for
+[SP 800-78](#ref-SP-800-78){:name="ref-SP-800-78"} NIST Special Publication 800-78-3, *Cryptographic Algorithms and Key Sizes for
 Personal Identity Verification*, NIST, December 2010 or as amended.
 
-[SP 800-79](#ref-SP 800-79){:name="ref-SP 800-79"} NIST Special Publication 800-79-1, *Guidelines for the Accreditation of Personal
+[SP 800-79](#ref-SP-800-79){:name="ref-SP-800-79"} NIST Special Publication 800-79-1, *Guidelines for the Accreditation of Personal
 Identity Verification Card Issuers*, NIST, June 2008 or as amended.
 
-[SP 800-85A](#ref-SP 800-85A){:name="ref-SP 800-85A"} NIST Special Publication 800-85A-2, *PIV Card Application and Middleware
+[SP 800-85A](#ref-SP-800-85A){:name="ref-SP-800-85A"} NIST Special Publication 800-85A-2, *PIV Card Application and Middleware
 Interface Test Guidelines (SP800-73-3 compliance)*, NIST, July 2010 or as amended.
 
-[SP 800-87](#ref-SP 800-87){:name="ref-SP 800-87"} NIST Special Publication 800-87 Revision 1, *Codes for the Identification of Federal
+[SP 800-87](#ref-SP-800-87){:name="ref-SP-800-87"} NIST Special Publication 800-87 Revision 1, *Codes for the Identification of Federal
 and Federally-Assisted Organizations*, NIST, April 2008 or as amended.
 
-[SP 800-96](#ref-SP 800-96){:name="ref-SP 800-96"} NIST Special Publication 800-96, *PIV Card to Reader Interoperability Guidelines*,
+[SP 800-96](#ref-SP-800-96){:name="ref-SP-800-96"} NIST Special Publication 800-96, *PIV Card to Reader Interoperability Guidelines*,
 NIST, September 2006 or as amended.
 
-[SP 800-116](#ref-SP 800-116){:name="ref-SP 800-116"} NIST Special Publication 800-116, *A Recommendation for the use of PIV
+[SP 800-116](#ref-SP-800-116){:name="ref-SP-800-116"} NIST Special Publication 800-116, *A Recommendation for the use of PIV
 Credentials in Physical Access Control Systems (PACS)*, NIST, November 2008 or as amended.
 
-[SP 800-122](#ref-SP 800-122){:name="ref-SP 800-122"} NIST Special Publication 800-122, *Guide to Protecting the Confidentiality of
+[SP 800-122](#ref-SP-800-122){:name="ref-SP-800-122"} NIST Special Publication 800-122, *Guide to Protecting the Confidentiality of
 Personally Identifiable Information (PII)*, NIST, April 2010 or as amended.
 
-[SP 800-156](#ref-SP 800-156){:name="ref-SP 800-156"} NIST Special Publication 800-156, *Representation of PIV Chain-of-Trust for
+[SP 800-156](#ref-SP-800-156){:name="ref-SP-800-156"} NIST Special Publication 800-156, *Representation of PIV Chain-of-Trust for
 Import and Export*, NIST.
 
-[SP 800-157](#ref-SP 800-157){:name="ref-SP 800-157"} NIST Special Publication 800-157, *Guidelines for Derived Personal Identity
+[SP 800-157](#ref-SP-800-157){:name="ref-SP-800-157"} NIST Special Publication 800-157, *Guidelines for Derived Personal Identity
 Verification (PIV) Credentials*, NIST.
 
 [SPRINGER MEMO](#ref-SPRINGER MEMO){:name="ref-SPRINGER MEMO"} Final Credentialing Standards for Issuing Personal Identity Verification

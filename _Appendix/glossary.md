@@ -54,8 +54,7 @@ Biometric Information
 can be in terms of raw or compressed pixels or in terms of some characteristic (e.g., patterns).
 
 Capture
-: The method of taking a biometric sample from an end user. [INCITS/M1-040211]
-
+: The method of taking a biometric sample from an end user. [[INCITS/M1-040211]](references.md#ref-INCITS/M1-040211) 
 Cardholder
 : An individual possessing an issued PIV Card.
 
@@ -65,8 +64,7 @@ Application.
 
 Certificate Revocation List
 : A list of revoked public key certificates created and digitally signed by a
-certification authority. [RFC5280]
-
+certification authority. [[RFC5280]](references.md#ref-RFC5280) 
 Certification
 : The process of verifying the correctness of a statement or claim and issuing a certificate as
 to its correctness.
@@ -80,7 +78,7 @@ maintained by PIV Card issuers.
 
 Comparison
 : The process of comparing a biometric with a previously stored reference. See also
-"Identification" and "Identity Verification". [INCITS/M1-040211]
+"Identification" and "Identity Verification". [[INCITS/M1-040211]](references.md#ref-INCITS/M1-040211) 
 
 Component
 : An element of a large system, such as an identity card, issuer, card reader, or identity
@@ -102,7 +100,7 @@ determines the specific operation of that algorithm.
 
 E-Authentication Assurance Level
 : A measure of trust or confidence in an authentication mechanism
-defined in [OMB0404] and [SP 800-63], in terms of four levels:
+defined in [[OMB0404]](references.md#ref-OMB0404) and [[SP 800-63]](references.md#ref-SP-800-63)  in terms of four levels:
 
 - Level 1: LITTLE OR NO confidence
 - Level 2: SOME confidence
@@ -116,7 +114,7 @@ the acquiring agent, office and organization, time, place, and acquisition metho
 Federal Agency Smart Credential Number (FASC-N)
 : As required by FIPS 201, one of the primary
 identifiers on the PIV Card for physical access control. The FASC-N is a fixed length (25 byte) data
-object, specified in [SP 800-73], and included in several data objects on a PIV Card.
+object, specified in [[SP 800-73]](references.md#ref-SP-800-73)  and included in several data objects on a PIV Card.
 
 Federal Information Processing Standards (FIPS)
 : A standard for adoption and use by Federal
@@ -126,7 +124,7 @@ information technology to achieve a common level of quality or some level of int
 
 Hash Function
 : A function that maps a bit string of arbitrary length to a fixed length bit string. Secure
-hash functions [FIPS180] satisfy the following properties:
+hash functions [[FIPS180]](references.md#ref-FIPS180) satisfy the following properties:
 
 1. **One-Way.** It is computationally infeasible to find any input that maps to any pre-specified
     output.
@@ -200,8 +198,7 @@ previously stored on the card.
 
 Online Certificate Status Protocol (OCSP)
 : An online protocol used to determine the status of a public
-key certificate. [RFC2560]
-
+key certificate. [[RFC2560]](references.md#ref-RFC2560) 
 Path Validation
 : The process of verifying the binding between the subject identifier and subject public
 key in a certificate, based on the public key of a trust anchor, through the validation of a chain of
@@ -213,7 +210,7 @@ Personally Identifiable Information (PII)
 : Information that can be used to distinguish or trace an
 individual's identity, such as name, social security number, biometric records, etc. alone, or when
 combined with other personal or identifying information that is linked or linkable to a specific individual,
-such as date and place of birth, mother's maiden name, etc. [OMB0716]
+such as date and place of birth, mother's maiden name, etc. [[OMB0716]](references.md#ref-OMB0716) 
 
 Personal Identification Number (PIN)
 : A secret that a cardholder memorizes and uses to authenticate
@@ -271,8 +268,7 @@ code.
 
 Validation
 : The process of demonstrating that the system under consideration meets in all respects the
-specification of that system. [INCITS/M1-040211]
-
+specification of that system. [[INCITS/M1-040211]](references.md#ref-INCITS/M1-040211) 
 Verification
 : See "Identity Verification."
 
@@ -523,7 +519,7 @@ U.S.C.
 UUID
 : Universally Unique IDentifier
 
-[^eligibility]: See Page 2 of [OMB0524] for further details of individuals who are eligible to be issued PIV Cards.
+[^eligibility]: See Page 2 of [[OMB0524]](references.md#ref-OMB0524) for further details of individuals who are eligible to be issued PIV Cards.
 
 ## C.3 Notations {#s-c-3}
 

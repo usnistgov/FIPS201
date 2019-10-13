@@ -6,7 +6,7 @@ multiple applications by efficiently verifying the claimed identity of individua
 to Federally controlled government facilities and logical access to government information systems.
 
 The Standard contains the minimum requirements for a Federal personal identity verification system that
-meets the control and security objectives of Homeland Security Presidential Directive-12 [HSPD-12],
+meets the control and security objectives of Homeland Security Presidential Directive-12 [[HSPD-12]](_Appendix/references.md#ref-HSPD-12) 
 including identity proofing, registration, and issuance. The Standard also provides detailed specifications
 that will support technical interoperability among PIV systems of Federal departments and agencies. It
 describes the card elements, system interfaces, and security controls required to securely store, process,
