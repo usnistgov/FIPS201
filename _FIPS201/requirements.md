@@ -86,7 +86,7 @@ Fingerprint collection SHALL conform to the procedural and technical specificati
 The following biometric data SHALL be collected from each PIV applicant:
 
 + Two fingerprints, for off-card comparison. These fingerprints MAY be taken from the full set of fingerprints
-collected in Section 2.3.
+collected in [Section 2.3](requirements.md#s-2-3).
 
 + An electronic facial image.
 
@@ -94,9 +94,9 @@ The following biometric data MAY optionally be collected from a PIV applicant:
 
 + One or two iris images.
 
-+ Two fingerprints, for on-card comparison. These fingerprints MAY be taken from the full set of fingerprints collected in Section 2.3 and SHOULD be imaged from fingers not imaged for off-card comparison.
++ Two fingerprints, for on-card comparison. These fingerprints MAY be taken from the full set of fingerprints collected in [Section 2.3](requirements.md#s-2-3) and SHOULD be imaged from fingers not imaged for off-card comparison.
 
-If the biometric data that is collected as specified in this section and in Section 2.3 is collected on separate
+If the biometric data that is collected as specified in this section and in [Section 2.3](requirements.md#s-2-3) is collected on separate
 occasions, then a 1:1 biometric match of the applicant SHALL be performed at each visit against biometric
 data collected during a previous visit.
 
@@ -111,27 +111,27 @@ maintained by the FBI.
 
 
 The two mandatory fingerprints SHALL be used for preparation of templates to be stored on the PIV Card as
-described in Section 4.2.3.1. The fingerprints provide an interagency-interoperable authentication
-mechanism through a match-off-card scheme as described in Section 6.2.1. These fingerprints are also
+described in [Section 4.2.3.1](frontend.md#s-4-2-3-1). The fingerprints provide an interagency-interoperable authentication
+mechanism through a match-off-card scheme as described in [Section 6.2.1](authentication.md#s-6-2-1). These fingerprints are also
 the primary means of authentication during PIV issuance and maintenance processes.
 
 The optional fingerprints MAY be used for preparation of the fingerprint templates for on-card comparison
-as described in Section 4.2.3.1. OCC MAY be used to support card activation as described in Section
-4.3.1. OCC MAY also be used for cardholder authentication (OCC-AUTH) as described in Section 6.2.2.
+as described in [Section 4.2.3.1](frontend.md#s-4-2-3-1). OCC MAY be used to support card activation as described in 
+[Section 4.3.1](frontend.md#s-4-3-1). OCC MAY also be used for cardholder authentication (OCC-AUTH) as described in [Section 6.2.2](authentication.md#s-6-2-2).
 
-The electronic iris images MAY be stored on the PIV Card as described in Section 4.2.3.1. Agencies MAY
+The electronic iris images MAY be stored on the PIV Card as described in [Section 4.2.3.1](frontend.md#s-4-2-3-1). Agencies MAY
 choose to collect iris biometrics as a second biometric to support multimodal authentication to improve
 accuracy, operational suitability, to accommodate user preferences, or as a backup when the fingerprint
 biometric is unavailable.
 
 The electronic facial image:
 
-+ SHALL be stored on the PIV Card as described in Section 4.2.3.1;
++ SHALL be stored on the PIV Card as described in [Section 4.2.3.1](frontend.md#s-4-2-3-1);
 
-+ SHALL be printed on the PIV Card according to Section 4.1.4.1;
++ SHALL be printed on the PIV Card according to [Section 4.1.4.1](frontend.md#s-4-1-4-1);
 
 + MAY be used for generating a visual image on the monitor of a guard workstation for augmenting the
-visual authentication process defined in Section 6.2.6; and
+visual authentication process defined in [Section 6.2.6](authentication.md#s-6-2-6); and
 
 + MAY be used for automated facial authentication in operator-attended PIV issuance, reissuance, and
 verification data reset processes.
@@ -188,14 +188,14 @@ against the corresponding fingers in the ten-fingerprint data set to link the ch
 
 + Reissuance: a PIV cardholder loses his/her card. Since the card issuer has biometric enrollment data
 records, the cardholder can perform a 1:1 biometric match to reconnect to the card issuer's chain-of-trust. The card issuer NEED NOT repeat the identity proofing and registration process. The card issuer
-proceeds to issue a new card as described in Section 2.9.1.
+proceeds to issue a new card as described in [Section 2.9.1](requirements.md#s-2-9-1).
 
 + Interagency transfer: a Federal employee is transferred from one agency to another. When the
 employee leaves the old agency, he/she surrenders the PIV Card and it is destroyed. When the
 employee arrives at the new agency and is processed in, the card issuer in the new agency requests the
 employee's chain-of-trust from the card issuer in the old agency, and receives the chain-of-trust. The
 employee performs a 1:1 biometric match against the chain-of-trust, and the interaction proceeds as
-described in Section 2.8.2.
+described in [Section 2.8.2](requirements.md#s-2-8-2).
 
 ## 2.7 PIV Identity Proofing and Registration Requirements {#s-2-7}
 
@@ -205,7 +205,7 @@ requirements defined below when issuing PIV Cards.
 + The organization SHALL adopt and use an identity proofing and registration process that is approved in
 accordance with [SP 800-79].
 
-+ Biometrics SHALL be captured as specified in Sections 2.3 and 2.4.
++ Biometrics SHALL be captured as specified in Sections [2.3](requirements.md#s-2-3) and [2.4](requirements.md#s-2-4).
 
 + The process SHALL begin by locating and referencing a completed and favorably adjudicated NACI (or
 equivalent or higher) or Tier 1 or higher federal background investigation record. In the absence of a
@@ -306,7 +306,7 @@ match requires either a match of fingerprint(s) or, if unavailable, other option
 available. Minimum accuracy requirements for the biometric match are specified in [SP 800-76]. On
 successful match, the PIV Card SHALL be released to the applicant. If the match is unsuccessful, or if
 no biometric data is available, the cardholder SHALL provide two identity source documents (as
-specified in Section 2.7), and an attending operator SHALL inspect these and compare the cardholder
+specified in [Section 2.7](requirements.md#s-2-7)), and an attending operator SHALL inspect these and compare the cardholder
 with the facial image printed on the PIV Card.
 
 + The organization SHALL issue PIV credentials only through systems and providers whose reliability has
@@ -328,7 +328,7 @@ performance of their official duties with the approval of their employing agency
 that use of a pseudonym is necessary to protect an employee or contractor (e.g., from physical harm,
 severe distress, or harassment),[^pseudonym] the agency may formally authorize the issuance of a PIV Card to the
 employee or contractor using the agency-approved pseudonym. The issuance of a PIV Card using an
-authorized pseudonym SHALL follow the procedures in Section 2.8, PIV Card Issuance Requirements,
+authorized pseudonym SHALL follow the procedures in [Section 2.8](requirements.md#s-2-8), PIV Card Issuance Requirements,
 except that the card issuer must receive satisfactory evidence that the pseudonym is authorized by the
 agency.
 
@@ -350,7 +350,7 @@ valid. Re-investigations SHALL be performed if required, in accordance with OPM 
 of issuance, the card issuer SHALL perform a 1:1 biometric match of the applicant to reconnect to the chain-of-trust. The 1:1 biometric match requires either a match of fingerprint(s) or, if unavailable, other
 optional biometric data that are available. On successful match, the new PIV Card SHALL be released to the
 applicant. If the match is unsuccessful, or if no biometric data is available, the cardholder SHALL provide
-two identity source documents (as specified in Section 2.7), and an attending operator SHALL inspect these
+two identity source documents (as specified in [Section 2.7](requirements.md#s-2-7)), and an attending operator SHALL inspect these
 and compare the cardholder with the facial image retrieved from the enrollment data record and the facial
 image printed on the new PIV Card.
 
@@ -376,7 +376,7 @@ the entire identity proofing and registration procedure. The reissuance process 
 PIV Card that is nearing expiration, in the event of an employee status or attribute change, or to replace a
 PIV Card that has been compromised, lost, stolen, or damaged. The cardholder may also apply for
 reissuance of a PIV Card if one or more logical credentials have been compromised. The entire identity
-proofing, registration, and issuance process, as described in Sections 2.7 and 2.8, SHALL be repeated if the
+proofing, registration, and issuance process, as described in Sections [2.7](requirements.md#s-2-7) and [2.8](requirements.md#s-2-8), SHALL be repeated if the
 issuer does not maintain a chain-of-trust record for the cardholder or if the reissuance process was not
 started before the old PIV Card expired.
 
@@ -392,7 +392,7 @@ biometric match requires either a match of fingerprint(s) or, if unavailable, ot
 that are available (either on the PIV Card or in the chain-of-trust). Minimum accuracy requirements for
 the biometric match are specified in [SP 800-76]. On successful match, the new PIV Card SHALL be
 released to the applicant. If the match is unsuccessful, or if no biometric data is available, the cardholder
-SHALL provide two identity source documents (as specified in Section 2.7), and an attending operator SHALL
+SHALL provide two identity source documents (as specified in [Section 2.7](requirements.md#s-2-7)), and an attending operator SHALL
 inspect these and compare the cardholder with the facial image retrieved from the enrollment data record
 and the facial image printed on the new PIV Card.
 
@@ -416,8 +416,13 @@ Departments and agencies are required to have procedures in place to issue emerg
 such cases.
 
 If there is any data change about the cardholder, the issuer will record this in the chain-of-trust, if
+<<<<<<< HEAD
 applicable. If the changed data is the cardholder's name, then the issuer SHALL meet the requirements in
 Section 2.9.1.1, Special Rule for Name Change by Cardholder.
+=======
+applicable. If the changed data is the cardholder’s name, then the issuer SHALL meet the requirements in
+[Section 2.9.1.1](requirements.md#s-2-9-1-1), Special Rule for Name Change by Cardholder.
+>>>>>>> added section links
 
 Previously collected biometric data MAY be reused with the new PIV Card if the expiration date of the
 new PIV Card is no later than 12 years after the date that the biometric data was obtained. As biometric
@@ -437,7 +442,7 @@ Name changes frequently occur as a result of marriage, divorce, or as a matter o
 the event that a cardholder notifies a card issuer that his or her name has changed, and presents the card
 issuer with evidence of a formal name change, such as a marriage certificate, a divorce decree, judicial
 recognition of a name change, or other mechanism permitted by State law or regulation, the card issuer
-SHALL issue the cardholder a new card following the procedures set out in Section 2.9.1, PIV Card
+SHALL issue the cardholder a new card following the procedures set out in [Section 2.9.1](requirements.md#s-2-9-1), PIV Card
 Reissuance Requirements. If the expiration date of the new card is no later than the expiration date of the
 old PIV Card and no data about the cardholder, other than the cardholder's name, is being changed, then
 the new PIV Card MAY be issued without obtaining the approval of a proper authority and without
@@ -466,7 +471,7 @@ integrity checks.
 during the remote post issuance update.
 
 Post issuance updates to biometric data objects, other than to the digital signature blocks within the
-biometric data objects, SHALL satisfy the requirements for verification data reset specified in Section 2.9.3.
+biometric data objects, SHALL satisfy the requirements for verification data reset specified in [Section 2.9.3](requirements.md#s-2-9-3).
 
 If the PIV Authentication key, asymmetric Card Authentication key, the digital signature key, or the key
 management key, was compromised, the corresponding certificate SHALL be revoked.
@@ -482,7 +487,7 @@ remotely via a general computing platform:
 + When PIN reset is performed in-person at the issuer's facility, before providing the reset PIV Card
 back to the cardholder, the issuer SHALL perform a 1:1 biometric match to ensure that the cardholder's
 biometric matches either the stored biometric on the PIV Card or biometric data stored in the chain-of-trust. In cases where a biometric match is not possible, the cardholder SHALL provide the PIV Card
-to be reset and another primary identity source document (as specified in Section 2.7). An attending
+to be reset and another primary identity source document (as specified in [Section 2.7](requirements.md#s-2-7)). An attending
 operator SHALL inspect these and compare the cardholder with the facial image retrieved from the
 enrollment data record and the facial image printed on the card.
 
@@ -500,12 +505,12 @@ the following requirements are met:
   * the cardholder's biometric matches the stored biometric on the PIV Card through a 1:1 on-card biometric comparison.
 
 The remote PIN reset operation SHALL satisfy the requirements for remote post issuance updates
-specified in Section 2.9.2.
+specified in [Section 2.9.2](requirements.md#s-2-9-2).
 
 Departments and agencies may adopt more stringent procedures for PIN reset (including disallowing PIN
 reset). PIN reset procedures SHALL be formally documented by each department and agency.
 
-Regardless of the PIN reset procedure used, the chosen PIN SHALL meet the activation requirements specified in Section 4.3.1.
+Regardless of the PIN reset procedure used, the chosen PIN SHALL meet the activation requirements specified in [Section 4.3.1](frontend.md#s-4-3-1).
 
 Verification data other than the PIN may also be reset (i.e., re-enrollment) by the card issuer. Before the
 reset, the issuer SHALL perform a 1:1 biometric match of the cardholder to reconnect to the chain-of-trust.
@@ -513,7 +518,7 @@ The type of biometric used for the match SHALL NOT be the same as the type of bi
 reset. For example, if fingerprint templates for on-card comparison are being reset, then a 1:1 iris match
 could be used to reconnect to the chain-of-trust. If no alternative biometric data is available, the
 cardholder SHALL provide the PIV Card to be reset and another primary identity source document (as
-specified in Section 2.7). An attending operator SHALL inspect these and compare the cardholder with the
+specified in [Section 2.7](requirements.md#s-2-7)). An attending operator SHALL inspect these and compare the cardholder with the
 facial image retrieved from the enrollment data record and the facial image printed on the PIV Card.
 
 New verification reference data SHALL be enrolled. The PIV Card's activation methods associated with the
@@ -569,7 +574,7 @@ required to have procedures in place to issue emergency notifications in such ca
 Valid PIV Cards MAY be used as the basis for issuing or binding derived PIV credentials in accordance with NIST
 Special Publication 800-157, *Guidelines for Derived Personal Identity Verification (PIV) Credentials*
 [SP 800-157]. Derived PIV credentials MAY be created at the same authentication assurance level as the PIV card itself (AAL3), or MAY be created at a lower AAL (AAL2) depending on the security characteristics of the authenticator. The CSP SHALL attempt to promptly notify the subscriber of the binding of a derived PIV credential through an independent means that would not afford an attacker with an opportunity to erase the notification. More than one independent notification method MAY be used to ensure prompt receipt by the subscriber. Derived PIV credentials SHALL be bound to the subscriber's PIV account only by the issuer of that PIV account.
-When a cardholder's PIV Card is terminated as specified in Section 2.9.4, any derived PIV
+When a cardholder's PIV Card is terminated as specified in [Section 2.9.4](requirements.md#s-2-9-4), any derived PIV
 credentials associated with the PIV account SHALL also be terminated.
 
 ## 2.11 PIV Privacy Requirements {#s-2-11}

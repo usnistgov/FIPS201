@@ -4,7 +4,7 @@ This repository is for development of the FIPS 201-3 revision.
 
 ## Editing
 
-Core document sections are in `_FIPS201` markdown files, and appendix sections are in `_Appendix`. 
+Core document sections are in `_FIPS201` markdown files, and appendix sections are in `_Appendix`.
 
 ## Viewing
 

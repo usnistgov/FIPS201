@@ -19,7 +19,7 @@ for the Common Policy managed by the Federal PKI. Self-signed, self-issued, and 
 by these CAs SHALL conform to *Worksheet 1: Self-Signed Certificate Profile*, *Worksheet 2: Self-Issued CA
 Certificate Profile*, and *Worksheet 3: Cross Certificate Profile*, respectively, in *X.509 Certificate and
 Certificate Revocation List (CRL) Extensions Profile for the Shared Service Providers (SSP) Program*
-[PROF]. The requirements for legacy PKIs are defined in Section 5.4.
+[PROF]. The requirements for legacy PKIs are defined in [Section 5.4](keymanagement.md#s-5-4).
 
 ## 5.2 PKI Certificate {#s-5-2}
 
@@ -60,7 +60,7 @@ CAs that issue certificates corresponding to PIV private keys SHALL issue CRLs a
 
 For the purposes of this Standard, legacy PKIs are the PKIs of departments and agencies that have cross-certified with the Federal Bridge CA (FBCA) at the Medium Hardware or High Assurance Level. Legacy
 PKIs that issue PIV Authentication certificates and Card Authentication certificates SHALL meet the
-requirements specified in Sections 5.2.1, 5.3, 5.5, 5.5.1, and 5.5.2, with respect to the PIV Authentication
+requirements specified in Sections [5.2.1](keymanagement.md#s-5-2-1), [5.3](keymanagement.md#s-5-3), [5.5](keymanagement.md#s-5-5), [5.5.1](keymanagement.md#s-5-5-1), and [5.5.2](keymanagement.md#s-5-5-2), with respect to the PIV Authentication
 certificates and Card Authentication certificates that they issue. Departments and agencies MAY assert
 department or agency-specific policy object identifiers (OIDs) in PIV Authentication Certificates and
 Card Authentication Certificates in addition to the id-fpki-common-authentication policy OID and the id-fpki-common-cardAuth policy OID of [COMMON], respectively. This specification imposes no

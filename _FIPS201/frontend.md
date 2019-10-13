@@ -8,9 +8,9 @@ permalink: /frontend/
 
 # 4. PIV Front-End Subsystem {#s-4}
 
-This section identifies the requirements for the components of the PIV front-end subsystem. Section 4.1
-provides the physical card specifications. Section 4.2 provides the logical card specifications. Section
-4.3 specifies the requirements for card activation. Section 4.4 provides requirements for PIV Card
+This section identifies the requirements for the components of the PIV front-end subsystem. [Section 4.1](frontend.md#s-4-1)
+provides the physical card specifications. [Section 4.2](frontend.md#s-4-2) provides the logical card specifications. 
+[Section 4.3](frontend.md#s-4-3) specifies the requirements for card activation. [Section 4.4](frontend.md#s-4-4) provides requirements for PIV Card
 readers.
 
 ## 4.1 PIV Card Physical Characteristics {#s-4-1}
@@ -65,8 +65,8 @@ periodically review the viability, effectiveness, and currency of employed tampe
 The following list describes the physical requirements for the PIV Card.
 
 - The PIV Card SHALL contain a contact and a contactless ICC interface.
-- The card body SHALL be white in accordance with color representation in Section 4.1.5. Only a
-    security feature, as described in Section 4.1.2, may modify the perceived color slightly. Presence of a
+- The card body SHALL be white in accordance with color representation in [Section 4.1.5](frontend.md#s-4-1-5). Only a
+    security feature, as described in [Section 4.1.2](frontend.md#s-4-1-2), may modify the perceived color slightly. Presence of a
     security feature SHALL NOT prevent the recognition of white as the principal card body color by a person
     with normal vision (corrected or uncorrected) at a working distance of 50 cm to 200 cm.
 - The card body structure SHALL consist of card material(s) that satisfy the card characteristics in
@@ -84,7 +84,7 @@ The following list describes the physical requirements for the PIV Card.
     [ISO10373] dynamic bending test and SHALL have no visible cracks or failures. Alternatively, the card
     may be subjected to the [ANSI322] tests for ultraviolet and daylight fading resistance and subjected
     to the same [ISO10373] dynamic bending test.
-- There are methods by which proper card orientation can be indicated. Section 4.1.4.3, for example,
+- There are methods by which proper card orientation can be indicated. [Section 4.1.4.3](frontend.md#s-4-1-4-3), for example,
     defines Zones 21F and 22F, where card orientation features MAY be applied.[^orientation] Note: If an agency
     determines that tactilely discernible markers for PIV Cards imposes an undue burden, the agency
     must implement policies and procedures to accommodate employees and contractors with disabilities
@@ -117,9 +117,9 @@ The PIV Card MAY be subjected to additional testing.
 The information on a PIV Card SHALL be in visual printed and electronic form. This section covers the
 placement of visual and printed information. It does not cover information stored in electronic form, such
 as stored data elements, and other possible machine-readable technologies. Logically stored data
-elements are discussed in Section 4.2.
+elements are discussed in [Section 4.2](frontend.md#s-4-2).
 
-As noted in Section 4.1.3, the PIV Card SHALL contain a contact and a contactless ICC interface. This
+As noted in [Section 4.1.3](frontend.md#s-4-1-3), the PIV Card SHALL contain a contact and a contactless ICC interface. This
 Standard does not specify whether a single chip is used or multiple chips are used to support the mandated
 contact and contactless interfaces.
 
@@ -204,7 +204,7 @@ and 4-4. The following color scheme SHALL be used:
 
 Foreign National color-coding has precedence over Government Employee and Contractor color-coding.
 These colors SHALL be reserved and SHALL NOT be employed for other purposes. Also, these colors SHALL be
-printed in accordance to the color specifications provided in Section 4.1.5. Zone 15F MAY be a solid or
+printed in accordance to the color specifications provided in [Section 4.1.5](frontend.md#s-4-1-5). Zone 15F MAY be a solid or
 patterned line at the department or agency's discretion.
 
 *Zone 18F—Affiliation Color Code*. The affiliation color code "B" for Blue, "W" for White, or "G" for
@@ -215,7 +215,7 @@ SHALL NOT be more than 5 mm. Note that the lettering SHALL correspond to the pri
 the upper right-hand corner as depicted in Figure 4-1. The Zone 19F expiration date SHALL be printed in
 Arial 12pt Bold.
 
-[^pseudonym]: Alternatively, an authorized pseudonym as provided under the law as discussed in Section 2.8.1.
+[^pseudonym]: Alternatively, an authorized pseudonym as provided under the law as discussed in [Section 2.8.1](requirements.md#s-2-8-1).
 
 #### 4.1.4.2 Mandatory Items on the Back of the PIV Card {#s-4-1-4-2}
 
@@ -476,7 +476,7 @@ signing certificate SHALL also include an extended key usage (*extKeyUsage*) ext
 content signing certificate on a valid PIV Card (one that is neither expired nor revoked) SHALL NOT be
 expired.
 
-[^legacypki]: For legacy PKIs, as defined in Section 5.4, the certificates MAY be issued under a department or agency-specific policy that has been cross-certified with the Federal Bridge CA (FBCA) at the Medium Hardware or High Assurance Level.
+[^legacypki]: For legacy PKIs, as defined in [Section 5.4](keymanagement.md#s-5-4), the certificates MAY be issued under a department or agency-specific policy that has been cross-certified with the Federal Bridge CA (FBCA) at the Medium Hardware or High Assurance Level.
 
 ### 4.2.2 Cryptographic Specifications {#s-4-2-2}
 
@@ -534,7 +534,7 @@ overall validation at Level 2 or above. In addition to an overall validation of 
 provide Level 3 physical security to protect the PIV private keys in storage. The scope of the validation
 for the PIV Card SHALL include all cryptographic operations performed over both the contact and
 contactless interfaces (1) by the PIV Card Application, (2) as part of secure messaging as specified in this
-section, and (3) as part of remote post issuance updates as specified in Section 2.9.2. Specific algorithm
+section, and (3) as part of remote post issuance updates as specified in [Section 2.9.2](requirements.md#s-2-9-2). Specific algorithm
 testing requirements for the cryptographic operations performed by the PIV Card Application are
 specified in [SP 800-78].
 
@@ -555,7 +555,7 @@ The UUID SHALL be encoded as a uniform resource identifier (URI), as specified i
 [RFC4122]. The expiration date of the certificate must be no later than the expiration date of the PIV
 Card. The PIV Authentication certificate SHALL include a PIV NACI indicator (background
 investigation indicator) extension (see Appendix B.2); this non-critical extension indicates the status
-of the subject's background investigation at the time of card issuance.[^backgroundstatus] Section 5 of this document
+of the subject's background investigation at the time of card issuance.[^backgroundstatus] [Section 5](keymanagement.md#s-5) of this document
 specifies the certificate format and the key management infrastructure for the PIV Authentication key.
 
 + **Asymmetric Card Authentication Key.** The asymmetric Card Authentication key MAY be generated
@@ -570,7 +570,7 @@ The X.509 certificate SHALL include the FASC-N in the subject alternative name e
 pivFASC-N attribute to support physical access procedures. The X.509 certificate SHALL also include
 the UUID value from the GUID data element of the CHUID in the subject alternative name extension.
 The UUID SHALL be encoded as a URI, as specified in Section 3 of [RFC4122]. The expiration date of
-the certificate must be no later than the expiration date of the PIV Card. Section 5 of this document
+the certificate must be no later than the expiration date of the PIV Card. [Section 5](keymanagement.md#s-5) of this document
 specifies the certificate format and the key management infrastructure for asymmetric PIV Card
 Authentication keys.
 
@@ -593,7 +593,7 @@ infrastructure requirements.
 
 The PIV Card SHALL store a corresponding X.509 certificate to support validation of the public key.
 The expiration date of the certificate must be no later than the expiration date of the PIV Card.
-Section 5 of this document specifies the certificate format and the key management infrastructure for
+[Section 5](keymanagement.md#s-5) of this document specifies the certificate format and the key management infrastructure for
 PIV digital signature keys.
 
 - **Key Management Key.** This key MAY be generated on the PIV Card or imported to the card. If
@@ -604,7 +604,7 @@ PIV digital signature keys.
 
 
 The PIV Card SHALL store a corresponding X.509 certificate to support validation of the public key.
-Section 5 of this document specifies the certificate format and the key management infrastructure for
+[Section 5](keymanagement.md#s-5) of this document specifies the certificate format and the key management infrastructure for
 key management keys.
 
 - **PIV Card Application Administration Key.** If present, the PIV Card Application Administration
@@ -661,7 +661,7 @@ certificate required to verify the signature on the biometric. Otherwise, the *c
 omitted. Additional descriptions for the PIV object identifiers are provided in Appendix B. The content
 signing certificate on a valid PIV Card (one that is neither expired nor revoked) SHALL NOT be expired.
 
-[^crosscert]: For legacy PKIs, as defined in Section 5.4, the certificates MAY be issued under a department or agency-specific policy that has been cross-certified with the Federal Bridge CA (FBCA) at the Medium Hardware or High Assurance Level.
+[^crosscert]: For legacy PKIs, as defined in [Section 5.4](keymanagement.md#s-5-4), the certificates MAY be issued under a department or agency-specific policy that has been cross-certified with the Federal Bridge CA (FBCA) at the Medium Hardware or High Assurance Level.
 
 #### 4.2.3.3 Biometric Data Access {#s-4-2-3-3}
 
@@ -672,14 +672,14 @@ The PIV biometric data, except for fingerprint templates for on-card comparison,
     PIN.
 
 On-card biometric comparison MAY be performed over the contact and the contactless interfaces of the
-PIV Card to support card activation (Section 4.3.1) and cardholder authentication (Section 6.2.2). The
+PIV Card to support card activation ([Section 4.3.1](frontend.md#s-4-3-1)) and cardholder authentication ([Section 6.2.2](authentication.md#s-6-2-2)). The
 fingerprint templates for on-card comparison SHALL NOT be exportable. If implemented, on-card biometric
 comparison SHALL be implemented and used in accordance with [SP 800-73] and [SP 800-76].
 
 ### 4.2.4 PIV Unique Identifiers {#s-4-2-4}
 
 A cardholder is authenticated through identification and authentication (I&A) using the PIV Card (and its
-identifier) in authentication mechanisms described in Section 6. The authenticated identity MAY then be
+identifier) in authentication mechanisms described in [Section 6](authentication.md#s-6). The authenticated identity MAY then be
 used as the basis for making authorization decisions. Unique identifiers for both authentication and
 authorization are provided in this Standard in order to uniquely identify the cardholder. The two types of
 identifiers that serve as identification (of the cardholder) for authentication and authorization purposes,
@@ -700,8 +700,8 @@ extension in the PIV Authentication certificate.
 The PIV Card SHALL be activated[^activation] to perform privileged[^priviledged] operations such as using the PIV Authentication
 key, digital signature key, and key management key. The PIV Card SHALL be activated for privileged
 operations only after authenticating the cardholder or the appropriate card management system.
-Cardholder activation is described in Section 4.3.1 and card management system activation is described in
-Section 4.3.2.
+Cardholder activation is described in [Section 4.3.1](frontend.md#s-4-3-1) and card management system activation is described in
+[Section 4.3.2](frontend.md#s-4-3-2).
 
 [^activation]: Activation in this context refers to the unlocking of the PIV Card Application so privileged operations can be performed.
 [^priviledged]: A read of a CHUID or use of the Card Authentication key is not considered a privileged operation.

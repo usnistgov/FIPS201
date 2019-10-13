@@ -36,7 +36,7 @@ An operational PIV system can be logically divided into the following three majo
 The PIV relying subsystem becomes relevant when the PIV Card is used to authenticate a cardholder who
 is seeking access to a physical or logical resource. Although this Standard does not provide technical
 specifications for this subsystem, various mechanisms for identification and authentication are defined in
-Section 6 to provide consistent and secure means for performing the authentication function preceding an
+[Section 6](authentication.md#s-6) to provide consistent and secure means for performing the authentication function preceding an
 access control decision.
 
 ![Figure 3-1]({{site.baseurl}}/{{page.collection}}/images/system.png){:style="width: 1047px;"}
@@ -59,7 +59,7 @@ retrieve the appropriate information, located in the card's memory, to relay it 
 systems for granting or denying access.
 
 Card writers, which are very similar to the card readers, personalize and initialize the information stored
-on PIV Cards. Card writers MAY also be used to perform remote PIV Card updates (see Section 2.9.2).
+on PIV Cards. Card writers MAY also be used to perform remote PIV Card updates (see [Section 2.9.2](requirements.md#s-2-9-2)).
 The data to be stored on PIV Cards includes personal information, certificates, cryptographic keys, the
 PIN, and biometric data, and is discussed in further detail in subsequent sections.
 
@@ -120,7 +120,7 @@ an access control list (ACL) associated with a file on a computer system.
 The physical and logical access control system grants or denies access to a particular resource and
 includes an identification and authentication (I&A) component as well as an authorization component.
 
-The I&A component interacts with the PIV Card and uses mechanisms discussed in Section 6 to identify
+The I&A component interacts with the PIV Card and uses mechanisms discussed in [Section 6](authentication.md#s-6) to identify
 and authenticate cardholders. Once authenticated, the I&A component passes information to the
 authorization component which in turn interacts with the authorization data component to match the
 cardholder information to the information on record. Access control components typically interface with

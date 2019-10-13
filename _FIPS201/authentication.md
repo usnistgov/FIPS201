@@ -31,7 +31,7 @@ cardholder through the following:
 3. the strength of the technical mechanisms used to verify that the cardholder is the owner of the
 PIV Card.
 
-Section 2 of this Standard defines requirements for the identity proofing, registration, issuance, and
+[Section 2](requirements.md#s-2) of this Standard defines requirements for the identity proofing, registration, issuance, and
 maintenance processes for PIV Cards and establishes a common level of assurance in these processes.
 The PIV identity proofing, registration, issuance, and maintenance processes meet or exceed the
 requirements for E-Authentication Level 4 [OMB0404]. The PIV Card contains a number of visual and
@@ -56,8 +56,8 @@ the PIV cardholder.
 ### 6.1.1 Relationship to OMB's E-Authentication Guidance {#s-6-1-1}
 
 The levels of identity authentication assurance defined within this Standard are closely aligned with
-Section 2 of OMB's E-Authentication Guidance for Federal Agencies, M- 04 -04 [OMB0404].
-Specifically, Table 6-1 shows the notional relationship between the PIV assurance levels and the M- 04 -04
+Section 2 of OMB's E-Authentication Guidance for Federal Agencies, M-04-04 [OMB0404].
+Specifically, Table 6-1 shows the notional relationship between the PIV assurance levels and the M-04-04
 E-Authentication assurance levels.
 
 Table 6-1. Relationship Between PIV and E-Authentication Assurance Levels
@@ -105,7 +105,7 @@ Some characteristics of the PIV Biometrics authentication mechanisms (described 
 - Applicable with contact card readers, and contactless card readers that support the virtual contact
     interface.
 
-[^bioreaders]: As noted in Section 4.2.3.1, neither the fingerprint templates nor the iris images are guaranteed to be present on a PIV Card, since it may not be possible to collect fingerprints from some cardholders and iris images collection is optional. When biometric authentication cannot be performed, PKI-AUTH is the recommended alternate authentication mechanism.
+[^bioreaders]: As noted in [Section 4.2.3.1](frontend.md#s-4-2-3-1), neither the fingerprint templates nor the iris images are guaranteed to be present on a PIV Card, since it may not be possible to collect fingerprints from some cardholders and iris images collection is optional. When biometric authentication cannot be performed, PKI-AUTH is the recommended alternate authentication mechanism.
 
 
 #### 6.2.1.1 Unattended Authentication Using PIV Biometric (BIO) {#s-6-2-1-1}
@@ -158,7 +158,7 @@ Some of the characteristics of the on-card biometric comparison authentication m
 ### 6.2.3 Authentication Using PIV Asymmetric Cryptography {#s-6-2-3}
 
 The PIV Card contains two mandatory asymmetric authentication private keys and corresponding
-certificates to support cardholder-to-external system (CTE) authentication, as described in Section 4. The
+certificates to support cardholder-to-external system (CTE) authentication, as described in [Section 4](frontend.md#s-4). The
 following subsections SHALL be used to perform authentication using the authentication keys.
 
 #### 6.2.3.1 Authentication with the PIV Authentication Certificate Credential (PKI-AUTH) {#s-6-2-3-1}
@@ -244,7 +244,7 @@ follows:
 
 The content of this section has been removed since the CHUID authentication mechanism is no longer allowed under FIPS-201. 
 
-The CHUID data element remains a required on-card data element, as the BIO(-A) and SYM-CAK authentication mechanisms use the CHUID data element as a source for the card’s expiration date. The CHUID data element also provides the content signing certificate for some authentication mechanisms and unique identifiers for PACS ACLs. 
+The CHUID data element remains a required on-card data element as described in [Section 4.2.1](frontend.md#s-4-2-1), as the BIO(-A) and SYM-CAK authentication mechanisms use the CHUID data element as a source for the card’s expiration date. The CHUID data element also provides the content signing certificate for some authentication mechanisms and unique identifiers for PACS ACLs. 
 
 ### 6.2.6 Authentication Using PIV Visual Credentials (VIS) (Deprecated) {#s-6-2-6}
 
@@ -300,7 +300,7 @@ Some characteristics of the visual authentication mechanism are as follows:
 The PIV Card supports a set of authentication mechanisms that can be used to implement graduated
 assurance levels for identity authentication. The following subsections specify which basic PIV
 authentication mechanisms MAY be used to support the various levels of identity authentication assurance
-as defined in Section 6.1. Two or more complementing authentication mechanisms MAY be applied in
+as defined in [Section 6.1](authentication.md#s-6-1). Two or more complementing authentication mechanisms MAY be applied in
 unison to achieve a higher degree of assurance of the identity of the PIV cardholder. For example, PKI-AUTH and BIO MAY be applied in unison to achieve a higher degree of assurance in cardholder identity.
 
 Adequately designed and implemented relying systems can achieve the PIV Card authentication

@@ -8,7 +8,7 @@ permalink: /oid/
 
 # Appendix B— PIV Object Identifiers and Certificate Extension {#s-appendix-b}
 
-This normative appendix provides additional details for the PIV objects identified in Section 4.
+This normative appendix provides additional details for the PIV objects identified in [Section 4](../_FIPS201/frontend.md#s-4).
 
 ## B.1 PIV Object Identifiers {#s-b-1}
 
