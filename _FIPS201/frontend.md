@@ -144,7 +144,7 @@ integration of features that may improve tamper resistance and anti-counterfeiti
 
 #### 4.1.4.1 Mandatory Items on the Front of the PIV Card {#s-4-1-4-1}
 
-*Zone 1F—Photograph*. The photograph SHALL be placed in the upper left corner, as depicted in Figure 4-1,
+*Zone 1F—Photograph*. The photograph SHALL be placed in the upper left corner, as depicted in [Figure 4-1](#fig-4-1),
 and be a full frontal pose from top of the head to shoulder. A minimum of 300 dots per inch (dpi)
 resolution SHALL be used. The background SHOULD follow recommendations set forth in [[SP 800-76]](../_Appendix/references.md#ref-SP-800-76) 
 
@@ -157,16 +157,16 @@ printed on available lines of Zone 2F and either identifier could be wrapped. Th
 be indicated with "&gt;" character at the end of the line. The identifiers MAY be printed on separate lines if
 each fits on one line. Departments and agencies SHALL use the largest font size of 7 to 10 points that allows
 the full name to be printed. The font size 7 point allows space for 3 lines and SHALL only be used if the full
-name does not fit on two lines with font size 8 point. Table 4-1 provides examples of separate Primary
+name does not fit on two lines with font size 8 point. [Table 4-1](#table-4-1) provides examples of separate Primary
 and Secondary Identifier lines, single line with identifiers, wrapped full names, and full name in three
 lines. Note that the truncation SHOULD only occur if the full name cannot be printed in 7 point font.
 
 Names in the Primary Identifier and the first name in the Secondary Identifier SHALL NOT be abbreviated.
 Other names and conventional prefixes and suffixes, which SHALL be included in the Secondary Identifier,
 MAY be abbreviated. The special character "." (period) SHALL indicate such abbreviations, as shown in
-Figure 4-2. Other uses of special symbols (e.g., "O'BRIEN") are at the discretion of the issuer.
+[Figure 4-2](#fig-4-2). Other uses of special symbols (e.g., "O'BRIEN") are at the discretion of the issuer.
 
-Table 4-1. Name Examples
+[Table 4-1. Name Examples](#table-4-1){:name="table-4-1"}
 
 |Name|Characteristics|Example|
 |---|---|---|
@@ -182,21 +182,21 @@ Table 4-1. Name Examples
 |Dingo Pontooroomooloo Vaasa Silvaan Beenelong Wooloomooloo Warrandyte Warwarnambool|truncated full name, three lines with 7 point NOT sufficient.|![]({{site.baseurl}}/{{page.collection}}/images/name10.png){:style="width: 400px;"}|
 
 
-*Zone 8F—Employee Affiliation*. An employee affiliation SHALL be printed on the card as depicted in Figure
-4- 1. Some examples of employee affiliation are "Employee," "Contractor," "Active Duty," and
+*Zone 8F—Employee Affiliation*. An employee affiliation SHALL be printed on the card as depicted in 
+[Figure 4-1](#fig-4-1). Some examples of employee affiliation are "Employee," "Contractor," "Active Duty," and
 "Civilian."
 
 *Zone 10F—Agency, Department, or Organization*. The organizational affiliation SHALL be printed as
-depicted in Figure 4-1.
+depicted in [Figure 4-1](#fig-4-1).
 
 *Zone 14F—Card Expiration Date*. The card expiration date SHALL be printed on the card as depicted in
-Figure 4-1. The card expiration date SHALL be in a YYYYMMMDD format whereby the MMM characters
+[Figure 4-1](#fig-4-1). The card expiration date SHALL be in a YYYYMMMDD format whereby the MMM characters
 represent the three-letter month abbreviation as follows: JAN, FEB, MAR, APR, MAY, JUN, JUL, AUG,
 SEP, OCT, NOV, and DEC. The Zone 14F expiration date SHALL be printed in Arial 6 to 9 point bold.
 
 *Zone 15F—Color-Coding for Employee Affiliation*. Color-coding SHALL be used for additional
-identification of employee affiliation as a background color for Zone 2F (name) as depicted in Figures 4- 1
-and 4-4. The following color scheme SHALL be used:
+identification of employee affiliation as a background color for Zone 2F (name) as depicted in Figures [4-1](#fig-4-1)
+and [4-4](#fig-4-4). The following color scheme SHALL be used:
 
 - Blue—Foreign National
 - White—Government Employee
@@ -208,22 +208,22 @@ printed in accordance to the color specifications provided in [Section 4.1.5](fr
 patterned line at the department or agency's discretion.
 
 *Zone 18F—Affiliation Color Code*. The affiliation color code "B" for Blue, "W" for White, or "G" for
-Green SHALL be printed in a white circle in Zone 15F as depicted in Figure 4-1. The diameter of the circle
+Green SHALL be printed in a white circle in Zone 15F as depicted in [Figure 4-1](#fig-4-1). The diameter of the circle
 SHALL NOT be more than 5 mm. Note that the lettering SHALL correspond to the printed color in Zone 15F.
 
 *Zone 19F—Card Expiration Date*. The card expiration date SHALL be printed in a MMMYYYY format in
-the upper right-hand corner as depicted in Figure 4-1. The Zone 19F expiration date SHALL be printed in
+the upper right-hand corner as depicted in [Figure 4-1](#fig-4-1). The Zone 19F expiration date SHALL be printed in
 Arial 12pt Bold.
 
 [^pseudonym]: Alternatively, an authorized pseudonym as provided under the law as discussed in [Section 2.8.1](requirements.md#s-2-8-1).
 
 #### 4.1.4.2 Mandatory Items on the Back of the PIV Card {#s-4-1-4-2}
 
-*Zone 1B—Agency Card Serial Number*. This item SHALL be printed as depicted in Figure 4-6 and contain
+*Zone 1B—Agency Card Serial Number*. This item SHALL be printed as depicted in [Figure 4-6](#fig-4-6) and contain
 the unique serial number from the issuing department or agency. The format SHALL be at the discretion of
 the issuing department or agency.
 
-*Zone 2B—Issuer Identification Number*. This item SHALL be printed as depicted in Figure 4-6 and consist
+*Zone 2B—Issuer Identification Number*. This item SHALL be printed as depicted in [Figure 4-6](#fig-4-6) and consist
 of six characters for the department code, four characters for the agency code, and a five-digit number
 that uniquely identifies the issuing facility within the department or agency.
 
@@ -236,66 +236,66 @@ items discussed in this section are optional, if used they SHALL be placed on th
 examples provided and as noted.
 
 *Zone 3F—Signature*. If used, the department or agency SHALL place the cardholder signature below the
-photograph and cardholder name as depicted in Figure 4-3. The space for the signature SHALL NOT interfere
+photograph and cardholder name as depicted in [Figure 4-3](#fig-4-3). The space for the signature SHALL NOT interfere
 with the contact and contactless placement. Because of card surface space constraints, placement of a
 signature may limit the size of the optional two-dimensional bar code.
 
 *Zone 4F—Agency Specific Text Area*. If used, this area can be used for printing agency specific
-requirements, such as employee status, as shown in Figure 4-2.
+requirements, such as employee status, as shown in [Figure 4-2](#fig-4-2).
 
-*Zone 5F—Rank*. If used, the cardholder's rank SHALL be printed in the area as illustrated in Figure 4-2.
+*Zone 5F—Rank*. If used, the cardholder's rank SHALL be printed in the area as illustrated in [Figure 4-2](#fig-4-2).
 Data format is at the department or agency's discretion.
 
 *Zone 6F—Portable Data File (PDF) Two-Dimensional Bar Code*. If used, the PDF bar code placement
-SHALL be as depicted in Figure 4-2 (i.e., left side of the card). If Zone 3F (a cardholder signature) is used,
+SHALL be as depicted in [Figure 4-2](#fig-4-2) (i.e., left side of the card). If Zone 3F (a cardholder signature) is used,
 the size of the PDF bar code may be affected. The card issuer should confirm that a PDF used in
 conjunction with a PIV Card containing a cardholder signature will satisfy the anticipated PDF data
 storage requirements.
 
-*Zone 9F— Header*. If used, the text "United States Government" SHALL be placed as depicted in Figure
-4- 4. Departments and agencies may also choose to use this zone for other department or agency-specific
-information, such as identifying a Federal emergency responder role, as depicted in Figure 4-2.
+*Zone 9F— Header*. If used, the text "United States Government" SHALL be placed as depicted in 
+[Figure 4-4](#fig-4-4). Departments and agencies may also choose to use this zone for other department or agency-specific
+information, such as identifying a Federal emergency responder role, as depicted in [Figure 4-2](#fig-4-2).
 
 *Zone 11F—Agency Seal*. If used, the seal selected by the issuing department, agency, or organization
-SHALL be printed in the area depicted. It SHALL be printed using the guidelines provided in Figure 4- 2 to
+SHALL be printed in the area depicted. It SHALL be printed using the guidelines provided in [Figure 4-2](#fig-4-2) to
 ensure information printed on the seal is legible and clearly visible.
 
 *Zone 12F—Footer*. The footer is the location for the Federal Emergency Response Official identification
 label. If used, a department or agency MAY print "Federal Emergency Response Official" as depicted in
-Figure 4-2, preferably in white lettering on a red background. Departments and agencies MAY also use
+[Figure 4-2](#fig-4-2), preferably in white lettering on a red background. Departments and agencies MAY also use
 Zone 9F to further identify the Federal emergency respondent's official role. Some examples of official
 roles are "Law Enforcement," "Fire Fighter," and "Emergency Response Team (ERT)."
 
 When Zone 15F indicates Foreign National affiliation and the department or agency does not need to
 highlight emergency response official status, Zone 12F MAY be used to denote the country or countries of
 citizenship. If so used, the department or agency SHALL print the country name or the three-letter country
-abbreviation (alpha-3 format) in accordance with ISO 3166-1, Country Codes [[ISO3166]](../_Appendix/references.md#ref-ISO3166)  Figure 4- 4
+abbreviation (alpha-3 format) in accordance with ISO 3166-1, Country Codes [[ISO3166]](../_Appendix/references.md#ref-ISO3166) [Figure 4-4](#fig-4-4)
 illustrates an example of Foreign National color-coding using country abbreviations.
 
 *Zone 13F—Issue Date*. If used, the card issuance date SHALL be printed above the Zone 14F expiration
-date in YYYYMMMDD format as depicted in Figure 4-3.
+date in YYYYMMMDD format as depicted in [Figure 4-3](#fig-4-3).
 
 *Zone 16F—Photo Border*. A border MAY be used with the photo to further identify employee affiliation,
-as depicted in Figure 4-3. This border MAY be used in conjunction with Zone 15F to enable departments
+as depicted in [Figure 4-3](#fig-4-3). This border MAY be used in conjunction with Zone 15F to enable departments
 and agencies to develop various employee categories. The photo border SHALL NOT obscure the photo. The
 border MAY be a solid or patterned line. For solid and patterned lines, red SHALL be reserved for emergency
 response officials, blue for foreign nationals, and green for contractors. All other colors MAY be used at
 the department or agency's discretion.
 
 *Zone 17F—Agency Specific Data*. In cases in which other defined optional elements are not used, Zone
-17F MAY be used for other department or agency-specific information, as depicted in Figure 4-5.
+17F MAY be used for other department or agency-specific information, as depicted in [Figure 4-5](#fig-4-5).
 
 *Zone 20F—Organizational Affiliation Abbreviation*. The organizational affiliation abbreviation MAY be
-printed in the upper right-hand corner below the Zone 19F expiration date as shown in Figure 4-2. If
+printed in the upper right-hand corner below the Zone 19F expiration date as shown in [Figure 4-2](#fig-4-2). If
 printed, the organizational affiliation abbreviation SHALL be printed in Arial 12pt Bold.
 
 *Zone 21F –Edge Ridging or Notched Corner Tactile Marker*. If used, this area SHALL incorporate edge
-ridging or a notched corner to indicate card orientation as depicted in Figure 4-4. Departments and
+ridging or a notched corner to indicate card orientation as depicted in [Figure 4-4](#fig-4-4). Departments and
 agencies should ensure such alterations are closely coordinated with the card vendor and/or manufacturer
 to ensure the card material integrity and printing process is not adversely impacted.
 
 *Zone 22F –Laser Engraving Tactile Marker*. If used, tactilely discernible marks SHALL be created using
-laser engraving to indicate card orientation as depicted in Figure 4-4. There SHALL be an opening in the
+laser engraving to indicate card orientation as depicted in [Figure 4-4](#fig-4-4). There SHALL be an opening in the
 lamination foil where laser engraving is performed. Departments and agencies should ensure such
 alterations are closely coordinated with the card vendor and/or manufacturer to ensure the card material
 integrity and printing process is not adversely impacted.
@@ -304,31 +304,31 @@ integrity and printing process is not adversely impacted.
 #### 4.1.4.4 Optional Items on the Back of the PIV Card {#s-4-1-4-4}
 
 *Zone 3B—Magnetic Stripe*. If used, the magnetic stripe SHALL be high coercivity and placed in accordance
-with [[ISO7811]](../_Appendix/references.md#ref-ISO7811)  as illustrated in Figure 4-7.
+with [[ISO7811]](../_Appendix/references.md#ref-ISO7811)  as illustrated in [Figure 4-7](#fig-4-7).
 
 *Zone 4B—Return Address*. If used, the "return if lost" language SHALL be generally placed on the back of
-the card as depicted in Figure 4-7.
+the card as depicted in [Figure 4-7](#fig-4-7).
 
 *Zone 5B—Physical Characteristics of Cardholder*. If used, the cardholder physical characteristics (e.g.,
-height, eye color, hair color) SHALL be printed in the general area illustrated in Figure 4-7.
+height, eye color, hair color) SHALL be printed in the general area illustrated in [Figure 4-7](#fig-4-7).
 
 *Zone 6B—Additional Language for Emergency Response Officials*. Departments and agencies MAY
 choose to provide additional information to identify emergency response officials or to better identify the
 cardholder's authorized access. If used, this additional text SHALL be in the general area depicted and SHALL NOT interfere with other printed text or machine-readable components. An example of a printed statement
-is provided in Figure 4-7.
+is provided in [Figure 4-7](#fig-4-7).
 
 *Zone 7B—Standard Section 499, Title 18 Language*. If used, standard Section 499, Title 18, language
 warning against counterfeiting, altering, or misusing the card SHALL be printed in the general area depicted
-in Figure 4-7.
+in [Figure 4-7](#fig-4-7).
 
 *Zone 8B—Linear 3 of 9 Bar Code*. If used, a linear 3 of 9 bar code SHALL be generally placed as depicted
-in Figure 4-7. It SHALL be in accordance with Association for Automatic Identification and Mobility (AIM)
+in [Figure 4-7](#fig-4-7). It SHALL be in accordance with Association for Automatic Identification and Mobility (AIM)
 standards. Beginning and end points of the bar code will be dependent on the embedded contactless
 module selected. Departments and agencies are encouraged to coordinate placement of the bar code with
 the card vendor.
 
 *Zone 9B—Agency-Specific Text*. In cases in which other defined optional elements are not used, Zone 9B
-MAY be used for other department or agency-specific information, as depicted in Figure 4-8. For example,
+MAY be used for other department or agency-specific information, as depicted in [Figure 4-8](#fig-4-8). For example,
 emergency response officials MAY use this area to provide additional details.
 
 *Zone 10B—Agency-Specific Text*. Zone 10B is similar to Zone 9B in that it is another area for providing
@@ -338,45 +338,45 @@ For Zones 9B and 10B, departments and agencies are encouraged to use this area p
 printed text to that which is absolutely necessary.
 
 In the case of the Department of Defense, the back of the card will have a distinct appearance as depicted
-in Figure 4-8. This is necessary to display information required by the Geneva Accord and to facilitate
+in [Figure 4-8](#fig-4-8). This is necessary to display information required by the Geneva Accord and to facilitate
 legislatively mandated medical entitlements.
 
 
-Figure 4-1. Card Front—Printable Areas and Required Data
+[Figure 4-1. Card Front—Printable Areas and Required Data](#fig-4-1){:name="fig-4-1"}
 
 ![Figure 4-1]({{site.baseurl}}/{{page.collection}}/images/cardfront-required.jpg){:style="width: 1047px;"}
 
-Figure 4-2. Card Front—Optional Data Placement—Example 1
+[Figure 4-2. Card Front—Optional Data Placement—Example 1](#fig-4-2){:name="fig-4-2"}
 
 ![Figure 4-2]({{site.baseurl}}/{{page.collection}}/images/cardfront-optional1.jpg){:style="width: 1047px;"}
 
-Figure 4-3. Card Front—Optional Data Placement—Example 2
+[Figure 4-3. Card Front—Optional Data Placement—Example 2](#fig-4-3){:name="fig-4-3"}
 
 ![Figure 4-3]({{site.baseurl}}/{{page.collection}}/images/cardfront-optional2.jpg){:style="width: 1047px;"}
 
-Figure 4-4. Card Front—Optional Data Placement—Example 3
+[Figure 4-4. Card Front—Optional Data Placement—Example 3](#fig-4-4){:name="fig-4-4"}
 
 ![Figure 4-4]({{site.baseurl}}/{{page.collection}}/images/cardfront-optional3.jpg){:style="width: 1047px;"}
 
-Figure 4-5. Card Front—Optional Data Placement—Example 4
+[Figure 4-5. Card Front—Optional Data Placement—Example 4](#fig-4-5){:name="fig-4-5"}
 
 ![Figure 4-5]({{site.baseurl}}/{{page.collection}}/images/cardfront-optional4.jpg){:style="width: 1047px;"}
 
-Figure 4-6. Card Back—Printable Areas and Required Data
+[Figure 4-6. Card Back—Printable Areas and Required Data](#fig-4-6){:name="fig-4-6"}
 
 ![Figure 4-6]({{site.baseurl}}/{{page.collection}}/images/cardback-required.jpg){:style="width: 1047px;"}
 
-Figure 4-7. Card Back—Optional Data Placement—Example 1
+[Figure 4-7. Card Back—Optional Data Placement—Example 1](#fig-4-7){:name="fig-4-7"}
 
 ![Figure 4-7]({{site.baseurl}}/{{page.collection}}/images/cardback-optional1.jpg){:style="width: 1047px;"}
 
-Figure 4-8. Card Back—Optional Data Placement—Example 2
+[Figure 4-8. Card Back—Optional Data Placement—Example 2](#fig-4-8){:name="fig-4-8"}
 
 ![Figure 4-8]({{site.baseurl}}/{{page.collection}}/images/cardback-optional2.jpg){:style="width: 1047px;"}
 
 ### 4.1.5 Color Representation {#s-4-1-5}
 
-Table 4-2 provides quantitative specifications for colors in three different color systems: sRGB
+[Table 4-2](#table-4-2) provides quantitative specifications for colors in three different color systems: sRGB
 Tristimulus, sRGB ([[IEC61966]](../_Appendix/references.md#ref-IEC61966)  Color management – default RGB color space), and CMYK (Cyan,
 Magenta, Yellow and Key or 'blacK'). Since the card body is white, the white color-coding is achieved
 by the absence of printing. Note that presence of the security feature, which MAY overlap colored or
@@ -384,7 +384,7 @@ printed regions, may modify the perceived color. In the case of colored regions,
 SHALL NOT prevent the recognition of the principal color by a person with normal vision (corrected or
 uncorrected) at a working distance of 50 cm to 200 cm.
 
-Table 4-2. Color Representation
+[Table 4-2. Color Representation](#table-4-2){:name="table-4-2"}
 
 |Color|Zone|sRGB Tristimulus Value (IEC 61966- 2 - 1)|sRGB Value (IEC 61966- 2 - 1)|CMYK Value {C,M,Y,K}|
 |---|---|---|---|---|
@@ -393,9 +393,9 @@ Table 4-2. Color Representation
 |Blue|15F|{0, 255, 255}|{0, 255, 255}|{100, 0, 0, 0}|
 |Red|12F|{253, 27, 20}|{254, 92, 79}|{0, 90, 86, 0}|
 
-The colors in Table 4-2 can be mapped to the Pantone[^pantone] color cue; however, note that this will not
+The colors in [Table 4-2](#table-4-2) can be mapped to the Pantone[^pantone] color cue; however, note that this will not
 produce an exact match. An agency or department MAY use the following Pantone mappings in cases
-where Table 4-2 scales are not available.
+where [Table 4-2](#table-4-2) scales are not available.
 
 - Blue—630C
 - White—White

@@ -12,9 +12,9 @@ This normative appendix provides additional details for the PIV objects identifi
 
 ## B.1 PIV Object Identifiers {#s-b-1}
 
-Table B-1 lists details for PIV object identifiers.
+[Table B-1](#table-b-1) lists details for PIV object identifiers.
 
-Table B-1. PIV Object Identifiers
+[Table B-1. PIV Object Identifiers](#table-b-1){:name="table-b-1"}
 
 |ID| Object Identifier|Description|
 |---|---|---|

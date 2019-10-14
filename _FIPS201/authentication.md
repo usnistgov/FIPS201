@@ -57,10 +57,10 @@ the PIV cardholder.
 
 The levels of identity authentication assurance defined within this Standard are closely aligned with
 Section 2 of OMB's E-Authentication Guidance for Federal Agencies, M-04-04 [[OMB0404]](../_Appendix/references.md#ref-OMB0404).
-Specifically, Table 6-1 shows the notional relationship between the PIV assurance levels and the M-04-04
+Specifically, [Table 6-1](#table-6-1) shows the notional relationship between the PIV assurance levels and the M-04-04
 E-Authentication assurance levels.
 
-Table 6-1. Relationship Between PIV and E-Authentication Assurance Levels
+[Table 6-1. Relationship Between PIV and E-Authentication Assurance Levels](#table-6-1){:name="table-6-1"}
 
 |PIV Assurance Levels|Comparable OMB E-Authentication Levels| Description|
 |---|---|---|
@@ -304,7 +304,7 @@ as defined in [Section 6.1](authentication.md#s-6-1). Two or more complementing 
 unison to achieve a higher degree of assurance of the identity of the PIV cardholder. For example, PKI-AUTH and BIO MAY be applied in unison to achieve a higher degree of assurance in cardholder identity.
 
 Adequately designed and implemented relying systems can achieve the PIV Card authentication
-assurance levels stated in Tables 6-2 (physical access) and 6-3 (logical access). Less adequately designed
+assurance levels stated in Tables [6-2 (physical access)](#table-6-2) and [6-3 (logical access)](#table-6-2). Less adequately designed
 or implemented relying systems MAY only achieve lower authentication assurance levels. The design of
 components of relying systems, including card readers, biometric readers, cryptographic modules, and
 key management systems, involves many factors not fully specified by FIPS 201, such as correctness of
@@ -317,14 +317,14 @@ implementation of relying systems, e.g., [[FIPS140]](../_Appendix/references.md#
 The PIV Card MAY be used to authenticate the identity of the cardholder in a physical access control
 environment. For example, a Federal facility may have physical entry doors that have human guards at
 checkpoints, or may have electronic access control points. The PIV-supported authentication mechanisms
-for physical access control systems are summarized in Table 6-2. An authentication mechanism that is
+for physical access control systems are summarized in [Table 6-2](#table-6-2). An authentication mechanism that is
 suitable for a higher assurance level can also be applied to meet the requirements for a lower assurance
-level. Moreover, the authentication mechanisms in Table 6-2 can be combined to achieve higher
+level. Moreover, the authentication mechanisms in [Table 6-2](#table-6-2) can be combined to achieve higher
 assurance levels.[^combinations]
 
 [^combinations]: Combinations of authentication mechanisms are specified in [[SP 800-116]](../_Appendix/references.md#ref-SP-800-116) 
 
-Table 6-2. Authentication for Physical Access
+[Table 6-2. Authentication for Physical Access](#table-6-2){:name="table-6-2"}
 
 |PIV Assurance Level Required by Application/Resource|Applicable PIV Authentication Mechanism|
 |---|---|
@@ -340,11 +340,11 @@ logical information resources. For example, a cardholder may log in to his or he
 network using the PIV Card; the identity established through this authentication process can be used for
 determining access to file systems, databases, and other services available on the network.
 
-Table 6-3 describes the authentication mechanisms defined for this Standard to support logical access
+[Table 6-3](#table-6-3) describes the authentication mechanisms defined for this Standard to support logical access
 control. An authentication mechanism that is suitable for a higher assurance level can also be applied to
 meet the requirements for a lower assurance level.
 
-Table 6-3. Authentication for Logical Access
+[Table 6-3. Authentication for Logical Access](#table-6-3){:name="table-6-3"}
 
 |PIV Assurance Level Required by Application/Resource|Applicable PIV Authentication Mechanism: Local Workstation Environment|Applicable PIV Authentication Mechanism: Remote/Network System Environment|
 |---|---|---|
