@@ -59,7 +59,7 @@ A-130. An Information system authorization decision together with evidence of se
 monitoring compliant with [[SP 800-37]](references.md#ref-SP-800-37) guidelines signifies that a PCI organization's official accepts
 responsibility for the security (in terms of confidentiality, integrity, and availability of information) of the
 information systems that will be involved in carrying out the PCI functions. Hence evidence of
-successful application of Risk Management Framework consistent with [[SP 800-37]](references.md#ref- SP 800-37) guidelines is
+successful application of Risk Management Framework consistent with [[SP 800-37]](references.md#ref-SP-800-37) guidelines is
 mandatory for issuing PCI accreditation using [[SP 800-79]](references.md#ref-SP-800-79) 
 
 ## A.3 Conformance Testing of PIV Card Application and Middleware {#s-a-3}
