@@ -70,7 +70,7 @@ required. The cardholder presenting the PIV Card must type in his or her PIN int
 For physical access, the PIN is typically entered using a PIN pad device; a keyboard is generally used for
 
 
-logical access. The input of a PIN provides a "something you know"[^somethingyou] authentication factor that
+logical access. The input of a PIN provides a "something you know"[^somethingyouknow] authentication factor that
 activates[^oncardbiometric] the PIV Card and enables access to other credentials resident on the card that provide
 additional factors of authentication. A cryptographic key and certificate, for example, provides an
 additional authentication factor of "something you have" (i.e., the card) through PKI-based
@@ -83,7 +83,7 @@ authentication ("something you are") in addition to entering the PIN ("something
 providing the card ("something you have") for cryptographic key-based authentication. This provides for
 a higher level of authentication assurance.
 
-[^somethingyou]: For more information on the terms "something you know," "something you have," and "something you are," see [[SP 800-63]](../_Appendix/references.md#ref-SP-800-63).
+[^somethingyouknow]: For more information on the terms "something you know," "something you have," and "something you are," see [[SP 800-63]](../_Appendix/references.md#ref-SP-800-63).
 [^oncardbiometric]: Alternatively, on-card biometric comparison can be used to activate the PIV Card.
 
 ### 3.1.2 PIV Card Issuance and Management Subsystem {#s-3-1-2}

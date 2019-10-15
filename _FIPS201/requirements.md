@@ -62,9 +62,9 @@ person not entitled to the credential.
 Federal departments and agencies SHALL use the credentialing guidance issued by the Director of the Office
 of Personnel Management (OPM)[^OPM] and OMB[^OMB].
 
-[^OPM]: For example, [[SPRINGER MEMO]](../_Appendix/references.md#ref-SPRINGER MEMO) at [http://www.opm.gov/investigate/resources/final_credentialing_standards.pdf](http://www.opm.gov/investigate/resources/final_credentialing_standards.pdf) and the Federal Investigative Standards 5.
+[^OPM]: For example, [[SPRINGER MEMO]](../references/#ref-SPRINGER MEMO){:.footnote-ref} at [http://www.opm.gov/investigate/resources/final_credentialing_standards.pdf](http://www.opm.gov/investigate/resources/final_credentialing_standards.pdf) and the Federal Investigative Standards 5.
 
-[^OMB]: For example, [[OMB0524]](../_Appendix/references.md#ref-OMB0524) at [http://www.whitehouse.gov/sites/default/files/omb/memoranda/fy2005/m05-24.pdf.](http://www.whitehouse.gov/sites/default/files/omb/memoranda/fy2005/m05-24.pdf.)
+[^OMB]: For example, [[OMB0524]](../references/#ref-OMB0524){:.footnote-ref} at [http://www.whitehouse.gov/sites/default/files/omb/memoranda/fy2005/m05-24.pdf](http://www.whitehouse.gov/sites/default/files/omb/memoranda/fy2005/m05-24.pdf).
 
 ## 2.3 Biometric Data Collection for Background Investigations {#s-2-3}
 
@@ -624,4 +624,4 @@ To ensure the privacy throughout PIV lifecycle, departments and agencies SHALL d
 
 [^privacyofficial]: Privacy official refers to the Senior Agency Official for Privacy (SAOP) or Chief Privacy Officer (CPO).
 
-[^access]: Agencies may refer to NIST SP 800-122 [[SP 800-122]](../_Appendix/references.md#ref-SP-800-122)  *Guide to Protecting the Confidentiality of Personally Identifiable Information (PII)*, for a best practice guideline on protection of PII.
+[^access]: Agencies may refer to NIST SP 800-122 [[SP 800-122]](../references/#ref-SP-800-122){:.footnote-ref}  *Guide to Protecting the Confidentiality of Personally Identifiable Information (PII)*, for a best practice guideline on protection of PII.

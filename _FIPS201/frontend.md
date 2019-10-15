@@ -215,7 +215,7 @@ SHALL NOT be more than 5 mm. Note that the lettering SHALL correspond to the pri
 the upper right-hand corner as depicted in [Figure 4-1](#fig-4-1). The Zone 19F expiration date SHALL be printed in
 Arial 12pt Bold.
 
-[^pseudonym]: Alternatively, an authorized pseudonym as provided under the law as discussed in [Section 2.8.1](requirements.md#s-2-8-1).
+[^pseudonym]: Alternatively, an authorized pseudonym as provided under the law as discussed in [Section 2.8.1](../requirements/#s-2-8-1){:.footnote-ref}.
 
 #### 4.1.4.2 Mandatory Items on the Back of the PIV Card {#s-4-1-4-2}
 
@@ -476,7 +476,7 @@ signing certificate SHALL also include an extended key usage (*extKeyUsage*) ext
 content signing certificate on a valid PIV Card (one that is neither expired nor revoked) SHALL NOT be
 expired.
 
-[^legacypki]: For legacy PKIs, as defined in [Section 5.4](keymanagement.md#s-5-4), the certificates MAY be issued under a department or agency-specific policy that has been cross-certified with the Federal Bridge CA (FBCA) at the Medium Hardware or High Assurance Level.
+[^legacypki]: For legacy PKIs, as defined in [Section 5.4](../keymanagement/#s-5-4){:.footnote-ref}, the certificates MAY be issued under a department or agency-specific policy that has been cross-certified with the Federal Bridge CA (FBCA) at the Medium Hardware or High Assurance Level.
 
 ### 4.2.2 Cryptographic Specifications {#s-4-2-2}
 
@@ -613,7 +613,7 @@ key management keys.
     the PIV Card.
 
 [^backgroundstatus]: Other methods to indicate background investigative status will be explored in a future revision of this Standard.
-[^cardholderauthentication]: [[NISTIR7863]](../_Appendix/references.md#ref-NISTIR7863)  *Cardholder Authentication for the PIV Digital Signature Key*, addresses the appropriate use of PIN caching related to digital signatures.
+[^cardholderauthentication]: [[NISTIR7863]](../references/#ref-NISTIR7863){:.footnote-ref}  *Cardholder Authentication for the PIV Digital Signature Key*, addresses the appropriate use of PIN caching related to digital signatures.
 
 ### 4.2.3 PIV Biometric Data Specifications {#s-4-2-3}
 
@@ -634,7 +634,7 @@ The following biometric data MAY also be stored on the PIV Card:
 All biometric data SHALL be stored in the data elements referenced by [[SP 800-73]](../_Appendix/references.md#ref-SP-800-73) and in conformance
 with the preparation and formatting specifications of [[SP 800-76]](../_Appendix/references.md#ref-SP-800-76) 
 
-[^fingerprints]: The on-card and off-card fingerprint reference data are stored separately and, as conformant instances of different formal fingerprint standards, are syntactically different. This is described more fully in [[SP 800-76]](../_Appendix/references.md#ref-SP-800-76) 
+[^fingerprints]: The on-card and off-card fingerprint reference data are stored separately and, as conformant instances of different formal fingerprint standards, are syntactically different. This is described more fully in [[SP 800-76]](../references/#ref-SP-800-76){:.footnote-ref} 
 
 #### 4.2.3.2 Biometric Data Protection {#s-4-2-3-2}
 
@@ -661,7 +661,7 @@ certificate required to verify the signature on the biometric. Otherwise, the *c
 omitted. Additional descriptions for the PIV object identifiers are provided in Appendix B. The content
 signing certificate on a valid PIV Card (one that is neither expired nor revoked) SHALL NOT be expired.
 
-[^crosscert]: For legacy PKIs, as defined in [Section 5.4](keymanagement.md#s-5-4), the certificates MAY be issued under a department or agency-specific policy that has been cross-certified with the Federal Bridge CA (FBCA) at the Medium Hardware or High Assurance Level.
+[^crosscert]: For legacy PKIs, as defined in [Section 5.4](../keymanagement/#s-5-4){:.footnote-ref}, the certificates MAY be issued under a department or agency-specific policy that has been cross-certified with the Federal Bridge CA (FBCA) at the Medium Hardware or High Assurance Level.
 
 #### 4.2.3.3 Biometric Data Access {#s-4-2-3-3}
 
@@ -779,6 +779,6 @@ Malicious code could be introduced into the PIN capture and biometric reader dev
 compromising or otherwise exploiting the PIV Card. General good practice to mitigate malicious code
 threats is outside the scope of this document.[^maliciouscode]
 
-[^maliciouscode]: See SP 800-53, *Recommended Security Controls for Federal Information Systems and Organizations* [[SP 800-53]](../_Appendix/references.md#ref-SP-800-53) 
+[^maliciouscode]: See SP 800-53, *Recommended Security Controls for Federal Information Systems and Organizations* [[SP 800-53]](../references/#ref-SP-800-53){:.footnote-ref} 
 
 
