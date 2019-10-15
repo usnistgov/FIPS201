@@ -14,7 +14,7 @@ Federal Information Processing Standards Publications (FIPS PUBS) are issued by 
 
 FIPS PUB 201-2: Personal Identity Verification (PIV) of Federal Employees and Contractors.[^hspd12]
 
-[^hspd12]: This Standard is in response to Homeland Security Presidential Directive-12, which states that it is “intended only to improve the internal management of the executive branch of the Federal Government.”
+[^hspd12]: This Standard is in response to Homeland Security Presidential Directive-12, which states that it is "intended only to improve the internal management of the executive branch of the Federal Government."
 
 
 # 2. Category of Standard.
@@ -23,9 +23,9 @@ Information Security.
 
 # 3. Explanation.
 
-Homeland Security Presidential Directive-12 [HSPD-12], dated August 27, 2004, entitled “Policy for a Common Identification Standard for Federal Employees and Contractors,” directed the promulgation of a Federal standard for secure and reliable forms of identification for Federal employees and contractors. It further specified secure and reliable identification that—
+Homeland Security Presidential Directive-12 [HSPD-12], dated August 27, 2004, entitled "Policy for a Common Identification Standard for Federal Employees and Contractors," directed the promulgation of a Federal standard for secure and reliable forms of identification for Federal employees and contractors. It further specified secure and reliable identification that—
 
-+ (a) is issued based on sound criteria for verifying an individual employee’s identity;
++ (a) is issued based on sound criteria for verifying an individual employee's identity;
 + (b) is strongly resistant to identity fraud, tampering, counterfeiting, and terrorist exploitation;
 + (c) can be rapidly authenticated electronically; and
 + (d) is issued only by providers whose reliability has been established by an official accreditation process.
@@ -42,9 +42,9 @@ Department of Commerce, NIST, Information Technology Laboratory (ITL).
 
 # 6. Applicability.
 
-This Standard is applicable to identification issued by Federal departments and agencies to Federal employees and contractors (including contractor employees) for gaining physical access to Federally controlled facilities and logical access to Federally controlled information systems, except for “national security systems” as defined by 44 U.S.C. 3542(b)(2) [SP 800-59]. Except as provided in [HSPD-12], nothing in this Standard alters the ability of government entities to use the Standard for additional applications.
+This Standard is applicable to identification issued by Federal departments and agencies to Federal employees and contractors (including contractor employees) for gaining physical access to Federally controlled facilities and logical access to Federally controlled information systems, except for "national security systems" as defined by 44 U.S.C. 3542(b)(2) [SP 800-59]. Except as provided in [HSPD-12], nothing in this Standard alters the ability of government entities to use the Standard for additional applications.
 
-Special-Risk Security Provision—The U.S. Government has personnel, facilities, and other assets deployed and operating worldwide under a vast range of threats (e.g., terrorist, technical, intelligence), particularly heightened overseas. For cardholders with particularly sensitive threats while outside the contiguous United States, the issuance, holding, and/or use of PIV Cards with full technical capabilities as described herein may result in unacceptably high risk. In such cases of extant risk (e.g., to facilities, individuals, operations, the national interest, or the national security), by the presence and/or use of full- capability PIV Cards, the head of a department or independent agency MAY issue a select number of maximum security PIV Cards that do not contain (or otherwise do not fully support) the wireless and/or biometric capabilities otherwise required/referenced herein. To the greatest extent practicable, heads of departments and independent agencies SHOULD minimize the issuance of such special-risk security PIV Cards so as to support interagency interoperability and the President’s policy. Use of other risk- mitigating technical (e.g., high-assurance on-off switches for the wireless capability) and procedural mechanisms in such situations is preferable, and as such is also explicitly permitted and encouraged. As protective security technology advances, the need for this provision will be re-assessed as the Standard undergoes the normal review and update process.
+Special-Risk Security Provision—The U.S. Government has personnel, facilities, and other assets deployed and operating worldwide under a vast range of threats (e.g., terrorist, technical, intelligence), particularly heightened overseas. For cardholders with particularly sensitive threats while outside the contiguous United States, the issuance, holding, and/or use of PIV Cards with full technical capabilities as described herein may result in unacceptably high risk. In such cases of extant risk (e.g., to facilities, individuals, operations, the national interest, or the national security), by the presence and/or use of full- capability PIV Cards, the head of a department or independent agency MAY issue a select number of maximum security PIV Cards that do not contain (or otherwise do not fully support) the wireless and/or biometric capabilities otherwise required/referenced herein. To the greatest extent practicable, heads of departments and independent agencies SHOULD minimize the issuance of such special-risk security PIV Cards so as to support interagency interoperability and the President's policy. Use of other risk- mitigating technical (e.g., high-assurance on-off switches for the wireless capability) and procedural mechanisms in such situations is preferable, and as such is also explicitly permitted and encouraged. As protective security technology advances, the need for this provision will be re-assessed as the Standard undergoes the normal review and update process.
 
 # 7. Specifications.
 
@@ -76,7 +76,7 @@ This Standard mandates the implementation of some PIV Card features that were op
 Accreditations of PIV Card issuers (PCIs) that occur 12 months after the effective date of this Standard SHALL be in compliance with 
 FIPS 201-2.
 
-FIPS 201-2 compliance of PIV components and subsystems is provided in accordance with M-06-18 [OMB0618] and M-11-11 [OMB1111] through products and services from GSA’s Interoperability Test Program and Approved Products and Services List, once available. Implementation Guidance to PIV enable federal facilities and information systems, in accordance to M-11-11 will be outlined in the “Federal Identity, Credential, and Access Management (FICAM) Roadmap and Implementation Guidance.”
+FIPS 201-2 compliance of PIV components and subsystems is provided in accordance with M-06-18 [OMB0618] and M-11-11 [OMB1111] through products and services from GSA's Interoperability Test Program and Approved Products and Services List, once available. Implementation Guidance to PIV enable federal facilities and information systems, in accordance to M-11-11 will be outlined in the "Federal Identity, Credential, and Access Management (FICAM) Roadmap and Implementation Guidance."
 
 # 11. Qualifications.
 
@@ -86,7 +86,7 @@ The security provided by the PIV system is dependent on many factors outside the
 + protection provided to an identity credential stored within the PIV Card and transmitted between the card and the PIV issuance and usage infrastructure; and
 + protection provided to the identity verification system infrastructure and components throughout the entire lifecycle.
 
-Although it is the intent of this Standard to specify mechanisms and support systems that provide high assurance personal identity verification, conformance to this Standard does not assure that a particular implementation is secure. It is the implementer’s responsibility to ensure that components, interfaces, communications, storage media, managerial processes, and services used within the identity verification system are designed and built in a secure manner.
+Although it is the intent of this Standard to specify mechanisms and support systems that provide high assurance personal identity verification, conformance to this Standard does not assure that a particular implementation is secure. It is the implementer's responsibility to ensure that components, interfaces, communications, storage media, managerial processes, and services used within the identity verification system are designed and built in a secure manner.
 
 Similarly, the use of a product that conforms to this Standard does not guarantee the security of the overall system in which the product is used. The responsible authority in each department and agency SHALL ensure that an overall system provides the acceptable level of security.
 

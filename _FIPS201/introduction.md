@@ -7,14 +7,14 @@ permalink: /introduction/
 ---
 # 1. Introduction
 
-Authentication of an individual’s identity is a fundamental component of physical and logical access
+Authentication of an individual's identity is a fundamental component of physical and logical access
 control processes. When an individual attempts to access security-sensitive buildings, computer systems,
-or data, an access control decision must be made. An accurate determination of an individual’s identity is
+or data, an access control decision must be made. An accurate determination of an individual's identity is
 needed to make sound access control decisions.
 
 A wide range of mechanisms is employed to authenticate an identity, utilizing various classes of identity
-credentials. For physical access, an individual’s identity has traditionally been authenticated by use of
-paper or other non-automated, hand-carried credentials, such as driver’s licenses and badges. Access
+credentials. For physical access, an individual's identity has traditionally been authenticated by use of
+paper or other non-automated, hand-carried credentials, such as driver's licenses and badges. Access
 authorization to computers and data has traditionally been based on identities authenticated through user-selected passwords. More recently, cryptographic mechanisms and biometric techniques have been used
 in physical and logical security applications, replacing or supplementing the traditional identity
 credentials.
@@ -50,7 +50,7 @@ Information Processing Standards (FIPS) publication to define such a common iden
 accordance with HSPD-12, this Standard defines the technical requirements for the identity credential
 that—
 
-- (a) is issued based on sound criteria for verifying an individual employee’s identity;
+- (a) is issued based on sound criteria for verifying an individual employee's identity;
 - (b) is strongly resistant to identity fraud, tampering, counterfeiting, and terrorist exploitation;
 - (c) can be rapidly authenticated electronically; and
 - (d) is issued only by providers whose reliability has been established by an official accreditation process.
@@ -59,7 +59,7 @@ This Standard defines authentication mechanisms offering varying degrees of secu
 physical access applications. Federal departments and agencies will determine the level of security and
 authentication mechanisms appropriate for their applications. This Standard does not specify access
 control policies or requirements for Federal departments and agencies. Therefore, the scope of this
-Standard is limited to authentication of an individual’s identity. Authorization and access control
+Standard is limited to authentication of an individual's identity. Authorization and access control
 decisions are outside the scope of this Standard. Moreover, requirements for a temporary card used until
 a new or replacement PIV Card arrives are out of scope of this Standard.
 
@@ -169,7 +169,7 @@ objectives for compliance with [HSPD-12]. This section is *normative*.
 front-end subsystem. Specifically, this section defines requirements for the PIV Card, logical
 data elements, biometrics, cryptography, and card readers. This section is *normative*.
 + [Section 5, PIV Key Management Requirements](keymanagement.md), defines the processes and components required
-for managing a PIV Card’s lifecycle. It also provides the requirements and specifications related
+for managing a PIV Card's lifecycle. It also provides the requirements and specifications related
 to this subsystem. This section is *normative*.
 + [Section 6, PIV Cardholder Authentication](authentication.md), defines a suite of authentication mechanisms that are
 supported by the PIV Card, and their applicability in meeting the requirements of graduated

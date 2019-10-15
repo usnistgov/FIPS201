@@ -22,7 +22,7 @@ electronically; and (d) is issued only by providers whose reliability has been e
 accreditation process.
 
 
-Each agency’s PIV implementation SHALL meet the four control objectives (a) through (d) listed above
+Each agency's PIV implementation SHALL meet the four control objectives (a) through (d) listed above
 such that—
 
 + Credentials are issued 1) to individuals whose identity has been verified and 2) after a proper
@@ -168,14 +168,14 @@ completed.
 + The evidence of authorization if the credential is issued under a pseudonym.
 
 + Any data or any subsequent changes in the data about the cardholder. If the changed data is the
-cardholder’s name, then the issuer SHOULD include the evidence of a formal name change.
+cardholder's name, then the issuer SHOULD include the evidence of a formal name change.
 
 The biometric data in the chain-of-trust SHALL be valid for at most 12 years. In order to mitigate ageing
 effects and thereby maintain operational readiness of a cardholder's PIV Card, agencies MAY require
 biometric enrollment more frequently than 12 years.
 
 The chain-of-trust contains personally identifiable information (PII). If implemented, it SHALL be protected
-in a manner that protects the individual’s privacy and maintains the integrity of the chain-of-trust record
+in a manner that protects the individual's privacy and maintains the integrity of the chain-of-trust record
 both in transit and at rest. A card issuer may import and export a chain-of-trust in the manner and
 representation described in [SP 800-156].
 
@@ -187,13 +187,13 @@ transaction, and one with two fingerprint templates. The two fingerprint templat
 against the corresponding fingers in the ten-fingerprint data set to link the chain.
 
 + Reissuance: a PIV cardholder loses his/her card. Since the card issuer has biometric enrollment data
-records, the cardholder can perform a 1:1 biometric match to reconnect to the card issuer’s chain-of-trust. The card issuer NEED NOT repeat the identity proofing and registration process. The card issuer
+records, the cardholder can perform a 1:1 biometric match to reconnect to the card issuer's chain-of-trust. The card issuer NEED NOT repeat the identity proofing and registration process. The card issuer
 proceeds to issue a new card as described in Section 2.9.1.
 
 + Interagency transfer: a Federal employee is transferred from one agency to another. When the
 employee leaves the old agency, he/she surrenders the PIV Card and it is destroyed. When the
 employee arrives at the new agency and is processed in, the card issuer in the new agency requests the
-employee’s chain-of-trust from the card issuer in the old agency, and receives the chain-of-trust. The
+employee's chain-of-trust from the card issuer in the old agency, and receives the chain-of-trust. The
 employee performs a 1:1 biometric match against the chain-of-trust, and the interaction proceeds as
 described in Section 2.8.2.
 
@@ -266,7 +266,7 @@ the head or deputy secretary (or equivalent) of the Federal department or agency
 
 The requirements for identity proofing and registration also apply to citizens of foreign countries who are
 working for the Federal government overseas. However, a process for identity proofing and registration
-must be established using a method approved by the U.S. Department of State’s Bureau of Diplomatic
+must be established using a method approved by the U.S. Department of State's Bureau of Diplomatic
 Security, except for employees under the command of a U.S. area military commander. These procedures
 may vary depending on the country.
 
@@ -341,11 +341,11 @@ period. For example, a Federal employee may leave one Federal agency for another
 thus occur a short employment lapse period, or an individual who was under contract to a Federal agency
 may receive a new contract from that agency shortly after the previous contract expired. In these
 instances, the card issuer MAY issue a new PIV Card without repeating the identity proofing and
-registration process if the issuer has access to the applicant’s chain-of-trust record and the applicant can
+registration process if the issuer has access to the applicant's chain-of-trust record and the applicant can
 be reconnected to the chain-of-trust record.[^lapse]
 
 When issuing a PIV Card under the grace period, the card issuer SHALL verify that PIV Card issuance has
-been authorized by a proper authority and that the employee’s or contractor’s background investigation is
+been authorized by a proper authority and that the employee's or contractor's background investigation is
 valid. Re-investigations SHALL be performed if required, in accordance with OPM guidance. At the time
 of issuance, the card issuer SHALL perform a 1:1 biometric match of the applicant to reconnect to the chain-of-trust. The 1:1 biometric match requires either a match of fingerprint(s) or, if unavailable, other
 optional biometric data that are available. On successful match, the new PIV Card SHALL be released to the
@@ -383,7 +383,7 @@ started before the old PIV Card expired.
 If the expiration date of the new PIV Card is later than the expiration date of the old card, or if any data
 about the cardholder is being changed, the card issuer SHALL ensure that a proper authority has authorized
 the issuance of the new PIV Card. The issuer SHALL ensure that the proper authority has verified that the
-employee’s or contractor’s background investigation is valid before reissuing the card and associated
+employee's or contractor's background investigation is valid before reissuing the card and associated
 credentials.[^IDMS] If the expiration date of the new PIV Card is later than the expiration date of the old card
 then re-investigations SHALL be performed if required, in accordance with OPM guidance.
 
@@ -416,7 +416,7 @@ Departments and agencies are required to have procedures in place to issue emerg
 such cases.
 
 If there is any data change about the cardholder, the issuer will record this in the chain-of-trust, if
-applicable. If the changed data is the cardholder’s name, then the issuer SHALL meet the requirements in
+applicable. If the changed data is the cardholder's name, then the issuer SHALL meet the requirements in
 Section 2.9.1.1, Special Rule for Name Change by Cardholder.
 
 Previously collected biometric data MAY be reused with the new PIV Card if the expiration date of the
@@ -439,7 +439,7 @@ issuer with evidence of a formal name change, such as a marriage certificate, a 
 recognition of a name change, or other mechanism permitted by State law or regulation, the card issuer
 SHALL issue the cardholder a new card following the procedures set out in Section 2.9.1, PIV Card
 Reissuance Requirements. If the expiration date of the new card is no later than the expiration date of the
-old PIV Card and no data about the cardholder, other than the cardholder’s name, is being changed, then
+old PIV Card and no data about the cardholder, other than the cardholder's name, is being changed, then
 the new PIV Card MAY be issued without obtaining the approval of a proper authority and without
 performing a re-investigation.
 
@@ -476,7 +476,7 @@ management key, was compromised, the corresponding certificate SHALL be revoked.
 The Personal Identification Number (PIN) on a PIV Card may need to be reset if the cardholder has
 forgotten the PIN or if PIN-based cardholder authentication has been disabled from the usage of an
 invalid PIN more than the allowed number of retries. A maximum of ten consecutive PIN retries SHALL be permitted unless a lower limit is stipulated by the department or agency.[^pinreset] PIN reset
-may be performed in-person at the issuer’s facility, at an unattended kiosk operated by the issuer, or
+may be performed in-person at the issuer's facility, at an unattended kiosk operated by the issuer, or
 remotely via a general computing platform:
 
 + When PIN reset is performed in-person at the issuer's facility, before providing the reset PIV Card
@@ -487,7 +487,7 @@ operator SHALL inspect these and compare the cardholder with the facial image re
 enrollment data record and the facial image printed on the card.
 
 + PIN reset at an unattended issuer-operated kiosk SHALL ensure that the PIV Card is authenticated and
-that the cardholder’s biometric matches either the stored biometric on the PIV Card, through an on-card 1:1 biometric match, or biometric data stored in the chain-of-trust, through an off-card 1:1
+that the cardholder's biometric matches either the stored biometric on the PIV Card, through an on-card 1:1 biometric match, or biometric data stored in the chain-of-trust, through an off-card 1:1
 biometric match. If the biometric match or card authentication is unsuccessful, the kiosk SHALL NOT
 reset the PIV Card.
 
@@ -497,7 +497,7 @@ the following requirements are met:
   * the cardholder initiates a PIN reset with the issuer operator;
   * the operator authenticates the owner of the PIV Card through an independent
   procedure; and
-  * the cardholder’s biometric matches the stored biometric on the PIV Card through a 1:1 on-card biometric comparison.
+  * the cardholder's biometric matches the stored biometric on the PIV Card through a 1:1 on-card biometric comparison.
 
 The remote PIN reset operation SHALL satisfy the requirements for remote post issuance updates
 specified in Section 2.9.2.
@@ -516,7 +516,7 @@ cardholder SHALL provide the PIV Card to be reset and another primary identity s
 specified in Section 2.7). An attending operator SHALL inspect these and compare the cardholder with the
 facial image retrieved from the enrollment data record and the facial image printed on the PIV Card.
 
-New verification reference data SHALL be enrolled. The PIV Card’s activation methods associated with the
+New verification reference data SHALL be enrolled. The PIV Card's activation methods associated with the
 verification data SHALL be reset and the new verification data SHALL be stored on the card.
 
 Departments and agencies may adopt more stringent procedures for verification data reset (including
@@ -537,7 +537,7 @@ following circumstances:
 
 + a cardholder passes away;
 
-+ a determination is made after completion of a cardholder’s background investigation that the
++ a determination is made after completion of a cardholder's background investigation that the
 cardholder should not have a PIV Card; or
 
 + a cardholder is determined to hold a fraudulent identity.
@@ -574,7 +574,7 @@ credentials associated with the PIV account SHALL also be terminated.
 
 ## 2.11 PIV Privacy Requirements
 
-HSPD-12 explicitly states that “protect[ing] personal privacy” is a requirement of the PIV system. As
+HSPD-12 explicitly states that "protect[ing] personal privacy" is a requirement of the PIV system. As
 such, all departments and agencies SHALL implement the PIV system in accordance with the spirit and letter
 of all privacy controls specified in this Standard, as well as those specified in Federal privacy laws and
 policies including but not limited to the E-Government Act of 2002 [E-Gov], the Privacy Act of 1974
@@ -583,8 +583,8 @@ policies including but not limited to the E-Government Act of 2002 [E-Gov], the 
 Departments and agencies may have a wide variety of uses of the PIV system and its components that
 were not intended or anticipated by the President in issuing [HSPD-12]. In considering whether a
 proposed use of the PIV system is appropriate, departments and agencies SHALL consider the
-aforementioned control objectives and the purpose of this Standard, namely “to enhance security, increase
-Government efficiency, reduce identity fraud, and protect personal privacy” [HSPD-12]. No department
+aforementioned control objectives and the purpose of this Standard, namely "to enhance security, increase
+Government efficiency, reduce identity fraud, and protect personal privacy" [HSPD-12]. No department
 or agency SHALL implement a use of the identity credential inconsistent with these control objectives.
 
 To ensure the privacy throughout PIV lifecycle, departments and agencies SHALL do the following:
@@ -612,7 +612,7 @@ To ensure the privacy throughout PIV lifecycle, departments and agencies SHALL d
     credential issuance.[^access]
 - Coordinate with appropriate department or agency officials to define consequences for violating
     privacy policies of the PIV system.
-- Assure that the technologies used in the department or agency’s implementation of the PIV system
+- Assure that the technologies used in the department or agency's implementation of the PIV system
     allow for continuous auditing of compliance with stated privacy policies and practices governing the
     collection, use, and distribution of information in the operation of the program.
 - Utilize security controls described in [SP 800-53], Recommended Security Controls for Federal
