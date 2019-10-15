@@ -12,7 +12,7 @@ This section defines a suite of authentication mechanisms that are supported by 
 their applicability in meeting the requirements for a set of graduated levels of identity assurance. This
 section also defines some authentication mechanisms that make use of credential elements that MAY
 optionally be included on PIV Cards. Specific implementation details of authentication mechanisms
-identified in this section are provided in [[SP 800-73]](../_Appendix/references.md#ref-SP-800-73)  Moreover, while a wide range of authentication
+identified in this section are provided in [[SP 800-73]](../_Appendix/references.md#ref-SP-800-73). Moreover, while a wide range of authentication
 mechanisms is identified in this section, departments and agencies may adopt additional mechanisms that
 use the identity credentials on the PIV Card. In the context of the PIV Card Application, identity
 authentication is defined as the process of establishing confidence in the identity of the cardholder
@@ -34,7 +34,7 @@ PIV Card.
 [Section 2](requirements.md#s-2) of this Standard defines requirements for the identity proofing, registration, issuance, and
 maintenance processes for PIV Cards and establishes a common level of assurance in these processes.
 The PIV identity proofing, registration, issuance, and maintenance processes meet or exceed the
-requirements for E-Authentication Level 4 [[OMB0404]](../_Appendix/references.md#ref-OMB0404)  The PIV Card contains a number of visual and
+requirements for E-Authentication Level 4 [[OMB0404]](../_Appendix/references.md#ref-OMB0404). The PIV Card contains a number of visual and
 logical credentials. Depending on the specific PIV data used to authenticate the holder of the PIV Card to
 an entity that controls access to a resource, varying levels of assurance that the holder of the PIV Card is
 the owner of the card can be achieved. This is the basis for the following PIV assurance levels defined in
@@ -147,7 +147,7 @@ cardholder PIN is not required for this operation. The PIV Card SHALL include a 
 authentication mechanism after a number of consecutive failed authentication attempts as stipulated by
 the department or agency. As with authentication using the PIV biometrics, if agencies choose to
 implement on-card biometric comparison, it SHALL be implemented as defined in [[SP 800-73]](../_Appendix/references.md#ref-SP-800-73) and
-[[SP 800-76]](../_Appendix/references.md#ref-SP-800-76) 
+[[SP 800-76]](../_Appendix/references.md#ref-SP-800-76).
 
 Some of the characteristics of the on-card biometric comparison authentication mechanism are as follows:
 
@@ -170,7 +170,7 @@ The following steps SHALL be performed for PKI-AUTH:
     standards-compliant PKI path validation[^pivpath] to ensure that it is neither expired nor revoked and that it is
     from a trusted source.
 - The cardholder is prompted to submit a PIN, which is used to activate the card. (If implemented,
-    other card activation mechanisms, as specified in [[SP 800-73]](../_Appendix/references.md#ref-SP-800-73)  MAY be used to activate the card.)
+    other card activation mechanisms, as specified in [[SP 800-73]](../_Appendix/references.md#ref-SP-800-73), MAY be used to activate the card.)
 - The relying system issues a challenge string to the card and requests an asymmetric operation in
     response.
 - The card responds to the previously issued challenge by signing it using the PIV Authentication
@@ -310,7 +310,7 @@ components of relying systems, including card readers, biometric readers, crypto
 key management systems, involves many factors not fully specified by FIPS 201, such as correctness of
 the functional mechanism, physical protection of the mechanism, and environmental conditions at the
 authentication point. Additional standards and best practice guidelines apply to the design and
-implementation of relying systems, e.g., [[FIPS140]](../_Appendix/references.md#ref-FIPS140) and [[SP 800-116]](../_Appendix/references.md#ref-SP-800-116) 
+implementation of relying systems, e.g., [[FIPS140]](../_Appendix/references.md#ref-FIPS140) and [[SP 800-116]](../_Appendix/references.md#ref-SP-800-116).
 
 ### 6.3.1 Physical Access {#s-6-3-1}
 
@@ -322,7 +322,7 @@ suitable for a higher assurance level can also be applied to meet the requiremen
 level. Moreover, the authentication mechanisms in [Table 6-2](#table-6-2) can be combined to achieve higher
 assurance levels.[^combinations]
 
-[^combinations]: Combinations of authentication mechanisms are specified in [[SP 800-116]](../references/#ref-SP-800-116){:.footnote-ref} 
+[^combinations]: Combinations of authentication mechanisms are specified in [[SP 800-116]](../references/#ref-SP-800-116){:.footnote-ref}.
 
 [Table 6-2. Authentication for Physical Access](#table-6-2){:name="table-6-2"}
 

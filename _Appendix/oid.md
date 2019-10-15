@@ -30,7 +30,7 @@ This normative appendix provides additional details for the PIV objects identifi
 |id-PIV-content-signing|2.16.840.1.101.3.6.7|This specifies that the public key MAY be used to verify signatures on CHUIDs and PIV biometrics.|
 |id-PIV-cardAuth|2.16.840.1.101.3.6.8|This specifies that the public key is used to authenticate the PIV Card rather than the PIV cardholder.|
 
-The OIDs for certificate policies are specified in [[COMMON]](references.md#ref-COMMON) 
+The OIDs for certificate policies are specified in [[COMMON]](references.md#ref-COMMON).
 
 [^authnkey]: The authentication key map was deprecated in SP 800-73-2 and was removed from SP 800-73-3.
 

@@ -41,7 +41,7 @@ security levels that are dependent on risks to the facility or information being
 
 ## 1.2 Scope {#s-1-2}
 
-Homeland Security Presidential Directive-12 [[HSPD-12]](../_Appendix/references.md#ref-HSPD-12)  signed by President George W. Bush on August
+Homeland Security Presidential Directive-12 [[HSPD-12]](../_Appendix/references.md#ref-HSPD-12), signed by President George W. Bush on August
 27, 2004, established the requirements for a common identification standard for identity credentials issued
 by Federal departments and agencies to Federal employees and contractors (including contractor
 employees) for gaining physical access to Federally controlled facilities and logical access to Federally
@@ -122,7 +122,7 @@ Subsequent revisions of this Standard may necessitate FIPS 201 version managemen
 version numbers for FIPS 201 products. Components that may be affected by version management
 include, for example, PIV Cards, PIV middleware software, and card issuance systems.
 
-New version numbers will be assigned in [[SP 800-73]](../_Appendix/references.md#ref-SP-800-73)  if needed, based on the nature of the change. For
+New version numbers will be assigned in [[SP 800-73]](../_Appendix/references.md#ref-SP-800-73), if needed, based on the nature of the change. For
 example, new mandatory features introduced in a revision of this Standard may necessitate a new PIV
 Card Application version number so that systems can quickly discover the new mandatory features.
 Optional features, on the other hand, may be discoverable by an on-card discovery mechanism.
@@ -136,25 +136,25 @@ have been added at the end of their respective sections with a new section numbe
 ## 1.4 Document Organization {#s-1-4}
 
 This Standard describes the minimum requirements for a Federal personal identification system that
-meets the control and security objectives of [[HSPD-12]](../_Appendix/references.md#ref-HSPD-12)  including identity proofing, registration, and
+meets the control and security objectives of [[HSPD-12]](../_Appendix/references.md#ref-HSPD-12), including identity proofing, registration, and
 issuance. It provides detailed technical specifications to support the control and security objectives of
 [[HSPD-12]](../_Appendix/references.md#ref-HSPD-12) as well as interoperability among Federal departments and agencies. This Standard describes
 the policies and minimum requirements of a PIV Card that allows interoperability of credentials for
 physical and logical access. The physical card characteristics, storage media, and data elements that make
 up identity credentials are specified in this Standard. The interfaces and card architecture for storing and
-retrieving identity credentials from a smart card are specified in Special Publication 800-73 [[SP 800-73]](../_Appendix/references.md#ref-SP-800-73) 
+retrieving identity credentials from a smart card are specified in Special Publication 800-73 [[SP 800-73]](../_Appendix/references.md#ref-SP-800-73),
 *Interfaces for Personal Identity Verification*. Similarly, the requirements for collection and formatting of
-biometric information are specified in Special Publication 800-76 [[SP 800-76]](../_Appendix/references.md#ref-SP-800-76)  *Biometric Specifications
+biometric information are specified in Special Publication 800-76 [[SP 800-76]](../_Appendix/references.md#ref-SP-800-76), *Biometric Specifications
 for Personal Identity Verification*. The requirements for cryptographic algorithms are specified in Special
-Publication 800-78 [[SP 800-78]](../_Appendix/references.md#ref-SP-800-78)  *Cryptographic Algorithms and Key Sizes for Personal Identity
+Publication 800-78 [[SP 800-78]](../_Appendix/references.md#ref-SP-800-78), *Cryptographic Algorithms and Key Sizes for Personal Identity
 Verification*. The requirements for the accreditation of PIV Card issuers are specified in Special
-Publication 800-79 [[SP 800-79]](../_Appendix/references.md#ref-SP-800-79)  *Guidelines for the Accreditation of Personal Identity Verification Card
-Issuers*. The unique organizational codes for Federal agencies are assigned in Special Publication 800-87 [[SP 800-87]](../_Appendix/references.md#ref-SP-800-87)  *Codes for the Identification of Federal and Federally-Assisted Organizations*. The
-requirements for the PIV Card reader are provided in Special Publication 800-96 [[SP 800-96]](../_Appendix/references.md#ref-SP-800-96)  *PIV Card
+Publication 800-79 [[SP 800-79]](../_Appendix/references.md#ref-SP-800-79), *Guidelines for the Accreditation of Personal Identity Verification Card
+Issuers*. The unique organizational codes for Federal agencies are assigned in Special Publication 800-87 [[SP 800-87]](../_Appendix/references.md#ref-SP-800-87), *Codes for the Identification of Federal and Federally-Assisted Organizations*. The
+requirements for the PIV Card reader are provided in Special Publication 800-96 [[SP 800-96]](../_Appendix/references.md#ref-SP-800-96), *PIV Card
 to Reader Interoperability Guidelines*. The format for encoding the chain-of-trust for import and export is
-specified in Special Publication 800-156 [[SP 800-156]](../_Appendix/references.md#ref-SP-800-156)  *Representation of PIV Chain-of-Trust for Import
+specified in Special Publication 800-156 [[SP 800-156]](../_Appendix/references.md#ref-SP-800-156), *Representation of PIV Chain-of-Trust for Import
 and Export*. The requirements for issuing derived PIV credentials are specified in Special Publication
-800-157 [[SP 800-157]](../_Appendix/references.md#ref-SP-800-157)  *Guidelines for Derived Personal Identity Verification (PIV) Credentials*.
+800-157 [[SP 800-157]](../_Appendix/references.md#ref-SP-800-157), *Guidelines for Derived Personal Identity Verification (PIV) Credentials*.
 
 This Standard contains normative references to other documents, and to the extent described in each
 citation these documents are included by reference in this Standard. Should normative text in this
@@ -168,7 +168,7 @@ informative (i.e., non-mandatory). Following is the structure of this document:
 Standard. This section is *informative*.
 + [Section 2, Common Identification, Security, and Privacy Requirements](requirements.md), outlines the requirements
 for identity proofing, registration, and issuance, by establishing the control and security
-objectives for compliance with [[HSPD-12]](../_Appendix/references.md#ref-HSPD-12)  This section is *normative*.
+objectives for compliance with [[HSPD-12]](../_Appendix/references.md#ref-HSPD-12). This section is *normative*.
 + [Section 3, PIV System Overview](system.md), serves to provide a PIV system overview. This section is
 *informative*.
 + [Section 4, PIV Front-End Subsystem](frontend.md), provides the requirements for the components of the PIV

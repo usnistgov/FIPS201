@@ -52,7 +52,7 @@ Federal Information Processing Standards (FIPS) 201 Personal Identity Verificati
 
 # 8. Implementations. {#s-8}
 
-This Standard satisfies the control objectives, security requirements, and technical interoperability requirements of [[HSPD-12]](_Appendix/references.md#ref-HSPD-12)  The Standard specifies implementation of identity credentials on integrated circuit cards for use in a Federal personal identity verification system.
+This Standard satisfies the control objectives, security requirements, and technical interoperability requirements of [[HSPD-12]](_Appendix/references.md#ref-HSPD-12). The Standard specifies implementation of identity credentials on integrated circuit cards for use in a Federal personal identity verification system.
 
 A PIV Card must be personalized with identity information for the individual to whom the card is issued, in order to perform identity verification by automated systems using the electronically stored data on the card. In implementing PIV systems and pursuant to Section 508 of the Rehabilitation Act of 1973 (the Act), as amended, agencies have the responsibility to accommodate federal employees and contractors with disabilities to have access to and use of information and data comparable to the access to and use of such information and data by federal employees and contractors who are not individuals with disabilities. In instances where Federal agencies assert exceptions to Section 508 accessibility requirements (e.g., undue burden, national security, commercial non-availability), Sections 501 and 504 of the Act requires Federal agencies to provide reasonable accommodation for federal employees and contractors with disabilities whose needs are not met by the baseline accessibility provided under Section 508. While Section 508 compliance is the responsibility of Federal agencies and departments, this Standard specifies options to aid in implementation of the requirements:
 
@@ -94,7 +94,7 @@ Because a standard of this nature must be flexible enough to adapt to advancemen
 
 # 12. Waivers. {#s-12}
 
-As per the Federal Information Security Management Act of 2002 [[FISMA]](_Appendix/references.md#ref-FISMA)  waivers to Federal Information Processing Standards are not allowed.
+As per the Federal Information Security Management Act of 2002 [[FISMA]](_Appendix/references.md#ref-FISMA), waivers to Federal Information Processing Standards are not allowed.
 
 # 13. Where to Obtain Copies. {#s-13}
 

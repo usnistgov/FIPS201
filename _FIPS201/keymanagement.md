@@ -19,7 +19,7 @@ for the Common Policy managed by the Federal PKI. Self-signed, self-issued, and 
 by these CAs SHALL conform to *Worksheet 1: Self-Signed Certificate Profile*, *Worksheet 2: Self-Issued CA
 Certificate Profile*, and *Worksheet 3: Cross Certificate Profile*, respectively, in *X.509 Certificate and
 Certificate Revocation List (CRL) Extensions Profile for the Shared Service Providers (SSP) Program*
-[[PROF]](../_Appendix/references.md#ref-PROF)  The requirements for legacy PKIs are defined in [Section 5.4](keymanagement.md#s-5-4).
+[[PROF]](../_Appendix/references.md#ref-PROF). The requirements for legacy PKIs are defined in [Section 5.4](keymanagement.md#s-5-4).
 
 ## 5.2 PKI Certificate {#s-5-2}
 
@@ -28,24 +28,24 @@ Policy for the U.S. Federal PKI Common Policy Framework* [[COMMON]](../_Appendix
 certificate policy cover identity proofing and the management of CAs and registration authorities. CAs
 and registration authorities MAY be operated by departments and agencies, or MAY be outsourced to PKI
 service providers. For a list of PKI service providers that have been approved to operate under
-[[COMMON]](../_Appendix/references.md#ref-COMMON)  see [http://www.idmanagement.gov.](http://www.idmanagement.gov)
+[[COMMON]](../_Appendix/references.md#ref-COMMON), see [http://www.idmanagement.gov.](http://www.idmanagement.gov)
 
 ### 5.2.1 X.509 Certificate Contents {#s-5-2-1}
 
-The required contents of X.509 certificates associated with PIV private keys are based on [[PROF]](../_Appendix/references.md#ref-PROF)  The
+The required contents of X.509 certificates associated with PIV private keys are based on [[PROF]](../_Appendix/references.md#ref-PROF). The
 relationship is described below:
 
 - Certificates containing the public key associated with an asymmetric Card Authentication private key
-    SHALL conform to *Worksheet 8: Card Authentication Certificate Profile* in [[PROF]](../_Appendix/references.md#ref-PROF) 
+    SHALL conform to *Worksheet 8: Card Authentication Certificate Profile* in [[PROF]](../_Appendix/references.md#ref-PROF).
 - Certificates containing the public key associated with a digital signature private key SHALL conform to
     *Worksheet 5: End Entity Signature Certificate Profile* in [[PROF]](../_Appendix/references.md#ref-PROF) and SHALL specify either the id-fpki-common-hardware or id-fpki-common-High policy of [[COMMON]](../_Appendix/references.md#ref-COMMON) in the certificate policies
     extension.
 - Certificates containing the public key associated with a PIV Authentication private key SHALL conform
-    to *Worksheet 9: PIV Authentication Certificate Profile* in [[PROF]](../_Appendix/references.md#ref-PROF) 
+    to *Worksheet 9: PIV Authentication Certificate Profile* in [[PROF]](../_Appendix/references.md#ref-PROF).
 - Certificates containing the public key associated with a key management private key SHALL conform to
-    *Worksheet 6: Key Management Certificate Profile* in [[PROF]](../_Appendix/references.md#ref-PROF) [^keypolicy]
+    *Worksheet 6: Key Management Certificate Profile* in [[PROF]](../_Appendix/references.md#ref-PROF).[^keypolicy]
 - Requirements for algorithms and key sizes for each type of PIV asymmetric key are given in
-    [[SP 800-78]](../_Appendix/references.md#ref-SP-800-78) 
+    [[SP 800-78]](../_Appendix/references.md#ref-SP-800-78).
 
 [^keypolicy]: Note that key management certificates MAY assert the id-fpki-common-policy, id-fpki-common-hardware, or id-fpki-common-High policy of [[COMMON]](../references/#ref-COMMON){:.footnote-ref} in the certificate policies extension. Applications / relying systems sensitive to the assurance level may choose not to accept certificates that only assert id-fpki-common-policy.
 
@@ -53,7 +53,7 @@ relationship is described below:
 ## 5.3 X.509 CRL Contents {#s-5-3}
 
 CAs that issue certificates corresponding to PIV private keys SHALL issue CRLs as specified in
-[[COMMON]](../_Appendix/references.md#ref-COMMON)  The contents of X.509 CRLs SHALL conform to *Worksheet 4: CRL Profile* in [[PROF]](../_Appendix/references.md#ref-PROF) 
+[[COMMON]](../_Appendix/references.md#ref-COMMON). The contents of X.509 CRLs SHALL conform to *Worksheet 4: CRL Profile* in [[PROF]](../_Appendix/references.md#ref-PROF).
 
 ## 5.4 Legacy PKIs {#s-5-4}
 
@@ -62,7 +62,7 @@ PKIs that issue PIV Authentication certificates and Card Authentication certific
 requirements specified in Sections [5.2.1](keymanagement.md#s-5-2-1), [5.3](keymanagement.md#s-5-3), [5.5](keymanagement.md#s-5-5), [5.5.1](keymanagement.md#s-5-5-1), and [5.5.2](keymanagement.md#s-5-5-2), with respect to the PIV Authentication
 certificates and Card Authentication certificates that they issue. Departments and agencies MAY assert
 department or agency-specific policy object identifiers (OIDs) in PIV Authentication Certificates and
-Card Authentication Certificates in addition to the id-fpki-common-authentication policy OID and the id-fpki-common-cardAuth policy OID of [[COMMON]](../_Appendix/references.md#ref-COMMON)  respectively. This specification imposes no
+Card Authentication Certificates in addition to the id-fpki-common-authentication policy OID and the id-fpki-common-cardAuth policy OID of [[COMMON]](../_Appendix/references.md#ref-COMMON), respectively. This specification imposes no
 requirements on digital signature or key management certificates issued by legacy PKIs.
 
 ## 5.5 PKI Repository and OCSP Responder(s) {#s-5-5}
@@ -84,7 +84,7 @@ Because an X.509 certificate typically is valid several years, a mechanism to di
 information is necessary. CRL and OCSP are the two commonly used mechanisms. CAs that issue PIV
 Authentication, Card Authentication, digital signature, or key management certificates SHALL maintain a
 Hypertext Transfer Protocol (HTTP) accessible web server that holds the CRLs for the certificates it
-issues, as well as any CA certificates issued to or by it, as specified in [[PROF]](../_Appendix/references.md#ref-PROF)  In addition, every CA that
+issues, as well as any CA certificates issued to or by it, as specified in [[PROF]](../_Appendix/references.md#ref-PROF). In addition, every CA that
 issues PIV Authentication or Card Authentication certificates SHALL operate an OCSP server that provides
 certificate status for every authentication certificate the CA issues.
 
@@ -111,6 +111,6 @@ Table IV—End-Entity Certificate Repository Service Requirements of [[SSP REP]]
 OCSP [[RFC2560]](../_Appendix/references.md#ref-RFC2560) status responders SHALL be implemented as a supplementary certificate status
 mechanism. The OCSP status responders must be updated at least as frequently as CRLs are issued. The
 definitive OCSP responder for each certificate SHALL be specified in the *authorityInfoAccess* extension as
-described in [[PROF]](../_Appendix/references.md#ref-PROF) 
+described in [[PROF]](../_Appendix/references.md#ref-PROF).
 
 

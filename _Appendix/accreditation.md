@@ -53,14 +53,14 @@ the accreditation decision.
 
 The accreditation of the capability and reliability of a PCI using the methodology outlined in [[SP 800-79]](references.md#ref-SP-800-79) depends upon adequate security for the information systems that are used for PCI functions. The
 assurance that such a security exists in a PCI is obtained through evidence of the application of the Risk
-Management Framework guidelines specified in [[SP 800-37]](references.md#ref-SP-800-37)  The methodology in [[SP 800-37]](references.md#ref-SP-800-37) in turn
+Management Framework guidelines specified in [[SP 800-37]](references.md#ref-SP-800-37). The methodology in [[SP 800-37]](references.md#ref-SP-800-37) in turn
 was created pursuant to a mandate in Appendix III of Office of Management and Budget (OMB) Circular
 A-130. An Information system authorization decision together with evidence of security control
 monitoring compliant with [[SP 800-37]](references.md#ref-SP-800-37) guidelines signifies that a PCI organization's official accepts
 responsibility for the security (in terms of confidentiality, integrity, and availability of information) of the
 information systems that will be involved in carrying out the PCI functions. Hence evidence of
 successful application of Risk Management Framework consistent with [[SP 800-37]](references.md#ref-SP-800-37) guidelines is
-mandatory for issuing PCI accreditation using [[SP 800-79]](references.md#ref-SP-800-79) 
+mandatory for issuing PCI accreditation using [[SP 800-79]](references.md#ref-SP-800-79). 
 
 ## A.3 Conformance Testing of PIV Card Application and Middleware {#s-a-3}
 
@@ -69,7 +69,7 @@ and its associated technical specifications is needed in order to meet the secur
 goals of [[HSPD-12]](references.md#ref-HSPD-12)  To facilitate this, NIST has established the NIST Personal Identity Verification
 Program (NPIVP). Under this program NIST has developed test procedures in SP 800-85A, *PIV Card
 Application and Middleware Interface Test Guidelines (SP 800-73 compliance)*, and an associated toolkit
-for conformance testing of PIV Card Applications and PIV Middleware [[SP 800-85A]](references.md#ref-SP-800-85A)  Commercial
+for conformance testing of PIV Card Applications and PIV Middleware [[SP 800-85A]](references.md#ref-SP-800-85A). Commercial
 products under these two categories are tested by the set of accredited test laboratories, accredited under
 the National Voluntary Laboratory Accreditation Program (NVLAP) program, using the NIST supplied
 test procedures and toolkit. The outcomes of the test results are validated by NIST, which then issues
