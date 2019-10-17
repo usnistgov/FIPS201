@@ -3,9 +3,9 @@ layout: default
 title: PIV System Overview
 navOrder: 3
 navTitle: System
-permalink: /system/ 
+permalink: /system/
 ---
-# 3. PIV System Overview
+# 3. PIV System Overview {#s-3}
 
 The PIV system is composed of components and processes that support a common (smart card-based)
 platform for identity authentication across Federal departments and agencies for access to multiple types
@@ -19,7 +19,7 @@ authenticated identity information can then be used as a basis for access contro
 physical and logical access environments. The following sections briefly discuss the functional
 components of the PIV system and the lifecycle activities of the PIV Card.
 
-## 3.1 Functional Components
+## 3.1 Functional Components {#s-3-1}
 
 An operational PIV system can be logically divided into the following three major subsystems:
 
@@ -36,16 +36,18 @@ An operational PIV system can be logically divided into the following three majo
 The PIV relying subsystem becomes relevant when the PIV Card is used to authenticate a cardholder who
 is seeking access to a physical or logical resource. Although this Standard does not provide technical
 specifications for this subsystem, various mechanisms for identification and authentication are defined in
-Section 6 to provide consistent and secure means for performing the authentication function preceding an
+[Section 6](authentication.md#s-6) to provide consistent and secure means for performing the authentication function preceding an
 access control decision.
+
+[Figure 3-1](#fig-3-1){:name="fig-3-1"}
 
 ![Figure 3-1]({{site.baseurl}}/{{page.collection}}/images/system.png){:style="width: 1047px;"}
 
-Figure 3-1 illustrates a notional model for the operational PIV system, identifying the various system
+[Figure 3-1](#fig-3-1) illustrates a notional model for the operational PIV system, identifying the various system
 components and the direction of data flow between these components. The boundary shown in the figure
 is not meant to preclude FIPS 201 requirements on systems outside these boundaries.
 
-### 3.1.1 PIV Front-End Subsystem
+### 3.1.1 PIV Front-End Subsystem {#s-3-1-1}
 
 The PIV Card will be issued to the applicant when all identity proofing, registration, and issuance
 processes have been completed. The PIV Card has a credit card-size form factor, with one or more
@@ -59,7 +61,7 @@ retrieve the appropriate information, located in the card's memory, to relay it 
 systems for granting or denying access.
 
 Card writers, which are very similar to the card readers, personalize and initialize the information stored
-on PIV Cards. Card writers MAY also be used to perform remote PIV Card updates (see Section 2.9.2).
+on PIV Cards. Card writers MAY also be used to perform remote PIV Card updates (see [Section 2.9.2](requirements.md#s-2-9-2)).
 The data to be stored on PIV Cards includes personal information, certificates, cryptographic keys, the
 PIN, and biometric data, and is discussed in further detail in subsequent sections.
 
@@ -68,7 +70,7 @@ required. The cardholder presenting the PIV Card must type in his or her PIN int
 For physical access, the PIN is typically entered using a PIN pad device; a keyboard is generally used for
 
 
-logical access. The input of a PIN provides a "something you know"[^somethingyou] authentication factor that
+logical access. The input of a PIN provides a "something you know"[^somethingyouknow] authentication factor that
 activates[^oncardbiometric] the PIV Card and enables access to other credentials resident on the card that provide
 additional factors of authentication. A cryptographic key and certificate, for example, provides an
 additional authentication factor of "something you have" (i.e., the card) through PKI-based
@@ -81,12 +83,12 @@ authentication ("something you are") in addition to entering the PIN ("something
 providing the card ("something you have") for cryptographic key-based authentication. This provides for
 a higher level of authentication assurance.
 
-[^somethingyou]: For more information on the terms "something you know," "something you have," and "something you are," see [SP 800-63].
+[^somethingyouknow]: For more information on the terms "something you know," "something you have," and "something you are," see [[SP 800-63]](../_Appendix/references.md#ref-SP-800-63).
 [^oncardbiometric]: Alternatively, on-card biometric comparison can be used to activate the PIV Card.
 
-### 3.1.2 PIV Card Issuance and Management Subsystem
+### 3.1.2 PIV Card Issuance and Management Subsystem {#s-3-1-2}
 
-The identity proofing and registration component in Figure 3-1 refers to the process of collecting, storing,
+The identity proofing and registration component in [Figure 3-1](#fig-3-1) refers to the process of collecting, storing,
 and maintaining all information and documentation that is required for verifying and assuring the
 applicant's identity. Various types of information are collected from the applicant at the time of
 registration.
@@ -105,7 +107,7 @@ management component is also responsible for the provisioning of publicly access
 services (such as PKI directories and certificate status responders) that provide information to the
 requesting application about the status of the PKI credentials.
 
-### 3.1.3 PIV Relying Subsystem
+### 3.1.3 PIV Relying Subsystem {#s-3-1-3}
 
 The PIV relying subsystem includes components responsible for determining a particular PIV
 cardholder's access to a physical or logical resource. A physical resource is the secured facility (e.g.,
@@ -120,23 +122,23 @@ an access control list (ACL) associated with a file on a computer system.
 The physical and logical access control system grants or denies access to a particular resource and
 includes an identification and authentication (I&A) component as well as an authorization component.
 
-The I&A component interacts with the PIV Card and uses mechanisms discussed in Section 6 to identify
+The I&A component interacts with the PIV Card and uses mechanisms discussed in [Section 6](authentication.md#s-6) to identify
 and authenticate cardholders. Once authenticated, the I&A component passes information to the
 authorization component which in turn interacts with the authorization data component to match the
 cardholder information to the information on record. Access control components typically interface with
 the card reader, the PIN input device, the biometric reader, supplementary databases, and any certificate
 status service.
 
-## 3.2 PIV Card Lifecycle Activities
+## 3.2 PIV Card Lifecycle Activities {#s-3-2}
 
 The PIV Card lifecycle consists of seven activities. The activities that take place during fabrication and
 pre-personalization of the card at the manufacturer are not considered a part of this lifecycle model.
-Figure 3-2 presents these PIV activities and depicts the PIV Card request as the initial activity and PIV
+[Figure 3-2](#fig-3-2) presents these PIV activities and depicts the PIV Card request as the initial activity and PIV
 Card termination as the end of life.
 
-![Figure 3-2]({{site.baseurl}}/{{page.collection}}/images/lifecycle.png){:style="width: 1047px;"}
+[Figure 3-2. PIV Card Lifecycle Activities](#fig-3-2){:name="fig-3-2"}
 
-Figure 3-2. PIV Card Lifecycle Activities
+![Figure 3-2]({{site.baseurl}}/{{page.collection}}/images/lifecycle.png){:style="width: 1047px;"}
 
 Descriptions of the seven card lifecycle activities are as follows:
 

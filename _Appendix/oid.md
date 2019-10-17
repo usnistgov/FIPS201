@@ -6,15 +6,15 @@ navTitle: OID
 permalink: /oid/
 ---
 
-# Appendix B— PIV Object Identifiers and Certificate Extension
+# Appendix B— PIV Object Identifiers and Certificate Extension {#s-appendix-b}
 
-This normative appendix provides additional details for the PIV objects identified in Section 4.
+This normative appendix provides additional details for the PIV objects identified in [Section 4](../_FIPS201/frontend.md#s-4).
 
-## B.1 PIV Object Identifiers
+## B.1 PIV Object Identifiers {#s-b-1}
 
-Table B-1 lists details for PIV object identifiers.
+[Table B-1](#table-b-1) lists details for PIV object identifiers.
 
-Table B-1. PIV Object Identifiers
+[Table B-1. PIV Object Identifiers](#table-b-1){:name="table-b-1"}
 
 |ID| Object Identifier|Description|
 |---|---|---|
@@ -30,11 +30,11 @@ Table B-1. PIV Object Identifiers
 |id-PIV-content-signing|2.16.840.1.101.3.6.7|This specifies that the public key MAY be used to verify signatures on CHUIDs and PIV biometrics.|
 |id-PIV-cardAuth|2.16.840.1.101.3.6.8|This specifies that the public key is used to authenticate the PIV Card rather than the PIV cardholder.|
 
-The OIDs for certificate policies are specified in [COMMON].
+The OIDs for certificate policies are specified in [[COMMON]](references.md#ref-COMMON).
 
 [^authnkey]: The authentication key map was deprecated in SP 800-73-2 and was removed from SP 800-73-3.
 
-## B.2 PIV Certificate Extension
+## B.2 PIV Certificate Extension {#s-b-2}
 
 The PIV NACI indicator (background investigation indicator) extension indicates whether the subject's
 background investigation was incomplete at the time of credential issuance. The PIV NACI indicator
