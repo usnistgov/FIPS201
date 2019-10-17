@@ -55,7 +55,7 @@ to various physical and logical resources.
 
 Card readers are located at access points for controlled resources where a cardholder may wish to gain
 access (physical and logical) by using the PIV Card. The reader communicates with the PIV Card to
-retrieve the appropriate information, located in the card’s memory, to relay it to the access control
+retrieve the appropriate information, located in the card's memory, to relay it to the access control
 systems for granting or denying access.
 
 Card writers, which are very similar to the card readers, personalize and initialize the information stored
@@ -68,27 +68,27 @@ required. The cardholder presenting the PIV Card must type in his or her PIN int
 For physical access, the PIN is typically entered using a PIN pad device; a keyboard is generally used for
 
 
-logical access. The input of a PIN provides a “something you know”[^somethingyou] authentication factor that
+logical access. The input of a PIN provides a "something you know"[^somethingyou] authentication factor that
 activates[^oncardbiometric] the PIV Card and enables access to other credentials resident on the card that provide
 additional factors of authentication. A cryptographic key and certificate, for example, provides an
-additional authentication factor of “something you have” (i.e., the card) through PKI-based
+additional authentication factor of "something you have" (i.e., the card) through PKI-based
 authentication.
 
 Biometric readers may be located at secure locations where a cardholder may want to gain access. These
 readers depend upon the use of biometric data of the cardholder, stored in the memory of the card, and its
 comparison with a real-time biometric sample. The use of biometrics provides an additional factor of
-authentication (“something you are”) in addition to entering the PIN (“something you know”) and
-providing the card (“something you have”) for cryptographic key-based authentication. This provides for
+authentication ("something you are") in addition to entering the PIN ("something you know") and
+providing the card ("something you have") for cryptographic key-based authentication. This provides for
 a higher level of authentication assurance.
 
-[^somethingyou]: For more information on the terms “something you know,” ”something you have,” and “something you are,” see [SP 800-63].
+[^somethingyou]: For more information on the terms "something you know," "something you have," and "something you are," see [SP 800-63].
 [^oncardbiometric]: Alternatively, on-card biometric comparison can be used to activate the PIV Card.
 
 ### 3.1.2 PIV Card Issuance and Management Subsystem
 
 The identity proofing and registration component in Figure 3-1 refers to the process of collecting, storing,
 and maintaining all information and documentation that is required for verifying and assuring the
-applicant’s identity. Various types of information are collected from the applicant at the time of
+applicant's identity. Various types of information are collected from the applicant at the time of
 registration.
 
 The card issuance and maintenance component deals with the personalization of the physical (visual
@@ -108,7 +108,7 @@ requesting application about the status of the PKI credentials.
 ### 3.1.3 PIV Relying Subsystem
 
 The PIV relying subsystem includes components responsible for determining a particular PIV
-cardholder’s access to a physical or logical resource. A physical resource is the secured facility (e.g.,
+cardholder's access to a physical or logical resource. A physical resource is the secured facility (e.g.,
 building, room, parking garage) that the cardholder wishes to access. The logical resource is typically a
 network or a location on the network (e.g., computer workstation, folder, file, database record, software
 program) to which the cardholder wants to gain access.

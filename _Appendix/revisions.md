@@ -22,7 +22,7 @@ The Revision History provides an overview of the changes to FIPS 201 since its i
 |||Added the option to collect and store iris biometric data on the PIV Card.|
 |||Added option to use electronic facial image for authentication in operator-attended environments.|
 |||Incorporated the content from Form I-9 that is relevant to FIPS 201.|
-|||Introduced the concept of a “chain-of-trust” optionally maintained by a PIV Card issuer.|
+|||Introduced the concept of a "chain-of-trust" optionally maintained by a PIV Card issuer.|
 |||Changed the maximum life of PIV Card from 5 years to 6 years.|
 |||Added requirements for issuing a PIV Card to an individual under a pseudonymous identity.|
 |||Added requirements for issuing a PIV Card to an individual within grace period.|

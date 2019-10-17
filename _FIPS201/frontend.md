@@ -19,7 +19,7 @@ References to the PIV Card in this section pertain to the physical characteristi
 front of the card apply to the side of the card that contains the electronic contacts; references to the back
 of the card apply to the opposite side from the front side.
 
-The PIV Card’s physical appearance and other characteristics should balance the need to have the PIV
+The PIV Card's physical appearance and other characteristics should balance the need to have the PIV
 Card commonly recognized as a Federal identification card while providing the flexibility to support
 individual department and agency requirements. Having a common look for PIV Cards is important in
 meeting the objectives of improved security and interoperability. In support of these objectives,
@@ -78,7 +78,7 @@ The following list describes the physical requirements for the PIV Card.
     exposure, and a laundry test. Cards SHALL NOT malfunction or delaminate after hand cleaning with a
     mild soap and water mixture.
 - The card SHALL be subjected to actual, concentrated, or artificial sunlight to appropriately reflect 2000
-    hours of southwestern United States’ sunlight exposure in accordance with [ISO10373], Section 5.12.
+    hours of southwestern United States' sunlight exposure in accordance with [ISO10373], Section 5.12.
     Concentrated sunlight exposure SHALL be performed in accordance with [G90-98] and accelerated
     exposure in accordance with [G155-00]. After exposure, the card SHALL be subjected to the
     [ISO10373] dynamic bending test and SHALL have no visible cracks or failures. Alternatively, the card
@@ -154,7 +154,7 @@ Identifier (i.e., pre-names or given names). The printed name SHALL match the na
 documents provided during identity proofing and registration to the extent possible. The full name SHALL
 be printed in the &lt;Primary Identifier&gt;, &lt;Secondary Identifier&gt; format. The entire full name SHOULD be
 printed on available lines of Zone 2F and either identifier could be wrapped. The wrapped identifier SHALL
-be indicated with “&gt;” character at the end of the line. The identifiers MAY be printed on separate lines if
+be indicated with "&gt;" character at the end of the line. The identifiers MAY be printed on separate lines if
 each fits on one line. Departments and agencies SHALL use the largest font size of 7 to 10 points that allows
 the full name to be printed. The font size 7 point allows space for 3 lines and SHALL only be used if the full
 name does not fit on two lines with font size 8 point. Table 4-1 provides examples of separate Primary
@@ -163,8 +163,8 @@ lines. Note that the truncation SHOULD only occur if the full name cannot be pri
 
 Names in the Primary Identifier and the first name in the Secondary Identifier SHALL NOT be abbreviated.
 Other names and conventional prefixes and suffixes, which SHALL be included in the Secondary Identifier,
-MAY be abbreviated. The special character “.” (period) SHALL indicate such abbreviations, as shown in
-Figure 4-2. Other uses of special symbols (e.g., “O’BRIEN”) are at the discretion of the issuer.
+MAY be abbreviated. The special character "." (period) SHALL indicate such abbreviations, as shown in
+Figure 4-2. Other uses of special symbols (e.g., "O'BRIEN") are at the discretion of the issuer.
 
 Table 4-1. Name Examples
 
@@ -183,8 +183,8 @@ Table 4-1. Name Examples
 
 
 *Zone 8F—Employee Affiliation*. An employee affiliation SHALL be printed on the card as depicted in Figure
-4- 1. Some examples of employee affiliation are “Employee,” “Contractor,” “Active Duty,” and
-“Civilian.”
+4- 1. Some examples of employee affiliation are "Employee," "Contractor," "Active Duty," and
+"Civilian."
 
 *Zone 10F—Agency, Department, or Organization*. The organizational affiliation SHALL be printed as
 depicted in Figure 4-1.
@@ -205,9 +205,9 @@ and 4-4. The following color scheme SHALL be used:
 Foreign National color-coding has precedence over Government Employee and Contractor color-coding.
 These colors SHALL be reserved and SHALL NOT be employed for other purposes. Also, these colors SHALL be
 printed in accordance to the color specifications provided in Section 4.1.5. Zone 15F MAY be a solid or
-patterned line at the department or agency’s discretion.
+patterned line at the department or agency's discretion.
 
-*Zone 18F—Affiliation Color Code*. The affiliation color code “B” for Blue, “W” for White, or “G” for
+*Zone 18F—Affiliation Color Code*. The affiliation color code "B" for Blue, "W" for White, or "G" for
 Green SHALL be printed in a white circle in Zone 15F as depicted in Figure 4-1. The diameter of the circle
 SHALL NOT be more than 5 mm. Note that the lettering SHALL correspond to the printed color in Zone 15F.
 
@@ -243,8 +243,8 @@ signature may limit the size of the optional two-dimensional bar code.
 *Zone 4F—Agency Specific Text Area*. If used, this area can be used for printing agency specific
 requirements, such as employee status, as shown in Figure 4-2.
 
-*Zone 5F—Rank*. If used, the cardholder’s rank SHALL be printed in the area as illustrated in Figure 4-2.
-Data format is at the department or agency’s discretion.
+*Zone 5F—Rank*. If used, the cardholder's rank SHALL be printed in the area as illustrated in Figure 4-2.
+Data format is at the department or agency's discretion.
 
 *Zone 6F—Portable Data File (PDF) Two-Dimensional Bar Code*. If used, the PDF bar code placement
 SHALL be as depicted in Figure 4-2 (i.e., left side of the card). If Zone 3F (a cardholder signature) is used,
@@ -252,7 +252,7 @@ the size of the PDF bar code may be affected. The card issuer should confirm tha
 conjunction with a PIV Card containing a cardholder signature will satisfy the anticipated PDF data
 storage requirements.
 
-*Zone 9F— Header*. If used, the text “United States Government” SHALL be placed as depicted in Figure
+*Zone 9F— Header*. If used, the text "United States Government" SHALL be placed as depicted in Figure
 4- 4. Departments and agencies may also choose to use this zone for other department or agency-specific
 information, such as identifying a Federal emergency responder role, as depicted in Figure 4-2.
 
@@ -261,10 +261,10 @@ SHALL be printed in the area depicted. It SHALL be printed using the guidelines 
 ensure information printed on the seal is legible and clearly visible.
 
 *Zone 12F—Footer*. The footer is the location for the Federal Emergency Response Official identification
-label. If used, a department or agency MAY print “Federal Emergency Response Official” as depicted in
+label. If used, a department or agency MAY print "Federal Emergency Response Official" as depicted in
 Figure 4-2, preferably in white lettering on a red background. Departments and agencies MAY also use
-Zone 9F to further identify the Federal emergency respondent’s official role. Some examples of official
-roles are “Law Enforcement,” “Fire Fighter,” and “Emergency Response Team (ERT).”
+Zone 9F to further identify the Federal emergency respondent's official role. Some examples of official
+roles are "Law Enforcement," "Fire Fighter," and "Emergency Response Team (ERT)."
 
 When Zone 15F indicates Foreign National affiliation and the department or agency does not need to
 highlight emergency response official status, Zone 12F MAY be used to denote the country or countries of
@@ -280,7 +280,7 @@ as depicted in Figure 4-3. This border MAY be used in conjunction with Zone 15F 
 and agencies to develop various employee categories. The photo border SHALL NOT obscure the photo. The
 border MAY be a solid or patterned line. For solid and patterned lines, red SHALL be reserved for emergency
 response officials, blue for foreign nationals, and green for contractors. All other colors MAY be used at
-the department or agency’s discretion.
+the department or agency's discretion.
 
 *Zone 17F—Agency Specific Data*. In cases in which other defined optional elements are not used, Zone
 17F MAY be used for other department or agency-specific information, as depicted in Figure 4-5.
@@ -306,7 +306,7 @@ integrity and printing process is not adversely impacted.
 *Zone 3B—Magnetic Stripe*. If used, the magnetic stripe SHALL be high coercivity and placed in accordance
 with [ISO7811], as illustrated in Figure 4-7.
 
-*Zone 4B—Return Address*. If used, the “return if lost” language SHALL be generally placed on the back of
+*Zone 4B—Return Address*. If used, the "return if lost" language SHALL be generally placed on the back of
 the card as depicted in Figure 4-7.
 
 *Zone 5B—Physical Characteristics of Cardholder*. If used, the cardholder physical characteristics (e.g.,
@@ -314,7 +314,7 @@ height, eye color, hair color) SHALL be printed in the general area illustrated 
 
 *Zone 6B—Additional Language for Emergency Response Officials*. Departments and agencies MAY
 choose to provide additional information to identify emergency response officials or to better identify the
-cardholder’s authorized access. If used, this additional text SHALL be in the general area depicted and SHALL NOT interfere with other printed text or machine-readable components. An example of a printed statement
+cardholder's authorized access. If used, this additional text SHALL be in the general area depicted and SHALL NOT interfere with other printed text or machine-readable components. An example of a printed statement
 is provided in Figure 4-7.
 
 *Zone 7B—Standard Section 499, Title 18 Language*. If used, standard Section 499, Title 18, language
@@ -378,7 +378,7 @@ Figure 4-8. Card Back—Optional Data Placement—Example 2
 
 Table 4-2 provides quantitative specifications for colors in three different color systems: sRGB
 Tristimulus, sRGB ([IEC61966], Color management – default RGB color space), and CMYK (Cyan,
-Magenta, Yellow and Key or ‘blacK’). Since the card body is white, the white color-coding is achieved
+Magenta, Yellow and Key or 'blacK'). Since the card body is white, the white color-coding is achieved
 by the absence of printing. Note that presence of the security feature, which MAY overlap colored or
 printed regions, may modify the perceived color. In the case of colored regions, the effect of overlap
 SHALL NOT prevent the recognition of the principal color by a person with normal vision (corrected or
@@ -555,7 +555,7 @@ The UUID SHALL be encoded as a uniform resource identifier (URI), as specified i
 [RFC4122]. The expiration date of the certificate must be no later than the expiration date of the PIV
 Card. The PIV Authentication certificate SHALL include a PIV NACI indicator (background
 investigation indicator) extension (see Appendix B.2); this non-critical extension indicates the status
-of the subject’s background investigation at the time of card issuance.[^backgroundstatus] Section 5 of this document
+of the subject's background investigation at the time of card issuance.[^backgroundstatus] Section 5 of this document
 specifies the certificate format and the key management infrastructure for the PIV Authentication key.
 
 + **Asymmetric Card Authentication Key.** The asymmetric Card Authentication key MAY be generated
