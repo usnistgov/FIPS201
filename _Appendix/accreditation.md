@@ -66,7 +66,7 @@ mandatory for issuing PCI accreditation using [[SP 800-79]](references.md#ref-SP
 
 Assurance of conformance of the PIV Card Application and PIV Middleware interfaces to this Standard
 and its associated technical specifications is needed in order to meet the security and interoperability
-goals of [[HSPD-12]](references.md#ref-HSPD-12)  To facilitate this, NIST has established the NIST Personal Identity Verification
+goals of [[HSPD-12]](references.md#ref-HSPD-12). To facilitate this, NIST has established the NIST Personal Identity Verification
 Program (NPIVP). Under this program NIST has developed test procedures in SP 800-85A, *PIV Card
 Application and Middleware Interface Test Guidelines (SP 800-73 compliance)*, and an associated toolkit
 for conformance testing of PIV Card Applications and PIV Middleware [[SP 800-85A]](references.md#ref-SP-800-85A). Commercial
