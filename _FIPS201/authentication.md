@@ -244,7 +244,7 @@ follows:
 
 The content of this section has been removed since the CHUID authentication mechanism is no longer allowed under FIPS-201. 
 
-The CHUID data element remains a required on-card data element, as the BIO(-A) and SYM-CAK authentication mechanisms use the CHUID data element as a source for the card’s expiration date. The CHUID data element also provides the content signing certificate and unique identifiers for PACS ACLs. 
+The CHUID data element remains a required on-card data element, as the BIO(-A) and SYM-CAK authentication mechanisms use the CHUID data element as a source for the card’s expiration date. The CHUID data element also provides the content signing certificate for some authentication mechanisms and unique identifiers for PACS ACLs. 
 
 ### 6.2.6 Authentication Using PIV Visual Credentials (VIS)
 
