@@ -19,7 +19,7 @@ issuers in SP 800-79 and published this document in July 2005. Subsequent lesson
 implementation experience (in credential management and PIV Card issuance) of various agencies
 together with the evolution of PCI organizations motivated NIST to develop a new accreditation
 methodology that is objective, efficient, and will result in consistent and repeatable accreditation
-decisions and published the substantial revision as SP 800-79-1 in June 2008 [[SP 800-79]](references.md#ref-SP-800-79)  The new PCI
+decisions and published the substantial revision as SP 800-79-1 in June 2008 [[SP 800-79]](references.md#ref-SP-800-79). The new PCI
 accreditation methodology is built on a foundation of four major accreditation topics, 13 accreditation
 focus areas, and a total of 79 control requirements distributed under the various accreditation focus areas.
 Associated with each control requirement is a set of assessment methods, the exercise of the latter will

@@ -613,7 +613,7 @@ key management keys.
     the PIV Card.
 
 [^backgroundstatus]: Other methods to indicate background investigative status will be explored in a future revision of this Standard.
-[^cardholderauthentication]: [[NISTIR7863]](../references/#ref-NISTIR7863){:.footnote-ref}  *Cardholder Authentication for the PIV Digital Signature Key*, addresses the appropriate use of PIN caching related to digital signatures.
+[^cardholderauthentication]: [[NISTIR7863]](../references/#ref-NISTIR7863){:.footnote-ref}, *Cardholder Authentication for the PIV Digital Signature Key*, addresses the appropriate use of PIN caching related to digital signatures.
 
 ### 4.2.3 PIV Biometric Data Specifications {#s-4-2-3}
 

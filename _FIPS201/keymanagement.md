@@ -24,7 +24,7 @@ Certificate Revocation List (CRL) Extensions Profile for the Shared Service Prov
 ## 5.2 PKI Certificate {#s-5-2}
 
 All certificates issued to support PIV Card authentication SHALL be issued under the *X.509 Certificate
-Policy for the U.S. Federal PKI Common Policy Framework* [[COMMON]](../_Appendix/references.md#ref-COMMON)  The requirements in this
+Policy for the U.S. Federal PKI Common Policy Framework* [[COMMON]](../_Appendix/references.md#ref-COMMON). The requirements in this
 certificate policy cover identity proofing and the management of CAs and registration authorities. CAs
 and registration authorities MAY be operated by departments and agencies, or MAY be outsourced to PKI
 service providers. For a list of PKI service providers that have been approved to operate under
@@ -96,7 +96,7 @@ authoritative OCSP responder.
 ### 5.5.1 Certificate and CRL Distribution {#s-5-5-1}
 
 This Standard requires distribution of CA certificates and CRLs using HTTP. Specific requirements are
-found in the Shared Service Provider Repository Service Requirements [[SSP REP]](../_Appendix/references.md#ref-SSP REP) 
+found in the Shared Service Provider Repository Service Requirements [[SSP REP]](../_Appendix/references.md#ref-SSP REP).
 
 
 Certificates that contain the FASC-N or UUID in the subject alternative name extension, such as PIV
