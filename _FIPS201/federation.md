@@ -8,9 +8,12 @@ permalink: /federation/
 
 # Federation Considerations for PIV
 
-This section outlines ways in which PIV credentials can be used for logical access via a federation protocol. Federation protocols allow a trusted identity provider (IdP) to proclaim a subscriber's identity to a relying party (RP) across a network in a trusted and verifiable fashion. The IdP creates an identity assertion based on a subscriber authenticating to the IdP. The assertion is then presented to the RP by the subscriber as proof that the subscriber has successfully logged in to the IdP. The federation protocol can also convey attributes about the authentication event as well as attributes about the subscriber. These attributes can be conveyed inside the assertion generated during the login event, or through a secondary API at the IdP for the RP to call.
+Federation protocols allow a trusted identity provider (IdP) to proclaim a subscriber's identity to a relying party (RP) across a network in a trusted and verifiable fashion. The process and requirements for federation systems are discussed in depth in [[SP 800-63C]](#ref-sp-800-63c). 
 
 ## Why a PIV Credential is Not Federation
+
+
+
 
 While it may seem like accepting the PIV certificates of another organization is a type of federation, this fails the basic definitions of using a federation protocol. Instead, the certificate of the PIV card represents a _credential_, which is the combination of an authenticator with some subscriber attributes. This certificate, and its associated keys, are used many times at different RP's without modification. However, a federation protocol relies on an _assertion_, which is created on a per-login basis based on the subscriber's log in at an IdP. This assertion is created in reaction to the login request, and it is targeted specifically to the RP. 
 

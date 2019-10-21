@@ -122,10 +122,10 @@ an access control list (ACL) associated with a file on a computer system.
 The physical and logical access control system grants or denies access to a particular resource and
 includes an identification and authentication (I&A) component as well as an authorization component.
 
-The I&A component interacts with the PIV Card and uses mechanisms discussed in [Section 6](authentication.md#s-6) to identify
+The I&A component interacts with the PIV Card and uses mechanisms discussed in [Section 6](authentication.md#s-6) or a federation protocol as discussed in [Section 7](federation.md#s-7) to identify
 and authenticate cardholders. Once authenticated, the I&A component passes information to the
 authorization component which in turn interacts with the authorization data component to match the
-cardholder information to the information on record. Access control components typically interface with
+cardholder information to the information on record. Access control components used either directly at the RP or at an IdP typically interface with
 the card reader, the PIN input device, the biometric reader, supplementary databases, and any certificate
 status service.
 
