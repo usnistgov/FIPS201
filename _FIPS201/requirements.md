@@ -286,7 +286,7 @@ Either the station (e.g., through anti-tamper features), or a human attendant ov
 
 * Ensuring that only a single individual (applicant) interacts with the station during any identity proofing session;
 * Ensuring that the physical integrity of the station and its sensors is maintained at all times;
-* Verifying that the applicant is not using any devices to spoof biometric sensors (finger covers, for example);
+* Verifying that the applicant is not attempting to spoof biometric sensors (finger covers, for example);
 * Reporting any problems with the station to the CSP.
 
 Supervised remote identity proofing SHALL meet the requirements of [[SP 800-63A]](../_Appendix/references.md#ref-SP-800-63A) Section 5.3.3.2. 
