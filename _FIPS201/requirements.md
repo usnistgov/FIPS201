@@ -282,15 +282,23 @@ Departments and agencies MAY use a supervised remote identity proofing process i
 
 Supervised remote identity proofing takes advantage of improvements in sensor technology (cameras and biometric sensors) and communications bandwidth to closely duplicate the security of in-person identity proofing. This is done through the use of specialized equipment to support an enrollment station that is under the control of either the issuer or a third party that is trusted by the issuer.
 
-Either the station (e.g., through anti-tamper features), or a human attendant overseeing the station, SHALL provide the following forms of protection:
+Either the station (e.g., through anti-tamper features) or staff at the station location SHALL provide the following forms of protection:
 
+* Maintaining the station in a controlled access environment;
 * Ensuring that only a single individual (applicant) interacts with the station during any identity proofing session;
 * Ensuring that the physical integrity of the station and its sensors is maintained at all times;
-* Verifying that the applicant is not attempting to spoof biometric sensors (finger covers, for example);
-* Reporting any problems with the station to the CSP.
+* Reporting any problems with the station to the issuer.
 
-Supervised remote identity proofing SHALL meet the requirements of [[SP 800-63A]](../_Appendix/references.md#ref-SP-800-63A) Section 5.3.3.2. 
+Supervised remote identity proofing SHALL meet the following requirements:
 
+* The issuer SHALL have a live operator participate remotely with the applicant for the entirety of the identity proofing session.
+* The issuer SHALL require operators to have undergone a training program to detect potential fraud and to properly perform a supervised remote proofing session.
+* The operator SHALL monitor the entire identity proofing session, from which the applicant SHALL NOT depart — for example, by a continuous high-resolution video transmission of the applicant.
+* The operator SHALL require all actions taken by the applicant during the identity proofing session to be clearly visible to the operator.
+* The operator SHALL require that all validation of evidence (e.g., via chip or wireless technologies or through inspection of document security features) be performed using integrated scanners and sensors.
+* The issuer SHALL ensure that all communications occur over a mutually authenticated protected channel.
+
+If suitable collection of the applicant's biometric information or adequate validation of the identity evidence cannot be obtained, suprtvised remote identity proofing SHALL NOT be used and the applicant SHALL be required to travel to a location at which in-person identity proofing is available.
 
 ## 2.8 PIV Card Issuance Requirements {#s-2-8}
 
