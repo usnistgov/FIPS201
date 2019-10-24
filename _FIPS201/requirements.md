@@ -280,7 +280,7 @@ may vary depending on the country.
 
 Departments and agencies MAY use a supervised remote identity proofing process in conjunction with the issuance of PIV Cards. This process involves the use of an issuer-controlled station at a remote location that is connected to a trained operator at a central location. The goal of this arrangement is to permit identity proofing of individuals in remote locations where it is not practical for them to travel to the agency for in-person identity proofing.
 
-Supervised remote identity proofing takes advantage of improvements in sensor technology (cameras and biometric sensors) and communications bandwidth to closely duplicate the security of in-person identity proofing, which has been the requirement for PIV issuance in the past. This is done through the use of specialized equipment to support an enrollment station that is under the control of either the CSP or a third party that is trusted by the CSP.
+Supervised remote identity proofing takes advantage of improvements in sensor technology (cameras and biometric sensors) and communications bandwidth to closely duplicate the security of in-person identity proofing. This is done through the use of specialized equipment to support an enrollment station that is under the control of either the issuer or a third party that is trusted by the issuer.
 
 Either the station (e.g., through anti-tamper features), or a human attendant overseeing the station, SHALL provide the following forms of protection:
 
