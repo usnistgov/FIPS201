@@ -214,7 +214,7 @@ record, the process SHALL ensure 1) the initiation of a Tier 1 or higher federal
 the NAC results are not received within 5 days of the NAC initiation, the FBI NCHC (fingerprint check)
 portion of the NAC SHALL be complete before PIV Card issuance.
 
-+ The applicant SHALL appear in-person at least once before the issuance of a PIV Card, either on the premises of the issuer, or at a supervised remote identity proofing station as described in Section [2.7.1](#s-2-7-1).
++ The applicant SHALL appear in-person at least once before the issuance of a PIV Card, either on the premises of the issuer, or at a supervised remote identity proofing station as described in [Section 2.7.1](#s-2-7-1).
 
 + During identity proofing, the applicant SHALL be required to provide two forms of identity source
 documents in original form.[^documents] The identity source documents SHALL be bound to that applicant and SHALL
