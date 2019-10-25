@@ -138,7 +138,7 @@ are the same as for the unattended biometric (BIO) authentication mechanism.
 
 ### 6.2.2 Authentication Using On-Card Biometric Comparison (OCC-AUTH) {#s-6-2-2}
 
-The PIV Card Application MAY host the optional on-card biometric comparison algorithm. In this case,
+The PIV Card Application MAY host an optional on-card biometric comparison algorithm. In this case,
 on-card biometric comparison data is stored on the card, which cannot be read, but could be used for
 identity verification. A fingerprint template is supplied to the card to perform cardholder-to-card (CTC)
 authentication and the card responds with an indication of the success of the on-card biometric
