@@ -298,7 +298,7 @@ Supervised remote identity proofing SHALL meet the following requirements:
 * The operator SHALL require that all validation of evidence (e.g., via chip or wireless technologies or through inspection of document security features) be performed using integrated scanners and sensors.
 * The issuer SHALL ensure that all communications occur over a mutually authenticated protected channel.
 
-If collected biometric information does not meet the quality criteria of [SP 88-76] or if validation of the identity evidence is inadequate, supervised remote identity proofing SHALL NOT be used and the identity proofing and enrollment shall be  performed in-person at the issuer’s facility  
+If collected biometric information does not meet the quality criteria of [SP 800-76] or if validation of the identity evidence is inadequate, supervised remote identity proofing SHALL NOT be used and the identity proofing and enrollment shall be performed in person at the issuer’s facility.
 
 ## 2.8 PIV Card Issuance Requirements {#s-2-8}
 
