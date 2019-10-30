@@ -18,7 +18,9 @@ use the identity credentials on the PIV Card. In the context of the PIV Card App
 authentication is defined as the process of establishing confidence in the identity of the cardholder
 presenting a PIV Card. The authenticated identity can then be used to determine the permissions or
 authorizations granted to that identity for access to various physical and logical resources.
-The authenticated identity can also be used to create an identity assertion as part of a federation
+
+The authentication methods in this section describe how to authenticate the PIV directly. The 
+authenticated identity can also be used to create an identity assertion as part of a federation
 protocol, as described in [Section 7](#s-7).
 
 ## 6.1 PIV Assurance Levels {#s-6-1}
