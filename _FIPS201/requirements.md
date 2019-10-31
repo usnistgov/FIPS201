@@ -282,7 +282,7 @@ Departments and agencies MAY use a supervised remote identity proofing process i
 
 Supervised remote identity proofing takes advantage of improvements in sensor technology (cameras and biometric sensors) and communications bandwidth to closely duplicate the security of in-person identity proofing. This is done through the use of specialized equipment to support an enrollment station that is under the control of either the issuer or a third party that is trusted by the issuer.
 
-Either the station (e.g., through anti-tamper features) or staff at the station location SHALL provide the following forms of protection:
+The following forms of protection SHALL be provided by either inherent capabilities of the station or staff at the station location:
 
 * Maintaining the station in a controlled access environment;
 * Ensuring that only a single individual (applicant) interacts with the station during any identity proofing session;
