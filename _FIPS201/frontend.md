@@ -304,7 +304,7 @@ integrity and printing process is not adversely impacted.
 #### 4.1.4.4 Optional Items on the Back of the PIV Card {#s-4-1-4-4}
 
 *Zone 3B—Magnetic Stripe*. If used, the magnetic stripe SHALL be high coercivity and placed in accordance
-with [[ISO7811]](../_Appendix/references.md#ref-ISO7811), as illustrated in [Figure 4-7](#fig-4-7).
+with [[ISO7811]](../_Appendix/references.md#ref-ISO7811), as illustrated in [Figure 4-7](#fig-4-7). Magnetic stripes are deprecated in this version of the Standard. In a future version of this Standard, magnetic stripes may be removed and the space may be allocated for Agency-specific data to be printed.
 
 *Zone 4B—Return Address*. If used, the "return if lost" language SHALL be generally placed on the back of
 the card as depicted in [Figure 4-7](#fig-4-7).
