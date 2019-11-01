@@ -284,13 +284,13 @@ Supervised remote identity proofing takes advantage of improvements in sensor te
 
 The following forms of protection SHALL be provided by either inherent capabilities of the station or staff at the station location:
 
-* Maintaining the station in a controlled access environment;
 * Ensuring that only a single individual (applicant) interacts with the station during any identity proofing session;
 * Ensuring that the physical integrity of the station and its sensors is maintained at all times;
 * Reporting any problems with the station to the issuer.
 
 Supervised remote identity proofing SHALL meet the following requirements:
 
+* The station SHALL be maintained in a controlled access environment, and SHALL be monitored by staff at the station location while it is being used.
 * The issuer SHALL have a live operator participate remotely with the applicant for the entirety of the identity proofing session.
 * The issuer SHALL require operators to have undergone a training program to detect potential fraud and to properly perform a supervised remote proofing session.
 * The operator SHALL monitor the entire identity proofing session, from which the applicant SHALL NOT depart — for example, by a continuous high-resolution video transmission of the applicant.
