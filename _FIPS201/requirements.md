@@ -293,7 +293,7 @@ Supervised remote identity proofing SHALL meet the following requirements:
 * The station SHALL be maintained in a controlled access environment, and SHALL be monitored by staff at the station location while it is being used.
 * The issuer SHALL have a live operator participate remotely with the applicant for the entirety of the identity proofing session.
 * The issuer SHALL require operators to have undergone a training program to detect potential fraud and to properly perform a supervised remote proofing session.
-* The operator SHALL monitor the entire identity proofing session, from which the applicant SHALL NOT depart — for example, by a continuous high-resolution video transmission of the applicant.
+* The operator SHALL monitor the entire identity proofing session, from which the applicant SHALL NOT depart, by at least one continuous high-resolution video transmission of the applicant.
 * The operator SHALL require all actions taken by the applicant during the identity proofing session to be clearly visible to the operator.
 * The operator SHALL require that all validation of evidence (e.g., via chip or wireless technologies or through inspection of document security features) be performed using integrated scanners and sensors.
 * The issuer SHALL ensure that all communications occur over a mutually authenticated protected channel.
