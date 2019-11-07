@@ -123,6 +123,9 @@ at [http://www.ietf.org/rfc/rfc5652.txt.](http://www.ietf.org/rfc/rfc5652.txt)
 [[RFC8485]](#ref-RFC8485){:name="ref-RFC8485"} RFC 8485, *Vectors of Trust*, IETF, October 2018. Available at
 [http://www.ietf.org/rfc/rfc8485.txt](http://www.ietf.org/rfc8485.txt).
 
+[[SAML-AC]](#ref-SAML-AC){:name="ref-SAML-AC"} Authentication Context for the OASISSecurity Assertion Markup Language(SAML) V2.0, OASIS, March 2005.
+Available at [https://docs.oasis-open.org/security/saml/v2.0/saml-authn-context-2.0-os.pdf](https://docs.oasis-open.org/security/saml/v2.0/saml-authn-context-2.0-os.pdf).
+
 [[SP 800-37]](#ref-SP-800-37){:name="ref-SP-800-37"} NIST Special Publication 800-37 Revision 1, *Guide for Applying the Risk
 Management Framework to Federal Information Systems: A Security Life Cycle Approach*, NIST,
 February 2010 or as amended.
