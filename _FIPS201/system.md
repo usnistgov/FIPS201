@@ -125,7 +125,7 @@ includes an identification and authentication (I&A) component as well as an auth
 The I&A component identifies and authenticates cardholders either by interacting with the PIV Card and uses mechanisms discussed in [Section 6](authentication.md#s-6) or 
 by communicating with an IdP through a federation protocol as discussed in [Section 7](federation.md#s-7). Once authenticated, the I&A component passes information to the
 authorization component which in turn interacts with the authorization data component to match the
-cardholder information to the information on record. Access control components used either directly at the RP or at an IdP typically interface with
+cardholder information to the information on record. Either the RP or the IdP interface with
 the card reader, the PIN input device, the biometric reader, supplementary databases, and any certificate
 status service.
 
