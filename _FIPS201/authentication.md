@@ -19,6 +19,10 @@ authentication is defined as the process of establishing confidence in the ident
 presenting a PIV Card. The authenticated identity can then be used to determine the permissions or
 authorizations granted to that identity for access to various physical and logical resources.
 
+The authentication mechanisms in this section describe how to authenticate using the PIV directly. The 
+authenticated identity can also be used to create an identity assertion as part of a federation
+protocol, as described in [Section 7](#s-7).
+
 ## 6.1 PIV Assurance Levels {#s-6-1}
 
 This Standard defines four levels of assurance for identity authentication supported by the PIV Card
