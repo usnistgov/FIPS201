@@ -214,7 +214,7 @@ record, the process SHALL ensure 1) the initiation of a Tier 1 or higher federal
 the NAC results are not received within 5 days of the NAC initiation, the FBI NCHC (fingerprint check)
 portion of the NAC SHALL be complete before PIV Card issuance.
 
-+ The applicant SHALL appear in-person at least once before the issuance of a PIV Card.
++ The applicant SHALL appear in-person at least once before the issuance of a PIV Card, either on the premises of the issuer, or at a supervised remote identity proofing station as described in [Section 2.7.1](#s-2-7-1).
 
 + During identity proofing, the applicant SHALL be required to provide two forms of identity source
 documents in original form.[^documents] The identity source documents SHALL be bound to that applicant and SHALL
@@ -275,6 +275,30 @@ may vary depending on the country.
 [^documents]: Departments and agencies may choose to accept only a subset of the identity source documents listed in this section. For example, in cases where identity proofing for PIV Card issuance is performed prior to verification of employment authorization, departments and agencies MAY choose to require the applicant to provide identity source documents that satisfy the requirements of Form I-9, *Employment Eligibility Verification*, in addition to the requirements specified in this section. It is recommended that departments and agencies perform electronic verification of identity source documents, where possible.
 
 [^second]: For example, if the first source document is a foreign passport (e.g., Italy), the second source document SHOULD NOT be another foreign passport (e.g., France).
+
+### 2.7.1 Supervised Remote Identity Proofing {#s-2-7-1}
+
+Departments and agencies MAY use a supervised remote identity proofing process in conjunction with the issuance of PIV Cards. This process involves the use of an issuer-controlled station at a remote location that is connected to a trained operator at a central location. The goal of this arrangement is to permit identity proofing of individuals in remote locations where it is not practical for them to travel to the agency for in-person identity proofing.
+
+Supervised remote identity proofing takes advantage of improvements in sensor technology (cameras and biometric sensors) and communications bandwidth to closely duplicate the security of in-person identity proofing. This is done through the use of specialized equipment to support an enrollment station that is under the control of either the issuer or a third party that is trusted by the issuer.
+
+The following forms of protection SHALL be provided by either inherent capabilities of the station or staff at the station location:
+
+* Ensuring that only a single individual (applicant) interacts with the station during any identity proofing session;
+* Ensuring that the physical integrity of the station and its sensors is maintained at all times;
+* Reporting any problems with the station to the issuer.
+
+Supervised remote identity proofing SHALL meet the following requirements:
+
+* The station SHALL be maintained in a controlled access environment, and SHALL be monitored by staff at the station location while it is being used.
+* The issuer SHALL have a live operator participate remotely with the applicant for the entirety of the identity proofing session.
+* The issuer SHALL require operators to have undergone a training program to detect potential fraud and to properly perform a supervised remote proofing session.
+* The operator SHALL monitor the entire identity proofing session, from which the applicant SHALL NOT depart, by at least one continuous high-resolution video transmission of the applicant.
+* The operator SHALL require all actions taken by the applicant during the identity proofing session to be clearly visible to the operator.
+* The operator SHALL require that all validation of evidence (e.g., via chip or wireless technologies or through inspection of document security features) be performed using integrated scanners and sensors.
+* The issuer SHALL ensure that all communications occur over a mutually authenticated protected channel.
+
+If biometric information cannot be collected as per the criteria defined in [[SP 800-76]](../_Appendix/references.md#ref-SP-800-76) or if validation of the identity evidence is inadequate, supervised remote identity proofing SHALL NOT be used and the identity proofing and enrollment shall be performed in person at the issuer’s facility.
 
 ## 2.8 PIV Card Issuance Requirements {#s-2-8}
 
