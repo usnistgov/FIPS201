@@ -9,7 +9,7 @@ permalink: /references/
 # Appendix D— References {#s-appendix-d}
 
 [[ANSI322]](#ref-ANSI322){:name="ref-ANSI322"} ANSI INCITS 322 Information Technology, *Card Durability Test Methods*, ANSI,
-2002.
+2008.
 
 [[CBEFF]](#ref-CBEFF){:name="ref-CBEFF"} NISTIR 6529-A, *Common Biometric Exchange Formats Framework (CBEFF)*, NIST,
 April 2004.
@@ -29,44 +29,44 @@ Available at [http://dx.doi.org/10.6028/NIST.FIPS.180-4](http://dx.doi.org/10.60
 [[FISMA]](#ref-FISMA){:name="ref-FISMA"} *Federal Information Security Management Act of 2002*. Available at
 [http://csrc.nist.gov/drivers/documents/FISMA-final.pdf.](http://csrc.nist.gov/drivers/documents/FISMA-final.pdf)
 
-[[G155-00]](#ref-G155-00){:name="ref-G155-00"} ASTM G155-00, *Standard Practice for Operating Xenon Arc Light Apparatus for
-Exposure of Non-metallic Materials*, Vol. 14.04, ASTM, July 2000.
+[[G155-2013]](#ref-G155-2013){:name="ref-G155-2013"} ASTM G155-2013, *Standard Practice for Operating Xenon Arc Light Apparatus for
+Exposure of Non-metallic Materials*, Vol. 14.04, ASTM, 2013.
 
 [[G90-98]](#ref-G90-98){:name="ref-G90-98"} ASTM G90-98, *Standard Practice for Performing Accelerated Outdoor Weathering of
-Non-metallic Materials Using Concentrated Natural Sunlight*, Vol. 14.04, ASTM, 2003.
+Non-metallic Materials Using Concentrated Natural Sunlight*, Vol. 14.04, ASTM, 2017.
 
 [[HSPD-12]](#ref-HSPD-12){:name="ref-HSPD-12"} HSPD-12, *Policy for a Common Identification Standard for Federal Employees and
 Contractors*, August 27, 2004.
 
 [[IEC61966]](#ref-IEC61966){:name="ref-IEC61966"} IEC 61966-2-1:1999, *Multimedia systems and equipment - Colour measurement and
-management - Part 2-1: Colour management - Default RGB colour space – sRGB*, October 1999.
+management - Part 2-1: Colour management - Default RGB colour space – sRGB*, October 2003+COR1 2014.
 
 [[INCITS/M1-040211]](#ref-INCITS/M1-040211){:name="ref-INCITS/M1-040211"} ANSI/INCITS M1-040211, *Biometric Profile—Interoperability and Data
 Interchange—Biometrics-Based Verification and Identification of Transportation Workers*,
-ANSI, April 2004.
+ANSI, 2008.
 
 [[ISO10373]](#ref-ISO10373){:name="ref-ISO10373"} ISO/IEC 10373, *Identification Cards—Test Methods*. Part 1—*Standard for General
-Characteristic Test of Identification Cards*, ISO, 1998. Part 3—*Standard for Integrated Circuit
-Cards with Contacts and Related Interface Devices*, ISO, 2001. Part 6—*Standard for Proximity
-Card Support in Identification Cards*, ISO, 2001.
+Characteristic Test of Identification Cards*, ISO, 2006+AMD1 2012. Part 3—*Standard for Integrated Circuit
+Cards with Contacts and Related Interface Devices*, ISO, 2018. Part 6—*Standard for Proximity
+Card Support in Identification Cards*, ISO, 2016.
 
-[[ISO14443]](#ref-ISO14443){:name="ref-ISO14443"} ISO/IEC 14443-1:2000, *Identification Cards—Contactless Integrated Circuit(s)
-Cards—Proximity Cards*, ISO, 2000.
+[[ISO14443]](#ref-ISO14443){:name="ref-ISO14443"} ISO/IEC 14443-1, *Identification Cards—Contactless Integrated Circuit(s)
+Cards—Proximity Cards*, ISO, 2018.
 
-[[ISO3166]](#ref-ISO3166){:name="ref-ISO3166"} ISO 3166-1:2006. *Codes for the representation of names of countries and their
+[[ISO3166]](#ref-ISO3166){:name="ref-ISO3166"} ISO 3166-1:2013. *Codes for the representation of names of countries and their
 subdivisions—Part 1: Country codes*.
 
 [[ISO7810]](#ref-ISO7810){:name="ref-ISO7810"} ISO/IEC 7810:2003, *Identification Cards—Physical Characteristics*, ISO, 2003.
 
 [[ISO7811]](#ref-ISO7811){:name="ref-ISO7811"} ISO/IEC 7811, *Identification cards -- Recording technique*. Part 6—*Magnetic
-stripe -- High coercivity*, ISO, 2008. Part 7—*Magnetic stripe -- High coercivity, high density*,
-ISO, 2004.
+stripe -- High coercivity*, ISO, 2018. Part 7—*Magnetic stripe -- High coercivity, high density*,
+ISO, 2018.
 
 [[ISO7816]](#ref-ISO7816){:name="ref-ISO7816"} ISO/IEC 7816, *Identification Cards—Integrated Circuits with Contacts*, Parts 1-6,
-ISO.
+ISO. 1-2011, 2-2007, 3-2006, 4-2013, 5-2004, 6-2016
 
 [[ISO24727]](#ref-ISO24727){:name="ref-ISO24727"} ISO/IEC 24727, *Identification cards -- Integrated circuit card programming
-interfaces*. Part 1—*Architecture*, ISO, 2007. Part 2—*Generic card interface*, ISO, 2008. Part
+interfaces*. Part 1—*Architecture*, ISO, 2014. Part 2—*Generic card interface*, ISO, 2008. Part
 3—*Application interface*, ISO 2008. Part 4—*Application programming interface (API)
 administration*, ISO, 2008. Part 5—*Testing procedures*, ISO, 2011. Part 6—*Registration
 authority procedures for the authentication protocols for interoperability*, ISO, 2010.

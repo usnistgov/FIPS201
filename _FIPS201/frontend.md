@@ -80,7 +80,7 @@ The following list describes the physical requirements for the PIV Card.
 - The card SHALL be subjected to actual, concentrated, or artificial sunlight to appropriately reflect 2000
     hours of southwestern United States' sunlight exposure in accordance with [[ISO10373]](../_Appendix/references.md#ref-ISO10373), Section 5.12.
     Concentrated sunlight exposure SHALL be performed in accordance with [[G90-98]](../_Appendix/references.md#ref-G90-98) and accelerated
-    exposure in accordance with [[G155-00]](../_Appendix/references.md#ref-G155-00). After exposure, the card SHALL be subjected to the
+    exposure in accordance with [[G155-2013]](../_Appendix/references.md#ref-G155-2013). After exposure, the card SHALL be subjected to the
     [[ISO10373]](../_Appendix/references.md#ref-ISO10373) dynamic bending test and SHALL have no visible cracks or failures. Alternatively, the card
     may be subjected to the [[ANSI322]](../_Appendix/references.md#ref-ANSI322) tests for ultraviolet and daylight fading resistance and subjected
     to the same [[ISO10373]](../_Appendix/references.md#ref-ISO10373) dynamic bending test.
