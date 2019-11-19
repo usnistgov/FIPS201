@@ -16,7 +16,7 @@ April 2004.
 
 [[COMMON]](#ref-COMMON){:name="ref-COMMON"} *X.509 Certificate Policy for the U.S. Federal PKI Common Policy Framework*,
 Version 1.21, December 18, 2012, or as amended. Available at
-[http://idmanagement.gov/documents/common-policy-framework-certificate-policy.](http://idmanagement.gov/documents/common-policy-framework-certificate-policy)
+[http://idmanagement.gov/documents/common-policy-framework-certificate-policy](http://idmanagement.gov/documents/common-policy-framework-certificate-policy).
 
 [[E-Gov]](#ref-E-Gov){:name="ref-E-Gov"} *E-Government Act of 2002*, U.S. Public Law 107-347, 2002.
 
@@ -27,7 +27,7 @@ MArch 22, 2019, or as amended. Available at [https://doi.org/10.6028/NIST.FIPS.1
 Available at [http://dx.doi.org/10.6028/NIST.FIPS.180-4](http://dx.doi.org/10.6028/NIST.FIPS.180-4).
 
 [[FISMA]](#ref-FISMA){:name="ref-FISMA"} *Federal Information Security Management Act of 2002*. Available at
-[http://csrc.nist.gov/drivers/documents/FISMA-final.pdf.](http://csrc.nist.gov/drivers/documents/FISMA-final.pdf)
+[http://csrc.nist.gov/drivers/documents/FISMA-final.pdf](http://csrc.nist.gov/drivers/documents/FISMA-final.pdf).
 
 [[G155-2013]](#ref-G155-2013){:name="ref-G155-2013"} ASTM G155-2013, *Standard Practice for Operating Xenon Arc Light Apparatus for
 Exposure of Non-metallic Materials*, Vol. 14.04, ASTM, 2013.
@@ -95,17 +95,17 @@ Acceptable by Federal Agencies for Official Purposes; Final Rule*, Department of
 
 [[RFC2560]](#ref-RFC2560){:name="ref-RFC2560"} RFC 2560, *X.509 Internet Public Key Infrastructure Online Certificate Status
 Protocol - OCSP*, Internet Engineering Task Force (IETF), June 1999. Available at
-[http://www.ietf.org/rfc/rfc2560.txt.](http://www.ietf.org/rfc/rfc2560.txt)
+[http://www.ietf.org/rfc/rfc2560.txt](http://www.ietf.org/rfc/rfc2560.txt).
 
 
 [[RFC4122]](#ref-RFC4122){:name="ref-RFC4122"} RFC 4122, *A Universally Unique IDentifier (UUID) URN Namespace*, Internet
-Engineering Task Force (IETF), July 2005. Available at [http://www.ietf.org/rfc/rfc4122.txt.](http://www.ietf.org/rfc/rfc4122.txt)
+Engineering Task Force (IETF), July 2005. Available at [http://www.ietf.org/rfc/rfc4122.txt](http://www.ietf.org/rfc/rfc4122.txt).
 
 [[RFC5280]](#ref-RFC5280){:name="ref-RFC5280"} RFC 5280, *Internet X.509 Public Key Infrastructure Certificate and Certificate
-Revocation List (CRL) Profile*, IETF, May 2008. Available at [http://www.ietf.org/rfc/rfc5280.txt.](http://www.ietf.org/rfc/rfc5280.txt)
+Revocation List (CRL) Profile*, IETF, May 2008. Available at [http://www.ietf.org/rfc/rfc5280.txt](http://www.ietf.org/rfc/rfc5280.txt).
 
 [[RFC5652]](#ref-RFC5652){:name="ref-RFC5652"} RFC 5652, *Cryptographic Message Syntax (CMS)*, IETF, September 2009. Available
-at [http://www.ietf.org/rfc/rfc5652.txt.](http://www.ietf.org/rfc/rfc5652.txt)
+at [http://www.ietf.org/rfc/rfc5652.txt](http://www.ietf.org/rfc/rfc5652.txt).
 
 [[RFC8485]](#ref-RFC8485){:name="ref-RFC8485"} RFC 8485, *Vectors of Trust*, IETF, October 2018. Available at
 [http://www.ietf.org/rfc/rfc8485.txt](http://www.ietf.org/rfc8485.txt).
