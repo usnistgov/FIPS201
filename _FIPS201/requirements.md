@@ -62,7 +62,7 @@ person not entitled to the credential.
 Federal departments and agencies SHALL use the credentialing guidance issued by the Director of the Office
 of Personnel Management (OPM)[^OPM] and OMB[^OMB].
 
-[^OPM]: For example, [[SPRINGER MEMO]](../references/#ref-SPRINGER MEMO){:.footnote-ref} at [http://www.opm.gov/investigate/resources/final_credentialing_standards.pdf](http://www.opm.gov/investigate/resources/final_credentialing_standards.pdf) and the Federal Investigative Standards 5.
+[^OPM]: For example, [[FCS]](../references/#ref-FCS){:.footnote-ref} at [http://www.opm.gov/investigate/resources/final_credentialing_standards.pdf](http://www.opm.gov/investigate/resources/final_credentialing_standards.pdf) and the Federal Investigative Standards 5.
 
 [^OMB]: For example, [[OMB0524]](../references/#ref-OMB0524){:.footnote-ref} at [http://www.whitehouse.gov/sites/default/files/omb/memoranda/fy2005/m05-24.pdf](http://www.whitehouse.gov/sites/default/files/omb/memoranda/fy2005/m05-24.pdf).
 
