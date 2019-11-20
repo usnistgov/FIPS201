@@ -74,7 +74,7 @@ products under these two categories are tested by the set of accredited test lab
 the National Voluntary Laboratory Accreditation Program (NVLAP) program, using the NIST supplied
 test procedures and toolkit. The outcomes of the test results are validated by NIST, which then issues
 validation certificates. Information about NPIVP is available at
-[http://csrc.nist.gov/groups/SNS/piv/npivp.](http://csrc.nist.gov/groups/SNS/piv/npivp.)
+[http://csrc.nist.gov/groups/SNS/piv/npivp](http://csrc.nist.gov/groups/SNS/piv/npivp).
 
 ## A.4 Cryptographic Testing and Validation {#s-a-4}
 
@@ -87,7 +87,7 @@ submissions are validated and a validation certificate for each vendor module is
 Cryptographic Module Validation Program (CMVP), a joint program run by NIST and the
 Communications Security Establishment (CSE) of the Government of Canada. The details of the CMVP
 and NVLAP programs and the list of testing laboratories can be found at the CMVP Web site at
-[http://csrc.nist.gov/groups/STM/cmvp/index.html.](http://csrc.nist.gov/groups/STM/cmvp/index.html.)
+[http://csrc.nist.gov/groups/STM/cmvp/index.html](http://csrc.nist.gov/groups/STM/cmvp/index.html).
 
 ## A.5 FIPS 201 Evaluation Program {#s-a-5}
 

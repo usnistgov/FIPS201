@@ -15,8 +15,8 @@ permalink: /references/
 April 2004.
 
 [[COMMON]](#ref-COMMON){:name="ref-COMMON"} *X.509 Certificate Policy for the U.S. Federal PKI Common Policy Framework*,
-Version 1.21, December 18, 2012, or as amended. Available at
-[http://idmanagement.gov/documents/common-policy-framework-certificate-policy](http://idmanagement.gov/documents/common-policy-framework-certificate-policy).
+Version 1.31, February 8, 2019, or as amended. Available at
+[https://www.idmanagement.gov/wp-content/uploads/sites/1171/uploads/fpki-x509-cert-policy-common.pdf](https://www.idmanagement.gov/wp-content/uploads/sites/1171/uploads/fpki-x509-cert-policy-common.pdf).
 
 [[E-Gov]](#ref-E-Gov){:name="ref-E-Gov"} *E-Government Act of 2002*, U.S. Public Law 107-347, 2002.
 
@@ -76,7 +76,7 @@ the E-Government Act of 2002*, OMB, September 26, 2003.
 
 [[OMB0524]](#ref-OMB0524){:name="ref-OMB0524"} OMB Memorandum M-05-24, *Implementation of Homeland Security Presidential
 Directive (HSPD) 12 – Policy for a Common Identification Standard for Federal Employees and
-Contractors*, OMB, August 2005.
+Contractors*, OMB, August 2005. [https://www.whitehouse.gov/sites/whitehouse.gov/files/omb/memoranda/2005/m05-24.pdf](https://www.whitehouse.gov/sites/whitehouse.gov/files/omb/memoranda/2005/m05-24.pdf).
 
 [[PCSC]](#ref-PCSC){:name="ref-PCSC"} Personal Computer/Smart Card Workgroup Specifications. Available at
 [https://www.pcscworkgroup.com/](https://www.pcscworkgroup.com/).
@@ -162,6 +162,6 @@ Verification (PIV) Credentials*, NIST, December 2014.
 Cards under HSPD-12, July 31, 2008.
 
 [[SSP REP]](#ref-SSP REP){:name="ref-SSP REP"} Shared Service Provider Repository Service Requirements, December 13, 2011, or as
-amended. Available at [http://idmanagement.gov/documents/shared-service-provider-repository-service-requirements](http://idmanagement.gov/documents/shared-service-provider-repository-service-requirements).
+amended. Available at [https://idmanagement.gov/documents/shared-service-provider-repository-service-requirements](https://idmanagement.gov/documents/shared-service-provider-repository-service-requirements).
 
 
