@@ -8,8 +8,7 @@ permalink: /foreword/
 
 ## Announcing the Standard for Personal Identity Verification (PIV) of Federal Employees and Contractors
 
-Federal Information Processing Standards Publications (FIPS PUBS) are issued by the National Institute of Standards and Technology (NIST) after approval by the Secretary of Commerce pursuant to the Federal Information Security Management Act (FISMA) of 2002.
-
+Federal Information Processing Standards Publications (FIPS PUBS) are issued by the National Institute of Standards and Technology (NIST) after approval by the Secretary of Commerce pursuant to Section 5131 of the Information Technology Management Reform Act of 1996 (Public Law 104-106), and the Computer Security Act of 1987 (Public Law 100-235).
 # 1. Name of Standard. {#s-1}
 
 FIPS PUB 201-2: Personal Identity Verification (PIV) of Federal Employees and Contractors.[^hspd12]
@@ -94,7 +93,7 @@ Because a standard of this nature must be flexible enough to adapt to advancemen
 
 # 12. Waivers. {#s-12}
 
-As per the Federal Information Security Management Act of 2002 [[FISMA]](_Appendix/references.md#ref-FISMA), waivers to Federal Information Processing Standards are not allowed.
+The  Federal  Information  Security  Management  Act  (FISMA)  does  not  allow for waivers to Federal Information Processing Standards (FIPS) that are made mandatory by the Secretary of Commerce.
 
 # 13. Where to Obtain Copies. {#s-13}
 

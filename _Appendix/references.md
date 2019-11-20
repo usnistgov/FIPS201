@@ -26,9 +26,6 @@ MArch 22, 2019, or as amended. Available at [https://doi.org/10.6028/NIST.FIPS.1
 [[FIPS180]](#ref-FIPS180){:name="ref-FIPS180"} FIPS Publication 180-4, *Secure Hash Standard (SHS)*, August 2015, or as amended.
 Available at [http://dx.doi.org/10.6028/NIST.FIPS.180-4](http://dx.doi.org/10.6028/NIST.FIPS.180-4).
 
-[[FISMA]](#ref-FISMA){:name="ref-FISMA"} *Federal Information Security Management Act of 2002*. Available at
-[http://csrc.nist.gov/drivers/documents/FISMA-final.pdf](http://csrc.nist.gov/drivers/documents/FISMA-final.pdf).
-
 [[G155-2013]](#ref-G155-2013){:name="ref-G155-2013"} ASTM G155-2013, *Standard Practice for Operating Xenon Arc Light Apparatus for
 Exposure of Non-metallic Materials*, Vol. 14.04, ASTM, 2013.
 
