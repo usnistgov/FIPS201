@@ -87,7 +87,7 @@ Contractors*, OMB, August 2005.
 [[PRIVACY]](#ref-PRIVACY){:name="ref-PRIVACY"} *Privacy Act of 1974*, U.S. Public Law 93-579, 1974.
 
 [[PROF]](#ref-PROF){:name="ref-PROF"} *X.509 Certificate and Certificate Revocation List (CRL) Extensions Profile for the
-Shared Service Provider (SSP) Program*, Version 1.8, July 17, 20017 or as amended. Available
+Shared Service Provider (SSP) Program*, Version 1.8, July 17, 2017 or as amended. Available
 at [https://www.idmanagement.gov/wp-content/uploads/sites/1171/uploads/fpki-cert-profile-ssp.pdf](https://www.idmanagement.gov/wp-content/uploads/sites/1171/uploads/fpki-cert-profile-ssp.pdf).
 
 [[REAL-ID]](#ref-REAL-ID){:name="ref-REAL-ID"} *Minimum Standards for Driver's Licenses and Identification Cards
@@ -95,28 +95,28 @@ Acceptable by Federal Agencies for Official Purposes; Final Rule*, Department of
 
 [[RFC2560]](#ref-RFC2560){:name="ref-RFC2560"} RFC 2560, *X.509 Internet Public Key Infrastructure Online Certificate Status
 Protocol - OCSP*, Internet Engineering Task Force (IETF), June 1999. Available at
-[http://www.ietf.org/rfc/rfc2560.txt](http://www.ietf.org/rfc/rfc2560.txt).
+[https://www.ietf.org/rfc/rfc2560.txt](https://www.ietf.org/rfc/rfc2560.txt).
 
 
 [[RFC4122]](#ref-RFC4122){:name="ref-RFC4122"} RFC 4122, *A Universally Unique IDentifier (UUID) URN Namespace*, Internet
-Engineering Task Force (IETF), July 2005. Available at [http://www.ietf.org/rfc/rfc4122.txt](http://www.ietf.org/rfc/rfc4122.txt).
+Engineering Task Force (IETF), July 2005. Available at [https://www.ietf.org/rfc/rfc4122.txt](https://www.ietf.org/rfc/rfc4122.txt).
 
 [[RFC5280]](#ref-RFC5280){:name="ref-RFC5280"} RFC 5280, *Internet X.509 Public Key Infrastructure Certificate and Certificate
-Revocation List (CRL) Profile*, IETF, May 2008. Available at [http://www.ietf.org/rfc/rfc5280.txt](http://www.ietf.org/rfc/rfc5280.txt).
+Revocation List (CRL) Profile*, IETF, May 2008. Available at [https://www.ietf.org/rfc/rfc5280.txt](https://www.ietf.org/rfc/rfc5280.txt).
 
 [[RFC5652]](#ref-RFC5652){:name="ref-RFC5652"} RFC 5652, *Cryptographic Message Syntax (CMS)*, IETF, September 2009. Available
-at [http://www.ietf.org/rfc/rfc5652.txt](http://www.ietf.org/rfc/rfc5652.txt).
+at [https://www.ietf.org/rfc/rfc5652.txt](https://www.ietf.org/rfc/rfc5652.txt).
 
 [[RFC8485]](#ref-RFC8485){:name="ref-RFC8485"} RFC 8485, *Vectors of Trust*, IETF, October 2018. Available at
-[http://www.ietf.org/rfc/rfc8485.txt](http://www.ietf.org/rfc8485.txt).
+[https://www.ietf.org/rfc/rfc8485.txt](https://www.ietf.org/rfc8485.txt).
 
 [[SAML-AC]](#ref-SAML-AC){:name="ref-SAML-AC"} Authentication Context for the OASISSecurity Assertion Markup Language(SAML) V2.0, OASIS, March 2005.
 Available at [https://docs.oasis-open.org/security/saml/v2.0/saml-authn-context-2.0-os.pdf](https://docs.oasis-open.org/security/saml/v2.0/saml-authn-context-2.0-os.pdf).
 
 [[SP 800-37]](#ref-SP-800-37){:name="ref-SP-800-37"} NIST Special Publication 800-37 Revision 2, *Risk Management Framework for Information Systems and Organizations: A System Life Cycle Approach for Security and Privacy*, NIST,
-February 2010 or as amended. [https://csrc.nist.gov/publications/detail/sp/800-37/rev-2/final](https://csrc.nist.gov/publications/detail/sp/800-37/rev-2/final).
+December 2018 or as amended. [https://doi.org/10.6028/NIST.SP.800-37r2](https://doi.org/10.6028/NIST.SP.800-37r2).
 
-[[SP 800-53]](#ref-SP-800-53){:name="ref-SP-800-53"} NIST Special Publication 800-53 Revision 4, *Security and Privacy Controls for Federal Information Systems and Organizations*, NIST, April 2013 or as amended. [https://csrc.nist.gov/publications/detail/sp/800-53/rev-4/final](https://csrc.nist.gov/publications/detail/sp/800-53/rev-4/final)
+[[SP 800-53]](#ref-SP-800-53){:name="ref-SP-800-53"} NIST Special Publication 800-53 Revision 4, *Security and Privacy Controls for Federal Information Systems and Organizations*, NIST, April 2013 or as amended. [http://dx.doi.org/10.6028/NIST.SP.800-53r4](http://dx.doi.org/10.6028/NIST.SP.800-53r4)
 
 [[SP 800-59]](#ref-SP-800-59){:name="ref-SP-800-59"} NIST Special Publication 800-59, *Guideline for Identifying an Information System
 as a National Security System*, NIST, August 2003 or as amended.
