@@ -41,9 +41,7 @@ Contractors*, August 27, 2004.
 [[IEC61966]](#ref-IEC61966){:name="ref-IEC61966"} IEC 61966-2-1:1999, *Multimedia systems and equipment - Colour measurement and
 management - Part 2-1: Colour management - Default RGB colour space – sRGB*, October 1999.
 
-[[INCITS/M1-040211]](#ref-INCITS/M1-040211){:name="ref-INCITS/M1-040211"} ANSI/INCITS M1-040211, *Biometric Profile—Interoperability and Data
-Interchange—Biometrics-Based Verification and Identification of Transportation Workers*,
-ANSI, April 2004.
+[[ISO2382-37]](#ref-ISO/IEC-2382-37){:name="ref-ISO/IEC-2382-37"} ISO/IEC 2382-37:2017, *Information technology -- Vocabulary -- Part 37: Biometrics*, ISO, 2017.
 
 [[ISO10373]](#ref-ISO10373){:name="ref-ISO10373"} ISO/IEC 10373, *Identification Cards—Test Methods*. Part 1—*Standard for General
 Characteristic Test of Identification Cards*, ISO, 1998. Part 3—*Standard for Integrated Circuit
