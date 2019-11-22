@@ -120,7 +120,7 @@ as described in [Section 4.2.3.1](frontend.md#s-4-2-3-1). OCC MAY be used to sup
 [Section 4.3.1](frontend.md#s-4-3-1). OCC MAY also be used for cardholder authentication (OCC-AUTH) as described in [Section 6.2.2](authentication.md#s-6-2-2).
 
 The electronic iris images MAY be stored on the PIV Card as described in [Section 4.2.3.1](frontend.md#s-4-2-3-1). Agencies MAY
-choose to collect iris biometrics as a second biometric to support multimodal authentication to improve
+choose to collect iris biometrics as a secondary or tertiary biometric to support multimodal authentication to improve
 accuracy, operational suitability, to accommodate user preferences, or as a backup when the fingerprint
 biometric is unavailable.
 
@@ -131,10 +131,12 @@ The electronic facial image:
 + SHALL be printed on the PIV Card according to [Section 4.1.4.1](frontend.md#s-4-1-4-1);
 
 + MAY be used for generating a visual image on the monitor of a guard workstation for augmenting the
-visual authentication process defined in [Section 6.2.6](authentication.md#s-6-2-6); and
+visual authentication process defined in [Section 6.2.6](authentication.md#s-6-2-6);
 
 + MAY be used for automated facial authentication in operator-attended PIV issuance, reissuance, and
-verification data reset processes.
+verification data reset processes; and
+
++ MAY be used as a secondary or tertiary biometric to support multimodal authentication to improve accuracy.
 
 ## 2.6 Chain-of-Trust {#s-2-6}
 
@@ -326,8 +328,7 @@ registration process.
 issued is the same as the intended applicant/recipient as approved by the appropriate authority.
 Before the card is provided to the applicant, the issuer SHALL perform a 1:1 biometric match of the
 applicant against biometrics available on the PIV Card or in the chain-of-trust. The 1:1 biometric
-match requires either a match of fingerprint(s) or, if unavailable, other optional biometric data that are
-available. Minimum accuracy requirements for the biometric match are specified in [[SP 800-76]](../_Appendix/references.md#ref-SP-800-76). On
+match requires a match of fingerprint(s). If fingerprints are unavailable, iris image(s) may be used. If iris images are unavailable, the electronic facial image may be used. Minimum accuracy requirements for the biometric match are specified in [[SP 800-76]](../_Appendix/references.md#ref-SP-800-76). On
 successful match, the PIV Card SHALL be released to the applicant. If the match is unsuccessful, or if
 no biometric data is available, the cardholder SHALL provide two identity source documents (as
 specified in [Section 2.7](requirements.md#s-2-7)), and an attending operator SHALL inspect these and compare the cardholder
@@ -411,9 +412,8 @@ employee's or contractor's background investigation is valid before reissuing th
 credentials.[^IDMS] If the expiration date of the new PIV Card is later than the expiration date of the old card
 then re-investigations SHALL be performed if required, in accordance with OPM guidance.
 
-The issuer SHALL perform a 1:1 biometric match of the applicant to reconnect to the chain-of-trust. The 1:1
-biometric match requires either a match of fingerprint(s) or, if unavailable, other optional biometric data
-that are available (either on the PIV Card or in the chain-of-trust). Minimum accuracy requirements for
+The issuer SHALL perform a 1:1 biometric match of the applicant to reconnect to the chain-of-trust. The 1:1 
+biometric match requires a match of fingerprint(s). If fingerprints are unavailable, iris image(s) may be used. If iris images are unavailable, the electronic facial image may be used. Minimum accuracy requirements for 
 the biometric match are specified in [[SP 800-76]](../_Appendix/references.md#ref-SP-800-76). On successful match, the new PIV Card SHALL be
 released to the applicant. If the match is unsuccessful, or if no biometric data is available, the cardholder
 SHALL provide two identity source documents (as specified in [Section 2.7](requirements.md#s-2-7)), and an attending operator SHALL
@@ -505,14 +505,15 @@ remotely via a general computing platform:
 
 + When PIN reset is performed in-person at the issuer's facility, before providing the reset PIV Card
 back to the cardholder, the issuer SHALL perform a 1:1 biometric match to ensure that the cardholder's
-biometric matches either the stored biometric on the PIV Card or biometric data stored in the chain-of-trust. In cases where a biometric match is not possible, the cardholder SHALL provide the PIV Card
+biometric matches either the stored biometric on the PIV Card or biometric data stored in the chain-of-trust. 
+The 1:1 biometric match requires a match of fingerprint(s). If fingerprints are unavailable, iris image(s) may be used. If iris images are unavailable, the electronic facial image may be used. In cases where a biometric match is not possible, the cardholder SHALL provide the PIV Card
 to be reset and another primary identity source document (as specified in [Section 2.7](requirements.md#s-2-7)). An attending
 operator SHALL inspect these and compare the cardholder with the facial image retrieved from the
 enrollment data record and the facial image printed on the card.
 
 + PIN reset at an unattended issuer-operated kiosk SHALL ensure that the PIV Card is authenticated and
-that the cardholder's biometric matches either the stored biometric on the PIV Card, through an on-card 1:1 biometric match, or biometric data stored in the chain-of-trust, through an off-card 1:1
-biometric match. If the biometric match or card authentication is unsuccessful, the kiosk SHALL NOT
+that the cardholder's fingerprint biometric matches either the stored biometric on the PIV Card, through an on-card 1:1 biometric match, or biometric data stored in the chain-of-trust, through an off-card 1:1
+biometric match.  If fingerprints are unavailable, iris image(s) may be used. The electronic facial image SHALL NOT be used. If the biometric match or card authentication is unsuccessful, the kiosk SHALL NOT
 reset the PIV Card.
 
 + Remote PIN reset on a general computing platform (e.g., desktop, laptop) SHALL only be performed if
