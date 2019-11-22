@@ -386,7 +386,7 @@ uncorrected) at a working distance of 50 cm to 200 cm.
 
 [Table 4-2. Color Representation](#table-4-2){:name="table-4-2"}
 
-|Color|Zone|sRGB Tristimulus Value (IEC 61966- 2 - 1)|sRGB Value (IEC 61966- 2 - 1)|CMYK Value {C,M,Y,K}|
+|Color|Zone|sRGB Tristimulus Value (IEC 61966-2-1)|sRGB Value (IEC 61966-2-1)|CMYK Value {C,M,Y,K}|
 |---|---|---|---|---|
 |White|15F|{255, 255, 255}|{255, 255, 255}|{0, 0, 0, 0}|
 |Green|15F|{153, 255, 153}|{203, 255, 203}|{40, 0, 40, 0}|
