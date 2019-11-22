@@ -299,6 +299,17 @@ Supervised remote identity proofing SHALL meet the following requirements:
 * The issuer SHALL ensure that all communications occur over a mutually authenticated protected channel.
 
 If biometric information cannot be collected as per the criteria defined in [[SP 800-76]](../_Appendix/references.md#ref-SP-800-76) or if validation of the identity evidence is inadequate, supervised remote identity proofing SHALL NOT be used and the identity proofing and enrollment shall be performed in person at the issuer’s facility.
+The trained operator SHALL terminate a supervised remote identity proofing
+session and require in-person identity proofing at the issuer's facility if
+there is reasonable basis to believe[^believe] that the applicant is attempting
+to bypass protection capabilities of the station or otherwise deceive the
+trained operator in a manner that cannot be readily ascertained remotely. 
+The applicant SHALL NOT be provided a reconsideration process (as defined in
+[[SPRINGER MEMO]](../references/#ref-SPRINGER MEMO)) for denial or termination
+of a supervised remote identity proofing session when the applicant is instead
+referred to an in-person identity proofing session at the issuer's facility.
+
+[^believe]: A reasonable basis to believe occurs when a disinterested observer, with knowledge of the same facts and circumstances, would reasonably reach the same conclusion. Departments and agencies should consult with their legal counsel about any legal questions concerning the standards. [[SPRINGER MEMO]](../references/#ref-SPRINGER MEMO)
 
 ## 2.8 PIV Card Issuance Requirements {#s-2-8}
 
