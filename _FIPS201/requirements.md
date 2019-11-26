@@ -120,7 +120,7 @@ as described in [Section 4.2.3.1](frontend.md#s-4-2-3-1). OCC MAY be used to sup
 [Section 4.3.1](frontend.md#s-4-3-1). OCC MAY also be used for cardholder authentication (OCC-AUTH) as described in [Section 6.2.2](authentication.md#s-6-2-2).
 
 The electronic iris images MAY be stored on the PIV Card as described in [Section 4.2.3.1](frontend.md#s-4-2-3-1). Agencies MAY
-choose to collect iris biometrics as a secondary or tertiary biometric to support multimodal authentication to improve
+choose to collect iris biometrics as an additional biometric to support multimodal authentication to improve
 accuracy, operational suitability, to accommodate user preferences, or as a backup when the fingerprint
 biometric is unavailable.
 
@@ -136,7 +136,7 @@ visual authentication process defined in [Section 6.2.6](authentication.md#s-6-2
 + MAY be used for automated facial authentication in operator-attended PIV issuance, reissuance, and
 verification data reset processes; and
 
-+ MAY be used as a secondary or tertiary biometric to support multimodal authentication to improve accuracy.
++ MAY be used as an additional biometric to support multimodal authentication to improve accuracy.
 
 ## 2.6 Chain-of-Trust {#s-2-6}
 
