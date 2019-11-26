@@ -133,7 +133,7 @@ The electronic facial image:
 + MAY be used for automated facial authentication in operator-attended PIV issuance, reissuance, and
 verification data reset processes; and
 
-+ MAY be used as an additional biometric to support multimodal authentication to improve accuracy.
++ MAY be used as an additional biometric characteristic to support multi-modal biometric verification to improve accuracy.
 
 ## 2.6 Chain-of-Trust {#s-2-6}
 
