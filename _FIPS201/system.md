@@ -23,7 +23,7 @@ components of the PIV system and the lifecycle activities of the PIV Card.
 
 An operational PIV system can be logically divided into the following three major subsystems:
 
-- **PIV Front-End Subsystem**—PIV Card, card and biometric readers, and PIN input device. The PIV
+- **PIV Front-End Subsystem**—PIV Card, card readers, biometric capture devices, and PIN input device. The PIV
     cardholder interacts with these components to gain physical or logical access to the desired Federal
     resource.
 - **PIV Card Issuance and Management Subsystem**—the components responsible for identity
@@ -76,15 +76,15 @@ additional factors of authentication. A cryptographic key and certificate, for e
 additional authentication factor of "something you have" (i.e., the card) through PKI-based
 authentication.
 
-Biometric readers may be located at secure locations where a cardholder may want to gain access. These
-readers depend upon the use of biometric data of the cardholder, stored in the memory of the card, and its
-comparison with a real-time biometric sample. The use of biometrics provides an additional factor of
+Biometric capture devices may be located at secure locations where a cardholder may want to gain access. These
+devices depend upon the use of biometric data of the cardholder, stored in the memory of the card, and its
+comparison with a real-time captured biometric sample. The use of biometric characteristics provides an additional factor of
 authentication ("something you are") in addition to entering the PIN ("something you know") and
 providing the card ("something you have") for cryptographic key-based authentication. This provides for
 a higher level of authentication assurance.
 
 [^somethingyouknow]: For more information on the terms "something you know," "something you have," and "something you are," see [[SP 800-63]](../_Appendix/references.md#ref-SP-800-63).
-[^oncardbiometric]: Alternatively, on-card biometric comparison can be used to activate the PIV Card.
+[^oncardbiometric]: Alternatively, an biometric on-card one-to-one comparison can be used to activate the PIV Card.
 
 ### 3.1.2 PIV Card Issuance and Management Subsystem {#s-3-1-2}
 
@@ -96,7 +96,7 @@ registration.
 The card issuance and maintenance component deals with the personalization of the physical (visual
 surface) and logical (contents of the ICC) aspects of the card at the time of issuance and maintenance
 thereafter. This includes printing photographs, names, and other information on the card and loading the
-relevant card applications, biometrics, and other data.
+relevant card applications, biometric data, and other data.
 
 The key management component is responsible for the generation of key pairs, the issuance and
 distribution of digital certificates containing the public keys of the cardholder, and management and
@@ -126,7 +126,7 @@ The I&A component identifies and authenticates cardholders either by interacting
 by communicating with an IdP through a federation protocol as discussed in [Section 7](federation.md#s-7). Once authenticated, the I&A component passes information to the
 authorization component which in turn interacts with the authorization data component to match the
 cardholder information to the information on record. Either the RP or the IdP interface with
-the card reader, the PIN input device, the biometric reader, supplementary databases, and any certificate
+the card reader, the PIN input device, the biometric capture device, supplementary databases, and any certificate
 status service.
 
 ## 3.2 PIV Card Lifecycle Activities {#s-3-2}
@@ -146,7 +146,7 @@ Descriptions of the seven card lifecycle activities are as follows:
     to an applicant and the validation of this request.
 - **Identity Proofing and Registration.** The goal of this activity is to verify the claimed identity of the
     applicant, verify that the entire set of identity source documents presented at the time of registration is
-    valid, capture biometrics, and optionally create the chain-of-trust record.
+    valid, capture biometric characteristics, and optionally create the chain-of-trust record.
 - **PIV Card Issuance.** This activity deals with the personalization (physical and logical) of the card
     and the issuance of the card to the intended applicant.
 - **PKI Credential Issuance.** This activity deals with generating logical credentials and loading them
@@ -156,7 +156,7 @@ Descriptions of the seven card lifecycle activities are as follows:
     cardholder identification and authentication.
 - **PIV Card Maintenance.** This activity deals with the maintenance or update of the physical card and
     the data stored thereon. Such data includes various card applications, PINs, PKI credentials, and
-    biometrics.
+    biometric data.
 - **PIV Card Termination.** The termination process is used to permanently destroy or invalidate the
     PIV Card and the data and keys needed for authentication so as to prevent any future use of the card
     for authentication.
