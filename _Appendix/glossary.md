@@ -44,6 +44,10 @@ Authentication
 : The process of establishing confidence of authenticity; in this case, in the validity of a
 person's identity and the PIV Card.
 
+Biometric Capture Device
+: Device that collects a signal from a biometric characteristic and converts it 
+to a captured biometric sample. [[ISO2382-37]](references.md#ref-ISO/IEC-2382-37) 
+
 Biometric Characteristic
 : Biological and behavioral characteristic of an individual from which 
 distinguishing, repeatable biometric features can be extracted for the purpose 
@@ -55,6 +59,14 @@ Biometric Data Record
 biometric samples at any stage of processing.
 This information
 can be in terms of raw or compressed pixels or in terms of some characteristic (e.g., patterns). [[ISO2382-37]](references.md#ref-ISO/IEC-2382-37) 
+
+Biometric Verification
+: Process of confirming a biometric claim through biometric comparison.
+
+Biometric Verification Decision
+: A determination of whether biometric probe(s) and biometric reference(s) have 
+the same biometric source based on comparison score(s) during a verification 
+transaction. [[ISO2382-37]](references.md#ref-ISO/IEC-2382-37) 
 
 Capture
 : Series of actions undertaken to affect a biometric capture. [[ISO2382-37]](references.md#ref-ISO/IEC-2382-37) 
@@ -111,9 +123,9 @@ defined in [[OMB0404]](references.md#ref-OMB0404) and [[SP 800-63]](references.m
 - Level 3: HIGH confidence
 - Level 4: VERY HIGH confidence
 
-Enrollment Data Set
-: A record including information about a biometric enrollment name and role of
-the acquiring agent, office and organization, time, place, and acquisition method.
+Enrollment Data Record
+: A data record attributed to a biometric data subject containing non-biometric 
+data and associated with biometric reference identifier(s). [[ISO2382-37]](references.md#ref-ISO/IEC-2382-37) 
 
 Federal Agency Smart Credential Number (FASC-N)
 : As required by FIPS 201, one of the primary
@@ -198,8 +210,8 @@ On-Card
 : Refers to data that is stored within the PIV Card or to a computation that is performed by the
 Integrated Circuit Chip (ICC) of the PIV Card.
 
-On-Card Comparison
-: Comparison of fingerprint data transmitted to the card with reference data
+On-Card Biometric One-to-One Comparison
+: Comparison of fingerprint biometric data records transmitted to the card with a biometric reference 
 previously stored on the card.
 
 Online Certificate Status Protocol (OCSP)
@@ -215,7 +227,7 @@ trustworthy.
 
 Personally Identifiable Information (PII)
 : Information that can be used to distinguish or trace an
-individual's identity, such as name, social security number, biometric records, etc. alone, or when
+individual's identity, such as name, social security number, biometric data records, etc. alone, or when
 combined with other personal or identifying information that is linked or linkable to a specific individual,
 such as date and place of birth, mother's maiden name, etc. [[OMB0716]](references.md#ref-OMB0716) 
 
@@ -458,7 +470,7 @@ NVLAP
 : National Voluntary Laboratory Accreditation Program
 
 OCC
-: On-Card Biometric Comparison
+: On-Card Biometric One-to-One Comparison
 
 OCSP
 : Online Certificate Status Protocol
