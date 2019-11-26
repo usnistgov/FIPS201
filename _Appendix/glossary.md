@@ -54,11 +54,14 @@ distinguishing, repeatable biometric features can be extracted for the purpose
 of biometric recognition. Fingerprint ridge structure and face topography are 
 examples of biometric characteristics. [[ISO2382-37]](references.md#ref-ISO/IEC-2382-37) 
 
+Biometric Data
+: Biometric sample or aggregation of biometric samples at any stage of 
+processing [[ISO2382-37]](references.md#ref-ISO/IEC-2382-37) 
+
 Biometric Data Record
-: Electronic data record containing biometric sample or aggregation of 
-biometric samples at any stage of processing.
+: Electronic data record containing biometric data [[ISO2382-37]](references.md#ref-ISO/IEC-2382-37).
 This information
-can be in terms of raw or compressed pixels or in terms of some characteristic (e.g., patterns). [[ISO2382-37]](references.md#ref-ISO/IEC-2382-37) 
+can be in terms of raw or compressed pixels or in terms of some characteristic (e.g., patterns).
 
 Biometric Verification
 : Process of confirming a biometric claim through biometric comparison.

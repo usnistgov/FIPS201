@@ -93,16 +93,16 @@ authentication mechanisms that may be applied to a particular situation.
 ### 6.2.1 Authentication Using Off-Card One-to-One Comparison {#s-6-2-1}
 
 The PIV Card Application hosts the signed fingerprint biometric templates and, optionally, the signed iris images.
-Either mode of biometric data can be read from the card following cardholder-to-card (CTC) authentication using a PIN
-supplied by the cardholder. This biometric data is designed to support a cardholder-to-external
+Either mode of biometric data record can be read from the card following cardholder-to-card (CTC) authentication using a PIN
+supplied by the cardholder. This biometric data record is designed to support a cardholder-to-external
 system (CTE) authentication mechanism through an off-card one-to-one comparison scheme. The following subsections
-define two authentication schemes that make use of biometric data.[^bioreaders]
+define two authentication schemes that make use of biometric data records.[^bioreaders]
 
 Some characteristics of the biometric verification mechanisms (described below) are as follows:
 
 - Strong resistance to use of unaltered card by non-owner since PIN and cardholder biometric characteristics are
     required.
-- Digital signature on biometric data, which is checked to further strengthen the mechanism.
+- Digital signature on biometric data records, which is checked to further strengthen the mechanism.
 - Slower mechanism, because it requires two interactions (e.g., presentation of PIN and acquisition of a biometric sample) with
     the cardholder.
 - Does not provide protection against use of a revoked card.
@@ -118,16 +118,16 @@ The following steps SHALL be performed for unattended authentication of biometri
 - The CHUID or another data element[^expired] is read from the card and is checked to ensure the card has not
     expired and that it is from a trusted source.
 - The cardholder is prompted to submit a PIN, activating the PIV Card.
-- Biometric data is read from the card.
-- The signature on the biometric data is verified to ensure the biometric data is intact and comes from a trusted
+- Biometric data record is read from the card.
+- The signature on the biometric data record is verified to ensure the biometric data record is intact and comes from a trusted
     source. Note that the signature verification may require retrieval of the content signing certificate
-    from the CHUID if the signature on the biometric data was generated with the same key as the signature
+    from the CHUID if the signature on the biometric data record was generated with the same key as the signature
     on the CHUID.
 - The cardholder is prompted to perform a biometric capture process to create a new biometric sample.
-- If the new biometric sample elicits a positive biometric verification decision when compared to the biometric data read from the card, the cardholder is authenticated to
+- If the new biometric sample elicits a positive biometric verification decision when compared to the biometric data record read from the card, the cardholder is authenticated to
     be the owner of the card.
 - The FASC-N (or UUID) in the CHUID or other data element is compared with the FASC-N (or
-    UUID) in the Signed Attributes field of the external digital signature on the biometric data.
+    UUID) in the Signed Attributes field of the external digital signature in the biometric data record.
 - A unique identifier within the CHUID or other data element is used as input to the authorization
 check to determine whether the cardholder should be granted access.
 

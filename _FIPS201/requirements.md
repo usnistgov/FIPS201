@@ -97,7 +97,7 @@ The following biometric data MAY optionally be collected from a PIV applicant:
 + Two fingerprints, for on-card one-to-one comparison (OCC). These fingerprints MAY be taken from the full set of fingerprints collected in [Section 2.3](requirements.md#s-2-3) and SHOULD be imaged from fingers not imaged for off-card one-to-one comparison.
 
 If the biometric data that is collected as specified in this section and in [Section 2.3](requirements.md#s-2-3) is collected on separate
-occasions, then a biometric verification of the applicant's biometric data SHALL be performed at each visit against biometric
+occasions, then a biometric verification of the applicant's biometric data records SHALL be performed at each visit against biometric
 data collected during a previous visit.
 
 Biometric data collection SHALL conform to the procedural and technical specifications of [[SP 800-76]](../_Appendix/references.md#ref-SP-800-76).
@@ -122,7 +122,7 @@ as described in [Section 4.2.3.1](frontend.md#s-4-2-3-1). OCC MAY be used to sup
 The electronic iris images MAY be stored on the PIV Card as described in [Section 4.2.3.1](frontend.md#s-4-2-3-1). Agencies MAY
 choose to collect iris images as a second biometric characteristic to support multi-modal biometric verification to improve
 accuracy, operational suitability, to accommodate user preferences, or as a backup when fingerprint
-biometric data is unavailable.
+biometric data records are unavailable.
 
 The electronic facial image:
 
@@ -154,7 +154,7 @@ action took place, and what data was collected.
 collected. The enrollment data record describes the circumstances of biometric acquisition including
 the name and role of the acquiring agent, the office and organization, time, place, and acquisition
 method. The enrollment data record may also document unavailable biometric data or failed attempts
-to collect biometric data. The enrollment data record may contain historical biometric data.
+to collect biometric data. The enrollment data record may contain historical biometric data records.
 
 + The most recent unique identifiers (i.e., Federal Agency Smart Credential Number (FASC-N) and
 Universally Unique IDentifier (UUID)) issued to the individual. The record may contain historical
@@ -170,7 +170,7 @@ completed.
 + Any data or any subsequent changes in the data about the cardholder. If the changed data is the
 cardholder's name, then the issuer SHOULD include the evidence of a formal name change.
 
-The biometric data in the chain-of-trust SHALL be valid for at most 12 years. In order to mitigate ageing
+The biometric data records in the chain-of-trust SHALL be valid for at most 12 years. In order to mitigate ageing
 effects and thereby maintain operational readiness of a cardholder's PIV Card, agencies MAY require
 biometric enrollment more frequently than 12 years.
 
@@ -186,8 +186,8 @@ at one place and time, and two fingerprints for the PIV Card at another place an
 transaction, and one with two fingerprint templates. The two fingerprint templates would be verified
 against the corresponding fingers in the ten-fingerprint data set to link the chain.
 
-+ Reissuance: a PIV cardholder loses his/her card. Since the card issuer has biometric data enrollment
-records, the cardholder can perform a biometric verification to reconnect to the card issuer's chain-of-trust. The card issuer NEED NOT repeat the identity proofing and registration process. The card issuer
++ Reissuance: a PIV cardholder loses his/her card. Since the card issuer has biometric data
+records from enrollment, the cardholder can perform a biometric verification to reconnect to the card issuer's chain-of-trust. The card issuer NEED NOT repeat the identity proofing and registration process. The card issuer
 proceeds to issue a new card as described in [Section 2.9.1](requirements.md#s-2-9-1).
 
 + Interagency transfer: a Federal employee is transferred from one agency to another. When the
@@ -325,11 +325,11 @@ registration process.
 + During the issuance process, the issuer SHALL verify that the individual to whom the PIV Card is to be
 issued is the same as the intended applicant/recipient as approved by the appropriate authority.
 Before the card is provided to the applicant, the issuer SHALL perform a one-to-one comparison of the
-applicant against biometric data available on the PIV Card or in the chain-of-trust. The one-to-one
-comparison requires either a comparison of fingerprint(s) or, if unavailable, other optional biometric data that are
+applicant against biometric data records available on the PIV Card or in the chain-of-trust. The one-to-one
+comparison requires either a comparison of fingerprint(s) or, if unavailable, other optional biometric data records that are
 available. Minimum accuracy requirements for the biometric verification are specified in [[SP 800-76]](../_Appendix/references.md#ref-SP-800-76). On
 a positive biometric verification decision, the PIV Card SHALL be released to the applicant. If the biometric verification decision is negative, or if
-no biometric data is available, the cardholder SHALL provide two identity source documents (as
+no biometric data records are available, the cardholder SHALL provide two identity source documents (as
 specified in [Section 2.7](requirements.md#s-2-7)), and an attending operator SHALL inspect these and compare the cardholder
 with the facial image printed on the PIV Card.
 
@@ -372,8 +372,8 @@ When issuing a PIV Card under the grace period, the card issuer SHALL verify tha
 been authorized by a proper authority and that the employee's or contractor's background investigation is
 valid. Re-investigations SHALL be performed if required, in accordance with OPM guidance. At the time
 of issuance, the card issuer SHALL perform biometric verification of the applicant to the chain-of-trust to reconnect to the chain-of-trust. The one-to-one comparison requires either a comparison of fingerprint(s) or, if unavailable, other
-optional biometric data that are available. On a positive biometric verification decision, the new PIV Card SHALL be released to the
-applicant. If the biometric verification decision is negative, or if no biometric data is available, the cardholder SHALL provide
+optional biometric data records that are available. On a positive biometric verification decision, the new PIV Card SHALL be released to the
+applicant. If the biometric verification decision is negative, or if no biometric data records are available, the cardholder SHALL provide
 two identity source documents (as specified in [Section 2.7](requirements.md#s-2-7)), and an attending operator SHALL inspect these
 and compare the cardholder with the facial image retrieved from the enrollment data record and the facial
 image printed on the new PIV Card.
@@ -412,10 +412,10 @@ credentials.[^IDMS] If the expiration date of the new PIV Card is later than the
 then re-investigations SHALL be performed if required, in accordance with OPM guidance.
 
 The issuer SHALL perform a biometric verification of the applicant to the chain-of-trust to reconnect to the chain-of-trust. The one-to-one
-comparison requires either fingerprint(s) or, if unavailable, other optional biometric data
+comparison requires either fingerprint(s) or, if unavailable, other optional biometric data records
 that are available (either on the PIV Card or in the chain-of-trust). Minimum accuracy requirements for
 the biometric verification are specified in [[SP 800-76]](../_Appendix/references.md#ref-SP-800-76). On a positive biometric verification decision, the new PIV Card SHALL be
-released to the applicant. If the biometric verification decision is negative, or if no biometric data is available, the cardholder
+released to the applicant. If the biometric verification decision is negative, or if no biometric data records are available, the cardholder
 SHALL provide two identity source documents (as specified in [Section 2.7](requirements.md#s-2-7)), and an attending operator SHALL
 inspect these and compare the cardholder with the facial image retrieved from the enrollment data record
 and the facial image printed on the new PIV Card.
@@ -471,7 +471,7 @@ performing a re-investigation.
 
 A PIV Card post issuance update MAY be performed without replacing the PIV Card in cases where none
 of the printed information on the surface of the card is changed. The post issuance update applies to cases
-where one or more certificates, keys, biometric data objects, or signed data objects are updated. A post
+where one or more certificates, keys, biometric data records, or signed data objects are updated. A post
 issuance update SHALL NOT modify the PIV Card expiration date, FASC-N, or UUID.
 
 A PIV Card post issuance update MAY be done locally (performed with the issuer in physical custody of
@@ -489,8 +489,8 @@ integrity checks.
 + The PIV Card Application will communicate with no end point entity other than the PIV Card issuer
 during the remote post issuance update.
 
-Post issuance updates to biometric data objects, other than to the digital signature blocks within the
-biometric data objects, SHALL satisfy the requirements for verification data reset specified in [Section 2.9.3](requirements.md#s-2-9-3).
+Post issuance updates to biometric data records, other than to the digital signature blocks within the
+biometric data records, SHALL satisfy the requirements for verification data reset specified in [Section 2.9.3](requirements.md#s-2-9-3).
 
 If the PIV Authentication key, asymmetric Card Authentication key, the digital signature key, or the key
 management key, was compromised, the corresponding certificate SHALL be revoked.
@@ -505,13 +505,13 @@ remotely via a general computing platform:
 
 + When PIN reset is performed in-person at the issuer's facility, before providing the reset PIV Card
 back to the cardholder, the issuer SHALL perform a biometric verification to ensure that the cardholder's
-biometric characteristics elicit a positive biometric verification decision when compared to biometric data stored either on the PIV Card or in the chain-of-trust. In cases where a biometric verification is not possible, the cardholder SHALL provide the PIV Card
+biometric characteristics elicit a positive biometric verification decision when compared to biometric data records stored either on the PIV Card or in the chain-of-trust. In cases where a biometric verification is not possible, the cardholder SHALL provide the PIV Card
 to be reset and another primary identity source document (as specified in [Section 2.7](requirements.md#s-2-7)). An attending
 operator SHALL inspect these and compare the cardholder with the facial image retrieved from the
 enrollment data record and the facial image printed on the card.
 
 + PIN reset at an unattended issuer-operated kiosk SHALL ensure that the PIV Card is authenticated and
-that the cardholder's biometric characteristics elicit a positive biometric verification decision when compared to either the stored biometric on the PIV Card through an on-card one-to-one comparison, or biometric data stored in the chain-of-trust through an off-card one-to-one
+that the cardholder's biometric characteristics elicit a positive biometric verification decision when compared to either the stored biometric on the PIV Card through an on-card one-to-one comparison, or biometric data records stored in the chain-of-trust through an off-card one-to-one
 comparison. If the biometric verification or card authentication is unsuccessful, the kiosk SHALL NOT
 reset the PIV Card.
 
@@ -521,7 +521,7 @@ the following requirements are met:
   * the cardholder initiates a PIN reset with the issuer operator;
   * the operator authenticates the owner of the PIV Card through an independent
   procedure; and
-  * the cardholder's biometric characteristics elicit a positive biometric verification decision when compared to the stored biometric data on the PIV Card through an on-card one-to-one comparison.
+  * the cardholder's biometric characteristics elicit a positive biometric verification decision when compared to the stored biometric data records on the PIV Card through an on-card one-to-one comparison.
 
 The remote PIN reset operation SHALL satisfy the requirements for remote post issuance updates
 specified in [Section 2.9.2](requirements.md#s-2-9-2).
@@ -535,7 +535,7 @@ Verification data other than the PIN may also be reset (i.e., re-enrollment) by 
 reset, the issuer SHALL perform a biometric verification of the cardholder to the chain-of-trust to reconnect to the chain-of-trust.
 The biometric characteristic used for the biometric verification SHALL NOT be the same as the biometric characteristic that is being
 reset. For example, if fingerprint templates for on-card comparison are being reset, then an iris one-to-one comparison
-could be used to reconnect to the chain-of-trust. If no alternative biometric data is available, the
+could be used to reconnect to the chain-of-trust. If no alternative biometric data records are available, the
 cardholder SHALL provide the PIV Card to be reset and another primary identity source document (as
 specified in [Section 2.7](requirements.md#s-2-7)). An attending operator SHALL inspect these and compare the cardholder with the
 facial image retrieved from the enrollment data record and the facial image printed on the PIV Card.
