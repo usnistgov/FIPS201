@@ -304,7 +304,7 @@ session and require in-person identity proofing at the issuer's facility if
 there is reasonable basis to believe[^believe] that the applicant is attempting
 to bypass protection capabilities of the station. 
 
-[^believe]: A reasonable basis to believe occurs when a disinterested observer, with knowledge of the same facts and circumstances, would reasonably reach the same conclusion. Departments and agencies should consult with their legal counsel about any legal questions concerning the standards. [[SPRINGER MEMO]](../references/#ref-SPRINGER MEMO)
+[^believe]: A reasonable basis to believe occurs when a disinterested observer, with knowledge of the same facts and circumstances, would reasonably reach the same conclusion.
 
 ## 2.8 PIV Card Issuance Requirements {#s-2-8}
 
