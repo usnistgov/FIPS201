@@ -55,6 +55,7 @@ can be in terms of raw or compressed pixels or in terms of some characteristic (
 
 Capture
 : The method of taking a biometric sample from an end user. [[INCITS/M1-040211]](references.md#ref-INCITS/M1-040211) 
+
 Cardholder
 : An individual possessing an issued PIV Card.
 
@@ -65,6 +66,7 @@ Application.
 Certificate Revocation List
 : A list of revoked public key certificates created and digitally signed by a
 certification authority. [[RFC5280]](references.md#ref-RFC5280) 
+
 Certification
 : The process of verifying the correctness of a statement or claim and issuing a certificate as
 to its correctness.
@@ -199,6 +201,7 @@ previously stored on the card.
 Online Certificate Status Protocol (OCSP)
 : An online protocol used to determine the status of a public
 key certificate. [[RFC2560]](references.md#ref-RFC2560) 
+
 Path Validation
 : The process of verifying the binding between the subject identifier and subject public
 key in a certificate, based on the public key of a trust anchor, through the validation of a chain of
