@@ -324,8 +324,8 @@ registration process.
 + During the issuance process, the issuer SHALL verify that the individual to whom the PIV Card is to be
 issued is the same as the intended applicant/recipient as approved by the appropriate authority.
 Before the card is provided to the applicant, the issuer SHALL perform a 1:1 biometric match of the
-applicant against biometrics available on the PIV Card or in the chain-of-trust. The 1:1 biometric
-match requires a match of fingerprint(s). If fingerprints are unavailable, iris image(s) may be used. If iris images are unavailable, the electronic facial image may be used. Minimum accuracy requirements for the biometric match are specified in [[SP 800-76]](../_Appendix/references.md#ref-SP-800-76). On
+applicant against fingerprint templates or iris images available on the PIV Card or in the chain-of-trust.
+If neither fingerprint templates nor iris images are available, the electronic facial image MAY be used. Minimum accuracy requirements for the biometric match are specified in [[SP 800-76]](../_Appendix/references.md#ref-SP-800-76). On
 successful match, the PIV Card SHALL be released to the applicant. If the match is unsuccessful, or if
 no biometric data is available, the cardholder SHALL provide two identity source documents (as
 specified in [Section 2.7](requirements.md#s-2-7)), and an attending operator SHALL inspect these and compare the cardholder
@@ -369,8 +369,8 @@ be reconnected to the chain-of-trust record.[^lapse]
 When issuing a PIV Card under the grace period, the card issuer SHALL verify that PIV Card issuance has
 been authorized by a proper authority and that the employee's or contractor's background investigation is
 valid. Re-investigations SHALL be performed if required, in accordance with OPM guidance. At the time
-of issuance, the card issuer SHALL perform a 1:1 biometric match of the applicant to reconnect to the chain-of-trust. The 1:1 biometric match requires either a match of fingerprint(s) or, if unavailable, other
-optional biometric data that are available. On successful match, the new PIV Card SHALL be released to the
+of issuance, the card issuer SHALL perform a 1:1 biometric match of the applicant to reconnect to the chain-of-trust. The 1:1 biometric match requires either a match of fingerprint templates or iris images. If neither fingerprint templates nor iris images are available, the
+electronic facial image MAY be used. On successful match, the new PIV Card SHALL be released to the
 applicant. If the match is unsuccessful, or if no biometric data is available, the cardholder SHALL provide
 two identity source documents (as specified in [Section 2.7](requirements.md#s-2-7)), and an attending operator SHALL inspect these
 and compare the cardholder with the facial image retrieved from the enrollment data record and the facial
@@ -409,8 +409,8 @@ employee's or contractor's background investigation is valid before reissuing th
 credentials.[^IDMS] If the expiration date of the new PIV Card is later than the expiration date of the old card
 then re-investigations SHALL be performed if required, in accordance with OPM guidance.
 
-The issuer SHALL perform a 1:1 biometric match of the applicant to reconnect to the chain-of-trust. The 1:1 
-biometric match requires a match of fingerprint(s). If fingerprints are unavailable, iris image(s) may be used. If iris images are unavailable, the electronic facial image may be used. Minimum accuracy requirements for 
+The issuer SHALL perform a 1:1 biometric match of fingerprint templates or iris images of the applicant to reconnect to the chain-of-trust.
+If neither fingerprint templates nor iris images are available, the electronic facial image MAY be used. Minimum accuracy requirements for 
 the biometric match are specified in [[SP 800-76]](../_Appendix/references.md#ref-SP-800-76). On successful match, the new PIV Card SHALL be
 released to the applicant. If the match is unsuccessful, or if no biometric data is available, the cardholder
 SHALL provide two identity source documents (as specified in [Section 2.7](requirements.md#s-2-7)), and an attending operator SHALL
@@ -501,16 +501,16 @@ may be performed in-person at the issuer's facility, at an unattended kiosk oper
 remotely via a general computing platform:
 
 + When PIN reset is performed in-person at the issuer's facility, before providing the reset PIV Card
-back to the cardholder, the issuer SHALL perform a 1:1 biometric match to ensure that the cardholder's
+back to the cardholder, the issuer SHALL perform a 1:1 biometric match of fingerprint templates or iris images to ensure that the cardholder's
 biometric matches either the stored biometric on the PIV Card or biometric data stored in the chain-of-trust. 
-The 1:1 biometric match requires a match of fingerprint(s). If fingerprints are unavailable, iris image(s) may be used. If iris images are unavailable, the electronic facial image may be used. In cases where a biometric match is not possible, the cardholder SHALL provide the PIV Card
+If neither fingerprint templates nor iris images are available, the electronic facial image MAY be used. In cases where a biometric match is not possible, the cardholder SHALL provide the PIV Card
 to be reset and another primary identity source document (as specified in [Section 2.7](requirements.md#s-2-7)). An attending
 operator SHALL inspect these and compare the cardholder with the facial image retrieved from the
 enrollment data record and the facial image printed on the card.
 
 + PIN reset at an unattended issuer-operated kiosk SHALL ensure that the PIV Card is authenticated and
-that the cardholder's fingerprint biometric matches either the stored biometric on the PIV Card, through an on-card 1:1 biometric match, or biometric data stored in the chain-of-trust, through an off-card 1:1
-biometric match.  If fingerprints are unavailable, iris image(s) may be used. The electronic facial image SHALL NOT be used. If the biometric match or card authentication is unsuccessful, the kiosk SHALL NOT
+that the cardholder's fingerprint or iris biometric matches either the stored biometric on the PIV Card, through an on-card 1:1 biometric match, or biometric data stored in the chain-of-trust, through an off-card 1:1
+biometric match.  The electronic facial image SHALL NOT be used. If the biometric match or card authentication is unsuccessful, the kiosk SHALL NOT
 reset the PIV Card.
 
 + Remote PIN reset on a general computing platform (e.g., desktop, laptop) SHALL only be performed if
