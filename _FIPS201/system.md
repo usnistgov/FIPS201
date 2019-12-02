@@ -68,8 +68,6 @@ PIN, and biometric data, and is discussed in further detail in subsequent sectio
 PIN input devices can be used along with card readers when a higher level of authentication assurance is
 required. The cardholder presenting the PIV Card must type in his or her PIN into the PIN input device.
 For physical access, the PIN is typically entered using a PIN pad device; a keyboard is generally used for
-
-
 logical access. The input of a PIN provides a "something you know"[^somethingyouknow] authentication factor that
 activates[^oncardbiometric] the PIV Card and enables access to other credentials resident on the card that provide
 additional factors of authentication. A cryptographic key and certificate, for example, provides an

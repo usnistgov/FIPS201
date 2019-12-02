@@ -69,7 +69,7 @@ requirements on digital signature or key management certificates issued by legac
 
 CAs that issue certificates to support PIV Card authentication SHALL operate repositories and Online
 Certificate Status Protocol (OCSP) responders that provide certificate status information for the
-certificates they issue to support high- assurance interagency PIV Card interoperation. Departments and
+certificates they issue to support high-assurance interagency PIV Card interoperation. Departments and
 agencies will be responsible for notifying CAs when certificates need to be revoked. CAs SHALL maintain
 the status of servers and responders needed for PIV Card and certificate status checking.
 
