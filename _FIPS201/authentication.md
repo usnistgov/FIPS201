@@ -119,7 +119,7 @@ The following steps SHALL be performed for unattended authentication of the PIV 
 - The CHUID or another data element[^expired] is read from the card and is checked to ensure the card has not
     expired and that it is from a trusted source.
 - The cardholder is prompted to submit a PIN, activating the PIV Card.
-- The PIV fingerprint template(s), iris image(s), or electronic facial image is read from the card.
+- The PIV fingerprint template(s), iris image(s), or electronic facial image are read from the card.
 - The signature on the biometric is verified to ensure the biometric is intact and comes from a trusted
     source. Note that the signature verification may require retrieval of the content signing certificate
     from the CHUID if the signature on the biometric was generated with the same key as the signature
@@ -356,4 +356,3 @@ meet the requirements for a lower assurance level.
 |SOME confidence|PKI-CAK|PKI-CAK|
 |HIGH confidence|BIO||
 |VERY HIGH confidence|BIO-A, OCC-AUTH, PKI-AUTH|PKI-AUTH|
-
