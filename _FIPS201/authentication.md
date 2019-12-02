@@ -124,7 +124,7 @@ The following steps SHALL be performed for unattended authentication of biometri
     from the CHUID if the signature on the biometric data record was generated with the same key as the signature
     on the CHUID.
 - The cardholder is prompted to perform a biometric capture process to create a new biometric sample.
-- If the new biometric sample elicits a positive biometric verification decision when compared to the biometric data record read from the card, the cardholder is authenticated to
+- If the new biometric sample elicits a positive biometric verification decision, the cardholder is authenticated to
     be the owner of the card.
 - The FASC-N (or UUID) in the CHUID or other data element is compared with the FASC-N (or
     UUID) in the Signed Attributes field of the external digital signature in the biometric data record.
@@ -355,4 +355,3 @@ meet the requirements for a lower assurance level.
 |SOME confidence|PKI-CAK|PKI-CAK|
 |HIGH confidence|BIO||
 |VERY HIGH confidence|BIO-A, OCC-AUTH, PKI-AUTH|PKI-AUTH|
-
