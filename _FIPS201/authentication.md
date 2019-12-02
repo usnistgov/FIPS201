@@ -92,7 +92,7 @@ authentication mechanisms that may be applied to a particular situation.
 
 ### 6.2.1 Authentication Using Off-Card Biometric Comparison {#s-6-2-1}
 
-The PIV Card Application hosts the signed fingerprint templates, signed electronic facial image, and, optionally, the signed iris images.
+The PIV Card Application hosts signed fingerprint templates, a signed electronic facial image, and, optionally, signed iris images.
 These biometrics can be read from the card following cardholder-to-card (CTC) authentication using a PIN
 supplied by the cardholder. These PIV biometrics are designed to support a cardholder-to-external
 system (CTE) authentication mechanism through a match-off-card scheme. The following subsections
