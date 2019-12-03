@@ -127,9 +127,9 @@ defined in [[OMB0404]](references.md#ref-OMB0404) and [[SP 800-63]](references.m
 - Level 3: HIGH confidence
 - Level 4: VERY HIGH confidence
 
-Enrollment Data Record
-: A data record attributed to a biometric data subject containing non-biometric 
-data and associated with biometric reference identifier(s). [[ISO2382-37]](references.md#ref-ISO/IEC-2382-37) 
+Enrollment Data Set
+: A record including information about a biometric enrollment: name and role of
+the acquiring agent, office and organization, time, place, and acquisition method.
 
 Federal Agency Smart Credential Number (FASC-N)
 : As required by FIPS 201, one of the primary
@@ -153,9 +153,8 @@ hash functions [[FIPS180]](references.md#ref-FIPS180) satisfy the following prop
     the same output.
 
 Identification
-: Process of searching against a biometric enrollment database to find and 
-return the biometric reference identifier(s) attribute to a single individual. 
-[[ISO2382-37]](references.md#ref-ISO/IEC-2382-37) 
+: The process of discovering the identity (i.e., origin, initial history) of a person or item
+from the entire collection of similar persons or items.
 
 Identifier
 : Unique data used to represent a person's identity and associated attributes. A name or a card
