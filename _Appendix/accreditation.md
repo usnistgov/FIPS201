@@ -91,13 +91,12 @@ and NVLAP programs and the list of testing laboratories can be found at the CMVP
 
 ## A.5 FIPS 201 Evaluation Program {#s-a-5}
 
-In order to evaluate the conformance of different families of products that support the PIV processes to
-this Standard and its associated technical specifications, the Office of Governmentwide Policy under GSA
-set up the FIPS 201 Evaluation Program. The product families currently include card personalization
-products, card readers, products involved in credential enrollment functions such as fingerprint and electronic facial
-image capture equipment, biometric fingerprint template generators, etc. Products evaluated and
-approved under this program are placed on the FIPS 201 Approved Products List to enable procurement
+In order to evaluate the conformance of specialized products that support the PIV functionality to
+this Standard and its associated technical specifications, GSA
+established the FIPS 201 Evaluation Program. The product families may include
+the card products tested under the PIV Validation Program, physical access control systems, or other products as needed. Products evaluated and
+approved under this process are placed on the FIPS 201 Approved Products List to promote procurement
 of conformant products by implementing agencies. The details of the program are available at
-[http://fips201ep.cio.gov/.](http://fips201ep.cio.gov/.)
+[https://www.idmanagement.gov/](https://www.idmanagement.gov/).
 
 
