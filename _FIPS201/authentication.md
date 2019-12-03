@@ -123,7 +123,7 @@ The following steps SHALL be performed for unattended authentication of biometri
     source. Note that the signature verification may require retrieval of the content signing certificate
     from the CHUID if the signature on the biometric data record was generated with the same key as the signature
     on the CHUID.
-- The cardholder is prompted to perform a biometric capture process to create a new biometric sample.
+- The cardholder is prompted to capture a new biometric sample.
 - If the new biometric sample elicits a positive biometric verification decision, the cardholder is authenticated to
     be the owner of the card.
 - The FASC-N (or UUID) in the CHUID or other data element is compared with the FASC-N (or
