@@ -149,7 +149,7 @@ The response includes information that allows the reader to authenticate the car
 cardholder PIN is not required for this operation. The PIV Card SHALL include a mechanism to block this
 authentication mechanism after a number of consecutive failed authentication attempts as stipulated by
 the department or agency. As with BIO, if agencies choose to
-implement fingerprint on-card one-to-one comparisons, it SHALL be implemented as defined in [[SP 800-73]](../_Appendix/references.md#ref-SP-800-73) and
+implement on-card fingerprint one-to-one comparisons, it SHALL be implemented as defined in [[SP 800-73]](../_Appendix/references.md#ref-SP-800-73) and
 [[SP 800-76]](../_Appendix/references.md#ref-SP-800-76).
 
 Some of the characteristics of OCC-AUTH are as follows:
