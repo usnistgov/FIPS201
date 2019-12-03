@@ -90,12 +90,12 @@ environments that are equipped with card readers as well as those that lack card
 when present, can be contact readers or contactless readers. The usage environment affects the PIV
 authentication mechanisms that may be applied to a particular situation.
 
-### 6.2.1 Authentication Using Off-Card One-to-One Comparison {#s-6-2-1}
+### 6.2.1 Authentication Using Off-Card Biometric One-to-One Comparison {#s-6-2-1}
 
 The PIV Card Application hosts the signed fingerprint biometric templates and, optionally, the signed iris images.
 Either mode of biometric data record can be read from the card following cardholder-to-card (CTC) authentication using a PIN
 supplied by the cardholder. This biometric data record is designed to support a cardholder-to-external
-system (CTE) authentication mechanism through an off-card one-to-one comparison scheme. The following subsections
+system (CTE) authentication mechanism through an off-card biometric one-to-one comparison scheme. The following subsections
 define two authentication schemes that make use of biometric data records.[^bioreaders]
 
 Some characteristics of the biometric verification mechanisms (described below) are as follows:
@@ -139,7 +139,7 @@ In this higher assurance variant, an attendant (e.g., security guard) supervises
 the submission of the new biometric sample by the cardholder. Otherwise, the steps for this authentication mechanism
 are the same as in [Section 6.2.1.1](#s-6-2-1-1).
 
-### 6.2.2 Authentication Using On-Card One-to-One Comparison (OCC-AUTH) {#s-6-2-2}
+### 6.2.2 Authentication Using On-Card Biometric One-to-One Comparison (OCC-AUTH) {#s-6-2-2}
 
 The PIV Card Application MAY host an optional on-card fingerprint one-to-one comparison algorithm. In this case,
 on-card fingerprint one-to-one comparison data is stored on the card, which cannot be read, but could be used for
