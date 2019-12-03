@@ -430,7 +430,7 @@ This Standard also defines optional data elements for the PIV data model. These 
 include:
 
 - one or two iris images;
-- one or two fingerprint biometric templates for on-card comparison;
+- one or two fingerprint biometric templates for on-card  one-to-one comparison;
 - a symmetric Card Authentication key for supporting physical access applications; and
 - a symmetric PIV Card Application Administration key associated with the card management system.
 
@@ -446,7 +446,7 @@ PIV logical credentials fall into the following three categories:
 
 The PIN falls into the first category, the PIV Card Application Administration Key into the second
 category, and the biometric data records, symmetric keys, and asymmetric keys into the third.
-The fingerprint biometric templates for on-card comparison fall into the first and third categories.
+The fingerprint biometric templates for on-card one-to-one comparison fall into the first and third categories.
 
 ### 4.2.1 Cardholder Unique Identifier (CHUID) {#s-4-2-1}
 
@@ -629,7 +629,7 @@ The following biometric data SHALL be stored on the PIV Card:
 The following biometric data MAY also be stored on the PIV Card:
 
 - One or two iris images.
-- Fingerprint biometric templates for on-card comparison.[^fingerprints]
+- Fingerprint biometric templates for on-card one-to-one comparison.[^fingerprints]
 
 All biometric data SHALL be stored in the data elements referenced by [[SP 800-73]](../_Appendix/references.md#ref-SP-800-73) and in conformance
 with the preparation and formatting specifications of [[SP 800-76]](../_Appendix/references.md#ref-SP-800-76).
@@ -638,7 +638,7 @@ with the preparation and formatting specifications of [[SP 800-76]](../_Appendix
 
 #### 4.2.3.2 Biometric Data Record Protection {#s-4-2-3-2}
 
-The integrity of all biometric data records, except for fingerprint biometric templates for on-card comparison, SHALL be
+The integrity of all biometric data records, except for fingerprint biometric templates for on-card one-to-one comparison, SHALL be
 protected using digital signatures as follows. The records SHALL be prepended with a Common Biometric
 Exchange Formats Framework (CBEFF) header (referred to as CBEFF_HEADER) and appended with the
 CBEFF signature block (referred to as the CBEFF_SIGNATURE_BLOCK) [[CBEFF]](../_Appendix/references.md#ref-CBEFF).
@@ -780,5 +780,4 @@ compromising or otherwise exploiting the PIV Card. General good practice to miti
 threats is outside the scope of this document.[^maliciouscode]
 
 [^maliciouscode]: See SP 800-53, *Recommended Security Controls for Federal Information Systems and Organizations* [[SP 800-53]](../references/#ref-SP-800-53){:.footnote-ref}.
-
 
