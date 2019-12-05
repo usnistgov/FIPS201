@@ -378,9 +378,6 @@ FIPS
 FIPS
 : PUB FIPS Publication
 
-FISMA
-: Federal Information Security Management Act
-
 GSA
 : U.S. General Services Administration
 
