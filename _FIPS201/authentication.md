@@ -98,7 +98,7 @@ supplied by the cardholder. This biometric data record is designed to support a 
 system (CTE) authentication mechanism through an off-card biometric one-to-one comparison scheme. The following subsections
 define two authentication schemes that make use of biometric data records.[^bioreaders]
 
-Some characteristics of the biometric verification mechanisms (described below) are as follows:
+Some characteristics of the authentication mechanisms using biometric data (described below) are as follows:
 
 - Strong resistance to use of unaltered card by non-owner since PIN and cardholder biometric characteristics are
     required.
