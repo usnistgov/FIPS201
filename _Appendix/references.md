@@ -14,6 +14,8 @@ permalink: /references/
 [[CBEFF]](#ref-CBEFF){:name="ref-CBEFF"} NISTIR 6529-A, *Common Biometric Exchange Formats Framework (CBEFF)*, NIST,
 2003.
 
+[[CDS]](#ref-CDS){:name="ref-CDS"} *DL/ID Card Design Standard*, American Association of Motor Vehicle Adminstrators, September, 2016. Available at [https://www.aamva.org/DL-ID-Card-Design-Standard/](https://www.aamva.org/DL-ID-Card-Design-Standard/)
+
 [[COMMON]](#ref-COMMON){:name="ref-COMMON"} *X.509 Certificate Policy for the U.S. Federal PKI Common Policy Framework*,
 Version 1.21, December 18, 2012, or as amended. Available at
 [http://idmanagement.gov/documents/common-policy-framework-certificate-policy.](http://idmanagement.gov/documents/common-policy-framework-certificate-policy)

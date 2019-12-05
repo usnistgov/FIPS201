@@ -38,27 +38,23 @@ with the contact and contactless ICC(s) and related components, nor SHALL it obs
 
 ### 4.1.2 Tamper Proofing and Resistance {#s-4-1-2}
 
-The PIV Card SHALL contain security features that aid in reducing counterfeiting, are resistant to tampering,
-and provide visual evidence of tampering attempts. At a minimum, a PIV Card SHALL incorporate one such
-security feature. Examples of these security features include the following:
+To combat counterfeiting and alterations, the PIV Card SHALL contain security features outlined in the American Association of Motor Vehicle Association’s (AAMVA) Drivers License/Identification Card (DL/ID) Card Design Standard [[CDS]](../_Appendix/references.md#ref-CDS). The Card Design Standard classifies security features into three categories, depending on the security level required for verification:
 
-- optical varying structures;
-- optical varying inks;
-- laser etching and engraving;
-- holograms;
-- holographic images; and
-- watermarks.
+- **Level 1** - First line of inspection:  Security features that can be examined without tools or aids that involves easily identifiable visual or tactile features for rapid inspection at point of usage (e.g.embossed surface pattern, optically variable device (such as a hologram), or color shifting inks). 
 
-Incorporation of security features SHALL—
+- **Level 2** - Second line of inspection: Security features that require the use of a tool or instrument (e.g., UV light, magnifying glass, or scanner) to discern the feature. Level two sample security features include microtext, UV fluorescent images and IR-fluorescent ink. 
 
+- **Level 3** - Third line of inspection: Security features inspected by forensic specialists to conduct in-depth examination that may require special equipment to provide true certification.  Nano and micro images and chemical taggants, are examples of level 3 security features.
+
+A PIV Card SHALL incorporate at least one security feature at inspection level 1 or inspection level 2.  Federal departments and agencies are strongly encouraged to incorporate additional security features and to include all three inspection levels.
+
+Incorporation of security features SHALL:
 - be in accordance with durability requirements;
 - be free of defects, such as fading and discoloration;
 - not obscure printed information; and
 - not impede access to machine-readable information.
 
-Departments and agencies MAY incorporate additional tamper-resistance and anti-counterfeiting methods.
-As a generally accepted security procedure, Federal departments and agencies are strongly encouraged to
-periodically review the viability, effectiveness, and currency of employed tamper resistance and anti-counterfeiting methods.
+All security features SHOULD maintain their function for the life of the card. As a generally accepted security procedure, Federal departments and agencies are strongly encouraged to periodically review the viability, effectiveness, and currency of employed tamper resistance and anticounterfeiting methods.
 
 ### 4.1.3 Physical Characteristics and Durability {#s-4-1-3}
 
