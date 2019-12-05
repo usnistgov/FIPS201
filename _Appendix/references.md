@@ -21,7 +21,7 @@ Version 1.31, February 8, 2019, or as amended. Available at
 [[E-Gov]](#ref-E-Gov){:name="ref-E-Gov"} *E-Government Act of 2002*, U.S. Public Law 107-347, 2002.
 
 [[FIPS140]](#ref-FIPS140){:name="ref-FIPS140"} FIPS Publication 140-3, *Security Requirements for Cryptographic Modules*, NIST,
-MArch 22, 2019, or as amended. Available at [https://doi.org/10.6028/NIST.FIPS.140-3](https://doi.org/10.6028/NIST.FIPS.140-3).
+March 22, 2019, or as amended. Available at [https://doi.org/10.6028/NIST.FIPS.140-3](https://doi.org/10.6028/NIST.FIPS.140-3).
 
 [[FIPS180]](#ref-FIPS180){:name="ref-FIPS180"} FIPS Publication 180-4, *Secure Hash Standard (SHS)*, August 2015, or as amended.
 Available at [http://dx.doi.org/10.6028/NIST.FIPS.180-4](http://dx.doi.org/10.6028/NIST.FIPS.180-4).
@@ -105,7 +105,7 @@ Revocation List (CRL) Profile*, IETF, May 2008. Available at [https://www.ietf.o
 at [https://www.ietf.org/rfc/rfc5652.txt](https://www.ietf.org/rfc/rfc5652.txt).
 
 [[RFC8485]](#ref-RFC8485){:name="ref-RFC8485"} RFC 8485, *Vectors of Trust*, IETF, October 2018. Available at
-[https://www.ietf.org/rfc/rfc8485.txt](https://www.ietf.org/rfc8485.txt).
+[https://www.ietf.org/rfc/rfc8485.txt](https://www.ietf.org/rfc/rfc8485.txt).
 
 [[SAML-AC]](#ref-SAML-AC){:name="ref-SAML-AC"} Authentication Context for the OASISSecurity Assertion Markup Language(SAML) V2.0, OASIS, March 2005.
 Available at [https://docs.oasis-open.org/security/saml/v2.0/saml-authn-context-2.0-os.pdf](https://docs.oasis-open.org/security/saml/v2.0/saml-authn-context-2.0-os.pdf).
