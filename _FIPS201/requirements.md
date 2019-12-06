@@ -522,7 +522,7 @@ the following requirements are met:
   * the cardholder initiates a PIN reset with the issuer operator;
   * the operator authenticates the owner of the PIV Card through an independent
   procedure; and
-  * the cardholder's biometric matches the stored biometric on the PIV Card through a 1:1 on-card biometric comparison.
+  * the cardholder's fingerprint matches the stored fingerprint template on the PIV Card through a 1:1 on-card biometric comparison.
 
 The remote PIN reset operation SHALL satisfy the requirements for remote post issuance updates
 specified in [Section 2.9.2](requirements.md#s-2-9-2).
