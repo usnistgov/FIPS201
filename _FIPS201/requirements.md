@@ -298,9 +298,9 @@ Supervised remote identity proofing SHALL meet the following requirements:
 * The operator SHALL require that all validation of evidence (e.g., via chip or wireless technologies or through inspection of document security features) be performed using integrated scanners and sensors.
 * The issuer SHALL ensure that all communications occur over a mutually authenticated protected channel.
 
-If biometric information cannot be collected as per the criteria defined in [[SP 800-76]](../_Appendix/references.md#ref-SP-800-76) or if validation of the identity evidence is inadequate, supervised remote identity proofing SHALL NOT be used and the identity proofing and enrollment shall be performed in person at the issuer’s facility.
+If biometric information cannot be collected as per the criteria defined in [[SP 800-76]](../_Appendix/references.md#ref-SP-800-76) or if validation of the identity evidence is inadequate, supervised remote identity proofing SHALL NOT be used and the identity proofing and enrollment shall be performed in person at an issuing facility.
 The trained operator SHALL terminate a supervised remote identity proofing
-session and require in-person identity proofing at the issuer's facility if
+session and require in-person identity proofing at an issuing facility if
 there is reasonable basis to believe[^believe] that the applicant is attempting
 to bypass protection capabilities of the station. 
 
@@ -506,10 +506,10 @@ management key, was compromised, the corresponding certificate SHALL be revoked.
 The Personal Identification Number (PIN) on a PIV Card may need to be reset if the cardholder has
 forgotten the PIN or if PIN-based cardholder authentication has been disabled from the usage of an
 invalid PIN more than the allowed number of retries. A maximum of ten consecutive PIN retries SHALL be permitted unless a lower limit is stipulated by the department or agency.[^pinreset] PIN reset
-may be performed in-person at the issuer's facility, at an unattended kiosk operated by the issuer, or
+may be performed in-person at an issuing facility, at an unattended kiosk operated by the issuer, or
 remotely via a general computing platform:
 
-+ When PIN reset is performed in-person at the issuer's facility, before providing the reset PIV Card
++ When PIN reset is performed in-person at an issuing facility, before providing the reset PIV Card
 back to the cardholder, the issuer SHALL perform a 1:1 biometric match to ensure that the cardholder's
 biometric matches either the stored biometric on the PIV Card or biometric data stored in the chain-of-trust. In cases where a biometric match is not possible, the cardholder SHALL provide the PIV Card
 to be reset and another primary identity source document (as specified in [Section 2.7](requirements.md#s-2-7)). An attending
