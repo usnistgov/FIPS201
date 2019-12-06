@@ -28,7 +28,7 @@ Policy for the U.S. Federal PKI Common Policy Framework* [[COMMON]](../_Appendix
 certificate policy cover identity proofing and the management of CAs and registration authorities. CAs
 and registration authorities MAY be operated by departments and agencies, or MAY be outsourced to PKI
 service providers. For a list of PKI service providers that have been approved to operate under
-[[COMMON]](../_Appendix/references.md#ref-COMMON), see [http://www.idmanagement.gov.](http://www.idmanagement.gov)
+[[COMMON]](../_Appendix/references.md#ref-COMMON), see [https://www.idmanagement.gov.](https://www.idmanagement.gov)
 
 ### 5.2.1 X.509 Certificate Contents {#s-5-2-1}
 

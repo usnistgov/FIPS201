@@ -62,9 +62,9 @@ person not entitled to the credential.
 Federal departments and agencies SHALL use the credentialing guidance issued by the Director of the Office
 of Personnel Management (OPM)[^OPM] and OMB[^OMB].
 
-[^OPM]: For example, [[SPRINGER MEMO]](../references/#ref-SPRINGER MEMO){:.footnote-ref} at [http://www.opm.gov/investigate/resources/final_credentialing_standards.pdf](http://www.opm.gov/investigate/resources/final_credentialing_standards.pdf) and the Federal Investigative Standards 5.
+[^OPM]: For example, [[FCS]](../references/#ref-FCS){:.footnote-ref} and the Federal Investigative Standards 5.
 
-[^OMB]: For example, [[OMB0524]](../references/#ref-OMB0524){:.footnote-ref} at [http://www.whitehouse.gov/sites/default/files/omb/memoranda/fy2005/m05-24.pdf](http://www.whitehouse.gov/sites/default/files/omb/memoranda/fy2005/m05-24.pdf).
+[^OMB]: For example, [[OMB0524]](../references/#ref-OMB0524){:.footnote-ref}.
 
 ## 2.3 Biometric Data Collection for Background Investigations {#s-2-3}
 
@@ -299,6 +299,12 @@ Supervised remote identity proofing SHALL meet the following requirements:
 * The issuer SHALL ensure that all communications occur over a mutually authenticated protected channel.
 
 If biometric data cannot be collected as per the criteria defined in [[SP 800-76]](../_Appendix/references.md#ref-SP-800-76) or if validation of the identity evidence is inadequate, supervised remote identity proofing SHALL NOT be used and the identity proofing and enrollment shall be performed in person at the issuer’s facility.
+The trained operator SHALL terminate a supervised remote identity proofing
+session and require in-person identity proofing at the issuer's facility if
+there is reasonable basis to believe[^believe] that the applicant is attempting
+to bypass protection capabilities of the station. 
+
+[^believe]: A reasonable basis to believe occurs when a disinterested observer, with knowledge of the same facts and circumstances, would reasonably reach the same conclusion.
 
 ## 2.8 PIV Card Issuance Requirements {#s-2-8}
 
