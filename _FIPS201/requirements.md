@@ -130,6 +130,9 @@ The electronic facial image:
 
 + SHALL be printed on the PIV Card according to [Section 4.1.4.1](frontend.md#s-4-1-4-1);
 
++ MAY be retrieved and displayed on guard workstations to augment 
+  authentication processes from [Section 6.2](authentication.md#s-6-2).
+
 + MAY be used for automated facial authentication in operator-attended PIV issuance, reissuance, and
 verification data reset processes; and
 
