@@ -152,7 +152,7 @@ the department or agency. As with BIO, if agencies choose to
 implement on-card fingerprint one-to-one comparisons, it SHALL be implemented as defined in [[SP 800-73]](../_Appendix/references.md#ref-SP-800-73) and
 [[SP 800-76]](../_Appendix/references.md#ref-SP-800-76).
 
-Some of the characteristics of OCC-AUTH are as follows:
+Some of the characteristics of OCC authentication are as follows:
 
 - Highly resistant to credential forgery.
 - Strong resistance to use of unaltered card by non-owner.
