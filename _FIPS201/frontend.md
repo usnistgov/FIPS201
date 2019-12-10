@@ -412,7 +412,7 @@ mechanisms interoperable across agencies:
 - a PIN;
 - a CHUID;
 - PIV authentication data (one asymmetric private key and corresponding certificate);
-- two fingerprint templates;
+- two fingerprint biometric templates;
 - an electronic facial image; and
 - card authentication data (one asymmetric private key and corresponding certificate).
 
@@ -426,7 +426,7 @@ This Standard also defines optional data elements for the PIV data model. These 
 include:
 
 - one or two iris images;
-- one or two fingerprint templates for on-card comparison;
+- one or two fingerprint biometric templates for on-card  one-to-one comparison;
 - a symmetric Card Authentication key for supporting physical access applications; and
 - a symmetric PIV Card Application Administration key associated with the card management system.
 
@@ -441,8 +441,8 @@ PIV logical credentials fall into the following three categories:
     (CTE authentication) such as a host computer system.
 
 The PIN falls into the first category, the PIV Card Application Administration Key into the second
-category, and the biometric credentials, symmetric keys, and asymmetric keys into the third.
-The fingerprint templates for on-card comparison fall into the first and third categories.
+category, and the biometric data records, symmetric keys, and asymmetric keys into the third.
+The fingerprint biometric templates for on-card one-to-one comparison fall into the first and third categories.
 
 ### 4.2.1 Cardholder Unique Identifier (CHUID) {#s-4-2-1}
 
@@ -611,38 +611,38 @@ key management keys.
 [^backgroundstatus]: Other methods to indicate background investigative status will be explored in a future revision of this Standard.
 [^cardholderauthentication]: [[NISTIR7863]](../references/#ref-NISTIR7863){:.footnote-ref}, *Cardholder Authentication for the PIV Digital Signature Key*, addresses the appropriate use of PIN caching related to digital signatures.
 
-### 4.2.3 PIV Biometric Data Specifications {#s-4-2-3}
+### 4.2.3 Biometric Data Specifications {#s-4-2-3}
 
 #### 4.2.3.1 Biometric Data Representation {#s-4-2-3-1}
 
 The following biometric data SHALL be stored on the PIV Card:
 
-- Two fingerprint templates. If no fingerprint images meeting the quality criteria of [[SP 800-76]](../_Appendix/references.md#ref-SP-800-76) are
-    available, the PIV Card SHALL nevertheless be populated with fingerprint records as specified in
+- Two fingerprint biometric templates. If no fingerprint images meeting the quality criteria of [[SP 800-76]](../_Appendix/references.md#ref-SP-800-76) are
+    available, the PIV Card SHALL nevertheless be populated with fingerprint biometric templates as specified in
     [[SP 800-76]](../_Appendix/references.md#ref-SP-800-76).
 - An electronic facial image.
 
 The following biometric data MAY also be stored on the PIV Card:
 
 - One or two iris images.
-- Fingerprint templates for on-card comparison.[^fingerprints]
+- Fingerprint biometric templates for on-card one-to-one comparison.[^fingerprints]
 
 All biometric data SHALL be stored in the data elements referenced by [[SP 800-73]](../_Appendix/references.md#ref-SP-800-73) and in conformance
 with the preparation and formatting specifications of [[SP 800-76]](../_Appendix/references.md#ref-SP-800-76).
 
-[^fingerprints]: The on-card and off-card fingerprint reference data are stored separately and, as conformant instances of different formal fingerprint standards, are syntactically different. This is described more fully in [[SP 800-76]](../references/#ref-SP-800-76){:.footnote-ref}.
+[^fingerprints]: The on-card and off-card fingerprint biometric data records are stored separately and, as conformant instances of different formal fingerprint template standards, are syntactically different. This is described more fully in [[SP 800-76]](../references/#ref-SP-800-76){:.footnote-ref}.
 
-#### 4.2.3.2 Biometric Data Protection {#s-4-2-3-2}
+#### 4.2.3.2 Biometric Data Record Protection {#s-4-2-3-2}
 
-The integrity of all biometric data, except for fingerprint templates for on-card comparison, SHALL be
+The integrity of all biometric data records, except for fingerprint biometric templates for on-card one-to-one comparison, SHALL be
 protected using digital signatures as follows. The records SHALL be prepended with a Common Biometric
 Exchange Formats Framework (CBEFF) header (referred to as CBEFF_HEADER) and appended with the
 CBEFF signature block (referred to as the CBEFF_SIGNATURE_BLOCK) [[CBEFF]](../_Appendix/references.md#ref-CBEFF).
 
 The format for a CBEFF_HEADER is specified in [[SP 800-76]](../_Appendix/references.md#ref-SP-800-76).
 
-The CBEFF_SIGNATURE_BLOCK contains the digital signature of the biometric data and thus
-facilitates the verification of integrity of the biometric data. The CBEFF_SIGNATURE_BLOCK SHALL be
+The CBEFF_SIGNATURE_BLOCK contains the digital signature of the biometric data record and thus
+facilitates the verification of integrity of the biometric data record. The CBEFF_SIGNATURE_BLOCK SHALL be
 encoded as a CMS external digital signature as specified in [[SP 800-76]](../_Appendix/references.md#ref-SP-800-76). The algorithm and key size
 requirements for the digital signature and digest algorithm are detailed in [[SP 800-78]](../_Appendix/references.md#ref-SP-800-78).
 
@@ -651,26 +651,26 @@ SHALL be contained in a content signing certificate, which SHALL be issued under
 or id-fpki-common-High policy of [[COMMON]](../_Appendix/references.md#ref-COMMON).[^crosscert] For signatures created on or after October 15, 2015,
 the public key required to verify the digital signature SHALL be contained in a content signing certificate,
 which SHALL be issued under the id-fpki-common-piv-contentSigning policy of [[COMMON]](../_Appendix/references.md#ref-COMMON). The content
-signing certificate SHALL also include an extended key usage (*extKeyUsage*) extension asserting id-PIV-content-signing. If the signature on the biometric was generated with a different key than the signature on
+signing certificate SHALL also include an extended key usage (*extKeyUsage*) extension asserting id-PIV-content-signing. If the signature on the biometric data record was generated with a different key than the signature on
 the CHUID, the certificates field of the CMS external digital signature SHALL include the content signing
-certificate required to verify the signature on the biometric. Otherwise, the *certificates* field SHALL be
+certificate required to verify the signature on the biometric data record. Otherwise, the *certificates* field SHALL be
 omitted. Additional descriptions for the PIV object identifiers are provided in Appendix B. The content
 signing certificate on a valid PIV Card (one that is neither expired nor revoked) SHALL NOT be expired.
 
 [^crosscert]: For legacy PKIs, as defined in [Section 5.4](../keymanagement/#s-5-4){:.footnote-ref}, the certificates MAY be issued under a department or agency-specific policy that has been cross-certified with the Federal Bridge CA (FBCA) at the Medium Hardware or High Assurance Level.
 
-#### 4.2.3.3 Biometric Data Access {#s-4-2-3-3}
+#### 4.2.3.3 Biometric Data Record Access {#s-4-2-3-3}
 
-The PIV biometric data, except for fingerprint templates for on-card comparison, that is stored on the card
+The biometric data records, except for fingerprint biometric templates for on-card comparison, that is stored on the card
 
 - SHALL be readable through the contact interface and after the presentation of a valid PIN; and
 - MAY optionally be readable through the virtual contact interface and after the presentation of a valid
     PIN.
 
-On-card biometric comparison MAY be performed over the contact and the contactless interfaces of the
+OCC MAY be performed over the contact and the contactless interfaces of the
 PIV Card to support card activation ([Section 4.3.1](frontend.md#s-4-3-1)) and cardholder authentication ([Section 6.2.2](authentication.md#s-6-2-2)). The
-fingerprint templates for on-card comparison SHALL NOT be exportable. If implemented, on-card biometric
-comparison SHALL be implemented and used in accordance with [[SP 800-73]](../_Appendix/references.md#ref-SP-800-73) and [[SP 800-76]](../_Appendix/references.md#ref-SP-800-76).
+fingerprint biometric templates for on-card comparison SHALL NOT be exportable. If implemented, OCC
+SHALL be implemented and used in accordance with [[SP 800-73]](../_Appendix/references.md#ref-SP-800-73) and [[SP 800-76]](../_Appendix/references.md#ref-SP-800-76).
 
 ### 4.2.4 PIV Unique Identifiers {#s-4-2-4}
 
@@ -769,12 +769,11 @@ access (e.g., to authenticate to a Web site or other server), the input device i
 with the PIV Card reader. If the input device is not integrated with the PIV Card reader, the OCC data or
 the PIN SHALL be transmitted securely and directly to the PIV Card for card activation.
 
-The specifications for fingerprint capture devices for on-card comparison are given in [[SP 800-76]](../_Appendix/references.md#ref-SP-800-76).
+The specifications for fingerprint biometric capture devices for on-card one-to-one comparisons are given in [[SP 800-76]](../_Appendix/references.md#ref-SP-800-76).
 
-Malicious code could be introduced into the PIN capture and biometric reader devices for the purpose of
+Malicious code could be introduced into the PIN capture and biometric capture devices for the purpose of
 compromising or otherwise exploiting the PIV Card. General good practice to mitigate malicious code
 threats is outside the scope of this document.[^maliciouscode]
 
 [^maliciouscode]: See SP 800-53, *Recommended Security Controls for Federal Information Systems and Organizations* [[SP 800-53]](../references/#ref-SP-800-53){:.footnote-ref}.
-
 

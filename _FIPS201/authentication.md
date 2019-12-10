@@ -90,70 +90,69 @@ environments that are equipped with card readers as well as those that lack card
 when present, can be contact readers or contactless readers. The usage environment affects the PIV
 authentication mechanisms that may be applied to a particular situation.
 
-### 6.2.1 Authentication Using Off-Card Biometric Comparison {#s-6-2-1}
+### 6.2.1 Authentication Using Off-Card Biometric One-to-One Comparison {#s-6-2-1}
 
-The PIV Card Application hosts signed fingerprint templates, a signed electronic facial image, and, optionally, signed iris images.
-These biometrics can be read from the card following cardholder-to-card (CTC) authentication using a PIN
-supplied by the cardholder. These PIV biometrics are designed to support a cardholder-to-external
-system (CTE) authentication mechanism through a match-off-card scheme. The following subsections
-define two authentication schemes that make use of the PIV biometrics.[^bioreaders]
+The PIV Card Application hosts the signed fingerprint biometric templates and, optionally, the signed iris images.
+Either mode of biometric data record can be read from the card following cardholder-to-card (CTC) authentication using a PIN
+supplied by the cardholder. This biometric data record is designed to support a cardholder-to-external
+system (CTE) authentication mechanism through an off-card biometric one-to-one comparison scheme. The following subsections
+define two authentication schemes that make use of biometric data records.[^bioreaders]
 
-Some characteristics of the PIV Biometrics authentication mechanisms (described below) are as follows:
+Some characteristics of the authentication mechanisms using biometric data (described below) are as follows:
 
-- Strong resistance to use of unaltered card by non-owner since PIN and cardholder biometric are
+- Strong resistance to use of unaltered card by non-owner since PIN and cardholder biometric characteristics are
     required.
-- Digital signature on biometric, which is checked to further strengthen the mechanism.
-- Slower mechanism, because it requires two interactions (e.g., presentation of PIN and biometric) with
+- Digital signature on biometric data records, which is checked to further strengthen the mechanism.
+- Slower mechanism, because it requires two interactions (e.g., presentation of PIN and acquisition of a biometric sample) with
     the cardholder.
 - Does not provide protection against use of a revoked card.
 - Applicable with contact card readers, and contactless card readers that support the virtual contact
     interface.
 
-[^bioreaders]: As noted in [Section 4.2.3.1](../frontend/#s-4-2-3-1){:.footnote-ref}, neither the fingerprint templates nor the iris images are guaranteed to be present on a PIV Card, since it may not be possible to collect fingerprints from some cardholders and iris images collection is optional. When biometric authentication cannot be performed, PKI-AUTH is the recommended alternate authentication mechanism.
+[^bioreaders]: As noted in [Section 4.2.3.1](../frontend/#s-4-2-3-1){:.footnote-ref}, fingerprint biometric templates are not guaranteed to contain biometric characteristic data, since it may not be possible to collect fingerprints from some cardholders. Additionally, iris images are not guaranteed to be present on a PIV Card, since iris image collection is optional. When biometric verification cannot be performed, PKI-AUTH is the recommended alternate authentication mechanism.
 
+#### 6.2.1.1 Unattended Authentication Using Biometric Data (BIO) {#s-6-2-1-1}
 
-#### 6.2.1.1 Unattended Authentication Using PIV Biometric (BIO) {#s-6-2-1-1}
-
-The following steps SHALL be performed for unattended authentication of the PIV biometric:
+The following steps SHALL be performed for unattended authentication of biometric data:
 
 - The CHUID or another data element[^expired] is read from the card and is checked to ensure the card has not
     expired and that it is from a trusted source.
 - The cardholder is prompted to submit a PIN, activating the PIV Card.
-- The PIV fingerprint templates, iris images, or electronic facial image are read from the card.
-- The signature on the biometric is verified to ensure the biometric is intact and comes from a trusted
+- Biometric data record is read from the card.
+- The signature on the biometric data record is verified to ensure the biometric data record is intact and comes from a trusted
     source. Note that the signature verification may require retrieval of the content signing certificate
-    from the CHUID if the signature on the biometric was generated with the same key as the signature
+    from the CHUID if the signature on the biometric data record was generated with the same key as the signature
     on the CHUID.
-- The cardholder is prompted to submit a live biometric sample.
-- If the biometric sample matches the biometric read from the card, the cardholder is authenticated to
+- The cardholder is prompted to capture a new biometric sample.
+- If the new biometric sample elicits a positive biometric verification decision, the cardholder is authenticated to
     be the owner of the card.
 - The FASC-N (or UUID) in the CHUID or other data element is compared with the FASC-N (or
-    UUID) in the Signed Attributes field of the external digital signature on the biometric.
+    UUID) in the Signed Attributes field of the external digital signature in the biometric data record.
 - A unique identifier within the CHUID or other data element is used as input to the authorization
 check to determine whether the cardholder should be granted access.
 
 [^expired]: The PIV Authentication certificate or Card Authentication certificate may be leveraged instead of the CHUID to verify that the card is not expired.
 
-#### 6.2.1.2 Attended Authentication of PIV Biometric (BIO-A) {#s-6-2-1-2}
+#### 6.2.1.2 Attended Authentication of Biometric Data (BIO-A) {#s-6-2-1-2}
 
 In this higher assurance variant, an attendant (e.g., security guard) supervises the use of the PIV Card and
-the submission of the biometric by the cardholder. Otherwise, the steps for this authentication mechanism
-are the same as for the unattended biometric (BIO) authentication mechanism.
+the submission of the new biometric sample by the cardholder. Otherwise, the steps for this authentication mechanism
+are the same as in [Section 6.2.1.1](#s-6-2-1-1).
 
-### 6.2.2 Authentication Using On-Card Biometric Comparison (OCC-AUTH) {#s-6-2-2}
+### 6.2.2 Authentication Using On-Card Biometric One-to-One Comparison (OCC-AUTH) {#s-6-2-2}
 
-The PIV Card Application MAY host an optional on-card biometric comparison algorithm. In this case,
-on-card biometric comparison data is stored on the card, which cannot be read, but could be used for
-identity verification. A fingerprint template is supplied to the card to perform cardholder-to-card (CTC)
-authentication and the card responds with an indication of the success of the on-card biometric
-comparison. The response includes information that allows the reader to authenticate the card. The
+The PIV Card Application MAY host an optional on-card fingerprint one-to-one comparison algorithm. In this case,
+on-card fingerprint one-to-one comparison data is stored on the card, which cannot be read, but could be used for
+biometric verification. A fingerprint biometric template is supplied to the card to perform cardholder-to-card (CTC)
+authentication and the card responds with an positive or negative biometric verification decision.
+The response includes information that allows the reader to authenticate the card. The
 cardholder PIN is not required for this operation. The PIV Card SHALL include a mechanism to block this
 authentication mechanism after a number of consecutive failed authentication attempts as stipulated by
-the department or agency. As with authentication using the PIV biometrics, if agencies choose to
-implement on-card biometric comparison, it SHALL be implemented as defined in [[SP 800-73]](../_Appendix/references.md#ref-SP-800-73) and
+the department or agency. As with BIO, if agencies choose to
+implement on-card fingerprint one-to-one comparisons, it SHALL be implemented as defined in [[SP 800-73]](../_Appendix/references.md#ref-SP-800-73) and
 [[SP 800-76]](../_Appendix/references.md#ref-SP-800-76).
 
-Some of the characteristics of the on-card biometric comparison authentication mechanism are as follows:
+Some of the characteristics of OCC authentication are as follows:
 
 - Highly resistant to credential forgery.
 - Strong resistance to use of unaltered card by non-owner.
@@ -310,7 +309,7 @@ unison to achieve a higher degree of assurance of the identity of the PIV cardho
 Adequately designed and implemented relying systems can achieve the PIV Card authentication
 assurance levels stated in Tables [6-2 (physical access)](#table-6-2) and [6-3 (logical access)](#table-6-2). Less adequately designed
 or implemented relying systems MAY only achieve lower authentication assurance levels. The design of
-components of relying systems, including card readers, biometric readers, cryptographic modules, and
+components of relying systems, including card readers, biometric capture devices, cryptographic modules, and
 key management systems, involves many factors not fully specified by FIPS 201, such as correctness of
 the functional mechanism, physical protection of the mechanism, and environmental conditions at the
 authentication point. Additional standards and best practice guidelines apply to the design and

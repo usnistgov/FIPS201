@@ -86,7 +86,7 @@ authentication (i.e., using the PKI-CAK authentication mechanism).
 
 A non-backward compatible change is a change or modification to an existing feature such that the
 modified feature cannot be used with existing relying systems. For example, changing the format of the
-biometric data would not be compatible with the existing system, because a biometric authentication
+biometric data records would not be compatible with the existing system, because a biometric authentication
 attempt with the modified format would fail. Similarly, changing the PIV Card Application IDentifier
 (AID) would introduce a non-backward compatible change. As a result, all systems interacting with the
 PIV Card would need to be changed to accept the new PIV AID.
@@ -144,7 +144,7 @@ physical and logical access. The physical card characteristics, storage media, a
 up identity credentials are specified in this Standard. The interfaces and card architecture for storing and
 retrieving identity credentials from a smart card are specified in Special Publication 800-73 [[SP 800-73]](../_Appendix/references.md#ref-SP-800-73),
 *Interfaces for Personal Identity Verification*. Similarly, the requirements for collection and formatting of
-biometric information are specified in Special Publication 800-76 [[SP 800-76]](../_Appendix/references.md#ref-SP-800-76), *Biometric Specifications
+biometric data records are specified in Special Publication 800-76 [[SP 800-76]](../_Appendix/references.md#ref-SP-800-76), *Biometric Specifications
 for Personal Identity Verification*. The requirements for cryptographic algorithms are specified in Special
 Publication 800-78 [[SP 800-78]](../_Appendix/references.md#ref-SP-800-78), *Cryptographic Algorithms and Key Sizes for Personal Identity
 Verification*. The requirements for the accreditation of PIV Card issuers are specified in Special
@@ -173,7 +173,7 @@ objectives for compliance with [[HSPD-12]](../_Appendix/references.md#ref-HSPD-1
 *informative*.
 + [Section 4, PIV Front-End Subsystem](frontend.md), provides the requirements for the components of the PIV
 front-end subsystem. Specifically, this section defines requirements for the PIV Card, logical
-data elements, biometrics, cryptography, and card readers. This section is *normative*.
+data elements, biometric data records, cryptography, and card readers. This section is *normative*.
 + [Section 5, PIV Key Management Requirements](keymanagement.md), defines the processes and components required
 for managing a PIV Card's lifecycle. It also provides the requirements and specifications related
 to this subsystem. This section is *normative*.
