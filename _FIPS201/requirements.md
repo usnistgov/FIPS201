@@ -130,11 +130,13 @@ The electronic facial image:
 
 + SHALL be printed on the PIV Card according to [Section 4.1.4.1](frontend.md#s-4-1-4-1);
 
-+ MAY be used for generating a visual image on the monitor of a guard workstation for augmenting the
-visual authentication process defined in [Section 6.2.6](authentication.md#s-6-2-6); and
++ MAY be retrieved and displayed on guard workstations to augment 
+  authentication processes from [Section 6.2](authentication.md#s-6-2).
 
 + MAY be used by biometric systems in operator-attended PIV issuance, reissuance, and
-verification data reset processes.
+verification data reset processes; and
+
++ MAY be used as an additional biometric characteristic to support multi-modal biometric verification to improve accuracy.
 
 ## 2.6 Chain-of-Trust {#s-2-6}
 
