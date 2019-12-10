@@ -97,7 +97,7 @@ The following biometric data MAY optionally be collected from a PIV applicant:
 + Two fingerprints, for on-card one-to-one comparison (OCC). These fingerprints MAY be taken from the full set of fingerprints collected in [Section 2.3](requirements.md#s-2-3) and SHOULD be imaged from fingers not imaged for off-card one-to-one comparison.
 
 If the biometric data that is collected as specified in this section and in [Section 2.3](requirements.md#s-2-3) is collected on separate
-occasions, then a biometric verification of the applicant's biometric data records SHALL be performed at each visit against biometric
+occasions, then a biometric verification of the applicant's biometric characteristics  SHALL be performed at each visit against biometric
 data collected during a previous visit.
 
 Biometric data collection SHALL conform to the procedural and technical specifications of [[SP 800-76]](../_Appendix/references.md#ref-SP-800-76).
