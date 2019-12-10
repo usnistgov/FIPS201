@@ -192,6 +192,15 @@ Issuer
 : The organization that is issuing the PIV Card to an applicant. Typically this is an organization
 for which the applicant is working.
 
+Issuing Facility
+: A physical site or location---including all equipment, staff, and
+  documentation---that is responsible for carrying out one or more of the
+  following PIV functions:
+    * identity proofing/registration;
+    * card/token production;
+    * activation/issuance; and
+    * maintenance.
+
 Key
 : See "Cryptographic Key."
 
