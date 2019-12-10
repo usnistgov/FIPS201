@@ -143,7 +143,7 @@ identification data it collects. The chain-of-trust is a sequence of related enr
 created and maintained through the methods of contemporaneous acquisition of data within each
 enrollment data record, and biometric verifications of samples between enrollment data records.[^fingerprints]
 
-[^fingerprints]: For example, ten fingerprints for law enforcement checks MAY be collected at one time and place, and two fingerprints for PIV Card templates MAY be collected at a later time and different place, provided that the two fingerprints elicit a positive biometric verification decision when compared to the corresponding fingerprints from the original set of ten.
+[^fingerprints]: For example, ten fingerprints for law enforcement checks MAY be collected at one time and place, and two fingerprints for PIV Card templates MAY be collected at a later time and different place, provided that a biometric comparison confirms that the two fingerprints belong to the original set of ten fingerprints. 
 
 It is recommended that the following data be included in the chain-of-trust:
 
