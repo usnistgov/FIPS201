@@ -92,8 +92,8 @@ authentication mechanisms that may be applied to a particular situation.
 
 ### 6.2.1 Authentication Using Off-Card Biometric Comparison {#s-6-2-1}
 
-The PIV Card Application hosts the signed fingerprint templates and, optionally, the signed iris images.
-Either biometric can be read from the card following cardholder-to-card (CTC) authentication using a PIN
+The PIV Card Application hosts signed fingerprint templates, a signed electronic facial image, and, optionally, signed iris images.
+These biometrics can be read from the card following cardholder-to-card (CTC) authentication using a PIN
 supplied by the cardholder. These PIV biometrics are designed to support a cardholder-to-external
 system (CTE) authentication mechanism through a match-off-card scheme. The following subsections
 define two authentication schemes that make use of the PIV biometrics.[^bioreaders]
@@ -119,7 +119,7 @@ The following steps SHALL be performed for unattended authentication of the PIV 
 - The CHUID or another data element[^expired] is read from the card and is checked to ensure the card has not
     expired and that it is from a trusted source.
 - The cardholder is prompted to submit a PIN, activating the PIV Card.
-- The PIV biometric is read from the card.
+- The PIV fingerprint templates, iris images, or electronic facial image are read from the card.
 - The signature on the biometric is verified to ensure the biometric is intact and comes from a trusted
     source. Note that the signature verification may require retrieval of the content signing certificate
     from the CHUID if the signature on the biometric was generated with the same key as the signature
@@ -356,4 +356,3 @@ meet the requirements for a lower assurance level.
 |SOME confidence|PKI-CAK|PKI-CAK|
 |HIGH confidence|BIO||
 |VERY HIGH confidence|BIO-A, OCC-AUTH, PKI-AUTH|PKI-AUTH|
-
