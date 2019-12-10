@@ -82,7 +82,7 @@ providing the card ("something you have") for cryptographic key-based authentica
 a higher level of authentication assurance.
 
 [^somethingyouknow]: For more information on the terms "something you know," "something you have," and "something you are," see [[SP 800-63]](../_Appendix/references.md#ref-SP-800-63).
-[^oncardbiometric]: Alternatively, an biometric on-card one-to-one comparison can be used to activate the PIV Card.
+[^oncardbiometric]: Alternatively, a biometric on-card one-to-one comparison can be used to activate the PIV Card.
 
 ### 3.1.2 PIV Card Issuance and Management Subsystem {#s-3-1-2}
 
@@ -158,5 +158,4 @@ Descriptions of the seven card lifecycle activities are as follows:
 - **PIV Card Termination.** The termination process is used to permanently destroy or invalidate the
     PIV Card and the data and keys needed for authentication so as to prevent any future use of the card
     for authentication.
-
 
