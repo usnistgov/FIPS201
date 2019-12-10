@@ -9,18 +9,18 @@ permalink: /foreword/
 ## Announcing the Standard for Personal Identity Verification (PIV) of Federal Employees and Contractors
 
 Federal Information Processing Standards Publications (FIPS PUBS) are issued by the National Institute of Standards and Technology (NIST) after approval by the Secretary of Commerce pursuant to Section 5131 of the Information Technology Management Reform Act of 1996 (Public Law 104-106), and the Computer Security Act of 1987 (Public Law 100-235).
-# 1. Name of Standard. {#s-1}
+# 1. Name of Standard. {#f-1}
 
 FIPS PUB 201-2: Personal Identity Verification (PIV) of Federal Employees and Contractors.[^hspd12]
 
 [^hspd12]: This Standard is in response to Homeland Security Presidential Directive-12, which states that it is "intended only to improve the internal management of the executive branch of the Federal Government."
 
 
-# 2. Category of Standard. {#s-2}
+# 2. Category of Standard. {#f-2}
 
 Information Security.
 
-# 3. Explanation. {#s-3}
+# 3. Explanation. {#f-3}
 
 Homeland Security Presidential Directive-12 [[HSPD-12]](_Appendix/references.md#ref-HSPD-12), dated August 27, 2004, entitled "Policy for a Common Identification Standard for Federal Employees and Contractors," directed the promulgation of a Federal standard for secure and reliable forms of identification for Federal employees and contractors. It further specified secure and reliable identification that—
 
@@ -31,25 +31,25 @@ Homeland Security Presidential Directive-12 [[HSPD-12]](_Appendix/references.md#
 
 The directive stipulated that the Standard include graduated criteria, from least secure to most secure, to ensure flexibility in selecting the appropriate level of security for each application. Executive departments and agencies are required to implement the Standard for identification issued to Federal employees and contractors in gaining physical access to controlled facilities and logical access to controlled information systems.
 
-# 4. Approving Authority. {#s-4}
+# 4. Approving Authority. {#f-4}
 
 Secretary of Commerce.
 
-# 5. Maintenance Agency. {#s-5}
+# 5. Maintenance Agency. {#f-5}
 
 Department of Commerce, NIST, Information Technology Laboratory (ITL).
 
-# 6. Applicability. {#s-6}
+# 6. Applicability. {#f-6}
 
 This Standard is applicable to identification issued by Federal departments and agencies to Federal employees and contractors (including contractor employees) for gaining physical access to Federally controlled facilities and logical access to Federally controlled information systems, except for "national security systems" as defined by 44 U.S.C. 3542(b)(2) [[SP 800-59]](_Appendix/references.md#ref-SP-800-59). Except as provided in [[HSPD-12]](_Appendix/references.md#ref-HSPD-12), nothing in this Standard alters the ability of government entities to use the Standard for additional applications.
 
 Special-Risk Security Provision—The U.S. Government has personnel, facilities, and other assets deployed and operating worldwide under a vast range of threats (e.g., terrorist, technical, intelligence), particularly heightened overseas. For cardholders with particularly sensitive threats while outside the contiguous United States, the issuance, holding, and/or use of PIV Cards with full technical capabilities as described herein may result in unacceptably high risk. In such cases of extant risk (e.g., to facilities, individuals, operations, the national interest, or the national security), by the presence and/or use of full-capability PIV Cards, the head of a department or independent agency MAY issue a select number of maximum security PIV Cards that do not contain (or otherwise do not fully support) the wireless and/or biometric capabilities otherwise required/referenced herein. To the greatest extent practicable, heads of departments and independent agencies SHOULD minimize the issuance of such special-risk security PIV Cards so as to support interagency interoperability and the President's policy. Use of other risk-mitigating technical (e.g., high-assurance on-off switches for the wireless capability) and procedural mechanisms in such situations is preferable, and as such is also explicitly permitted and encouraged. As protective security technology advances, the need for this provision will be re-assessed as the Standard undergoes the normal review and update process.
 
-# 7. Specifications. {#s-7}
+# 7. Specifications. {#f-7}
 
 Federal Information Processing Standards (FIPS) 201 Personal Identity Verification (PIV) of Federal Employees and Contractors.
 
-# 8. Implementations. {#s-8}
+# 8. Implementations. {#f-8}
 
 This Standard satisfies the control objectives, security requirements, and technical interoperability requirements of [[HSPD-12]](_Appendix/references.md#ref-HSPD-12). The Standard specifies implementation of identity credentials on integrated circuit cards for use in a Federal personal identity verification system.
 
@@ -64,11 +64,11 @@ Federal departments and agencies must use accredited issuers to issue identity c
 
 The Office of Management and Budget (OMB) provides implementation oversight for this Standard. The respective numbers of agency-issued 1) general PIV Cards and 2) special-risk PIV Cards (issued under the Special-Risk Security Provision) are subject to annual reporting to the OMB under the annual reporting process in a manner prescribed by OMB.
 
-# 9. Effective Date. {#s-9}
+# 9. Effective Date. {#f-9}
 
 This Standard is effective immediately and supersedes FIPS 201-1 (Change Notice 1). New optional features of this Standard that depend upon the release of new or revised NIST Special Publications are effective upon final publication of the supporting Special Publications.
 
-# 10. Implementation Schedule. {#s-10}
+# 10. Implementation Schedule. {#f-10}
 
 This Standard mandates the implementation of some PIV Card features that were optional to implement in FIPS 201-1. To comply with FIPS 201-2, all new and replacement PIV Cards SHALL be issued with the mandatory PIV Card features no later than 12 months after the effective date of this Standard.
 
@@ -77,7 +77,7 @@ FIPS 201-2.
 
 FIPS 201-2 compliance of PIV components and subsystems is provided in accordance with M-06-18 [[OMB0618]](_Appendix/references.md#ref-OMB0618) and M-11-11 [[OMB1111]](_Appendix/references.md#ref-OMB1111) through products and services from GSA's Interoperability Test Program and Approved Products and Services List, once available. Implementation Guidance to PIV enable federal facilities and information systems, in accordance to M-11-11 will be outlined in the "Federal Identity, Credential, and Access Management (FICAM) Roadmap and Implementation Guidance."
 
-# 11. Qualifications. {#s-11}
+# 11. Qualifications. {#f-11}
 
 The security provided by the PIV system is dependent on many factors outside the scope of this Standard. Upon adopting this Standard, organizations must be aware that the overall security of the personal identification system relies on—
 
@@ -91,14 +91,14 @@ Similarly, the use of a product that conforms to this Standard does not guarante
 
 Because a standard of this nature must be flexible enough to adapt to advancements and innovations in science and technology, NIST has a policy to review this Standard within five years to assess its adequacy.
 
-# 12. Waivers. {#s-12}
+# 12. Waivers. {#f-12}
 
 The  Federal  Information  Security  Management  Act  (FISMA)  does  not  allow for waivers to Federal Information Processing Standards (FIPS) that are made mandatory by the Secretary of Commerce.
 
-# 13. Where to Obtain Copies. {#s-13}
+# 13. Where to Obtain Copies. {#f-13}
 
 This publication is available through the Internet by accessing http://csrc.nist.gov/publications/.
 
-# 14. Patents. {#s-14}
+# 14. Patents. {#f-14}
 
 Aspects of the implementation of this Standard may be covered by U.S. or foreign patents.
