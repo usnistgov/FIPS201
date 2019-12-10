@@ -512,7 +512,7 @@ operator SHALL inspect these and compare the cardholder with the facial image re
 enrollment data record and the facial image printed on the card.
 
 + PIN reset at an unattended issuer-operated kiosk SHALL ensure that the PIV Card is authenticated and
-that the cardholder's fingerprint or iris biometric matches either the stored biometric on the PIV Card, through an on-card 1:1 biometric match, or biometric data stored in the chain-of-trust, through an off-card 1:1
+that the cardholder's biometric characteristic matches either the stored biometric on the PIV Card, through an on-card 1:1 biometric match, or biometric data stored in the chain-of-trust, through an off-card 1:1
 biometric match.  The electronic facial image SHALL NOT be used. If the biometric match or card authentication is unsuccessful, the kiosk SHALL NOT
 reset the PIV Card.
 
