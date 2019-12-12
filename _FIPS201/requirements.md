@@ -596,13 +596,29 @@ notification. In certain cases, 18 hours is an unacceptable delay and in those c
 must be executed to disseminate the information as rapidly as possible. Departments and agencies are
 required to have procedures in place to issue emergency notifications in such cases.
 
-## 2.10 Derived PIV Credentials Issuance Requirements {#s-2-10}
+## 2.10 Derived PIV Credentials {#s-2-10}
+
+### 2.10.1 Derived PIV Credential Issuance Requirements {#s-2-10-1}
+
+Issuance of a derived PIV credential is an instance of the post-enrollment binding of an authenticator described in [[SP 800-63B]](../_Appendix/references.md#ref-SP-800-63B) Section 6.1.2.1, *Binding of an Additional Authenticator at Existing AAL*, and SHALL be performed in accordance with the requirements of that section as they apply to physical authenticators as well as the requirements below.
 
 Valid PIV Cards MAY be used as the basis for issuing or binding derived PIV credentials in accordance with NIST
-Special Publication 800-157, *Guidelines for Derived Personal Identity Verification (PIV) Credentials*
-[[SP 800-157]](../_Appendix/references.md#ref-SP-800-157)  Derived PIV credentials MAY be created at the same authentication assurance level as the PIV card itself (AAL3), or MAY be created at a lower AAL (AAL2) depending on the security characteristics of the authenticator. The CSP SHALL attempt to promptly notify the subscriber of the binding of a derived PIV credential through an independent means that would not afford an attacker with an opportunity to erase the notification. More than one independent notification method MAY be used to ensure prompt receipt by the subscriber. Derived PIV credentials SHALL be bound to the subscriber's PIV account only by the issuer of that PIV account.
-When a cardholder's PIV Card is terminated as specified in [Section 2.9.4](requirements.md#s-2-9-4), any derived PIV
-credentials associated with the PIV account SHALL also be terminated.
+Special Publication 800-157, *Guidelines for Derived Personal Identity Verification (PIV) Credentials*.
+[[SP 800-157]](../_Appendix/references.md#ref-SP-800-157) Derived PIV credentials MAY be created at the same authentication assurance level as the PIV card itself (AAL3), or MAY be created at a lower AAL (AAL2) depending on the security characteristics of the authenticator. The issuer SHALL attempt to promptly notify the subscriber of the binding of a derived PIV credential through an independent means that would not afford an attacker with an opportunity to erase the notification. More than one independent notification method MAY be used to ensure prompt receipt by the subscriber. Derived PIV credentials SHALL be bound to the subscriber's PIV account only by the issuer of that PIV account.
+
+### 2.10.2 Derived PIV Credential Invalidation Requirements {#s-2-10-2}
+
+Derived PIV credentials SHALL be invalidated in any of the following circumstances:
+
+* Upon request of the PIV cardholder as a result of loss, failure, compromise, or intent to discontinue use of the derived PIV credential
+
+* At the determination of the PIV account issuer upon reported loss, suspected compromise, or observation of possible fraudulent activity
+
+* When a cardholder is no longer eligible to have a PIV Card as specified in [Section 2.9.4](requirements.md#s-2-9-4). In this situation, all derived PIV credentials associated with the PIV account SHALL be invalidated.
+
+If the derived PIV credential to be invalidated contains a Derived PIV Authentication Certificate and the corresponding private key cannot be securely zeroized or destroyed, the CA SHALL be informed and the certificate corresponding to the Derived PIV Authentication Key SHALL be revoked.
+
+Upon invalidation of a derived PIV credential, it SHALL no longer be accepted for authentication transactions. When invalidation occurs, the issuer SHALL attempt to notify the subscriber of the change.
 
 ## 2.11 PIV Privacy Requirements {#s-2-11}
 
