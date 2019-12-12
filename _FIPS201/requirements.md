@@ -595,7 +595,7 @@ required to have procedures in place to issue emergency notifications in such ca
 Issuance of a derived PIV credential is an instance of the post-enrollment binding of an authenticator described in [[SP 800-63B]](../_Appendix/references.md#ref-SP-800-63B) Section 6.1.2.1, *Binding of an Additional Authenticator at Existing AAL*, and SHALL be performed in accordance with the requirements of that section as they apply to physical authenticators as well as the requirements below.
 
 Valid PIV Cards MAY be used as the basis for issuing or binding derived PIV credentials in accordance with NIST
-Special Publication 800-157, *Guidelines for Derived Personal Identity Verification (PIV) Credentials*
+Special Publication 800-157, *Guidelines for Derived Personal Identity Verification (PIV) Credentials*.
 [[SP 800-157]](../_Appendix/references.md#ref-SP-800-157) Derived PIV credentials MAY be created at the same authentication assurance level as the PIV card itself (AAL3), or MAY be created at a lower AAL (AAL2) depending on the security characteristics of the authenticator. The issuer SHALL attempt to promptly notify the subscriber of the binding of a derived PIV credential through an independent means that would not afford an attacker with an opportunity to erase the notification. More than one independent notification method MAY be used to ensure prompt receipt by the subscriber. Derived PIV credentials SHALL be bound to the subscriber's PIV account only by the issuer of that PIV account.
 
 ### 2.10.2 Derived PIV Credential Termination Requirements {#s-2-10-2}
