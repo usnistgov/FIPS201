@@ -606,7 +606,7 @@ Derived PIV credentials SHALL be invalidated in any of the following circumstanc
 
 * At the determination of the PIV account issuer upon reported loss, suspected compromise, or observation of possible fraudulent activity
 
-* When a cardholder is no longer eligible to have a PIV Card is terminated as specified in [Section 2.9.4](requirements.md#s-2-9-4). In this situation, all derived PIV credentials associated with the PIV account SHALL be invalidated.
+* When a cardholder is no longer eligible to have a PIV Card as specified in [Section 2.9.4](requirements.md#s-2-9-4). In this situation, all derived PIV credentials associated with the PIV account SHALL be invalidated.
 
 If the derived PIV credential to be invalidated contains a Derived PIV Authentication Certificate and the corresponding private key cannot be securely zeroized or destroyed, the CA SHALL be informed and the certificate corresponding to the Derived PIV Authentication Key SHALL be revoked.
 
