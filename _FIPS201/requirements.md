@@ -598,19 +598,19 @@ Valid PIV Cards MAY be used as the basis for issuing or binding derived PIV cred
 Special Publication 800-157, *Guidelines for Derived Personal Identity Verification (PIV) Credentials*.
 [[SP 800-157]](../_Appendix/references.md#ref-SP-800-157) Derived PIV credentials MAY be created at the same authentication assurance level as the PIV card itself (AAL3), or MAY be created at a lower AAL (AAL2) depending on the security characteristics of the authenticator. The issuer SHALL attempt to promptly notify the subscriber of the binding of a derived PIV credential through an independent means that would not afford an attacker with an opportunity to erase the notification. More than one independent notification method MAY be used to ensure prompt receipt by the subscriber. Derived PIV credentials SHALL be bound to the subscriber's PIV account only by the issuer of that PIV account.
 
-### 2.10.2 Derived PIV Credential Termination Requirements {#s-2-10-2}
+### 2.10.2 Derived PIV Credential Invalidation Requirements {#s-2-10-2}
 
-Derived PIV credentials SHALL be terminated in any of the following circumstances:
+Derived PIV credentials SHALL be invalidated in any of the following circumstances:
 
 * Upon request of the PIV cardholder as a result of loss, failure, compromise, or intent to discontinue use of the derived PIV credential
 
-* At the determination of the PIV account issuer upon suspected compromise or observation of possible fraudulent activity
+* At the determination of the PIV account issuer upon reported loss, suspected compromise, or observation of possible fraudulent activity
 
-* When a cardholder's PIV Card is terminated as specified in [Section 2.9.4](requirements.md#s-2-9-4). In this situation, all derived PIV credentials associated with the PIV account SHALL be terminated.
+* When a cardholder is no longer eligible to have a PIV Card is terminated as specified in [Section 2.9.4](requirements.md#s-2-9-4). In this situation, all derived PIV credentials associated with the PIV account SHALL be invalidated.
 
-If the derived PIV credential contains a Derived PIV Authentication Certificate and the corresponding private key cannot be securely zeroized or destroyed, the CA SHALL be informed and the certificate corresponding to the PIV Authentication key SHALL be revoked.
+If the derived PIV credential to be invalidated contains a Derived PIV Authentication Certificate and the corresponding private key cannot be securely zeroized or destroyed, the CA SHALL be informed and the certificate corresponding to the Derived PIV Authentication Key SHALL be revoked.
 
-Upon termination of a derived PIV credential, it SHALL no longer be accepted for authentication transactions. When termination occurs, the issuer SHALL attempt to notify the subscriber of the change.
+Upon invalidation of a derived PIV credential, it SHALL no longer be accepted for authentication transactions. When invalidation occurs, the issuer SHALL attempt to notify the subscriber of the change.
 
 ## 2.11 PIV Privacy Requirements {#s-2-11}
 
