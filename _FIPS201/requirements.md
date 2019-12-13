@@ -339,7 +339,7 @@ available. Minimum accuracy requirements for the biometric verification are spec
 a positive biometric verification decision, the PIV Card SHALL be released to the applicant. If the biometric verification decision is negative, or if
 no biometric data records are available, the cardholder SHALL provide two identity source documents (as
 specified in [Section 2.7](requirements.md#s-2-7)), and an attending operator SHALL inspect these and compare the cardholder
-with the facial image printed on the PIV Card.
+with the photograph printed on the PIV Card.
 
 + The organization SHALL issue PIV credentials only through systems and providers whose reliability has
 been established by the agency and so documented and approved in writing (i.e., accredited) in
@@ -383,8 +383,8 @@ of issuance, the card issuer SHALL perform biometric verification of the applica
 optional biometric data records that are available. On a positive biometric verification decision, the new PIV Card SHALL be released to the
 applicant. If the biometric verification decision is negative, or if no biometric data records are available, the cardholder SHALL provide
 two identity source documents (as specified in [Section 2.7](requirements.md#s-2-7)), and an attending operator SHALL inspect these
-and compare the cardholder with the facial image retrieved from the enrollment data record and the facial
-image printed on the new PIV Card.
+and compare the cardholder with the electronic facial image retrieved from the enrollment data record and the photograph
+printed on the new PIV Card.
 
 [^lapse]: For the purposes of this section, a lapse is considered to be brief if it is not long enough to require that a new background investigation be performed. OPM currently requires a new background investigation to be performed when there has been a break in service of greater than two years.
 
@@ -425,8 +425,8 @@ that are available (either on the PIV Card or in the chain-of-trust). Minimum ac
 the biometric verification are specified in [[SP 800-76]](../_Appendix/references.md#ref-SP-800-76). On a positive biometric verification decision, the new PIV Card SHALL be
 released to the applicant. If the biometric verification decision is negative, or if no biometric data records are available, the cardholder
 SHALL provide two identity source documents (as specified in [Section 2.7](requirements.md#s-2-7)), and an attending operator SHALL
-inspect these and compare the cardholder with the facial image retrieved from the enrollment data record
-and the facial image printed on the new PIV Card.
+inspect these and compare the cardholder with the electronic facial image retrieved from the enrollment data record
+and the photograph printed on the new PIV Card.
 
 The old PIV Card SHALL be revoked when the new PIV Card is issued:
 
@@ -515,8 +515,8 @@ remotely via a general computing platform:
 back to the cardholder, the issuer SHALL perform a biometric verification to ensure that the cardholder's
 biometric characteristics elicit a positive biometric verification decision when compared to biometric data records stored either on the PIV Card or in the chain-of-trust. In cases where a biometric verification is not possible, the cardholder SHALL provide the PIV Card
 to be reset and another primary identity source document (as specified in [Section 2.7](requirements.md#s-2-7)). An attending
-operator SHALL inspect these and compare the cardholder with the facial image retrieved from the
-enrollment data record and the facial image printed on the card.
+operator SHALL inspect these and compare the cardholder with the electronic facial image retrieved from the
+enrollment data record and the photograph printed on the card.
 
 + PIN reset at an unattended issuer-operated kiosk SHALL ensure that the PIV Card is authenticated and
 that the cardholder's biometric characteristics elicit a positive biometric verification decision when compared to either the stored biometric on the PIV Card through an on-card one-to-one comparison, or biometric data records stored in the chain-of-trust through an off-card one-to-one
@@ -546,7 +546,7 @@ reset. For example, if fingerprint templates for on-card comparison are being re
 could be used to reconnect to the chain-of-trust. If no alternative biometric data records are available, the
 cardholder SHALL provide the PIV Card to be reset and another primary identity source document (as
 specified in [Section 2.7](requirements.md#s-2-7)). An attending operator SHALL inspect these and compare the cardholder with the
-facial image retrieved from the enrollment data record and the facial image printed on the PIV Card.
+electronic facial image retrieved from the enrollment data record and the photograph printed on the PIV Card.
 
 New verification reference data SHALL be enrolled. The PIV Card's activation methods associated with the
 verification data SHALL be reset and the new verification data SHALL be stored on the card.

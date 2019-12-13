@@ -95,7 +95,7 @@ The following list describes the physical requirements for the PIV Card.
     strongly encouraged to ensure such alterations do not
     compromise card body durability requirements and characteristics;
     invalidate card manufacturer warranties or other product claims;
-    alter or interfere with printed information, including the photo; or
+    alter or interfere with printed information, including the photograph; or
     damage or interfere with machine-readable technology, such as the embedded antenna.
 
 - The card material SHALL withstand the effects of temperatures required by the application of a polyester
@@ -271,9 +271,9 @@ illustrates an example of Foreign National color-coding using country abbreviati
 *Zone 13F—Issue Date*. If used, the card issuance date SHALL be printed above the Zone 14F expiration
 date in YYYYMMMDD format as depicted in [Figure 4-3](#fig-4-3).
 
-*Zone 16F—Photo Border*. A border MAY be used with the photo to further identify employee affiliation,
+*Zone 16F—Photograph Border*. A border MAY be used with the photograph to further identify employee affiliation,
 as depicted in [Figure 4-3](#fig-4-3). This border MAY be used in conjunction with Zone 15F to enable departments
-and agencies to develop various employee categories. The photo border SHALL NOT obscure the photo. The
+and agencies to develop various employee categories. The photograph border SHALL NOT obscure the photograph. The
 border MAY be a solid or patterned line. For solid and patterned lines, red SHALL be reserved for emergency
 response officials, blue for foreign nationals, and green for contractors. All other colors MAY be used at
 the department or agency's discretion.
