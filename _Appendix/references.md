@@ -28,6 +28,10 @@ March 22, 2019, or as amended. Available at [https://doi.org/10.6028/NIST.FIPS.1
 [[FIPS180]](#ref-FIPS180){:name="ref-FIPS180"} FIPS Publication 180-4, *Secure Hash Standard (SHS)*, August 2015, or as amended.
 Available at [http://dx.doi.org/10.6028/NIST.FIPS.180-4](http://dx.doi.org/10.6028/NIST.FIPS.180-4).
 
+[[FICAM]](#ref-FICAM){:name="ref-FICAM"} Federal Identity, Credential, and Access Management (FICAM) Roadmap and Implementation Guidance,
+Version 2.0, December 2, 2011, or as amended. Available at 
+[https://www.idmanagement.gov/wp-content/uploads/sites/1171/uploads/FICAM_Roadmap_and_Implem_Guid.pdf](https://www.idmanagement.gov/wp-content/uploads/sites/1171/uploads/FICAM_Roadmap_and_Implem_Guid.pdf).
+
 [[G155-2013]](#ref-G155-2013){:name="ref-G155-2013"} ASTM G155-2013, *Standard Practice for Operating Xenon Arc Light Apparatus for
 Exposure of Non-metallic Materials*, Vol. 14.04, ASTM, 2013.
 
@@ -39,6 +43,10 @@ Contractors*, August 27, 2004.
 
 [[IEC61966]](#ref-IEC61966){:name="ref-IEC61966"} IEC 61966-2-1:1999, *Multimedia systems and equipment - Colour measurement and
 management - Part 2-1: Colour management - Default RGB colour space – sRGB*, October 2003+COR1 2014.
+
+[[ISC-RISK]](#ref-ISC-RISK){:name="ref-ISC-RISK"} The Risk Management Process for Federal Facilities: An Interagency Security Committee Standard,
+2nd Edition, November 2016. Interagency Security Committee. Available at 
+[https://www.dhs.gov/sites/default/files/publications/isc-risk-management-process-2016-508.pdf](https://www.dhs.gov/sites/default/files/publications/isc-risk-management-process-2016-508.pdf).
 
 [[ISO2382-37]](#ref-ISO/IEC-2382-37){:name="ref-ISO/IEC-2382-37"} ISO/IEC 2382-37:2017, *Information technology -- Vocabulary -- Part 37: Biometrics*, ISO, 2017.
 
@@ -78,6 +86,12 @@ the E-Government Act of 2002*, OMB, September 26, 2003.
 Directive (HSPD) 12 – Policy for a Common Identification Standard for Federal Employees and
 Contractors*, OMB, August 2005. [https://www.whitehouse.gov/sites/whitehouse.gov/files/omb/memoranda/2005/m05-24.pdf](https://www.whitehouse.gov/sites/whitehouse.gov/files/omb/memoranda/2005/m05-24.pdf).
 
+[[OMB1712]](#ref-OMB1712){:name="ref-OMB1712"} OMB Memorandum M-17-12, *Preparing for and Responding to a Breach ofPersonally Identifiable Information*,
+OMB, January 3, 2017. Available at [https://obamawhitehouse.archives.gov/sites/default/files/omb/memoranda/2017/m-17-12_0.pdf](https://obamawhitehouse.archives.gov/sites/default/files/omb/memoranda/2017/m-17-12_0.pdf).
+
+[[OMB1917]](#ref-OMB1917){:name="ref-OMB1917"} OMB Memorandum M-19-17, *Enabling Mission Delivery through Improved Identity, Credential, and Access Management*,
+OMB, May 21, 2019. Available at [https://www.whitehouse.gov/wp-content/uploads/2019/05/M-19-17.pdf](https://www.whitehouse.gov/wp-content/uploads/2019/05/M-19-17.pdf).
+
 [[PCSC]](#ref-PCSC){:name="ref-PCSC"} Personal Computer/Smart Card Workgroup Specifications. Available at
 [https://www.pcscworkgroup.com/](https://www.pcscworkgroup.com/).
 
@@ -93,7 +107,6 @@ Acceptable by Federal Agencies for Official Purposes; Final Rule*, Department of
 [[RFC2560]](#ref-RFC2560){:name="ref-RFC2560"} RFC 2560, *X.509 Internet Public Key Infrastructure Online Certificate Status
 Protocol - OCSP*, Internet Engineering Task Force (IETF), June 1999. Available at
 [https://www.ietf.org/rfc/rfc2560.txt](https://www.ietf.org/rfc/rfc2560.txt).
-
 
 [[RFC4122]](#ref-RFC4122){:name="ref-RFC4122"} RFC 4122, *A Universally Unique IDentifier (UUID) URN Namespace*, Internet
 Engineering Task Force (IETF), July 2005. Available at [https://www.ietf.org/rfc/rfc4122.txt](https://www.ietf.org/rfc/rfc4122.txt).

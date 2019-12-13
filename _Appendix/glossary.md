@@ -241,7 +241,7 @@ Personally Identifiable Information (PII)
 : Information that can be used to distinguish or trace an
 individual's identity, such as name, social security number, biometric data records, etc. alone, or when
 combined with other personal or identifying information that is linked or linkable to a specific individual,
-such as date and place of birth, mother's maiden name, etc. [[OMB0716]](references.md#ref-OMB0716) 
+such as date and place of birth, mother's maiden name, etc. [[OMB1712]](references.md#ref-OMB1712)
 
 Personal Identification Number (PIN)
 : A secret that a cardholder memorizes and uses to authenticate

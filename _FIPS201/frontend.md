@@ -759,9 +759,7 @@ among PIV System middleware, card readers, and credentials more resilient and fl
 of Commerce will evaluate ISO/IEC 24727 and propose an optional profile of ISO/IEC 24727 in [[SP 800-73]](../_Appendix/references.md#ref-SP-800-73). The profile will explain how profile-conformant middleware, card readers, and PIV Cards can be
 used interchangeably with middleware, card readers, and PIV Cards currently deployed.
 
-Specifications of the profile will become effective, as an optional means to implement PIV System
-readers and middleware, when OMB determines that the profile specifications are complete and ready for
-deployment.
+Interoperability through card readers is only a portion of what is needed for interoperability between different PIV systems. Full interoperability is of PIV systems is intended to be grounded in federation, as discussed in [Section 7](federation.md#s-7).
 
 ### 4.4.4 Card Activation Device Requirements {#s-4-4-4}
 
