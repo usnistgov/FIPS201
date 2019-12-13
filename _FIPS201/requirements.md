@@ -92,7 +92,7 @@ collected in [Section 2.3](requirements.md#s-2-3).
 
 The following biometric data MAY optionally be collected from a PIV applicant:
 
-+ One or two iris images.
++ One or two electronic iris images.
 
 + Two fingerprints, for on-card one-to-one comparison (OCC). These fingerprints MAY be taken from the full set of fingerprints collected in [Section 2.3](requirements.md#s-2-3) and SHOULD be imaged from fingers not imaged for off-card one-to-one comparison.
 
@@ -120,7 +120,7 @@ as described in [Section 4.2.3.1](frontend.md#s-4-2-3-1). OCC MAY be used to sup
 [Section 4.3.1](frontend.md#s-4-3-1). OCC MAY also be used for cardholder authentication (OCC-AUTH) as described in [Section 6.2.2](authentication.md#s-6-2-2).
 
 The electronic iris images MAY be stored on the PIV Card as described in [Section 4.2.3.1](frontend.md#s-4-2-3-1). Agencies MAY
-choose to collect iris images as a second biometric characteristic to support multi-modal biometric verification to improve
+choose to collect electronic iris images as a second biometric characteristic to support multi-modal biometric verification to improve
 accuracy, operational suitability, to accommodate user preferences, or as a backup when fingerprint
 biometric data records are unavailable.
 

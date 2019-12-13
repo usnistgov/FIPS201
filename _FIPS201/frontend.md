@@ -425,7 +425,7 @@ has a government-issued email account at the time of credential issuance. These 
 This Standard also defines optional data elements for the PIV data model. These optional data elements
 include:
 
-- one or two iris images;
+- one or two electronic iris images;
 - one or two fingerprint biometric templates for on-card  one-to-one comparison;
 - a symmetric Card Authentication key for supporting physical access applications; and
 - a symmetric PIV Card Application Administration key associated with the card management system.
@@ -624,7 +624,7 @@ The following biometric data SHALL be stored on the PIV Card:
 
 The following biometric data MAY also be stored on the PIV Card:
 
-- One or two iris images.
+- One or two electronic iris images.
 - Fingerprint biometric templates for on-card one-to-one comparison.[^fingerprints]
 
 All biometric data SHALL be stored in the data elements referenced by [[SP 800-73]](../_Appendix/references.md#ref-SP-800-73) and in conformance
