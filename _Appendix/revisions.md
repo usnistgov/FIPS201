@@ -18,7 +18,7 @@ The Revision History provides an overview of the changes to FIPS 201 since its i
 |FIPS 201-2|August 2013|This version represents the 5-year review of FIPS 201 and change request inputs received from agencies. Following are the highlights of changes made in this version.|
 |||Modified the requirement for accreditation of PIV Card issuer to include an independent review.|
 |||Incorporated references to credentialing guidance and requirements issued by OPM and OMB.|
-|||Made the electronic facial image data element on the PIV Card mandatory.|
+|||Made the facial image data element on the PIV Card mandatory.|
 |||Added the option to collect and store iris biometric data on the PIV Card.|
 |||Added option to use electronic facial image for authentication in operator-attended environments.|
 |||Incorporated the content from Form I-9 that is relevant to FIPS 201.|
