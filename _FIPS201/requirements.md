@@ -612,7 +612,9 @@ Derived PIV credentials SHALL be invalidated in any of the following circumstanc
 
 * Upon request of the PIV cardholder as a result of loss, failure, compromise, or intent to discontinue use of the derived PIV credential
 
-* At the determination of the PIV account issuer upon reported loss or suspected compromise of the derived PIV credential or upon observation of possible fraudulent activity
+* At the determination of the PIV account issuer upon reported loss or suspected compromise of the derived PIV credential
+
+* At the determination of the PIV account issuer upon observation of possible fraudulent activity
 
 * When a cardholder is no longer eligible to have a PIV Card as specified in [Section 2.9.4](requirements.md#s-2-9-4). In this situation, all derived PIV credentials associated with the PIV account SHALL be invalidated.
 
