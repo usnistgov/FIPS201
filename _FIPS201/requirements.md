@@ -92,7 +92,8 @@ collected in [Section 2.3](requirements.md#s-2-3).
 
 The following biometric data MAY optionally be collected from a PIV applicant:
 
-+ One or two electronic iris images.
++ An electronic image of the left iris.
++ An electronic image of the right iris.
 
 + Two fingerprints, for on-card one-to-one comparison (OCC). These fingerprints MAY be taken from the full set of fingerprints collected in [Section 2.3](requirements.md#s-2-3) and SHOULD be imaged from fingers not imaged for off-card one-to-one comparison.
 
