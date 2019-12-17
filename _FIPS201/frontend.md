@@ -95,7 +95,7 @@ The following list describes the physical requirements for the PIV Card.
     strongly encouraged to ensure such alterations do not
     compromise card body durability requirements and characteristics;
     invalidate card manufacturer warranties or other product claims;
-    alter or interfere with printed information, including the photo; or
+    alter or interfere with printed information, including the photograph; or
     damage or interfere with machine-readable technology, such as the embedded antenna.
 
 - The card material SHALL withstand the effects of temperatures required by the application of a polyester
@@ -271,9 +271,9 @@ illustrates an example of Foreign National color-coding using country abbreviati
 *Zone 13F—Issue Date*. If used, the card issuance date SHALL be printed above the Zone 14F expiration
 date in YYYYMMMDD format as depicted in [Figure 4-3](#fig-4-3).
 
-*Zone 16F—Photo Border*. A border MAY be used with the photo to further identify employee affiliation,
+*Zone 16F—Photograph Border*. A border MAY be used with the photograph to further identify employee affiliation,
 as depicted in [Figure 4-3](#fig-4-3). This border MAY be used in conjunction with Zone 15F to enable departments
-and agencies to develop various employee categories. The photo border SHALL NOT obscure the photo. The
+and agencies to develop various employee categories. The photograph border SHALL NOT obscure the photograph. The
 border MAY be a solid or patterned line. For solid and patterned lines, red SHALL be reserved for emergency
 response officials, blue for foreign nationals, and green for contractors. All other colors MAY be used at
 the department or agency's discretion.
@@ -425,7 +425,8 @@ has a government-issued email account at the time of credential issuance. These 
 This Standard also defines optional data elements for the PIV data model. These optional data elements
 include:
 
-- one or two iris images;
+- an electronic image of the left iris;
+- an electronic image of the right iris;
 - one or two fingerprint biometric templates for on-card  one-to-one comparison;
 - a symmetric Card Authentication key for supporting physical access applications; and
 - a symmetric PIV Card Application Administration key associated with the card management system.
@@ -624,7 +625,8 @@ The following biometric data SHALL be stored on the PIV Card:
 
 The following biometric data MAY also be stored on the PIV Card:
 
-- One or two iris images.
+- Electronic image of the left iris;
+- Electronic image of the right iris;
 - Fingerprint biometric templates for on-card one-to-one comparison.[^fingerprints]
 
 All biometric data SHALL be stored in the data elements referenced by [[SP 800-73]](../_Appendix/references.md#ref-SP-800-73) and in conformance

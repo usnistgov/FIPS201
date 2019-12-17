@@ -92,7 +92,7 @@ authentication mechanisms that may be applied to a particular situation.
 
 ### 6.2.1 Authentication Using Off-Card Biometric One-to-One Comparison {#s-6-2-1}
 
-The PIV Card Application hosts the signed fingerprint biometric templates and, optionally, the signed iris images.
+The PIV Card Application hosts the signed fingerprint biometric templates and, optionally, the signed electronic iris images.
 Either mode of biometric data record can be read from the card following cardholder-to-card (CTC) authentication using a PIN
 supplied by the cardholder. This biometric data record is designed to support a cardholder-to-external
 system (CTE) authentication mechanism through an off-card biometric one-to-one comparison scheme. The following subsections
@@ -109,7 +109,7 @@ Some characteristics of the authentication mechanisms using biometric data (desc
 - Applicable with contact card readers, and contactless card readers that support the virtual contact
     interface.
 
-[^bioreaders]: As noted in [Section 4.2.3.1](../frontend/#s-4-2-3-1){:.footnote-ref}, fingerprint biometric templates are not guaranteed to contain biometric characteristic data, since it may not be possible to collect fingerprints from some cardholders. Additionally, iris images are not guaranteed to be present on a PIV Card, since iris image collection is optional. When biometric verification cannot be performed, PKI-AUTH is the recommended alternate authentication mechanism.
+[^bioreaders]: As noted in [Section 4.2.3.1](../frontend/#s-4-2-3-1){:.footnote-ref}, fingerprint biometric templates are not guaranteed to contain biometric characteristic data, since it may not be possible to collect fingerprints from some cardholders. Additionally, electronic iris images are not guaranteed to be present on a PIV Card, since iris biometric capture is optional. When biometric verification cannot be performed, PKI-AUTH is the recommended alternate authentication mechanism.
 
 #### 6.2.1.1 Unattended Authentication Using Biometric Data (BIO) {#s-6-2-1-1}
 
@@ -278,7 +278,7 @@ the visual authentication process:
 
 - The guard at the access control entry point determines whether the PIV Card appears to be genuine
     and has not been altered in any way.
-- The guard compares the cardholder's facial features with the picture on the card to ensure that they
+- The guard compares the cardholder's facial features with the photograph on the card to ensure that they
     match.
 - The guard checks the expiration date on the card to ensure that the card has not expired.
 - The guard compares the cardholder's physical characteristic descriptions to those of the cardholder.
