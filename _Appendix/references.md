@@ -22,6 +22,9 @@ Version 1.31, February 8, 2019, or as amended. Available at
 
 [[E-Gov]](#ref-E-Gov){:name="ref-E-Gov"} *E-Government Act of 2002*, U.S. Public Law 107-347, 2002.
 
+[[FCS]](#ref-FCS){:name="ref-FCS"} Final Credentialing Standards for Issuing Personal Identity Verification
+Cards under HSPD-12, July 31, 2008. Available at [https://www.opm.gov/suitability/suitability-executive-agent/policy/final-credentialing-standards.pdf](https://www.opm.gov/suitability/suitability-executive-agent/policy/final-credentialing-standards.pdf).
+
 [[FIPS140]](#ref-FIPS140){:name="ref-FIPS140"} FIPS Publication 140-3, *Security Requirements for Cryptographic Modules*, NIST,
 March 22, 2019, or as amended. Available at [https://doi.org/10.6028/NIST.FIPS.140-3](https://doi.org/10.6028/NIST.FIPS.140-3).
 
@@ -72,7 +75,8 @@ authority procedures for the authentication protocols for interoperability*, ISO
 NIST, June 2015. [http://dx.doi.org/10.6028/NIST.IR.7863](http://dx.doi.org/10.6028/NIST.IR.7863).
 
 [[OMB0322]](#ref-OMB0322){:name="ref-OMB0322"} OMB Memorandum M-03-22, *Guidance for Implementing the Privacy Provisions of
-the E-Government Act of 2002*, OMB, September 26, 2003.
+the E-Government Act of 2002*, OMB, September 26, 2003. Available at 
+[https://www.whitehouse.gov/wp-content/uploads/2017/11/203-M-03-22-OMB-Guidance-for-Implementing-the-Privacy-Provisions-of-the-E-Government-Act-of-2002-1.pdf](https://www.whitehouse.gov/wp-content/uploads/2017/11/203-M-03-22-OMB-Guidance-for-Implementing-the-Privacy-Provisions-of-the-E-Government-Act-of-2002-1.pdf).
 
 [[OMB0524]](#ref-OMB0524){:name="ref-OMB0524"} OMB Memorandum M-05-24, *Implementation of Homeland Security Presidential
 Directive (HSPD) 12 – Policy for a Common Identification Standard for Federal Employees and
@@ -128,40 +132,39 @@ June 2017 or as amended.
 [[SP 800-63C]](#ref-SP-800-63C){:name="ref-SP-800-63C"} NIST Special Publication 800-63C, *Digital Identity Guidelines: Federation and Assertions*, NIST, June 2017 or as amended.
 
 [[SP 800-73]](#ref-SP-800-73){:name="ref-SP-800-73"} NIST Special Publication 800-73-4, *Interfaces for Personal Identity Verification*,
-NIST, May 2015 or as amended.
+NIST, May 2015 or as amended. Available at [https://doi.org/10.6028/NIST.SP.800-73-4](https://doi.org/10.6028/NIST.SP.800-73-4).
 
 [[SP 800-76]](#ref-SP-800-76){:name="ref-SP-800-76"} NIST Special Publication 800-76-2, *Biometric Specifications for Personal Identity
 Verification*, NIST, July 2013 or as amended.
 
 [[SP 800-78]](#ref-SP-800-78){:name="ref-SP-800-78"} NIST Special Publication 800-78-4, *Cryptographic Algorithms and Key Sizes for
-Personal Identity Verification*, NIST, May 2015 or as amended.
+Personal Identity Verification*, NIST, May 2015 or as amended. Available at [https://doi.org/10.6028/NIST.SP.800-76-2](https://doi.org/10.6028/NIST.SP.800-76-2).
 
 [[SP 800-79]](#ref-SP-800-79){:name="ref-SP-800-79"} NIST Special Publication 800-79-2, *Guidelines for the Accreditation of Personal
-Identity Verification Card Issuers*, NIST, July 2015 or as amended.
+Identity Verification Card Issuers (PCI) and Derived PIV Credential Issuers (DPCI)*, NIST, July 2015 or as amended. 
+Available at [https://doi.org/10.6028/NIST.SP.800-79-2](https://doi.org/10.6028/NIST.SP.800-79-2).
 
 [[SP 800-85A]](#ref-SP-800-85A){:name="ref-SP-800-85A"} NIST Special Publication 800-85A-4, *PIV Card Application and Middleware
-Interface Test Guidelines (SP800-73-4 compliance)*, NIST, April 2016 or as amended.
+Interface Test Guidelines (SP800-73-4 Compliance)*, NIST, April 2016 or as amended. Available at
+[https://doi.org/10.6028/NIST.SP.800-85A-4](https://doi.org/10.6028/NIST.SP.800-85A-4).
 
 [[SP 800-87]](#ref-SP-800-87){:name="ref-SP-800-87"} NIST Special Publication 800-87 Revision 2, *Codes for the Identification of Federal
-and Federally-Assisted Organizations*, NIST, April 2018 or as amended.
+and Federally-Assisted Organizations*, NIST, April 2018 or as amended. Available at [https://doi.org/10.6028/NIST.SP.800-87r2](https://doi.org/10.6028/NIST.SP.800-87r2).
 
 [[SP 800-96]](#ref-SP-800-96){:name="ref-SP-800-96"} NIST Special Publication 800-96, *PIV Card to Reader Interoperability Guidelines*,
-NIST, September 2006 or as amended.
+NIST, September 2006 or as amended. Available at [https://doi.org/10.6028/NIST.SP.800-96](https://doi.org/10.6028/NIST.SP.800-96).
 
-[[SP 800-116]](#ref-SP-800-116){:name="ref-SP-800-116"} NIST Special Publication 800-116-1, *A Recommendation for the use of PIV
-Credentials in Physical Access Control Systems (PACS)*, NIST, June 2018 or as amended.
+[[SP 800-116]](#ref-SP-800-116){:name="ref-SP-800-116"} NIST Special Publication 800-116-1, *Guidelines for the use of PIV
+Credentials in Facility Access*, NIST, June 2018 or as amended. Available at [https://doi.org/10.6028/NIST.SP.800-116r1](https://doi.org/10.6028/NIST.SP.800-116r1).
 
 [[SP 800-122]](#ref-SP-800-122){:name="ref-SP-800-122"} NIST Special Publication 800-122, *Guide to Protecting the Confidentiality of
-Personally Identifiable Information (PII)*, NIST, April 2010 or as amended.
+Personally Identifiable Information (PII)*, NIST, April 2010 or as amended. Available at [https://doi.org/10.6028/NIST.SP.800-122](https://doi.org/10.6028/NIST.SP.800-122).
 
 [[SP 800-156]](#ref-SP-800-156){:name="ref-SP-800-156"} NIST Special Publication 800-156, *Representation of PIV Chain-of-Trust for
-Import and Export*, NIST, May 2016.
+Import and Export*, NIST, May 2016 or as amended. Available at [https://doi.org/10.6028/NIST.SP.800-156](https://doi.org/10.6028/NIST.SP.800-156).
 
 [[SP 800-157]](#ref-SP-800-157){:name="ref-SP-800-157"} NIST Special Publication 800-157, *Guidelines for Derived Personal Identity
-Verification (PIV) Credentials*, NIST, December 2014.
-
-[[FCS]](#ref-FCS){:name="ref-FCS"} Final Credentialing Standards for Issuing Personal Identity Verification
-Cards under HSPD-12, July 31, 2008. Available at [https://www.opm.gov/suitability/suitability-executive-agent/policy/final-credentialing-standards.pdf](https://www.opm.gov/suitability/suitability-executive-agent/policy/final-credentialing-standards.pdf).
+Verification (PIV) Credentials*, NIST, December 2014 or as amended. Available at [https://doi.org/10.6028/NIST.SP.800-157](https://doi.org/10.6028/NIST.SP.800-157).
 
 [[SSP REP]](#ref-SSP REP){:name="ref-SSP REP"} Shared Service Provider Repository Service Requirements, December 13, 2011, or as
 amended. Available at [https://idmanagement.gov/documents/shared-service-provider-repository-service-requirements](https://idmanagement.gov/documents/shared-service-provider-repository-service-requirements).
