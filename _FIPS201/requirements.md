@@ -513,14 +513,14 @@ remotely via a general computing platform:
 
 + When PIN reset is performed in-person at the issuing facility, before providing the reset PIV Card
 back to the cardholder, the issuer SHALL perform a biometric verification to ensure that the cardholder's
-biometric characteristics elicit a positive biometric verification decision when compared to biometric data records stored either on the PIV Card or in the chain-of-trust. In cases where a biometric verification is not possible, the cardholder SHALL provide the PIV Card
+biometric characteristics elicit a positive biometric verification decision when compared to biometric data records stored either on the PIV Card or in the chain-of-trust. In cases where a negative biometric verification decision is returned or the cardholder's biometric characteristics are not successfully acquired, the cardholder SHALL provide the PIV Card
 to be reset and another primary identity source document (as specified in [Section 2.7](requirements.md#s-2-7)). An attending
 operator SHALL inspect these and compare the cardholder with the facial image retrieved from the
 enrollment data record and the facial image printed on the card.
 
 + PIN reset at an unattended issuer-operated kiosk SHALL ensure that the PIV Card is authenticated and
 that the cardholder's biometric characteristics elicit a positive biometric verification decision when compared to either the stored biometric on the PIV Card through an on-card one-to-one comparison, or biometric data records stored in the chain-of-trust through an off-card one-to-one
-comparison. If the biometric verification or card authentication is unsuccessful, the kiosk SHALL NOT
+comparison. If the biometric verification decision is negative, the cardholder's biometric characteristics are not successfully acquired, or card authentication is unsuccessful, the kiosk SHALL NOT
 reset the PIV Card.
 
 + Remote PIN reset on a general computing platform (e.g., desktop, laptop) SHALL only be performed if
