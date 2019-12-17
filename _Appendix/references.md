@@ -161,7 +161,7 @@ Import and Export*, NIST, May 2016.
 Verification (PIV) Credentials*, NIST, December 2014.
 
 [[FCS]](#ref-FCS){:name="ref-FCS"} Final Credentialing Standards for Issuing Personal Identity Verification
-Cards under HSPD-12, July 31, 2008.
+Cards under HSPD-12, July 31, 2008. Available at [https://www.opm.gov/suitability/suitability-executive-agent/policy/final-credentialing-standards.pdf](https://www.opm.gov/suitability/suitability-executive-agent/policy/final-credentialing-standards.pdf).
 
 [[SSP REP]](#ref-SSP REP){:name="ref-SSP REP"} Shared Service Provider Repository Service Requirements, December 13, 2011, or as
 amended. Available at [https://idmanagement.gov/documents/shared-service-provider-repository-service-requirements](https://idmanagement.gov/documents/shared-service-provider-repository-service-requirements).
