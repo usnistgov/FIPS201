@@ -120,7 +120,7 @@ December 2018 or as amended. [https://doi.org/10.6028/NIST.SP.800-37r2](https://
 [[SP 800-53]](#ref-SP-800-53){:name="ref-SP-800-53"} NIST Special Publication 800-53 Revision 4, *Security and Privacy Controls for Federal Information Systems and Organizations*, NIST, April 2013 or as amended. [http://dx.doi.org/10.6028/NIST.SP.800-53r4](http://dx.doi.org/10.6028/NIST.SP.800-53r4)
 
 [[SP 800-59]](#ref-SP-800-59){:name="ref-SP-800-59"} NIST Special Publication 800-59, *Guideline for Identifying an Information System
-as a National Security System*, NIST, August 2003 or as amended.
+as a National Security System*, NIST, August 2003 or as amended. Available at [https://doi.org/10.6028/NIST.SP.800-59]
 
 [[SP 800-63]](#ref-SP-800-63){:name="ref-SP-800-63"} NIST Special Publication 800-63-3, *Digital Identity Guidelines*, NIST,
 June 2017 or as amended. Available at [https://doi.org/10.6028/NIST.SP.800-63-3](https://doi.org/10.6028/NIST.SP.800-63-3).
@@ -138,10 +138,10 @@ Available at [https://doi.org/10.6028/NIST.SP.800-63c](https://doi.org/10.6028/N
 NIST, May 2015 or as amended. Available at [https://doi.org/10.6028/NIST.SP.800-73-4](https://doi.org/10.6028/NIST.SP.800-73-4).
 
 [[SP 800-76]](#ref-SP-800-76){:name="ref-SP-800-76"} NIST Special Publication 800-76-2, *Biometric Specifications for Personal Identity
-Verification*, NIST, July 2013 or as amended.
+Verification*, NIST, July 2013 or as amended. Available at [https://doi.org/10.6028/NIST.SP.800-76-2](https://doi.org/10.6028/NIST.SP.800-76-2).
 
 [[SP 800-78]](#ref-SP-800-78){:name="ref-SP-800-78"} NIST Special Publication 800-78-4, *Cryptographic Algorithms and Key Sizes for
-Personal Identity Verification*, NIST, May 2015 or as amended. Available at [https://doi.org/10.6028/NIST.SP.800-76-2](https://doi.org/10.6028/NIST.SP.800-76-2).
+Personal Identity Verification*, NIST, May 2015 or as amended. Available at [https://doi.org/10.6028/NIST.SP.800-78-4](https://doi.org/10.6028/NIST.SP.800-78-4).
 
 [[SP 800-79]](#ref-SP-800-79){:name="ref-SP-800-79"} NIST Special Publication 800-79-2, *Guidelines for the Accreditation of Personal
 Identity Verification Card Issuers (PCI) and Derived PIV Credential Issuers (DPCI)*, NIST, July 2015 or as amended. 
