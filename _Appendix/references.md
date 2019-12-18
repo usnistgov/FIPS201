@@ -123,13 +123,16 @@ December 2018 or as amended. [https://doi.org/10.6028/NIST.SP.800-37r2](https://
 as a National Security System*, NIST, August 2003 or as amended.
 
 [[SP 800-63]](#ref-SP-800-63){:name="ref-SP-800-63"} NIST Special Publication 800-63-3, *Digital Identity Guidelines*, NIST,
-June 2017 or as amended.
+June 2017 or as amended. Available at [https://doi.org/10.6028/NIST.SP.800-63-3](https://doi.org/10.6028/NIST.SP.800-63-3).
 
 [[SP 800-63A]](#ref-SP-800-63A){:name="ref-SP-800-63A"} NIST Special Publication 800-63A, *Digital Identity Guidelines: Enrollment and Identity Proofing Requirements*, NIST, June 2017 or as amended.
+Available at [https://doi.org/10.6028/NIST.SP.800-63a](https://doi.org/10.6028/NIST.SP.800-63a).
 
 [[SP 800-63B]](#ref-SP-800-63B){:name="ref-SP-800-63B"} NIST Special Publication 800-63B, *Digital Identity Guidelines: Authentication and Lifecycle Management*, NIST, June 2017 or as amended.
+Available at [https://doi.org/10.6028/NIST.SP.800-63b](https://doi.org/10.6028/NIST.SP.800-63c).
 
 [[SP 800-63C]](#ref-SP-800-63C){:name="ref-SP-800-63C"} NIST Special Publication 800-63C, *Digital Identity Guidelines: Federation and Assertions*, NIST, June 2017 or as amended.
+Available at [https://doi.org/10.6028/NIST.SP.800-63c](https://doi.org/10.6028/NIST.SP.800-63c).
 
 [[SP 800-73]](#ref-SP-800-73){:name="ref-SP-800-73"} NIST Special Publication 800-73-4, *Interfaces for Personal Identity Verification*,
 NIST, May 2015 or as amended. Available at [https://doi.org/10.6028/NIST.SP.800-73-4](https://doi.org/10.6028/NIST.SP.800-73-4).
