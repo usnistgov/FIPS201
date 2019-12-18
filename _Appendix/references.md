@@ -14,7 +14,7 @@ permalink: /references/
 [[CBEFF]](#ref-CBEFF){:name="ref-CBEFF"} NISTIR 6529-A, *Common Biometric Exchange Formats Framework (CBEFF)*, NIST,
 April 2004.
 
-[[CDS]](#ref-CDS){:name="ref-CDS"} *DL/ID Card Design Standard*, American Association of Motor Vehicle Adminstrators, September, 2016. Available at [https://www.aamva.org/DL-ID-Card-Design-Standard/](https://www.aamva.org/DL-ID-Card-Design-Standard/)
+[[CDS]](#ref-CDS){:name="ref-CDS"} *DL/ID Card Design Standard*, American Association of Motor Vehicle Adminstrators, September, 2016. Available at [https://www.aamva.org/DL-ID-Card-Design-Standard/](https://www.aamva.org/DL-ID-Card-Design-Standard/).
 
 [[COMMON]](#ref-COMMON){:name="ref-COMMON"} *X.509 Certificate Policy for the U.S. Federal PKI Common Policy Framework*,
 Version 1.31, February 8, 2019, or as amended. Available at
@@ -29,7 +29,7 @@ Cards under HSPD-12, July 31, 2008. Available at [https://www.opm.gov/suitabilit
 March 22, 2019, or as amended. Available at [https://doi.org/10.6028/NIST.FIPS.140-3](https://doi.org/10.6028/NIST.FIPS.140-3).
 
 [[FIPS180]](#ref-FIPS180){:name="ref-FIPS180"} FIPS Publication 180-4, *Secure Hash Standard (SHS)*, August 2015, or as amended.
-Available at [http://dx.doi.org/10.6028/NIST.FIPS.180-4](http://dx.doi.org/10.6028/NIST.FIPS.180-4).
+Available at [http://doi.org/10.6028/NIST.FIPS.180-4](http://doi.org/10.6028/NIST.FIPS.180-4).
 
 [[G155-2013]](#ref-G155-2013){:name="ref-G155-2013"} ASTM G155-2013, *Standard Practice for Operating Xenon Arc Light Apparatus for
 Exposure of Non-metallic Materials*, Vol. 14.04, ASTM, 2013.
@@ -53,8 +53,8 @@ Card Support in Identification Cards*, ISO, 2016.
 [[ISO14443]](#ref-ISO14443){:name="ref-ISO14443"} ISO/IEC 14443-1, *Identification Cards—Contactless Integrated Circuit(s)
 Cards—Proximity Cards*, ISO, 2018.
 
-[[ISO3166]](#ref-ISO3166){:name="ref-ISO3166"} ISO 3166-1:2013. *Codes for the representation of names of countries and their
-subdivisions—Part 1: Country codes*.
+[[ISO3166]](#ref-ISO3166){:name="ref-ISO3166"} ISO 3166-1. *Codes for the representation of names of countries and their
+subdivisions—Part 1: Country codes*, ISO, 2013.
 
 [[ISO7810]](#ref-ISO7810){:name="ref-ISO7810"} ISO/IEC 7810:2003, *Identification Cards—Physical Characteristics*, ISO, 2003.
 
@@ -63,7 +63,7 @@ stripe -- High coercivity*, ISO, 2018. Part 7—*Magnetic stripe -- High coerciv
 ISO, 2018.
 
 [[ISO7816]](#ref-ISO7816){:name="ref-ISO7816"} ISO/IEC 7816, *Identification Cards—Integrated Circuits with Contacts*, Parts 1-6,
-ISO. 1-2011, 2-2007, 3-2006, 4-2013, 5-2004, 6-2016
+ISO. 1-2011, 2-2007, 3-2006, 4-2013, 5-2004, 6-2016.
 
 [[ISO24727]](#ref-ISO24727){:name="ref-ISO24727"} ISO/IEC 24727, *Identification cards -- Integrated circuit card programming
 interfaces*. Part 1—*Architecture*, ISO, 2014. Part 2—*Generic card interface*, ISO, 2008. Part
@@ -72,7 +72,7 @@ administration*, ISO, 2008. Part 5—*Testing procedures*, ISO, 2011. Part 6—*
 authority procedures for the authentication protocols for interoperability*, ISO, 2010.
 
 [[NISTIR7863]](#ref-NISTIR7863){:name="ref-NISTIR7863"} NISTIR 7863, *Cardholder Authentication for the PIV Digital Signature Key*,
-NIST, June 2015. [http://dx.doi.org/10.6028/NIST.IR.7863](http://dx.doi.org/10.6028/NIST.IR.7863).
+NIST, June 2015. Available at [http://doi.org/10.6028/NIST.IR.7863](http://doi.org/10.6028/NIST.IR.7863).
 
 [[OMB0322]](#ref-OMB0322){:name="ref-OMB0322"} OMB Memorandum M-03-22, *Guidance for Implementing the Privacy Provisions of
 the E-Government Act of 2002*, OMB, September 26, 2003. Available at 
@@ -80,7 +80,7 @@ the E-Government Act of 2002*, OMB, September 26, 2003. Available at
 
 [[OMB0524]](#ref-OMB0524){:name="ref-OMB0524"} OMB Memorandum M-05-24, *Implementation of Homeland Security Presidential
 Directive (HSPD) 12 – Policy for a Common Identification Standard for Federal Employees and
-Contractors*, OMB, August 2005. [https://www.whitehouse.gov/sites/whitehouse.gov/files/omb/memoranda/2005/m05-24.pdf](https://www.whitehouse.gov/sites/whitehouse.gov/files/omb/memoranda/2005/m05-24.pdf).
+Contractors*, OMB, August 2005. Available at [https://www.whitehouse.gov/sites/whitehouse.gov/files/omb/memoranda/2005/m05-24.pdf](https://www.whitehouse.gov/sites/whitehouse.gov/files/omb/memoranda/2005/m05-24.pdf).
 
 [[PCSC]](#ref-PCSC){:name="ref-PCSC"} Personal Computer/Smart Card Workgroup Specifications. Available at
 [https://www.pcscworkgroup.com/](https://www.pcscworkgroup.com/).
@@ -92,7 +92,7 @@ Shared Service Provider (SSP) Program*, Version 1.8, July 17, 2017 or as amended
 at [https://www.idmanagement.gov/wp-content/uploads/sites/1171/uploads/fpki-cert-profile-ssp.pdf](https://www.idmanagement.gov/wp-content/uploads/sites/1171/uploads/fpki-cert-profile-ssp.pdf).
 
 [[REAL-ID]](#ref-REAL-ID){:name="ref-REAL-ID"} *Minimum Standards for Driver's Licenses and Identification Cards
-Acceptable by Federal Agencies for Official Purposes; Final Rule*, Department of Homeland Security, Federal Register Vol. 73 No. 19, January 29, 2008. Available at [https://www.govinfo.gov/content/pkg/FR-2008-01-29/html/08-140.htm](https://www.govinfo.gov/content/pkg/FR-2008-01-29/html/08-140.htm)
+Acceptable by Federal Agencies for Official Purposes; Final Rule*, Department of Homeland Security, Federal Register Vol. 73 No. 19, January 29, 2008. Available at [https://www.govinfo.gov/content/pkg/FR-2008-01-29/html/08-140.htm](https://www.govinfo.gov/content/pkg/FR-2008-01-29/html/08-140.htm).
 
 [[RFC2560]](#ref-RFC2560){:name="ref-RFC2560"} RFC 2560, *X.509 Internet Public Key Infrastructure Online Certificate Status
 Protocol - OCSP*, Internet Engineering Task Force (IETF), June 1999. Available at
@@ -115,9 +115,9 @@ at [https://www.ietf.org/rfc/rfc5652.txt](https://www.ietf.org/rfc/rfc5652.txt).
 Available at [https://docs.oasis-open.org/security/saml/v2.0/saml-authn-context-2.0-os.pdf](https://docs.oasis-open.org/security/saml/v2.0/saml-authn-context-2.0-os.pdf).
 
 [[SP 800-37]](#ref-SP-800-37){:name="ref-SP-800-37"} NIST Special Publication 800-37 Revision 2, *Risk Management Framework for Information Systems and Organizations: A System Life Cycle Approach for Security and Privacy*, NIST,
-December 2018 or as amended. [https://doi.org/10.6028/NIST.SP.800-37r2](https://doi.org/10.6028/NIST.SP.800-37r2).
+December 2018 or as amended. Available at [https://doi.org/10.6028/NIST.SP.800-37r2](https://doi.org/10.6028/NIST.SP.800-37r2).
 
-[[SP 800-53]](#ref-SP-800-53){:name="ref-SP-800-53"} NIST Special Publication 800-53 Revision 4, *Security and Privacy Controls for Federal Information Systems and Organizations*, NIST, April 2013 or as amended. [http://dx.doi.org/10.6028/NIST.SP.800-53r4](http://dx.doi.org/10.6028/NIST.SP.800-53r4)
+[[SP 800-53]](#ref-SP-800-53){:name="ref-SP-800-53"} NIST Special Publication 800-53 Revision 4, *Security and Privacy Controls for Federal Information Systems and Organizations*, NIST, April 2013 or as amended. Available at [http://doi.org/10.6028/NIST.SP.800-53r4](http://doi.org/10.6028/NIST.SP.800-53r4)
 
 [[SP 800-59]](#ref-SP-800-59){:name="ref-SP-800-59"} NIST Special Publication 800-59, *Guideline for Identifying an Information System
 as a National Security System*, NIST, August 2003 or as amended. Available at [https://doi.org/10.6028/NIST.SP.800-59]
