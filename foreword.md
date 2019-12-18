@@ -64,20 +64,13 @@ Federal departments and agencies must use accredited issuers to issue identity c
 
 The Office of Management and Budget (OMB) provides implementation oversight for this Standard. 
 
+FIPS 201-3 compliance of PIV components and subsystems is provided in accordance with M-19-17 [[OMB1917]](_Appendix/references.md#ref-OMB1917) through products and services from GSA’s Interoperability Test Program and Approved Products and Services List (see [Appendix A.5](_Appendix/accreditation.md#s-a-5)). Implementation Guidance to PIV-enable federal facilities and information systems, in accordance to M-19-17 [[OMB1917]](_Appendix/references.md#ref-OMB1917) will be outlined in the [[FICAMv2]](_Appendix/references.md#ref-FICAM) in the form of playbooks and best practice repository. See also [[SP 800-116]](_Appendix/references.md#ref-SP-800-116) and [[ISC-RISK]](_Appendix/references.md#ref-ISC-RISK).
+
 # 9. Effective Date. {#f-9}
 
 This Standard is effective immediately and supersedes FIPS 201-2. New optional features of this Standard that depend upon the release of new or revised NIST Special Publications are effective upon final publication of the supporting Special Publications.
 
-# 10. Implementation Schedule. {#f-10}
-
-This Standard mandates the implementation of some PIV Card features that were optional to implement in FIPS 201-2 and earlier. To comply with FIPS 201-3, all new and replacement PIV Cards SHALL be issued with the mandatory PIV Card features no later than 12 months after the effective date of this Standard.
-
-Accreditations of PIV Card issuers (PCIs) that occur 12 months after the effective date of this Standard SHALL be in compliance with
-FIPS 201-3.
-
-FIPS 201-3 compliance of PIV components and subsystems is provided in accordance with M-19-17 [[OMB1917]](_Appendix/references.md#ref-OMB1917) through products and services from GSA’s Interoperability Test Program and Approved Products and Services List (see [Appendix A.5](_Appendix/accreditation.md#s-a-5)). Implementation Guidance to PIV-enable federal facilities and information systems, in accordance to M-19-17 [[OMB1917]](_Appendix/references.md#ref-OMB1917) will be outlined in the [[FICAMv2]](_Appendix/references.md#ref-FICAM) in the form of playbooks and best practice repository. See also [[SP 800-116]](_Appendix/references.md#ref-SP-800-116) and [[ISC-RISK]](_Appendix/references.md#ref-ISC-RISK).
-
-# 11. Qualifications. {#f-11}
+# 10. Qualifications. {#f-10}
 
 The security provided by the PIV system is dependent on many factors outside the scope of this Standard. Upon adopting this Standard, organizations must be aware that the overall security of the personal identification system relies on—
 
@@ -91,14 +84,14 @@ Similarly, the use of a product that conforms to this Standard does not guarante
 
 Because a standard of this nature must be flexible enough to adapt to advancements and innovations in science and technology, NIST has a policy to review this Standard within five years to assess its adequacy.
 
-# 12. Waivers. {#f-12}
+# 11. Waivers. {#f-11}
 
 The  Federal  Information  Security  Management  Act  (FISMA)  does  not  allow for waivers to Federal Information Processing Standards (FIPS) that are made mandatory by the Secretary of Commerce.
 
-# 13. Where to Obtain Copies. {#f-13}
+# 12. Where to Obtain Copies. {#f-12}
 
 This publication is available through the Internet by accessing http://csrc.nist.gov/publications/.
 
-# 14. Patents. {#f-14}
+# 13. Patents. {#f-13}
 
 Aspects of the implementation of this Standard may be covered by U.S. or foreign patents.
