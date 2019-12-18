@@ -166,7 +166,7 @@ Import and Export*, NIST, May 2016 or as amended. Available at [https://doi.org/
 [[SP 800-157]](#ref-SP-800-157){:name="ref-SP-800-157"} NIST Special Publication 800-157, *Guidelines for Derived Personal Identity
 Verification (PIV) Credentials*, NIST, December 2014 or as amended. Available at [https://doi.org/10.6028/NIST.SP.800-157](https://doi.org/10.6028/NIST.SP.800-157).
 
-[[SSP REP]](#ref-SSP REP){:name="ref-SSP REP"} Shared Service Provider Repository Service Requirements, December 13, 2011, or as
+[[SSP REP]](#ref-SSP-REP){:name="ref-SSP-REP"} Shared Service Provider Repository Service Requirements, December 13, 2011, or as
 amended. Available at [https://idmanagement.gov/documents/shared-service-provider-repository-service-requirements](https://idmanagement.gov/documents/shared-service-provider-repository-service-requirements).
 
 

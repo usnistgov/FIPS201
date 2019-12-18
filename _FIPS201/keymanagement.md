@@ -96,7 +96,7 @@ authoritative OCSP responder.
 ### 5.5.1 Certificate and CRL Distribution {#s-5-5-1}
 
 This Standard requires distribution of CA certificates and CRLs using HTTP. Specific requirements are
-found in the Shared Service Provider Repository Service Requirements [[SSP REP]](../_Appendix/references.md#ref-SSP REP).
+found in the Shared Service Provider Repository Service Requirements [[SSP REP]](../_Appendix/references.md#ref-SSP-REP).
 
 
 Certificates that contain the FASC-N or UUID in the subject alternative name extension, such as PIV
@@ -104,7 +104,7 @@ Authentication certificates and Card Authentication certificates, SHALL NOT be d
 the Lightweight Directory Access Protocol (LDAP) or HTTP accessible from the public Internet).
 Individual departments and agencies can decide whether other user certificates (digital signature and key
 management) can be distributed via LDAP. When user certificates are distributed, the requirements in
-Table IV—End-Entity Certificate Repository Service Requirements of [[SSP REP]](../_Appendix/references.md#ref-SSP REP) SHALL be satisfied.
+Table IV—End-Entity Certificate Repository Service Requirements of [[SSP REP]](../_Appendix/references.md#ref-SSP-REP) SHALL be satisfied.
 
 ### 5.5.2 OCSP Status Responders {#s-5-5-2}
 
