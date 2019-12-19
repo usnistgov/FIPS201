@@ -117,7 +117,7 @@ Available at [https://docs.oasis-open.org/security/saml/v2.0/saml-authn-context-
 [[SP 800-37]](#ref-SP-800-37){:name="ref-SP-800-37"} NIST Special Publication 800-37 Revision 2, *Risk Management Framework for Information Systems and Organizations: A System Life Cycle Approach for Security and Privacy*, NIST,
 December 2018 or as amended. Available at [https://doi.org/10.6028/NIST.SP.800-37r2](https://doi.org/10.6028/NIST.SP.800-37r2).
 
-[[SP 800-53]](#ref-SP-800-53){:name="ref-SP-800-53"} NIST Special Publication 800-53 Revision 4, *Security and Privacy Controls for Federal Information Systems and Organizations*, NIST, April 2013 or as amended. Available at [http://doi.org/10.6028/NIST.SP.800-53r4](http://doi.org/10.6028/NIST.SP.800-53r4)
+[[SP 800-53]](#ref-SP-800-53){:name="ref-SP-800-53"} NIST Special Publication 800-53 Revision 4, *Security and Privacy Controls for Federal Information Systems and Organizations*, NIST, April 2013 or as amended. Available at [http://doi.org/10.6028/NIST.SP.800-53r4](http://doi.org/10.6028/NIST.SP.800-53r4).
 
 [[SP 800-59]](#ref-SP-800-59){:name="ref-SP-800-59"} NIST Special Publication 800-59, *Guideline for Identifying an Information System
 as a National Security System*, NIST, August 2003 or as amended. Available at [https://doi.org/10.6028/NIST.SP.800-59](https://doi.org/10.6028/NIST.SP.800-59).
@@ -171,5 +171,4 @@ Verification (PIV) Credentials*, NIST, December 2014 or as amended. Available at
 
 [[SSP REP]](#ref-SSP-REP){:name="ref-SSP-REP"} Shared Service Provider Repository Service Requirements, December 13, 2011, or as
 amended. Available at [https://idmanagement.gov/documents/shared-service-provider-repository-service-requirements](https://idmanagement.gov/documents/shared-service-provider-repository-service-requirements).
-
 
