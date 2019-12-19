@@ -23,7 +23,7 @@ Version 1.31, February 8, 2019, or as amended. Available at
 [[E-Gov]](#ref-E-Gov){:name="ref-E-Gov"} *E-Government Act of 2002*, U.S. Public Law 107-347, 2002.
 
 [[FCS]](#ref-FCS){:name="ref-FCS"} Final Credentialing Standards for Issuing Personal Identity Verification
-Cards under HSPD-12, July 31, 2008. Available at [https://www.opm.gov/suitability/suitability-executive-agent/policy/final-credentialing-standards.pdf](https://www.opm.gov/suitability/suitability-executive-agent/policy/final-credentialing-standards.pdf).
+Cards under HSPD-12, OMB, July 31, 2008. Available at [https://www.opm.gov/suitability/suitability-executive-agent/policy/final-credentialing-standards.pdf](https://www.opm.gov/suitability/suitability-executive-agent/policy/final-credentialing-standards.pdf).
 
 [[FIPS140]](#ref-FIPS140){:name="ref-FIPS140"} FIPS Publication 140-3, *Security Requirements for Cryptographic Modules*, NIST,
 March 22, 2019, or as amended. Available at [https://doi.org/10.6028/NIST.FIPS.140-3](https://doi.org/10.6028/NIST.FIPS.140-3).
@@ -120,7 +120,7 @@ December 2018 or as amended. Available at [https://doi.org/10.6028/NIST.SP.800-3
 [[SP 800-53]](#ref-SP-800-53){:name="ref-SP-800-53"} NIST Special Publication 800-53 Revision 4, *Security and Privacy Controls for Federal Information Systems and Organizations*, NIST, April 2013 or as amended. Available at [http://doi.org/10.6028/NIST.SP.800-53r4](http://doi.org/10.6028/NIST.SP.800-53r4)
 
 [[SP 800-59]](#ref-SP-800-59){:name="ref-SP-800-59"} NIST Special Publication 800-59, *Guideline for Identifying an Information System
-as a National Security System*, NIST, August 2003 or as amended. Available at [https://doi.org/10.6028/NIST.SP.800-59]
+as a National Security System*, NIST, August 2003 or as amended. Available at [https://doi.org/10.6028/NIST.SP.800-59](https://doi.org/10.6028/NIST.SP.800-59).
 
 [[SP 800-63]](#ref-SP-800-63){:name="ref-SP-800-63"} NIST Special Publication 800-63-3, *Digital Identity Guidelines*, NIST,
 June 2017 or as amended. Available at [https://doi.org/10.6028/NIST.SP.800-63-3](https://doi.org/10.6028/NIST.SP.800-63-3).
@@ -129,7 +129,7 @@ June 2017 or as amended. Available at [https://doi.org/10.6028/NIST.SP.800-63-3]
 Available at [https://doi.org/10.6028/NIST.SP.800-63a](https://doi.org/10.6028/NIST.SP.800-63a).
 
 [[SP 800-63B]](#ref-SP-800-63B){:name="ref-SP-800-63B"} NIST Special Publication 800-63B, *Digital Identity Guidelines: Authentication and Lifecycle Management*, NIST, June 2017 or as amended.
-Available at [https://doi.org/10.6028/NIST.SP.800-63b](https://doi.org/10.6028/NIST.SP.800-63c).
+Available at [https://doi.org/10.6028/NIST.SP.800-63b](https://doi.org/10.6028/NIST.SP.800-63b).
 
 [[SP 800-63C]](#ref-SP-800-63C){:name="ref-SP-800-63C"} NIST Special Publication 800-63C, *Digital Identity Guidelines: Federation and Assertions*, NIST, June 2017 or as amended.
 Available at [https://doi.org/10.6028/NIST.SP.800-63c](https://doi.org/10.6028/NIST.SP.800-63c).
