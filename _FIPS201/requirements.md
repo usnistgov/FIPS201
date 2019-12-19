@@ -201,7 +201,7 @@ described in [Section 2.8.2](requirements.md#s-2-8-2).
 
 ## 2.7 PIV Identity Proofing and Registration Requirements {#s-2-7}
 
-Identity proofing and registration requirements for issuance of PIV Cards follow a tailored process based on [[SP 800-63A]](../_Appendix/references.md#ref-SP-800-63A) IAL3 requirements. Departments and agencies SHALL follow an identity proofing and registration process that meets the requirements defined below when issuing PIV Cards.
+Identity proofing and registration requirements for issuance of PIV Cards meet IAL3 as it follows a tailored process based on [[SP 800-63A]](../_Appendix/references.md#ref-SP-800-63A) IAL3 requirements. Departments and agencies SHALL follow an identity proofing and registration process that meets the requirements defined below when issuing PIV Cards.
 
 + The organization SHALL adopt and use an identity proofing and registration process that is approved in
 accordance with [[SP 800-79]](../_Appendix/references.md#ref-SP-800-79).
