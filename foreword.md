@@ -4,14 +4,15 @@ title: Foreword
 permalink: /foreword/
 ---
 
-# Federal Information Processing Standards 201 2013
+# Federal Information Processing Standards 201 2020
 
 ## Announcing the Standard for Personal Identity Verification (PIV) of Federal Employees and Contractors
 
 Federal Information Processing Standards Publications (FIPS PUBS) are issued by the National Institute of Standards and Technology (NIST) after approval by the Secretary of Commerce pursuant to Section 5131 of the Information Technology Management Reform Act of 1996 (Public Law 104-106), and the Computer Security Act of 1987 (Public Law 100-235).
+
 # 1. Name of Standard. {#f-1}
 
-FIPS PUB 201-2: Personal Identity Verification (PIV) of Federal Employees and Contractors.[^hspd12]
+FIPS PUB 201-3: Personal Identity Verification (PIV) of Federal Employees and Contractors.[^hspd12]
 
 [^hspd12]: This Standard is in response to Homeland Security Presidential Directive-12, which states that it is "intended only to improve the internal management of the executive branch of the Federal Government."
 
