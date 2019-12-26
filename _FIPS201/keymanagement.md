@@ -2,7 +2,7 @@
 layout: default
 title: PIV Key Management Requirements
 navOrder: 5
-navTitle: Key Management
+navTitle: Keys
 permalink: /keymanagement/
 ---
 

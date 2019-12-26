@@ -121,11 +121,10 @@ determines the specific operation of that algorithm.
 E-Authentication Assurance Level
 : A measure of trust or confidence in an authentication mechanism
 defined in [[OMB0404]](references.md#ref-OMB0404) and [[SP 800-63]](references.md#ref-SP-800-63)  in terms of four levels:
-
-- Level 1: LITTLE OR NO confidence
-- Level 2: SOME confidence
-- Level 3: HIGH confidence
-- Level 4: VERY HIGH confidence
+	- Level 1: LITTLE OR NO confidence
+	- Level 2: SOME confidence
+	- Level 3: HIGH confidence
+	- Level 4: VERY HIGH confidence
 
 Enrollment Data Set
 : A record including information about a biometric enrollment: name and role of
@@ -145,12 +144,10 @@ information technology to achieve a common level of quality or some level of int
 Hash Function
 : A function that maps a bit string of arbitrary length to a fixed length bit string. Secure
 hash functions [[FIPS180]](references.md#ref-FIPS180) satisfy the following properties:
-
-1. **One-Way.** It is computationally infeasible to find any input that maps to any pre-specified
-    output.
-
-2. **Collision Resistant.** It is computationally infeasible to find any two distinct inputs that map to
-    the same output.
+	1. **One-Way.** It is computationally infeasible to find any input that maps to any pre-specified
+	    output.
+	2. **Collision Resistant.** It is computationally infeasible to find any two distinct inputs that map to
+	    the same output.
 
 Identification
 : The process of discovering the identity (i.e., origin, initial history) of a person or item
@@ -552,10 +549,7 @@ This Standard uses the following typographical conventions in text:
 - Letters or words in CAPITALS separated with underscore represent CBEFF-compliant data
     structures. For example, CBEFF_HEADER is a header field in the CBEFF structure.
 - Specific terms in CAPITALS represent normative requirements. When these same terms are not in CAPITALS, the term does not represent a normative requirement. 
-  - The terms "SHALL" and "SHALL NOT" indicate requirements to be followed strictly in order to conform to the publication and from which no deviation is permitted.
-
-  - The terms "SHOULD" and "SHOULD NOT" indicate that among several possibilities one is recommended as particularly suitable, without mentioning or excluding others, or that a certain course of action is preferred but not necessarily required, or that (in the negative form) a certain possibility or course of action is discouraged but not prohibited.
-
-  - The terms "MAY" and "NEED NOT" indicate a course of action permissible within the limits of the publication.
-
-  - The terms "CAN" and "CANNOT" indicate a possibility and capability, whether material, physical or causal or, in the negative, the absence of that possibility or capability.
+    - The terms "SHALL" and "SHALL NOT" indicate requirements to be followed strictly in order to conform to the publication and from which no deviation is permitted.
+    - The terms "SHOULD" and "SHOULD NOT" indicate that among several possibilities one is recommended as particularly suitable, without mentioning or excluding others, or that a certain course of action is preferred but not necessarily required, or that (in the negative form) a certain possibility or course of action is discouraged but not prohibited.
+    - The terms "MAY" and "NEED NOT" indicate a course of action permissible within the limits of the publication.
+    - The terms "CAN" and "CANNOT" indicate a possibility and capability, whether material, physical or causal or, in the negative, the absence of that possibility or capability.

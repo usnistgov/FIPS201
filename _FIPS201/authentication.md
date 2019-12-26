@@ -33,7 +33,7 @@ cardholder through the following:
 1. the rigor of the identity proofing process conducted prior to issuing the PIV Card;
 2. the security of the PIV Card issuance and maintenance processes; and
 3. the strength of the technical mechanisms used to verify that the cardholder is the owner of the
-PIV Card.
+    PIV Card.
 
 [Section 2](requirements.md#s-2) of this Standard defines requirements for the identity proofing, registration, issuance, and
 maintenance processes for PIV Cards and establishes a common level of assurance in these processes.
@@ -129,7 +129,7 @@ The following steps SHALL be performed for unattended authentication of biometri
 - The FASC-N (or UUID) in the CHUID or other data element is compared with the FASC-N (or
     UUID) in the Signed Attributes field of the external digital signature in the biometric data record.
 - A unique identifier within the CHUID or other data element is used as input to the authorization
-check to determine whether the cardholder should be granted access.
+    check to determine whether the cardholder should be granted access.
 
 [^expired]: The PIV Authentication certificate or Card Authentication certificate may be leveraged instead of the CHUID to verify that the card is not expired.
 
