@@ -1,8 +1,10 @@
 pdf:
   - basedir: ""
     filename: FIPS201
-    parts:
+    template: _pdf/template.tex
+    foreword:
       - foreword.md
+    body:
       - _FIPS201/introduction.md
       - _FIPS201/requirements.md
       - _FIPS201/system.md
@@ -15,9 +17,8 @@ pdf:
       - _Appendix/glossary.md
       - _Appendix/references.md
       - _Appendix/revisions.md
-    doNotAddTitle: []
-    report_number: None
+    report_number: FIPS201
     doi_url: None
-    month: None
-    year: None
+    month: December
+    year: 2020
     authors: []
