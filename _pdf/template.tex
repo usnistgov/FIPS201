@@ -19,6 +19,7 @@
 \usepackage{textcomp}
 \usepackage[hang,flushmargin,bottom]{footmisc} % footnote format
 \usepackage{microtype}
+\usepackage{etoolbox} % for switching sections on and off
 
 \usepackage{titlesec}
 \titleformat{\section}{\normalsize\bfseries}{\thesection.}{1em}{}	% required for heading numbering style
@@ -82,6 +83,28 @@ pdfkeywords={}
 \newcommand{\pubnumber}{\VAR{report_number}}
 \newcommand{\DOI}{\VAR{doi_url}}
 \newcommand{\monthyear}{\VAR{month} \VAR{year}}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%   	Set up included sections
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newtoggle{foreword}
+\newtoggle{abstract}
+\newtoggle{introduction}
+\newtoggle{references}
+\newtoggle{acknowledgements}
+\newtoggle{glossary}
+
+\newcommand{\toggle}{\togglefalse} % default all toggles to false unless otherwise set
+
+\toggle\VAR{has_foreword}{foreword}
+\toggle\VAR{has_abstract}{abstract}
+\toggle\VAR{has_introduction}{introduction}
+\toggle\VAR{has_references}{references}
+\toggle\VAR{has_acknowledgements}{acknowledgements}
+\toggle\VAR{has_glossary}{glossary}
+\toggle\VAR{has_foreword}{foreword}
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %   	BEGIN DOCUMENT 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -220,18 +243,29 @@ Natl. Inst. Stand. Technol. Spec. Publ. \pubnumber, \pageref{LastPage} pages (\m
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %   Start front matter - page number starts with "i"
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\iftoggle{foreword}{
 \section*{Foreword}
 \pagenumbering{roman}
 
 \VAR{foreword}
 
+}
+
+\iftoggle{preface}{
 \section*{Preface}
-\normalsize Delete if not applicable\\
+
+\VAR{preface}
+
+}
+
+\iftoggle{abstract}{
 \section*{Abstract}
-\normalsize Required\\
-\section*{Key words}
-\normalsize Required, alphabetized, separated by semicolon, and end in a period.\\
+
+\VAR{abstract}
 \pagebreak
+
+}
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %   Table of Contents is required
 % 	List of Tables & Figures required if more than 5 tables/figures
@@ -241,17 +275,27 @@ Natl. Inst. Stand. Technol. Spec. Publ. \pubnumber, \pageref{LastPage} pages (\m
 	\listoftables
 	\listoffigures
 \end{center}
+
+\iftoggle{glossary}{
 \pagebreak
 \section*{Glossary}
-Delete if not applicable\\
-\pagebreak
+
+\VAR{glossary}
+
+}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %   Start body of text - page number starts with "1"
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\iftoggle{introduction}{
+\pagebreak
 \section{Introduction}
 \label{sec:intro}
 \pagenumbering{arabic}
-\normalsize The chrysanthemum can be seen in Fig.~\ref{fig:Chrysanthemum}.You can learn more about flowers in Refs. \cite{wilkinson_1990,Xiong2015,Prives2016,Roberts1982,Maloney2016,giancoli2008physics,Eston1993,MSU-CSE-06-2,Farindon,Marcheford,Joslin,Caxton,Isley,FIPS1402,SP80053r4}. . 
+
+\VAR{introduction}
+
+}
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %   When referring to references in the text parenthetically, 
 %	use the form “[1].” For example, “As Jones and Smith have shown [1];”
@@ -259,22 +303,30 @@ Delete if not applicable\\
 %	“. . . Ref. [1] . . .” (except at the beginning of a sentence where
 %	“Reference [1] . . .” is the correct form).
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
+\pagebreak
 
 \VAR{body}
 
-
+\iftoggle{acknowledgements}{
+\pagebreak
 \section*{Acknowledgments}
-\noindent Delete if not applicable\\
+
+\VAR{acknowledgements}
+
+}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %   Acknowledgments not required
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+\iftoggle{references}{
 \section*{References}
 \addcontentsline{toc}{section}{References}
 \bibliographystyle{techpubs}
 \bibliography{References}
 
+\VAR{references}
+
+}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %   Please use the techpubs BibTeX style when compiling bibliography, or follow the instructions on tinyurl.com/techpubsnist to format your .bib / .bbl file appropriately.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
