@@ -165,28 +165,28 @@ All sections in this document are *normative* (i.e., mandatory for compliance) u
 informative (i.e., non-mandatory). Following is the structure of this document:
 
 + [Section 1, Introduction](introduction.md), provides background information for understanding the scope of this
-Standard. This section is *informative*.
+    Standard. This section is *informative*.
 + [Section 2, Common Identification, Security, and Privacy Requirements](requirements.md), outlines the requirements
-for identity proofing, registration, and issuance, by establishing the control and security
-objectives for compliance with [[HSPD-12]](../_Appendix/references.md#ref-HSPD-12). This section is *normative*.
+    for identity proofing, registration, and issuance, by establishing the control and security
+    objectives for compliance with [[HSPD-12]](../_Appendix/references.md#ref-HSPD-12). This section is *normative*.
 + [Section 3, PIV System Overview](system.md), serves to provide a PIV system overview. This section is
-*informative*.
+    *informative*.
 + [Section 4, PIV Front-End Subsystem](frontend.md), provides the requirements for the components of the PIV
-front-end subsystem. Specifically, this section defines requirements for the PIV Card, logical
-data elements, biometric data records, cryptography, and card readers. This section is *normative*.
+    front-end subsystem. Specifically, this section defines requirements for the PIV Card, logical
+    data elements, biometric data records, cryptography, and card readers. This section is *normative*.
 + [Section 5, PIV Key Management Requirements](keymanagement.md), defines the processes and components required
-for managing a PIV Card's lifecycle. It also provides the requirements and specifications related
-to this subsystem. This section is *normative*.
+    for managing a PIV Card's lifecycle. It also provides the requirements and specifications related
+    to this subsystem. This section is *normative*.
 + [Section 6, PIV Cardholder Authentication](authentication.md), defines a suite of authentication mechanisms that are
-supported by the PIV Card, and their applicability in meeting the requirements of graduated
-levels of identity assurance. This section is *normative*.
+    supported by the PIV Card, and their applicability in meeting the requirements of graduated
+    levels of identity assurance. This section is *normative*.
 + [Appendix A, PIV Validation, Certification, and Accreditation](../_Appendix/accreditation.md), provides additional information
-regarding compliance with this document. This appendix is *normative*.
+    regarding compliance with this document. This appendix is *normative*.
 + [Appendix B, PIV Object Identifiers and Certificate Extension](../_Appendix/oid.md), provides additional details for the
-PIV objects identified in Section 4. This appendix is *normative*.
+    PIV objects identified in Section 4. This appendix is *normative*.
 + [Appendix C, Glossary of Terms, Acronyms, and Notations](../_Appendix/glossary.md), describes the vocabulary and textual
-representations used in the document. This appendix is *informative*.
+    representations used in the document. This appendix is *informative*.
 + [Appendix D, References](../_Appendix/references.md), lists the specifications and standards referred to in this document. This
-appendix is *informative*.
+    appendix is *informative*.
 + [Appendix E, Revision History](../_Appendix/revisions.md), lists changes made to this Standard from its inception. This
-appendix is *informative*.
+    appendix is *informative*.

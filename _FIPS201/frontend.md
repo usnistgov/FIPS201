@@ -41,14 +41,13 @@ with the contact and contactless ICC(s) and related components, nor SHALL it obs
 To combat counterfeiting and alterations, the PIV Card SHALL contain security features outlined in the American Association of Motor Vehicle Association’s (AAMVA) Drivers License/Identification Card (DL/ID) Card Design Standard [[CDS]](../_Appendix/references.md#ref-CDS). The Card Design Standard classifies security features into three categories, depending on the security level required for verification:
 
 - **Level 1** - First line of inspection:  Security features that can be examined without tools or aids that involves easily identifiable visual or tactile features for rapid inspection at point of usage (e.g.embossed surface pattern, optically variable device (such as a hologram), or color shifting inks). 
-
 - **Level 2** - Second line of inspection: Security features that require the use of a tool or instrument (e.g., UV light, magnifying glass, or scanner) to discern the feature. Level two sample security features include microtext, UV fluorescent images and IR-fluorescent ink. 
-
 - **Level 3** - Third line of inspection: Security features inspected by forensic specialists to conduct in-depth examination that may require special equipment to provide true certification.  Nano and micro images and chemical taggants, are examples of level 3 security features.
 
 A PIV Card SHALL incorporate at least one security feature at inspection level 1 or inspection level 2.  Federal departments and agencies are strongly encouraged to incorporate additional security features and to include all three inspection levels.
 
 Incorporation of security features SHALL:
+
 - be in accordance with durability requirements;
 - be free of defects, such as fading and discoloration;
 - not obscure printed information; and
@@ -97,7 +96,6 @@ The following list describes the physical requirements for the PIV Card.
     invalidate card manufacturer warranties or other product claims;
     alter or interfere with printed information, including the photograph; or
     damage or interfere with machine-readable technology, such as the embedded antenna.
-
 - The card material SHALL withstand the effects of temperatures required by the application of a polyester
     laminate on one or both sides of the card by commercial off-the-shelf (COTS) equipment. The
     thickness added due to a laminate layer SHALL NOT interfere with the smart card reader operation. The
@@ -543,43 +541,40 @@ management requirements are also specified.
     Authentication key SHALL be available only through the contact and the virtual contact interfaces of the
     PIV Card. Private key operations MAY be performed using an activated PIV Card without explicit
     user action (e.g., the PIN need not be supplied for each operation).
-
-The PIV Card SHALL store a corresponding X.509 certificate to support validation of the public key.
-The X.509 certificate SHALL include the FASC-N in the subject alternative name extension using the
-pivFASC-N attribute to support physical access procedures. The X.509 certificate SHALL also include
-the UUID value from the GUID data element of the CHUID in the subject alternative name extension.
-The UUID SHALL be encoded as a uniform resource identifier (URI), as specified in Section 3 of
-[[RFC4122]](../_Appendix/references.md#ref-RFC4122). The expiration date of the certificate must be no later than the expiration date of the PIV
-Card. The PIV Authentication certificate SHALL include a PIV NACI indicator (background
-investigation indicator) extension (see Appendix B.2); this non-critical extension indicates the status
-of the subject's background investigation at the time of card issuance.[^backgroundstatus] [Section 5](keymanagement.md#s-5) of this document
-specifies the certificate format and the key management infrastructure for the PIV Authentication key.
-
-+ **Asymmetric Card Authentication Key.** The asymmetric Card Authentication key MAY be generated
-on the PIV Card or imported to the card. The PIV Card SHALL NOT permit exportation of the Card
-Authentication key. Cryptographic operations that use the Card Authentication key SHALL be available
-through the contact and the contactless interfaces of the PIV Card. Private key operations MAY be
-performed using this key without card activation (e.g., the PIN need not be supplied for operations
-with this key).
-
-The PIV Card SHALL store a corresponding X.509 certificate to support validation of the public key.
-The X.509 certificate SHALL include the FASC-N in the subject alternative name extension using the
-pivFASC-N attribute to support physical access procedures. The X.509 certificate SHALL also include
-the UUID value from the GUID data element of the CHUID in the subject alternative name extension.
-The UUID SHALL be encoded as a URI, as specified in Section 3 of [[RFC4122]](../_Appendix/references.md#ref-RFC4122). The expiration date of
-the certificate must be no later than the expiration date of the PIV Card. [Section 5](keymanagement.md#s-5) of this document
-specifies the certificate format and the key management infrastructure for asymmetric PIV Card
-Authentication keys.
-
-+ **Symmetric Card Authentication Key.** The symmetric Card Authentication key MAY be imported
-onto the card by the issuer or be generated on the card. If present, the symmetric Card Authentication
-key SHALL be unique for each PIV Card and SHALL meet the algorithm and key size requirements stated
-in [[SP 800-78]](../_Appendix/references.md#ref-SP-800-78). If present, cryptographic operations using this key MAY be performed without card
-activation (e.g., the PIN need not be supplied for operations with this key). The cryptographic
-operations that use the Card Authentication key SHALL be available through the contact and the
-contactless interfaces of the PIV Card. This Standard does not specify key management protocols or
-infrastructure requirements.
-
+    
+    The PIV Card SHALL store a corresponding X.509 certificate to support validation of the public key.
+    The X.509 certificate SHALL include the FASC-N in the subject alternative name extension using the
+    pivFASC-N attribute to support physical access procedures. The X.509 certificate SHALL also include
+    the UUID value from the GUID data element of the CHUID in the subject alternative name extension.
+    The UUID SHALL be encoded as a uniform resource identifier (URI), as specified in Section 3 of
+    [[RFC4122]](../_Appendix/references.md#ref-RFC4122). The expiration date of the certificate must be no later than the expiration date of the PIV
+    Card. The PIV Authentication certificate SHALL include a PIV NACI indicator (background
+    investigation indicator) extension (see Appendix B.2); this non-critical extension indicates the status
+    of the subject's background investigation at the time of card issuance.[^backgroundstatus] [Section 5](keymanagement.md#s-5) of this document
+    specifies the certificate format and the key management infrastructure for the PIV Authentication key.
+- **Asymmetric Card Authentication Key.** The asymmetric Card Authentication key MAY be generated
+    on the PIV Card or imported to the card. The PIV Card SHALL NOT permit exportation of the Card
+    Authentication key. Cryptographic operations that use the Card Authentication key SHALL be available
+    through the contact and the contactless interfaces of the PIV Card. Private key operations MAY be
+    performed using this key without card activation (e.g., the PIN need not be supplied for operations
+    with this key).
+    
+    The PIV Card SHALL store a corresponding X.509 certificate to support validation of the public key.
+    The X.509 certificate SHALL include the FASC-N in the subject alternative name extension using the
+    pivFASC-N attribute to support physical access procedures. The X.509 certificate SHALL also include
+    the UUID value from the GUID data element of the CHUID in the subject alternative name extension.
+    The UUID SHALL be encoded as a URI, as specified in Section 3 of [[RFC4122]](../_Appendix/references.md#ref-RFC4122). The expiration date of
+    the certificate must be no later than the expiration date of the PIV Card. [Section 5](keymanagement.md#s-5) of this document
+    specifies the certificate format and the key management infrastructure for asymmetric PIV Card
+    Authentication keys.
+- **Symmetric Card Authentication Key.** The symmetric Card Authentication key MAY be imported
+    onto the card by the issuer or be generated on the card. If present, the symmetric Card Authentication
+    key SHALL be unique for each PIV Card and SHALL meet the algorithm and key size requirements stated
+    in [[SP 800-78]](../_Appendix/references.md#ref-SP-800-78). If present, cryptographic operations using this key MAY be performed without card
+    activation (e.g., the PIN need not be supplied for operations with this key). The cryptographic
+    operations that use the Card Authentication key SHALL be available through the contact and the
+    contactless interfaces of the PIV Card. This Standard does not specify key management protocols or
+    infrastructure requirements.
 - **Digital Signature Key.** The PIV digital signature key SHALL be generated on the PIV Card. The PIV
     Card SHALL NOT permit exportation of the digital signature key. If present, cryptographic operations
     using the digital signature key MAY only be performed using the contact and the virtual contact
@@ -588,11 +583,10 @@ infrastructure requirements.
     private key computation with the digital signature key.[^cardholderauthentication]
 
 
-The PIV Card SHALL store a corresponding X.509 certificate to support validation of the public key.
-The expiration date of the certificate must be no later than the expiration date of the PIV Card.
-[Section 5](keymanagement.md#s-5) of this document specifies the certificate format and the key management infrastructure for
-PIV digital signature keys.
-
+    The PIV Card SHALL store a corresponding X.509 certificate to support validation of the public key.
+    The expiration date of the certificate must be no later than the expiration date of the PIV Card.
+    [Section 5](keymanagement.md#s-5) of this document specifies the certificate format and the key management infrastructure for
+    PIV digital signature keys.
 - **Key Management Key.** This key MAY be generated on the PIV Card or imported to the card. If
     present, the cryptographic operations that use the key management key must only be accessible using
     the contact and the virtual contact interfaces of the PIV Card. Private key operations MAY be
@@ -600,10 +594,9 @@ PIV digital signature keys.
     supplied for each operation).
 
 
-The PIV Card SHALL store a corresponding X.509 certificate to support validation of the public key.
-[Section 5](keymanagement.md#s-5) of this document specifies the certificate format and the key management infrastructure for
-key management keys.
-
+    The PIV Card SHALL store a corresponding X.509 certificate to support validation of the public key.
+    [Section 5](keymanagement.md#s-5) of this document specifies the certificate format and the key management infrastructure for
+    key management keys.
 - **PIV Card Application Administration Key.** If present, the PIV Card Application Administration
     Key SHALL be imported onto the card by the issuer. If present, the cryptographic operations that use
     the PIV Card Application Administration Key must only be accessible using the contact interface of
