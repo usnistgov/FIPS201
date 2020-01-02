@@ -10,6 +10,7 @@
 \usepackage{amsfonts}   % if you want the fonts
 \usepackage{amssymb}    % if you want extra symbols
 \usepackage{graphicx}   % need for figures
+\graphicspath{\VAR{graphicspath}}
 \usepackage{xcolor}
 \usepackage{bm}
 \usepackage{secdot}		
@@ -62,7 +63,7 @@ pdfkeywords={}
 }
 \urlstyle{same}
 
-\usepackage{epstopdf} % converting EPS figure files to PDF
+\usepackage[outdir=./]{epstopdf} % converting EPS figure files to PDF
 
 \usepackage{fancyhdr, lastpage}	% formatting document, calculating number of pages, formatting headers
 \setlength{\topmargin}{-0.5in}
@@ -94,6 +95,7 @@ pdfkeywords={}
 \newtoggle{references}
 \newtoggle{acknowledgements}
 \newtoggle{glossary}
+\newtoggle{preface}
 
 \newcommand{\toggle}{\togglefalse} % default all toggles to false unless otherwise set
 
@@ -104,6 +106,7 @@ pdfkeywords={}
 \toggle\VAR{has_acknowledgements}{acknowledgements}
 \toggle\VAR{has_glossary}{glossary}
 \toggle\VAR{has_foreword}{foreword}
+\toggle\VAR{has_preface}{preface}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %   	BEGIN DOCUMENT 
@@ -304,6 +307,7 @@ Natl. Inst. Stand. Technol. Spec. Publ. \pubnumber, \pageref{LastPage} pages (\m
 %	“Reference [1] . . .” is the correct form).
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \pagebreak
+\setcounter{section}{0}
 
 \VAR{body}
 
@@ -320,24 +324,16 @@ Natl. Inst. Stand. Technol. Spec. Publ. \pubnumber, \pageref{LastPage} pages (\m
 
 \iftoggle{references}{
 \section*{References}
-\addcontentsline{toc}{section}{References}
-\bibliographystyle{techpubs}
-\bibliography{References}
+%\addcontentsline{toc}{section}{References}
+%\bibliographystyle{techpubs}
+%\bibliography{References}
 
+\noindent
 \VAR{references}
+\indent
 
 }
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %   Please use the techpubs BibTeX style when compiling bibliography, or follow the instructions on tinyurl.com/techpubsnist to format your .bib / .bbl file appropriately.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\section*{Appendix A: Supplemental Materials}
-\addcontentsline{toc}{section}{Appendix A: Supplemental Materials}
-Brief description of supplemental files\\
-
-\section*{Appendix B: Change Log}
-\addcontentsline{toc}{section}{Appendix B: Change Log}
-If updating document with errata, detail changes made to document – delete if not applicable. \\
-
-
 \end{document}
