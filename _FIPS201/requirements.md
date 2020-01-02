@@ -26,8 +26,8 @@ Each agency's PIV implementation SHALL meet the four control objectives (a) thro
 such that—
 
 + Credentials are issued 
-  - 1) to individuals whose identity has been verified and 
-  - 2) after a proper authority has authorized issuance of the credential.
+  - to individuals whose identity has been verified; and 
+  - after a proper authority has authorized issuance of the credential.
 + A credential is issued only after National Agency Check with Written Inquiries (NACI) (or equivalent
     or higher) or Tier 1 or higher federal background investigation is initiated[^background] and the Federal Bureau of
     Investigation (FBI) National Criminal History Check (NCHC) portion of the background
@@ -189,8 +189,8 @@ requirements defined below when issuing PIV Cards.
 + The process SHALL begin by locating and referencing a completed and favorably adjudicated NACI (or
     equivalent or higher) or Tier 1 or higher federal background investigation record. In the absence of a
     record, the process SHALL ensure 
-    - 1) the initiation of a Tier 1 or higher federal background investigation and
-    - 2) the completion of the National Agency Check (NAC)[^NAC] of the background investigation. In cases where
+    - the initiation of a Tier 1 or higher federal background investigation; and
+    - the completion of the National Agency Check (NAC)[^NAC] of the background investigation. In cases where
         the NAC results are not received within 5 days of the NAC initiation, the FBI NCHC (fingerprint check)
         portion of the NAC SHALL be complete before PIV Card issuance.
 + The applicant SHALL appear in-person at least once before the issuance of a PIV Card, either on the premises of the issuer, or at a supervised remote identity proofing station as described in [Section 2.7.1](#s-2-7-1).
