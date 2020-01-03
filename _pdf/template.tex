@@ -21,6 +21,9 @@
 \usepackage[hang,flushmargin,bottom]{footmisc} % footnote format
 \usepackage{microtype}
 \usepackage{etoolbox} % for switching sections on and off
+\usepackage{longtable}
+\usepackage{tabularx}
+\usepackage{tabulary}
 
 \usepackage{titlesec}
 \titleformat{\section}{\normalsize\bfseries}{\thesection.}{1em}{}	% required for heading numbering style
@@ -308,6 +311,7 @@ Natl. Inst. Stand. Technol. Spec. Publ. \pubnumber, \pageref{LastPage} pages (\m
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \pagebreak
 \setcounter{section}{0}
+\pagenumbering{arabic}
 
 \VAR{body}
 
