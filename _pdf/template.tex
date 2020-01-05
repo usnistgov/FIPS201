@@ -29,6 +29,34 @@
 \titleformat{\section}{\normalsize\bfseries}{\thesection.}{1em}{}	% required for heading numbering style
 \titleformat*{\subsection}{\normalsize\bfseries}
 
+
+% Set up multi-page long tables
+\makeatletter
+
+\def\ltabulary{%
+\def\endfirsthead{\\}%
+\def\endhead{\\}%
+\def\endfoot{\\}%
+\def\endlastfoot{\\}%
+\def\tabulary{%
+  \def\TY@final{%
+\def\endfirsthead{\LT@end@hd@ft\LT@firsthead}%
+\def\endhead{\LT@end@hd@ft\LT@head}%
+\def\endfoot{\LT@end@hd@ft\LT@foot}%
+\def\endlastfoot{\LT@end@hd@ft\LT@lastfoot}%
+\longtable}%
+  \let\endTY@final\endlongtable
+  \TY@tabular}%
+\dimen@\columnwidth
+\advance\dimen@-\LTleft
+\advance\dimen@-\LTright
+\tabulary\dimen@}
+
+\def\endltabulary{\endtabulary}
+
+\makeatother
+% End macros for multi-page long tables
+
 \usepackage{tocloft}	% change typeset, titles, and format list of appendices/figures/tables
 \renewcommand{\cftdot}{}	
 \renewcommand{\contentsname}{Table of Contents}
@@ -65,6 +93,7 @@ pdfauthor={},
 pdfkeywords={}
 }
 \urlstyle{same}
+\usepackage[anythingbreaks]{breakurl}
 
 \usepackage[outdir=./]{epstopdf} % converting EPS figure files to PDF
 
