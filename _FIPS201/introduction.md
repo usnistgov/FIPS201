@@ -68,7 +68,7 @@ federation protocols play an important role in the use of PIV cards as well.
 This Standard defines mechanisms for derived PIV credentials
 associated with an active PIV account in [Section 2.10](requirements.md#s-2-10). Derived PIV credentials
 have their own authentication and lifecycle requirements separate from the PIV credential itself. This
-this Standard also discusses federation protocols in [Section 7](federation.md#s-7) as a means of 
+Standard also discusses federation protocols in [Section 7](federation.md#s-7) as a means of 
 accepting inter-agency PIV credentials. 
 
 ## 1.3 Change Management {#s-1-3}
