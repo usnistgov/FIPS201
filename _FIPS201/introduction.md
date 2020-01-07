@@ -64,7 +64,7 @@ decisions are outside the scope of this Standard. Moreover, requirements for a t
 a new or replacement PIV Card arrives are out of scope of this Standard.
 
 While this Standard remains focused predominantly on PIV card, derived PIV credentials and
-federation protocols play an important role in the use of PIV cards as well.  
+federation protocols play an important role in the use of PIV accounts as well.  
 This Standard defines mechanisms for derived PIV credentials
 associated with an active PIV account in [Section 2.10](requirements.md#s-2-10). Derived PIV credentials
 have their own authentication and lifecycle requirements separate from the PIV credential itself. This
