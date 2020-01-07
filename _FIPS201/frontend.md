@@ -20,7 +20,7 @@ front of the card apply to the side of the card that contains the electronic con
 of the card apply to the opposite side from the front side.
 
 The PIV Card's physical appearance and other characteristics should balance the need to have the PIV
-Card commonly recognized as a Federal identification card while providing the flexibility to support
+Card commonly recognized as a federal identification card while providing the flexibility to support
 individual department and agency requirements. Having a common look for PIV Cards is important in
 meeting the objectives of improved security and interoperability. In support of these objectives,
 consistent placement of printed components and technology is generally necessary.
@@ -53,7 +53,7 @@ Incorporation of security features SHALL:
 - not obscure printed information; and
 - not impede access to machine-readable information.
 
-All security features SHOULD maintain their function for the life of the card. As a generally accepted security procedure, Federal departments and agencies are strongly encouraged to periodically review the viability, effectiveness, and currency of employed tamper resistance and anticounterfeiting methods.
+All security features SHOULD maintain their function for the life of the card. As a generally accepted security procedure, federal departments and agencies are strongly encouraged to periodically review the viability, effectiveness, and currency of employed tamper resistance and anticounterfeiting methods.
 
 ### 4.1.3 Physical Characteristics and Durability {#s-4-1-3}
 
@@ -248,7 +248,7 @@ storage requirements.
 
 *Zone 9F— Header*. If used, the text "United States Government" SHALL be placed as depicted in 
 [Figure 4-4](#fig-4-4). Departments and agencies may also choose to use this zone for other department or agency-specific
-information, such as identifying a Federal emergency responder role, as depicted in [Figure 4-2](#fig-4-2).
+information, such as identifying a federal emergency responder role, as depicted in [Figure 4-2](#fig-4-2).
 
 *Zone 11F—Agency Seal*. If used, the seal selected by the issuing department, agency, or organization
 SHALL be printed in the area depicted. It SHALL be printed using the guidelines provided in [Figure 4-2](#fig-4-2) to
@@ -257,7 +257,7 @@ ensure information printed on the seal is legible and clearly visible.
 *Zone 12F—Footer*. The footer is the location for the Federal Emergency Response Official identification
 label. If used, a department or agency MAY print "Federal Emergency Response Official" as depicted in
 [Figure 4-2](#fig-4-2), preferably in white lettering on a red background. Departments and agencies MAY also use
-Zone 9F to further identify the Federal emergency respondent's official role. Some examples of official
+Zone 9F to further identify the federal emergency respondent's official role. Some examples of official
 roles are "Law Enforcement," "Fire Fighter," and "Emergency Response Team (ERT)."
 
 When Zone 15F indicates Foreign National affiliation and the department or agency does not need to

@@ -22,30 +22,30 @@ credentials.
 The strength of the authentication that is achieved varies, depending upon the type of credential, the
 process used to issue the credential, and the authentication mechanism used to validate the credential.
 This document establishes a standard for a Personal Identity Verification (PIV) system based on secure
-and reliable forms of identity credentials issued by the Federal government to its employees and
-contractors. These credentials are intended to authenticate individuals who require access to Federally
-controlled facilities, information systems, and applications. This Standard addresses requirements for
+and reliable forms of identity credentials issued by the Federal Government to its employees and
+contractors. These credentials are intended to authenticate individuals who require access to federally-controlled 
+facilities, information systems, and applications. This Standard addresses requirements for
 initial identity proofing, infrastructures to support interoperability of identity credentials, and
 accreditation of organizations and processes issuing PIV credentials.
 
 ## 1.1 Purpose {#s-1-1}
 
 This Standard defines a reliable, government-wide identity credential for use in applications such as
-access to Federally controlled facilities and information systems. This Standard has been developed
-within the context and constraints of Federal law, regulations, and policy based on currently available and
+access to federally-controlled facilities and information systems. This Standard has been developed
+within the context and constraints of federal law, regulations, and policy based on currently available and
 evolving information processing technology.
 
 This Standard specifies a PIV system within which a common identity credential can be created and later
-used to verify a claimed identity. The Standard also identifies Federal government-wide requirements for
+used to verify a claimed identity. The Standard also identifies federal government-wide requirements for
 security levels that are dependent on risks to the facility or information being protected.
 
 ## 1.2 Scope {#s-1-2}
 
 Homeland Security Presidential Directive-12 [[HSPD-12]](../_Appendix/references.md#ref-HSPD-12), signed by President George W. Bush on August
 27, 2004, established the requirements for a common identification standard for identity credentials issued
-by Federal departments and agencies to Federal employees and contractors (including contractor
-employees) for gaining physical access to Federally controlled facilities and logical access to Federally
-controlled information systems. HSPD-12 directs the Department of Commerce to develop a Federal
+by federal departments and agencies to Federal employees and contractors (including contractor
+employees) for gaining physical access to Federally controlled facilities and logical access to federally-controlled 
+information systems. HSPD-12 directs the Department of Commerce to develop a Federal
 Information Processing Standards (FIPS) publication to define such a common identity credential. In
 accordance with HSPD-12, this Standard defines the technical requirements for the identity credential
 that—
@@ -58,7 +58,7 @@ that—
 This Standard defines authentication mechanisms offering varying degrees of security for both logical and
 physical access applications. Federal departments and agencies will determine the level of security and
 authentication mechanisms appropriate for their applications. This Standard does not specify access
-control policies or requirements for Federal departments and agencies. Therefore, the scope of this
+control policies or requirements for federal departments and agencies. Therefore, the scope of this
 Standard is limited to authentication of an individual's identity. Authorization and access control
 decisions are outside the scope of this Standard. Moreover, requirements for a temporary card used until
 a new or replacement PIV Card arrives are out of scope of this Standard.
@@ -143,10 +143,10 @@ have been added at the end of their respective sections with a new section numbe
 
 ## 1.4 Document Organization {#s-1-4}
 
-This Standard describes the minimum requirements for a Federal personal identification system that
+This Standard describes the minimum requirements for a federal personal identification system that
 meets the control and security objectives of [[HSPD-12]](../_Appendix/references.md#ref-HSPD-12), including identity proofing, registration, and
 issuance. It provides detailed technical specifications to support the control and security objectives of
-[[HSPD-12]](../_Appendix/references.md#ref-HSPD-12) as well as interoperability among Federal departments and agencies. This Standard describes
+[[HSPD-12]](../_Appendix/references.md#ref-HSPD-12) as well as interoperability among federal departments and agencies. This Standard describes
 the policies and minimum requirements of a PIV Card that allows interoperability of credentials for
 physical and logical access. The physical card characteristics, storage media, and data elements that make
 up identity credentials are specified in this Standard. The interfaces and card architecture for storing and
@@ -157,7 +157,7 @@ for Personal Identity Verification*. The requirements for cryptographic algorith
 Publication 800-78 [[SP 800-78]](../_Appendix/references.md#ref-SP-800-78), *Cryptographic Algorithms and Key Sizes for Personal Identity
 Verification*. The requirements for the accreditation of PIV Card issuers are specified in Special
 Publication 800-79 [[SP 800-79]](../_Appendix/references.md#ref-SP-800-79), *Guidelines for the Accreditation of Personal Identity Verification Card
-Issuers*. The unique organizational codes for Federal agencies are assigned in Special Publication 800-87 [[SP 800-87]](../_Appendix/references.md#ref-SP-800-87), *Codes for the Identification of Federal and Federally-Assisted Organizations*. The
+Issuers*. The unique organizational codes for federal agencies are assigned in Special Publication 800-87 [[SP 800-87]](../_Appendix/references.md#ref-SP-800-87), *Codes for the Identification of Federal and Federally-Assisted Organizations*. The
 requirements for the PIV Card reader are provided in Special Publication 800-96 [[SP 800-96]](../_Appendix/references.md#ref-SP-800-96), *PIV Card
 to Reader Interoperability Guidelines*. The format for encoding the chain-of-trust for import and export is
 specified in Special Publication 800-156 [[SP 800-156]](../_Appendix/references.md#ref-SP-800-156), *Representation of PIV Chain-of-Trust for Import
