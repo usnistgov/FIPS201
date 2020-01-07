@@ -21,7 +21,7 @@ military establishments, border crossing entrances).
 
 Applicant
 : An individual applying for a PIV Card/credential. The applicant may be a current or
-prospective federal hire, a Federal employee, a government affiliate, or a contractor.[^eligibility]
+prospective federal hire, a federal employee, a government affiliate, or a contractor.[^eligibility]
 
 Application
 : A hardware/software system implemented to satisfy a particular set of requirements. In
@@ -259,7 +259,7 @@ Private Key
 data.
 
 Pseudonyms
-: a name assigned by a Federal department or agency through a formal process to a federal
+: a name assigned by a federal department or agency through a formal process to a federal
 employee for the purpose of the employee's protection (i.e., the employee might be placed at risk if his or
 her actual name were known) or for other purposes.
 

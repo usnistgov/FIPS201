@@ -241,7 +241,7 @@ accredited by the department or agency as satisfying the requirements above and 
 the head or deputy secretary (or equivalent) of the federal department or agency.
 
 The requirements for identity proofing and registration also apply to citizens of foreign countries who are
-working for the federal government overseas. However, a process for identity proofing and registration
+working for the Federal Government overseas. However, a process for identity proofing and registration
 must be established using a method approved by the U.S. Department of State's Bureau of Diplomatic
 Security, except for employees under the command of a U.S. area military commander. These procedures
 may vary depending on the country.
