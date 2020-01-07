@@ -63,6 +63,14 @@ Standard is limited to authentication of an individual's identity. Authorization
 decisions are outside the scope of this Standard. Moreover, requirements for a temporary card used until
 a new or replacement PIV Card arrives are out of scope of this Standard.
 
+While this Standard remains focused predominantly on PIV card, derived PIV credentials and
+federation protocols play an important role in the use of PIV accounts as well.
+This Standard defines mechanisms for derived PIV credentials
+associated with an active PIV account in [Section 2.10](requirements.md#s-2-10). Derived PIV credentials
+have authentication and lifecycle requirements that may differ from the PIV card itself. This
+Standard also discusses federation protocols in [Section 7](federation.md#s-7) as a means of 
+accepting interagency PIV credentials. 
+
 ## 1.3 Change Management {#s-1-3}
 
 Every revision of this Standard introduces refinements and changes that may impact existing
@@ -180,6 +188,8 @@ informative (i.e., non-mandatory). Following is the structure of this document:
 + [Section 6, PIV Cardholder Authentication](authentication.md), defines a suite of authentication mechanisms that are
     supported by the PIV Card, and their applicability in meeting the requirements of graduated
     levels of identity assurance. This section is *normative*.
++ [Section 7, Federation](federation.md), defines a set of mechanisms for using federation technologies to 
+    interoperate between domains with PIV credentials. This section is *normative*.
 + [Appendix A, PIV Validation, Certification, and Accreditation](../_Appendix/accreditation.md), provides additional information
     regarding compliance with this document. This appendix is *normative*.
 + [Appendix B, PIV Object Identifiers and Certificate Extension](../_Appendix/oid.md), provides additional details for the
