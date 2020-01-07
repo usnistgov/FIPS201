@@ -63,8 +63,8 @@ Standard is limited to authentication of an individual's identity. Authorization
 decisions are outside the scope of this Standard. Moreover, requirements for a temporary card used until
 a new or replacement PIV Card arrives are out of scope of this Standard.
 
-While this Standard remains focused predominantly on the PIV card, there are several related topics and
-technologies that are covered here as well. This Standard defines mechanisms for derived PIV credentials
+While this Standard remains focused predominantly on PIV card, derived PIV credentials increasingly play an important role in this Standard as well.  
+This Standard defines mechanisms for derived PIV credentials
 associated with an active PIV account in [Section 2.10](requirements.md#s-2-10). Derived PIV credentials
 have their own authentication and lifecycle requirements separate from the PIV credential itself. This
 this Standard also discusses federation protocols in [Section 7](federation.md#s-7) as a means of 
