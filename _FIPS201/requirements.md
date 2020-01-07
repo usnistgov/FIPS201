@@ -8,7 +8,7 @@ permalink: /requirements/
 # 2. Common Identification, Security, and Privacy Requirements {#s-2}
 
 This section addresses the fundamental control and security objectives outlined in [[HSPD-12]](../_Appendix/references.md#ref-HSPD-12), including
-the identity proofing requirements for Federal employees and contractors.
+the identity proofing requirements for federal employees and contractors.
 
 ## 2.1 Control Objectives {#s-2-1}
 
@@ -33,7 +33,7 @@ such that—
     Investigation (FBI) National Criminal History Check (NCHC) portion of the background
     investigation is completed.
 + An individual is issued a credential only after presenting two identity source documents, at least one
-    of which is a Federal or State government issued picture ID.
+    of which is a Federal or State Government issued picture ID.
 + Fraudulent identity source documents are not accepted as genuine and unaltered.
 + A person suspected or known to the government as being a terrorist is not issued a credential.
 + No substitution occurs in the identity proofing process. More specifically, the individual who appears
@@ -46,7 +46,7 @@ such that—
     person not entitled to the credential.
 + An issued credential is not duplicated or forged, and is not modified by an unauthorized entity.
 
-[^background]: The initiation of a background investigation is defined as the submission of the investigative request to the Office of Personnel Management (OPM), or other Federal background investigation service provider (if authorized).
+[^background]: The initiation of a background investigation is defined as the submission of the investigative request to the Office of Personnel Management (OPM), or other federal background investigation service provider (if authorized).
 
 
 ## 2.2 Credentialing Requirements {#s-2-2}
@@ -171,7 +171,7 @@ The chain-of-trust can be applied in several situations to include:
 + Reissuance: a PIV cardholder loses his/her card. Since the card issuer has biometric data
     records from enrollment, the cardholder can perform a biometric verification to reconnect to the card issuing chain-of-trust. The card issuer NEED NOT repeat the identity proofing and registration process. The card issuer
     proceeds to issue a new card as described in [Section 2.9.1](requirements.md#s-2-9-1).
-+ Interagency transfer: a Federal employee is transferred from one agency to another. When the
++ Interagency transfer: a federal employee is transferred from one agency to another. When the
     employee leaves the old agency, he/she surrenders the PIV Card and it is destroyed. When the
     employee arrives at the new agency and is processed in, the card issuer in the new agency requests the
     employee's chain-of-trust from the card issuer in the old agency, and receives the chain-of-trust. The
@@ -238,10 +238,10 @@ requirements defined below when issuing PIV Cards.
 
 The identity proofing and registration process used when verifying the identity of the applicant SHALL be
 accredited by the department or agency as satisfying the requirements above and approved in writing by
-the head or deputy secretary (or equivalent) of the Federal department or agency.
+the head or deputy secretary (or equivalent) of the federal department or agency.
 
 The requirements for identity proofing and registration also apply to citizens of foreign countries who are
-working for the Federal government overseas. However, a process for identity proofing and registration
+working for the federal government overseas. However, a process for identity proofing and registration
 must be established using a method approved by the U.S. Department of State's Bureau of Diplomatic
 Security, except for employees under the command of a U.S. area military commander. These procedures
 may vary depending on the country.
@@ -287,7 +287,7 @@ to bypass protection capabilities of the station.
 Departments and agencies SHALL meet the requirements defined below when issuing PIV Cards. The
 issuance process used when issuing PIV Cards SHALL be accredited by the department or agency as
 satisfying the requirements below and approved in writing by the head or deputy secretary (or equivalent)
-of the Federal department or agency.
+of the federal department or agency.
 
 + PIV Cards are issued after a proper authority has authorized issuance of the credential.
 + The organization SHALL use an approved PIV credential issuance process in accordance with
@@ -323,7 +323,7 @@ management, and its integrity.
 
 ### 2.8.1 Special Rule for Pseudonyms {#s-2-8-1}
 
-In limited circumstances Federal employees and contractors are permitted to use pseudonyms during the
+In limited circumstances federal employees and contractors are permitted to use pseudonyms during the
 performance of their official duties with the approval of their employing agency. If an agency determines
 that use of a pseudonym is necessary to protect an employee or contractor (e.g., from physical harm,
 severe distress, or harassment),[^pseudonym] the agency may formally authorize the issuance of a PIV Card to the
@@ -336,9 +336,9 @@ agency.
 
 ### 2.8.2 Grace Period {#s-2-8-2}
 
-In some instances an individual's status as a Federal employee or contractor will lapse for a brief time
-period. For example, a Federal employee may leave one Federal agency for another Federal agency and
-thus occur a short employment lapse period, or an individual who was under contract to a Federal agency
+In some instances an individual's status as a federal employee or contractor will lapse for a brief time
+period. For example, a federal employee may leave one Federal agency for another Federal agency and
+thus occur a short employment lapse period, or an individual who was under contract to a federal agency
 may receive a new contract from that agency shortly after the previous contract expired. In these
 instances, the card issuer MAY issue a new PIV Card without repeating the identity proofing and
 registration process if the issuer has access to the applicant's chain-of-trust record and the applicant can
@@ -524,8 +524,8 @@ A PIV card is terminated when the department or agency that issued the card dete
 cardholder is no longer eligible to have a PIV Card. The PIV Card SHALL be terminated under the
 following circumstances:
 
-+ a Federal employee separates (voluntarily or involuntarily) from Federal service;
-+ a contractor changes positions and no longer needs access to Federal buildings or systems;
++ a federal employee separates (voluntarily or involuntarily) from Federal service;
++ a contractor changes positions and no longer needs access to federal buildings or systems;
 + a cardholder passes away;
 + a determination is made after completion of a cardholder's background investigation that the
     cardholder should not have a PIV Card; or
@@ -578,7 +578,7 @@ Upon invalidation of a derived PIV credential, it SHALL no longer be accepted fo
 
 HSPD-12 explicitly states that "protect[ing] personal privacy" is a requirement of the PIV system. As
 such, all departments and agencies SHALL implement the PIV system in accordance with the spirit and letter
-of all privacy controls specified in this Standard, as well as those specified in Federal privacy laws and
+of all privacy controls specified in this Standard, as well as those specified in federal privacy laws and
 policies including but not limited to the E-Government Act of 2002 [[E-Gov]](../_Appendix/references.md#ref-E-Gov), the Privacy Act of 1974
 [[PRIVACY]](../_Appendix/references.md#ref-PRIVACY), and OMB Memorandum M-03-22 [[OMB0322]](../_Appendix/references.md#ref-OMB0322), as applicable.
 

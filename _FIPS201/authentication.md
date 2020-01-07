@@ -49,7 +49,7 @@ this Standard:
 - HIGH Confidence—A strong degree of assurance in the identity of the cardholder;
 - VERY HIGH Confidence—A very strong degree of assurance in the identity of the cardholder.
 
-Parties responsible for controlling access to Federal resources (both physical and logical) SHALL determine
+Parties responsible for controlling access to federal resources (both physical and logical) SHALL determine
 the appropriate level of identity assurance required for access, based on the harm and impact to
 individuals and organizations as a result of errors in the authentication of the identity of the PIV
 cardholder. Once the required level of assurance has been determined, the authentication mechanisms
@@ -271,7 +271,7 @@ The PIV Card MAY also bear optional components, some of which are:
 - Zone 5B – Physical Characteristics of Cardholder (back of card);
 - Zone 3F – Signature.
 
-When a cardholder attempts to pass through an access control point for a Federally controlled facility, a
+When a cardholder attempts to pass through an access control point for a federally-controlled facility, a
 human guard SHALL perform visual identity verification of the cardholder, and determine whether the
 identified individual should be allowed through the control point. The following steps SHALL be applied in
 the visual authentication process:
@@ -318,7 +318,7 @@ implementation of relying systems, e.g., [[FIPS140]](../_Appendix/references.md#
 ### 6.3.1 Physical Access {#s-6-3-1}
 
 The PIV Card MAY be used to authenticate the identity of the cardholder in a physical access control
-environment. For example, a Federal facility may have physical entry doors that have human guards at
+environment. For example, a federal facility may have physical entry doors that have human guards at
 checkpoints, or may have electronic access control points. The PIV-supported authentication mechanisms
 for physical access control systems are summarized in [Table 6-2](#table-6-2). An authentication mechanism that is
 suitable for a higher assurance level can also be applied to meet the requirements for a lower assurance

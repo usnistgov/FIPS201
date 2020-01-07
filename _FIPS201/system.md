@@ -8,14 +8,14 @@ permalink: /system/
 # 3. PIV System Overview {#s-3}
 
 The PIV system is composed of components and processes that support a common (smart card-based)
-platform for identity authentication across Federal departments and agencies for access to multiple types
+platform for identity authentication across federal departments and agencies for access to multiple types
 of physical and logical access environments. The specifications for the PIV components in this Standard
 promote uniformity and interoperability among the various PIV system components, across departments
 and agencies, and across installations. The specifications for processes in this Standard are a set of
 minimum requirements for the various activities that need to be performed within an operational PIV
 system. When implemented in accordance with this Standard, the PIV Card supports a suite of
 authentication mechanisms that can be used consistently across departments and agencies. The
-authenticated identity information can then be used as a basis for access control in various Federal
+authenticated identity information can then be used as a basis for access control in various federal
 physical and logical access environments. The following sections briefly discuss the functional
 components of the PIV system and the lifecycle activities of the PIV Card.
 
@@ -24,7 +24,7 @@ components of the PIV system and the lifecycle activities of the PIV Card.
 An operational PIV system can be logically divided into the following three major subsystems:
 
 - **PIV Front-End Subsystem**—PIV Card, card readers, biometric capture devices, and PIN input device. The PIV
-    cardholder interacts with these components to gain physical or logical access to the desired Federal
+    cardholder interacts with these components to gain physical or logical access to the desired federal
     resource.
 - **PIV Card Issuance and Management Subsystem**—the components responsible for identity
     proofing and registration, card and key issuance and management, and the various repositories and

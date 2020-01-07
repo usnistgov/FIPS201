@@ -16,12 +16,12 @@ The following terms are used throughout this Standard.
 
 Access Control
 : The process of granting or denying specific requests: 1) obtain and use information and
-related information processing services; and 2) enter specific physical facilities (e.g., Federal buildings,
+related information processing services; and 2) enter specific physical facilities (e.g., federal buildings,
 military establishments, border crossing entrances).
 
 Applicant
 : An individual applying for a PIV Card/credential. The applicant may be a current or
-prospective Federal hire, a Federal employee, a government affiliate, or a contractor.[^eligibility]
+prospective federal hire, a Federal employee, a government affiliate, or a contractor.[^eligibility]
 
 Application
 : A hardware/software system implemented to satisfy a particular set of requirements. In
@@ -136,7 +136,7 @@ identifiers on the PIV Card for physical access control. The FASC-N is a fixed l
 object, specified in [[SP 800-73]](references.md#ref-SP-800-73), and included in several data objects on a PIV Card.
 
 Federal Information Processing Standards (FIPS)
-: A standard for adoption and use by Federal
+: A standard for adoption and use by federal
 departments and agencies that has been developed within the Information Technology Laboratory and
 published by NIST, a part of the U.S. Department of Commerce. A FIPS covers some topic in
 information technology to achieve a common level of quality or some level of interoperability.
@@ -259,7 +259,7 @@ Private Key
 data.
 
 Pseudonyms
-: a name assigned by a Federal department or agency through a formal process to a Federal
+: a name assigned by a Federal department or agency through a formal process to a federal
 employee for the purpose of the employee's protection (i.e., the employee might be placed at risk if his or
 her actual name were known) or for other purposes.
 
