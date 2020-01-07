@@ -508,19 +508,20 @@ the contactless interface. Algorithms and key sizes for each PIV key type are sp
 The PIV Card has both mandatory keys and optional keys:
 
 - The *PIV Authentication key* is a mandatory asymmetric private key that supports card and cardholder
-    authentication for an interoperable environment.
+    authentication for an interoperable environment. See [Section 4.2.2.1](frontend.md#s-4-2-2-1).
 - The *asymmetric Card Authentication key* is a mandatory private key that supports card authentication
-    for an interoperable environment.
+    for an interoperable environment. See [Section 4.2.2.2](frontend.md#s-4-2-2-2).
 - The *symmetric (secret) Card Authentication key* supports card authentication for physical access, and
-    it is optional.
+    it is optional. See [Section 4.2.2.3](frontend.md#s-4-2-2-3).
 - The *digital signature key* is an asymmetric private key supporting document signing, and it is
     mandatory, unless the cardholder does not have a government-issued email account at the time of
-    credential issuance.
+    credential issuance. See [Section 4.2.2.4](frontend.md#s-4-2-2-4).
 - The *key management key* is an asymmetric private key supporting key establishment and transport,
     and it is mandatory, unless the cardholder does not have a government-issued email account at the
     time of credential issuance. Optionally, up to twenty retired key management keys may also be
-    stored on the PIV Card.
+    stored on the PIV Card. See [Section 4.2.2.5](frontend.md#s-4-2-2-5).
 - The *PIV Card Application Administration Key* is a symmetric key used for personalization and post-issuance activities, and it is optional.
+    See [Section 4.2.2.6](frontend.md#s-4-2-2-6).
 - The PIV Card MAY include additional key(s) for use with secure messaging. These keys are defined
     in [[SP 800-73]](../_Appendix/references.md#ref-SP-800-73) or [[SP 800-78]](../_Appendix/references.md#ref-SP-800-78).
 
@@ -573,7 +574,6 @@ the certificate must be no later than the expiration date of the PIV Card. [Sect
 specifies the certificate format and the key management infrastructure for asymmetric PIV Card
 Authentication keys.
 
-
 #### 4.2.2.3 Symmetric Card Authentication Key {#s-4-2-2-3}
 The symmetric Card Authentication key MAY be imported
 onto the card by the issuer or be generated on the card. If present, the symmetric Card Authentication
@@ -605,7 +605,6 @@ present, the cryptographic operations that use the key management key must only 
 the contact and the virtual contact interfaces of the PIV Card. Private key operations MAY be
 performed using an activated PIV Card without explicit user action (e.g., the PIN need not be
 supplied for each operation).
-
 
 The PIV Card SHALL store a corresponding X.509 certificate to support validation of the public key.
 [Section 5](keymanagement.md#s-5) of this document specifies the certificate format and the key management infrastructure for
