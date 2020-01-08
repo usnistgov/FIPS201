@@ -6,4 +6,4 @@ Gemfile.lock
 .jekyll-metadata
 *.css.map
 *~
-_pdf/FIPS201/
+_pdf/

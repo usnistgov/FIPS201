@@ -1,11 +1,11 @@
 pdf:
   - basedir: ""
     filename: FIPS201
-    template: _pdf/template.tex
+    template: _pdftemplate/template.tex
     workdir: _pdf
     graphics: 
       - _FIPS201/images/
-      - _pdf/images/
+      - _pdftemplate/images/
     foreword:
       - foreword.md
     body:
