@@ -23,11 +23,11 @@ accreditation process.
 
 
 Each agency's PIV implementation SHALL meet the four control objectives (a) through (d) listed above
-such that—
+such that:
 
 + Credentials are issued 
-  - to individuals whose identity has been verified; and 
-  - after a proper authority has authorized issuance of the credential.
+    - to individuals whose identity has been verified; and 
+    - after a proper authority has authorized issuance of the credential.
 + A credential is issued only after National Agency Check with Written Inquiries (NACI) (or equivalent
     or higher) or Tier 1 or higher federal background investigation is initiated[^background] and the Federal Bureau of
     Investigation (FBI) National Criminal History Check (NCHC) portion of the background
@@ -259,9 +259,9 @@ Supervised remote identity proofing takes advantage of improvements in sensor te
 
 The following forms of protection SHALL be provided by either inherent capabilities of the station or staff at the station location:
 
-* Ensuring that only a single individual (applicant) interacts with the station during any identity proofing session;
-* Ensuring that the physical integrity of the station and its sensors is maintained at all times;
-* Reporting any problems with the station to the issuer.
+* ensuring that only a single individual (applicant) interacts with the station during any identity proofing session;
+* ensuring that the physical integrity of the station and its sensors is maintained at all times; and
+* reporting any problems with the station to the issuer.
 
 Supervised remote identity proofing SHALL meet the following requirements:
 
@@ -395,7 +395,7 @@ SHALL provide two identity source documents (as specified in [Section 2.7](requi
 inspect these and compare the cardholder with the electronic facial image retrieved from the enrollment data record
 and the photograph printed on the new PIV Card.
 
-The old PIV Card SHALL be revoked when the new PIV Card is issued:
+The old PIV Card SHALL be revoked when the new PIV Card is issued. The revocation process SHALL include the following:
 
 + The old PIV Card SHALL be collected and destroyed, if possible.
 + Any databases maintained by the PIV Card issuer that contain FASC-N or UUID values from the old
@@ -564,9 +564,9 @@ Special Publication 800-157, *Guidelines for Derived Personal Identity Verificat
 
 Derived PIV credentials SHALL be invalidated in any of the following circumstances:
 
-* Upon request of the PIV cardholder as a result of loss, failure, compromise, or intent to discontinue use of the derived PIV credential;
-* At the determination of the PIV account issuer upon reported loss or suspected compromise of the derived PIV credential;
-* At the determination of the PIV account issuer upon observation of possible fraudulent activity; or
+* Upon request of the PIV cardholder as a result of loss, failure, compromise, or intent to discontinue use of the derived PIV credential.
+* At the determination of the PIV account issuer upon reported loss or suspected compromise of the derived PIV credential.
+* At the determination of the PIV account issuer upon observation of possible fraudulent activity.
 * When a cardholder is no longer eligible to have a PIV Card as specified in [Section 2.9.4](requirements.md#s-2-9-4). In this situation, all derived PIV credentials associated with the PIV account SHALL be invalidated.
 
 If the derived PIV credential to be invalidated contains a Derived PIV Authentication Certificate and the corresponding private key cannot be securely zeroized or destroyed, the CA SHALL be informed and the certificate corresponding to the Derived PIV Authentication Key SHALL be revoked.

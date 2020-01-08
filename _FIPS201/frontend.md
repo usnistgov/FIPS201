@@ -40,7 +40,7 @@ with the contact and contactless ICC(s) and related components, nor SHALL it obs
 
 To combat counterfeiting and alterations, the PIV Card SHALL contain security features outlined in the American Association of Motor Vehicle Association’s (AAMVA) Drivers License/Identification Card (DL/ID) Card Design Standard [[CDS]](../_Appendix/references.md#ref-CDS). The Card Design Standard classifies security features into three categories, depending on the security level required for verification:
 
-- **Level 1** - First line of inspection:  Security features that can be examined without tools or aids that involves easily identifiable visual or tactile features for rapid inspection at point of usage (e.g.embossed surface pattern, optically variable device (such as a hologram), or color shifting inks). 
+- **Level 1** - First line of inspection: Security features that can be examined without tools or aids that involves easily identifiable visual or tactile features for rapid inspection at point of usage (e.g.embossed surface pattern, optically variable device (such as a hologram), or color shifting inks). 
 - **Level 2** - Second line of inspection: Security features that require the use of a tool or instrument (e.g., UV light, magnifying glass, or scanner) to discern the feature. Level two sample security features include microtext, UV fluorescent images and IR-fluorescent ink. 
 - **Level 3** - Third line of inspection: Security features inspected by forensic specialists to conduct in-depth examination that may require special equipment to provide true certification.  Nano and micro images and chemical taggants, are examples of level 3 security features.
 
@@ -192,9 +192,9 @@ SEP, OCT, NOV, and DEC. The Zone 14F expiration date SHALL be printed in Arial 6
 identification of employee affiliation as a background color for Zone 2F (name) as depicted in Figures [4-1](#fig-4-1)
 and [4-4](#fig-4-4). The following color scheme SHALL be used:
 
-- Blue—Foreign National
-- White—Government Employee
-- Green—Contractor.
+- blue: foreign national,
+- white: government employee, and
+- green: contractor.
 
 Foreign National color-coding has precedence over Government Employee and Contractor color-coding.
 These colors SHALL be reserved and SHALL NOT be employed for other purposes. Also, these colors SHALL be
@@ -391,10 +391,10 @@ The colors in [Table 4-2](#table-4-2) can be mapped to the Pantone[^pantone] col
 produce an exact match. An agency or department MAY use the following Pantone mappings in cases
 where [Table 4-2](#table-4-2) scales are not available.
 
-- Blue—630C
-- White—White
-- Green—359C
-- Red—032C
+- white: white
+- green: 359C
+- blue: 630C
+- red: 032C
 
 [^pantone]: Pantone is a registered name protected by law.
 
@@ -618,9 +618,9 @@ The following biometric data SHALL be stored on the PIV Card:
 
 The following biometric data MAY also be stored on the PIV Card:
 
-- Electronic image of the left iris;
-- Electronic image of the right iris;
-- Fingerprint biometric templates for on-card one-to-one comparison.[^fingerprints]
+- electronic image of the left iris;
+- electronic image of the right iris; and
+- fingerprint biometric templates for on-card one-to-one comparison.[^fingerprints]
 
 All biometric data SHALL be stored in the data elements referenced by [[SP 800-73]](../_Appendix/references.md#ref-SP-800-73) and in conformance
 with the preparation and formatting specifications of [[SP 800-76]](../_Appendix/references.md#ref-SP-800-76).

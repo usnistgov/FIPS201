@@ -48,12 +48,12 @@ employees) for gaining physical access to Federally controlled facilities and lo
 information systems. HSPD-12 directs the Department of Commerce to develop a Federal
 Information Processing Standards (FIPS) publication to define such a common identity credential. In
 accordance with HSPD-12, this Standard defines the technical requirements for the identity credential
-that—
+that:
 
-- (a) is issued based on sound criteria for verifying an individual employee's identity;
-- (b) is strongly resistant to identity fraud, tampering, counterfeiting, and terrorist exploitation;
-- (c) can be rapidly authenticated electronically; and
-- (d) is issued only by providers whose reliability has been established by an official accreditation process.
+- is issued based on sound criteria for verifying an individual employee's identity;
+- is strongly resistant to identity fraud, tampering, counterfeiting, and terrorist exploitation;
+- can be rapidly authenticated electronically; and
+- is issued only by providers whose reliability has been established by an official accreditation process.
 
 This Standard defines authentication mechanisms offering varying degrees of security for both logical and
 physical access applications. Federal departments and agencies will determine the level of security and
