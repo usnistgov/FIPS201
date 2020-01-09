@@ -182,56 +182,63 @@ The chain-of-trust can be applied in several situations to include:
 
 Identity proofing and registration requirements for issuance of PIV Cards meet IAL3 as it follows a tailored process based on [[SP 800-63A]](../_Appendix/references.md#ref-SP-800-63A) IAL3 requirements. Departments and agencies SHALL follow an identity proofing and registration process that meets the requirements defined below when issuing PIV Cards.
 
-+ The organization SHALL adopt and use an identity proofing and registration process that is approved in
-    accordance with [[SP 800-79]](../_Appendix/references.md#ref-SP-800-79).
-+ Biometrics data SHALL be captured as specified in Sections [2.3](requirements.md#s-2-3) and [2.4](requirements.md#s-2-4).
-+ The process SHALL begin by locating and referencing a completed and favorably adjudicated NACI (or
-    equivalent or higher) or Tier 1 or higher federal background investigation record. In the absence of a
-    record, the process SHALL ensure 
-    - the initiation of a Tier 1 or higher federal background investigation; and
-    - the completion of the National Agency Check (NAC)[^NAC] of the background investigation. In cases where
-        the NAC results are not received within 5 days of the NAC initiation, the FBI NCHC (fingerprint check)
-        portion of the NAC SHALL be complete before PIV Card issuance.
-+ The applicant SHALL appear in-person at least once before the issuance of a PIV Card, either on the premises of the issuer, or at a supervised remote identity proofing station as described in [Section 2.7.1](#s-2-7-1).
-+ During identity proofing, the applicant SHALL be required to provide two forms of identity source
-    documents in original form.[^documents] The identity source documents SHALL be bound to that applicant and SHALL
-    be neither expired nor cancelled. If the two identity source documents bear different names, evidence
-    of a formal name change SHALL be provided. At least one identity source document SHALL meet the requirements of Strong evidence as specified in [[SP 800-63A]](../_Appendix/references.md#ref-SP-800-63A) Section 5.2.1 and be one of the
-    following forms of identification:
-    * a U.S. Passport or a U.S. Passport Card;
-    * a Permanent Resident Card or an Alien Registration Receipt Card (Form I-551);
-    * a foreign passport;
-    * an Employment Authorization Document that contains a photograph (Form I-766);
-    * a [[REAL-ID]](../_Appendix/references.md#ref-REAL-ID) compliant Driver's license or [[REAL-ID]](../_Appendix/references.md#ref-REAL-ID) compliant ID card issued by a state or possession of the United States;
-    * a U.S. Military ID card;
-    * a U.S. Military dependent's ID card; or
-    * a PIV Card.
+The organization SHALL adopt and use an identity proofing and registration process that is approved in
+accordance with [[SP 800-79]](../_Appendix/references.md#ref-SP-800-79).
+
+Biometrics data SHALL be captured as specified in Sections [2.3](requirements.md#s-2-3) and [2.4](requirements.md#s-2-4).
+
+The process SHALL begin by locating and referencing a completed and favorably adjudicated NACI (or
+equivalent or higher) or Tier 1 or higher federal background investigation record. In the absence of a
+record, the process SHALL ensure 
+
+- the initiation of a Tier 1 or higher federal background investigation; and
+- the completion of the National Agency Check (NAC)[^NAC] of the background investigation. In cases where
+    the NAC results are not received within 5 days of the NAC initiation, the FBI NCHC (fingerprint check)
+    portion of the NAC SHALL be complete before PIV Card issuance.
+
+The applicant SHALL appear in-person at least once before the issuance of a PIV Card, either on the premises of the issuer, or at a supervised remote identity proofing station as described in [Section 2.7.1](#s-2-7-1).
+
+During identity proofing, the applicant SHALL be required to provide two forms of identity source
+documents in original form.[^documents] The identity source documents SHALL be bound to that applicant and SHALL
+be neither expired nor cancelled. If the two identity source documents bear different names, evidence
+of a formal name change SHALL be provided. At least one identity source document SHALL meet the requirements of Strong evidence as specified in [[SP 800-63A]](../_Appendix/references.md#ref-SP-800-63A) Section 5.2.1 and be one of the
+following forms of identification:
+
+* a U.S. Passport or a U.S. Passport Card;
+* a Permanent Resident Card or an Alien Registration Receipt Card (Form I-551);
+* a foreign passport;
+* an Employment Authorization Document that contains a photograph (Form I-766);
+* a [[REAL-ID]](../_Appendix/references.md#ref-REAL-ID) compliant Driver's license or [[REAL-ID]](../_Appendix/references.md#ref-REAL-ID) compliant ID card issued by a state or possession of the United States;
+* a U.S. Military ID card;
+* a U.S. Military dependent's ID card; or
+* a PIV Card.
     
-    {::comment}Syntax note:The blank line above is required to terminate the inner list without breaking the outer list.{:/comment}
-    The second piece of evidence may be from the list above, provided it is not of the same type
-    as the primary identity source document.[^second] The second identity source document may also be one
-    of the following:
-    * an ID card issued by a federal, state, or local government agency or entity, provided it
-        contains a photograph;
-    * a voter's registration card;
-    * a U.S. Coast Guard Merchant Mariner Card;
-    * a Certificate of U.S. Citizenship (Form N-560 or N-561);
-    * a Certificate of Naturalization (Form N-550 or N-570);
-    * a U.S. Citizen ID Card (Form I-197);
-    * an Identification Card for Use of Resident Citizen in the United States (Form I-179);
-    * a Certification of Birth Abroad or Certification of Report of Birth issued by the Department
-        of State (Form FS-545 or Form DS-1350);
-    * a Reentry Permit (Form I-327);
-    * an Employment authorization document issued by Department of Homeland Security (DHS);
-    * a driver's license issued by a Canadian government entity;
-    * a Native American tribal document;
-    * a U.S. Social Security Card issued by the Social Security Administration;
-    * an original or certified copy of a birth certificate issued by a state, county, municipal
-        authority, possession, or outlying possession of the United States bearing an official seal; or
-    * another piece of evidence that meets the requirements of Fair evidence specified in [[SP 800-63A]](../_Appendix/references.md#ref-SP-800-63A) Section 5.2.1.
-+ The PIV identity proofing, registration, issuance, and reissuance processes SHALL adhere to the
-    principle of separation of duties to ensure that no single individual has the capability to issue a PIV
-    Card without the cooperation of another authorized person.
+The second piece of evidence may be from the list above, provided it is not of the same type
+as the primary identity source document.[^second] The second identity source document may also be one
+of the following:
+
+* an ID card issued by a federal, state, or local government agency or entity, provided it
+    contains a photograph;
+* a voter's registration card;
+* a U.S. Coast Guard Merchant Mariner Card;
+* a Certificate of U.S. Citizenship (Form N-560 or N-561);
+* a Certificate of Naturalization (Form N-550 or N-570);
+* a U.S. Citizen ID Card (Form I-197);
+* an Identification Card for Use of Resident Citizen in the United States (Form I-179);
+* a Certification of Birth Abroad or Certification of Report of Birth issued by the Department
+    of State (Form FS-545 or Form DS-1350);
+* a Reentry Permit (Form I-327);
+* an Employment authorization document issued by Department of Homeland Security (DHS);
+* a driver's license issued by a Canadian government entity;
+* a Native American tribal document;
+* a U.S. Social Security Card issued by the Social Security Administration;
+* an original or certified copy of a birth certificate issued by a state, county, municipal
+    authority, possession, or outlying possession of the United States bearing an official seal; or
+* another piece of evidence that meets the requirements of Fair evidence specified in [[SP 800-63A]](../_Appendix/references.md#ref-SP-800-63A) Section 5.2.1.
+
+The PIV identity proofing, registration, issuance, and reissuance processes SHALL adhere to the
+principle of separation of duties to ensure that no single individual has the capability to issue a PIV
+Card without the cooperation of another authorized person.
 
 > Note: One piece of Strong evidence and one other piece of evidence meeting the requirements of Fair evidence in [[SP 800-63A]](../_Appendix/references.md#ref-SP-800-63A) are considered sufficient for issuance of a PIV card because the requirement for a federal background investigation is considered a compensating control for identity proofing at Identity Assurance Level 3.
 
