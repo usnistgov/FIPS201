@@ -177,9 +177,9 @@ informative (i.e., non-mandatory). Following is the structure of this document:
 + [Section 2, Common Identification, Security, and Privacy Requirements](requirements.md#s-2), outlines the requirements
     for identity proofing, registration, and issuance, by establishing the control and security
     objectives for compliance with [[HSPD-12]](../_Appendix/references.md#ref-HSPD-12). This section is *normative*.
-+ [Section 3, PIV System Overview](system.md#s34), serves to provide a PIV system overview. This section is
++ [Section 3, PIV System Overview](system.md#s-3), serves to provide a PIV system overview. This section is
     *informative*.
-+ [Section 4, PIV Front-End Subsystem](frontend.md#s45), provides the requirements for the components of the PIV
++ [Section 4, PIV Front-End Subsystem](frontend.md#s-4), provides the requirements for the components of the PIV
     front-end subsystem. Specifically, this section defines requirements for the PIV Card, logical
     data elements, biometric data records, cryptography, and card readers. This section is *normative*.
 + [Section 5, PIV Key Management Requirements](keymanagement.md#s-5), defines the processes and components required
