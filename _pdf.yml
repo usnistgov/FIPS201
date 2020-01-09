@@ -28,6 +28,8 @@ pdf:
               - _Appendix/glossary.md
               - _Appendix/references.md
               - _Appendix/revisions.md
+          part_template: _pdftemplate/sectionpart.tex
+          section_template: _pdftemplate/section.tex
     report_number: FIPS201
     doi_url: None
     month: December
