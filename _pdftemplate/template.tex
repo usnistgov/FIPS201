@@ -128,6 +128,7 @@ pdfkeywords={}
 \newtoggle{acknowledgements}
 \newtoggle{glossary}
 \newtoggle{preface}
+\newtoggle{appendix}
 
 \newcommand{\toggle}{\togglefalse} % default all toggles to false unless otherwise set
 
@@ -139,6 +140,7 @@ pdfkeywords={}
 \toggle\VAR{has_glossary}{glossary}
 \toggle\VAR{has_foreword}{foreword}
 \toggle\VAR{has_preface}{preface}
+\toggle\VAR{has_appendix}{appendix}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %   	BEGIN DOCUMENT 
@@ -338,7 +340,6 @@ Natl. Inst. Stand. Technol. Spec. Publ. \pubnumber, \pageref{LastPage} pages (\m
 %	“. . . Ref. [1] . . .” (except at the beginning of a sentence where
 %	“Reference [1] . . .” is the correct form).
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\pagebreak
 \setcounter{section}{0}
 \pagenumbering{arabic}
 
@@ -354,6 +355,13 @@ Natl. Inst. Stand. Technol. Spec. Publ. \pubnumber, \pageref{LastPage} pages (\m
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %   Acknowledgments not required
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\iftoggle{appendix}{
+\renewcommand{\thesection}{A\arabic{section}}
+
+\VAR{appendix}
+
+}
 
 \iftoggle{references}{
 \section*{References}
