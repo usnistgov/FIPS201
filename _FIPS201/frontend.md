@@ -508,19 +508,20 @@ the contactless interface. Algorithms and key sizes for each PIV key type are sp
 The PIV Card has both mandatory keys and optional keys:
 
 - The *PIV Authentication key* is a mandatory asymmetric private key that supports card and cardholder
-    authentication for an interoperable environment.
+    authentication for an interoperable environment. See [Section 4.2.2.1](frontend.md#s-4-2-2-1).
 - The *asymmetric Card Authentication key* is a mandatory private key that supports card authentication
-    for an interoperable environment.
+    for an interoperable environment. See [Section 4.2.2.2](frontend.md#s-4-2-2-2).
 - The *symmetric (secret) Card Authentication key* supports card authentication for physical access, and
-    it is optional.
+    it is optional. See [Section 4.2.2.3](frontend.md#s-4-2-2-3).
 - The *digital signature key* is an asymmetric private key supporting document signing, and it is
     mandatory, unless the cardholder does not have a government-issued email account at the time of
-    credential issuance.
+    credential issuance. See [Section 4.2.2.4](frontend.md#s-4-2-2-4).
 - The *key management key* is an asymmetric private key supporting key establishment and transport,
     and it is mandatory, unless the cardholder does not have a government-issued email account at the
     time of credential issuance. Optionally, up to twenty retired key management keys may also be
-    stored on the PIV Card.
+    stored on the PIV Card. See [Section 4.2.2.5](frontend.md#s-4-2-2-5).
 - The *PIV Card Application Administration Key* is a symmetric key used for personalization and post-issuance activities, and it is optional.
+    See [Section 4.2.2.6](frontend.md#s-4-2-2-6).
 - The PIV Card MAY include additional key(s) for use with secure messaging. These keys are defined
     in [[SP 800-73]](../_Appendix/references.md#ref-SP-800-73) or [[SP 800-78]](../_Appendix/references.md#ref-SP-800-78).
 
@@ -536,74 +537,84 @@ specified in [[SP 800-78]](../_Appendix/references.md#ref-SP-800-78).
 Requirements specific to storage and access for each key are detailed below. Where applicable, key
 management requirements are also specified.
 
-- **PIV Authentication Key.** This key SHALL be generated on the PIV Card. The PIV Card SHALL NOT
-    permit exportation of the PIV Authentication key. The cryptographic operations that use the PIV
-    Authentication key SHALL be available only through the contact and the virtual contact interfaces of the
-    PIV Card. Private key operations MAY be performed using an activated PIV Card without explicit
-    user action (e.g., the PIN need not be supplied for each operation).
-    
-    The PIV Card SHALL store a corresponding X.509 certificate to support validation of the public key.
-    The X.509 certificate SHALL include the FASC-N in the subject alternative name extension using the
-    pivFASC-N attribute to support physical access procedures. The X.509 certificate SHALL also include
-    the UUID value from the GUID data element of the CHUID in the subject alternative name extension.
-    The UUID SHALL be encoded as a uniform resource identifier (URI), as specified in Section 3 of
-    [[RFC4122]](../_Appendix/references.md#ref-RFC4122). The expiration date of the certificate must be no later than the expiration date of the PIV
-    Card. The PIV Authentication certificate SHALL include a PIV NACI indicator (background
-    investigation indicator) extension (see Appendix B.2); this non-critical extension indicates the status
-    of the subject's background investigation at the time of card issuance.[^backgroundstatus] [Section 5](keymanagement.md#s-5) of this document
-    specifies the certificate format and the key management infrastructure for the PIV Authentication key.
-- **Asymmetric Card Authentication Key.** The asymmetric Card Authentication key MAY be generated
-    on the PIV Card or imported to the card. The PIV Card SHALL NOT permit exportation of the Card
-    Authentication key. Cryptographic operations that use the Card Authentication key SHALL be available
-    through the contact and the contactless interfaces of the PIV Card. Private key operations MAY be
-    performed using this key without card activation (e.g., the PIN need not be supplied for operations
-    with this key).
-    
-    The PIV Card SHALL store a corresponding X.509 certificate to support validation of the public key.
-    The X.509 certificate SHALL include the FASC-N in the subject alternative name extension using the
-    pivFASC-N attribute to support physical access procedures. The X.509 certificate SHALL also include
-    the UUID value from the GUID data element of the CHUID in the subject alternative name extension.
-    The UUID SHALL be encoded as a URI, as specified in Section 3 of [[RFC4122]](../_Appendix/references.md#ref-RFC4122). The expiration date of
-    the certificate must be no later than the expiration date of the PIV Card. [Section 5](keymanagement.md#s-5) of this document
-    specifies the certificate format and the key management infrastructure for asymmetric PIV Card
-    Authentication keys.
-- **Symmetric Card Authentication Key.** The symmetric Card Authentication key MAY be imported
-    onto the card by the issuer or be generated on the card. If present, the symmetric Card Authentication
-    key SHALL be unique for each PIV Card and SHALL meet the algorithm and key size requirements stated
-    in [[SP 800-78]](../_Appendix/references.md#ref-SP-800-78). If present, cryptographic operations using this key MAY be performed without card
-    activation (e.g., the PIN need not be supplied for operations with this key). The cryptographic
-    operations that use the Card Authentication key SHALL be available through the contact and the
-    contactless interfaces of the PIV Card. This Standard does not specify key management protocols or
-    infrastructure requirements.
-- **Digital Signature Key.** The PIV digital signature key SHALL be generated on the PIV Card. The PIV
-    Card SHALL NOT permit exportation of the digital signature key. If present, cryptographic operations
-    using the digital signature key MAY only be performed using the contact and the virtual contact
-    interfaces of the PIV Card. Private key operations MAY not be performed without explicit user action,
-    as this Standard requires the cardholder to authenticate to the PIV Card each time it performs a
-    private key computation with the digital signature key.[^cardholderauthentication]
+#### 4.2.2.1 PIV Authentication Key {#s-4-2-2-1}
+This key SHALL be generated on the PIV Card. The PIV Card SHALL NOT
+permit exportation of the PIV Authentication key. The cryptographic operations that use the PIV
+Authentication key SHALL be available only through the contact and the virtual contact interfaces of the
+PIV Card. Private key operations MAY be performed using an activated PIV Card without explicit
+user action (e.g., the PIN need not be supplied for each operation).
 
-
-    The PIV Card SHALL store a corresponding X.509 certificate to support validation of the public key.
-    The expiration date of the certificate must be no later than the expiration date of the PIV Card.
-    [Section 5](keymanagement.md#s-5) of this document specifies the certificate format and the key management infrastructure for
-    PIV digital signature keys.
-- **Key Management Key.** This key MAY be generated on the PIV Card or imported to the card. If
-    present, the cryptographic operations that use the key management key must only be accessible using
-    the contact and the virtual contact interfaces of the PIV Card. Private key operations MAY be
-    performed using an activated PIV Card without explicit user action (e.g., the PIN need not be
-    supplied for each operation).
-
-
-    The PIV Card SHALL store a corresponding X.509 certificate to support validation of the public key.
-    [Section 5](keymanagement.md#s-5) of this document specifies the certificate format and the key management infrastructure for
-    key management keys.
-- **PIV Card Application Administration Key.** If present, the PIV Card Application Administration
-    Key SHALL be imported onto the card by the issuer. If present, the cryptographic operations that use
-    the PIV Card Application Administration Key must only be accessible using the contact interface of
-    the PIV Card.
+The PIV Card SHALL store a corresponding X.509 certificate to support validation of the public key.
+The X.509 certificate SHALL include the FASC-N in the subject alternative name extension using the
+pivFASC-N attribute to support physical access procedures. The X.509 certificate SHALL also include
+the UUID value from the GUID data element of the CHUID in the subject alternative name extension.
+The UUID SHALL be encoded as a uniform resource identifier (URI), as specified in Section 3 of
+[[RFC4122]](../_Appendix/references.md#ref-RFC4122). The expiration date of the certificate must be no later than the expiration date of the PIV
+Card. The PIV Authentication certificate SHALL include a PIV NACI indicator (background
+investigation indicator) extension (see Appendix B.2); this non-critical extension indicates the status
+of the subject's background investigation at the time of card issuance.[^backgroundstatus] [Section 5](keymanagement.md#s-5) of this document
+specifies the certificate format and the key management infrastructure for the PIV Authentication key.
 
 [^backgroundstatus]: Other methods to indicate background investigative status will be explored in a future revision of this Standard.
+
+#### 4.2.2.2 Asymmetric Card Authentication Key {#s-4-2-2-2}
+The asymmetric Card Authentication key MAY be generated
+on the PIV Card or imported to the card. The PIV Card SHALL NOT permit exportation of the Card
+Authentication key. Cryptographic operations that use the Card Authentication key SHALL be available
+through the contact and the contactless interfaces of the PIV Card. Private key operations MAY be
+performed using this key without card activation (e.g., the PIN need not be supplied for operations
+with this key).
+
+The PIV Card SHALL store a corresponding X.509 certificate to support validation of the public key.
+The X.509 certificate SHALL include the FASC-N in the subject alternative name extension using the
+pivFASC-N attribute to support physical access procedures. The X.509 certificate SHALL also include
+the UUID value from the GUID data element of the CHUID in the subject alternative name extension.
+The UUID SHALL be encoded as a URI, as specified in Section 3 of [[RFC4122]](../_Appendix/references.md#ref-RFC4122). The expiration date of
+the certificate must be no later than the expiration date of the PIV Card. [Section 5](keymanagement.md#s-5) of this document
+specifies the certificate format and the key management infrastructure for asymmetric PIV Card
+Authentication keys.
+
+#### 4.2.2.3 Symmetric Card Authentication Key {#s-4-2-2-3}
+The symmetric Card Authentication key MAY be imported
+onto the card by the issuer or be generated on the card. If present, the symmetric Card Authentication
+key SHALL be unique for each PIV Card and SHALL meet the algorithm and key size requirements stated
+in [[SP 800-78]](../_Appendix/references.md#ref-SP-800-78). If present, cryptographic operations using this key MAY be performed without card
+activation (e.g., the PIN need not be supplied for operations with this key). The cryptographic
+operations that use the Card Authentication key SHALL be available through the contact and the
+contactless interfaces of the PIV Card. This Standard does not specify key management protocols or
+infrastructure requirements.
+
+#### 4.2.2.4 Digital Signature Key {#s-4-2-2-4}
+The PIV digital signature key SHALL be generated on the PIV Card. The PIV
+Card SHALL NOT permit exportation of the digital signature key. If present, cryptographic operations
+using the digital signature key MAY only be performed using the contact and the virtual contact
+interfaces of the PIV Card. Private key operations MAY not be performed without explicit user action,
+as this Standard requires the cardholder to authenticate to the PIV Card each time it performs a
+private key computation with the digital signature key.[^cardholderauthentication]
+
+The PIV Card SHALL store a corresponding X.509 certificate to support validation of the public key.
+The expiration date of the certificate must be no later than the expiration date of the PIV Card.
+[Section 5](keymanagement.md#s-5) of this document specifies the certificate format and the key management infrastructure for
+PIV digital signature keys.
+
 [^cardholderauthentication]: [[NISTIR7863]](../references/#ref-NISTIR7863){:.footnote-ref}, *Cardholder Authentication for the PIV Digital Signature Key*, addresses the appropriate use of PIN caching related to digital signatures.
+
+#### 4.2.2.5 Key Management Key {#s-4-2-2-5}
+This key MAY be generated on the PIV Card or imported to the card. If
+present, the cryptographic operations that use the key management key must only be accessible using
+the contact and the virtual contact interfaces of the PIV Card. Private key operations MAY be
+performed using an activated PIV Card without explicit user action (e.g., the PIN need not be
+supplied for each operation).
+
+The PIV Card SHALL store a corresponding X.509 certificate to support validation of the public key.
+[Section 5](keymanagement.md#s-5) of this document specifies the certificate format and the key management infrastructure for
+key management keys.
+
+#### 4.2.2.6 PIV Card Application Administration Key {#s-4-2-2-6}
+If present, the PIV Card Application Administration
+Key SHALL be imported onto the card by the issuer. If present, the cryptographic operations that use
+the PIV Card Application Administration Key must only be accessible using the contact interface of
+the PIV Card.
 
 ### 4.2.3 Biometric Data Specifications {#s-4-2-3}
 
