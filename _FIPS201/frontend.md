@@ -193,7 +193,7 @@ identification of employee affiliation as a background color for Zone 2F (name) 
 and [4-4](#fig-4-4). The following color scheme SHALL be used:
 
 - blue: foreign national,
-- white: government employee, and
+- white: government employee, or
 - green: contractor.
 
 Foreign National color-coding has precedence over Government Employee and Contractor color-coding.
@@ -618,8 +618,8 @@ The following biometric data SHALL be stored on the PIV Card:
 
 The following biometric data MAY also be stored on the PIV Card:
 
-- electronic image of the left iris;
-- electronic image of the right iris; and
+- electronic image of the left iris,
+- electronic image of the right iris, and
 - fingerprint biometric templates for on-card one-to-one comparison.[^fingerprints]
 
 All biometric data SHALL be stored in the data elements referenced by [[SP 800-73]](../_Appendix/references.md#ref-SP-800-73) and in conformance
