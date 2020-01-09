@@ -25,7 +25,7 @@ focus areas, and a total of 79 control requirements distributed under the variou
 Associated with each control requirement is a set of assessment methods, the exercise of the latter will
 result in outcomes that form the basis for accreditation decisions.
 
-The four major accreditation topics identified in [[SP 800-79]](references.md#ref-SP-800-79) are:
+The four major accreditation topics identified in [[SP 800-79]](references.md#ref-SP-800-79) are
 
 - organizational preparedness;
 - security management and data protection;

@@ -46,7 +46,7 @@ this Standard:
 
 - LITTLE or NO Confidence—Little or no assurance in the identity of the cardholder;
 - SOME Confidence—A basic degree of assurance in the identity of the cardholder;
-- HIGH Confidence—A strong degree of assurance in the identity of the cardholder;
+- HIGH Confidence—A strong degree of assurance in the identity of the cardholder; and
 - VERY HIGH Confidence—A very strong degree of assurance in the identity of the cardholder.
 
 Parties responsible for controlling access to federal resources (both physical and logical) SHALL determine
@@ -154,9 +154,9 @@ implement on-card fingerprint one-to-one comparisons, it SHALL be implemented as
 
 Some of the characteristics of OCC authentication are as follows:
 
-- Highly resistant to credential forgery.
-- Strong resistance to use of unaltered card by non-owner.
-- Applicable with contact and contactless card readers.
+- highly resistant to credential forgery,
+- strong resistance to use of unaltered card by non-owner, and
+- applicable with contact and contactless card readers.
 
 ### 6.2.3 Authentication Using PIV Asymmetric Cryptography {#s-6-2-3}
 
@@ -184,11 +184,11 @@ The following steps SHALL be performed for PKI-AUTH:
 
 Some of the characteristics of the PKI-based authentication mechanism are as follows:
 
-- Requires the use of certificate status checking infrastructure.
-- Highly resistant to credential forgery.
-- Strong resistance to use of unaltered card by non-owner since card activation is required.
-- Provides protection against use of a revoked card.
-- Applicable with contact card readers, and contactless card readers that support the virtual contact
+- requires the use of certificate status checking infrastructure;
+- highly resistant to credential forgery;
+- strong resistance to use of unaltered card by non-owner since card activation is required;
+- provides protection against use of a revoked card; and
+- applicable with contact card readers, and contactless card readers that support the virtual contact
     interface.
 
 [^pivpath]: Path validation SHOULD be configured to specify which policy OIDs are trusted. The policy OID for the PIV Authentication certificate is id-fpki-common-authentication.
@@ -211,10 +211,10 @@ The following steps SHALL be performed for PKI-CAK:
 
 Some of the characteristics of the PKI-CAK authentication mechanism are as follows:
 
-- Requires the use of certificate status checking infrastructure.
-- Highly resistant to credential forgery.
-- Low resistance to use of unaltered card by non-owner of card.
-- Applicable with contact and contactless readers.
+- requires the use of certificate status checking infrastructure,
+- highly resistant to credential forgery,
+- low resistance to use of unaltered card by non-owner of card, and
+- applicable with contact and contactless readers.
 
 [^cacpath]: Path validation SHOULD be configured to specify which policy OIDs are trusted. The policy OID for the Card Authentication certificate is id-fpki-common-cardAuth.
 
@@ -238,10 +238,10 @@ steps:
 Some of the characteristics of the symmetric Card Authentication key authentication mechanism are as
 follows:
 
-- Resistant to credential forgery.
-- Does not provide protection against use of a revoked card.
-- Low resistance to use of unaltered card by non-owner of card.
-- Applicable with contact and contactless readers.
+- resistant to credential forgery,
+- does not provide protection against use of a revoked card,
+- low resistance to use of unaltered card by non-owner of card, and
+- applicable with contact and contactless readers.
 
 ### 6.2.5 Authentication Using the CHUID (Removed) {#s-6-2-5}
 
@@ -291,12 +291,12 @@ the visual authentication process:
 
 Some characteristics of the visual authentication mechanism are as follows:
 
-- Human inspection of card, which is not amenable for rapid or high volume access control and is
-    susceptible to human error.
-- Some resistance to use of unaltered card by non-owner of card.
-- Low resistance to tampering and forgery.
-- Does not provide protection against use of a revoked card.
-- Applicable in environments with and without card readers.
+- human inspection of card, which is not amenable for rapid or high volume access control and is
+    susceptible to human error;
+- some resistance to use of unaltered card by non-owner of card;
+- low resistance to tampering and forgery;
+- does not provide protection against use of a revoked card; and
+- applicable in environments with and without card readers.
 
 ## 6.3 PIV Support of Graduated Assurance Levels for Identity Authentication {#s-6-3}
 
