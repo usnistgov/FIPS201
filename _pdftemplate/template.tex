@@ -30,7 +30,7 @@
 \titleformat*{\subsection}{\normalsize\bfseries}
 
 
-% Set up multi-page long tables
+% Set up multi-page long tables, inclue with {:latex-longtable="true"} flag following table
 \makeatletter
 
 \def\ltabulary{%
@@ -117,30 +117,6 @@ pdfkeywords={}
 \newcommand{\DOI}{\VAR{doi_url}}
 \newcommand{\monthyear}{\VAR{month} \VAR{year}}
 
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%   	Set up included sections
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\newtoggle{foreword}
-\newtoggle{abstract}
-\newtoggle{introduction}
-\newtoggle{references}
-\newtoggle{acknowledgements}
-\newtoggle{glossary}
-\newtoggle{preface}
-\newtoggle{appendix}
-
-\newcommand{\toggle}{\togglefalse} % default all toggles to false unless otherwise set
-
-\toggle\VAR{has_foreword}{foreword}
-\toggle\VAR{has_abstract}{abstract}
-\toggle\VAR{has_introduction}{introduction}
-\toggle\VAR{has_references}{references}
-\toggle\VAR{has_acknowledgements}{acknowledgements}
-\toggle\VAR{has_glossary}{glossary}
-\toggle\VAR{has_foreword}{foreword}
-\toggle\VAR{has_preface}{preface}
-\toggle\VAR{has_appendix}{appendix}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %   	BEGIN DOCUMENT 
@@ -280,28 +256,14 @@ Natl. Inst. Stand. Technol. Spec. Publ. \pubnumber, \pageref{LastPage} pages (\m
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %   Start front matter - page number starts with "i"
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\iftoggle{foreword}{
-\section*{Foreword}
+
+%: if foreword is not none
+
 \pagenumbering{roman}
 
 \VAR{foreword}
 
-}
-
-\iftoggle{preface}{
-\section*{Preface}
-
-\VAR{preface}
-
-}
-
-\iftoggle{abstract}{
-\section*{Abstract}
-
-\VAR{abstract}
-\pagebreak
-
-}
+%: endif
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %   Table of Contents is required
@@ -313,68 +275,31 @@ Natl. Inst. Stand. Technol. Spec. Publ. \pubnumber, \pageref{LastPage} pages (\m
 	\listoffigures
 \end{center}
 
-\iftoggle{glossary}{
-\pagebreak
-\section*{Glossary}
-
-\VAR{glossary}
-
-}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%   Start body of text - page number starts with "1"
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\iftoggle{introduction}{
-\pagebreak
-\section{Introduction}
-\label{sec:intro}
-\pagenumbering{arabic}
-
-\VAR{introduction}
-
-}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%   When referring to references in the text parenthetically, 
-%	use the form “[1].” For example, “As Jones and Smith have shown [1];”
-%	 however, when a reference is referred to non-parenthetically, use the form 
-%	“. . . Ref. [1] . . .” (except at the beginning of a sentence where
-%	“Reference [1] . . .” is the correct form).
+%   Start front matter - page number starts with "1", sections
+%   start with '1'
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 \setcounter{section}{0}
 \pagenumbering{arabic}
 
 \VAR{body}
 
-\iftoggle{acknowledgements}{
-\pagebreak
-\section*{Acknowledgments}
 
-\VAR{acknowledgements}
-
-}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%   Acknowledgments not required
+%   Start Appendix - page number continues as before, sections
+%   start with 'A'
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\iftoggle{appendix}{
-\renewcommand{\thesection}{A\arabic{section}}
+%: if appendix is not none
+
+% Switch to letters for appendix section
+\setcounter{section}{0}
+\renewcommand{\thesection}{\Alph{section}}
 
 \VAR{appendix}
 
-}
+%: endif
 
-\iftoggle{references}{
-\section*{References}
-%\addcontentsline{toc}{section}{References}
-%\bibliographystyle{techpubs}
-%\bibliography{References}
-
-\noindent
-\VAR{references}
-\indent
-
-}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%   Please use the techpubs BibTeX style when compiling bibliography, or follow the instructions on tinyurl.com/techpubsnist to format your .bib / .bbl file appropriately.
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \end{document}
