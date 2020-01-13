@@ -460,18 +460,12 @@ asymmetric signature data element of the CHUID SHALL be encoded as a Cryptograph
 (CMS) external digital signature, as specified in [[SP 800-73]](../_Appendix/references.md#ref-SP-800-73). Algorithm and key size requirements for
 the asymmetric signature and digest algorithm are detailed in [[SP 800-78]](../_Appendix/references.md#ref-SP-800-78).
 
-For signatures created before October 15, 2015, the public key required to verify the digital signature
-SHALL be provided in the *certificates* field of the CMS external digital signature in a content signing
-certificate, which SHALL be an X.509 digital signature certificate issued under the id-fpki-common-piv-contentSigning, id-fpki-common-devices, id-fpki-common-devicesHardware, id-fpki-common-hardware,
-or id-fpki-common-High policy of [[COMMON]](../_Appendix/references.md#ref-COMMON).[^legacypki] For signatures created on or after October 15, 2015,
-the public key required to verify the digital signature SHALL be provided in the *certificates* field of the CMS
+The public key required to verify the digital signature SHALL be provided in the *certificates* field of the CMS
 external digital signature in a content signing certificate, which SHALL be an X.509 digital signature
 certificate issued under the id-fpki-common-piv-contentSigning policy of [[COMMON]](../_Appendix/references.md#ref-COMMON). The content
 signing certificate SHALL also include an extended key usage (*extKeyUsage*) extension asserting id-PIV-content-signing. Additional descriptions for the PIV object identifiers are provided in Appendix B. The
 content signing certificate on a valid PIV Card (one that is neither expired nor revoked) SHALL NOT be
 expired.
-
-[^legacypki]: For legacy PKIs, as defined in [Section 5.4](../keymanagement/#s-5-4){:.footnote-ref}, the certificates MAY be issued under a department or agency-specific policy that has been cross-certified with the Federal Bridge CA (FBCA) at the Medium Hardware or High Assurance Level.
 
 ### 4.2.2 Cryptographic Specifications {#s-4-2-2}
 
@@ -549,13 +543,11 @@ The X.509 certificate SHALL include the FASC-N in the subject alternative name e
 pivFASC-N attribute to support physical access procedures. The X.509 certificate SHALL also include
 the UUID value from the GUID data element of the CHUID in the subject alternative name extension.
 The UUID SHALL be encoded as a uniform resource identifier (URI), as specified in Section 3 of
-[[RFC4122]](../_Appendix/references.md#ref-RFC4122). The expiration date of the certificate must be no later than the expiration date of the PIV
-Card. The PIV Authentication certificate SHALL include a PIV NACI indicator (background
+[[RFC4122]](../_Appendix/references.md#ref-RFC4122). The expiration date of the certificate MUST be no later than the expiration date of the PIV
+Card. The PIV Authentication certificate MAY include a PIV NACI indicator (background
 investigation indicator) extension (see Appendix B.2); this non-critical extension indicates the status
-of the subject's background investigation at the time of card issuance.[^backgroundstatus] [Section 5](keymanagement.md#s-5) of this document
+of the subject's background investigation at the time of card issuance. [Section 5](keymanagement.md#s-5) of this document
 specifies the certificate format and the key management infrastructure for the PIV Authentication key.
-
-[^backgroundstatus]: Other methods to indicate background investigative status will be explored in a future revision of this Standard.
 
 #### 4.2.2.2 Asymmetric Card Authentication Key {#s-4-2-2-2}
 The asymmetric Card Authentication key MAY be generated
@@ -652,18 +644,13 @@ facilitates the verification of integrity of the biometric data record. The CBEF
 encoded as a CMS external digital signature as specified in [[SP 800-76]](../_Appendix/references.md#ref-SP-800-76). The algorithm and key size
 requirements for the digital signature and digest algorithm are detailed in [[SP 800-78]](../_Appendix/references.md#ref-SP-800-78).
 
-For signatures created before October 15, 2015, the public key required to verify the digital signature
-SHALL be contained in a content signing certificate, which SHALL be issued under the id-fpki-common-piv-contentSigning, id-fpki-common-devices, id-fpki-common-devicesHardware, id-fpki-common-hardware,
-or id-fpki-common-High policy of [[COMMON]](../_Appendix/references.md#ref-COMMON).[^crosscert] For signatures created on or after October 15, 2015,
-the public key required to verify the digital signature SHALL be contained in a content signing certificate,
+The public key required to verify the digital signature SHALL be contained in a content signing certificate,
 which SHALL be issued under the id-fpki-common-piv-contentSigning policy of [[COMMON]](../_Appendix/references.md#ref-COMMON). The content
 signing certificate SHALL also include an extended key usage (*extKeyUsage*) extension asserting id-PIV-content-signing. If the signature on the biometric data record was generated with a different key than the signature on
 the CHUID, the certificates field of the CMS external digital signature SHALL include the content signing
 certificate required to verify the signature on the biometric data record. Otherwise, the *certificates* field SHALL be
 omitted. Additional descriptions for the PIV object identifiers are provided in Appendix B. The content
 signing certificate on a valid PIV Card (one that is neither expired nor revoked) SHALL NOT be expired.
-
-[^crosscert]: For legacy PKIs, as defined in [Section 5.4](../keymanagement/#s-5-4){:.footnote-ref}, the certificates MAY be issued under a department or agency-specific policy that has been cross-certified with the Federal Bridge CA (FBCA) at the Medium Hardware or High Assurance Level.
 
 #### 4.2.3.3 Biometric Data Record Access {#s-4-2-3-3}
 

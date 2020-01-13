@@ -225,7 +225,7 @@ previously stored on the card.
 
 Online Certificate Status Protocol (OCSP)
 : An online protocol used to determine the status of a public
-key certificate. [[RFC2560]](references.md#ref-RFC2560)
+key certificate. [[RFC6960]](references.md#ref-RFC6960)
 
 Path Validation
 : The process of verifying the binding between the subject identifier and subject public
