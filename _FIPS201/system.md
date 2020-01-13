@@ -142,7 +142,7 @@ Descriptions of the seven card lifecycle activities are as follows:
 
 - **PIV Card Request.** This activity applies to the initiation of a request for the issuance of a PIV Card
     to an applicant and the validation of this request.
-- **Identity Proofing and Registration.** The goal of this activity is to verify the claimed identity of the
+- **Identity Proofing and Registration.**[^enroll] The goal of this activity is to verify the claimed identity of the
     applicant, verify that the entire set of identity source documents presented at the time of registration is
     valid, capture biometric characteristics, and optionally create the chain-of-trust record.
 - **PIV Card Issuance.** This activity deals with the personalization (physical and logical) of the card
@@ -159,3 +159,4 @@ Descriptions of the seven card lifecycle activities are as follows:
     PIV Card and the data and keys needed for authentication so as to prevent any future use of the card
     for authentication.
 
+[^enroll]: In some other NIST documents such as [[SP 800-63A]](../_Appendix/references.md#ref-SP-800-63A), registration is referred to as *enrollment*.
