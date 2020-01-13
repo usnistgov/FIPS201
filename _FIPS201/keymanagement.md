@@ -56,7 +56,7 @@ certificate on a card is proof that the card was issued and is not revoked.
 ## 5.3 X.509 CRL Contents {#s-5-3}
 
 CAs that issue certificates corresponding to PIV private keys SHALL issue CRLs as specified in
-[[COMMON]](../_Appendix/references.md#ref-COMMON). The contents of X.509 CRLs SHALL conform to *Worksheet 4: CRL Profile* in [[PROF]](../_Appendix/references.md#ref-PROF).
+[[COMMON]](../_Appendix/references.md#ref-COMMON). The contents of X.509 CRLs SHALL conform to *CRL Profile* in [[PROF]](../_Appendix/references.md#ref-PROF).
 
 ## 5.4 Legacy PKIs {#s-5-4}
 
