@@ -18,7 +18,7 @@ CAs that issues certificates to support PIV private keys SHALL participate in th
 for the Common Policy managed by the Federal PKI. 
 
 CA certificates SHALL conform to the *X.509 Certificate and
-Certificate Revocation List (CRL) Extensions Profile for the Shared Service Providers (SSP) Program*
+Certificate Revocation List (CRL) Extensions Profile*
 [[PROF]](../_Appendix/references.md#ref-PROF).
 
 ## 5.2 PKI Certificate {#s-5-2}
