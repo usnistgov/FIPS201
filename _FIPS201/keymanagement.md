@@ -24,9 +24,8 @@ Certificate Revocation List (CRL) Extensions Profile*
 ## 5.2 PKI Certificate {#s-5-2}
 
 All certificates issued to support PIV private keys SHALL be issued in accordance with the *X.509 Certificate
-Policy for the U.S. Federal PKI Common Policy Framework* [[COMMON]](../_Appendix/references.md#ref-COMMON). The requirements in this
-certificate policy cover identity proofing and the management of CAs and registration authorities. CAs
-and registration authorities MAY be operated by departments and agencies, or MAY be outsourced to PKI
+Policy for the U.S. Federal PKI Common Policy Framework* [[COMMON]](../_Appendix/references.md#ref-COMMON). 
+CAs and registration authorities MAY be operated by departments and agencies, or MAY be outsourced to PKI
 service providers. For a list of PKI service providers that have been approved to operate under
 [[COMMON]](../_Appendix/references.md#ref-COMMON), see [https://www.idmanagement.gov](https://www.idmanagement.gov).
 
