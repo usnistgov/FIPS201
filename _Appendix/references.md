@@ -90,7 +90,7 @@ the E-Government Act of 2002*, OMB, September 26, 2003. Available at
 Directive (HSPD) 12 – Policy for a Common Identification Standard for Federal Employees and
 Contractors*, OMB, August 2005. Available at [https://www.whitehouse.gov/sites/whitehouse.gov/files/omb/memoranda/2005/m05-24.pdf](https://www.whitehouse.gov/sites/whitehouse.gov/files/omb/memoranda/2005/m05-24.pdf).
 
-[[OMB1712]](#ref-OMB1712){:name="ref-OMB1712"} OMB Memorandum M-17-12, *Preparing for and Responding to a Breach ofPersonally Identifiable Information*,
+[[OMB1712]](#ref-OMB1712){:name="ref-OMB1712"} OMB Memorandum M-17-12, *Preparing for and Responding to a Breach of Personally Identifiable Information*,
 OMB, January 3, 2017. Available at [https://obamawhitehouse.archives.gov/sites/default/files/omb/memoranda/2017/m-17-12_0.pdf](https://obamawhitehouse.archives.gov/sites/default/files/omb/memoranda/2017/m-17-12_0.pdf).
 
 [[OMB1917]](#ref-OMB1917){:name="ref-OMB1917"} OMB Memorandum M-19-17, *Enabling Mission Delivery through Improved Identity, Credential, and Access Management*,
@@ -116,6 +116,9 @@ Revocation List (CRL) Profile*, IETF, May 2008. Available at [https://www.ietf.o
 
 [[RFC5652]](#ref-RFC5652){:name="ref-RFC5652"} RFC 5652, *Cryptographic Message Syntax (CMS)*, IETF, September 2009. Available
 at [https://www.ietf.org/rfc/rfc5652.txt](https://www.ietf.org/rfc/rfc5652.txt).
+
+[[RFC6818]](#ref-RFC6818){:name="ref-RFC6818"} RFC 6818, *Updates to the Internet X.509 Public Key Infrastructure Certificate and Certificate
+Revocation List (CRL) Profile*, IETF, October 2015. Available at [https://www.ietf.org/rfc/rfc6818.txt](https://www.ietf.org/rfc/rfc6818.txt).
 
 [[RFC6960]](#ref-RFC6960){:name="ref-RFC6960"} RFC 6960, *X.509 Internet Public Key Infrastructure Online Certificate Status Protocol - OCSP*, IETF, June 2013. Available at [https://www.ietf.org/rfc/rfc6960.txt](https://www.ietf.org/rfc/rfc6960.txt).
 
