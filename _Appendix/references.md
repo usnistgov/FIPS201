@@ -18,7 +18,7 @@ April 2004.
 
 [[COMMON]](#ref-COMMON){:name="ref-COMMON"} *X.509 Certificate Policy for the U.S. Federal PKI Common Policy Framework*,
 Version 1.31, February 8, 2019, or as amended. Available at
-[http://www.idmanagement.gov/documents/common-policy-framework-certificate-policy](http://www.idmanagement.gov/documents/common-policy-framework-certificate-policy).
+[https://www.idmanagement.gov/documents/common-policy-framework-certificate-policy](https://www.idmanagement.gov/documents/common-policy-framework-certificate-policy).
 
 [[E-Gov]](#ref-E-Gov){:name="ref-E-Gov"} *E-Government Act of 2002*, U.S. Public Law 107-347, 2002.
 
@@ -103,7 +103,7 @@ OMB, May 21, 2019. Available at [https://www.whitehouse.gov/wp-content/uploads/2
 
 [[PROF]](#ref-PROF){:name="ref-PROF"} *X.509 Certificate and Certificate Revocation List (CRL) Extensions Profile for the
 Shared Service Provider (SSP) Program*, Version 1.9, May 9, 2018 or as amended. Available
-at [http://www.idmanagement.gov/sites/default/files/documents/CertCRLprofileForCP.pdf](http://www.idmanagement.gov/sites/default/files/documents/CertCRLprofileForCP.pdf).
+at [https://www.idmanagement.gov/sites/default/files/documents/CertCRLprofileForCP.pdf](https://www.idmanagement.gov/sites/default/files/documents/CertCRLprofileForCP.pdf).
 
 [[REAL-ID]](#ref-REAL-ID){:name="ref-REAL-ID"} *Minimum Standards for Driver's Licenses and Identification Cards
 Acceptable by Federal Agencies for Official Purposes; Final Rule*, Department of Homeland Security, Federal Register Vol. 73 No. 19, January 29, 2008. Available at [https://www.govinfo.gov/content/pkg/FR-2008-01-29/html/08-140.htm](https://www.govinfo.gov/content/pkg/FR-2008-01-29/html/08-140.htm).
