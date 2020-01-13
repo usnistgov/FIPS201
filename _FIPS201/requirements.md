@@ -213,8 +213,8 @@ following forms of identification:
 * a U.S. Military dependent's ID card; or
 * a PIV Card.
     
-The second piece of evidence may be from the list above, provided it is not of the same type
-as the primary identity source document.[^second] The second identity source document may also be one
+The second piece of evidence MAY be from the list above, provided it is not of the same type
+as the primary identity source document.[^second] The second identity source document MAY also be one
 of the following:
 
 * an ID card issued by a federal, state, or local government agency or entity, provided it
