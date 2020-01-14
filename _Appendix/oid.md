@@ -42,8 +42,8 @@ federation protocols.
 
 If used, the PIV NACI indicator extension indicates to the issuer whether the subject's
 background investigation was incomplete at the time of credential issuance. The PIV NACI indicator
-extension is always non-critical, and SHALL appear in all PIV
-Authentication certificates and Card Authentication certificates. The value of this extension is asserted as
+extension is always non-critical.
+The value of this extension is asserted as
 follows:
 
 - TRUE if, at the time of credential issuance, (1) the FBI National Criminal History Fingerprint Check
@@ -64,4 +64,3 @@ id- piv- NACI OBJECT IDENTIFIER ::= { 2 16 840 1 101 3 6 9 1 }
 NACI-indicator ::= BOOLEAN
 END
 ```
-
