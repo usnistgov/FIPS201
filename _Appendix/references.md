@@ -18,7 +18,7 @@ April 2004.
 
 [[COMMON]](#ref-COMMON){:name="ref-COMMON"} *X.509 Certificate Policy for the U.S. Federal PKI Common Policy Framework*,
 Version 1.31, February 8, 2019, or as amended. Available at
-[https://www.idmanagement.gov/wp-content/uploads/sites/1171/uploads/fpki-x509-cert-policy-common.pdf](https://www.idmanagement.gov/wp-content/uploads/sites/1171/uploads/fpki-x509-cert-policy-common.pdf).
+[https://www.idmanagement.gov/documents/common-policy-framework-certificate-policy](https://www.idmanagement.gov/documents/common-policy-framework-certificate-policy).
 
 [[E-Gov]](#ref-E-Gov){:name="ref-E-Gov"} *E-Government Act of 2002*, U.S. Public Law 107-347, 2002.
 
@@ -102,15 +102,11 @@ OMB, May 21, 2019. Available at [https://www.whitehouse.gov/wp-content/uploads/2
 [[PRIVACY]](#ref-PRIVACY){:name="ref-PRIVACY"} *Privacy Act of 1974*, U.S. Public Law 93-579, 1974.
 
 [[PROF]](#ref-PROF){:name="ref-PROF"} *X.509 Certificate and Certificate Revocation List (CRL) Extensions Profile for the
-Shared Service Provider (SSP) Program*, Version 1.8, July 17, 2017 or as amended. Available
-at [https://www.idmanagement.gov/wp-content/uploads/sites/1171/uploads/fpki-cert-profile-ssp.pdf](https://www.idmanagement.gov/wp-content/uploads/sites/1171/uploads/fpki-cert-profile-ssp.pdf).
+Shared Service Provider (SSP) Program*, Version 1.9, May 9, 2018 or as amended. Available
+at [https://www.idmanagement.gov/sites/default/files/documents/CertCRLprofileForCP.pdf](https://www.idmanagement.gov/sites/default/files/documents/CertCRLprofileForCP.pdf).
 
 [[REAL-ID]](#ref-REAL-ID){:name="ref-REAL-ID"} *Minimum Standards for Driver's Licenses and Identification Cards
 Acceptable by Federal Agencies for Official Purposes; Final Rule*, Department of Homeland Security, Federal Register Vol. 73 No. 19, January 29, 2008. Available at [https://www.govinfo.gov/content/pkg/FR-2008-01-29/html/08-140.htm](https://www.govinfo.gov/content/pkg/FR-2008-01-29/html/08-140.htm).
-
-[[RFC2560]](#ref-RFC2560){:name="ref-RFC2560"} RFC 2560, *X.509 Internet Public Key Infrastructure Online Certificate Status
-Protocol - OCSP*, Internet Engineering Task Force (IETF), June 1999. Available at
-[https://www.ietf.org/rfc/rfc2560.txt](https://www.ietf.org/rfc/rfc2560.txt).
 
 [[RFC4122]](#ref-RFC4122){:name="ref-RFC4122"} RFC 4122, *A Universally Unique IDentifier (UUID) URN Namespace*, Internet
 Engineering Task Force (IETF), July 2005. Available at [https://www.ietf.org/rfc/rfc4122.txt](https://www.ietf.org/rfc/rfc4122.txt).
@@ -120,6 +116,8 @@ Revocation List (CRL) Profile*, IETF, May 2008. Available at [https://www.ietf.o
 
 [[RFC5652]](#ref-RFC5652){:name="ref-RFC5652"} RFC 5652, *Cryptographic Message Syntax (CMS)*, IETF, September 2009. Available
 at [https://www.ietf.org/rfc/rfc5652.txt](https://www.ietf.org/rfc/rfc5652.txt).
+
+[[RFC6960]](#ref-RFC6960){:name="ref-RFC6960"} RFC 6960, *X.509 Internet Public Key Infrastructure Online Certificate Status Protocol - OCSP*, IETF, June 2013. Available at [https://www.ietf.org/rfc/rfc6960.txt](https://www.ietf.org/rfc/rfc6960.txt).
 
 [[RFC8485]](#ref-RFC8485){:name="ref-RFC8485"} RFC 8485, *Vectors of Trust*, IETF, October 2018. Available at
 [https://www.ietf.org/rfc/rfc8485.txt](https://www.ietf.org/rfc/rfc8485.txt).
@@ -181,7 +179,3 @@ Import and Export*, NIST, May 2016 or as amended. Available at [https://doi.org/
 
 [[SP 800-157]](#ref-SP-800-157){:name="ref-SP-800-157"} NIST Special Publication 800-157, *Guidelines for Derived Personal Identity
 Verification (PIV) Credentials*, NIST, December 2014 or as amended. Available at [https://doi.org/10.6028/NIST.SP.800-157](https://doi.org/10.6028/NIST.SP.800-157).
-
-[[SSP REP]](#ref-SSP-REP){:name="ref-SSP-REP"} Shared Service Provider Repository Service Requirements, December 13, 2011, or as
-amended. Available at [https://idmanagement.gov/documents/shared-service-provider-repository-service-requirements](https://idmanagement.gov/documents/shared-service-provider-repository-service-requirements).
-
