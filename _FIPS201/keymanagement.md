@@ -14,7 +14,7 @@ manage X.509 public key certificates as specified below.
 
 ## 5.1 Architecture {#s-5-1}
 
-CAs that issues certificates to support PIV private keys SHALL participate in the hierarchical PKI
+CAs that issue certificates to support PIV private keys SHALL participate in the hierarchical PKI
 for the Common Policy managed by the Federal PKI. 
 
 CA certificates SHALL conform to the *X.509 Certificate and
@@ -23,7 +23,7 @@ Certificate Revocation List (CRL) Extensions Profile*
 
 ## 5.2 PKI Certificate {#s-5-2}
 
-All certificates issued to support PIV private keys SHALL be issued in accordance with the *X.509 Certificate
+All certificates issued to support PIV private keys (PIV Authentication, Card Authentication, digital signature, or key management certificates) SHALL be issued in accordance with the *X.509 Certificate
 Policy for the U.S. Federal PKI Common Policy Framework* [[COMMON]](../_Appendix/references.md#ref-COMMON). 
 CAs and registration authorities MAY be operated by departments and agencies, or MAY be outsourced to PKI
 service providers. For a list of PKI service providers that have been approved to operate under
@@ -46,7 +46,7 @@ relationship is described below:
 - Requirements for algorithms and key sizes for each type of PIV asymmetric key are given in
     [[SP 800-78]](../_Appendix/references.md#ref-SP-800-78).
 
-The expiration date of the PIV Authentication and Card authentication certificates 
+The expiration date of the PIV Authentication and Card Authentication certificates 
 SHALL NOT be after the expiration date of the PIV Card. If the card is revoked, 
 the PIV Authentication and Card Authentication certificates SHALL be revoked in cases where the card cannot be collected and destroyed.
 However, a PIV Authentication or Card Authentication certificate MAY be revoked and subsequently replaced without revoking the
@@ -92,4 +92,4 @@ management certificates can be distributed publicly by the CA.
 ### 5.5.2 OCSP Status Responders {#s-5-5-2}
 
 OCSP [[RFC6960]](../_Appendix/references.md#ref-RFC6960) status responders SHALL be implemented as a certificate status
-mechanism. The OCSP status responders must be updated at least as frequently as CRLs are issued.
+mechanism. The OCSP status responders SHALL be updated at least as frequently as CRLs are issued.

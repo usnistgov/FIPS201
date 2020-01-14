@@ -19,7 +19,7 @@ This normative appendix provides additional details for the PIV objects identifi
 |ID| Object Identifier|Description|
 |---|---|---|
 |PIV eContent Types|||
-|id-PIV-CHUIDSecurityObject|2.16.840.1.101.3.6.1|The associated content is the concatenated contents of the CHUID, excluding the the asymmetric signature field.|
+|id-PIV-CHUIDSecurityObject|2.16.840.1.101.3.6.1|The associated content is the concatenated contents of the CHUID, excluding the asymmetric signature field.|
 |id-PIV-biometricObject|2.16.840.1.101.3.6.2|The associated content is the concatenated CBEFF_HEADER + STD_BIOMETRIC_RECORD.|
 |PIV Attributes|||
 |pivCardholder-Name|2.16.840.1.101.3.6.3|The attribute value is of type DirectoryString and specifies the PIV cardholder's name.|
@@ -37,7 +37,7 @@ The OIDs for certificate policies are specified in [[COMMON]](references.md#ref-
 The PIV NACI indicator (background investigation indicator) is deprecated under this version of the 
 Standard. It is expected that the indicator will be removed from a future revision of this standard.
 Instead of the on-card indicator, background investigative status is commonly maintained in each 
-department and agency IDMS. Statutes of the investigation can be communicated as needed using 
+department and agency IDMS. Status of the investigation can be communicated as needed using 
 federation protocols. 
 
 If used, the PIV NACI indicator extension indicates to the issuer whether the subject's
@@ -64,5 +64,4 @@ id- piv- NACI OBJECT IDENTIFIER ::= { 2 16 840 1 101 3 6 9 1 }
 NACI-indicator ::= BOOLEAN
 END
 ```
-
 

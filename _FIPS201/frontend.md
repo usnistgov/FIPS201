@@ -543,7 +543,7 @@ The X.509 certificate SHALL include the FASC-N in the subject alternative name e
 pivFASC-N attribute to support physical access procedures. The X.509 certificate SHALL also include
 the UUID value from the GUID data element of the CHUID in the subject alternative name extension.
 The UUID SHALL be encoded as a uniform resource identifier (URI), as specified in Section 3 of
-[[RFC4122]](../_Appendix/references.md#ref-RFC4122). The expiration date of the certificate MUST be no later than the expiration date of the PIV
+[[RFC4122]](../_Appendix/references.md#ref-RFC4122). The expiration date of the certificate SHALL be no later than the expiration date of the PIV
 Card. The PIV Authentication certificate MAY include a PIV NACI indicator (background
 investigation indicator) extension (see Appendix B.2); this non-critical extension indicates the status
 of the subject's background investigation at the time of card issuance. [Section 5](keymanagement.md#s-5) of this document
@@ -767,4 +767,3 @@ compromising or otherwise exploiting the PIV Card. General good practice to miti
 threats is outside the scope of this document.[^maliciouscode]
 
 [^maliciouscode]: See SP 800-53, *Recommended Security Controls for Federal Information Systems and Organizations* [[SP 800-53]](../references/#ref-SP-800-53){:.footnote-ref}.
-
