@@ -126,6 +126,9 @@ defined in [[OMB0404]](references.md#ref-OMB0404) and [[SP 800-63]](references.m
 	- Level 3: HIGH confidence
 	- Level 4: VERY HIGH confidence
 
+Enrollment
+: See "Identity Registration."
+
 Enrollment Data Set
 : A record including information about a biometric enrollment: name and role of
 the acquiring agent, office and organization, time, place, and acquisition method.
@@ -172,7 +175,7 @@ or applications that manages the identity verification, validation, and issuance
 Identity Registration
 : The process of making a person's identity known to the PIV system, associating a
 unique identifier with that identity, and collecting and recording the person's relevant attributes into the
-system.
+system. In some other NIST documents such as [[SP 800-63A]](references.md#ref-SP-800-63A), identity registration is referred to as *enrollment*.
 
 Identity Verification
 : The process of confirming or denying that a claimed identity is correct by
