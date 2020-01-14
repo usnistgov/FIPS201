@@ -11,7 +11,7 @@
 \usepackage{amssymb}    % if you want extra symbols
 \usepackage{graphicx}   % need for figures
 \graphicspath{\VAR{graphicspath}}
-\usepackage{xcolor}
+\usepackage[table]{xcolor}
 \usepackage{bm}
 \usepackage{secdot}		
 \usepackage{mathptmx}
@@ -24,10 +24,17 @@
 \usepackage{longtable}
 \usepackage{tabularx}
 \usepackage{tabulary}
+\usepackage{ragged2e}
+\usepackage{adjustbox}
 
-\usepackage{titlesec}
-\titleformat{\section}{\normalsize\bfseries}{\thesection.}{1em}{}	% required for heading numbering style
-\titleformat*{\subsection}{\normalsize\bfseries}
+\usepackage[sf]{titlesec}
+\titleformat{\section}{\LARGE\bfseries\sffamily}{}{0em}{\colorsection}	% required for heading numbering style
+\titleformat{\subsection}{\Large\bfseries\sffamily}{}{0em}{}	% required for heading numbering style
+\titleformat{\subsubsection}{\large\bfseries\sffamily}{}{0em}{}	% required for heading numbering style
+\titleformat{\paragraph}{\normalsize\bfseries\sffamily}{}{0em}{}	% required for heading numbering style
+
+\newcommand{\colorsection}[1]{%
+  \colorbox{black}{\noindent\parbox{\dimexpr\textwidth-2\fboxsep}{\color{white}\ #1}}}
 
 
 % Set up multi-page long tables, inclue with {:latex-longtable="true"} flag following table
@@ -55,7 +62,8 @@
 \def\endltabulary{\endtabulary}
 
 \makeatother
-% End macros for multi-page long tables
+% End macros 
+
 
 \usepackage{tocloft}	% change typeset, titles, and format list of appendices/figures/tables
 \renewcommand{\cftdot}{}	
