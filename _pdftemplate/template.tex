@@ -113,6 +113,38 @@ pdfkeywords={}
 \setlength{\textwidth}{6.0in}
 \setlength{\textheight}{8.5in}
 
+% Set up headers
+\fancypagestyle{emptyHeaderFooterStyle}
+{
+        \renewcommand{\headrulewidth}{0pt}
+        \renewcommand{\footrulewidth}{0pt}
+        \fancyhf{}
+}
+
+\fancypagestyle{body}
+{
+        \renewcommand{\headrulewidth}{0pt}
+        \renewcommand{\footrulewidth}{0pt}
+
+        \fancyfoot{}
+        \fancyfoot[C]{\small\thepage}
+
+        \fancyhead{}
+        \fancyhead[R]{\sc\tiny\color{gray}\sffamily\pagetitle}
+}
+
+\fancypagestyle{plain}
+{
+        \renewcommand{\headrulewidth}{0pt}
+        \renewcommand{\footrulewidth}{0pt}
+
+        \fancyfoot{}
+        \fancyfoot[CE,CO]{\small\thepage}
+        \fancyhead{}
+}
+
+
+
 \usepackage{caption} % required for Figure labels
 \captionsetup{font=small,labelfont=bf,figurename=Fig.,labelsep=period,justification=raggedright} 
 
@@ -124,7 +156,7 @@ pdfkeywords={}
 \newcommand{\pubnumber}{\VAR{report_number}}
 \newcommand{\DOI}{\VAR{doi_url}}
 \newcommand{\monthyear}{\VAR{month} \VAR{year}}
-
+\newcommand{\pagetitle}{\VAR{page_title}}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %   	BEGIN DOCUMENT 
@@ -291,6 +323,7 @@ Natl. Inst. Stand. Technol. Spec. Publ. \pubnumber, \pageref{LastPage} pages (\m
 
 \setcounter{section}{0}
 \pagenumbering{arabic}
+\pagestyle{body}
 
 \VAR{body}
 
