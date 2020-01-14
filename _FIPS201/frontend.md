@@ -383,7 +383,7 @@ uncorrected) at a working distance of 50 cm to 200 cm.
 |Green|15F|{153, 255, 153}|{203, 255, 203}|{40, 0, 40, 0}|
 |Blue|15F|{0, 255, 255}|{0, 255, 255}|{100, 0, 0, 0}|
 |Red|12F|{253, 27, 20}|{254, 92, 79}|{0, 90, 86, 0}|
-{:latex-columns="p@0.1\textwidth,p@0.1\textwidth,p@0.2\textwidth,p@0.2\textwidth,p@0.2\textwidth"}
+{:latex-columns="p@0.1\textwidth,p@0.07\textwidth,p@0.25\textwidth,p@0.2\textwidth,p@0.2\textwidth"}
 
 The colors in [Table 4-2](#table-4-2) can be mapped to the Pantone[^pantone] color cue; however, note that this will not
 produce an exact match. An agency or department MAY use the following Pantone mappings in cases
