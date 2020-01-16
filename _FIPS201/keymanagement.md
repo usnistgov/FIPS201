@@ -29,20 +29,25 @@ CAs and registration authorities MAY be operated by departments and agencies, or
 service providers. For a list of PKI service providers that have been approved to operate under
 [[COMMON]](../_Appendix/references.md#ref-COMMON), see [https://www.idmanagement.gov](https://www.idmanagement.gov).
 
+Details of the cryptographic properties of PIV keys are found in [Section 4.2.2](frontend.md#s-4-2-2) and its subsections.
+
 ### 5.2.1 X.509 Certificate Contents {#s-5-2-1}
 
 The required contents of X.509 certificates associated with PIV private keys are based on [[PROF]](../_Appendix/references.md#ref-PROF). The
 relationship is described below:
 
-- Certificates containing the public key associated with an asymmetric card authentication private key
-    SHALL conform to *Card Authentication Certificate Profile* in [[PROF]](../_Appendix/references.md#ref-PROF) and SHALL specify the id-fpki-common-cardAuth policy of [[COMMON]](../_Appendix/references.md#ref-COMMON) in the certificate policies extension.
-- Certificates containing the public key associated with a digital signature private key SHALL conform to
-    *: End Entity Signature Certificate Profile* in [[PROF]](../_Appendix/references.md#ref-PROF) and SHALL specify the id-fpki-common-hardware policy of [[COMMON]](../_Appendix/references.md#ref-COMMON) in the certificate policies
-    extension.
 - Certificates containing the public key associated with a PIV authentication private key SHALL conform
     to *PIV Authentication Certificate Profile* in [[PROF]](../_Appendix/references.md#ref-PROF) and SHALL specify the id-fpki-common-authentication policy of [[COMMON]](../_Appendix/references.md#ref-COMMON) in the certificate policies extension.
+    See [Section 4.2.2.1](frontend.md#s-4-2-2-1).
+- Certificates containing the public key associated with an asymmetric card authentication private key
+    SHALL conform to *Card Authentication Certificate Profile* in [[PROF]](../_Appendix/references.md#ref-PROF) and SHALL specify the id-fpki-common-cardAuth policy of [[COMMON]](../_Appendix/references.md#ref-COMMON) in the certificate policies extension.
+    See [Section 4.2.2.2](frontend.md#s-4-2-2-2).
+- Certificates containing the public key associated with a digital signature private key SHALL conform to
+    *: End Entity Signature Certificate Profile* in [[PROF]](../_Appendix/references.md#ref-PROF) and SHALL specify the id-fpki-common-hardware policy of [[COMMON]](../_Appendix/references.md#ref-COMMON) in the certificate policies
+    extension. See [Section 4.2.2.4](frontend.md#s-4-2-2-4).
 - Certificates containing the public key associated with a key management private key SHALL conform to
     *Key Management Certificate Profile* in [[PROF]](../_Appendix/references.md#ref-PROF) and SHALL specify the id-fpki-common-policy,or id-fpki-common-hardware policy of [[COMMON]](../_Appendix/references.md#ref-COMMON) in the certificate policies extension.
+    See [Section 4.2.2.5](frontend.md#s-4-2-2-5).
 - Requirements for algorithms and key sizes for each type of PIV asymmetric key are given in
     [[SP 800-78]](../_Appendix/references.md#ref-SP-800-78).
 
@@ -81,7 +86,6 @@ Departments and agencies will be responsible for notifying CAs when certificates
 
 This Standard requires distribution of CA certificates and CRLs using HTTP. Specific requirements are
 found in [[PROF]](../_Appendix/references.md#ref-PROF).
-
 
 Certificates that contain the FASC-N or UUID in the subject alternative name extension, such as PIV
 authentication certificates and card authentication certificates, SHALL NOT be distributed publicly (e.g., via

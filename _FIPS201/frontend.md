@@ -505,7 +505,7 @@ The PIV Card has both mandatory keys and optional keys:
     authentication for an interoperable environment. See [Section 4.2.2.1](frontend.md#s-4-2-2-1).
 - The *asymmetric card authentication key* is a mandatory private key that supports card authentication
     for an interoperable environment. See [Section 4.2.2.2](frontend.md#s-4-2-2-2).
-- The *symmetric (secret) card authentication key* supports card authentication for physical access, and
+- The *symmetric card authentication key* supports card authentication for physical access, and
     it is optional. See [Section 4.2.2.3](frontend.md#s-4-2-2-3).
 - The *digital signature key* is an asymmetric private key supporting document signing, and it is
     mandatory, unless the cardholder does not have a government-issued email account at the time of
@@ -514,7 +514,7 @@ The PIV Card has both mandatory keys and optional keys:
     and it is mandatory, unless the cardholder does not have a government-issued email account at the
     time of credential issuance. Optionally, up to twenty retired key management keys may also be
     stored on the PIV Card. See [Section 4.2.2.5](frontend.md#s-4-2-2-5).
-- The *PIV Card Application Administration Key* is a symmetric key used for personalization and post-issuance activities, and it is optional.
+- The *PIV Card Application administration key* is a symmetric key used for personalization and post-issuance activities, and it is optional.
     See [Section 4.2.2.6](frontend.md#s-4-2-2-6).
 - The PIV Card MAY include additional key(s) for use with secure messaging. These keys are defined
     in [[SP 800-73]](../_Appendix/references.md#ref-SP-800-73) or [[SP 800-78]](../_Appendix/references.md#ref-SP-800-78).
@@ -593,7 +593,7 @@ PIV digital signature keys.
 
 #### 4.2.2.5 Key Management Key {#s-4-2-2-5}
 This key MAY be generated on the PIV Card or imported to the card. If
-present, the cryptographic operations that use the key management key must only be accessible using
+present, the cryptographic operations that use the key management key SHALL only be accessible using
 the contact and the virtual contact interfaces of the PIV Card. Private key operations MAY be
 performed using an activated PIV Card without explicit user action (e.g., the PIN need not be
 supplied for each operation).
@@ -603,9 +603,9 @@ The PIV Card SHALL store a corresponding X.509 certificate to support validation
 key management keys.
 
 #### 4.2.2.6 PIV Card Application Administration Key {#s-4-2-2-6}
-If present, the PIV Card Application Administration
-Key SHALL be imported onto the card by the issuer. If present, the cryptographic operations that use
-the PIV Card Application Administration Key must only be accessible using the contact interface of
+If present, the PIV Card Application administration
+key SHALL be imported onto the card by the issuer. If present, the cryptographic operations that use
+the PIV Card Application administration key SHALL only be accessible using the contact interface of
 the PIV Card.
 
 ### 4.2.3 Biometric Data Specifications {#s-4-2-3}
