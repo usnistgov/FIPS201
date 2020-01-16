@@ -1,0 +1,16 @@
+#
+# Docker compose configuration file for NIST Pages PDF support.
+#
+# From https://github.com/bspk/nistpages-docker/blob/master/pdf/docker-compose-pdf.yml
+#
+
+version: '3'
+
+services:
+  pdfrender:
+    image: nistpages-pdf
+    volumes:
+       - .:/opt/source
+    command: python /opt/pdf/preprocess-pdf.py
+    working_dir: /opt/source
+    
