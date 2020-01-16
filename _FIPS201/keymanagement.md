@@ -23,7 +23,7 @@ Certificate Revocation List (CRL) Extensions Profile*
 
 ## 5.2 PKI Certificate {#s-5-2}
 
-All certificates issued to support PIV private keys (PIV Authentication, Card Authentication, digital signature, or key management certificates) SHALL be issued in accordance with the *X.509 Certificate
+All certificates issued to support PIV private keys (PIV authentication, card authentication, digital signature, or key management certificates) SHALL be issued in accordance with the *X.509 Certificate
 Policy for the U.S. Federal PKI Common Policy Framework* [[COMMON]](../_Appendix/references.md#ref-COMMON). 
 CAs and registration authorities MAY be operated by departments and agencies, or MAY be outsourced to PKI
 service providers. For a list of PKI service providers that have been approved to operate under
@@ -34,22 +34,22 @@ service providers. For a list of PKI service providers that have been approved t
 The required contents of X.509 certificates associated with PIV private keys are based on [[PROF]](../_Appendix/references.md#ref-PROF). The
 relationship is described below:
 
-- Certificates containing the public key associated with an asymmetric Card Authentication private key
+- Certificates containing the public key associated with an asymmetric card authentication private key
     SHALL conform to *Card Authentication Certificate Profile* in [[PROF]](../_Appendix/references.md#ref-PROF) and SHALL specify the id-fpki-common-cardAuth policy of [[COMMON]](../_Appendix/references.md#ref-COMMON) in the certificate policies extension.
 - Certificates containing the public key associated with a digital signature private key SHALL conform to
     *: End Entity Signature Certificate Profile* in [[PROF]](../_Appendix/references.md#ref-PROF) and SHALL specify the id-fpki-common-hardware policy of [[COMMON]](../_Appendix/references.md#ref-COMMON) in the certificate policies
     extension.
-- Certificates containing the public key associated with a PIV Authentication private key SHALL conform
+- Certificates containing the public key associated with a PIV authentication private key SHALL conform
     to *PIV Authentication Certificate Profile* in [[PROF]](../_Appendix/references.md#ref-PROF) and SHALL specify the id-fpki-common-authentication policy of [[COMMON]](../_Appendix/references.md#ref-COMMON) in the certificate policies extension.
 - Certificates containing the public key associated with a key management private key SHALL conform to
     *Key Management Certificate Profile* in [[PROF]](../_Appendix/references.md#ref-PROF) and SHALL specify the id-fpki-common-policy,or id-fpki-common-hardware policy of [[COMMON]](../_Appendix/references.md#ref-COMMON) in the certificate policies extension.
 - Requirements for algorithms and key sizes for each type of PIV asymmetric key are given in
     [[SP 800-78]](../_Appendix/references.md#ref-SP-800-78).
 
-The expiration date of the PIV Authentication and Card Authentication certificates 
+The expiration date of the PIV authentication and card authentication certificates 
 SHALL NOT be after the expiration date of the PIV Card. If the card is revoked, 
-the PIV Authentication and Card Authentication certificates SHALL be revoked in cases where the card cannot be collected and destroyed.
-However, a PIV Authentication or Card Authentication certificate MAY be revoked and subsequently replaced without revoking the
+the PIV authentication and card authentication certificates SHALL be revoked in cases where the card cannot be collected and destroyed.
+However, a PIV authentication or card authentication certificate MAY be revoked and subsequently replaced without revoking the
 PIV Card. The presence of a valid, unexpired, and unrevoked authentication
 certificate on a card is proof that the card was issued and is not revoked.
 
@@ -60,17 +60,17 @@ CAs that issue certificates corresponding to PIV private keys SHALL issue CRLs a
 
 ## 5.4 Legacy PKIs {#s-5-4}
 
-The content of this section has been removed as [[COMMON]](../_Appendix/references.md#ref-COMMON) reflects the requirements for department and agency CAs that might be issuing cross-certified PIV Authentication certificates and Card Authentication certificates.
+The content of this section has been removed as [[COMMON]](../_Appendix/references.md#ref-COMMON) reflects the requirements for department and agency CAs that might be issuing cross-certified PIV authentication certificates and card authentication certificates.
 
 ## 5.5 PKI Repository and OCSP Responder(s) {#s-5-5}
 
-CAs that issue certificates corresponding to PIV private keys (PIV Authentication, Card Authentication, digital signature, or key management certificates) SHALL
+CAs that issue certificates corresponding to PIV private keys (PIV authentication, card authentication, digital signature, or key management certificates) SHALL
 
 - maintain a Hypertext Transfer Protocol (HTTP) accessible service that publishes the CRLs for the PIV certificates it issues, as specified in [[PROF]](../_Appendix/references.md#ref-PROF);
 - maintain a Hypertext Transfer Protocol (HTTP) accessible service that publishes any CA certificates issued to it, as specified in [[PROF]](../_Appendix/references.md#ref-PROF); and
 - operate Online Certificate Status Protocol (OCSP) services for the PIV certificates it issues, as specified in [[PROF]](../_Appendix/references.md#ref-PROF).
 
-PIV Authentication, Card Authentication, digital signature, and key management certificates SHALL
+PIV authentication, card authentication, digital signature, and key management certificates SHALL
 
 - contain the *crlDistributionPoints* extension needed to locate CRLs, and
 - contain the *authorityInfoAccess* extension needed to locate the authoritative OCSP responder.
@@ -84,7 +84,7 @@ found in [[PROF]](../_Appendix/references.md#ref-PROF).
 
 
 Certificates that contain the FASC-N or UUID in the subject alternative name extension, such as PIV
-Authentication certificates and Card Authentication certificates, SHALL NOT be distributed publicly (e.g., via
+authentication certificates and card authentication certificates, SHALL NOT be distributed publicly (e.g., via
 HTTP accessible from the public Internet).
 Individual departments and agencies can decide whether digital signature and key
 management certificates can be distributed publicly by the CA.

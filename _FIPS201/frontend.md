@@ -426,7 +426,7 @@ include:
 - an electronic image of the left iris;
 - an electronic image of the right iris;
 - one or two fingerprint biometric templates for on-card  one-to-one comparison;
-- a symmetric Card Authentication key for supporting physical access applications; and
+- a symmetric card authentication key for supporting physical access applications; and
 - a symmetric PIV Card Application Administration key associated with the card management system.
 
 In addition to the above, other data elements are specified in [[SP 800-73]](../_Appendix/references.md#ref-SP-800-73).
@@ -474,8 +474,8 @@ The PIV Card SHALL implement the cryptographic operations and support functions 
 
 The PIV Card must store private keys and corresponding public key certificates, and perform
 cryptographic operations using the asymmetric private keys. At a minimum, the PIV Card must store two
-asymmetric private keys and the corresponding public key certificates, namely the *PIV Authentication key*
-and the *asymmetric Card Authentication key*. The PIV Card must also store a *digital signature key* and a
+asymmetric private keys and the corresponding public key certificates, namely the *PIV authentication key*
+and the *asymmetric card authentication key*. The PIV Card must also store a *digital signature key* and a
 *key management key*, and the corresponding public key certificates, unless the cardholder does not have a
 government-issued email account at the time of credential issuance.
 
@@ -488,24 +488,24 @@ on-card biometric comparison as an authentication mechanism.
 Once secure messaging has been established, a *virtual contact interface* MAY be established.
 Requirements for the virtual contact interface are specified in [[SP 800-73]](../_Appendix/references.md#ref-SP-800-73). Any operation that MAY be
 performed over the contact interface of the PIV Card MAY also be performed over the virtual contact
-interface. With the exception of the *Card Authentication key* and keys used to establish a secure
+interface. With the exception of the *card authentication key* and keys used to establish a secure
 messaging, the cryptographic private key operations SHALL be performed only through the contact interface
 or the virtual contact interface.
 
 Symmetric cryptographic operations are not mandated for the contactless interface, but departments and
-agencies may choose to supplement the basic functionality with storage for a symmetric Card
-Authentication key and support for a corresponding set of cryptographic operations. For example, if a
+agencies may choose to supplement the basic functionality with storage for a symmetric card
+authentication key and support for a corresponding set of cryptographic operations. For example, if a
 department or agency wants to utilize Advanced Encryption Standard (AES) based challenge/response for
 physical access, the PIV Card must contain storage for the AES key and support AES operations through
 the contactless interface. Algorithms and key sizes for each PIV key type are specified in [[SP 800-78]](../_Appendix/references.md#ref-SP-800-78).
 
 The PIV Card has both mandatory keys and optional keys:
 
-- The *PIV Authentication key* is a mandatory asymmetric private key that supports card and cardholder
+- The *PIV authentication key* is a mandatory asymmetric private key that supports card and cardholder
     authentication for an interoperable environment. See [Section 4.2.2.1](frontend.md#s-4-2-2-1).
-- The *asymmetric Card Authentication key* is a mandatory private key that supports card authentication
+- The *asymmetric card authentication key* is a mandatory private key that supports card authentication
     for an interoperable environment. See [Section 4.2.2.2](frontend.md#s-4-2-2-2).
-- The *symmetric (secret) Card Authentication key* supports card authentication for physical access, and
+- The *symmetric (secret) card authentication key* supports card authentication for physical access, and
     it is optional. See [Section 4.2.2.3](frontend.md#s-4-2-2-3).
 - The *digital signature key* is an asymmetric private key supporting document signing, and it is
     mandatory, unless the cardholder does not have a government-issued email account at the time of
@@ -533,8 +533,8 @@ management requirements are also specified.
 
 #### 4.2.2.1 PIV Authentication Key {#s-4-2-2-1}
 This key SHALL be generated on the PIV Card. The PIV Card SHALL NOT
-permit exportation of the PIV Authentication key. The cryptographic operations that use the PIV
-Authentication key SHALL be available only through the contact and the virtual contact interfaces of the
+permit exportation of the PIV authentication key. The cryptographic operations that use the PIV
+authentication key SHALL be available only through the contact and the virtual contact interfaces of the
 PIV Card. Private key operations MAY be performed using an activated PIV Card without explicit
 user action (e.g., the PIN need not be supplied for each operation).
 
@@ -544,15 +544,15 @@ pivFASC-N attribute to support physical access procedures. The X.509 certificate
 the UUID value from the GUID data element of the CHUID in the subject alternative name extension.
 The UUID SHALL be encoded as a uniform resource identifier (URI), as specified in Section 3 of
 [[RFC4122]](../_Appendix/references.md#ref-RFC4122). The expiration date of the certificate SHALL be no later than the expiration date of the PIV
-Card. The PIV Authentication certificate MAY include a PIV NACI indicator (background
+Card. The PIV authentication certificate MAY include a PIV NACI indicator (background
 investigation indicator) extension (see Appendix B.2); this non-critical extension indicates the status
 of the subject's background investigation at the time of card issuance. [Section 5](keymanagement.md#s-5) of this document
-specifies the certificate format and the key management infrastructure for the PIV Authentication key.
+specifies the certificate format and the key management infrastructure for the PIV authentication key.
 
 #### 4.2.2.2 Asymmetric Card Authentication Key {#s-4-2-2-2}
-The asymmetric Card Authentication key MAY be generated
-on the PIV Card or imported to the card. The PIV Card SHALL NOT permit exportation of the Card
-Authentication key. Cryptographic operations that use the Card Authentication key SHALL be available
+The asymmetric card authentication key MAY be generated
+on the PIV Card or imported to the card. The PIV Card SHALL NOT permit exportation of the card
+authentication key. Cryptographic operations that use the card authentication key SHALL be available
 through the contact and the contactless interfaces of the PIV Card. Private key operations MAY be
 performed using this key without card activation (e.g., the PIN need not be supplied for operations
 with this key).
@@ -563,16 +563,16 @@ pivFASC-N attribute to support physical access procedures. The X.509 certificate
 the UUID value from the GUID data element of the CHUID in the subject alternative name extension.
 The UUID SHALL be encoded as a URI, as specified in Section 3 of [[RFC4122]](../_Appendix/references.md#ref-RFC4122). The expiration date of
 the certificate must be no later than the expiration date of the PIV Card. [Section 5](keymanagement.md#s-5) of this document
-specifies the certificate format and the key management infrastructure for asymmetric PIV Card
-Authentication keys.
+specifies the certificate format and the key management infrastructure for asymmetric PIV card
+authentication keys.
 
 #### 4.2.2.3 Symmetric Card Authentication Key {#s-4-2-2-3}
-The symmetric Card Authentication key MAY be imported
-onto the card by the issuer or be generated on the card. If present, the symmetric Card Authentication
+The symmetric card authentication key MAY be imported
+onto the card by the issuer or be generated on the card. If present, the symmetric card authentication
 key SHALL be unique for each PIV Card and SHALL meet the algorithm and key size requirements stated
 in [[SP 800-78]](../_Appendix/references.md#ref-SP-800-78). If present, cryptographic operations using this key MAY be performed without card
 activation (e.g., the PIN need not be supplied for operations with this key). The cryptographic
-operations that use the Card Authentication key SHALL be available through the contact and the
+operations that use the card authentication key SHALL be available through the contact and the
 contactless interfaces of the PIV Card. This Standard does not specify key management protocols or
 infrastructure requirements.
 
@@ -682,18 +682,18 @@ data elements for the purpose of binding the PIV data elements to the same PIV C
 Cardholder Identifiers
 :   Other identifiers MAY be present in credentials on the PIV Card that identity the cardholder rather than
 the card. Examples include the subject name and names that may appear in the subjectAltName
-extension in the PIV Authentication certificate.
+extension in the PIV authentication certificate.
 
 ## 4.3 PIV Card Activation {#s-4-3}
 
-The PIV Card SHALL be activated[^activation] to perform privileged[^priviledged] operations such as using the PIV Authentication
+The PIV Card SHALL be activated[^activation] to perform privileged[^priviledged] operations such as using the PIV authentication
 key, digital signature key, and key management key. The PIV Card SHALL be activated for privileged
 operations only after authenticating the cardholder or the appropriate card management system.
 Cardholder activation is described in [Section 4.3.1](frontend.md#s-4-3-1) and card management system activation is described in
 [Section 4.3.2](frontend.md#s-4-3-2).
 
 [^activation]: Activation in this context refers to the unlocking of the PIV Card Application so privileged operations can be performed.
-[^priviledged]: A read of a CHUID or use of the Card Authentication key is not considered a privileged operation.
+[^priviledged]: A read of a CHUID or use of the card authentication key is not considered a privileged operation.
 
 ### 4.3.1 Activation by Cardholder {#s-4-3-1}
 

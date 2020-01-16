@@ -409,7 +409,7 @@ The old PIV Card SHALL be revoked when the new PIV Card is issued. The revocatio
     PIV Card must be updated to reflect the change in status.
 + If the old PIV Card cannot be collected and destroyed, or if the old PIV Card has been compromised
     or damaged, then the certification authority (CA) SHALL be informed and the certificates corresponding
-    to the PIV Authentication key and asymmetric Card Authentication key on the old PIV Card SHALL be
+    to the PIV authentication key and asymmetric card authentication key on the old PIV Card SHALL be
     revoked. If present, the certificates corresponding to the digital signature key and the key
     management key SHALL also be revoked.
 
@@ -430,7 +430,7 @@ biometric data after reconnecting the applicant to their chain-of-trust. Even if
 is reused with the new PIV Card, the digital signature must be recomputed with the new FASC-N and
 UUID.
 
-A new PIV Authentication certificate and a new Card Authentication certificate SHALL be generated. The
+A new PIV authentication certificate and a new card authentication certificate SHALL be generated. The
 corresponding certificates SHALL be populated with the new FASC-N and UUID. For cardholders who are
 required to have a digital signature certificate, a new digital signature certificate SHALL also be generated.
 Key management key(s) and certificate(s) MAY be imported to the new PIV Card.
@@ -470,8 +470,8 @@ For remote post issuance updates, the following SHALL apply:
 Post issuance updates to biometric data records, other than to the digital signature blocks within the
 biometric data records, SHALL satisfy the requirements for verification data reset specified in [Section 2.9.3](requirements.md#s-2-9-3).
 
-If the PIV Authentication key, asymmetric Card Authentication key, the digital signature key, or the key
-management key, was compromised, the corresponding certificate SHALL be revoked.
+If the PIV authentication key, asymmetric card authentication key, the digital signature key, or the key
+management key was compromised, the corresponding certificate SHALL be revoked.
 
 ### 2.9.3 PIV Card Verification Data Reset {#s-2-9-3}
 
@@ -546,8 +546,8 @@ must be in place as to ensure the following:
     * Any databases maintained by the PIV Card issuer that indicate current valid (or invalid)
         FASC-N or UUID values must be updated to reflect the change in status.
     * If the PIV Card cannot be collected and destroyed, the CA SHALL be informed and the
-        certificates corresponding to the PIV Authentication key and the asymmetric Card
-        Authentication key on the PIV Card SHALL be revoked. The certificates corresponding to the
+        certificates corresponding to the PIV authentication key and the asymmetric card
+        authentication key on the PIV Card SHALL be revoked. The certificates corresponding to the
         digital signature and key management keys SHALL also be revoked, if present.
 + The PII collected from the cardholder is disposed of in accordance with the stated privacy and data
     retention policies of the department or agency.
@@ -576,7 +576,7 @@ Derived PIV credentials SHALL be invalidated in any of the following circumstanc
 * At the determination of the PIV account issuer upon observation of possible fraudulent activity.
 * When a cardholder is no longer eligible to have a PIV Card as specified in [Section 2.9.4](requirements.md#s-2-9-4). In this situation, all derived PIV credentials associated with the PIV account SHALL be invalidated.
 
-If the derived PIV credential to be invalidated contains a Derived PIV Authentication Certificate and the corresponding private key cannot be securely zeroized or destroyed, the CA SHALL be informed and the certificate corresponding to the Derived PIV Authentication Key SHALL be revoked.
+If the derived PIV credential to be invalidated contains a derived PIV authentication certificate and the corresponding private key cannot be securely zeroized or destroyed, the CA SHALL be informed and the certificate corresponding to the derived PIV authentication key SHALL be revoked.
 
 Upon invalidation of a derived PIV credential, it SHALL no longer be accepted for authentication transactions. When invalidation occurs, the issuer SHALL attempt to notify the subscriber of the change.
 
