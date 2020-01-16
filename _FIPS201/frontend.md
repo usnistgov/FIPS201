@@ -460,10 +460,12 @@ asymmetric signature data element of the CHUID SHALL be encoded as a Cryptograph
 (CMS) external digital signature, as specified in [[SP 800-73]](../_Appendix/references.md#ref-SP-800-73). Algorithm and key size requirements for
 the asymmetric signature and digest algorithm are detailed in [[SP 800-78]](../_Appendix/references.md#ref-SP-800-78).
 
-The public key required to verify the digital signature SHALL be provided in the *certificates* field of the CMS
-external digital signature in a content signing certificate, which SHALL be an X.509 digital signature
-certificate issued under the id-fpki-common-piv-contentSigning policy of [[COMMON]](../_Appendix/references.md#ref-COMMON). The content
-signing certificate SHALL also include an extended key usage (*extKeyUsage*) extension asserting id-PIV-content-signing. Additional descriptions for the PIV object identifiers are provided in Appendix B. The
+The public key required to verify the digital signature SHALL be contained in
+a content signing certificate, which SHALL be
+issued under the id-fpki-common-piv-contentSigning policy of [[COMMON]](../_Appendix/references.md#ref-COMMON). The content
+signing certificate SHALL also include an extended key usage (*extKeyUsage*) extension asserting id-PIV-content-signing. 
+The public key SHALL be included in the certificates field of the CMS external digital signature in a content signing certificate. 
+Additional descriptions for the PIV object identifiers are provided in Appendix B. The
 content signing certificate on a valid PIV Card (one that is neither expired nor revoked) SHALL NOT be
 expired.
 
