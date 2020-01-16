@@ -427,7 +427,7 @@ include:
 - an electronic image of the right iris;
 - one or two fingerprint biometric templates for on-card  one-to-one comparison;
 - a symmetric card authentication key for supporting physical access applications; and
-- a symmetric PIV Card Application Administration key associated with the card management system.
+- a symmetric PIV Card Application administration key associated with the card management system.
 
 In addition to the above, other data elements are specified in [[SP 800-73]](../_Appendix/references.md#ref-SP-800-73).
 
@@ -439,7 +439,7 @@ PIV logical credentials fall into the following three categories:
 3. credential elements used by the card to prove the identity of the cardholder to an external entity
     (CTE authentication) such as a host computer system.
 
-The PIN falls into the first category, the PIV Card Application Administration Key into the second
+The PIN falls into the first category, the PIV Card Application administration key into the second
 category, and the biometric data records, symmetric keys, and asymmetric keys into the third.
 The fingerprint biometric templates for on-card one-to-one comparison fall into the first and third categories.
 
@@ -715,9 +715,9 @@ Social Security Number, phone number). The PIN SHALL be a minimum of six digits 
 PIV Cards MAY support card activation by the card management system to support card personalization
 and post-issuance card update. To activate the card for personalization or update, the card management
 system SHALL perform a challenge response protocol using cryptographic keys stored on the card in
-accordance with [[SP 800-73]](../_Appendix/references.md#ref-SP-800-73). When cards are personalized, PIV Card Application Administration Keys
+accordance with [[SP 800-73]](../_Appendix/references.md#ref-SP-800-73). When cards are personalized, PIV Card Application administration keys
 SHALL be set to be specific to each PIV Card. That is, each PIV Card SHALL contain a unique PIV Card
-Application Administration Key. PIV Card Application Administration Keys SHALL meet the algorithm
+Application administration key. PIV Card Application administration keys SHALL meet the algorithm
 and key size requirements stated in [[SP 800-78]](../_Appendix/references.md#ref-SP-800-78).
 
 ## 4.4 Card Reader Requirements {#s-4-4}
