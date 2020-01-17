@@ -28,10 +28,6 @@
 \usepackage{adjustbox}
 
 \usepackage[sf]{titlesec}
-\titleformat{\section}{\LARGE\bfseries\sffamily}{}{0em}{\colorsection}	% required for heading numbering style
-\titleformat{\subsection}{\Large\bfseries\sffamily}{}{0em}{}	% required for heading numbering style
-\titleformat{\subsubsection}{\large\bfseries\sffamily}{}{0em}{}	% required for heading numbering style
-\titleformat{\paragraph}{\normalsize\bfseries\sffamily}{}{0em}{}	% required for heading numbering style
 
 \newcommand{\colorsection}[1]{%
   \colorbox{black}{\noindent\parbox{\dimexpr\textwidth-2\fboxsep}{\color{white}\ #1}}}
@@ -77,6 +73,8 @@
 \renewcommand{\cfttabpresnum}{\tablename\ }
 \setlength{\cfttabindent}{0in}    %% adjust as you like
 \setlength{\cftfigindent}{0in} 
+
+\setcounter{secnumdepth}{-2}
 
 \usepackage{enumitem}         % to control spacing between bullets/numbered lists
 
@@ -301,8 +299,13 @@ Natl. Inst. Stand. Technol. Spec. Publ. \pubnumber, \pageref{LastPage} pages (\m
 
 \pagenumbering{roman}
 
-\VAR{foreword}
+\titleformat{\section}{\normalsize\bfseries\sffamily}{}{0em}{}	% required for heading numbering style
+\titleformat{\subsection}{\normalsize\bfseries\sffamily}{}{0em}{}	% required for heading numbering style
+\titleformat{\subsubsection}{\normalsize\bfseries\sffamily}{}{0em}{}	% required for heading numbering style
+\titleformat{\paragraph}{\normalsize\bfseries\sffamily}{}{0em}{}	% required for heading numbering style
 
+\addtocontents{toc}{\setcounter{tocdepth}{-5}} % hide from TOC
+\VAR{foreword}
 %: endif
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -315,7 +318,6 @@ Natl. Inst. Stand. Technol. Spec. Publ. \pubnumber, \pageref{LastPage} pages (\m
 	\listoffigures
 \end{center}
 
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %   Start front matter - page number starts with "1", sections
 %   start with '1'
@@ -325,8 +327,14 @@ Natl. Inst. Stand. Technol. Spec. Publ. \pubnumber, \pageref{LastPage} pages (\m
 \pagenumbering{arabic}
 \pagestyle{body}
 
-\VAR{body}
+\titleformat{\section}{\LARGE\bfseries\sffamily}{}{0em}{\colorsection}	% required for heading numbering style
+\titleformat{\subsection}{\Large\bfseries\sffamily}{}{0em}{}	% required for heading numbering style
+\titleformat{\subsubsection}{\large\bfseries\sffamily}{}{0em}{}	% required for heading numbering style
+\titleformat{\paragraph}{\normalsize\bfseries\sffamily}{}{0em}{}	% required for heading numbering style
 
+\addtocontents{toc}{\setcounter{tocdepth}{3}} % Set TOC depth to 3 (subsection)
+
+\VAR{body}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %   Start Appendix - page number continues as before, sections
@@ -334,10 +342,6 @@ Natl. Inst. Stand. Technol. Spec. Publ. \pubnumber, \pageref{LastPage} pages (\m
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %: if appendix is not none
-
-% Switch to letters for appendix section
-\setcounter{section}{0}
-\renewcommand{\thesection}{\Alph{section}}
 
 \VAR{appendix}
 
