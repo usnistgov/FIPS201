@@ -24,7 +24,7 @@
 \usepackage{longtable}
 \usepackage{tabularx}
 \usepackage{tabulary}
-\usepackage{ragged2e}
+\usepackage[raggedrightboxes]{ragged2e}
 \usepackage{adjustbox}
 
 \usepackage[sf]{titlesec}
@@ -74,7 +74,7 @@
 \setlength{\cfttabindent}{0in}    %% adjust as you like
 \setlength{\cftfigindent}{0in} 
 
-\setcounter{secnumdepth}{-2}
+\setcounter{secnumdepth}{-2} % we number our sections by hand so don't include them in the section titles
 
 \usepackage{enumitem}         % to control spacing between bullets/numbered lists
 
@@ -141,7 +141,17 @@ pdfkeywords={}
         \fancyhead{}
 }
 
+% Set up paragraph indents and spacing
+\setlength{\parindent}{0cm}
+\setlength{\parskip}{0.5cm plus 4mm minus 3mm}
 
+%: if config.lineno
+
+% Turn on line numbering
+\usepackage{lineno}
+\linenumbers
+
+%: endif
 
 \usepackage{caption} % required for Figure labels
 \captionsetup{font=small,labelfont=bf,figurename=Fig.,labelsep=period,justification=raggedright} 
@@ -151,10 +161,10 @@ pdfkeywords={}
 %   DOI Statement - fill in DOI sent to you 
 %   Month Year - fill in Month and Year of Publication
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\newcommand{\pubnumber}{\VAR{report_number}}
-\newcommand{\DOI}{\VAR{doi_url}}
-\newcommand{\monthyear}{\VAR{month} \VAR{year}}
-\newcommand{\pagetitle}{\VAR{page_title}}
+\newcommand{\pubnumber}{\VAR{config.report_number}}
+\newcommand{\DOI}{\VAR{config.doi_url}}
+\newcommand{\monthyear}{\VAR{config.month} \VAR{config.year}}
+\newcommand{\pagetitle}{\VAR{config.page_title}}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %   	BEGIN DOCUMENT 
@@ -295,28 +305,31 @@ Natl. Inst. Stand. Technol. Spec. Publ. \pubnumber, \pageref{LastPage} pages (\m
 %   Start front matter - page number starts with "i"
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-%: if foreword is not none
+%: if rendered.foreword is not none
 
 \pagenumbering{roman}
 
-\titleformat{\section}{\normalsize\bfseries\sffamily}{}{0em}{}	% required for heading numbering style
-\titleformat{\subsection}{\normalsize\bfseries\sffamily}{}{0em}{}	% required for heading numbering style
-\titleformat{\subsubsection}{\normalsize\bfseries\sffamily}{}{0em}{}	% required for heading numbering style
-\titleformat{\paragraph}{\normalsize\bfseries\sffamily}{}{0em}{}	% required for heading numbering style
+\titleformat{\section}{\normalsize\raggedright\bfseries\sffamily}{}{0em}{}	% required for heading numbering style
+\titleformat{\subsection}{\normalsize\raggedright\bfseries\sffamily}{}{0em}{}	% required for heading numbering style
+\titleformat{\subsubsection}{\normalsize\raggedright\bfseries\sffamily}{}{0em}{}	% required for heading numbering style
+\titleformat{\paragraph}{\normalsize\raggedright\bfseries\sffamily}{}{0em}{}	% required for heading numbering style
 
 \addtocontents{toc}{\setcounter{tocdepth}{-5}} % hide from TOC
-\VAR{foreword}
+\VAR{rendered.foreword}
 %: endif
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %   Table of Contents is required
 % 	List of Tables & Figures required if more than 5 tables/figures
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\clearpage
 \begin{center}
 	\tableofcontents
 	\listoftables
 	\listoffigures
 \end{center}
+\clearpage
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %   Start front matter - page number starts with "1", sections
@@ -327,23 +340,24 @@ Natl. Inst. Stand. Technol. Spec. Publ. \pubnumber, \pageref{LastPage} pages (\m
 \pagenumbering{arabic}
 \pagestyle{body}
 
-\titleformat{\section}{\LARGE\bfseries\sffamily}{}{0em}{\colorsection}	% required for heading numbering style
-\titleformat{\subsection}{\Large\bfseries\sffamily}{}{0em}{}	% required for heading numbering style
-\titleformat{\subsubsection}{\large\bfseries\sffamily}{}{0em}{}	% required for heading numbering style
-\titleformat{\paragraph}{\normalsize\bfseries\sffamily}{}{0em}{}	% required for heading numbering style
+\titleformat{\section}{\large\raggedright\bfseries\sffamily}{}{0em}{\colorsection}	% required for heading numbering style
+\titleformat{\subsection}{\large\raggedright\bfseries\sffamily}{}{0em}{}	% required for heading numbering style
+\titleformat{\subsubsection}{\normalsize\raggedright\bfseries\sffamily}{}{0em}{}	% required for heading numbering style
+\titleformat{\paragraph}{\normalsize\raggedright\bfseries\sffamily}{}{0em}{}	% required for heading numbering style
 
 \addtocontents{toc}{\setcounter{tocdepth}{3}} % Set TOC depth to 3 (subsection)
 
-\VAR{body}
+\VAR{rendered.body}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %   Start Appendix - page number continues as before, sections
 %   start with 'A'
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-%: if appendix is not none
+%: if rendered.appendix is not none
 
-\VAR{appendix}
+\appendix
+\VAR{rendered.appendix}
 
 %: endif
 
