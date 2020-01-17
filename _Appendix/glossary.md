@@ -6,7 +6,7 @@ navTitle: Glossary
 permalink: /glossary/
 ---
 
-# Appendix C— Glossary of Terms, Acronyms, and Notations {#s-appendix-c}
+# Appendix C— Glossary of Terms, Acronyms, and Notations {#s-c}
 
 This informative appendix describes the vocabulary and textual representations used in the document.
 
