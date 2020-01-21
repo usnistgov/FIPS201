@@ -349,7 +349,7 @@ meet the requirements for a lower assurance level.
 
 [Table 6-3. Authentication for Logical Access](#table-6-3){:name="table-6-3"}
 
-|PIV Assurance Level Required by Application/Resource|Applicable PIV Authentication Mechanism: Local Workstation Environment|Applicable PIV authentication Mechanism: Remote/Network System Environment|
+|PIV Assurance Level Required by Application/Resource|Applicable PIV Authentication Mechanism: Local Workstation Environment|Applicable PIV Authentication Mechanism: Remote/Network System Environment|
 |---|---|---|
 |LITTLE or NO confidence|||
 |SOME confidence|PKI-CAK|PKI-CAK|
