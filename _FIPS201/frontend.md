@@ -240,11 +240,8 @@ requirements, such as employee status, as shown in [Figure 4-2](#fig-4-2).
 *Zone 5F—Rank*. If used, the cardholder's rank SHALL be printed in the area as illustrated in [Figure 4-2](#fig-4-2).
 Data format is at the department or agency's discretion.
 
-*Zone 6F—Portable Data File (PDF) Two-Dimensional Bar Code*. If used, the PDF bar code placement
-SHALL be as depicted in [Figure 4-2](#fig-4-2) (i.e., left side of the card). If Zone 3F (a cardholder signature) is used,
-the size of the PDF bar code may be affected. The card issuer should confirm that a PDF used in
-conjunction with a PIV Card containing a cardholder signature will satisfy the anticipated PDF data
-storage requirements.
+*Zone 6F—Portable Data File (PDF) Two-Dimensional Bar Code (Deprecated)*. This bar code is deprecated in this version of the Standard. In a future version of this Standard, the bar code may be removed.  If used, the PDF bar code placement SHALL be as depicted in [Figure 4-2](#fig-4-2) (i.e., left side of the card). If Zone 3F (a cardholder signature) is used, the size of the PDF bar code may be affected. The card issuer should confirm that a PDF used in
+conjunction with a PIV Card containing a cardholder signature will satisfy the anticipated PDF data storage requirements. 
 
 *Zone 9F— Header*. If used, the text "United States Government" SHALL be placed as depicted in 
 [Figure 4-4](#fig-4-4). Departments and agencies may also choose to use this zone for other department or agency-specific
@@ -297,7 +294,7 @@ integrity and printing process is not adversely impacted.
 
 #### 4.1.4.4 Optional Items on the Back of the PIV Card {#s-4-1-4-4}
 
-*Zone 3B—Magnetic Stripe*. If used, the magnetic stripe SHALL be high coercivity and placed in accordance
+*Zone 3B—Magnetic Stripe (Deprecated)*. If used, the magnetic stripe SHALL be high coercivity and placed in accordance
 with [[ISO7811]](../_Appendix/references.md#ref-ISO7811), as illustrated in [Figure 4-7](#fig-4-7). Magnetic stripes are deprecated in this version of the Standard. In a future version of this Standard, magnetic stripes may be removed and the space may be allocated for Agency-specific data to be printed.
 
 *Zone 4B—Return Address*. If used, the "return if lost" language SHALL be generally placed on the back of
@@ -315,7 +312,7 @@ is provided in [Figure 4-7](#fig-4-7).
 warning against counterfeiting, altering, or misusing the card SHALL be printed in the general area depicted
 in [Figure 4-7](#fig-4-7).
 
-*Zone 8B—Linear 3 of 9 Bar Code*. If used, a linear 3 of 9 bar code SHALL be generally placed as depicted
+*Zone 8B—Linear 3 of 9 Bar Code (Deprecated)*. The bar code is deprecated in this version of the Standard. In a future version of this Standard, the bar code may be removed. If used, a linear 3 of 9 bar code SHALL be generally placed as depicted
 in [Figure 4-7](#fig-4-7). It SHALL be in accordance with Association for Automatic Identification and Mobility (AIM)
 standards. Beginning and end points of the bar code will be dependent on the embedded contactless
 module selected. Departments and agencies are encouraged to coordinate placement of the bar code with
