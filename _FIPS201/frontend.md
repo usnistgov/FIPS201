@@ -686,14 +686,14 @@ extension in the PIV authentication certificate.
 
 ## 4.3 PIV Card Activation {#s-4-3}
 
-The PIV Card SHALL be activated[^activation] to perform privileged[^priviledged] operations such as using the PIV authentication
+The PIV Card SHALL be activated[^activation] to perform privileged[^privileged] operations such as using the PIV authentication
 key, digital signature key, and key management key. The PIV Card SHALL be activated for privileged
 operations only after authenticating the cardholder or the appropriate card management system.
 Cardholder activation is described in [Section 4.3.1](frontend.md#s-4-3-1) and card management system activation is described in
 [Section 4.3.2](frontend.md#s-4-3-2).
 
 [^activation]: Activation in this context refers to the unlocking of the PIV Card Application so privileged operations can be performed.
-[^priviledged]: A read of a CHUID or use of the card authentication key is not considered a privileged operation.
+[^privileged]: A read of a CHUID or use of the card authentication key is not considered a privileged operation.
 
 ### 4.3.1 Activation by Cardholder {#s-4-3-1}
 
