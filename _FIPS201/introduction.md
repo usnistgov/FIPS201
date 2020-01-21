@@ -86,8 +86,8 @@ Specifically, this section provides a description of the types of changes expect
 ### 1.3.1 Backward Compatible Change {#s-1-3-1}
 
 A backward compatible change is a change or modification to an existing feature that does not break the
-relying systems using this feature. For example, changing the Card Authentication certificate from
-optional to mandatory does not affect the systems using the Card Authentication certificate for
+relying systems using this feature. For example, changing the card authentication certificate from
+optional to mandatory does not affect the systems using the card authentication certificate for
 authentication (i.e., using the PKI-CAK authentication mechanism).
 
 ### 1.3.2 Non-Backward Compatible Change {#s-1-3-2}

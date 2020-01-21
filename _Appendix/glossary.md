@@ -277,12 +277,12 @@ storage of sensitive verification system data within identity cards and the veri
 
 PKI-Card Authentication Key (PKI-CAK)
 : A PIV authentication mechanism that is implemented by
-an asymmetric key challenge/response protocol using the Card Authentication key of the PIV Card and a
+an asymmetric key challenge/response protocol using the card authentication key of the PIV Card and a
 contact or contactless reader.
 
 PKI-PIV Authentication Key (PKI-AUTH)
 : A PIV authentication mechanism that is implemented by
-an asymmetric key challenge/response protocol using the PIV Authentication key of the PIV Card and a
+an asymmetric key challenge/response protocol using the PIV authentication key of the PIV Card and a
 contact reader, or a contactless card reader that supports the virtual contact interface.
 
 Recommendation

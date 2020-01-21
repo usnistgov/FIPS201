@@ -131,7 +131,7 @@ The following steps SHALL be performed for unattended authentication of biometri
 - A unique identifier within the CHUID or other data element is used as input to the authorization
     check to determine whether the cardholder should be granted access.
 
-[^expired]: The PIV Authentication certificate or Card Authentication certificate may be leveraged instead of the CHUID to verify that the card is not expired.
+[^expired]: The PIV authentication certificate or card authentication certificate may be leveraged instead of the CHUID to verify that the card is not expired.
 
 #### 6.2.1.2 Attended Authentication of Biometric Data (BIO-A) {#s-6-2-1-2}
 
@@ -168,18 +168,18 @@ following subsections SHALL be used to perform authentication using the authenti
 
 The following steps SHALL be performed for PKI-AUTH:
 
-- The PIV Authentication certificate is read from the PIV Card Application.
-- The relying system validates the PIV Authentication certificate from the PIV Card Application using
+- The PIV authentication certificate is read from the PIV Card Application.
+- The relying system validates the PIV authentication certificate from the PIV Card Application using
     standards-compliant PKI path validation[^pivpath] to ensure that it is neither expired nor revoked and that it is
     from a trusted source.
 - The cardholder is prompted to submit a PIN, which is used to activate the card. (If implemented,
     other card activation mechanisms, as specified in [[SP 800-73]](../_Appendix/references.md#ref-SP-800-73), MAY be used to activate the card.)
 - The relying system issues a challenge string to the card and requests an asymmetric operation in
     response.
-- The card responds to the previously issued challenge by signing it using the PIV Authentication
+- The card responds to the previously issued challenge by signing it using the PIV authentication
     private key.
 - The relying system verifies that the card's response is the expected response to the issued challenge.
-- A unique identifier from the PIV Authentication certificate is extracted and passed as input to the
+- A unique identifier from the PIV authentication certificate is extracted and passed as input to the
     access control decision.
 
 Some of the characteristics of the PKI-based authentication mechanism are as follows:
@@ -191,22 +191,22 @@ Some of the characteristics of the PKI-based authentication mechanism are as fol
 - applicable with contact card readers, and contactless card readers that support the virtual contact
     interface.
 
-[^pivpath]: Path validation SHOULD be configured to specify which policy OIDs are trusted. The policy OID for the PIV Authentication certificate is id-fpki-common-authentication.
+[^pivpath]: Path validation SHOULD be configured to specify which policy OIDs are trusted. The policy OID for the PIV authentication certificate is id-fpki-common-authentication.
 
 #### 6.2.3.2 Authentication with the Card Authentication Certificate Credential (PKI-CAK) {#s-6-2-3-2}
 
 The following steps SHALL be performed for PKI-CAK:
 
-- The Card Authentication certificate is read from the PIV Card Application.
-- The relying system validates the Card Authentication certificate from the PIV Card Application using
+- The card authentication certificate is read from the PIV Card Application.
+- The relying system validates the card authentication certificate from the PIV Card Application using
     standards-compliant PKI path validation[^cacpath] to ensure that it is neither expired nor revoked and that it is
     from a trusted source.
 - The relying system issues a challenge string to the card and requests an asymmetric operation in
     response.
-- The card responds to the previously issued challenge by signing it using the Card Authentication
+- The card responds to the previously issued challenge by signing it using the card authentication
     private key.
 - The relying system verifies that the card's response is the expected response to the issued challenge.
-- A unique identifier from the Card Authentication certificate is extracted and passed as input to the
+- A unique identifier from the card authentication certificate is extracted and passed as input to the
     access control decision.
 
 Some of the characteristics of the PKI-CAK authentication mechanism are as follows:
@@ -216,26 +216,26 @@ Some of the characteristics of the PKI-CAK authentication mechanism are as follo
 - low resistance to use of unaltered card by non-owner of card, and
 - applicable with contact and contactless readers.
 
-[^cacpath]: Path validation SHOULD be configured to specify which policy OIDs are trusted. The policy OID for the Card Authentication certificate is id-fpki-common-cardAuth.
+[^cacpath]: Path validation SHOULD be configured to specify which policy OIDs are trusted. The policy OID for the card authentication certificate is id-fpki-common-cardAuth.
 
 ### 6.2.4 Authentication with the Symmetric Card Authentication Key (SYM-CAK) {#s-6-2-4}
 
-The PIV Card Application MAY host the optional symmetric Card Authentication key. In this case, the
-symmetric Card Authentication key SHALL be used for PIV cardholder authentication using the following
+The PIV Card Application MAY host the optional symmetric card authentication key. In this case, the
+symmetric card authentication key SHALL be used for PIV cardholder authentication using the following
 steps:
 
-- The CHUID, PIV Authentication certificate, or Card Authentication certificate data element is read
+- The CHUID, PIV authentication certificate, or card authentication certificate data element is read
     from the PIV Card and is checked to ensure the card has not expired.
 - The digital signature on the data element is checked to ensure that it was signed by a trusted source
     and is unaltered.
 - The reader issues a challenge string to the card and requests a response.
 - The card responds to the previously issued challenge by encrypting the challenge using the symmetric
-    Card Authentication key.
+    card authentication key.
 - The response is validated as the expected response to the issued challenge.
 - A unique identifier within the data element is used as input to the authorization check to determine
     whether the cardholder should be granted access.
 
-Some of the characteristics of the symmetric Card Authentication key authentication mechanism are as
+Some of the characteristics of the symmetric card authentication key authentication mechanism are as
 follows:
 
 - resistant to credential forgery,
