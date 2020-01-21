@@ -312,11 +312,11 @@ is provided in [Figure 4-7](#fig-4-7).
 warning against counterfeiting, altering, or misusing the card SHALL be printed in the general area depicted
 in [Figure 4-7](#fig-4-7).
 
-*Zone 8B—Linear 3 of 9 Bar Code (Deprecated)*. The bar code is deprecated in this version of the Standard. In a future version of this Standard, the bar code may be removed. If used, a linear 3 of 9 bar code SHALL be generally placed as depicted 
+*Zone 8B—Linear 3 of 9 Bar Code (Deprecated)*. The bar code is deprecated in this version of the Standard. In a future version of this Standard, the bar code may be removed. If used, a linear 3 of 9 bar code SHALL be generally placed as depicted
 in [Figure 4-7](#fig-4-7). It SHALL be in accordance with Association for Automatic Identification and Mobility (AIM)
 standards. Beginning and end points of the bar code will be dependent on the embedded contactless
 module selected. Departments and agencies are encouraged to coordinate placement of the bar code with
-the card vendor. 
+the card vendor.
 
 *Zone 9B—Agency-Specific Text*. In cases in which other defined optional elements are not used, Zone 9B
 MAY be used for other department or agency-specific information, as depicted in [Figure 4-8](#fig-4-8). For example,
