@@ -44,6 +44,14 @@ Authentication
 : The process of establishing confidence of authenticity; in this case, in the validity of a
 person's identity and the PIV Card.
 
+Authenticator Assurance Level (AAL)
+: A measure of the strength of an authentication mechanism, and therefore the confidence in it, as
+defined in [[SP 800-63]](references.md#ref-SP-800-63) in terms of three levels:
+	- AAL1: SOME confidence
+	- AAL2: HIGH confidence
+	- AAL3: VERY HIGH confidence
+
+
 Biometric Capture Device
 : Device that collects a signal from a biometric characteristic and converts it 
 to a captured biometric sample. [[ISO2382-37]](references.md#ref-ISO/IEC-2382-37) 
@@ -117,14 +125,6 @@ additional attributes) to that individual.
 Cryptographic Key (Key)
 : A parameter used in conjunction with a cryptographic algorithm that
 determines the specific operation of that algorithm.
-
-E-Authentication Assurance Level
-: A measure of trust or confidence in an authentication mechanism
-defined in [[OMB0404]](references.md#ref-OMB0404) and [[SP 800-63]](references.md#ref-SP-800-63)  in terms of four levels:
-	- Level 1: LITTLE OR NO confidence
-	- Level 2: SOME confidence
-	- Level 3: HIGH confidence
-	- Level 4: VERY HIGH confidence
 
 Enrollment
 : See "Identity Registration."
