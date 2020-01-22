@@ -8,11 +8,13 @@ permalink: /authentication/
 
 # 6. PIV Cardholder Authentication {#s-6}
 
-This section defines a suite of authentication mechanisms that are supported by all the PIV Cards, and
-their applicability in meeting the requirements for a set of graduated levels of identity assurance. This
+This section defines a suite of authentication mechanisms that are supported by all PIV Cards and
+their applicability in meeting the requirements for a set of graduated authentication assurance levels (AALs). This
 section also defines some authentication mechanisms that make use of credential elements that MAY
 optionally be included on PIV Cards. Specific implementation details of authentication mechanisms
-identified in this section are provided in [[SP 800-73]](../_Appendix/references.md#ref-SP-800-73). Moreover, while a wide range of authentication
+identified in this section are provided in [[SP 800-73]](../_Appendix/references.md#ref-SP-800-73). Graduated authentication assurance levels are also applicable to derived PIV credentials used in accordance with *Guidelines for Derived Personal Identity Verification (PIV) Credentials* [[SP 800-157]](../_Appendix/references.md#ref-SP-800-157).
+
+While a wide range of authentication
 mechanisms is identified in this section, departments and agencies may adopt additional mechanisms that
 use the identity credentials on the PIV Card. In the context of the PIV Card Application, identity
 authentication is defined as the process of establishing confidence in the identity of the cardholder
@@ -23,69 +25,59 @@ The authentication mechanisms in this section describe how to authenticate using
 authenticated identity can also be used to create an identity assertion as part of a federation
 protocol, as described in [Section 7](#s-7).
 
-## 6.1 PIV Assurance Levels {#s-6-1}
+## 6.1 PIV Authentication Assurance Levels {#s-6-1}
 
-This Standard defines four levels of assurance for identity authentication supported by the PIV Card
-Application. Each assurance level sets a degree of confidence established in the identity of the holder of
-the PIV Card. The entity performing the authentication establishes confidence in the identity of the PIV
-cardholder through the following:
-
-1. the rigor of the identity proofing process conducted prior to issuing the PIV Card;
-2. the security of the PIV Card issuance and maintenance processes; and
-3. the strength of the technical mechanisms used to verify that the cardholder is the owner of the
-    PIV Card.
+This Standard defines three levels of authentication assurance supported by the PIV Card
+Application. Each authentication assurance level establishes a degree of confidence that the presenter of
+the PIV Card is the person referred to by the PIV credential. The entity performing the authentication further establishes confidence that the identity of the PIV credential is a specific cardholder through the rigor of the identity proofing process conducted prior to issuance of the PIV Card and the security of the PIV Card issuance and maintenance processes.
 
 [Section 2](requirements.md#s-2) of this Standard defines requirements for the identity proofing, registration, issuance, and
-maintenance processes for PIV Cards and establishes a common level of assurance in these processes.
+maintenance processes for PIV Cards and establishes a common level of identity assurance in these processes.
 The PIV identity proofing, registration, issuance, and maintenance processes meet or exceed the
-requirements for E-Authentication Level 4 [[OMB0404]](../_Appendix/references.md#ref-OMB0404). The PIV Card contains a number of visual and
+requirements for Identity Assurance Level 3 (IAL3) [[SP 800-63A]](../_Appendix/references.md#ref-SP-800-63A).
+
+The PIV Card contains a number of visual and
 logical credentials. Depending on the specific PIV data used to authenticate the holder of the PIV Card to
-an entity that controls access to a resource, varying levels of assurance that the holder of the PIV Card is
+an entity that controls access to a resource, varying authentication assurance levels (AALs) [[SP 800-63B]](../_Appendix/references.md#ref-SP-800-63B) that the holder of the PIV Card is
 the owner of the card can be achieved. This is the basis for the following PIV assurance levels defined in
 this Standard:
 
-- LITTLE or NO Confidence—Little or no assurance in the identity of the cardholder;
-- SOME Confidence—A basic degree of assurance in the identity of the cardholder;
-- HIGH Confidence—A strong degree of assurance in the identity of the cardholder; and
-- VERY HIGH Confidence—A very strong degree of assurance in the identity of the cardholder.
+- SOME Confidence—A basic degree of assurance in the identity of the cardholder (AAL1);
+- HIGH Confidence—A strong degree of assurance in the identity of the cardholder (AAL2); and
+- VERY HIGH Confidence—A very strong degree of assurance in the identity of the cardholder (AAL3).
 
 Parties responsible for controlling access to federal resources (both physical and logical) SHALL determine
 the appropriate level of identity assurance required for access, based on the harm and impact to
 individuals and organizations as a result of errors in the authentication of the identity of the PIV
 cardholder. Once the required level of assurance has been determined, the authentication mechanisms
-specified within this section may be applied to achieve the required degree of confidence in the identity of
-the PIV cardholder.
+specified within this section may be applied to achieve the required authentication assurance level.
 
+### 6.1.1 Relationship to NIST Digital Identity Guidelines {#s-6-1-1}
 
-### 6.1.1 Relationship to OMB's E-Authentication Guidance {#s-6-1-1}
+The PIV assurance levels defined within this Standard are closely aligned with
+NIST Digital Identity Guidelines [[SP 800-63]](../_Appendix/referenced.md#ref-SP-800-63), which specifies a digital identity risk management process that is cited by OMB M-19-17 [[OMB1917]](../_Appendix/references.md#ref-OMB1917).
+Specifically, [Table 6-1](#table-6-1) shows the notional relationship between the PIV assurance levels and the SP 800-63
+authentication assurance levels.
 
-The levels of identity authentication assurance defined within this Standard are closely aligned with
-Section 2 of OMB's E-Authentication Guidance for Federal Agencies, M-04-04 [[OMB0404]](../_Appendix/references.md#ref-OMB0404).
-Specifically, [Table 6-1](#table-6-1) shows the notional relationship between the PIV assurance levels and the M-04-04
-E-Authentication assurance levels.
+[Table 6-1. Relationship Between PIV and Authentication Assurance Levels](#table-6-1){:name="table-6-1"}
 
-[Table 6-1. Relationship Between PIV and E-Authentication Assurance Levels](#table-6-1){:name="table-6-1"}
-
-|PIV Assurance Levels|Comparable OMB E-Authentication Levels| Description|
+|PIV Assurance Level|Comparable SP 800-63 Authentication Assurance Level| Description|
 |---|---|---|
-|LITTLE or NO confidence|Level 1|Little or no confidence in the asserted identity's validity|
-|SOME confidence|Level 2|Some confidence in the asserted identity's validity|
-|HIGH confidence|Level 3|High confidence in the asserted identity's validity|
-|VERY HIGH confidence|Level 4|Very high confidence in the asserted identity's validity|
+|SOME confidence|AAL1|Some confidence in the asserted identity's validity|
+|HIGH confidence|AAL2|High confidence in the asserted identity's validity|
+|VERY HIGH confidence|AAL3|Very high confidence in the asserted identity's validity|
 
-[[OMB0404]](../_Appendix/references.md#ref-OMB0404) addresses "four levels of identity assurance for electronic transactions requiring
-authentication" and prescribes a methodology for determining the level of identity assurance required
-based on the risks and potential impacts of errors in identity authentication. In the context of the PIV
-Card, owners of logical resources SHALL apply the methodology defined in [[OMB0404]](../_Appendix/references.md#ref-OMB0404) to identify the level
-of identity authentication assurance required for their electronic transaction. Parties that are responsible
-for access to physical resources may use a methodology similar to that defined in [[OMB0404]](../_Appendix/references.md#ref-OMB0404) to
+[[SP 800-63]](../_Appendix/referenced.md#ref-SP-800-63) defines three authentication assurance levels for digital transactions and prescribes a methodology for determining the required authentication assurance level (AAL)
+based on the risks and potential impacts of misauthentication. In the context of the PIV
+Card, owners of logical resources SHALL apply this methodology to determine the authentication assurance level required for their logical transaction. Parties that are responsible
+for access to physical resources may use a similar methodology to
 determine the PIV assurance level required for access to their physical resource; they may also use other
-applicable methodologies to determine the required level of identity assurance for their application.
+applicable methodologies to determine the required level of authentication assurance for their application.
 
 ## 6.2 PIV Card Authentication Mechanisms {#s-6-2}
 
 The following subsections define the basic types of authentication mechanisms that are supported by the
-credential set hosted by the PIV Card Application. PIV Cards can be used for identity authentication in
+credential set hosted by the PIV Card Application. PIV Cards can be used for authentication in
 environments that are equipped with card readers as well as those that lack card readers. Card readers,
 when present, can be contact readers or contactless readers. The usage environment affects the PIV
 authentication mechanisms that may be applied to a particular situation.
@@ -298,11 +290,11 @@ Some characteristics of the visual authentication mechanism are as follows:
 - does not provide protection against use of a revoked card; and
 - applicable in environments with and without card readers.
 
-## 6.3 PIV Support of Graduated Assurance Levels for Identity Authentication {#s-6-3}
+## 6.3 PIV Support of Graduated Authentication Assurance Levels {#s-6-3}
 
 The PIV Card supports a set of authentication mechanisms that can be used to implement graduated
-assurance levels for identity authentication. The following subsections specify which basic PIV
-authentication mechanisms MAY be used to support the various levels of identity authentication assurance
+authentication assurance levels. The following subsections specify which basic PIV
+authentication mechanisms MAY be used to support the various authentication assurance levels
 as defined in [Section 6.1](authentication.md#s-6-1). Two or more complementing authentication mechanisms MAY be applied in
 unison to achieve a higher degree of assurance of the identity of the PIV cardholder. For example, PKI-AUTH and BIO MAY be applied in unison to achieve a higher degree of assurance in cardholder identity.
 
@@ -351,7 +343,6 @@ meet the requirements for a lower assurance level.
 
 |PIV Assurance Level Required by Application/Resource|Applicable PIV Authentication Mechanism: Local Workstation Environment|Applicable PIV Authentication Mechanism: Remote/Network System Environment|
 |---|---|---|
-|LITTLE or NO confidence|||
 |SOME confidence|PKI-CAK|PKI-CAK|
 |HIGH confidence|BIO||
 |VERY HIGH confidence|BIO-A, OCC-AUTH, PKI-AUTH|PKI-AUTH|
