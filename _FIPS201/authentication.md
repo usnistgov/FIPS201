@@ -55,7 +55,7 @@ specified within this section may be applied to achieve the required authenticat
 ### 6.1.1 Relationship to NIST Digital Identity Guidelines {#s-6-1-1}
 
 The PIV assurance levels defined within this Standard are closely aligned with
-NIST Digital Identity Guidelines [[SP 800-63]](../_Appendix/referenced.md#ref-SP-800-63), which specifies a digital identity risk management process that is cited by OMB M-19-17 [[OMB1917]](../_Appendix/references.md#ref-OMB1917).
+NIST Digital Identity Guidelines [[SP 800-63]](../_Appendix/references.md#ref-SP-800-63), which specifies a digital identity risk management process that is cited by OMB M-19-17 [[OMB1917]](../_Appendix/references.md#ref-OMB1917).
 Specifically, [Table 6-1](#table-6-1) shows the notional relationship between the PIV assurance levels and the SP 800-63
 authenticator assurance levels.
 
