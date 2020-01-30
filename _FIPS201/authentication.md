@@ -39,7 +39,7 @@ requirements for Identity Assurance Level 3 (IAL3) [[SP 800-63A]](../_Appendix/r
 The PIV Card contains a number of
 logical credentials. Varying authenticator assurance levels (AALs) [[SP 800-63B]](../_Appendix/references.md#ref-SP-800-63B)
 that the holder of the PIV Card is
-the owner of the card can be achieved, depending on the PIV authentication method used. This is the basis for the following PIV assurance levels defined in
+the owner of the card can be achieved, depending on the PIV authentication mechanism used. This is the basis for the following PIV assurance levels defined in
 this Standard:
 
 - SOME Confidence—A basic degree of assurance in the identity of the cardholder (AAL1);
