@@ -36,7 +36,7 @@ maintenance processes for PIV Cards and establishes a common level of identity a
 The PIV identity proofing, registration, issuance, and maintenance processes meet or exceed the
 requirements for Identity Assurance Level 3 (IAL3) [[SP 800-63A]](../_Appendix/references.md#ref-SP-800-63A).
 
-The PIV Card contains a number of visual and
+The PIV Card contains a number of
 logical credentials. Varying authenticator assurance levels (AALs) [[SP 800-63B]](../_Appendix/references.md#ref-SP-800-63B)
 that the holder of the PIV Card is
 the owner of the card can be achieved, depending on the PIV authentication method used. This is the basis for the following PIV assurance levels defined in
