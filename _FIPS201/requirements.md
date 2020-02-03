@@ -27,11 +27,8 @@ such that:
 
 + Credentials are issued 
     - to individuals whose identity has been verified; and 
-    - after a proper authority has authorized issuance of the credential.
-+ A credential is issued only after National Agency Check with Written Inquiries (NACI) (or equivalent
-    or higher) or Tier 1 or higher federal background investigation is initiated[^background] and the Federal Bureau of
-    Investigation (FBI) National Criminal History Check (NCHC) portion of the background
-    investigation is completed.
+    - and who has been appropriately vetted as per Section 2.2.
++ A credential is issued only after an individual’s eligibility has been favorably adjudicated based on the prerequisite Federal investigation [^background] or the vetting process has been initiated with the Federal investigative service provider and the Federal Bureau of Investigation (FBI) National Criminal History Check (NCHC) portion of the background investigation is completed and favorably adjudicated. 
 + An individual is issued a credential only after presenting two identity source documents, at least one
     of which is a Federal or State Government issued picture ID.
 + Fraudulent identity source documents are not accepted as genuine and unaltered.
@@ -51,8 +48,19 @@ such that:
 
 ## 2.2 Credentialing Requirements {#s-2-2}
 
-Federal departments and agencies SHALL use the credentialing guidance issued by the Director of the Office
+Federal departments and agencies SHALL use the credentialing eligibility standards issued by the Director of the Office
 of Personnel Management (OPM)[^OPM] and OMB[^OMB].
+
+Federal departments and agencies must follow investigative requirements established by the  Suitability and Credentialing Executive Agent and the Security Executive Agent. Departments and agencies are required to use position designation guidance issued by the Executive Agents. The designation of the position determines the prerequisite investigative requirement. Individuals being processed for a PIV card must receive the appropriate required investigation and are subject to any corresponding reinvestigation or continuous vetting requirements as applicable, for issuance and to maintain their workforce PIV eligibility.
+
+The minimum requirement to issue a PIV Credential eligibility determination is a completed and favorably adjudicated Tier 1(T1)  investigation (formerly called a National Agency Check with Written Inquiries (NACI).  
+
+If no corresponding prior investigation exists, the appropriate required investigation must be initiated with the authorized Federal investigative service provider and the Federal Bureau of Investigation (FBI) National Criminal History Check (NCHC) portion of the background investigation is completed and adjudicated before an individual is determined eligible to be issued a PIV Card. 
+
+Once the investigation is completed, the authorized adjudicative entity must adjudicate the investigation and report final eligibility determination to the proper Federal System of Record (Central Verification System, or successor). 
+
+For full guidance on PIV credentialing investigative and adjudicative requirements issuers must work closely with their personnel security/suitability offices to ensure adherence to the latest federal personnel vetting guidance as provided by the Executive Agents. 
+
 
 [^OPM]: For example, [[FCS]](../references/#ref-FCS){:.footnote-ref} and the Federal Investigative Standards 5.
 
