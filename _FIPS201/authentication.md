@@ -272,7 +272,7 @@ as described in the subsections below. Two or more complementary authentication 
 unison to achieve a higher degree of assurance of the identity of the PIV cardholder. For example, PKI-AUTH and BIO MAY be applied in unison to achieve a higher degree of assurance in cardholder identity.
 
 Adequately designed and implemented relying systems can achieve the PIV Card
-assurance levels stated in Tables [6-2 (physical access)](#table-6-2) and [6-3 (logical access)](#table-6-3). Less adequately designed
+assurance levels stated in Tables [6-1 (physical access)](#table-6-1) and [6-2 (logical access)](#table-6-2). Less adequately designed
 or implemented relying systems MAY only achieve lower assurance levels. The design of
 components of relying systems, including card readers, biometric capture devices, cryptographic modules, and
 key management systems, involves many factors not fully specified by FIPS 201, such as correctness of
@@ -295,14 +295,14 @@ Selection of required PAL MAY be made using a risk management process analogous 
 applicable methodologies to determine the required level of physical assurance for their application.
 
 The PIV-supported authentication mechanisms
-for physical access control systems are summarized in [Table 6-2](#table-6-2). An authentication mechanism that is
+for physical access control systems are summarized in [Table 6-1](#table-6-1). An authentication mechanism that is
 suitable for a higher assurance level can also be applied to meet the requirements for a lower assurance
-level. Moreover, the authentication mechanisms in [Table 6-2](#table-6-2) can be combined to achieve higher
+level. Moreover, the authentication mechanisms in [Table 6-1](#table-6-1) can be combined to achieve higher
 assurance levels.[^combinations]
 
 [^combinations]: Combinations of authentication mechanisms are specified in [[SP 800-116]](../_Appendix/references.md#ref-SP-800-116){:.footnote-ref}.
 
-[Table 6-2. Authentication for Physical Access](#table-6-2){:name="table-6-2"}
+[Table 6-1. Authentication for Physical Access](#table-6-1){:name="table-6-1"}
 
 |Required Physical Assurance Level|Applicable PIV Authentication Mechanism(s)|
 |---|---|
@@ -319,11 +319,11 @@ determining access to file systems, databases, and other services available on t
 
 Selection of required Authentication Access Level (AAL) SHALL be made using the risk management process specified in [[SP 800-63]](../_Appendix/references.md#ref-SP-800-63) Section 6.
 
-[Table 6-3](#table-6-3) describes the authentication mechanisms defined for this Standard to support logical access
+[Table 6-2](#table-6-2) describes the authentication mechanisms defined for this Standard to support logical access
 control. An authentication mechanism that is suitable for a higher assurance level can also be applied to
 meet the requirements for a lower assurance level.
 
-[Table 6-3. Authentication for Logical Access](#table-6-3){:name="table-6-3"}
+[Table 6-2. Authentication for Logical Access](#table-6-2){:name="table-6-2"}
 
 |Required Authentication Assurance Level|Applicable PIV Authentication Mechanism(s): Local Workstation Environment|Applicable PIV Authentication Mechanism: Remote/Network System Environment|
 |---|---|---|
