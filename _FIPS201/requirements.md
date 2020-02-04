@@ -130,7 +130,7 @@ The electronic facial image:
 A card issuer MAY optionally maintain, for each PIV Card issued, an archive of enrollment records for the
 identification data it collects. These enrollment records are created and maintained through the methods of 
 contemporaneous acquisition at each step of the PIV issuance process, including identity proofing, registration 
-and biometric enrollment, are are typically stored as part of the cardholder's PIV account.
+and biometric enrollment, and are typically stored as part of the cardholder's PIV account.
 
 PIV enrollment records can maintain an auditable sequence of enrollment events to facilitate binding an applicant 
 to multiple transactions that might take place at different times and locations.[^fingerprints]
@@ -156,7 +156,7 @@ It is recommended that the following data be included in the PIV enrollment reco
 + Any data or any subsequent changes in the data about the cardholder. If the changed data is the
     cardholder's name, then the issuer SHOULD include the evidence of a formal name change.
 
-The biometric data records in the PIV enrollment records SHALL be valid for at most 12 years. In order to mitigate ageing
+The biometric data records in the PIV enrollment records SHALL be valid for at most 12 years. In order to mitigate aging
 effects and thereby maintain operational readiness of a cardholder's PIV Card, agencies MAY require
 biometric enrollment more frequently than 12 years.
 
@@ -170,7 +170,7 @@ representation described in [[SP 800-156]](../_Appendix/references.md#ref-SP-800
 PIV enrollment records can be applied in several situations to include:
 
 + Extended enrollment: a PIV applicant enrolls a full set of fingerprints for background investigations
-    at one place and time, and two fingerprints for the PIV Card at another place and time. The enrollent record would contain identifiers and two enrollment data records, one with a full-set fingerprint
+    at one place and time, and two fingerprints for the PIV Card at another place and time. The enrollment record would contain identifiers and two enrollment data records, one with a full-set fingerprint
     transaction, and one with two fingerprint templates. The two fingerprint templates would be verified
     against the corresponding fingers in the ten-fingerprint data set in the PIV enrollment records.
 + Reissuance: a PIV cardholder loses his/her card. Since the card issuer has biometric data
