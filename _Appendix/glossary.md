@@ -250,7 +250,7 @@ his or her identity.
 Personal Identity Verification (PIV) Account
 : The logical repository for credentialing information for a given PIV cardholder.  This is typically stored within the Issuer’s Identity Management System, and includes PIV enrollment data, cardholder identity attributes, and information regarding authenticators bound the cardholder’s identity (e.g., PIV card and derived PIV credentials).
 
-PIV Card
+Personal Identity Verification (PIV) Card
 : A physical artifact (e.g., identity card, "smart" card) issued
 to an individual that contains a PIV Card Application which stores identity credentials (e.g., photograph,
 cryptographic keys, digitized fingerprint representation) so that the claimed identity of the cardholder can
