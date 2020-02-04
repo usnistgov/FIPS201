@@ -247,6 +247,9 @@ Personal Identification Number (PIN)
 : A secret that a cardholder memorizes and uses to authenticate
 his or her identity.
 
+Personal Identity Verification (PIV) Account
+: The logical record containing credentialing information for a given PIV cardholder.  This is typically stored within the issuer’s identity management system, and includes PIV enrollment data, cardholder identity attributes, and information regarding authenticators bound to the cardholder’s identity (e.g., PIV card and derived PIV credentials).
+
 Personal Identity Verification (PIV) Card
 : A physical artifact (e.g., identity card, "smart" card) issued
 to an individual that contains a PIV Card Application which stores identity credentials (e.g., photograph,
