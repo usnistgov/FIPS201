@@ -18,7 +18,7 @@ validation of the PCI, NIST developed a set of attributes as the basis of reliab
 issuers in SP 800-79 and published this document in July 2005. Subsequent lessons learned in
 implementation experience of various agencies 
 motivated NIST to develop a new accreditation
-methodology published the substantial revision as SP 800-79-1 in June 2008 [[SP 800-79]](references.md#ref-SP-800-79). In 2015, revision 2 (S800-79-2) was published to include guidelines for assessing the reliability of issuers of Derived PIV Credentials (DPCI) for mobile devices. The PCI/DPCI
+methodology and published the substantial revision as SP 800-79-1 in June 2008. In 2015 a second revision, SP 800-79-2 [[SP 800-79]](references.md#ref-SP-800-79), was published to include guidelines for assessing the reliability of issuers of Derived PIV Credentials (DPCI) for mobile devices. The PCI/DPCI
 accreditation methodology is built on a foundation of four major accreditation topics, 13 accreditation
 focus areas, and a total of 79 control requirements distributed under the various accreditation focus areas.
 Associated with each control requirement is a set of assessment methods, the exercise of the latter will
@@ -31,7 +31,7 @@ The four major accreditation topics identified in [[SP 800-79]](references.md#re
 - infrastructure elements; and
 - PIV and Derived PIV processes.
 
-The entire spectrum of activities in the PCI and DPIC accreditation methodology is divided into the following four
+The entire spectrum of activities in the PCI and DPCI accreditation methodology is divided into the following four
 phases:
 
 - initiation phase;
@@ -98,5 +98,4 @@ the card products tested under the PIV Validation Program, physical access contr
 approved under this process are placed on the FIPS 201 Approved Products List to promote procurement
 of conformant products by implementing agencies. The details of the program are available at
 [https://www.idmanagement.gov/](https://www.idmanagement.gov/).
-
 
