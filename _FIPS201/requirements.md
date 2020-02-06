@@ -172,7 +172,7 @@ PIV enrollment records can be applied in several situations to include:
 + Extended enrollment: a PIV applicant enrolls a full set of fingerprints for background investigations
     at one place and time, and two fingerprints for the PIV Card at another place and time. The enrollment record would contain identifiers and two enrollment data records, one with a full-set fingerprint
     transaction, and one with two fingerprint templates. The two fingerprint templates would be verified
-    against the corresponding fingers in the ten-fingerprint data set in the PIV enrollment records.
+    against the corresponding fingers in the ten-fingerprint data set in the PIV enrollment record.
 + Reissuance: a PIV cardholder loses his/her card. Since the card issuer has biometric data
     records from enrollment, the cardholder can perform a biometric verification against the biometric data stored in the PIV enrollment records. The card issuer NEED NOT repeat the identity proofing and registration process. The card issuer
     proceeds to issue a new card as described in [Section 2.9.1](requirements.md#s-2-9-1).
