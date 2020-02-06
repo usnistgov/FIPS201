@@ -137,7 +137,7 @@ to multiple transactions that might take place at different times and locations.
 
 [^fingerprints]: For example, ten fingerprints for law enforcement checks MAY be collected at one time and place, and two fingerprints for PIV Card templates MAY be collected at a later time and different place, provided that a biometric comparison confirms that the two fingerprints belong to the original set of ten fingerprints. 
 
-It is recommended that the following data be included in the PIV enrollment records:
+It is recommended that the following data be included in PIV enrollment records:
 
 + A log of activities that documents who took the action, what action was taken, when and where the
     action took place, and what data was collected.
