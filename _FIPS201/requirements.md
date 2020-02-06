@@ -180,7 +180,7 @@ PIV enrollment records can be applied in several situations to include:
     employee leaves the old agency, he/she surrenders the PIV Card and it is destroyed. When the
     employee arrives at the new agency and is processed in, the card issuer in the new agency requests the
     employee's PIV enrollment record from the card issuer in the old agency, and receives this record. The
-    employee performs a biometric verification against the biometric data stored in these records, and the interaction proceeds as
+    employee performs a biometric verification against the biometric data stored in this record, and the interaction proceeds as
     described in [Section 2.8.2](requirements.md#s-2-8-2).
 
 ## 2.7 PIV Identity Proofing and Registration Requirements {#s-2-7}
