@@ -63,13 +63,14 @@ mandatory for issuing PCI/DPCI accreditation using [[SP 800-79]](references.md#r
 
 ## A.3 Conformance Testing of PIV Card Application and Middleware {#s-a-3}
 
-Assurance of conformance of the PIV Card Application interface and optionally the PIV Middleware interfaces to this Standard
+Assurance of conformance of the PIV Card Application interface to this Standard
 and its associated technical specifications is needed in order to meet the security and interoperability
 goals of [[HSPD-12]](references.md#ref-HSPD-12). To facilitate this, NIST has established the NIST Personal Identity Verification
 Program (NPIVP). Under this program NIST has developed test procedures in SP 800-85A, *PIV Card
 Application and Middleware Interface Test Guidelines (SP 800-73 compliance)*, and an associated toolkit
-for conformance testing of PIV Card Applications and PIV Middleware [[SP 800-85A]](references.md#ref-SP-800-85A). Commercial
-products under these two categories are tested by the set of accredited test laboratories, accredited under
+for conformance testing of PIV Card Applications and PIV Middleware [[SP 800-85A]](references.md#ref-SP-800-85A). Note, NPIVP conformace testing also covers PIV Middleware, however, conformance testing may be discontinued at a future time as computer/device platforms increasingly support built-in native smart cards support
+
+Commercial products under these two categories are tested by the set of accredited test laboratories, accredited under
 the National Voluntary Laboratory Accreditation Program (NVLAP) program, using the NIST supplied
 test procedures and toolkit. The outcomes of the test results are validated by NIST, which then issues
 validation certificates. Information about NPIVP is available at
