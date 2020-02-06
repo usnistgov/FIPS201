@@ -160,7 +160,7 @@ The biometric data records in the PIV enrollment records SHALL be valid for at m
 effects and thereby maintain operational readiness of a cardholder's PIV Card, agencies MAY require
 biometric enrollment more frequently than 12 years.
 
-PIV enrollment records contains personally identifiable information (PII). If implemented, it SHALL be protected
+PIV enrollment records contain personally identifiable information (PII). PII SHALL be protected
 in a manner that protects the individual's privacy and maintains the integrity of the records
 both in transit and at rest. 
 
