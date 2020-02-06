@@ -174,7 +174,7 @@ PIV enrollment records can be applied in several situations to include:
     transaction, and one with two fingerprint templates. The two fingerprint templates would be verified
     against the corresponding fingers in the ten-fingerprint data set in the PIV enrollment record.
 + Reissuance: a PIV cardholder loses his/her card. Since the card issuer has biometric data
-    records from enrollment, the cardholder can perform a biometric verification against the biometric data stored in the PIV enrollment records. The card issuer NEED NOT repeat the identity proofing and registration process. The card issuer
+    records from enrollment, the cardholder can perform a biometric verification against the biometric data stored in the PIV enrollment record. The card issuer NEED NOT repeat the identity proofing and registration process. The card issuer
     proceeds to issue a new card as described in [Section 2.9.1](requirements.md#s-2-9-1).
 + Interagency transfer: a federal employee is transferred from one agency to another. When the
     employee leaves the old agency, he/she surrenders the PIV Card and it is destroyed. When the
