@@ -93,7 +93,7 @@ Certification Authority
 : A trusted entity that issues and revokes public key certificates.
 
 Chain-of-trust
-: An inoperable data format for PIV enrollment records facilitating import and export of records 
+: An interoperable data format for PIV enrollment records facilitating import and export of records 
 between PIV Card issuers.
 
 Comparison
