@@ -304,7 +304,7 @@ assurance levels.[^combinations]
 
 [Table 6-1. Authentication for Physical Access](#table-6-1){:name="table-6-1"}
 
-|Required Physical Assurance Level|Applicable PIV Authentication Mechanism(s)|
+|Physical Assurance Level|Applicable PIV Authentication Mechanism(s)|
 |---|---|
 |PAL1|PKI-CAK, SYM-CAK|
 |PAL2|BIO|
