@@ -82,7 +82,7 @@ The following list describes the physical requirements for the PIV Card.
 - There are methods by which proper card orientation can be indicated. [Section 4.1.4.3](frontend.md#s-4-1-4-3), for example,
     defines Zones 21F and 22F, where card orientation features MAY be applied.[^orientation] Note: If an agency
     determines that tactilely discernible markers for PIV Cards imposes an undue burden, the agency
-    must implement policies and procedures to accommodate employees and contractors with disabilities
+    SHALL implement policies and procedures to accommodate employees and contractors with disabilities
     in accordance with Sections 501 and 504 of the Rehabilitation Act.
 - The card SHALL be 27- to 33-mil thick (before lamination) in accordance with [[ISO7810]](../_Appendix/references.md#ref-ISO7810).
 - The PIV Card SHALL NOT be embossed.
@@ -471,10 +471,10 @@ expired.
 The PIV Card SHALL implement the cryptographic operations and support functions as defined in
 [[SP 800-78]](../_Appendix/references.md#ref-SP-800-78) and [[SP 800-73]](../_Appendix/references.md#ref-SP-800-73) 
 
-The PIV Card must store private keys and corresponding public key certificates, and perform
-cryptographic operations using the asymmetric private keys. At a minimum, the PIV Card must store two
+The PIV Card SHALL store private keys and corresponding public key certificates, and perform
+cryptographic operations using the asymmetric private keys. At a minimum, the PIV Card SHALL store two
 asymmetric private keys and the corresponding public key certificates, namely the *PIV authentication key*
-and the *asymmetric card authentication key*. The PIV Card must also store a *digital signature key* and a
+and the *asymmetric card authentication key*. The PIV Card SHALL also store a *digital signature key* and a
 *key management key*, and the corresponding public key certificates, unless the cardholder does not have a
 government-issued email account at the time of credential issuance.
 
@@ -495,7 +495,7 @@ Symmetric cryptographic operations are not mandated for the contactless interfac
 agencies may choose to supplement the basic functionality with storage for a symmetric card
 authentication key and support for a corresponding set of cryptographic operations. For example, if a
 department or agency wants to utilize Advanced Encryption Standard (AES) based challenge/response for
-physical access, the PIV Card must contain storage for the AES key and support AES operations through
+physical access, the PIV Card SHALL contain storage for the AES key and support AES operations through
 the contactless interface. Algorithms and key sizes for each PIV key type are specified in [[SP 800-78]](../_Appendix/references.md#ref-SP-800-78).
 
 The PIV Card has both mandatory keys and optional keys:
@@ -561,7 +561,7 @@ The X.509 certificate SHALL include the FASC-N in the subject alternative name e
 pivFASC-N attribute to support physical access procedures. The X.509 certificate SHALL also include
 the UUID value from the GUID data element of the CHUID in the subject alternative name extension.
 The UUID SHALL be encoded as a URI, as specified in Section 3 of [[RFC4122]](../_Appendix/references.md#ref-RFC4122). The expiration date of
-the certificate must be no later than the expiration date of the PIV Card. [Section 5](keymanagement.md#s-5) of this document
+the certificate SHALL be no later than the expiration date of the PIV Card. [Section 5](keymanagement.md#s-5) of this document
 specifies the certificate format and the key management infrastructure for asymmetric PIV card
 authentication keys.
 
@@ -584,7 +584,7 @@ as this Standard requires the cardholder to authenticate to the PIV Card each ti
 private key computation with the digital signature key.[^cardholderauthentication]
 
 The PIV Card SHALL store a corresponding X.509 certificate to support validation of the public key.
-The expiration date of the certificate must be no later than the expiration date of the PIV Card.
+The expiration date of the certificate SHALL be no later than the expiration date of the PIV Card.
 [Section 5](keymanagement.md#s-5) of this document specifies the certificate format and the key management infrastructure for
 PIV digital signature keys.
 
