@@ -40,9 +40,9 @@ individuals and organizations as a result of errors in the authentication of the
 cardholder. Once the required assurance level has been determined, one of the authentication mechanisms
 specified in [Section 6.2](#s-6-2) SHALL be applied to achieve that assurance level.
 
-### 6.1.1 Relationship to NIST Digital Identity Guidelines {#s-6-1-1}
+### 6.1.1 Relationship to Federal Identity Policy {#s-6-1-1}
 
-The content of this section has been incorporated into [Section 6.3.2, Logical Access](#s-6-3-2).
+OMB M-19-17 [[OMB1917]](../_Appendix/references.md#ref-OMB1917) recognizes the identity assurance levels defined in NIST SP 800-63 [[SP 800-63]](../_Appendix/references.md#ref-SP-800-63) as the framework for managing digital identity risks within the federal government. A mapping between PIV authentication mechanisms and SP 800-63 assurance levels can be found in [Section 6.3.2](#s-6-3-2).
 
 ## 6.2 PIV Card Authentication Mechanisms {#s-6-2}
 
