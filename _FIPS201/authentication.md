@@ -268,7 +268,7 @@ NIST Digital Identity Guidelines [[SP 800-63]](../_Appendix/references.md#ref-SP
 
 The following subsections specify which basic PIV
 authentication mechanisms CAN be used to support the various authenticator assurance levels
-as described in the subsections below. Two or more complementary authentication mechanisms MAY be applied in
+as described in the subsections below. Two or more authentication mechanisms MAY be applied in
 unison to achieve a higher degree of assurance of the identity of the PIV cardholder. For example, PKI-AUTH and BIO MAY be applied in unison to achieve a higher degree of assurance in cardholder identity.
 
 Adequately designed and implemented relying systems can achieve the PIV Card
