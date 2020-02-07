@@ -122,6 +122,8 @@ at [https://www.ietf.org/rfc/rfc5652.txt](https://www.ietf.org/rfc/rfc5652.txt).
 [[RFC8485]](#ref-RFC8485){:name="ref-RFC8485"} RFC 8485, *Vectors of Trust*, IETF, October 2018. Available at
 [https://www.ietf.org/rfc/rfc8485.txt](https://www.ietf.org/rfc/rfc8485.txt).
 
+[[RISK-MGMT-FACILITIES]](#ref-RISK-MGMT-FACILITIES){:name="ref-RISK-MGMT-FACILITIES"} *The Risk Management Process for Federal Facilities: An Interagency Security Committee Standard*, Interagency Security Committee, November, 2016. Available at [https://www.cisa.gov/sites/default/files/publications/isc-risk-management-process-2016-508.pdf](https://www.cisa.gov/sites/default/files/publications/isc-risk-management-process-2016-508.pdf).
+
 [[SAML-AC]](#ref-SAML-AC){:name="ref-SAML-AC"} Authentication Context for the OASISSecurity Assertion Markup Language(SAML) V2.0, OASIS, March 2005.
 Available at [https://docs.oasis-open.org/security/saml/v2.0/saml-authn-context-2.0-os.pdf](https://docs.oasis-open.org/security/saml/v2.0/saml-authn-context-2.0-os.pdf).
 

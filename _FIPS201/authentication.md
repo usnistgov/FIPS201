@@ -291,8 +291,7 @@ Three levels of authentication assurance for physical access, referred to as Phy
 - PAL2 - formerly HIGH confidence in the asserted identity's validity
 - PAL3 - formerly VERY HIGH confidence in the asserted identity's validity (strongest)
 
-Selection of required PAL MAY be made using a risk management process analogous to that specified in [[SP 800-63]](../_Appendix/references.md#ref-SP-800-63) Section 6; they may also use other
-applicable methodologies to determine the required level of physical assurance for their application.
+Selection of the PAL SHALL be made in accordance with the applicable policies for a facility’s security level [[RISK-MGMT-FACILITIES]](../_Appendix/references.md#ref-RISK-MGMT-FACILITIES). Additional guidelines on the selection and use of PIV authentication mechanisms for facility access can be found in NIST SP 800-116 [[SP 800-116]](../_Appendix/references.md#ref-SP-800-116).
 
 The PIV-supported authentication mechanisms
 for physical access control systems are summarized in [Table 6-1](#table-6-1). An authentication mechanism that is
