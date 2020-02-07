@@ -28,7 +28,7 @@ such that:
 + Credentials are issued 
     - to individuals whose identity has been verified; and 
     - and who has been appropriately vetted as per Section 2.2.
-+ A credential is issued only after an individual’s eligibility has been favorably adjudicated based on the prerequisite Federal investigation [^background] or the vetting process has been initiated with the Federal investigative service provider and the Federal Bureau of Investigation (FBI) National Criminal History Check (NCHC) portion of the background investigation is completed and favorably adjudicated. 
++ A credential is issued only after an individual’s eligibility has been favorably adjudicated based on the prerequisite Federal investigation [^background] or the vetting process has been initiated [^initation] with the Federal investigative service provider and the Federal Bureau of Investigation (FBI) National Criminal History Check (NCHC) portion of the background investigation is completed and favorably adjudicated. 
 + An individual is issued a credential only after presenting two identity source documents, at least one
     of which is a Federal or State Government issued picture ID.
 + Fraudulent identity source documents are not accepted as genuine and unaltered.
@@ -43,7 +43,9 @@ such that:
     person not entitled to the credential.
 + An issued credential is not duplicated or forged, and is not modified by an unauthorized entity.
 
-[^background]: The initiation of a background investigation is defined as the submission of the investigative request to the Office of Personnel Management (OPM), or other federal background investigation service provider (if authorized).
+[^background]: For guidance on investigation requirements refer to Section 2.2 Credentialing Requirements below. NACI investigations were replaced with Tier 1 investigation upon implementation of the 2012 Federal Investigative Standards.
+
+[^initiation]: The initiation of a background investigation is defined as the submission of the investigative request to the Defense Counterintelligence and Security Agency, or other authorized Federal investigation service provider.
 
 
 ## 2.2 Credentialing Requirements {#s-2-2}
@@ -51,9 +53,9 @@ such that:
 Federal departments and agencies SHALL use the credentialing eligibility standards issued by the Director of the Office
 of Personnel Management (OPM)[^OPM] and OMB[^OMB].
 
-Federal departments and agencies must follow investigative requirements established by the  Suitability and Credentialing Executive Agent and the Security Executive Agent. Departments and agencies are required to use position designation guidance issued by the Executive Agents. The designation of the position determines the prerequisite investigative requirement. Individuals being processed for a PIV card must receive the appropriate required investigation and are subject to any corresponding reinvestigation or continuous vetting requirements as applicable, for issuance and to maintain their workforce PIV eligibility.
+Federal departments and agencies must follow investigative requirements established by the Suitability and Credentialing Executive Agent and the Security Executive Agent. Departments and agencies are required to use position designation guidance issued by the Executive Agents.   The designation of the position determines the prerequisite investigative requirement. Individuals being processed for a PIV card must receive the appropriate required investigation and are subject to any corresponding reinvestigation or continuous vetting requirements as applicable, for issuance and to maintain their workforce PIV eligibility.
 
-The minimum requirement to issue a PIV Credential eligibility determination is a completed and favorably adjudicated Tier 1(T1)  investigation (formerly called a National Agency Check with Written Inquiries (NACI).  
+The minimum requirement for a PIV Credential eligibility determination is a completed and favorably adjudicated Tier 1(T1) [^TierOne] investigation (formerly called a National Agency Check with Written Inquiries (NACI).  
 
 If no corresponding prior investigation exists, the appropriate required investigation must be initiated with the authorized Federal investigative service provider and the Federal Bureau of Investigation (FBI) National Criminal History Check (NCHC) portion of the background investigation is completed and adjudicated before an individual is determined eligible to be issued a PIV Card. 
 
@@ -62,9 +64,12 @@ Once the investigation is completed, the authorized adjudicative entity must adj
 For full guidance on PIV credentialing investigative and adjudicative requirements issuers must work closely with their personnel security/suitability offices to ensure adherence to the latest federal personnel vetting guidance as provided by the Executive Agents. 
 
 
-[^OPM]: For example, [[FCS]](../references/#ref-FCS){:.footnote-ref} and the Federal Investigative Standards 5.
+[^OPM]: For example, [[FCS]](../references/#ref-FCS){:.footnote-ref} and the Federal Investigative Standards or subsequent standards.
 
 [^OMB]: For example, [[OMB0524]](../references/#ref-OMB0524){:.footnote-ref}.
+
+[^TierOne]: NACI investigations were replaced with Tier 1 investigation upon implementation of the 2012 Federal Investigative Standards.
+
 
 ## 2.3 Biometric Data Collection for Background Investigations {#s-2-3}
 
@@ -72,11 +77,10 @@ A full set of fingerprints SHALL be collected from each PIV applicant.
 
 Biometric identification using fingerprints is the primary input to law
 enforcement checks. In cases where ten fingerprints are not available, then as many fingers as
-possible SHALL be imaged. In cases where obtaining any fingerprints is impossible, agencies SHALL seek
-OPM guidance for alternative means of performing the law enforcement checks.
+possible SHALL be imaged as per guidance in SP 800-76. In cases where no fingers are available to be imaged, agencies SHALL seek
+ guidance from their respective investigative service provider for alternative means of performing the law enforcement checks.
 
-This collection is not necessary for applicants who have a completed and favorably adjudicated NACI (or
-equivalent or higher) or Tier 1 or higher federal background investigation on record that can be located
+This collection is not necessary for applicants who have a completed and favorably adjudicated Tier 1 or higher federal background investigation on record that can be located
 and referenced.
 
 Fingerprint collection SHALL conform to the procedural and technical specifications of [[SP 800-76]](../_Appendix/references.md#ref-SP-800-76).
@@ -195,8 +199,9 @@ accordance with [[SP 800-79]](../_Appendix/references.md#ref-SP-800-79).
 
 Biometrics data SHALL be captured as specified in Sections [2.3](requirements.md#s-2-3) and [2.4](requirements.md#s-2-4).
 
-The process SHALL begin by locating and referencing a completed and favorably adjudicated NACI (or
-equivalent or higher) or Tier 1 or higher federal background investigation record. In the absence of a
++ Investigative requirements are specified in Section 2.2.
+
+The process SHALL begin by locating and referencing a completed and favorably adjudicated Tier 1 or higher federal background investigation record. In the absence of a
 record, the process SHALL ensure 
 
 - the initiation of a Tier 1 or higher federal background investigation; and
