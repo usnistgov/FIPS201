@@ -26,8 +26,9 @@ Each agency's PIV implementation SHALL meet the four control objectives (a) thro
 such that:
 
 + Credentials are issued 
-    - to individuals whose identity has been verified; and 
-    - and who has been appropriately vetted as per Section 2.2.
+    - to individuals whose identity has been verified and who has been appropriately vetted as per Section 2.2,
+    - after a proper authority has authorized issuance of the credential.
+.
 + A credential is issued only after an individual’s eligibility has been favorably adjudicated based on the prerequisite Federal investigation [^background] or the vetting process has been initiated [^initation] with the Federal investigative service provider and the Federal Bureau of Investigation (FBI) National Criminal History Check (NCHC) portion of the background investigation is completed and favorably adjudicated. 
 + An individual is issued a credential only after presenting two identity source documents, at least one
     of which is a Federal or State Government issued picture ID.
@@ -77,11 +78,9 @@ A full set of fingerprints SHALL be collected from each PIV applicant.
 
 Biometric identification using fingerprints is the primary input to law
 enforcement checks. In cases where ten fingerprints are not available, then as many fingers as
-possible SHALL be imaged as per guidance in SP 800-76. In cases where no fingers are available to be imaged, agencies SHALL seek
- guidance from their respective investigative service provider for alternative means of performing the law enforcement checks.
+possible SHALL be imaged as per guidance in [[SP 800-76]]. In cases where no fingers are available to be imaged, agencies SHALL seek guidance from their respective investigative service provider for alternative means of performing the law enforcement checks.
 
-This collection is not necessary for applicants who have a completed and favorably adjudicated Tier 1 or higher federal background investigation on record that can be located
-and referenced.
+This collection is not necessary for applicants who have a completed and favorably adjudicated Tier 1 or higher federal background investigation on record that can be located and referenced.
 
 Fingerprint collection SHALL conform to the procedural and technical specifications of [[SP 800-76]](../_Appendix/references.md#ref-SP-800-76).
 
@@ -186,7 +185,7 @@ The chain-of-trust can be applied in several situations to include:
 + Interagency transfer: a federal employee is transferred from one agency to another. When the
     employee leaves the old agency, he/she surrenders the PIV Card and it is destroyed. When the
     employee arrives at the new agency and is processed in, the card issuer in the new agency requests the
-    employee's chain-of-trust from the card issuer in the old agency, and receives the chain-of-trust. The
+    employee's chain-of-trust from the card issuer in the previous agency, and receives the chain-of-trust. The
     employee performs a biometric verification against the chain-of-trust, and the interaction proceeds as
     described in [Section 2.8.2](requirements.md#s-2-8-2).
 
@@ -308,17 +307,11 @@ issuance process used when issuing PIV Cards SHALL be accredited by the departme
 satisfying the requirements below and approved in writing by the head or deputy secretary (or equivalent)
 of the federal department or agency.
 
-+ PIV Cards are issued after a proper authority has authorized issuance of the credential.
++ PIV Cards are issued after a proper adjudicative entity has authorized issuance of the credential.
 + The organization SHALL use an approved PIV credential issuance process in accordance with
     [[SP 800-79]](../_Appendix/references.md#ref-SP-800-79).
-+ Before issuing the PIV Card, the process SHALL ensure that a previously completed and favorably adjudicated
-    NACI (or equivalent or higher) or Tier 1 or higher federal background investigation is on record. In the
-    absence of a record, the required federal background investigation SHALL be initiated.[^IDMS] The PIV Card SHOULD NOT be issued before the results of the NAC are complete. However, if the results of the NAC have not been
-    received in 5 days, the PIV Card may be issued based on the FBI NCHC. In the absence of an FBI NCHC
-    (e.g., due to unclassifiable fingerprints) the NAC results are required prior to issuing a PIV Card. The PIV
-    Card SHALL be terminated if the results of the background investigation so justify.
-+ Biometric data used to personalize the PIV Card must be those captured during the identity proofing and
-    registration process.
++ Before issuing the PIV Card, issuer should ensure that the individual receiving it has been properly processed per Section 2.1, 2.2 and 2.7.
++  Biometric data used to personalize the PIV Card must be those captured during the identity proofing and registration process.
 + During the issuance process, the issuer SHALL verify that the individual to whom the PIV Card is to be
     issued is the same as the intended applicant/recipient as approved by the appropriate authority.
     Before the card is provided to the applicant, the issuer SHALL perform a one-to-one comparison of the
@@ -338,7 +331,6 @@ PIV Cards that contain topographical defects (e.g., scratches, poor color, fadin
 properly printed SHALL be destroyed. The PIV Card issuer is responsible for the card stock, its
 management, and its integrity.
 
-[^IDMS]: The identity management system (IDMS) SHOULD reflect the adjudication status of each PIV cardholder.
 
 ### 2.8.1 Special Rule for Pseudonyms {#s-2-8-1}
 
@@ -365,7 +357,7 @@ be reconnected to the chain-of-trust record.[^lapse]
 
 When issuing a PIV Card under the grace period, the card issuer SHALL verify that PIV Card issuance has
 been authorized by a proper authority and that the employee's or contractor's background investigation is
-valid. Re-investigations SHALL be performed if required, in accordance with OPM guidance. At the time
+valid. Re-investigations SHALL be performed if required, in accordance the Federal investigative standards. At the time
 of issuance, the card issuer SHALL perform biometric verification of the applicant to the chain-of-trust to reconnect to the chain-of-trust. The one-to-one comparison requires either a comparison of fingerprint(s) or, if unavailable, other
 optional biometric data records that are available. On a positive biometric verification decision, the new PIV Card SHALL be released to the
 applicant. If the biometric verification decision is negative, or if no biometric data records are available, the cardholder SHALL provide
@@ -373,7 +365,7 @@ two identity source documents (as specified in [Section 2.7](requirements.md#s-2
 and compare the cardholder with the electronic facial image retrieved from the enrollment data record and the photograph
 printed on the new PIV Card.
 
-[^lapse]: For the purposes of this section, a lapse is considered to be brief if it is not long enough to require that a new background investigation be performed. OPM currently requires a new background investigation to be performed when there has been a break in service of greater than two years.
+[^lapse]: For the purposes of this section, a lapse is considered to be brief if it is not long enough to require that a new or updated background investigation be performed consistent with Executive Agents' guidance. 
 
 ## 2.9 PIV Card Maintenance Requirements {#s-2-9}
 
@@ -400,11 +392,10 @@ issuer does not maintain a chain-of-trust record for the cardholder or if the re
 started before the old PIV Card expired.
 
 If the expiration date of the new PIV Card is later than the expiration date of the old card, or if any data
-about the cardholder is being changed, the card issuer SHALL ensure that a proper authority has authorized
-the issuance of the new PIV Card. The issuer SHALL ensure that the proper authority has verified that the
-employee's or contractor's background investigation is valid before reissuing the card and associated
-credentials.[^IDMS] If the expiration date of the new PIV Card is later than the expiration date of the old card
-then re-investigations SHALL be performed if required, in accordance with OPM guidance.
+about the cardholder is being changed, the card issuer SHALL ensure that an adjudicative entity has authorized
+the issuance of the new PIV Card. The issuer SHALL ensure that the adjudicative entity has verified that there is a PIV eleigibility determination in the system of record [^record] 
+
+[^record]: The identity management system (IDMS) SHOULD reflect the PIV elegibility of each PIV cardholder and the subsequent re-enrollment in Continuous Vetting Program.
 
 The issuer SHALL perform a biometric verification of the applicant to the chain-of-trust to reconnect to the chain-of-trust. The one-to-one
 comparison requires either fingerprint(s) or, if unavailable, other optional biometric data records
@@ -455,9 +446,9 @@ the event that a cardholder notifies a card issuer that his or her name has chan
 issuer with evidence of a formal name change, such as a marriage certificate, a divorce decree, judicial
 recognition of a name change, or other mechanism permitted by State law or regulation, the card issuer
 SHALL issue the cardholder a new card following the procedures set out in [Section 2.9.1](requirements.md#s-2-9-1), PIV Card
-Reissuance Requirements. If the expiration date of the new card is no later than the expiration date of the
+Reissuance Requirements and notify the respective adjudicative entity of the name change to ensure appropriate records are updated. If the expiration date of the new card is no later than the expiration date of the
 old PIV Card and no data about the cardholder, other than the cardholder's name, is being changed, then
-the new PIV Card MAY be issued without obtaining the approval of a proper authority and without
+the new PIV Card MAY be issued without obtaining the approval of the adjudicative entity and without
 performing a re-investigation.
 
 ### 2.9.2 PIV Card Post Issuance Update Requirements {#s-2-9-2}
@@ -546,16 +537,18 @@ following circumstances:
 + a federal employee separates (voluntarily or involuntarily) from Federal service;
 + a contractor changes positions and no longer needs access to federal buildings or systems;
 + a cardholder passes away;
-+ a determination is made after completion of a cardholder's background investigation that the
-    cardholder should not have a PIV Card; or
++ an authorized adjudicative entity determines after completion of a cardholder's background investigation that the
+    cardholder is ineligible [^ineligible] for a PIV Card; or
 + a cardholder is determined to hold a fraudulent identity.
 
+[^ineligible]: https://www.opm.gov/suitability/suitability-executive-agent/policy/final-credentialing-standards.pdf, or subsequent standards.
 
 Similar to the situation in which the card or a credential is compromised, normal termination procedures
 must be in place as to ensure the following:
 
 + The PIV Card itself is revoked:
     * The PIV Card SHALL be collected and destroyed, if possible.
+    * Per OPM guidance, the Central Verification System, or successor, must be updated to reflect the change in status.
     * Any databases maintained by the PIV Card issuer that indicate current valid (or invalid)
         FASC-N or UUID values must be updated to reflect the change in status.
     * If the PIV Card cannot be collected and destroyed, the CA SHALL be informed and the
