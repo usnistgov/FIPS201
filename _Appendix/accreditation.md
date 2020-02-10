@@ -10,16 +10,15 @@ permalink: /accreditation/
 This appendix provides compliance requirements for PIV validation, certification, and accreditation, and
 is normative.
 
-## A.1 Accreditation of PIV Card Issuers (PCI) {#s-a-1}
+## A.1 Accreditation of PIV Card Issuers (PCI) and Derived PIV Credential Issuers (DPCI) {#s-a-1}
 
 [[HSPD-12]](references.md#ref-HSPD-12) requires that all cards be issued by providers whose reliability has been established by an
 official accreditation process. The accreditation of the PIV Card issuer SHALL be reviewed through a third-party assessment to enhance the trustworthiness of the credential. To facilitate consistent independent
 validation of the PCI, NIST developed a set of attributes as the basis of reliability assessment of PIV Card
 issuers in SP 800-79 and published this document in July 2005. Subsequent lessons learned in
-implementation experience (in credential management and PIV Card issuance) of various agencies
-together with the evolution of PCI organizations motivated NIST to develop a new accreditation
-methodology that is objective, efficient, and will result in consistent and repeatable accreditation
-decisions and published the substantial revision as SP 800-79-1 in June 2008 [[SP 800-79]](references.md#ref-SP-800-79). The new PCI
+implementation experience of various agencies 
+motivated NIST to develop a new accreditation
+methodology and published the substantial revision as SP 800-79-1 in June 2008. In 2015 a second revision, SP 800-79-2 [[SP 800-79]](references.md#ref-SP-800-79), was published to include guidelines for assessing the reliability of issuers of Derived PIV Credentials (DPCI) for mobile devices. The PCI/DPCI
 accreditation methodology is built on a foundation of four major accreditation topics, 13 accreditation
 focus areas, and a total of 79 control requirements distributed under the various accreditation focus areas.
 Associated with each control requirement is a set of assessment methods, the exercise of the latter will
@@ -30,9 +29,9 @@ The four major accreditation topics identified in [[SP 800-79]](references.md#re
 - organizational preparedness;
 - security management and data protection;
 - infrastructure elements; and
-- (PIV) processes.
+- PIV and Derived PIV processes.
 
-The entire spectrum of activities in the PCI accreditation methodology is divided into the following four
+The entire spectrum of activities in the PCI and DPCI accreditation methodology is divided into the following four
 phases:
 
 - initiation phase;
@@ -41,8 +40,8 @@ phases:
 - monitoring phase.
 
 The initiation phase involves communicating the goals of the assessment/accreditation to the key
-personnel of the PCI organization and the review of documents such as the PCI operations plan. In the
-assessment phase, the appropriate assessment methods stipulated in the methodology for each PCI control
+personnel of the PCI and DPCI organization and the review of documents such as the PCI and DPCI operations plan. In the
+assessment phase, the appropriate assessment methods stipulated in the methodology for each PCI/DPCI and control
 are carried out and the individual results recorded. The accreditation phase involves aggregating the
 results of assessment, arriving at an accreditation decision, and issuing the appropriate notification – the
 authorization to operate (ATO) or the denial of authorization to operate (DATO), that is consistent with
@@ -51,26 +50,27 @@ the accreditation decision.
 
 ## A.2 Application of Risk Management Framework to IT System(s) Supporting PCI {#s-a-2}
 
-The accreditation of the capability and reliability of a PCI using the methodology outlined in [[SP 800-79]](references.md#ref-SP-800-79) depends upon adequate security for the information systems that are used for PCI functions. The
-assurance that such a security exists in a PCI is obtained through evidence of the application of the Risk
+The accreditation of the capability and reliability of a PCI and DPCI using the methodology outlined in [[SP 800-79]](references.md#ref-SP-800-79) depends upon adequate security for the information systems that are used for PCI and DPCI functions. The
+assurance that such a security exists in a PCI and DPCI is obtained through evidence of the application of the Risk
 Management Framework guidelines specified in [[SP 800-37]](references.md#ref-SP-800-37). The methodology in [[SP 800-37]](references.md#ref-SP-800-37) in turn
 was created pursuant to a mandate in Appendix III of Office of Management and Budget (OMB) Circular
 A-130. An Information system authorization decision together with evidence of security control
-monitoring compliant with [[SP 800-37]](references.md#ref-SP-800-37) guidelines signifies that a PCI organization's official accepts
+monitoring compliant with [[SP 800-37]](references.md#ref-SP-800-37) guidelines signifies that a PCI/DPCI organization's official accepts
 responsibility for the security (in terms of confidentiality, integrity, and availability of information) of the
-information systems that will be involved in carrying out the PCI functions. Hence evidence of
+information systems that will be involved in carrying out the PCI/DPCI functions. Hence evidence of
 successful application of Risk Management Framework consistent with [[SP 800-37]](references.md#ref-SP-800-37) guidelines is
-mandatory for issuing PCI accreditation using [[SP 800-79]](references.md#ref-SP-800-79). 
+mandatory for issuing PCI/DPCI accreditation using [[SP 800-79]](references.md#ref-SP-800-79). 
 
 ## A.3 Conformance Testing of PIV Card Application and Middleware {#s-a-3}
 
-Assurance of conformance of the PIV Card Application and PIV Middleware interfaces to this Standard
+Assurance of conformance of the PIV Card Application interface to this Standard
 and its associated technical specifications is needed in order to meet the security and interoperability
 goals of [[HSPD-12]](references.md#ref-HSPD-12). To facilitate this, NIST has established the NIST Personal Identity Verification
 Program (NPIVP). Under this program NIST has developed test procedures in SP 800-85A, *PIV Card
 Application and Middleware Interface Test Guidelines (SP 800-73 compliance)*, and an associated toolkit
-for conformance testing of PIV Card Applications and PIV Middleware [[SP 800-85A]](references.md#ref-SP-800-85A). Commercial
-products under these two categories are tested by the set of accredited test laboratories, accredited under
+for conformance testing of PIV Card Applications and PIV Middleware [[SP 800-85A]](references.md#ref-SP-800-85A). Note, NPIVP conformance testing also covers PIV Middleware, however, conformance testing may be discontinued at a future time as computer platforms increasingly provide built-in support for smart cards.
+
+Commercial products under these two categories are tested by the set of accredited test laboratories, accredited under
 the National Voluntary Laboratory Accreditation Program (NVLAP) program, using the NIST supplied
 test procedures and toolkit. The outcomes of the test results are validated by NIST, which then issues
 validation certificates. Information about NPIVP is available at
@@ -98,5 +98,3 @@ the card products tested under the PIV Validation Program, physical access contr
 approved under this process are placed on the FIPS 201 Approved Products List to promote procurement
 of conformant products by implementing agencies. The details of the program are available at
 [https://www.idmanagement.gov/](https://www.idmanagement.gov/).
-
-

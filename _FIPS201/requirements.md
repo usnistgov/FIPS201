@@ -136,16 +136,19 @@ The electronic facial image:
     verification data reset processes; and
 + MAY be used as an additional biometric characteristic to support multi-modal biometric verification to improve accuracy.
 
-## 2.6 Chain-of-Trust {#s-2-6}
+## 2.6 PIV Enrollment Records {#s-2-6}
 
-A card issuer MAY optionally maintain, for each PIV Card issued, a documentary chain-of-trust for the
-identification data it collects. The chain-of-trust is a sequence of related enrollment data records that are
-created and maintained through the methods of contemporaneous acquisition of data within each
-enrollment data record, and biometric verifications of samples between enrollment data records.[^fingerprints]
+A card issuer MAY optionally maintain, for each PIV Card issued, an archive of enrollment records for the
+identification data it collects. These enrollment records are created and maintained through the methods of 
+contemporaneous acquisition at each step of the PIV issuance process, including identity proofing, registration 
+and biometric enrollment, and are typically stored as part of the cardholder's PIV account.
+
+PIV enrollment records can maintain an auditable sequence of enrollment events to facilitate binding an applicant 
+to multiple transactions that might take place at different times and locations.[^fingerprints]
 
 [^fingerprints]: For example, ten fingerprints for law enforcement checks MAY be collected at one time and place, and two fingerprints for PIV Card templates MAY be collected at a later time and different place, provided that a biometric comparison confirms that the two fingerprints belong to the original set of ten fingerprints. 
 
-It is recommended that the following data be included in the chain-of-trust:
+It is recommended that the following data be included in PIV enrollment records:
 
 + A log of activities that documents who took the action, what action was taken, when and where the
     action took place, and what data was collected.
@@ -164,29 +167,31 @@ It is recommended that the following data be included in the chain-of-trust:
 + Any data or any subsequent changes in the data about the cardholder. If the changed data is the
     cardholder's name, then the issuer SHOULD include the evidence of a formal name change.
 
-The biometric data records in the chain-of-trust SHALL be valid for at most 12 years. In order to mitigate ageing
+The biometric data records in the PIV enrollment records SHALL be valid for at most 12 years. In order to mitigate aging
 effects and thereby maintain operational readiness of a cardholder's PIV Card, agencies MAY require
 biometric enrollment more frequently than 12 years.
 
-The chain-of-trust contains personally identifiable information (PII). If implemented, it SHALL be protected
-in a manner that protects the individual's privacy and maintains the integrity of the chain-of-trust record
-both in transit and at rest. A card issuer may import and export a chain-of-trust in the manner and
+PIV enrollment records contain personally identifiable information (PII). PII SHALL be protected
+in a manner that protects the individual's privacy and maintains the integrity of the records
+both in transit and at rest. 
+
+To facilitate interoperability between PIV issuers, systems may import and export enrollment records in the manner and
 representation described in [[SP 800-156]](../_Appendix/references.md#ref-SP-800-156).
 
-The chain-of-trust can be applied in several situations to include:
+PIV enrollment records can be applied in several situations to include:
 
 + Extended enrollment: a PIV applicant enrolls a full set of fingerprints for background investigations
-    at one place and time, and two fingerprints for the PIV Card at another place and time. The chain-of-trust would contain identifiers and two enrollment data records, one with a full-set fingerprint
+    at one place and time, and two fingerprints for the PIV Card at another place and time. The enrollment record would contain identifiers and two enrollment data records, one with a full-set fingerprint
     transaction, and one with two fingerprint templates. The two fingerprint templates would be verified
-    against the corresponding fingers in the ten-fingerprint data set to link the chain.
+    against the corresponding fingers in the ten-fingerprint data set in the PIV enrollment record.
 + Reissuance: a PIV cardholder loses his/her card. Since the card issuer has biometric data
-    records from enrollment, the cardholder can perform a biometric verification to reconnect to the card issuing chain-of-trust. The card issuer NEED NOT repeat the identity proofing and registration process. The card issuer
+    records from enrollment, the cardholder can perform a biometric comparison against the biometric data stored in the PIV enrollment record. The card issuer NEED NOT repeat the identity proofing and registration process. The card issuer
     proceeds to issue a new card as described in [Section 2.9.1](requirements.md#s-2-9-1).
 + Interagency transfer: a federal employee is transferred from one agency to another. When the
     employee leaves the old agency, he/she surrenders the PIV Card and it is destroyed. When the
     employee arrives at the new agency and is processed in, the card issuer in the new agency requests the
-    employee's chain-of-trust from the card issuer in the previous agency, and receives the chain-of-trust. The
-    employee performs a biometric verification against the chain-of-trust, and the interaction proceeds as
+    employee's PIV enrollment record from the card issuer in the old agency, and receives this record. The
+    employee performs a biometric comparison against the biometric data stored in this record, and the interaction proceeds as
     described in [Section 2.8.2](requirements.md#s-2-8-2).
 
 ## 2.7 PIV Identity Proofing and Registration Requirements {#s-2-7}

@@ -159,7 +159,7 @@ Verification*. The requirements for the accreditation of PIV Card issuers are sp
 Publication 800-79 [[SP 800-79]](../_Appendix/references.md#ref-SP-800-79), *Guidelines for the Accreditation of Personal Identity Verification Card
 Issuers*. The unique organizational codes for federal agencies are assigned in Special Publication 800-87 [[SP 800-87]](../_Appendix/references.md#ref-SP-800-87), *Codes for the Identification of Federal and Federally-Assisted Organizations*. The
 requirements for the PIV Card reader are provided in Special Publication 800-96 [[SP 800-96]](../_Appendix/references.md#ref-SP-800-96), *PIV Card
-to Reader Interoperability Guidelines*. The format for encoding the chain-of-trust for import and export is
+to Reader Interoperability Guidelines*. The format for encoding PIV enrollment records for import and export is
 specified in Special Publication 800-156 [[SP 800-156]](../_Appendix/references.md#ref-SP-800-156), *Representation of PIV Chain-of-Trust for Import
 and Export*. The requirements for issuing derived PIV credentials are specified in Special Publication
 800-157 [[SP 800-157]](../_Appendix/references.md#ref-SP-800-157), *Guidelines for Derived Personal Identity Verification (PIV) Credentials*.

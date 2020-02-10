@@ -93,8 +93,8 @@ Certification Authority
 : A trusted entity that issues and revokes public key certificates.
 
 Chain-of-trust
-: The chain-of-trust is a sequence of related enrollment data sets that is created and
-maintained by PIV Card issuers.
+: An interoperable data format for PIV enrollment records facilitating import and export of records 
+between PIV Card issuers.
 
 Comparison
 : Estimation, calculation, or measurement of similarity or dissimilarity between biometric probe(s) and biometric reference(s). 
@@ -247,6 +247,9 @@ Personal Identification Number (PIN)
 : A secret that a cardholder memorizes and uses to authenticate
 his or her identity.
 
+Personal Identity Verification (PIV) Account
+: The logical record containing credentialing information for a given PIV cardholder.  This is typically stored within the issuer’s identity management system, and includes PIV enrollment data, cardholder identity attributes, and information regarding authenticators bound to the cardholder’s identity (e.g., PIV card and derived PIV credentials).
+
 Personal Identity Verification (PIV) Card
 : A physical artifact (e.g., identity card, "smart" card) issued
 to an individual that contains a PIV Card Application which stores identity credentials (e.g., photograph,
@@ -256,6 +259,12 @@ automated process (computer readable and verifiable).
 
 PIV Assurance Level
 : A degree of confidence established in the identity of the holder of the PIV Card.
+
+PIV Enrollment Record
+: A sequence of related enrollment data sets that is created and
+maintained by PIV Card issuers. The PIV enrollment record contains data collected 
+at each step of the PIV issuance process, including identity proofing, registration 
+and biometric enrollment.  
 
 Private Key
 : The secret part of an asymmetric key pair that is typically used to digitally sign or decrypt

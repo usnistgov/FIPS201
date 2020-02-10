@@ -144,7 +144,7 @@ Descriptions of the seven card lifecycle activities are as follows:
     to an applicant and the validation of this request.
 - **Identity Proofing and Registration.**[^enroll] The goal of this activity is to verify the claimed identity of the
     applicant, verify that the entire set of identity source documents presented at the time of registration is
-    valid, capture biometric characteristics, and optionally create the chain-of-trust record.
+    valid, capture biometric characteristics, and optionally create the PIV enrollment record record.
 - **PIV Card Issuance.** This activity deals with the personalization (physical and logical) of the card
     and the issuance of the card to the intended applicant.
 - **PKI Credential Issuance.** This activity deals with generating logical credentials and loading them
