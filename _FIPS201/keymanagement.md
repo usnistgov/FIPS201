@@ -84,7 +84,7 @@ Departments and agencies will be responsible for notifying CAs when certificates
 
 ### 5.5.1 Certificate and CRL Distribution {#s-5-5-1}
 
-This Standard requires distribution of CA certificates and CRLs using HTTPS. Specific requirements are
+This Standard requires distribution of CA certificates and CRLs using HTTP. Specific requirements are
 found in [[PROF]](../_Appendix/references.md#ref-PROF).
 
 Certificates that contain the FASC-N or UUID in the subject alternative name extension, such as PIV
