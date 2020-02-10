@@ -34,14 +34,14 @@ The OIDs for certificate policies are specified in [[COMMON]](references.md#ref-
 
 ## B.2 PIV Certificate Extension (Deprecated) {#s-b-2}
 
-The PIV NACI indicator (background investigation indicator) is deprecated under this version of the 
+The PIV background investigation indicator (previously known as the NACI indicator) is deprecated under this version of the 
 Standard. It is expected that the indicator will be removed from a future revision of this standard.
 Instead of the on-card indicator, background investigative status is commonly maintained in each 
-department and agency IDMS. Status of the investigation can be communicated as needed using 
+agency IDMS and in the Continuos Vetting Program. Status of the investigation can be communicated as needed using 
 federation protocols. 
 
-If used, the PIV NACI indicator extension indicates to the issuer whether the subject's
-background investigation was incomplete at the time of credential issuance. The PIV NACI indicator
+If used, the PIV background investigation indicator extension indicates to the issuer whether the subject's
+background investigation was incomplete at the time of credential issuance. The PIV background investigation indicator
 extension is always non-critical.
 The value of this extension is asserted as
 follows:
@@ -51,7 +51,7 @@ follows:
 - FALSE if, at the time of credential issuance, the subject's background investigation has been
     completed and successfully adjudicated.
 
-The PIV NACI indicator (background investigation indicator) extension is identified by the id-piv-NACI
+The PIV background investigation indicator extension is identified by the id-piv-NACI
 object identifier. The syntax for this extension is defined by the following ASN.1 module.
 
 ```
