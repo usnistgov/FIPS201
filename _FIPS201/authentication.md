@@ -316,7 +316,7 @@ logical information resources. For example, a cardholder may log in to his or he
 network using the PIV Card; the identity established through this authentication process can be used for
 determining access to file systems, databases, and other services available on the network.
 
-Selection of required Authentication Access Level (AAL) SHALL be made using the risk management process specified in [[SP 800-63]](../_Appendix/references.md#ref-SP-800-63) Section 6.
+Selection of required Authenticator Assurance Level (AAL) SHALL be made using the risk management process specified in [[SP 800-63]](../_Appendix/references.md#ref-SP-800-63) Section 6.
 
 [Table 6-2](#table-6-2) describes the authentication mechanisms defined for this Standard to support logical access
 control. An authentication mechanism that is suitable for a higher assurance level can also be applied to
@@ -324,7 +324,7 @@ meet the requirements for a lower assurance level.
 
 [Table 6-2. Authentication for Logical Access](#table-6-2){:name="table-6-2"}
 
-|Required Authentication Assurance Level|Applicable PIV Authentication Mechanism(s): Local Workstation Environment|Applicable PIV Authentication Mechanism: Remote/Network System Environment|
+|Required Authenticator Assurance Level|Applicable PIV Authentication Mechanism(s): Local Workstation Environment|Applicable PIV Authentication Mechanism: Remote/Network System Environment|
 |---|---|---|
 |AAL1|PKI-CAK|PKI-CAK|
 |AAL2|BIO||
