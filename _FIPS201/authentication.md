@@ -282,7 +282,7 @@ implementation of relying systems, e.g., [[FIPS140]](../_Appendix/references.md#
 
 ### 6.3.1 Physical Access {#s-6-3-1}
 
-The PIV Card CAN be used to authenticate the cardholder in a physical access control
+The PIV Card can be used to authenticate the cardholder in a physical access control
 environment. For example, a federal facility may have physical entry doors that have human guards at
 checkpoints, or may have electronic access control points.
 
@@ -311,7 +311,7 @@ assurance levels.[^combinations]
 
 ### 6.3.2 Logical Access {#s-6-3-2}
 
-The PIV Card CAN be used to authenticate the cardholder in support of decisions concerning access to
+The PIV Card can be used to authenticate the cardholder in support of decisions concerning access to
 logical information resources. For example, a cardholder may log in to his or her department or agency
 network using the PIV Card; the identity established through this authentication process can be used for
 determining access to file systems, databases, and other services available on the network.
