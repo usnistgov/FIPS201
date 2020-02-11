@@ -312,7 +312,7 @@ issuance process used when issuing PIV Cards SHALL be accredited by the departme
 satisfying the requirements below and approved in writing by the head or deputy secretary (or equivalent)
 of the federal department or agency.
 
-+ PIV Cards are issued after an adjudicative entity has authorized issuance of the credential.
++ PIV Cards are issued after the adjudicative entity has authorized issuance of the credential.
 + The organization SHALL use an approved PIV credential issuance process in accordance with
     [[SP 800-79]](../_Appendix/references.md#ref-SP-800-79).
 + Before issuing the PIV Card, issuer should ensure that the individual receiving it has been properly processed per Section 2.1, 2.2 and 2.7.
