@@ -315,7 +315,7 @@ of the federal department or agency.
 + PIV Cards are issued after the adjudicative entity has authorized issuance of the credential.
 + The organization SHALL use an approved PIV credential issuance process in accordance with
     [[SP 800-79]](../_Appendix/references.md#ref-SP-800-79).
-+ Before issuing the PIV Card, issuer should ensure that the individual receiving it has been properly processed per Section 2.1, 2.2 and 2.7.
++ Before issuing the PIV Card, the issuer should ensure that the individual receiving it has been properly processed per Section 2.1, 2.2 and 2.7.
 +  Biometric data used to personalize the PIV Card must be those captured during the identity proofing and registration process.
 + During the issuance process, the issuer SHALL verify that the individual to whom the PIV Card is to be
     issued is the same as the intended applicant/recipient as approved by the appropriate authority.
@@ -362,7 +362,7 @@ be reconnected to the chain-of-trust record.[^lapse]
 
 When issuing a PIV Card under the grace period, the card issuer SHALL verify that PIV Card issuance has
 been authorized by a proper authority and that the employee's or contractor's background investigation is
-valid. Re-investigations SHALL be performed if required, in accordance the Federal investigative standards. At the time
+valid. Re-investigations SHALL be performed if required, in accordance with the Federal investigative standards. At the time
 of issuance, the card issuer SHALL perform biometric verification of the applicant to the chain-of-trust to reconnect to the chain-of-trust. The one-to-one comparison requires either a comparison of fingerprint(s) or, if unavailable, other
 optional biometric data records that are available. On a positive biometric verification decision, the new PIV Card SHALL be released to the
 applicant. If the biometric verification decision is negative, or if no biometric data records are available, the cardholder SHALL provide
