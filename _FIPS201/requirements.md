@@ -56,7 +56,7 @@ of Personnel Management (OPM)[^OPM] and OMB[^OMB].
 
 Federal departments and agencies must follow investigative requirements established by the Suitability and Credentialing Executive Agent and the Security Executive Agent. Departments and agencies are required to use position designation guidance issued by the Executive Agents.   The designation of the position determines the prerequisite investigative requirement. Individuals being processed for a PIV card must receive the appropriate required investigation and are subject to any corresponding reinvestigation or continuous vetting requirements as applicable, for issuance and to maintain their workforce PIV eligibility.
 
-The minimum requirement for a PIV Credential eligibility determination is a completed and favorably adjudicated Tier 1(T1) [^TierOne] investigation (formerly called a National Agency Check with Written Inquiries (NACI).  
+The minimum requirement for a PIV Credential eligibility determination is a completed and favorably adjudicated Tier 1 (T1) [^TierOne] investigation (formerly called a National Agency Check with Written Inquiries (NACI).  
 
 If no corresponding prior investigation exists, the appropriate required investigation must be initiated with the authorized Federal investigative service provider and the Federal Bureau of Investigation (FBI) National Criminal History Check (NCHC) portion of the background investigation is completed and adjudicated before an individual is determined eligible to be issued a PIV Card. 
 
