@@ -124,11 +124,12 @@ pdfkeywords={}
         \renewcommand{\headrulewidth}{0pt}
         \renewcommand{\footrulewidth}{0pt}
 
+        \fancyhead{}
+        \fancyhead[L]{\sc\scriptsize\color{gray}\sffamily \VAR{config.report_number}}
+        \fancyhead[R]{\sc\scriptsize\color{gray}\sffamily \VAR{config.page_title}}
+
         \fancyfoot{}
         \fancyfoot[R]{\small\thepage}
-
-        \fancyhead{}
-        \fancyhead[R]{\sc\scriptsize\color{gray}\sffamily\pagetitle}
 }
 
 \fancypagestyle{plain}
@@ -156,16 +157,6 @@ pdfkeywords={}
 \usepackage{caption} % required for Figure labels
 \captionsetup{font=small,labelfont=bf,figurename=Fig.,labelsep=period,justification=raggedright} 
 
-%%%%%%%%%%% !!!!!! REQUIRED - FILL OUT METADATA HERE !!!!!!!! %%%%%%%%%%%%%%
-%  	Report Number - fill in Report Number sent to you (see info below)
-%   DOI Statement - fill in DOI sent to you 
-%   Month Year - fill in Month and Year of Publication
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\newcommand{\pubnumber}{\VAR{config.report_number}}
-\newcommand{\DOI}{\VAR{config.doi_url}}
-\newcommand{\monthyear}{\VAR{config.month} \VAR{config.year}}
-\newcommand{\pagetitle}{\VAR{config.page_title}}
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %   	BEGIN DOCUMENT 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -179,52 +170,7 @@ pdfkeywords={}
 %	(e.g., official project/conference logo, etc.).
 %	Pub Number automated based on metadata
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-	\begin{titlepage}
-		\begin{flushright}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% 	Automated based on metadata - delete if not applicable
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\LARGE{\textbf{NIST Special Publication \pubnumber}}\\
-\vfill
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%	Title 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\Huge{\textbf{Title}}\\
-\vfill
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%	Authors - add complete list of authors, affiliations will be 
-%   added on title page
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\large First Author\\
-\large Second Author\\
-\large Etc.\\
-\vfill
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%	The DOI is automated based on metadata.	
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\normalsize This publication is available free of charge from:\\
-\DOI\\
-\vfill
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%	This banner is optional - can also say "information security"
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\hrule 
-\vspace{-5pt}
-\begin{center}
-	\Large{C\hspace{7pt}Y\hspace{7pt}B\hspace{7pt}E\hspace{7pt}R\hspace{7pt}-\hspace{7pt}P\hspace{7pt}H\hspace{7pt}Y\hspace{7pt}S\hspace{7pt}I\hspace{7pt}C\hspace{7pt}A\hspace{7pt}L\hspace{25pt}S\hspace{7pt}Y\hspace{7pt}S\hspace{7pt}T\hspace{7pt}E\hspace{7pt}M\hspace{7pt}S}\\
-\end{center}
-\vspace{-5pt} \hrule
-\vfill
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%	NIST LOGO - keep as-is
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\includegraphics[width=0.3\linewidth]{NIST-logo.eps}\\ 
-
-
-\end{flushright}
-\end{titlepage}
 \begin{titlepage}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %	Title Page is REQUIRED
@@ -233,75 +179,65 @@ pdfkeywords={}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %   Publication Series & Number - automated
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\LARGE{\textbf{NIST Special Publication \pubnumber}}\\
-\vfill 
+\LARGE{\textbf{\VAR{config.report_number}}}
+
+\large{\textbf{\textsc{Federal Information Processing Standards Publication}}}
+\vfill
+\hrule
+\vfill
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %	Title 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\Huge{\textbf{Title}}\\
+\Huge{\textbf{\VAR{config.doc_title}}}\\
+\vfill
+\hrule
 \vfill
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %	Author Order and Grouping. Always identify the primary author/creator first (s/he does not have to be a NIST author). For publications with multiple authors, group authors by their organizational affiliation. The organizational groupings and the names within each grouping should generally be ordered by decreasing level of contribution.
 %	For non-NIST authors, list their city and state below their organization name.
 %	For NIST authors, include the Division and Laboratory names (but do not include their city and state).
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\normalsize First Author\\
-Second Author\\
-\textit{Office of XXXX}\\
-\textit{First Operating Unit}\\
+
+%: for org in config.authors
+%: for author in org.names
+\normalsize \VAR{author}\\
+%: endfor
+\textit{\VAR{org.office}}\\
+\textit{\VAR{org.unit}}\\
+%: if not loop.last
 \vspace{12pt}
-Third Author\\
-Fourth Author\\
-\textit{Office of XXXX}\\
-\textit{Second Operating Unit}\\
+%: endif
+%: endfor
 \vfill
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %   DOI Statement - automated
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \normalsize This publication is available free of charge from:\\
-\DOI\\
+\url{\VAR{config.doi_url}}\\
 \vfill
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %   Date - Month and Year - automated
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\normalsize \monthyear
+\normalsize Issued \VAR{config.month} \VAR{config.year}
 \vfill
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %  Department of Commerce LOGO - leave as-is
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%	
 
-\includegraphics[width=0.18\linewidth]{DoC-logo.eps}\\ 
+\includegraphics[width=0.25\linewidth]{DoC-logo.eps}\\ 
 \vfill
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %  Department of Commerce & NIST Leadership 
 %	will be updated as changes occur
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\footnotesize U.S. Department of Commerce\\ 
+\footnotesize \textbf{U.S. Department of Commerce}\\ 
 \textit{Wilbur L. Ross, Jr., Secretary}\\
 \vspace{10pt}
-National Institute of Standards and Technology\\ 
+\textbf{National Institute of Standards and Technology}\\ 
 \textit{Walter Copan, NIST Director and Undersecretary of Commerce for Standards and Technology}  
 \end{flushright}
 \end{titlepage}
 
-\begin{titlepage}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%   Disclaimer/CODEN page - required
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{flushright}
-\footnotesize  Certain commercial entities, equipment, or materials may be identified in this document in order to describe an experimental procedure or concept adequately. Such identification is not intended to imply recommendation or endorsement by the National Institute of Standards and Technology, nor is it intended to imply that the entities, materials, or equipment are necessarily the best available for the purpose.\\ 
-\vfill
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%   This secton automated - do not change
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\normalsize \textbf{National Institute of Standards and Technology Special Publication \pubnumber\\ 
-Natl. Inst. Stand. Technol. Spec. Publ. \pubnumber, \pageref{LastPage} pages (\monthyear)} \\
-\textbf{CODEN: NSPUE2}\\
-\vspace{12pt}
-\textbf{This publication is available free of charge from: \DOI}
-\vfill
-\end{flushright}
-\end{titlepage}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %   Start front matter - page number starts with "i"
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
