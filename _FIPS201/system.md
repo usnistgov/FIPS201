@@ -7,6 +7,8 @@ permalink: /system/
 ---
 # 3. PIV System Overview {#s-3}
 
+*This section is informative.*
+
 The PIV system is composed of components and processes that support a common (smart card-based)
 platform for identity authentication across federal departments and agencies for access to multiple types
 of physical and logical access environments. The specifications for the PIV components in this Standard

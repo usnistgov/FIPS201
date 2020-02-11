@@ -12,7 +12,7 @@ control processes. When an individual attempts to access security-sensitive buil
 or data, an access control decision must be made. An accurate determination of an individual's identity is
 needed to make sound access control decisions.
 
-A wide range of mechanisms is employed to authenticate an identity, utilizing various classes of identity
+A wide range of mechanisms is employed to authenticate an individual, utilizing various classes of identity
 credentials. For physical access, an individual's identity has traditionally been authenticated by use of
 paper or other non-automated, hand-carried credentials, such as driver's licenses and badges. Access
 authorization to computers and data has traditionally been based on identities authenticated through user-selected passwords. More recently, cryptographic mechanisms and biometric techniques have been used
