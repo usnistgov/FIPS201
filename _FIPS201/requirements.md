@@ -400,7 +400,7 @@ If the expiration date of the new PIV Card is later than the expiration date of 
 about the cardholder is being changed, the card issuer SHALL ensure that an adjudicative entity has authorized
 the issuance of the new PIV Card. The issuer SHALL ensure that the adjudicative entity has verified that there is a PIV eleigibility determination in the system of record [^record] 
 
-[^record]: The identity management system (IDMS) SHOULD reflect the PIV elegibility of each PIV cardholder and the subsequent re-enrollment in Continuous Vetting Program.
+[^record]: The identity management system (IDMS) SHOULD reflect the PIV elegibility of each PIV cardholder and the subsequent re-enrollment in Continuous Vetting Program, as appropriate.
 
 The issuer SHALL perform a biometric verification of the applicant to the chain-of-trust to reconnect to the chain-of-trust. The one-to-one
 comparison requires either fingerprint(s) or, if unavailable, other optional biometric data records
