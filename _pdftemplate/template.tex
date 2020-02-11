@@ -175,7 +175,7 @@ pdfkeywords={}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %	Title Page is REQUIRED
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{flushright}
+%\begin{flushright}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %   Publication Series & Number - automated
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -198,18 +198,6 @@ pdfkeywords={}
 %	For NIST authors, include the Division and Laboratory names (but do not include their city and state).
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-%: for org in config.authors
-%: for author in org.names
-\normalsize \VAR{author}\\
-%: endfor
-\textit{\VAR{org.office}}\\
-\textit{\VAR{org.unit}}\\
-%: if not loop.last
-\vspace{12pt}
-%: endif
-%: endfor
-\vfill
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %   DOI Statement - automated
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \normalsize This publication is available free of charge from:\\
@@ -235,7 +223,7 @@ pdfkeywords={}
 \vspace{10pt}
 \textbf{National Institute of Standards and Technology}\\ 
 \textit{Walter Copan, NIST Director and Undersecretary of Commerce for Standards and Technology}  
-\end{flushright}
+%\end{flushright}
 \end{titlepage}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

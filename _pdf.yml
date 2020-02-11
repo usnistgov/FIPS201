@@ -30,20 +30,9 @@ pdf:
               - _Appendix/revisions.md
           part_template: _pdftemplate/sectionpart.tex
           section_template: _pdftemplate/section.tex
-    report_number: FIPS201 [DRAFT]
+    report_number: FIPS201-3 [DRAFT]
     doi_url: None
     month: December
     year: 2020
-    authors:
-      - office: First Office
-        unit: First Unit
-        names:
-          - First Name
-          - Second Name
-      - office: Second Office
-        unit: Second Unit
-        names:
-          - Third Name
-          - Fourth Name
     page_title: Personal Identity Verification (PIV)
     doc_title: Personal Identity Verification (PIV) of Federal Employees and Contractors
