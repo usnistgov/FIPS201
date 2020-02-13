@@ -6,3 +6,4 @@ Gemfile.lock
 .jekyll-metadata
 *.css.map
 *~
+_pdf/

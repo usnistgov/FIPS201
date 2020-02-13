@@ -1,0 +1,296 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     LaTeX source code to approximate a NIST Technical report
+%	  Instructions for authors: tinyurl.com/techpubsnist 
+%	DOI watermark will be added on final PDF
+% 	Developed by K. Miller, kmm5@nist.gov 
+%	Last updated: 26-March-2019
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[12pt]{article}
+\usepackage{amsmath}
+\usepackage{amsfonts}   % if you want the fonts
+\usepackage{amssymb}    % if you want extra symbols
+\usepackage{graphicx}   % need for figures
+\graphicspath{\VAR{graphicspath}}
+\usepackage[table]{xcolor}
+\usepackage{bm}
+\usepackage{secdot}		
+\usepackage{mathptmx}
+\usepackage{float}
+\usepackage[utf8]{inputenc}
+\usepackage{textcomp}
+\usepackage[hang,flushmargin,bottom]{footmisc} % footnote format
+\usepackage{microtype}
+\usepackage{etoolbox} % for switching sections on and off
+\usepackage{longtable}
+\usepackage{tabularx}
+\usepackage{tabulary}
+\usepackage[raggedrightboxes]{ragged2e}
+\usepackage{adjustbox}
+
+\usepackage[sf]{titlesec}
+
+\newcommand{\colorsection}[1]{%
+  \colorbox{black}{\noindent\parbox{\dimexpr\textwidth-2\fboxsep}{\color{white}\ #1}}}
+
+
+% Set up multi-page long tables, inclue with {:latex-longtable="true"} flag following table
+\makeatletter
+
+\def\ltabulary{%
+\def\endfirsthead{\\}%
+\def\endhead{\\}%
+\def\endfoot{\\}%
+\def\endlastfoot{\\}%
+\def\tabulary{%
+  \def\TY@final{%
+\def\endfirsthead{\LT@end@hd@ft\LT@firsthead}%
+\def\endhead{\LT@end@hd@ft\LT@head}%
+\def\endfoot{\LT@end@hd@ft\LT@foot}%
+\def\endlastfoot{\LT@end@hd@ft\LT@lastfoot}%
+\longtable}%
+  \let\endTY@final\endlongtable
+  \TY@tabular}%
+\dimen@\columnwidth
+\advance\dimen@-\LTleft
+\advance\dimen@-\LTright
+\tabulary\dimen@}
+
+\def\endltabulary{\endtabulary}
+
+\makeatother
+% End macros 
+
+
+\usepackage{tocloft}	% change typeset, titles, and format list of appendices/figures/tables
+\renewcommand{\cftdot}{}	
+\renewcommand{\contentsname}{Table of Contents}
+\renewcommand{\cftpartleader}{\cftdotfill{\cftdotsep}} % for parts
+\renewcommand{\cftsecleader}{\cftdotfill{\cftdotsep}}
+\renewcommand\cftbeforesecskip{\setlength{4pt}{}}
+\addtolength{\cftfignumwidth}{1em}
+\renewcommand{\cftfigpresnum}{\figurename\ }
+\addtolength{\cfttabnumwidth}{1em}
+\renewcommand{\cfttabpresnum}{\tablename\ }
+\setlength{\cfttabindent}{0in}    %% adjust as you like
+\setlength{\cftfigindent}{0in} 
+
+\setcounter{secnumdepth}{-2} % we number our sections by hand so don't include them in the section titles
+
+\usepackage{enumitem}         % to control spacing between bullets/numbered lists
+
+\usepackage[numbers,sort&compress]{natbib} % format bibliography 
+\renewcommand{\bibsection}{}
+\setlength{\bibsep}{0.0pt}
+
+\usepackage[hidelinks]{hyperref}
+\hypersetup{
+colorlinks = true,
+breaklinks = true,
+urlcolor ={blue},
+citecolor = {darkgray},
+linkcolor = {darkgray},
+anchorcolor = {.},
+filecolor = {.},
+menucolor = {.},
+runcolor = {.}
+pdftitle={\VAR{config.doc_title}},
+pdfsubject={},
+pdfauthor={},
+pdfkeywords={}
+}
+\urlstyle{same}
+\usepackage[anythingbreaks]{breakurl}
+
+\usepackage[outdir=./]{epstopdf} % converting EPS figure files to PDF
+
+\usepackage{fancyhdr, lastpage}	% formatting document, calculating number of pages, formatting headers
+\setlength{\topmargin}{-0.5in}
+\setlength{\headheight}{39pt}
+\setlength{\oddsidemargin}{0.25in}
+\setlength{\evensidemargin}{0.25in}
+\setlength{\textwidth}{6.0in}
+\setlength{\textheight}{8.5in}
+
+% Set up headers
+\fancypagestyle{emptyHeaderFooterStyle}
+{
+        \renewcommand{\headrulewidth}{0pt}
+        \renewcommand{\footrulewidth}{0pt}
+        \fancyhf{}
+}
+
+\fancypagestyle{body}
+{
+        \renewcommand{\headrulewidth}{0pt}
+        \renewcommand{\footrulewidth}{0pt}
+
+        \fancyhead{}
+        \fancyhead[L]{\sc\scriptsize\color{gray}\sffamily \VAR{config.report_number}}
+        \fancyhead[R]{\sc\scriptsize\color{gray}\sffamily \VAR{config.page_title}}
+
+        \fancyfoot{}
+        \fancyfoot[R]{\small\thepage}
+}
+
+\fancypagestyle{plain}
+{
+        \renewcommand{\headrulewidth}{0pt}
+        \renewcommand{\footrulewidth}{0pt}
+
+        \fancyfoot{}
+        \fancyfoot[CE,CO]{\small\thepage}
+        \fancyhead{}
+}
+
+% Set up paragraph indents and spacing
+\setlength{\parindent}{0cm}
+\setlength{\parskip}{0.3cm plus 4mm minus 3mm}
+
+%: if config.lineno
+
+% Turn on line numbering
+\usepackage{lineno}
+\linenumbers
+
+%: endif
+
+% Set up hyphenation rules
+\pretolerance=5000
+\tolerance=9000
+\emergencystretch=0pt
+\righthyphenmin=4
+\lefthyphenmin=4
+
+\usepackage{caption} % required for Figure labels
+\captionsetup{font=small,labelfont=bf,figurename=Fig.,labelsep=period,justification=raggedright} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%   	BEGIN DOCUMENT 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+	\urlstyle{rm} % Format style of \url   
+    \RaggedRight % left-justification universal
+	
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%   Cover Page is REQUIRED and must cont ain the information 
+%	displayed here, at a minimum. Additional artwork may be included 
+%	(e.g., official project/conference logo, etc.).
+%	Pub Number automated based on metadata
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{titlepage}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%	Title Page is REQUIRED
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\begin{flushright}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%   Publication Series & Number - automated
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\LARGE{\textbf{\VAR{config.report_number}}}
+
+\large{\textbf{\textsc{Federal Information Processing Standards Publication}}}
+\vfill
+\hrule
+\vfill
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%	Title 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\Huge{\textbf{\VAR{config.doc_title}}}\\
+\vfill
+\hrule
+\vfill
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%	Author Order and Grouping. Always identify the primary author/creator first (s/he does not have to be a NIST author). For publications with multiple authors, group authors by their organizational affiliation. The organizational groupings and the names within each grouping should generally be ordered by decreasing level of contribution.
+%	For non-NIST authors, list their city and state below their organization name.
+%	For NIST authors, include the Division and Laboratory names (but do not include their city and state).
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%   DOI Statement - automated
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\normalsize This publication is available free of charge from:\\
+\url{\VAR{config.doi_url}}\\
+\vfill
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%   Date - Month and Year - automated
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\normalsize Issued \VAR{config.month} \VAR{config.year}
+\vfill
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%  Department of Commerce LOGO - leave as-is
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%	
+
+\includegraphics[width=0.25\linewidth]{DoC-logo.eps}\\ 
+\vfill
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%  Department of Commerce & NIST Leadership 
+%	will be updated as changes occur
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\footnotesize \textbf{U.S. Department of Commerce}\\ 
+\textit{Wilbur L. Ross, Jr., Secretary}\\
+\vspace{10pt}
+\textbf{National Institute of Standards and Technology}\\ 
+\textit{Walter Copan, NIST Director and Undersecretary of Commerce for Standards and Technology}  
+%\end{flushright}
+\end{titlepage}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%   Start front matter - page number starts with "i"
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%: if rendered.foreword is not none
+
+\pagenumbering{roman}
+
+\titleformat{\section}{\normalsize\raggedright\bfseries\sffamily}{}{0em}{}	% required for heading numbering style
+\titleformat{\subsection}{\normalsize\raggedright\bfseries\sffamily}{}{0em}{}	% required for heading numbering style
+\titleformat{\subsubsection}{\normalsize\raggedright\bfseries\sffamily}{}{0em}{}	% required for heading numbering style
+\titleformat{\paragraph}{\normalsize\raggedright\bfseries\sffamily}{}{0em}{}	% required for heading numbering style
+
+\addtocontents{toc}{\setcounter{tocdepth}{-5}} % hide from TOC
+\VAR{rendered.foreword}
+%: endif
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%   Table of Contents is required
+% 	List of Tables & Figures required if more than 5 tables/figures
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\clearpage
+\begin{center}
+	\tableofcontents
+	\listoftables
+	\listoffigures
+\end{center}
+\clearpage
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%   Start front matter - page number starts with "1", sections
+%   start with '1'
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\setcounter{section}{0}
+\pagenumbering{arabic}
+\pagestyle{body}
+
+\titleformat{\section}{\large\raggedright\bfseries\sffamily}{}{0em}{\colorsection}	% required for heading numbering style
+\titleformat{\subsection}{\large\raggedright\bfseries\sffamily}{}{0em}{}	% required for heading numbering style
+\titleformat{\subsubsection}{\normalsize\raggedright\bfseries\sffamily}{}{0em}{}	% required for heading numbering style
+\titleformat{\paragraph}{\normalsize\raggedright\bfseries\sffamily}{}{0em}{}	% required for heading numbering style
+
+\addtocontents{toc}{\setcounter{tocdepth}{3}} % Set TOC depth to 3 (subsection)
+
+\VAR{rendered.body}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%   Start Appendix - page number continues as before, sections
+%   start with 'A'
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%: if rendered.appendix is not none
+
+\appendix
+\VAR{rendered.appendix}
+
+%: endif
+
+\end{document}

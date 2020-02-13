@@ -6,7 +6,7 @@ navTitle: OID
 permalink: /oid/
 ---
 
-# Appendix B— PIV Object Identifiers and Certificate Extension {#s-appendix-b}
+# Appendix B— PIV Object Identifiers and Certificate Extension {#s-b}
 
 This normative appendix provides additional details for the PIV objects identified in [Section 4](../_FIPS201/frontend.md#s-4).
 

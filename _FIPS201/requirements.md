@@ -78,7 +78,7 @@ A full set of fingerprints SHALL be collected from each PIV applicant.
 
 Biometric identification using fingerprints is the primary input to law
 enforcement checks. In cases where ten fingerprints are not available, then as many fingers as
-possible SHALL be imaged as per guidance in [[SP 800-76]]. In cases where no fingers are available to be imaged, agencies SHALL seek guidance from their respective investigative service provider for alternative means of performing the law enforcement checks.
+possible SHALL be imaged as per guidance in [[SP 800-76]](../_Appendix/references.md#ref-SP-800-76). In cases where no fingers are available to be imaged, agencies SHALL seek guidance from their respective investigative service provider for alternative means of performing the law enforcement checks.
 
 This collection is not necessary for applicants who have a completed and favorably adjudicated Tier 1 or higher federal background investigation on record that can be located and referenced.
 
