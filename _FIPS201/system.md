@@ -138,7 +138,7 @@ Card termination as the end of life.
 
 [Figure 3-2. PIV Card Lifecycle Activities](#fig-3-2){:name="fig-3-2"}
 
-![Figure 3-2]({{site.baseurl}}/{{page.collection}}/images/lifecycle.png){:style="width: 1047px;" latex-src="lifecycle.png"}
+![Figure 3-2]({{site.baseurl}}/{{page.collection}}/images/lifecycle.png){:style="width: 1047px;" latex-src="lifecycle.eps"}
 
 Descriptions of the seven card lifecycle activities are as follows:
 
