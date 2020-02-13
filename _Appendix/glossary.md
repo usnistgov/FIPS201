@@ -541,8 +541,8 @@ SSP
 TSA
 : Transportation Security Administration
 
-URI
-: Uniform Resource Identifier
+URN
+: Uniform Resource Name
 
 U.S.C.
 : United States Code

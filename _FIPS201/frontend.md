@@ -541,7 +541,7 @@ The PIV Card SHALL store a corresponding X.509 certificate to support validation
 The X.509 certificate SHALL include the FASC-N in the subject alternative name extension using the
 pivFASC-N attribute to support physical access procedures. The X.509 certificate SHALL also include
 the UUID value from the GUID data element of the CHUID in the subject alternative name extension.
-The UUID SHALL be encoded as a uniform resource identifier (URI), as specified in Section 3 of
+The UUID SHALL be encoded as a uniform resource name (URN), as specified in Section 3 of
 [[RFC4122]](../_Appendix/references.md#ref-RFC4122). The expiration date of the certificate SHALL be no later than the expiration date of the PIV
 Card. The PIV authentication certificate MAY include a PIV background investigation indicator (previously known as the NACI indicator) extension (see Appendix B.2). 
 This non-critical extension indicates the status
@@ -560,7 +560,7 @@ The PIV Card SHALL store a corresponding X.509 certificate to support validation
 The X.509 certificate SHALL include the FASC-N in the subject alternative name extension using the
 pivFASC-N attribute to support physical access procedures. The X.509 certificate SHALL also include
 the UUID value from the GUID data element of the CHUID in the subject alternative name extension.
-The UUID SHALL be encoded as a URI, as specified in Section 3 of [[RFC4122]](../_Appendix/references.md#ref-RFC4122). The expiration date of
+The UUID SHALL be encoded as a URN, as specified in Section 3 of [[RFC4122]](../_Appendix/references.md#ref-RFC4122). The expiration date of
 the certificate SHALL be no later than the expiration date of the PIV Card. [Section 5](keymanagement.md#s-5) of this document
 specifies the certificate format and the key management infrastructure for asymmetric PIV card
 authentication keys.
