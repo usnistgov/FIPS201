@@ -36,3 +36,5 @@ pdf:
     year: 2020
     page_title: Personal Identity Verification (PIV)
     doc_title: Personal Identity Verification (PIV) of Federal Employees and Contractors
+    lineno: true
+    

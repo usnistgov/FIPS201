@@ -87,13 +87,13 @@
 colorlinks = true,
 breaklinks = true,
 urlcolor ={blue},
-citecolor = {.},
-linkcolor = {.},
+citecolor = {darkgray},
+linkcolor = {darkgray},
 anchorcolor = {.},
 filecolor = {.},
 menucolor = {.},
 runcolor = {.}
-pdftitle={},
+pdftitle={\VAR{config.doc_title}},
 pdfsubject={},
 pdfauthor={},
 pdfkeywords={}
@@ -153,6 +153,13 @@ pdfkeywords={}
 \linenumbers
 
 %: endif
+
+% Set up hyphenation rules
+\pretolerance=5000
+\tolerance=9000
+\emergencystretch=0pt
+\righthyphenmin=4
+\lefthyphenmin=4
 
 \usepackage{caption} % required for Figure labels
 \captionsetup{font=small,labelfont=bf,figurename=Fig.,labelsep=period,justification=raggedright} 
