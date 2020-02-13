@@ -335,35 +335,35 @@ legislatively mandated medical entitlements.
 
 [Figure 4-1. Card Front—Printable Areas and Required Data](#fig-4-1){:name="fig-4-1"}
 
-![Figure 4-1]({{site.baseurl}}/{{page.collection}}/images/cardfront-required.jpg){:style="width: 1047px;" latex-src="cardfront-required.jpg"}
+![Figure 4-1]({{site.baseurl}}/{{page.collection}}/images/cardfront-required.png){:style="width: 1047px;" latex-src="cardfront-required.eps"}
 
 [Figure 4-2. Card Front—Optional Data Placement—Example 1](#fig-4-2){:name="fig-4-2"}
 
-![Figure 4-2]({{site.baseurl}}/{{page.collection}}/images/cardfront-optional1.jpg){:style="width: 1047px;" latex-src="cardfront-optional1.jpg"}
+![Figure 4-2]({{site.baseurl}}/{{page.collection}}/images/cardfront-optional1.png){:style="width: 1047px;" latex-src="cardfront-optional1.eps"}
 
 [Figure 4-3. Card Front—Optional Data Placement—Example 2](#fig-4-3){:name="fig-4-3"}
 
-![Figure 4-3]({{site.baseurl}}/{{page.collection}}/images/cardfront-optional2.jpg){:style="width: 1047px;" latex-src="cardfront-optional2.jpg"}
+![Figure 4-3]({{site.baseurl}}/{{page.collection}}/images/cardfront-optional2.png){:style="width: 1047px;" latex-src="cardfront-optional2.eps"}
 
 [Figure 4-4. Card Front—Optional Data Placement—Example 3](#fig-4-4){:name="fig-4-4"}
 
-![Figure 4-4]({{site.baseurl}}/{{page.collection}}/images/cardfront-optional3.jpg){:style="width: 1047px;" latex-src="cardfront-optional3.jpg"}
+![Figure 4-4]({{site.baseurl}}/{{page.collection}}/images/cardfront-optional3.png){:style="width: 1047px;" latex-src="cardfront-optional3.eps"}
 
 [Figure 4-5. Card Front—Optional Data Placement—Example 4](#fig-4-5){:name="fig-4-5"}
 
-![Figure 4-5]({{site.baseurl}}/{{page.collection}}/images/cardfront-optional4.jpg){:style="width: 1047px;" latex-src="cardfront-optional4.jpg"}
+![Figure 4-5]({{site.baseurl}}/{{page.collection}}/images/cardfront-optional4.png){:style="width: 1047px;" latex-src="cardfront-optional4.eps"}
 
 [Figure 4-6. Card Back—Printable Areas and Required Data](#fig-4-6){:name="fig-4-6"}
 
-![Figure 4-6]({{site.baseurl}}/{{page.collection}}/images/cardback-required.jpg){:style="width: 1047px;" latex-src="cardback-required.jpg"}
+![Figure 4-6]({{site.baseurl}}/{{page.collection}}/images/cardback-required.png){:style="width: 1047px;" latex-src="cardback-required.eps"}
 
 [Figure 4-7. Card Back—Optional Data Placement—Example 1](#fig-4-7){:name="fig-4-7"}
 
-![Figure 4-7]({{site.baseurl}}/{{page.collection}}/images/cardback-optional1.jpg){:style="width: 1047px;" latex-src="cardback-optional1.jpg"}
+![Figure 4-7]({{site.baseurl}}/{{page.collection}}/images/cardback-optional1.png){:style="width: 1047px;" latex-src="cardback-optional1.eps"}
 
 [Figure 4-8. Card Back—Optional Data Placement—Example 2](#fig-4-8){:name="fig-4-8"}
 
-![Figure 4-8]({{site.baseurl}}/{{page.collection}}/images/cardback-optional2.jpg){:style="width: 1047px;" latex-src="cardback-optional2.jpg"}
+![Figure 4-8]({{site.baseurl}}/{{page.collection}}/images/cardback-optional2.png){:style="width: 1047px;" latex-src="cardback-optional2.eps"}
 
 ### 4.1.5 Color Representation {#s-4-1-5}
 
