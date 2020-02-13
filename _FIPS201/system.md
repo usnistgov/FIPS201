@@ -43,7 +43,7 @@ access control decision.
 
 [Figure 3-1](#fig-3-1){:name="fig-3-1"}
 
-![Figure 3-1]({{site.baseurl}}/{{page.collection}}/images/system.png){:style="width: 1047px;" latex-src="system.png"}
+![Figure 3-1]({{site.baseurl}}/{{page.collection}}/images/system.png){:style="width: 1047px;" latex-src="system.eps"}
 
 [Figure 3-1](#fig-3-1) illustrates a notional model for the operational PIV system, identifying the various system
 components and the direction of data flow between these components. The boundary shown in the figure
