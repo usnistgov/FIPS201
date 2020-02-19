@@ -125,8 +125,8 @@ pdfkeywords={}
         \renewcommand{\footrulewidth}{0pt}
 
         \fancyhead{}
-        \fancyhead[L]{\sc\scriptsize\color{gray}\sffamily \VAR{config.report_number}}
-        \fancyhead[R]{\sc\scriptsize\color{gray}\sffamily \VAR{config.page_title}}
+        \fancyhead[L]{\sc\scriptsize\color{gray}\bfseries\sffamily \VAR{config.report_number}}
+        \fancyhead[R]{\sc\scriptsize\color{gray}\bfseries\sffamily \VAR{config.page_title}}
 
         \fancyfoot{}
         \fancyfoot[R]{\small\thepage}
@@ -144,7 +144,7 @@ pdfkeywords={}
 
 % Set up paragraph indents and spacing
 \setlength{\parindent}{0cm}
-\setlength{\parskip}{0.3cm plus 4mm minus 3mm}
+\setlength{\parskip}{0.3cm plus 2mm minus 1mm}
 
 %: if config.lineno
 
@@ -170,7 +170,7 @@ pdfkeywords={}
 \begin{document}
 	\urlstyle{rm} % Format style of \url   
     \RaggedRight % left-justification universal
-	
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %   Cover Page is REQUIRED and must cont ain the information 
 %	displayed here, at a minimum. Additional artwork may be included 
@@ -179,6 +179,9 @@ pdfkeywords={}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{titlepage}
+
+\bfseries\sffamily
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %	Title Page is REQUIRED
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -187,24 +190,27 @@ pdfkeywords={}
 %   Publication Series & Number - automated
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \LARGE{\textbf{\VAR{config.report_number}}}
-
-\large{\textbf{\textsc{Federal Information Processing Standards Publication}}}
-\vfill
+\vspace{8pt}
 \hrule
+\vspace{8pt}
+\large{\textbf{\textsc{Federal Information Processing Standards Publication}}}\\
+\small{\textbf{(Supersedes \VAR{config.supersedes})}}
 \vfill
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %	Title 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \Huge{\textbf{\VAR{config.doc_title}}}\\
 \vfill
+\normalsize{\textbf{\textsc{Category: \VAR{config.category}\hfill Subcategory: \VAR{config.subcategory}}}}
+\vspace{8pt}
 \hrule
 \vfill
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%	Author Order and Grouping. Always identify the primary author/creator first (s/he does not have to be a NIST author). For publications with multiple authors, group authors by their organizational affiliation. The organizational groupings and the names within each grouping should generally be ordered by decreasing level of contribution.
-%	For non-NIST authors, list their city and state below their organization name.
-%	For NIST authors, include the Division and Laboratory names (but do not include their city and state).
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+% Address
+Information Technology Laboratory\\
+National Institute of Standards and Technology\\
+Gaithersburg, MD 20899-8900
+\vfill
 %   DOI Statement - automated
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \normalsize This publication is available free of charge from:\\
@@ -213,7 +219,7 @@ pdfkeywords={}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %   Date - Month and Year - automated
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\normalsize Issued \VAR{config.month} \VAR{config.year}
+\normalsize Issued \VAR{config.issued_date}
 \vfill
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %  Department of Commerce LOGO - leave as-is
@@ -241,10 +247,10 @@ pdfkeywords={}
 
 \pagenumbering{roman}
 
-\titleformat{\section}{\normalsize\raggedright\bfseries\sffamily}{}{0em}{}	% required for heading numbering style
-\titleformat{\subsection}{\normalsize\raggedright\bfseries\sffamily}{}{0em}{}	% required for heading numbering style
-\titleformat{\subsubsection}{\normalsize\raggedright\bfseries\sffamily}{}{0em}{}	% required for heading numbering style
-\titleformat{\paragraph}{\normalsize\raggedright\bfseries\sffamily}{}{0em}{}	% required for heading numbering style
+\titleformat{\section}[runin]{\normalsize\raggedright\bfseries\sffamily}{}{0em}{}	% required for heading numbering style
+\titleformat{\subsection}[runin]{\normalsize\raggedright\bfseries\sffamily}{}{0em}{}	% required for heading numbering style
+\titleformat{\subsubsection}[runin]{\normalsize\raggedright\bfseries\sffamily}{}{0em}{}	% required for heading numbering style
+\titleformat{\paragraph}[runin]{\normalsize\raggedright\bfseries\sffamily}{}{0em}{}	% required for heading numbering style
 
 \addtocontents{toc}{\setcounter{tocdepth}{-5}} % hide from TOC
 \VAR{rendered.foreword}
