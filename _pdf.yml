@@ -32,9 +32,11 @@ pdf:
           section_template: _pdftemplate/section.tex
     report_number: FIPS201-3 [DRAFT]
     doi_url: None
-    month: December
-    year: 2020
+    issued_date: December 31, 2020
     page_title: Personal Identity Verification (PIV)
     doc_title: Personal Identity Verification (PIV) of Federal Employees and Contractors
     lineno: true
+    supersedes: FIPS201-2
+    category: Information Security
+    subcategory: Identity
     

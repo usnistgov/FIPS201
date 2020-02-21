@@ -8,7 +8,7 @@ version: '3'
 
 services:
   pdfrender:
-    image: nistpages-pdf
+    image: jricher/nistpages-pdf
     volumes:
        - .:/opt/source
     command: python /opt/pdf/preprocess-pdf.py
