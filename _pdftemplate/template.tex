@@ -82,13 +82,15 @@
 \renewcommand{\bibsection}{}
 \setlength{\bibsep}{0.0pt}
 
-\usepackage[hidelinks]{hyperref}
+\definecolor{darkBlue}{rgb}{0,0,0.4} % dark blue for links
+
+\usepackage[hidelinks,hyperfootnotes=false]{hyperref}
 \hypersetup{
 colorlinks = true,
 breaklinks = true,
-urlcolor ={blue},
-citecolor = {darkgray},
-linkcolor = {darkgray},
+urlcolor = {darkBlue},
+citecolor = {darkBlue},
+linkcolor = {darkBlue},
 anchorcolor = {.},
 filecolor = {.},
 menucolor = {.},
