@@ -12,7 +12,7 @@ the identity proofing requirements for federal employees and contractors.
 
 ## 2.1 Control Objectives {#s-2-1}
 
-[[HSPD-12]](../_Appendix/references.md#ref-HSPD-12) established control objectives for secure and reliable identification of Federal employees and
+[[HSPD-12]](../_Appendix/references.md#ref-HSPD-12) established control objectives for secure and reliable identification of federal employees and
 contractors. These control objectives, provided in paragraph 3 of the directive, are quoted here:
 
 > (3) "Secure and reliable forms of identification" for purposes of this directive means identification that (a)
@@ -23,13 +23,11 @@ accreditation process.
 
 
 Each agency's PIV implementation SHALL meet the four control objectives (a) through (d) listed above
-such that:
+such that
 
-+ Credentials are issued 
-    - to individuals whose identity has been verified and who has been appropriately vetted as per Section 2.2,
-    - after a proper authority has authorized issuance of the credential.
-.
-+ A credential is issued only after an individual’s eligibility has been favorably adjudicated based on the prerequisite Federal investigation [^background] or the vetting process has been initiated [^initation] with the Federal investigative service provider and the Federal Bureau of Investigation (FBI) National Criminal History Check (NCHC) portion of the background investigation is completed and favorably adjudicated. 
++ A credential is issued to an individuals whose identity has been verified and who has been appropriately vetted as per [Section 2.2](requirements.md#s-2-2)
+    after a proper authority has authorized issuance of the credential.
++ A credential is issued only after an individual’s eligibility has been favorably adjudicated based on the prerequisite Federal investigation[^background] or the vetting process has been initiated[^initiation] with the federal investigative service provider and the Federal Bureau of Investigation (FBI) National Criminal History Check (NCHC) portion of the background investigation is completed and favorably adjudicated. 
 + An individual is issued a credential only after presenting two identity source documents, at least one
     of which is a Federal or State Government issued picture ID.
 + Fraudulent identity source documents are not accepted as genuine and unaltered.
@@ -44,7 +42,7 @@ such that:
     person not entitled to the credential.
 + An issued credential is not duplicated or forged, and is not modified by an unauthorized entity.
 
-[^background]: For guidance on investigation requirements refer to Section 2.2 Credentialing Requirements below. NACI investigations were replaced with Tier 1 investigation upon implementation of the 2012 Federal Investigative Standards.
+[^background]: For guidance on investigation requirements refer to [Section 2.2](../requirements/#s-2-2). NACI investigations were replaced with Tier 1 investigation upon implementation of the 2012 Federal Investigative Standards.
 
 [^initiation]: The initiation of a background investigation is defined as the submission of the investigative request to the Defense Counterintelligence and Security Agency, or other authorized Federal investigation service provider.
 
@@ -52,9 +50,9 @@ such that:
 ## 2.2 Credentialing Requirements {#s-2-2}
 
 Federal departments and agencies SHALL use the credentialing eligibility standards issued by the Director of the Office
-of Personnel Management (OPM)[^OPM] and OMB[^OMB].
+of Personnel Management (OPM)[^OPM] and OMB.[^OMB]
 
-Federal departments and agencies must follow investigative requirements established by the Suitability and Credentialing Executive Agent and the Security Executive Agent. Departments and agencies are required to use position designation guidance issued by the Executive Agents.   The designation of the position determines the prerequisite investigative requirement. Individuals being processed for a PIV card must receive the appropriate required investigation and are subject to any corresponding reinvestigation or continuous vetting requirements as applicable, for issuance and to maintain their workforce PIV eligibility.
+Federal departments and agencies must follow investigative requirements established by the Suitability and Credentialing Executive Agent and the Security Executive Agent. Departments and agencies are required to use position designation guidance issued by the Executive Agents.   The designation of the position determines the prerequisite investigative requirement. Individuals being processed for a PIV Card must receive the appropriate required investigation and are subject to any corresponding reinvestigation or continuous vetting requirements as applicable, for issuance and to maintain their workforce PIV eligibility.
 
 The minimum requirement for a PIV Credential eligibility determination is a completed and favorably adjudicated Tier 1 (T1) [^TierOne] investigation (formerly called a National Agency Check with Written Inquiries (NACI).  
 

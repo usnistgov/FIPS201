@@ -173,6 +173,20 @@ table.authors td{
   margin-top: 3em;
 }
 
+ol.letter-list {
+    counter-reset: list;
+}
+ol.letter-list > li {
+    list-style: none;
+    position: relative;
+}
+ol.letter-list > li:before {
+    counter-increment: list;
+    content: counter(list, lower-alpha) ") ";
+    position: absolute;
+    left: -1.4em;
+}
+
 @media screen and (max-width: 767px) {
   .nist-header {
     padding: 6px 10px;
@@ -280,4 +294,3 @@ table.authors td{
   }
 
 }
-
