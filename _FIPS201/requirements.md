@@ -221,7 +221,7 @@ following forms of identification:
 * a U.S. Military dependent's ID card; or
 * a PIV Card.
     
-The second piece of evidence MAY be from the list above, but it SHALL NOTE be of the same type
+The second piece of evidence MAY be from the list above, but it SHALL NOT be of the same type
 as the primary identity source document.[^second] The second identity source document MAY also be one
 of the following:
 
@@ -389,9 +389,9 @@ started before the old PIV Card expired.
 
 If the expiration date of the new PIV Card is later than the expiration date of the old card, or if any data
 about the cardholder is being changed, the card issuer SHALL ensure that an adjudicative entity has authorized
-the issuance of the new PIV Card. The issuer SHALL ensure that the adjudicative entity has verified that there is a PIV eleigibility determination in the system of record [^record] 
+the issuance of the new PIV Card. The issuer SHALL ensure that the adjudicative entity has verified that there is a PIV eligibility determination in the system of record [^record] 
 
-[^record]: The identity management system (IDMS) SHOULD reflect the PIV elegibility of each PIV cardholder and the subsequent re-enrollment in Continuous Vetting Program, as appropriate.
+[^record]: The identity management system (IDMS) SHOULD reflect the PIV eligibility of each PIV cardholder and the subsequent re-enrollment in Continuous Vetting Program, as appropriate.
 
 The issuer SHALL perform a biometric verification of the applicant to the chain-of-trust to reconnect to the chain-of-trust. The one-to-one
 comparison requires either fingerprint(s) or, if unavailable, other optional biometric data records
