@@ -46,15 +46,15 @@ extension is always non-critical.
 The value of this extension is asserted as
 follows:
 
-- TRUE if, at the time of credential issuance, (1) the FBI National Criminal History Fingerprint Check
+- `TRUE` if, at the time of credential issuance, (1) the FBI National Criminal History Fingerprint Check
     has completed, and (2) a background investigation has been initiated but has not completed.
-- FALSE if, at the time of credential issuance, the subject's background investigation has been
+- `FALSE` if, at the time of credential issuance, the subject's background investigation has been
     completed and successfully adjudicated.
 
 The PIV background investigation indicator extension is identified by the id-piv-NACI
 object identifier. The syntax for this extension is defined by the following ASN.1 module.
 
-```
+~~~
 PIV- Cert-Extensions { 2 16 840 1 101 3 6 10 1 }
 DEFINITIONS EXPLICIT TAGS ::=
 BEGIN
@@ -63,4 +63,4 @@ BEGIN
 id- piv- NACI OBJECT IDENTIFIER ::= { 2 16 840 1 101 3 6 9 1 }
 NACI-indicator ::= BOOLEAN
 END
-```
+~~~
