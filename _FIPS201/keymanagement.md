@@ -27,7 +27,7 @@ All certificates issued to support PIV private keys (PIV authentication, card au
 Policy for the U.S. Federal PKI Common Policy Framework* [[COMMON]](../_Appendix/references.md#ref-COMMON). 
 CAs and registration authorities MAY be operated by departments and agencies, or MAY be outsourced to PKI
 service providers. For a list of PKI service providers that have been approved to operate under
-[[COMMON]](../_Appendix/references.md#ref-COMMON), see [https://www.idmanagement.gov](https://www.idmanagement.gov).
+[[COMMON]](../_Appendix/references.md#ref-COMMON), see <https://www.idmanagement.gov>.
 
 Details of the cryptographic properties of PIV keys are found in [Section 4.2.2](frontend.md#s-4-2-2) and its subsections.
 

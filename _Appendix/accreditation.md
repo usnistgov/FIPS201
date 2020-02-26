@@ -74,7 +74,7 @@ Commercial products under these two categories are tested by the set of accredit
 the National Voluntary Laboratory Accreditation Program (NVLAP) program, using the NIST supplied
 test procedures and toolkit. The outcomes of the test results are validated by NIST, which then issues
 validation certificates. Information about NPIVP is available at
-[https://csrc.nist.gov/projects/nist-s-personal-identity-verification-program](https://csrc.nist.gov/projects/nist-s-personal-identity-verification-program).
+<https://csrc.nist.gov/projects/nist-s-personal-identity-verification-program>.
 
 ## A.4 Cryptographic Testing and Validation {#s-a-4}
 
@@ -87,7 +87,7 @@ submissions are validated and a validation certificate for each vendor module is
 Cryptographic Module Validation Program (CMVP), a joint program run by NIST and the
 Communications Security Establishment (CSE) of the Government of Canada. The details of the CMVP
 and NVLAP programs and the list of testing laboratories can be found at the CMVP Web site at
-[https://csrc.nist.gov/projects/cryptographic-module-validation-program](https://csrc.nist.gov/projects/cryptographic-module-validation-program).
+<https://csrc.nist.gov/projects/cryptographic-module-validation-program>.
 
 ## A.5 FIPS 201 Evaluation Program {#s-a-5}
 
@@ -97,4 +97,4 @@ established the FIPS 201 Evaluation Program. The product families may include
 the card products tested under the PIV Validation Program, physical access control systems, or other products as needed. Products evaluated and
 approved under this process are placed on the FIPS 201 Approved Products List to promote procurement
 of conformant products by implementing agencies. The details of the program are available at
-[https://www.idmanagement.gov/](https://www.idmanagement.gov/).
+<https://www.idmanagement.gov/>.
