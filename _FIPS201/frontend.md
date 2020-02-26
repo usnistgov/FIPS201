@@ -161,6 +161,7 @@ MAY be abbreviated. The special character "." (period) SHALL indicate such abbre
 [Figure 4-2](#fig-4-2). Other uses of special symbols (e.g., "O'BRIEN") are at the discretion of the issuer.
 
 [Table 4-1. Name Examples](#table-4-1){:name="table-4-1"}
+{:latex-ignore="true"}
 
 |Name|Characteristics|Example|
 |---|---|---|
@@ -174,7 +175,7 @@ MAY be abbreviated. The special character "." (period) SHALL indicate such abbre
 |Vaasa Silvaan Beenelong Wooloomooloo Warrandyte Warwarnambool|longer full name, two lines NOT sufficient with 8 point, 7 point allows sufficient space for three lines in Zone 2F.|![]({{site.baseurl}}/{{page.collection}}/images/name8.png){:style="width: 400px;" latex-src="name8.png"}|
 |Vaasa Silvaan Beenelong Wooloomooloo Warrandyte Warwarnambool|same as previous but full name is wrapped.|![]({{site.baseurl}}/{{page.collection}}/images/name9.png){:style="width: 400px;" latex-src="name9.png"}|
 |Dingo Pontooroomooloo Vaasa Silvaan Beenelong Wooloomooloo Warrandyte Warwarnambool|truncated full name, three lines with 7 point NOT sufficient.|![]({{site.baseurl}}/{{page.collection}}/images/name10.png){:style="width: 400px;" latex-src="name10.png"}|
-
+{:latex-columns="p@0.3\textwidth,p@0.4\textwidth,p@0.3\textwidth" latex-table="4-1" latex-caption="Name Examples"}
 
 *Zone 8F—Employee Affiliation*. An employee affiliation SHALL be printed on the card as depicted in 
 [Figure 4-1](#fig-4-1). Some examples of employee affiliation are "Employee," "Contractor," "Active Duty," and
@@ -334,36 +335,44 @@ legislatively mandated medical entitlements.
 
 
 [Figure 4-1. Card Front—Printable Areas and Required Data](#fig-4-1){:name="fig-4-1"}
+{:latex-ignore="true"}
 
-![Figure 4-1]({{site.baseurl}}/{{page.collection}}/images/cardfront-required.png){:style="width: 1047px;" latex-src="cardfront-required.eps"}
+![Card Front—Printable Areas and Required Data]({{site.baseurl}}/{{page.collection}}/images/cardfront-required.png){:style="width: 1047px;" latex-src="cardfront-required.eps" latex-fig="4-1"}
 
 [Figure 4-2. Card Front—Optional Data Placement—Example 1](#fig-4-2){:name="fig-4-2"}
+{:latex-ignore="true"}
 
-![Figure 4-2]({{site.baseurl}}/{{page.collection}}/images/cardfront-optional1.png){:style="width: 1047px;" latex-src="cardfront-optional1.eps"}
+![Card Front—Optional Data Placement—Example 1]({{site.baseurl}}/{{page.collection}}/images/cardfront-optional1.png){:style="width: 1047px;" latex-src="cardfront-optional1.eps" latex-fig="4-2"}
 
 [Figure 4-3. Card Front—Optional Data Placement—Example 2](#fig-4-3){:name="fig-4-3"}
+{:latex-ignore="true"}
 
-![Figure 4-3]({{site.baseurl}}/{{page.collection}}/images/cardfront-optional2.png){:style="width: 1047px;" latex-src="cardfront-optional2.eps"}
+![Card Front—Optional Data Placement—Example 2]({{site.baseurl}}/{{page.collection}}/images/cardfront-optional2.png){:style="width: 1047px;" latex-src="cardfront-optional2.eps" latex-fig="4-3"}
 
 [Figure 4-4. Card Front—Optional Data Placement—Example 3](#fig-4-4){:name="fig-4-4"}
+{:latex-ignore="true"}
 
-![Figure 4-4]({{site.baseurl}}/{{page.collection}}/images/cardfront-optional3.png){:style="width: 1047px;" latex-src="cardfront-optional3.eps"}
+![Card Front—Optional Data Placement—Example 3]({{site.baseurl}}/{{page.collection}}/images/cardfront-optional3.png){:style="width: 1047px;" latex-src="cardfront-optional3.eps" latex-fig="4-4"}
 
 [Figure 4-5. Card Front—Optional Data Placement—Example 4](#fig-4-5){:name="fig-4-5"}
+{:latex-ignore="true"}
 
-![Figure 4-5]({{site.baseurl}}/{{page.collection}}/images/cardfront-optional4.png){:style="width: 1047px;" latex-src="cardfront-optional4.eps"}
+![Card Front—Optional Data Placement—Example 4]({{site.baseurl}}/{{page.collection}}/images/cardfront-optional4.png){:style="width: 1047px;" latex-src="cardfront-optional4.eps" latex-fig="4-5"}
 
 [Figure 4-6. Card Back—Printable Areas and Required Data](#fig-4-6){:name="fig-4-6"}
+{:latex-ignore="true"}
 
-![Figure 4-6]({{site.baseurl}}/{{page.collection}}/images/cardback-required.png){:style="width: 1047px;" latex-src="cardback-required.eps"}
+![Card Back—Printable Areas and Required Data]({{site.baseurl}}/{{page.collection}}/images/cardback-required.png){:style="width: 1047px;" latex-src="cardback-required.eps" latex-fig="4-6"}
 
 [Figure 4-7. Card Back—Optional Data Placement—Example 1](#fig-4-7){:name="fig-4-7"}
+{:latex-ignore="true"}
 
-![Figure 4-7]({{site.baseurl}}/{{page.collection}}/images/cardback-optional1.png){:style="width: 1047px;" latex-src="cardback-optional1.eps"}
+![Card Back—Optional Data Placement—Example 1]({{site.baseurl}}/{{page.collection}}/images/cardback-optional1.png){:style="width: 1047px;" latex-src="cardback-optional1.eps" latex-fig="4-7"}
 
 [Figure 4-8. Card Back—Optional Data Placement—Example 2](#fig-4-8){:name="fig-4-8"}
+{:latex-ignore="true"}
 
-![Figure 4-8]({{site.baseurl}}/{{page.collection}}/images/cardback-optional2.png){:style="width: 1047px;" latex-src="cardback-optional2.eps"}
+![Card Back—Optional Data Placement—Example 2]({{site.baseurl}}/{{page.collection}}/images/cardback-optional2.png){:style="width: 1047px;" latex-src="cardback-optional2.eps" latex-fig="4-8"}
 
 ### 4.1.5 Color Representation {#s-4-1-5}
 
@@ -376,6 +385,7 @@ SHALL NOT prevent the recognition of the principal color by a person with normal
 uncorrected) at a working distance of 50 cm to 200 cm.
 
 [Table 4-2. Color Representation](#table-4-2){:name="table-4-2"}
+{:latex-ignore="true"}
 
 |Color|Zone|sRGB Tristimulus Value (IEC 61966-2-1)|sRGB Value (IEC 61966-2-1)|CMYK Value {C,M,Y,K}|
 |---|---|---|---|---|
@@ -383,7 +393,7 @@ uncorrected) at a working distance of 50 cm to 200 cm.
 |Green|15F|{153, 255, 153}|{203, 255, 203}|{40, 0, 40, 0}|
 |Blue|15F|{0, 255, 255}|{0, 255, 255}|{100, 0, 0, 0}|
 |Red|12F|{253, 27, 20}|{254, 92, 79}|{0, 90, 86, 0}|
-{:latex-columns="p@0.1\textwidth,p@0.07\textwidth,p@0.3\textwidth,p@0.20\textwidth,p@0.20\textwidth"}
+{:latex-columns="p@0.1\textwidth,p@0.07\textwidth,p@0.3\textwidth,p@0.20\textwidth,p@0.20\textwidth" latex-table="4-2" latex-caption="Color Representation"}
 
 The colors in [Table 4-2](#table-4-2) can be mapped to the Pantone[^pantone] color cue; however, note that this will not
 produce an exact match. An agency or department MAY use the following Pantone mappings in cases

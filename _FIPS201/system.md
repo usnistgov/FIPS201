@@ -41,9 +41,10 @@ specifications for this subsystem, various mechanisms for identification and aut
 [Section 6](authentication.md#s-6) to provide consistent and secure means for performing the authentication function preceding an
 access control decision.
 
-[Figure 3-1](#fig-3-1){:name="fig-3-1"}
+[Figure 3-1. PIV System Overview](#fig-3-1){:name="fig-3-1"}
+{:latex-ignore="true"}
 
-![Figure 3-1]({{site.baseurl}}/{{page.collection}}/images/system.png){:style="width: 1047px;" latex-src="system.eps"}
+![PIV System Overview]({{site.baseurl}}/{{page.collection}}/images/system.png){:style="width: 1047px;" latex-src="system.eps" latex-fig="3-1"}
 
 [Figure 3-1](#fig-3-1) illustrates a notional model for the operational PIV system, identifying the various system
 components and the direction of data flow between these components. The boundary shown in the figure
@@ -137,8 +138,9 @@ pre-personalization of the card at the manufacturer are not considered a part of
 Card termination as the end of life.
 
 [Figure 3-2. PIV Card Lifecycle Activities](#fig-3-2){:name="fig-3-2"}
+{:latex-ignore="true"}
 
-![Figure 3-2]({{site.baseurl}}/{{page.collection}}/images/lifecycle.png){:style="width: 1047px;" latex-src="lifecycle.eps"}
+![PIV Card Lifecycle Activities]({{site.baseurl}}/{{page.collection}}/images/lifecycle.png){:style="width: 1047px;" latex-src="lifecycle.eps" latex-fig="3-2"}
 
 Descriptions of the seven card lifecycle activities are as follows:
 

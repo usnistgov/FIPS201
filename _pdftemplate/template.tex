@@ -26,6 +26,7 @@
 \usepackage{tabulary}
 \usepackage[raggedrightboxes]{ragged2e}
 \usepackage{adjustbox}
+\usepackage{babel}
 
 \usepackage[sf]{titlesec}
 
@@ -60,15 +61,18 @@
 \makeatother
 % End macros 
 
+%\usepackage{draftwatermark}
+%\SetWatermarkText{FEB-21-2020}
+%\SetWatermarkScale{1}
 
 \usepackage{tocloft}	% change typeset, titles, and format list of appendices/figures/tables
 \renewcommand{\contentsname}{Table of Contents}
 \renewcommand{\cftpartleader}{\cftdotfill{\cftdotsep}} % for parts
 \renewcommand{\cftsecleader}{\cftdotfill{\cftdotsep}}
 \renewcommand\cftbeforesecskip{\setlength{4pt}{}}
-\addtolength{\cftfignumwidth}{1em}
+\addtolength{\cftfignumwidth}{1.7em}
 \renewcommand{\cftfigpresnum}{\figurename\ }
-\addtolength{\cfttabnumwidth}{1em}
+\addtolength{\cfttabnumwidth}{2.3em}
 \renewcommand{\cfttabpresnum}{\tablename\ }
 \setlength{\cfttabindent}{0in}    %% adjust as you like
 \setlength{\cftfigindent}{0in} 

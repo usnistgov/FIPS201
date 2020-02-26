@@ -302,12 +302,14 @@ assurance levels.[^combinations]
 [^combinations]: Combinations of authentication mechanisms are specified in [[SP 800-116]](../_Appendix/references.md#ref-SP-800-116){:.footnote-ref}.
 
 [Table 6-1. Authentication for Physical Access](#table-6-1){:name="table-6-1"}
+{:latex-ignore="true"}
 
 |Physical Assurance Level|Applicable PIV Authentication Mechanism(s)|
 |---|---|
 |PAL1|PKI-CAK, SYM-CAK|
 |PAL2|BIO|
 |PAL3|BIO-A, OCC-AUTH, PKI-AUTH|
+{:latex-table="6-1" latex-caption="Authentication for Physical Access"}
 
 ### 6.3.2 Logical Access {#s-6-3-2}
 
@@ -323,9 +325,11 @@ control. An authentication mechanism that is suitable for a higher assurance lev
 meet the requirements for a lower assurance level.
 
 [Table 6-2. Authentication for Logical Access](#table-6-2){:name="table-6-2"}
+{:latex-ignore="true"}
 
 |Required Authenticator Assurance Level|Applicable PIV Authentication Mechanism(s): Local Workstation Environment|Applicable PIV Authentication Mechanism: Remote/Network System Environment|
 |---|---|---|
 |AAL1|PKI-CAK|PKI-CAK|
 |AAL2|BIO||
 |AAL3|BIO-A, OCC-AUTH, PKI-AUTH|PKI-AUTH|
+{:latex-table="6-2" latex-caption="Authentication for Logical Access"}
