@@ -54,13 +54,13 @@ of Personnel Management (OPM)[^OPM] and OMB.[^OMB]
 
 Federal departments and agencies must follow investigative requirements established by the Suitability and Credentialing Executive Agent and the Security Executive Agent. Departments and agencies are required to use position designation guidance issued by the Executive Agents.   The designation of the position determines the prerequisite investigative requirement. Individuals being processed for a PIV Card must receive the appropriate required investigation and are subject to any corresponding reinvestigation or continuous vetting requirements as applicable, for issuance and to maintain their workforce PIV eligibility.
 
-The minimum requirement for a PIV Credential eligibility determination is a completed and favorably adjudicated Tier 1 (T1) [^TierOne] investigation (formerly called a National Agency Check with Written Inquiries (NACI).  
+The minimum requirement for PIV Credential eligibility determination is a completed and favorably adjudicated Tier 1[^TierOne] investigation, formerly called a National Agency Check with Written Inquiries (NACI).
 
-If no corresponding prior investigation exists, the appropriate required investigation must be initiated with the authorized Federal investigative service provider and the Federal Bureau of Investigation (FBI) National Criminal History Check (NCHC) portion of the background investigation is completed and adjudicated before an individual is determined eligible to be issued a PIV Card. 
+If no corresponding prior investigation exists, the appropriate required investigation must be initiated with the authorized federal investigative service provider and the FBI National Criminal History Check (NCHC) portion of the background investigation is completed and adjudicated before an individual is determined eligible to be issued a PIV Card. 
 
-Once the investigation is completed, the authorized adjudicative entity must adjudicate the investigation and report final eligibility determination to the proper Federal System of Record (Central Verification System, or successor). 
+Once the investigation is completed, the authorized adjudicative entity SHALL adjudicate the investigation and report final eligibility determination to the proper Federal System of Record (Central Verification System, or successor). 
 
-For full guidance on PIV credentialing investigative and adjudicative requirements issuers must work closely with their personnel security/suitability offices to ensure adherence to the latest federal personnel vetting guidance as provided by the Executive Agents. 
+For full guidance on PIV credentialing investigative and adjudicative requirements, issuers must work closely with their personnel security/suitability offices to ensure adherence to the latest federal personnel vetting guidance as provided by the Executive Agents. 
 
 
 [^OPM]: For example, [[FCS]](../references/#ref-FCS){:.footnote-ref} and the Federal Investigative Standards or subsequent standards.
@@ -106,13 +106,13 @@ selection and order is specified in [[SP 800-76]](../_Appendix/references.md#ref
 
 ## 2.5 Biometric Data Use {#s-2-5}
 
-The full set of fingerprints SHALL be used for biometric identification against the databases of fingerprints
+The full set of fingerprints SHALL be used for biometric identification against databases of fingerprints
 maintained by the FBI.
 
 
 The two mandatory fingerprints SHALL be used for preparation of biometric templates to be stored on the PIV Card as
 described in [Section 4.2.3.1](frontend.md#s-4-2-3-1). The fingerprints provide an interagency-interoperable authentication
-mechanism through a off-card comparison scheme as described in [Section 6.2.1](authentication.md#s-6-2-1). These fingerprints are also
+mechanism through an off-card comparison scheme as described in [Section 6.2.1](authentication.md#s-6-2-1). These fingerprints are also
 the primary means of authentication during PIV issuance and maintenance processes.
 
 The optional fingerprints MAY be used for preparation of the biometric templates for OCC
@@ -120,7 +120,7 @@ as described in [Section 4.2.3.1](frontend.md#s-4-2-3-1). OCC MAY be used to sup
 [Section 4.3.1](frontend.md#s-4-3-1). OCC MAY also be used for cardholder authentication (OCC-AUTH) as described in [Section 6.2.2](authentication.md#s-6-2-2).
 
 The electronic iris images MAY be stored on the PIV Card as described in [Section 4.2.3.1](frontend.md#s-4-2-3-1). Agencies MAY
-choose to collect electronic iris images as a second biometric characteristic to support multi-modal biometric verification to improve
+choose to collect electronic iris images as an additional biometric characteristic to support multi-modal biometric verification to improve
 accuracy, operational suitability, to accommodate user preferences, or as a backup when fingerprint
 biometric data records are unavailable.
 
@@ -136,6 +136,8 @@ The electronic facial image:
 
 ## 2.6 PIV Enrollment Records {#s-2-6}
 
+> Note: This section was formerly entitled "Chain-of-Trust".
+
 A card issuer MAY optionally maintain, for each PIV Card issued, an archive of enrollment records for the
 identification data it collects. These enrollment records are created and maintained through the methods of 
 contemporaneous acquisition at each step of the PIV issuance process, including identity proofing, registration 
@@ -146,17 +148,17 @@ to multiple transactions that might take place at different times and locations.
 
 [^fingerprints]: For example, ten fingerprints for law enforcement checks MAY be collected at one time and place, and two fingerprints for PIV Card templates MAY be collected at a later time and different place, provided that a biometric comparison confirms that the two fingerprints belong to the original set of ten fingerprints. 
 
-It is recommended that the following data be included in PIV enrollment records:
+PIV enrollment records SHOULD include the following data:
 
 + A log of activities that documents who took the action, what action was taken, when and where the
     action took place, and what data was collected.
 + An enrollment data record that contains the most recent collection of each of the biometric data
     collected. The enrollment data record describes the circumstances of biometric acquisition including
     the name and role of the acquiring agent, the office and organization, time, place, and acquisition
-    method. The enrollment data record may also document unavailable biometric data or failed attempts
-    to collect biometric data. The enrollment data record may contain historical biometric data records.
-+ The most recent unique identifiers (i.e., Federal Agency Smart Credential Number (FASC-N) and
-    Universally Unique IDentifier (UUID)) issued to the individual. The record may contain historical
+    method. The enrollment data record MAY also document unavailable biometric data or failed attempts
+    to collect biometric data. The enrollment data record MAY contain historical biometric data records.
++ The most recent unique identifiers issued to the individual, such as a Federal Agency Smart Credential Number (FASC-N) and
+    Universally Unique Identifier (UUID). The record MAY contain historical
     unique identifiers.
 + Information about the authorizing entity who has approved the issuance of a credential.
 + Current status of the background investigation, including the results of the investigation once
@@ -176,59 +178,50 @@ both in transit and at rest.
 To facilitate interoperability between PIV issuers, systems may import and export enrollment records in the manner and
 representation described in [[SP 800-156]](../_Appendix/references.md#ref-SP-800-156).
 
-PIV enrollment records can be applied in several situations to include:
+PIV enrollment records can be applied in several situations to include
 
 + Extended enrollment: a PIV applicant enrolls a full set of fingerprints for background investigations
-    at one place and time, and two fingerprints for the PIV Card at another place and time. The enrollment record would contain identifiers and two enrollment data records, one with a full-set fingerprint
-    transaction, and one with two fingerprint templates. The two fingerprint templates would be verified
+    at one place and time, and two fingerprints for the PIV Card at another place and time. The enrollment record would contain identifiers and two enrollment data records: one with the full set of fingerprint images collected for the background investigation, and one with two fingerprint templates collected for the PIV Card. The two fingerprint templates would be verified
     against the corresponding fingers in the ten-fingerprint data set in the PIV enrollment record.
-+ Reissuance: a PIV cardholder loses his/her card. Since the card issuer has biometric data
++ Reissuance: a PIV cardholder loses their card. Since the card issuer has biometric data
     records from enrollment, the cardholder can perform a biometric comparison against the biometric data stored in the PIV enrollment record. The card issuer NEED NOT repeat the identity proofing and registration process. The card issuer
     proceeds to issue a new card as described in [Section 2.9.1](requirements.md#s-2-9-1).
 + Interagency transfer: a federal employee is transferred from one agency to another. When the
-    employee leaves the old agency, he/she surrenders the PIV Card and it is destroyed. When the
-    employee arrives at the new agency and is processed in, the card issuer in the new agency requests the
-    employee's PIV enrollment record from the card issuer in the old agency, and receives this record. The
+    employee leaves the old agency, they surrender the PIV Card and it is destroyed. When the
+    employee arrives at the new agency and is processed in, the card issuer in the new agency requests and receives the
+    employee's PIV enrollment record from the card issuer in the old agency. The
     employee performs a biometric comparison against the biometric data stored in this record, and the interaction proceeds as
     described in [Section 2.8.2](requirements.md#s-2-8-2).
 
 ## 2.7 PIV Identity Proofing and Registration Requirements {#s-2-7}
 
-Identity proofing and registration requirements for issuance of PIV Cards meet IAL3 as it follows a tailored process based on [[SP 800-63A]](../_Appendix/references.md#ref-SP-800-63A) IAL3 requirements. Departments and agencies SHALL follow an identity proofing and registration process that meets the requirements defined below when issuing PIV Cards.
+Identity proofing and registration requirements for issuance of PIV Cards meet Identity Assurance Level 3 (IAL3) as they follow a tailored process based on [[SP 800-63A]](../_Appendix/references.md#ref-SP-800-63A) IAL3 requirements. Departments and agencies SHALL follow an identity proofing and registration process that meets the requirements defined below when issuing PIV Cards.
 
 The organization SHALL adopt and use an identity proofing and registration process that is approved in
 accordance with [[SP 800-79]](../_Appendix/references.md#ref-SP-800-79).
 
 Biometrics data SHALL be captured as specified in Sections [2.3](requirements.md#s-2-3) and [2.4](requirements.md#s-2-4).
 
-+ Investigative requirements are specified in Section 2.2.
+Investigative requirements are specified in [Section 2.2](requirements.md#s-2-2).
 
-The process SHALL begin by locating and referencing a completed and favorably adjudicated Tier 1 or higher federal background investigation record. In the absence of a
-record, the process SHALL ensure 
-
-- the initiation of a Tier 1 or higher federal background investigation; and
-- the completion of the National Agency Check (NAC)[^NAC] of the background investigation. In cases where
-    the NAC results are not received within 5 days of the NAC initiation, the FBI NCHC (fingerprint check)
-    portion of the NAC SHALL be complete before PIV Card issuance.
-
-The applicant SHALL appear in-person at least once before the issuance of a PIV Card, either on the premises of the issuer, or at a supervised remote identity proofing station as described in [Section 2.7.1](#s-2-7-1).
+The applicant SHALL appear in-person at least once before the issuance of a PIV Card, either at the issuing facility or at a supervised remote identity proofing station as described in [Section 2.7.1](#s-2-7-1).
 
 During identity proofing, the applicant SHALL be required to provide two forms of identity source
-documents in original form.[^documents] The identity source documents SHALL be bound to that applicant and SHALL
-be neither expired nor cancelled. If the two identity source documents bear different names, evidence
-of a formal name change SHALL be provided. At least one identity source document SHALL meet the requirements of Strong evidence as specified in [[SP 800-63A]](../_Appendix/references.md#ref-SP-800-63A) Section 5.2.1 and be one of the
+documents in original form.[^documents] The identity source documents SHALL be bound to that applicant and SHALL NOT
+be expired or cancelled. If the two identity source documents bear different names, evidence
+of a formal name change SHALL be provided. At least one identity source document SHALL meet the requirements of Strong evidence as specified in [[SP 800-63A]](../_Appendix/references.md#ref-SP-800-63A) and be one of the
 following forms of identification:
 
 * a U.S. Passport or a U.S. Passport Card;
 * a Permanent Resident Card or an Alien Registration Receipt Card (Form I-551);
 * a foreign passport;
 * an Employment Authorization Document that contains a photograph (Form I-766);
-* a [[REAL-ID]](../_Appendix/references.md#ref-REAL-ID) compliant Driver's license or [[REAL-ID]](../_Appendix/references.md#ref-REAL-ID) compliant ID card issued by a state or possession of the United States;
+* a [[REAL-ID]](../_Appendix/references.md#ref-REAL-ID) compliant driver's license or [[REAL-ID]](../_Appendix/references.md#ref-REAL-ID) compliant ID card issued by a state or possession of the United States;
 * a U.S. Military ID card;
 * a U.S. Military dependent's ID card; or
 * a PIV Card.
     
-The second piece of evidence MAY be from the list above, provided it is not of the same type
+The second piece of evidence MAY be from the list above, but it SHALL NOTE be of the same type
 as the primary identity source document.[^second] The second identity source document MAY also be one
 of the following:
 
@@ -251,11 +244,11 @@ of the following:
     authority, possession, or outlying possession of the United States bearing an official seal; or
 * another piece of evidence that meets the requirements of Fair evidence specified in [[SP 800-63A]](../_Appendix/references.md#ref-SP-800-63A) Section 5.2.1.
 
+> Note: One piece of Strong evidence and one other piece of evidence meeting the requirements of Fair evidence in [[SP 800-63A]](../_Appendix/references.md#ref-SP-800-63A) are considered sufficient for issuance of a PIV Card because the requirement for a federal background investigation is considered a compensating control for identity proofing at IAL3.
+
 The PIV identity proofing, registration, issuance, and reissuance processes SHALL adhere to the
 principle of separation of duties to ensure that no single individual has the capability to issue a PIV
 Card without the cooperation of another authorized person.
-
-> Note: One piece of Strong evidence and one other piece of evidence meeting the requirements of Fair evidence in [[SP 800-63A]](../_Appendix/references.md#ref-SP-800-63A) are considered sufficient for issuance of a PIV card because the requirement for a federal background investigation is considered a compensating control for identity proofing at Identity Assurance Level 3.
 
 The identity proofing and registration process used when verifying the identity of the applicant SHALL be
 accredited by the department or agency as satisfying the requirements above and approved in writing by
@@ -263,19 +256,19 @@ the head or deputy secretary (or equivalent) of the federal department or agency
 
 The requirements for identity proofing and registration also apply to citizens of foreign countries who are
 working for the Federal Government overseas. However, a process for identity proofing and registration
-must be established using a method approved by the U.S. Department of State's Bureau of Diplomatic
+SHALL be established using a method approved by the U.S. Department of State's Bureau of Diplomatic
 Security, except for employees under the command of a U.S. area military commander. These procedures
-may vary depending on the country.
+could vary depending on the country.
 
 [^NAC]: The NAC is an automated record check.
 
 [^documents]: Departments and agencies may choose to accept only a subset of the identity source documents listed in this section. For example, in cases where identity proofing for PIV Card issuance is performed prior to verification of employment authorization, departments and agencies MAY choose to require the applicant to provide identity source documents that satisfy the requirements of Form I-9, *Employment Eligibility Verification*, in addition to the requirements specified in this section. It is recommended that departments and agencies perform electronic verification of identity source documents, where possible.
 
-[^second]: For example, if the first source document is a foreign passport (e.g., Italy), the second source document SHOULD NOT be another foreign passport (e.g., France).
+[^second]: For example, if the first source document is a foreign passport (e.g., Italy), the second source document cannot be another foreign passport (e.g., France).
 
 ### 2.7.1 Supervised Remote Identity Proofing {#s-2-7-1}
 
-Departments and agencies MAY use a supervised remote identity proofing process in conjunction with the issuance of PIV Cards. This process involves the use of an issuer-controlled station at a remote location that is connected to a trained operator at a central location. The goal of this arrangement is to permit identity proofing of individuals in remote locations where it is not practical for them to travel to the agency for in-person identity proofing.
+Departments and agencies MAY use a supervised remote identity proofing process for the issuance of PIV Cards. This process involves the use of an issuer-controlled station at a remote location that is connected to a trained operator at a central location. The goal of this arrangement is to permit identity proofing of individuals in remote locations where it is not practical for them to travel to the agency for in-person identity proofing.
 
 Supervised remote identity proofing takes advantage of improvements in sensor technology (cameras and biometric capture devices) and communications bandwidth to closely duplicate the security of in-person identity proofing. This is done through the use of specialized equipment to support an enrollment station that is under the control of either the issuer or a third party that is trusted by the issuer.
 
@@ -313,11 +306,11 @@ of the federal department or agency.
 + PIV Cards are issued after the adjudicative entity has authorized issuance of the credential.
 + The organization SHALL use an approved PIV credential issuance process in accordance with
     [[SP 800-79]](../_Appendix/references.md#ref-SP-800-79).
-+ Before issuing the PIV Card, the issuer should ensure that the individual receiving it has been properly processed per Section 2.1, 2.2 and 2.7.
-+  Biometric data used to personalize the PIV Card must be those captured during the identity proofing and registration process.
++ Before issuing the PIV Card, the issuer should ensure that the individual receiving it has been properly processed per Sections [2.1](requirements.md#s-2-1), [2.2](requirements.md#s-2-2), and [2.7](requirements.md#s-2-7).
++ Biometric data used to personalize the PIV Card must be those captured during the identity proofing and registration process.
 + During the issuance process, the issuer SHALL verify that the individual to whom the PIV Card is to be
     issued is the same as the intended applicant/recipient as approved by the appropriate authority.
-    Before the card is provided to the applicant, the issuer SHALL perform a one-to-one comparison of the
+    Before the PIV Card is provided to the applicant, the issuer SHALL perform a one-to-one comparison of the
     applicant against biometric data records available on the PIV Card or in the chain-of-trust. The one-to-one
     comparison requires either a comparison of fingerprint(s) or, if unavailable, other optional biometric data records that are
     available. Minimum accuracy requirements for the biometric verification are specified in [[SP 800-76]](../_Appendix/references.md#ref-SP-800-76). On
@@ -337,13 +330,13 @@ management, and its integrity.
 
 ### 2.8.1 Special Rule for Pseudonyms {#s-2-8-1}
 
-In limited circumstances federal employees and contractors are permitted to use pseudonyms during the
+In limited circumstances, federal employees and contractors are permitted to use pseudonyms during the
 performance of their official duties with the approval of their employing agency. If an agency determines
-that use of a pseudonym is necessary to protect an employee or contractor (e.g., from physical harm,
-severe distress, or harassment),[^pseudonym] the agency may formally authorize the issuance of a PIV Card to the
+that use of a pseudonym is necessary[^pseudonym] to protect an employee or contractor (e.g., from physical harm,
+severe distress, or harassment), the agency may formally authorize the issuance of a PIV Card to the
 employee or contractor using the agency-approved pseudonym. The issuance of a PIV Card using an
-authorized pseudonym SHALL follow the procedures in [Section 2.8](requirements.md#s-2-8), PIV Card Issuance Requirements,
-except that the card issuer must receive satisfactory evidence that the pseudonym is authorized by the
+authorized pseudonym SHALL follow the procedures in [Section 2.8](requirements.md#s-2-8)
+except that the card issuer SHALL receive satisfactory evidence that the pseudonym is authorized by the
 agency.
 
 [^pseudonym]: See, for example, Section 10.5.7 of the Internal Revenue Service Manual (http://www.irs.gov/irm/index.html), which authorizes approval by an employee's supervisor of the use of a pseudonym to protect the employee's personal safety.
@@ -351,7 +344,7 @@ agency.
 ### 2.8.2 Grace Period {#s-2-8-2}
 
 In some instances an individual's status as a federal employee or contractor will lapse for a brief time
-period. For example, a federal employee may leave one Federal agency for another Federal agency and
+period. For example, a federal employee may leave one federal agency for another federal agency and
 thus occur a short employment lapse period, or an individual who was under contract to a federal agency
 may receive a new contract from that agency shortly after the previous contract expired. In these
 instances, the card issuer MAY issue a new PIV Card without repeating the identity proofing and
