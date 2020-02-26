@@ -47,9 +47,10 @@ person's identity and the PIV Card.
 Authenticator Assurance Level (AAL)
 : A measure of the strength of an authentication mechanism, and therefore the confidence in it, as
 defined in [[SP 800-63]](references.md#ref-SP-800-63) in terms of three levels:
-	- AAL1: SOME confidence
-	- AAL2: HIGH confidence
-	- AAL3: VERY HIGH confidence
+
+  - AAL1: SOME confidence
+  - AAL2: HIGH confidence
+  - AAL3: VERY HIGH confidence
 
 
 Biometric Capture Device
@@ -147,10 +148,11 @@ information technology to achieve a common level of quality or some level of int
 Hash Function
 : A function that maps a bit string of arbitrary length to a fixed length bit string. Secure
 hash functions [[FIPS180]](references.md#ref-FIPS180) satisfy the following properties:
-	1. **One-Way.** It is computationally infeasible to find any input that maps to any pre-specified
-	    output.
-	2. **Collision Resistant.** It is computationally infeasible to find any two distinct inputs that map to
-	    the same output.
+
+  1. **One-Way.** It is computationally infeasible to find any input that maps to any pre-specified
+    output.
+  2. **Collision Resistant.** It is computationally infeasible to find any two distinct inputs that map to
+    the same output.
 
 Identification
 : The process of discovering the identity (i.e., origin, initial history) of a person or item
@@ -196,10 +198,11 @@ Issuing Facility
 : A physical site or location---including all equipment, staff, and
   documentation---that is responsible for carrying out one or more of the
   following PIV functions:
-    * identity proofing/registration;
-    * card/token production;
-    * activation/issuance; and
-    * maintenance.
+  
+  * identity proofing/registration;
+  * card/token production;
+  * activation/issuance; and
+  * maintenance.
 
 Key
 : See "Cryptographic Key."
