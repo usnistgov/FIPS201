@@ -121,20 +121,18 @@ The optional fingerprints MAY be used for preparation of the biometric templates
 as described in [Section 4.2.3.1](frontend.md#s-4-2-3-1). OCC MAY be used to support card activation as described in 
 [Section 4.3.1](frontend.md#s-4-3-1). OCC MAY also be used for cardholder authentication (OCC-AUTH) as described in [Section 6.2.2](authentication.md#s-6-2-2).
 
-The electronic iris images MAY be stored on the PIV Card as described in [Section 4.2.3.1](frontend.md#s-4-2-3-1). Agencies MAY
-choose to collect electronic iris images as a second biometric characteristic to support multi-modal biometric verification to improve
-accuracy, operational suitability, to accommodate user preferences, or as a backup when fingerprint
-biometric data records are unavailable.
+Agencies MAY
+choose to collect electronic iris images as an additional biometric characteristic. If collected,
+the electronic iris images SHALL be stored on the PIV Card as described in [Section 4.2.3.1](frontend.md#s-4-2-3-1).
+Electronic iris images are a secondary means of authentication during PIV issuance and maintenance processes
+when fingerprint biometric data records are unavailable.
 
-The electronic facial image:
-
-+ SHALL be stored on the PIV Card as described in [Section 4.2.3.1](frontend.md#s-4-2-3-1);
-+ SHALL be printed on the PIV Card according to [Section 4.1.4.1](frontend.md#s-4-1-4-1);
-+ MAY be retrieved and displayed on guard workstations to augment 
-    authentication processes from [Section 6.2](authentication.md#s-6-2).
-+ MAY be used by biometric systems in operator-attended PIV issuance, reissuance, and
-    verification data reset processes; and
-+ MAY be used as an additional biometric characteristic to support multi-modal biometric verification to improve accuracy.
+The electronic facial image SHALL be stored on the PIV Card as described in [Section 4.2.3.1](frontend.md#s-4-2-3-1).
+It SHALL be printed on the PIV Card according to [Section 4.1.4.1](frontend.md#s-4-1-4-1) and 
+MAY be retrieved and displayed on guard workstations to augment 
+authentication processes from [Section 6.2](authentication.md#s-6-2).
+The electronic facial image is a secondary means of authentication during operator-attended PIV issuance and maintenance processes
+when fingerprint biometric data records are unavailable.
 
 ## 2.6 PIV Enrollment Records {#s-2-6}
 
