@@ -8,7 +8,7 @@ permalink: /federation/
 
 # 7. Federation Considerations for PIV {#s-7}
 
-Federation protocols allow a trusted identity provider (IdP) to assert a subscriber's identity to a relying party (RP) across a network in a trusted and verifiable fashion. The process and requirements for federation systems are discussed in depth in [[SP 800-63C]](#ref-sp-800-63c). 
+Federation protocols allow a trusted identity provider (IdP) to assert a subscriber's identity to a relying party (RP) across a network in a trusted and verifiable fashion. The process and requirements for federation systems are discussed in depth in [[SP 800-63C]](#ref-sp-800-63C). 
 
 ## 7.1 Connecting PIV to Federation {#s-7-1}
 
