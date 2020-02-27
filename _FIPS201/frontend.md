@@ -6,6 +6,11 @@ navTitle: Front-End
 permalink: /frontend/
 ---
 
+~~~
+\addtocontents{toc}{\protect\pagebreak}
+~~~
+{:latex-literal="true"}
+
 # 4. PIV Front-End Subsystem {#s-4}
 
 This section identifies the requirements for the components of the PIV front-end subsystem. [Section 4.1](frontend.md#s-4-1)

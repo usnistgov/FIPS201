@@ -187,6 +187,10 @@ ol.letter-list > li:before {
     left: -1.4em;
 }
 
+[latex-literal="true"] {
+  display: none !important;
+}
+
 @media screen and (max-width: 767px) {
   .nist-header {
     padding: 6px 10px;
