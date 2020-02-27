@@ -52,7 +52,7 @@ such that
 Federal departments and agencies SHALL use the credentialing eligibility standards issued by the Director of the Office
 of Personnel Management (OPM)[^OPM] and OMB.[^OMB]
 
-Federal departments and agencies must follow investigative requirements established by the Suitability and Credentialing Executive Agent and the Security Executive Agent. Departments and agencies are required to use position designation guidance issued by the Executive Agents.   The designation of the position determines the prerequisite investigative requirement. Individuals being processed for a PIV Card must receive the appropriate required investigation and are subject to any corresponding reinvestigation or continuous vetting requirements as applicable, for issuance and to maintain their workforce PIV eligibility.
+Federal departments and agencies must follow investigative requirements established by the Suitability and Credentialing Executive Agent and the Security Executive Agent. Departments and agencies SHALL use position designation guidance issued by the Executive Agents. The designation of the position determines the prerequisite investigative requirement. Individuals being processed for a PIV Card must receive the appropriate required investigation and are subject to any corresponding reinvestigation or continuous vetting requirements as applicable, for issuance and to maintain their workforce PIV eligibility.
 
 The minimum requirement for PIV Credential eligibility determination is a completed and favorably adjudicated Tier 1[^TierOne] investigation, formerly called a National Agency Check with Written Inquiries (NACI).
 
@@ -353,7 +353,7 @@ be reconnected to the chain-of-trust record.[^lapse]
 
 When issuing a PIV Card under the grace period, the card issuer SHALL verify that PIV Card issuance has
 been authorized by a proper authority and that the employee's or contractor's background investigation is
-valid. Re-investigations SHALL be performed if required, in accordance with the Federal investigative standards. At the time
+valid. Re-investigations SHALL be performed if required, in accordance with the federal investigative standards. At the time
 of issuance, the card issuer SHALL perform biometric verification of the applicant to the chain-of-trust to reconnect to the chain-of-trust. The one-to-one comparison requires either a comparison of fingerprint(s) or, if unavailable, other
 optional biometric data records that are available. On a positive biometric verification decision, the new PIV Card SHALL be released to the
 applicant. If the biometric verification decision is negative, or if no biometric data records are available, the cardholder SHALL provide
@@ -368,13 +368,13 @@ printed on the new PIV Card.
 The PIV Card SHALL be maintained using processes that comply with this section.
 
 The data and credentials held by the PIV Card may need to be updated or invalidated prior to the
-expiration date of the card. The cardholder may change his or her name, retire, or change jobs; or the
-employment may be terminated, thus requiring invalidation of a previously issued card. In this regard,
+expiration date of the card. For example, a previously-issued PIV Card needs to be invalidated when
+the cardholder changes their name or employment status. In this regard,
 procedures for PIV Card maintenance must be integrated into department and agency procedures to
 ensure effective card maintenance. In order to maintain operational readiness of a cardholder's PIV Card,
 agencies may require PIV Card update, reissuance, or biometric enrollment more frequently than the
 maximum PIV Card and biometric characteristic lifetimes stated in this Standard. Shorter lifetimes MAY be specified by
-agency policy collectively, or on a case-by-case basis as sub-par operation is encountered.
+agency policy.
 
 ### 2.9.1 PIV Card Reissuance Requirements {#s-2-9-1}
 
@@ -383,13 +383,13 @@ the entire identity proofing and registration procedure. The reissuance process 
 PIV Card that is nearing expiration, in the event of an employee status or attribute change, or to replace a
 PIV Card that has been compromised, lost, stolen, or damaged. The cardholder may also apply for
 reissuance of a PIV Card if one or more logical credentials have been compromised. The entire identity
-proofing, registration, and issuance process, as described in Sections [2.7](requirements.md#s-2-7) and [2.8](requirements.md#s-2-8), SHALL be repeated if the
+proofing, registration, and issuance processes, as described in Sections [2.7](requirements.md#s-2-7) and [2.8](requirements.md#s-2-8), SHALL be repeated if the
 issuer does not maintain a chain-of-trust record for the cardholder or if the reissuance process was not
 started before the old PIV Card expired.
 
 If the expiration date of the new PIV Card is later than the expiration date of the old card, or if any data
 about the cardholder is being changed, the card issuer SHALL ensure that an adjudicative entity has authorized
-the issuance of the new PIV Card. The issuer SHALL ensure that the adjudicative entity has verified that there is a PIV eligibility determination in the system of record [^record] 
+the issuance of the new PIV Card. The issuer SHALL ensure that the adjudicative entity has verified that there is a PIV eligibility determination in the system of record.[^record] 
 
 [^record]: The identity management system (IDMS) SHOULD reflect the PIV eligibility of each PIV cardholder and the subsequent re-enrollment in Continuous Vetting Program, as appropriate.
 
@@ -409,19 +409,19 @@ The old PIV Card SHALL be revoked when the new PIV Card is issued. The revocatio
     PIV Card must be updated to reflect the change in status.
 + If the old PIV Card cannot be collected and destroyed, or if the old PIV Card has been compromised
     or damaged, then the certification authority (CA) SHALL be informed and the certificates corresponding
-    to the PIV authentication key and asymmetric card authentication key on the old PIV Card SHALL be
-    revoked. If present, the certificates corresponding to the digital signature key and the key
-    management key SHALL also be revoked.
+    to the PIV authentication key ([Section 4.2.2.1](frontend.md#s-4-2-2-1)) and asymmetric card authentication key ([Section 4.2.2.2](frontend.md#s-4-2-2-2)) on the old PIV Card SHALL be
+    revoked. If present, the certificates corresponding to the digital signature key ([Section 4.2.2.1](frontend.md#s-4-2-2-4)) and the key
+    management key ([Section 4.2.2.5](frontend.md#s-4-2-2-5)) SHALL also be revoked.
 
 In the case of a lost, stolen, or compromised card, normal revocation procedures SHALL be completed
 within 18 hours of notification. In certain cases, 18 hours is an unacceptable delay and in those cases
-emergency procedures must be executed to disseminate the information as rapidly as possible.
+emergency procedures SHOULD be executed to disseminate the information as rapidly as possible.
 Departments and agencies are required to have procedures in place to issue emergency notifications in
 such cases.
 
 If there is any data change about the cardholder, the issuer will record this in the chain-of-trust, if
 applicable. If the changed data is the cardholder's name, then the issuer SHALL meet the requirements in
-[Section 2.9.1.1](requirements.md#s-2-9-1-1), Special Rule for Name Change by Cardholder.
+[Section 2.9.1.1](requirements.md#s-2-9-1-1).
 
 Previously collected biometric data MAY be reused with the new PIV Card if the expiration date of the
 new PIV Card is no later than 12 years after the date that the biometric data was obtained. As
@@ -438,47 +438,47 @@ Key management key(s) and certificate(s) MAY be imported to the new PIV Card.
 #### 2.9.1.1 Special Rule for Name Change by Cardholder {#s-2-9-1-1}
 
 Name changes frequently occur as a result of marriage, divorce, or as a matter of personal preference. In
-the event that a cardholder notifies a card issuer that his or her name has changed, and presents the card
+the event that a cardholder notifies a card issuer that their name has changed and presents the card
 issuer with evidence of a formal name change, such as a marriage certificate, a divorce decree, judicial
-recognition of a name change, or other mechanism permitted by State law or regulation, the card issuer
-SHALL issue the cardholder a new card following the procedures set out in [Section 2.9.1](requirements.md#s-2-9-1), PIV Card
-Reissuance Requirements and notify the respective adjudicative entity of the name change to ensure appropriate records are updated. If the expiration date of the new card is no later than the expiration date of the
-old PIV Card and no data about the cardholder, other than the cardholder's name, is being changed, then
+recognition of a name change, or other mechanism permitted by state law or regulation, the card issuer
+SHALL issue the cardholder a new card following the procedures set out in [Section 2.9.1](requirements.md#s-2-9-1)
+and notify the respective adjudicative entity of the name change to ensure appropriate records are updated. If the expiration date of the new card is no later than the expiration date of the
+old PIV Card and no data about the cardholder other than the cardholder's name is being changed, then
 the new PIV Card MAY be issued without obtaining the approval of the adjudicative entity and without
 performing a re-investigation.
 
-### 2.9.2 PIV Card Post Issuance Update Requirements {#s-2-9-2}
+### 2.9.2 PIV Card Post-Issuance Update Requirements {#s-2-9-2}
 
-A PIV Card post issuance update MAY be performed without replacing the PIV Card in cases where none
-of the printed information on the surface of the card is changed. The post issuance update applies to cases
+A PIV Card post-issuance update MAY be performed without replacing the PIV Card in cases where none
+of the printed information on the surface of the card is changed. The post-issuance update applies to cases
 where one or more certificates, keys, biometric data records, or signed data objects are updated. A post
 issuance update SHALL NOT modify the PIV Card expiration date, FASC-N, or UUID.
 
-A PIV Card post issuance update MAY be done locally (performed with the issuer in physical custody of
-the PIV Card) or remotely (performed with the PIV Card at a remote location). Post issuance updates
+A PIV Card post-issuance update MAY be done locally (performed with the issuer in physical custody of
+the PIV Card) or remotely (performed with the PIV Card at a remote location). Post-issuance updates
 SHALL be performed with issuer security controls equivalent to those applied during PIV Card reissuance.
-For remote post issuance updates, the following SHALL apply:
+For remote post-issuance updates, the following SHALL apply:
 
 + Communication between the PIV Card issuer and the PIV Card SHALL occur only over mutually
     authenticated secure sessions between tested and validated cryptographic modules (one being the PIV
     Card).
 + Data transmitted between the PIV Card issuer and PIV Card SHALL be encrypted and contain data
     integrity checks.
-+ The PIV Card Application will communicate with no end point entity other than the PIV Card issuer
-    during the remote post issuance update.
++ The PIV Card Application SHALL communicate with no endpoint entity other than the PIV Card issuer
+    during the remote post-issuance update.
 
-Post issuance updates to biometric data records, other than to the digital signature blocks within the
+Post-issuance updates to biometric data records, other than to the digital signature blocks within the
 biometric data records, SHALL satisfy the requirements for verification data reset specified in [Section 2.9.3](requirements.md#s-2-9-3).
 
-If the PIV authentication key, asymmetric card authentication key, the digital signature key, or the key
-management key was compromised, the corresponding certificate SHALL be revoked.
+If the PIV authentication key ([Section 4.2.2.1](frontend.md#s-4-2-2-1)), asymmetric card authentication key ([Section 4.2.2.2](frontend.md#s-4-2-2-2)), the digital signature key ([Section 4.2.2.1](frontend.md#s-4-2-2-4)), or the key
+management key ([Section 4.2.2.5](frontend.md#s-4-2-2-5)) was compromised, the corresponding certificate SHALL be revoked.
 
 ### 2.9.3 PIV Card Verification Data Reset {#s-2-9-3}
 
 The Personal Identification Number (PIN) on a PIV Card may need to be reset if the cardholder has
-forgotten the PIN or if PIN-based cardholder authentication has been disabled from the usage of an
+forgotten the PIN or if PIN-based cardholder authentication has been disabled by the usage of an
 invalid PIN more than the allowed number of retries. A maximum of ten consecutive PIN retries SHALL be permitted unless a lower limit is stipulated by the department or agency.[^pinreset] PIN reset
-may be performed in-person at an issuing facility, at an unattended kiosk operated by the issuer, or
+may be performed in person at an issuing facility, at an unattended kiosk operated by the issuer, or
 remotely via a general computing platform:
 
 + When PIN reset is performed in-person at the issuing facility, before providing the reset PIV Card
@@ -496,12 +496,12 @@ remotely via a general computing platform:
     * the cardholder initiates a PIN reset with the issuer operator;
     * the operator authenticates the owner of the PIV Card through an independent
         procedure; and
-    * the cardholder's biometric characteristics elicit a positive biometric verification decision when compared to the stored biometric data records on the PIV Card through an on-card one-to-one comparison.
+    * the cardholder's biometric characteristics elicit a positive biometric verification decision when compared to the stored biometric data records on the PIV Card through an on-card one-to-one comparison (OCC).
 
-The remote PIN reset operation SHALL satisfy the requirements for remote post issuance updates
+The remote PIN reset operation SHALL satisfy the requirements for remote post-issuance updates
 specified in [Section 2.9.2](requirements.md#s-2-9-2).
 
-Departments and agencies may adopt more stringent procedures for PIN reset (including disallowing PIN
+Departments and agencies MAY adopt more stringent procedures for PIN reset (including disallowing PIN
 reset). PIN reset procedures SHALL be formally documented by each department and agency.
 
 Regardless of the PIN reset procedure used, the chosen PIN SHALL meet the activation requirements specified in [Section 4.3.1](frontend.md#s-4-3-1).
@@ -516,13 +516,13 @@ specified in [Section 2.7](requirements.md#s-2-7)). An attending operator SHALL 
 electronic facial image retrieved from the enrollment data record and the photograph printed on the PIV Card.
 
 New verification reference data SHALL be enrolled. The PIV Card's activation methods associated with the
-verification data SHALL be reset and the new verification data SHALL be stored on the card.
+verification data SHALL be reset and the new verification data SHALL be stored on the PIV Card.
 
-Departments and agencies may adopt more stringent procedures for verification data reset (including
-disallowing verification data reset); such procedures SHALL be formally documented by each department
+Departments and agencies MAY adopt more stringent procedures for verification data reset (including
+disallowing verification data reset). Such procedures SHALL be formally documented by each department
 and agency.
 
-[^pinreset]: Cardholders MAY change their PINs anytime by providing the current PIN and the new PIN values.
+[^pinreset]: Cardholders MAY change their PINs any time by providing the current PIN and the new PIN values.
 
 ### 2.9.4 PIV Card Termination Requirements {#s-2-9-4}
 
@@ -530,23 +530,23 @@ A PIV card is terminated when the department or agency that issued the card dete
 cardholder is no longer eligible to have a PIV Card. The PIV Card SHALL be terminated under the
 following circumstances:
 
-+ a federal employee separates (voluntarily or involuntarily) from Federal service;
++ a federal employee separates (voluntarily or involuntarily) from federal service;
 + a contractor changes positions and no longer needs access to federal buildings or systems;
 + a cardholder passes away;
 + an authorized adjudicative entity determines after completion of a cardholder's background investigation that the
-    cardholder is ineligible [^ineligible] for a PIV Card; or
+    cardholder is ineligible[^ineligible] for a PIV Card; or
 + a cardholder is determined to hold a fraudulent identity.
 
-[^ineligible]: https://www.opm.gov/suitability/suitability-executive-agent/policy/final-credentialing-standards.pdf, or subsequent standards.
+[^ineligible]: See [[FCS]](../references/#ref-FCS){:.footnote-ref}.
 
 Similar to the situation in which the card or a credential is compromised, normal termination procedures
 must be in place as to ensure the following:
 
-+ The PIV Card itself is revoked:
++ The PIV Card SHALL be revoked through the following procedure:
     * The PIV Card SHALL be collected and destroyed, if possible.
-    * Per OPM guidance, the Central Verification System, or successor, must be updated to reflect the change in status.
-    * Any databases maintained by the PIV Card issuer that indicate current valid (or invalid)
-        FASC-N or UUID values must be updated to reflect the change in status.
+    * Per OPM guidance, the Central Verification System, or successor, SHALL be updated to reflect the change in status.
+    * Any databases maintained by the PIV Card issuer that indicate current valid or invalid
+        FASC-N or UUID values SHALL be updated to reflect the change in status.
     * If the PIV Card cannot be collected and destroyed, the CA SHALL be informed and the
         certificates corresponding to the PIV authentication key and the asymmetric card
         authentication key on the PIV Card SHALL be revoked. The certificates corresponding to the
@@ -556,18 +556,18 @@ must be in place as to ensure the following:
 
 If the card cannot be collected, normal termination procedures SHALL be completed within 18 hours of
 notification. In certain cases, 18 hours is an unacceptable delay and in those cases emergency procedures
-must be executed to disseminate the information as rapidly as possible. Departments and agencies are
+SHOULD be executed to disseminate the information as rapidly as possible. Departments and agencies are
 required to have procedures in place to issue emergency notifications in such cases.
 
 ## 2.10 Derived PIV Credentials {#s-2-10}
 
 ### 2.10.1 Derived PIV Credential Issuance Requirements {#s-2-10-1}
 
-Issuance of a derived PIV credential is an instance of the post-enrollment binding of an authenticator described in [[SP 800-63B]](../_Appendix/references.md#ref-SP-800-63B) Section 6.1.2.1, *Binding of an Additional Authenticator at Existing AAL*, and SHALL be performed in accordance with the requirements of that section as they apply to physical authenticators as well as the requirements below.
+Issuance of a derived PIV credential is an instance of the post-enrollment binding of an authenticator described in [[SP 800-63B]](../_Appendix/references.md#ref-SP-800-63B) and SHALL be performed in accordance with the requirements that apply to physical authenticators as well as the requirements below.
 
-Valid PIV Cards MAY be used as the basis for issuing or binding derived PIV credentials in accordance with NIST
-Special Publication 800-157, *Guidelines for Derived Personal Identity Verification (PIV) Credentials*.
-[[SP 800-157]](../_Appendix/references.md#ref-SP-800-157) Derived PIV credentials MAY be created at the same authentication assurance level as the PIV card itself (AAL3), or MAY be created at a lower AAL (AAL2) depending on the security characteristics of the authenticator. The issuer SHALL attempt to promptly notify the subscriber of the binding of a derived PIV credential through an independent means that would not afford an attacker with an opportunity to erase the notification. More than one independent notification method MAY be used to ensure prompt receipt by the subscriber. Derived PIV credentials SHALL be bound to the subscriber's PIV account only by the issuer of that PIV account.
+The issuing or binding of derived PIV credentials SHALL use valid PIV Cards in accordance with NIST
+Special Publication 800-157, *Guidelines for Derived Personal Identity Verification (PIV) Credentials*
+[[SP 800-157]](../_Appendix/references.md#ref-SP-800-157). Derived PIV credentials MAY be created at the same authentication assurance level as the PIV Card itself (AAL3), or MAY be created at a lower AAL (AAL2) depending on the security characteristics of the authenticator. The issuer SHALL attempt to promptly notify the cardholder of the binding of a derived PIV credential through an independent means that would not afford an attacker with an opportunity to erase the notification. More than one independent notification method MAY be used to ensure prompt receipt by the subscriber. Derived PIV credentials SHALL be bound to the subscriber's PIV account only by the issuer of that PIV account.
 
 ### 2.10.2 Derived PIV Credential Invalidation Requirements {#s-2-10-2}
 
@@ -584,7 +584,7 @@ Upon invalidation of a derived PIV credential, it SHALL no longer be accepted fo
 
 ## 2.11 PIV Privacy Requirements {#s-2-11}
 
-HSPD-12 explicitly states that "protect[ing] personal privacy" is a requirement of the PIV system. As
+[[HSPD-12]](../_Appendix/references.md#ref-HSPD-12) explicitly states that "protect[ing] personal privacy" is a requirement of the PIV system. As
 such, all departments and agencies SHALL implement the PIV system in accordance with the spirit and letter
 of all privacy controls specified in this Standard, as well as those specified in federal privacy laws and
 policies including but not limited to the E-Government Act of 2002 [[E-Gov]](../_Appendix/references.md#ref-E-Gov), the Privacy Act of 1974
@@ -611,11 +611,11 @@ To ensure the privacy throughout PIV lifecycle, departments and agencies SHALL d
     will be collected (e.g., transactional information, PII), the purpose of collection, what information
     may be disclosed to whom during the life of the credential, how the information will be protected, and
     the complete set of uses of the credential and related information at the department or agency.
-    Provide PIV applicants full disclosure of the intended uses of the information associated with the PIV
+- Provide PIV applicants full disclosure of the intended uses of the information associated with the PIV
     Card and the related privacy implications.
 - Assure that systems that contain PII for the purpose of enabling the implementation of PIV are
     handled in full compliance with fair information practices as defined in [[PRIVACY]](../_Appendix/references.md#ref-PRIVACY).
-- Maintain appeals procedures for those who are denied a credential or whose credentials are revoked.
+- Maintain appeal procedures for those who are denied a credential or whose credentials are revoked.
 - Ensure that only personnel with a legitimate need for access to PII in the PIV system are authorized to
     access the PII, including but not limited to information and databases maintained for registration and
     credential issuance.[^access]

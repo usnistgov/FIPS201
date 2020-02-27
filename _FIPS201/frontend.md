@@ -21,8 +21,8 @@ readers.
 ## 4.1 PIV Card Physical Characteristics {#s-4-1}
 
 References to the PIV Card in this section pertain to the physical characteristics only. References to the
-front of the card apply to the side of the card that contains the electronic contacts; references to the back
-of the card apply to the opposite side from the front side.
+front of the card apply to the side of the card that contains electronic contacts; references to the back
+of the card apply to the side opposite of the front side.
 
 The PIV Card's physical appearance and other characteristics should balance the need to have the PIV
 Card commonly recognized as a federal identification card while providing the flexibility to support
@@ -37,7 +37,7 @@ Standardization (ISO)/International Electrotechnical Commission (IEC) 7810 [[ISO
 
 ### 4.1.1 Printed Material {#s-4-1-1}
 
-The printed material SHALL NOT rub off during the life of the PIV Card, nor SHALL the printing process
+The printed material SHALL NOT rub off during the life of the PIV Card, and the printing process SHALL NOT 
 deposit debris on the printer rollers during printing and laminating. Printed material SHALL NOT interfere
 with the contact and contactless ICC(s) and related components, nor SHALL it obstruct access to machine-readable information.
 
@@ -51,7 +51,7 @@ To combat counterfeiting and alterations, the PIV Card SHALL contain security fe
 
 A PIV Card SHALL incorporate at least one security feature at inspection level 1 or inspection level 2.  Federal departments and agencies are strongly encouraged to incorporate additional security features and to include all three inspection levels.
 
-Incorporation of security features SHALL:
+Incorporation of security features SHALL
 
 - be in accordance with durability requirements;
 - be free of defects, such as fading and discoloration;

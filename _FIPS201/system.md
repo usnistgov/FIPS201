@@ -9,13 +9,13 @@ permalink: /system/
 
 *This section is informative.*
 
-The PIV system is composed of components and processes that support a common (smart card-based)
+The PIV system is composed of components and processes that support a common
 platform for identity authentication across federal departments and agencies for access to multiple types
 of physical and logical access environments. The specifications for the PIV components in this Standard
 promote uniformity and interoperability among the various PIV system components, across departments
 and agencies, and across installations. The specifications for processes in this Standard are a set of
 minimum requirements for the various activities that need to be performed within an operational PIV
-system. When implemented in accordance with this Standard, the PIV Card supports a suite of
+system. When implemented in accordance with this Standard, the PIV Card and derived PIV credentials support a suite of
 authentication mechanisms that can be used consistently across departments and agencies. The
 authenticated identity information can then be used as a basis for access control in various federal
 physical and logical access environments. The following sections briefly discuss the functional
@@ -148,7 +148,7 @@ Descriptions of the seven card lifecycle activities are as follows:
     to an applicant and the validation of this request.
 - **Identity Proofing and Registration.**[^enroll] The goal of this activity is to verify the claimed identity of the
     applicant, verify that the entire set of identity source documents presented at the time of registration is
-    valid, capture biometric characteristics, and optionally create the PIV enrollment record record.
+    valid, capture biometric characteristics, and optionally create the PIV enrollment record.
 - **PIV Card Issuance.** This activity deals with the personalization (physical and logical) of the card
     and the issuance of the card to the intended applicant.
 - **PKI Credential Issuance.** This activity deals with generating logical credentials and loading them
@@ -157,7 +157,7 @@ Descriptions of the seven card lifecycle activities are as follows:
     access to a physical or logical resource. Access authorization decisions are made after successful
     cardholder identification and authentication.
 - **PIV Card Maintenance.** This activity deals with the maintenance or update of the physical card and
-    the data stored thereon. Such data includes various card applications, PINs, PKI credentials, and
+    its data data. Such data includes various card applications, PINs, PKI credentials, and
     biometric data.
 - **PIV Card Termination.** The termination process is used to permanently destroy or invalidate the
     PIV Card and the data and keys needed for authentication so as to prevent any future use of the card
