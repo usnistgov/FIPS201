@@ -30,7 +30,7 @@ This normative appendix provides additional details for the PIV objects identifi
 |PIV Extended Key Usage|||
 |id-PIV-content-signing|2.16.840.1.101.3.6.7|This specifies that the public key MAY be used to verify signatures on CHUIDs and biometric data record.|
 |id-PIV-cardAuth|2.16.840.1.101.3.6.8|This specifies that the public key is used to authenticate the PIV Card rather than the PIV cardholder.|
-{:latex-table="B-1" latex-caption="PIV Object Identifiers"}
+{:latex-columns="p@0.25\textwidth,p@0.25\textwidth,p@0.41\textwidth" latex-table="B-1" latex-caption="PIV Object Identifiers"}
 
 The OIDs for certificate policies are specified in [[COMMON]](references.md#ref-COMMON).
 
