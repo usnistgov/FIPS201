@@ -513,7 +513,7 @@ reset). PIN reset procedures SHALL be formally documented by each department and
 
 Regardless of the PIN reset procedure used, the chosen PIN SHALL meet the activation requirements specified in [Section 4.3.1](frontend.md#s-4-3-1).
 
-The PIV Card's activation methods for biometric on-card on-to-one comparison (OCC) may also be reset  (i.e., re-enrollment) by the card issuer. Before the reset, the issuer SHALL perform a biometric verification of the cardholder to the chain-of-trust to reconnect to the chain-of-trust.The biometric characteristic used for the biometric verification SHALL NOT be the same as the OCC biometric characteristic being reset. For example, to reset the OCC activation method, an iris one-to-one comparison
+The PIV Card's activation methods for biometric on-card on-to-one comparison (OCC) may also be reset  (i.e., re-enrollment) by the card issuer. Before the reset, the issuer SHALL perform a biometric verification of the cardholder to the chain-of-trust to reconnect to the chain-of-trust. The biometric characteristic used for the biometric verification SHALL NOT be the same as the OCC biometric characteristic being reset. For example, to reset the OCC activation method, an iris one-to-one comparison
 could be used to reconnect to the chain-of-trust. If no alternative biometric data records are available, the
 cardholder SHALL provide the PIV Card to be reset and another primary identity source document (as
 specified in [Section 2.7](requirements.md#s-2-7)). An attending operator SHALL inspect these and compare the cardholder with the
