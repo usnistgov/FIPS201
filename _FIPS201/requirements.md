@@ -392,9 +392,7 @@ the entire identity proofing and registration procedure. The reissuance process 
 PIV Card that is nearing expiration, in the event of an employee status or attribute change, or to replace a
 PIV Card that has been compromised, lost, stolen, or damaged. The cardholder may also apply for
 reissuance of a PIV Card if one or more logical credentials have been compromised. The entire identity
-proofing, registration, and issuance process, as described in Sections [2.7](requirements.md#s-2-7) and [2.8](requirements.md#s-2-8), SHALL be repeated if the
-issuer does not maintain a chain-of-trust record for the cardholder or if the reissuance process was not
-started before the old PIV Card expired.
+proofing, registration, and issuance process, as described in Sections [2.7](requirements.md#s-2-7) and [2.8](requirements.md#s-2-8), SHALL be repeated if the issuer does not maintain a chain-of-trust record for the cardholder. The entire identity proofing, registation, and issuance process SHALL also be repeated if the reissuance process was not started before the old PIV Card expired.
 
 If the expiration date of the new PIV Card is later than the expiration date of the old card, or if any data
 about the cardholder is being changed, the card issuer SHALL ensure that an adjudicative entity has authorized
@@ -482,7 +480,7 @@ biometric data records, SHALL satisfy the requirements for verification data res
 If the PIV authentication key, asymmetric card authentication key, the digital signature key, or the key
 management key was compromised, the corresponding certificate SHALL be revoked.
 
-### 2.9.3 PIV Card Verification Data Reset {#s-2-9-3}
+### 2.9.3 PIV Card Activation Reset {#s-2-9-3}
 
 The Personal Identification Number (PIN) on a PIV Card may need to be reset if the cardholder has
 forgotten the PIN or if PIN-based cardholder authentication has been disabled from the usage of an
@@ -515,20 +513,17 @@ reset). PIN reset procedures SHALL be formally documented by each department and
 
 Regardless of the PIN reset procedure used, the chosen PIN SHALL meet the activation requirements specified in [Section 4.3.1](frontend.md#s-4-3-1).
 
-Verification data other than the PIN may also be reset (i.e., re-enrollment) by the card issuer. Before the
-reset, the issuer SHALL perform a biometric verification of the cardholder to the chain-of-trust to reconnect to the chain-of-trust.
-The biometric characteristic used for the biometric verification SHALL NOT be the same as the biometric characteristic that is being
-reset. For example, if fingerprint templates for on-card comparison are being reset, then an iris one-to-one comparison
+The PIV Card's activation methods for biometric on-card on-to-one comparison (OCC) may also be reset  (i.e., re-enrollment) by the card issuer. Before the reset, the issuer SHALL perform a biometric verification of the cardholder to the chain-of-trust to reconnect to the chain-of-trust.The biometric characteristic used for the biometric verification SHALL NOT be the same as the OCC biometric characteristic being reset. For example, to reset the OCC activation method, an iris one-to-one comparison
 could be used to reconnect to the chain-of-trust. If no alternative biometric data records are available, the
 cardholder SHALL provide the PIV Card to be reset and another primary identity source document (as
 specified in [Section 2.7](requirements.md#s-2-7)). An attending operator SHALL inspect these and compare the cardholder with the
 electronic facial image retrieved from the enrollment data record and the photograph printed on the PIV Card.
 
-New verification reference data SHALL be enrolled. The PIV Card's activation methods associated with the
-verification data SHALL be reset and the new verification data SHALL be stored on the card.
+The new PIN or OCC biometric data SHALL be enrolled. The PIV Card's activation methods associated with the
+PIN or OCC SHALL be reset and the new PIN or OCC biometric data record SHALL be stored on the card.
 
-Departments and agencies may adopt more stringent procedures for verification data reset (including
-disallowing verification data reset); such procedures SHALL be formally documented by each department
+Departments and agencies may adopt more stringent procedures for PIN/OCC reset (including
+disallowing resets); such procedures SHALL be formally documented by each department
 and agency.
 
 [^pinreset]: Cardholders MAY change their PINs anytime by providing the current PIN and the new PIN values.
