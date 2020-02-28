@@ -25,7 +25,8 @@ components of the PIV system and the lifecycle activities of the PIV Card.
 
 An operational PIV system can be logically divided into the following three major subsystems:
 
-- **PIV Front-End Subsystem**—PIV Card, card readers, biometric capture devices, and PIN input device. The PIV
+- **PIV Front-End Subsystem**—the PIV Card, card readers, biometric capture devices, and PIN input devices
+    as well as any Derived PIV Credentials used by the PIV cardholder. The PIV
     cardholder interacts with these components to gain physical or logical access to the desired federal
     resource.
 - **PIV Card Issuance and Management Subsystem**—the components responsible for identity
