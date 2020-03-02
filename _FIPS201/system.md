@@ -29,7 +29,7 @@ An operational PIV system can be logically divided into the following three majo
     as well as any Derived PIV Credentials used by the PIV cardholder. The PIV
     cardholder interacts with these components to gain physical or logical access to the desired federal
     resource.
-- **PIV Card Issuance and Management Subsystem**—the components responsible for identity
+- **PIV Issuance and Management Subsystem**—the components responsible for identity
     proofing and registration, card and key issuance and management, and the various repositories and
     services (e.g., public key infrastructure (PKI) directory, certificate status servers) required as part of
     the verification infrastructure. This subsystem also manages the binding and termination of derived PIV credentials as described in [Section 2.10](requirements.md#s-2-10).
