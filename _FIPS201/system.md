@@ -36,10 +36,11 @@ An operational PIV system can be logically divided into the following three majo
 - **PIV Relying Subsystem**—the physical and logical access control systems, the protected resources,
     and the authorization data.
 
-The PIV relying subsystem becomes relevant when the PIV Card is used to authenticate a cardholder who
+The PIV relying subsystem becomes relevant when the PIV Card or derived PIV credential is used to authenticate a cardholder who
 is seeking access to a physical or logical resource. Although this Standard does not provide technical
 specifications for this subsystem, various mechanisms for identification and authentication are defined in
-[Section 6](authentication.md#s-6) to provide consistent and secure means for performing the authentication function preceding an
+[Section 6](authentication.md#s-6) for PIV Cards and in [[SP 800-157]](../_Appendix/references.md#ref-SP-800-157) for derived PIV credentials
+to provide consistent and secure means for performing the authentication function preceding an
 access control decision.
 
 [Figure 3-1](#fig-3-1){:name="fig-3-1"}
