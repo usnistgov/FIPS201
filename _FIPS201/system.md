@@ -52,10 +52,10 @@ is not meant to preclude FIPS 201 requirements on systems outside these boundari
 ### 3.1.1 PIV Front-End Subsystem {#s-3-1-1}
 
 The PIV Card will be issued to the applicant when all identity proofing, registration, and issuance
-processes have been completed. The PIV Card has a credit card-size form factor, with one or more
+processes have been completed. Derived PIV credential might also be issued as additional PIV credentials after post-enrollment binding is complete. The PIV Card has a credit card-size form factor, with one or more
 embedded integrated circuit chips (ICC) that provide memory capacity and computational capability. The
 PIV Card is the primary component of the PIV system. The holder uses the PIV Card for authentication
-to various physical and logical resources.
+to various physical and logical resources. Derived PIV credentials increasingly play an important role as additional authenticators, especially in environments where use of the PIV Card is not easily supported. These AAL-2 and/or AAL-3 multi-factor PIV authenticators are not embedded on the PIV Card, but rather are standalone or integrated in a variety of devices/platforms. 
 
 Card readers are located at access points for controlled resources where a cardholder may wish to gain
 access (physical and logical) by using the PIV Card. The reader communicates with the PIV Card to
@@ -65,7 +65,7 @@ systems for granting or denying access.
 Card writers, which are very similar to the card readers, personalize and initialize the information stored
 on PIV Cards. Card writers MAY also be used to perform remote PIV Card updates (see [Section 2.9.2](requirements.md#s-2-9-2)).
 The data to be stored on PIV Cards includes personal information, certificates, cryptographic keys, the
-PIN, and biometric data, and is discussed in further detail in subsequent sections.
+PIN, and biometric data.
 
 PIN input devices can be used along with card readers when a higher level of authentication assurance is
 required. The cardholder presenting the PIV Card must type in his or her PIN into the PIN input device.
@@ -82,6 +82,8 @@ comparison with a real-time captured biometric sample. The use of biometric char
 authentication ("something you are") in addition to entering the PIN ("something you know") and
 providing the card ("something you have") for cryptographic key-based authentication. This provides for
 a higher level of authentication assurance.
+
+Other input devices for derived PIV credentials might be applicable but are not described in this section. Details on their properties and functionalies will be specified in SP 800-157 if needed.
 
 [^somethingyouknow]: For more information on the terms "something you know," "something you have," and "something you are," see [[SP 800-63]](../_Appendix/references.md#ref-SP-800-63).
 [^oncardbiometric]: Alternatively, a biometric on-card one-to-one comparison can be used to activate the PIV Card.
@@ -104,12 +106,14 @@ The enterprise IDMS serves as the central repository for the cardholder’s digi
 ### 3.1.3 PIV Relying Subsystem {#s-3-1-3}
 
 The PIV relying subsystem includes components responsible for determining a particular PIV
-cardholder's access to a physical or logical resource. A physical resource is the secured facility (e.g.,
+cardholder's access to a physical or logical resource.[^DPC] A physical resource is the secured facility (e.g.,
 building, room, parking garage) that the cardholder wishes to access. The logical resource is typically a
 network or a location on the network (e.g., computer workstation, folder, file, database record, software
 program) to which the cardholder wants to gain access.
 
-The authorization data component comprises information that defines the privileges (authorizations)
+[^DPC]:  The cardholder may authenticate with the PIV card or a derived PIV credential.
+
+The relying system depends on an authorization data component that defines the privileges (authorizations)
 possessed by entities requesting to access a particular logical or physical resource. An example of this is
 an access control list (ACL) associated with a file on a computer system.
 
@@ -125,10 +129,12 @@ status service.
 
 ## 3.2 PIV Card Lifecycle Activities {#s-3-2}
 
-The PIV Card lifecycle consists of seven activities. The activities that take place during fabrication and
+The PIV Card lifecycle consists of seven activities. [^DPCLifecyle] The activities that take place during fabrication and
 pre-personalization of the card at the manufacturer are not considered a part of this lifecycle model.
 [Figure 3-2](#fig-3-2) presents these PIV activities and depicts the PIV Card request as the initial activity and PIV
 Card termination as the end of life.
+
+[^DPCLifecycle]: The lifecyle activities of derived PIV credential are described in SP 800-157.
 
 [Figure 3-2. PIV Card Lifecycle Activities](#fig-3-2){:name="fig-3-2"}
 
