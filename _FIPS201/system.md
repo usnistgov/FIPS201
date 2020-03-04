@@ -86,26 +86,20 @@ a higher level of authentication assurance.
 [^somethingyouknow]: For more information on the terms "something you know," "something you have," and "something you are," see [[SP 800-63]](../_Appendix/references.md#ref-SP-800-63).
 [^oncardbiometric]: Alternatively, a biometric on-card one-to-one comparison can be used to activate the PIV Card.
 
-### 3.1.2 PIV Card Issuance and Management Subsystem {#s-3-1-2}
+### 3.1.2 PIV Issuance and Management Subsystem {#s-3-1-2}
 
-The identity proofing and registration component in [Figure 3-1](#fig-3-1) refers to the process of collecting, storing,
-and maintaining all information and documentation that is required for verifying and assuring the
-applicant's identity. Various types of information are collected from the applicant at the time of
-registration.
+The registration and issuance activties in [Figure 3-1](#fig-3-1) starts with identity proofing and registration where all information and documentation required for identity proofing and registration (i.e., enrollment) are collected, stored and maintained. The collected information is subsequently used to personalize and issue the PIV Card as well as binding and issuing derived PIV credentials as additional PIV authenticators.
 
-The card issuance and maintenance component deals with the personalization of the physical (visual
+The PIV card issuance process focuses on the personalization of the physical (visual
 surface) and logical (contents of the ICC) aspects of the card at the time of issuance and maintenance
 thereafter. This includes printing photographs, names, and other information on the card and loading the
 relevant card applications, biometric data, and other data.
 
-The key management component is responsible for the generation of key pairs, the issuance and
-distribution of digital certificates containing the public keys of the cardholder, and management and
-dissemination of certificate status information. The key management component is used throughout the
-lifecycle of PIV Cards—from generation and loading of authentication keys and PKI credentials, to usage
-of these keys for secure operations, to eventual reissuance or termination of the card. The key
-management component is also responsible for the provisioning of publicly accessible repositories and
-services (such as PKI directories and certificate status responders) that provide information to the
-requesting application about the status of the PKI credentials.
+The PKI component provides services for the PKI-based PIV credentials. This component is used throughout the
+lifecycle of PIV Cards and PKI-based derived PIV credentials—from generation and loading of authentication keys and PKI credentials, to usage of these keys for secure operations, to eventual reissuance or termination of the card and associated derived PIV credentials. At the personalization phase, the PKI component issues and distributes the digital certificates for the keys generated on-card and keys generated for PKI-based derived PIV credentials. During use of the PIV credentials at authentication, the PKI component provides 
+requesting application certificate status information of the PKI credentials requesting access.
+
+The enterprise IDMS serves as the central repository for the cardholder’s digital identities.  It is where the relevant cardholder attributes are maintained.  The IDMS creates the PIV account and associates the cardholder's PIV Card and derived PIV credentials with the account.  The account is maintained throughout the cardholder’s employment with the organization. Various ICAM related system connect to the IDMS to request or update cardholder attribute:  for example, the  Security office to provide updated background investigative information in the IDMS,  the HR system relating hiring status updates, and relying parties, for whom the IDMS may serves as the Credential Service Provider by authenticating the PIV Credential holder and  issues assertions derived from the credential.  
 
 ### 3.1.3 PIV Relying Subsystem {#s-3-1-3}
 
