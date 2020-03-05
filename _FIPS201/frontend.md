@@ -396,13 +396,13 @@ uncorrected) at a working distance of 50 cm to 200 cm.
 [Table 4-2. Color Representation](#table-4-2){:name="table-4-2"}
 {:latex-ignore="true"}
 
-|Color|Zone|sRGB Tristimulus Value|sRGB Value|CMYK Value|Pantone|
+|Color|Zone|sRGB Tristimulus|sRGB|CMYK|Pantone|
 |---|---|---|---|---|
-|White|15F|{255, 255, 255}|{255, 255, 255}|{0, 0, 0, 0}|white|
-|Green|15F|{153, 255, 153}|{203, 255, 203}|{40, 0, 40, 0}|359C|
-|Blue|15F|{0, 255, 255}|{0, 255, 255}|{100, 0, 0, 0}|630C
-|Red|12F|{253, 27, 20}|{254, 92, 79}|{0, 90, 86, 0}|032C|
-{:latex-columns="p@0.1\textwidth,p@0.07\textwidth,p@0.3\textwidth,p@0.20\textwidth,p@0.20\textwidth" latex-table="4-2" latex-caption="Color Representation"}
+|White|15F|255, 255, 255|255, 255, 255|0, 0, 0, 0|white|
+|Green|15F|153, 255, 153|203, 255, 203|40, 0, 40, 0|359C|
+|Blue|15F|0, 255, 255|0, 255, 255|100, 0, 0, 0|630C
+|Red|12F|253, 27, 20|254, 92, 79|0, 90, 86, 0|032C|
+{:latex-columns="p@0.09\textwidth,p@0.07\textwidth,p@0.22\textwidth,p@0.17\textwidth,p@0.15\textwidth,p@0.11\textwidth" latex-table="4-2" latex-caption="Color Representation"}
 
 [^pantone]: Pantone is a registered name protected by law.
 
