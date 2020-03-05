@@ -55,7 +55,7 @@ The PIV Card will be issued to the applicant when all identity proofing, registr
 processes have been completed. Derived PIV credential might also be issued as additional PIV credentials after post-enrollment binding is complete. The PIV Card has a credit card-size form factor, with one or more
 embedded integrated circuit chips (ICC) that provide memory capacity and computational capability. The
 PIV Card is the primary component of the PIV system. The holder uses the PIV Card for authentication
-to various physical and logical resources. Derived PIV credentials increasingly play an important role as additional authenticators, especially in environments where use of the PIV Card is not easily supported. These AAL-2 and/or AAL-3 multi-factor PIV authenticators are not embedded on the PIV Card, but rather are standalone or integrated in a variety of devices/platforms. 
+to various physical and logical resources. Derived PIV credentials increasingly play an important role as additional authenticators, especially in environments where use of the PIV Card is not easily supported. These AAL2 and/or AAL3 authenticators are not embedded in the PIV Card, but rather are stand-alone or integrated in a variety of devices/platforms. 
 
 Card readers are located at access points for controlled resources where a cardholder may wish to gain
 access (physical and logical) by using the PIV Card. The reader communicates with the PIV Card to
