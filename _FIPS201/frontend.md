@@ -170,16 +170,16 @@ MAY be abbreviated. The special character "." (period) SHALL indicate such abbre
 
 |Name|Characteristics|Example|
 |---|---|---|
-|John Doe|simple full name of individual who does not have a middle name, two lines sufficient with 10 points.|![]({{site.baseurl}}/{{page.collection}}/images/name1.png){:style="width: 400px;" latex-src="name1.png"}|
-|Anna Maria Eriksson|simple full name, two lines sufficient with 10 points.|![]({{site.baseurl}}/{{page.collection}}/images/name2.png){:style="width: 400px;" latex-src="name2.png"}|
-|Anna Maria Eriksson|simple full name with abbreviated middle name, two lines sufficient with 10 points.|![]({{site.baseurl}}/{{page.collection}}/images/name3.png){:style="width: 400px;" latex-src="name3.png"}|
-|Anna Maria Eriksson|simple full name, one line sufficient for full name with 10 points.|![]({{site.baseurl}}/{{page.collection}}/images/name4.png){:style="width: 400px;" latex-src="name4.png"}|
-|Susie Margaret Smith-Jones|longer full name in two lines, sufficient space in 10 points.|![]({{site.baseurl}}/{{page.collection}}/images/name5.png){:style="width: 400px;" latex-src="name5.png"}|
-|Susie Margaret Smith-Jones|longer full name wrapped, two lines sufficient with 10 points.|![]({{site.baseurl}}/{{page.collection}}/images/name6.png){:style="width: 400px;" latex-src="name6.png"}|
-|Chayapa Dejthamrong Krusuang Nilavadhanananda|longer full name wrapped, two lines NOT sufficient with 10 points. Reduce the font size to 8 points.|![]({{site.baseurl}}/{{page.collection}}/images/name7.png){:style="width: 400px;" latex-src="name7.png"}|
-|Vaasa Silvaan Beenelong Wooloomooloo Warrandyte Warwarnambool|longer full name, two lines NOT sufficient with 8 point, 7 point allows sufficient space for three lines in Zone 2F.|![]({{site.baseurl}}/{{page.collection}}/images/name8.png){:style="width: 400px;" latex-src="name8.png"}|
-|Vaasa Silvaan Beenelong Wooloomooloo Warrandyte Warwarnambool|same as previous but full name is wrapped.|![]({{site.baseurl}}/{{page.collection}}/images/name9.png){:style="width: 400px;" latex-src="name9.png"}|
-|Dingo Pontooroomooloo Vaasa Silvaan Beenelong Wooloomooloo Warrandyte Warwarnambool|truncated full name, three lines with 7 point NOT sufficient.|![]({{site.baseurl}}/{{page.collection}}/images/name10.png){:style="width: 400px;" latex-src="name10.png"}|
+|John Doe|simple full name of individual who does not have a middle name, two lines sufficient with 10 points.|![]({{site.baseurl}}/{{page.collection}}/images/name1.png){:style="width: 400px;" latex-src="name1.pdf"}|
+|Anna Maria Eriksson|simple full name, two lines sufficient with 10 points.|![]({{site.baseurl}}/{{page.collection}}/images/name2.png){:style="width: 400px;" latex-src="name2.pdf"}|
+|Anna Maria Eriksson|simple full name with abbreviated middle name, two lines sufficient with 10 points.|![]({{site.baseurl}}/{{page.collection}}/images/name3.png){:style="width: 400px;" latex-src="name3.pdf"}|
+|Anna Maria Eriksson|simple full name, one line sufficient for full name with 10 points.|![]({{site.baseurl}}/{{page.collection}}/images/name4.png){:style="width: 400px;" latex-src="name4.pdf"}|
+|Susie Margaret Smith-Jones|longer full name in two lines, sufficient space in 10 points.|![]({{site.baseurl}}/{{page.collection}}/images/name5.png){:style="width: 400px;" latex-src="name5.pdf"}|
+|Susie Margaret Smith-Jones|longer full name wrapped, two lines sufficient with 10 points.|![]({{site.baseurl}}/{{page.collection}}/images/name6.png){:style="width: 400px;" latex-src="name6.pdf"}|
+|Chayapa Dejthamrong Krusuang Nilavadhanananda|longer full name wrapped, two lines NOT sufficient with 10 points. Reduce the font size to 8 points.|![]({{site.baseurl}}/{{page.collection}}/images/name7.png){:style="width: 400px;" latex-src="name7.pdf"}|
+|Vaasa Silvaan Beenelong Wooloomooloo Warrandyte Warwarnambool|longer full name, two lines NOT sufficient with 8 point, 7 point allows sufficient space for three lines in Zone 2F.|![]({{site.baseurl}}/{{page.collection}}/images/name8.png){:style="width: 400px;" latex-src="name8.pdf"}|
+|Vaasa Silvaan Beenelong Wooloomooloo Warrandyte Warwarnambool|same as previous but full name is wrapped.|![]({{site.baseurl}}/{{page.collection}}/images/name9.png){:style="width: 400px;" latex-src="name9.pdf"}|
+|Dingo Pontooroomooloo Vaasa Silvaan Beenelong Wooloomooloo Warrandyte Warwarnambool|truncated full name, three lines with 7 point NOT sufficient.|![]({{site.baseurl}}/{{page.collection}}/images/name10.png){:style="width: 400px;" latex-src="name10.pdf"}|
 {:latex-columns="p@0.28\textwidth,p@0.38\textwidth,m@0.25\textwidth" latex-table="4-1" latex-caption="Name Examples"}
 
 *Zone 8F—Employee Affiliation*. An employee affiliation SHALL be printed on the card as depicted in 
@@ -343,42 +343,42 @@ legislatively mandated medical entitlements.
 [Figure 4-1. Card Front—Printable Areas and Required Data](#fig-4-1){:name="fig-4-1"}
 {:latex-ignore="true"}
 
-![Card Front—Printable Areas and Required Data]({{site.baseurl}}/{{page.collection}}/images/cardfront-required.png){:style="width: 1047px;" latex-src="cardfront-required.eps" latex-fig="4-1"}
+![Card Front—Printable Areas and Required Data]({{site.baseurl}}/{{page.collection}}/images/cardfront-required.png){:style="width: 1047px;" latex-src="cardfront-required.pdf" latex-fig="4-1"}
 
 [Figure 4-2. Card Front—Optional Data Placement—Example 1](#fig-4-2){:name="fig-4-2"}
 {:latex-ignore="true"}
 
-![Card Front—Optional Data Placement—Example 1]({{site.baseurl}}/{{page.collection}}/images/cardfront-optional1.png){:style="width: 1047px;" latex-src="cardfront-optional1.eps" latex-fig="4-2"}
+![Card Front—Optional Data Placement—Example 1]({{site.baseurl}}/{{page.collection}}/images/cardfront-optional1.png){:style="width: 1047px;" latex-src="cardfront-optional1.pdf" latex-fig="4-2"}
 
 [Figure 4-3. Card Front—Optional Data Placement—Example 2](#fig-4-3){:name="fig-4-3"}
 {:latex-ignore="true"}
 
-![Card Front—Optional Data Placement—Example 2]({{site.baseurl}}/{{page.collection}}/images/cardfront-optional2.png){:style="width: 1047px;" latex-src="cardfront-optional2.eps" latex-fig="4-3"}
+![Card Front—Optional Data Placement—Example 2]({{site.baseurl}}/{{page.collection}}/images/cardfront-optional2.png){:style="width: 1047px;" latex-src="cardfront-optional2.pdf" latex-fig="4-3"}
 
 [Figure 4-4. Card Front—Optional Data Placement—Example 3](#fig-4-4){:name="fig-4-4"}
 {:latex-ignore="true"}
 
-![Card Front—Optional Data Placement—Example 3]({{site.baseurl}}/{{page.collection}}/images/cardfront-optional3.png){:style="width: 1047px;" latex-src="cardfront-optional3.eps" latex-fig="4-4"}
+![Card Front—Optional Data Placement—Example 3]({{site.baseurl}}/{{page.collection}}/images/cardfront-optional3.png){:style="width: 1047px;" latex-src="cardfront-optional3.pdf" latex-fig="4-4"}
 
 [Figure 4-5. Card Front—Optional Data Placement—Example 4](#fig-4-5){:name="fig-4-5"}
 {:latex-ignore="true"}
 
-![Card Front—Optional Data Placement—Example 4]({{site.baseurl}}/{{page.collection}}/images/cardfront-optional4.png){:style="width: 1047px;" latex-src="cardfront-optional4.eps" latex-fig="4-5"}
+![Card Front—Optional Data Placement—Example 4]({{site.baseurl}}/{{page.collection}}/images/cardfront-optional4.png){:style="width: 1047px;" latex-src="cardfront-optional4.pdf" latex-fig="4-5"}
 
 [Figure 4-6. Card Back—Printable Areas and Required Data](#fig-4-6){:name="fig-4-6"}
 {:latex-ignore="true"}
 
-![Card Back—Printable Areas and Required Data]({{site.baseurl}}/{{page.collection}}/images/cardback-required.png){:style="width: 1047px;" latex-src="cardback-required.eps" latex-fig="4-6"}
+![Card Back—Printable Areas and Required Data]({{site.baseurl}}/{{page.collection}}/images/cardback-required.png){:style="width: 1047px;" latex-src="cardback-required.pdf" latex-fig="4-6"}
 
 [Figure 4-7. Card Back—Optional Data Placement—Example 1](#fig-4-7){:name="fig-4-7"}
 {:latex-ignore="true"}
 
-![Card Back—Optional Data Placement—Example 1]({{site.baseurl}}/{{page.collection}}/images/cardback-optional1.png){:style="width: 1047px;" latex-src="cardback-optional1.eps" latex-fig="4-7"}
+![Card Back—Optional Data Placement—Example 1]({{site.baseurl}}/{{page.collection}}/images/cardback-optional1.png){:style="width: 1047px;" latex-src="cardback-optional1.pdf" latex-fig="4-7"}
 
 [Figure 4-8. Card Back—Optional Data Placement—Example 2](#fig-4-8){:name="fig-4-8"}
 {:latex-ignore="true"}
 
-![Card Back—Optional Data Placement—Example 2]({{site.baseurl}}/{{page.collection}}/images/cardback-optional2.png){:style="width: 1047px;" latex-src="cardback-optional2.eps" latex-fig="4-8"}
+![Card Back—Optional Data Placement—Example 2]({{site.baseurl}}/{{page.collection}}/images/cardback-optional2.png){:style="width: 1047px;" latex-src="cardback-optional2.pdf" latex-fig="4-8"}
 
 ### 4.1.5 Color Representation {#s-4-1-5}
 
@@ -550,9 +550,9 @@ PIV Card. Private key operations MAY be performed using an activated PIV Card wi
 user action (e.g., the PIN need not be supplied for each operation).
 
 The PIV Card SHALL store a corresponding X.509 certificate to support validation of the public key.
-The X.509 certificate SHALL include the FASC-N in the subject alternative name extension using the
+The X.509 certificate SHALL include the FASC-N in the Subject Alternative Name (SAN) extension using the
 pivFASC-N attribute to support physical access procedures. The X.509 certificate SHALL also include
-the UUID value from the GUID data element of the CHUID in the Subject Alternative Name (SAN) extension.
+the UUID value from the GUID data element of the CHUID in the Subject Alternative Name extension.
 The UUID SHALL be encoded as a uniform resource name (URN), as specified in Section 3 of
 [[RFC4122]](../_Appendix/references.md#ref-RFC4122). The expiration date of the certificate SHALL be no later than the expiration date of the PIV
 Card. The PIV authentication certificate MAY include a PIV background investigation indicator (previously known as the NACI indicator) extension (see Appendix B.2). 
@@ -569,9 +569,9 @@ performed using this key without card activation (e.g., the PIN need not be supp
 with this key).
 
 The PIV Card SHALL store a corresponding X.509 certificate to support validation of the public key.
-The X.509 certificate SHALL include the FASC-N in the subject alternative name extension using the
+The X.509 certificate SHALL include the FASC-N in the Subject Alternative Name extension using the
 pivFASC-N attribute to support physical access procedures. The X.509 certificate SHALL also include
-the UUID value from the GUID data element of the CHUID in the subject alternative name extension.
+the UUID value from the GUID data element of the CHUID in the Subject Alternative Name extension.
 The UUID SHALL be encoded as a URN, as specified in Section 3 of [[RFC4122]](../_Appendix/references.md#ref-RFC4122). The expiration date of
 the certificate SHALL be no later than the expiration date of the PIV Card. [Section 5](keymanagement.md#s-5) of this document
 specifies the certificate format and the key management infrastructure for asymmetric PIV card

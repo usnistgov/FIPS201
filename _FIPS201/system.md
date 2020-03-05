@@ -44,7 +44,7 @@ access control decision.
 [Figure 3-1. PIV System Overview](#fig-3-1){:name="fig-3-1"}
 {:latex-ignore="true"}
 
-![PIV System Overview]({{site.baseurl}}/{{page.collection}}/images/system.png){:style="width: 1047px;" latex-src="system.eps" latex-fig="3-1"}
+![PIV System Overview]({{site.baseurl}}/{{page.collection}}/images/system.png){:style="width: 1047px;" latex-src="system.pdf" latex-fig="3-1"}
 
 [Figure 3-1](#fig-3-1) illustrates a notional model for the operational PIV system, identifying the various system
 components and the direction of data flow between these components. The boundary shown in the figure
@@ -140,7 +140,7 @@ Card termination as the end of life.
 [Figure 3-2. PIV Card Lifecycle Activities](#fig-3-2){:name="fig-3-2"}
 {:latex-ignore="true"}
 
-![PIV Card Lifecycle Activities]({{site.baseurl}}/{{page.collection}}/images/lifecycle.png){:style="width: 1047px;" latex-src="lifecycle.eps" latex-fig="3-2"}
+![PIV Card Lifecycle Activities]({{site.baseurl}}/{{page.collection}}/images/lifecycle.png){:style="width: 1047px;" latex-src="lifecycle.pdf" latex-fig="3-2"}
 
 Descriptions of the seven card lifecycle activities are as follows:
 
