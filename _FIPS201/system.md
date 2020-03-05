@@ -83,7 +83,7 @@ authentication ("something you are") in addition to entering the PIN ("something
 providing the card ("something you have") for cryptographic key-based authentication. This provides for
 a higher level of authentication assurance.
 
-Other input devices for derived PIV credentials might be applicable but are not described in this section. Details on their properties and functionalies will be specified in SP 800-157 if needed.
+Other input devices for derived PIV credentials might be applicable but are not described in this section. Details on their properties and functionalities will be specified in [[SP 800-157]](../_Appendix/references.md#ref-SP-800-63) if needed.
 
 [^somethingyouknow]: For more information on the terms "something you know," "something you have," and "something you are," see [[SP 800-63]](../_Appendix/references.md#ref-SP-800-63).
 [^oncardbiometric]: Alternatively, a biometric on-card one-to-one comparison can be used to activate the PIV Card.
