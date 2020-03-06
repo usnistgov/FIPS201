@@ -34,12 +34,12 @@ This normative appendix provides additional details for the PIV objects identifi
 
 The OIDs for certificate policies are specified in [[COMMON]](references.md#ref-COMMON).
 
-## B.2 PIV Certificate Extension (Deprecated) {#s-b-2}
+## B.2 PIV Background Investigation Indicator Certificate Extension (Deprecated) {#s-b-2}
 
 The PIV background investigation indicator (previously known as the NACI indicator) is deprecated under this version of the 
 Standard. It is expected that the indicator will be removed from a future revision of this standard.
 Instead of the on-card indicator, background investigative status is commonly maintained in each 
-agency IDMS and personnel security system, and in the Central Verification System (or successor). Status of the investigation can be communicated as needed using 
+agency IDMS and personnel security system and in the Central Verification System (or successor). Status of the investigation can be communicated as needed using 
 federation protocols. 
 
 If used, the PIV background investigation indicator extension indicates to the issuer whether the subject's

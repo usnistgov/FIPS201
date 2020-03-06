@@ -159,7 +159,7 @@ Verification*, NIST, July 2013 or as amended. Available at <https://doi.org/10.6
 [[SP 800-78]](#ref-SP-800-78){:name="ref-SP-800-78"} NIST Special Publication 800-78-4, *Cryptographic Algorithms and Key Sizes for
 Personal Identity Verification*, NIST, May 2015 or as amended. Available at <https://doi.org/10.6028/NIST.SP.800-78-4>.
 
-[[SP 800-79]](#ref-SP-800-79){:name="ref-SP-800-79"} NIST Special Publication 800-79-2, *Guidelines for the Accreditation of Personal
+[[SP 800-79]](#ref-SP-800-79){:name="ref-SP-800-79"} NIST Special Publication 800-79-2, *Guidelines for the Authorization of Personal
 Identity Verification Card Issuers (PCI) and Derived PIV Credential Issuers (DPCI)*, NIST, July 2015 or as amended. 
 Available at <https://doi.org/10.6028/NIST.SP.800-79-2>.
 

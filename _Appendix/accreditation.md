@@ -68,7 +68,7 @@ and its associated technical specifications is needed in order to meet the secur
 goals of [[HSPD-12]](references.md#ref-HSPD-12). To facilitate this, NIST has established the NIST Personal Identity Verification
 Program (NPIVP). Under this program NIST has developed test procedures in SP 800-85A, *PIV Card
 Application and Middleware Interface Test Guidelines (SP 800-73 compliance)*, and an associated toolkit
-for conformance testing of PIV Card Applications and PIV Middleware [[SP 800-85A]](references.md#ref-SP-800-85A). Note, NPIVP conformance testing also covers PIV Middleware, however, conformance testing may be discontinued at a future time as computer platforms increasingly provide built-in support for smart cards.
+for conformance testing of PIV Card Applications and PIV Middleware [[SP 800-85A]](references.md#ref-SP-800-85A). NPIVP conformance testing also covers PIV Middleware, but conformance testing may be discontinued at a future time as computer platforms increasingly provide built-in support for smart cards.
 
 Commercial products under these two categories are tested by the set of accredited test laboratories, accredited under
 the National Voluntary Laboratory Accreditation Program (NVLAP) program, using the NIST supplied
