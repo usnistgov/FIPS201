@@ -206,8 +206,8 @@ Key
 
 Match
 : Comparison decision stating that the biometric probe(s) and the biometric 
-reference are from the same source. Match is a possible result of a 
-"Comparison." The opposite of a match is a "non-match." [[ISO2382-37]](references.md#ref-ISO/IEC-2382-37)
+reference are from the same source. _Match_ is a possible result of a 
+_Comparison_. The opposite of a match is a _non-match_. [[ISO2382-37]](references.md#ref-ISO/IEC-2382-37)
 
 Model
 : A very detailed description or scaled representation of one component of a larger system that can
