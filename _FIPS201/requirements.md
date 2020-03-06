@@ -96,7 +96,7 @@ The following biometric data MAY optionally be collected from a PIV applicant:
 
 + An electronic image of the left iris.
 + An electronic image of the right iris.
-+ Two fingerprints, for on-card one-to-one comparison (OCC). These fingerprints MAY be taken from the full set of fingerprints collected in [Section 2.3](requirements.md#s-2-3) and SHOULD be imaged from fingers not imaged for off-card one-to-one comparison.
++ Two fingerprints, for OCC. These fingerprints MAY be taken from the full set of fingerprints collected in [Section 2.3](requirements.md#s-2-3) and SHOULD be imaged from fingers not imaged for off-card one-to-one comparison.
 
 If the biometric data that is collected as specified in this section and in [Section 2.3](requirements.md#s-2-3) is collected on separate
 occasions, then a biometric verification of the applicant's biometric characteristics  SHALL be performed at each visit against biometric
@@ -513,7 +513,7 @@ reset). PIN reset procedures SHALL be formally documented by each department and
 
 Regardless of the PIN reset procedure used, the chosen PIN SHALL meet the activation requirements specified in [Section 4.3.1](frontend.md#s-4-3-1).
 
-The PIV Card's activation methods for biometric on-card on-to-one comparison (OCC) may also be reset by the card issuer. Before the reset, the issuer SHALL perform a biometric verification of the cardholder to the chain-of-trust to reconnect to the chain-of-trust. If no alternative biometric data records are available, the cardholder SHALL provide the PIV Card to be reset and another primary identity source document (as
+The PIV Card's activation methods for OCC may also be reset by the card issuer. Before the reset, the issuer SHALL perform a biometric verification of the cardholder to the chain-of-trust to reconnect to the chain-of-trust. If no alternative biometric data records are available, the cardholder SHALL provide the PIV Card to be reset and another primary identity source document (as
 specified in [Section 2.7](requirements.md#s-2-7)). An attending operator SHALL inspect these and compare the cardholder with the
 electronic facial image retrieved from the enrollment data record and the photograph printed on the PIV Card.
 
