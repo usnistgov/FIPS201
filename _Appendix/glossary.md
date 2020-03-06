@@ -80,7 +80,7 @@ the same biometric source based on comparison score(s) during a verification
 transaction. [[ISO2382-37]](references.md#ref-ISO/IEC-2382-37) 
 
 Capture
-: Series of actions undertaken to affect a biometric capture. [[ISO2382-37]](references.md#ref-ISO/IEC-2382-37) 
+: Series of actions undertaken to obtain and record, in a retrievable form, signals of biometric characteristics directly from individuals. [[ISO2382-37]](references.md#ref-ISO/IEC-2382-37) 
 
 Cardholder
 : An individual possessing an issued PIV Card.
