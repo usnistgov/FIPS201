@@ -57,7 +57,7 @@ Biometric Capture Device
 to a captured biometric sample. [[ISO2382-37]](references.md#ref-ISO/IEC-2382-37) 
 
 Biometric Characteristic
-: Biological and behavioral characteristic of an individual from which 
+: Biological characteristic of an individual from which 
 distinguishing, repeatable biometric features can be extracted for the purpose 
 of biometric recognition. Fingerprint ridge structure and face topography are 
 examples of biometric characteristics. [[ISO2382-37]](references.md#ref-ISO/IEC-2382-37) 
