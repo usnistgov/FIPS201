@@ -101,7 +101,10 @@ The PKI component provides services for PKI-based PIV credentials. This componen
 lifecycle of PIV Cards and PKI-based derived PIV credentials—from generation and loading of authentication keys and PKI credentials, to usage of these keys for secure operations, to eventual reissuance or termination of the card and associated derived PIV credentials. At the personalization phase, the PKI component issues and distributes the digital certificates for the keys generated on-card and keys generated for PKI-based derived PIV credentials. During use of the PIV credentials at authentication, the PKI component provides 
 requesting application certificate status information of the PKI credentials requesting access.
 
-The enterprise IDMS serves as the central repository for the cardholder’s digital identities.  It is where the relevant cardholder attributes are maintained.  The IDMS creates the PIV account and associates the cardholder's PIV Card and derived PIV credentials with the account.  The account is maintained throughout the cardholder’s employment with the organization. Various ICAM related system connect to the IDMS to request or update cardholder attribute:  for example, the  Security office to provide updated background investigative information in the IDMS,  the HR system relating hiring status updates, and relying parties, for whom the IDMS may serves as the Credential Service Provider by authenticating the PIV Credential holder and  issues assertions derived from the credential.  
+The enterprise IDMS serves as the central repository for the cardholder’s digital identities.  It is where the relevant cardholder attributes are maintained.  The IDMS creates the PIV account and associates the cardholder's PIV Card and derived PIV credentials with the account.  The account is maintained throughout the cardholder’s employment with the organization. Various ICAM related system connect to the IDMS to request or update cardholder attributes. For example
+  * A security office may provide updated background investigative information to the IDMS.
+  * An HR system may relay hiring status updates.
+  * Relying Parties (RP), for whom the IDMS may serve as the Credential Service Provider (CSP), authenticate the PIV credential holder and issue assertions derived from the credential.
 
 ### 3.1.3 PIV Relying Subsystem {#s-3-1-3}
 
