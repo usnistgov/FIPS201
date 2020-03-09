@@ -114,7 +114,7 @@ building, room, parking garage) that the cardholder wishes to access. The logica
 network or a location on the network (e.g., computer workstation, folder, file, database record, software
 program) to which the cardholder wants to gain access.
 
-[^DPC]:  The cardholder may authenticate with the PIV card or a derived PIV credential.
+[^DPC]:  The cardholder may authenticate with the PIV Card or a derived PIV credential.
 
 The relying system depends on an authorization data component that defines the privileges (authorizations)
 possessed by entities requesting to access a particular logical or physical resource. An example of this is
