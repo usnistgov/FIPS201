@@ -652,7 +652,7 @@ signing certificate SHALL also include an extended key usage (*extKeyUsage*) ext
 the CHUID, the certificates field of the CMS external digital signature SHALL include the content signing
 certificate required to verify the signature on the biometric data record. Otherwise, the *certificates* field SHALL be
 omitted. Additional descriptions for the PIV object identifiers are provided in Appendix B. The content
-signing certificate on a valid PIV Card [^validPIVCard2] SHALL NOT be expired.
+signing certificate on a valid PIV Card[^validPIVCard2] SHALL NOT be expired.
 
 [^validPIVCard2]: A valid PIV Card refers to a PIV Card that is neither expired nor revoked. 
 
