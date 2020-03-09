@@ -132,7 +132,7 @@ status service.
 
 ## 3.2 PIV Card Lifecycle Activities {#s-3-2}
 
-The PIV Card lifecycle consists of seven activities. [^DPCLifecyle] The activities that take place during fabrication and
+The PIV Card lifecycle consists of seven activities.[^DPCLifecyle] The activities that take place during fabrication and
 pre-personalization of the card at the manufacturer are not considered a part of this lifecycle model.
 [Figure 3-2](#fig-3-2) presents these PIV activities and depicts the PIV Card request as the initial activity and PIV
 Card termination as the end of life.
