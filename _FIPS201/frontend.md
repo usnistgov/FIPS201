@@ -464,7 +464,7 @@ issued under the id-fpki-common-piv-contentSigning policy of [[COMMON]](../_Appe
 signing certificate SHALL also include an extended key usage (*extKeyUsage*) extension asserting id-PIV-content-signing. 
 The public key SHALL be included in the certificates field of the CMS external digital signature in a content signing certificate. 
 Additional descriptions for the PIV object identifiers are provided in Appendix B. The
-content signing certificate on a valid PIV Card. [^validPIVCard] SHALL NOT be
+content signing certificate on a valid PIV Card.[^validPIVCard] SHALL NOT be
 expired.
 
 [^validPIVCard]: A valid PIV Card refers to a PIV Card that is neither expired nor revoked. 
