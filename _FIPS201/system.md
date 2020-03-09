@@ -97,7 +97,7 @@ surface) and logical (contents of the ICC) aspects of the card at the time of is
 thereafter. This includes printing photographs, names, and other information on the card and loading the
 relevant card applications, biometric data, and other data.
 
-The PKI component provides services for the PKI-based PIV credentials. This component is used throughout the
+The PKI component provides services for PKI-based PIV credentials. This component is used throughout the
 lifecycle of PIV Cards and PKI-based derived PIV credentials—from generation and loading of authentication keys and PKI credentials, to usage of these keys for secure operations, to eventual reissuance or termination of the card and associated derived PIV credentials. At the personalization phase, the PKI component issues and distributes the digital certificates for the keys generated on-card and keys generated for PKI-based derived PIV credentials. During use of the PIV credentials at authentication, the PKI component provides 
 requesting application certificate status information of the PKI credentials requesting access.
 
