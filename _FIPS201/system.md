@@ -137,7 +137,7 @@ pre-personalization of the card at the manufacturer are not considered a part of
 [Figure 3-2](#fig-3-2) presents these PIV activities and depicts the PIV Card request as the initial activity and PIV
 Card termination as the end of life.
 
-[^DPCLifecycle]: The lifecyle activities of derived PIV credential are described in SP 800-157.
+[^DPCLifecycle]: The lifecycle activities of derived PIV credentials are described in SP 800-157.
 
 [Figure 3-2. PIV Card Lifecycle Activities](#fig-3-2){:name="fig-3-2"}
 
