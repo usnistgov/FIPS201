@@ -83,7 +83,6 @@ authentication ("something you are") in addition to entering the PIN ("something
 providing the card ("something you have") for cryptographic key-based authentication. This provides for
 a higher level of authentication assurance.
 
-Other input devices for derived PIV credentials might be applicable but are not described in this section. Details on their properties and functionalities will be specified in [[SP 800-157]](../_Appendix/references.md#ref-SP-800-63) if needed.
 
 [^somethingyouknow]: For more information on the terms "something you know," "something you have," and "something you are," see [[SP 800-63]](../_Appendix/references.md#ref-SP-800-63).
 [^oncardbiometric]: Alternatively, a biometric on-card one-to-one comparison can be used to activate the PIV Card.
@@ -98,7 +97,7 @@ thereafter. This includes printing photographs, names, and other information on 
 relevant card applications, biometric data, and other data.
 
 The PKI component provides services for PKI-based PIV credentials. This component is used throughout the
-lifecycle of PIV Cards and PKI-based derived PIV credentials—from generation and loading of authentication keys and PKI credentials, to usage of these keys for secure operations, to eventual reissuance or termination of the card and associated derived PIV credentials. At the personalization phase, the PKI component issues and distributes the digital certificates for the keys generated on-card and keys generated for PKI-based derived PIV credentials. During use of the PIV credentials at authentication, the PKI component provides 
+lifecycle of PIV Cards and PKI-based derived PIV credentials—from generation and loading of authentication keys and PKI credentials, to usage of these keys for secure operations, to eventual reissuance or termination of the PIV Card and associated derived PIV credentials. At the personalization phase, the PKI component issues and distributes the digital certificates for the keys generated on-card and keys generated for PKI-based derived PIV credentials. During use of the PIV credentials at authentication, the PKI component provides 
 requesting application certificate status information of the PKI credentials requesting access.
 
 The enterprise IDMS serves as the central repository for the cardholder’s digital identities.  It is where the relevant cardholder attributes are maintained.  The IDMS creates the PIV account and associates the cardholder's PIV Card and derived PIV credentials with the account.  The account is maintained throughout the cardholder’s employment with the organization. Various ICAM related system connect to the IDMS to request or update cardholder attributes. For example
