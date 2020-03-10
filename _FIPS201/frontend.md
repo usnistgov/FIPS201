@@ -692,7 +692,7 @@ data elements for the purpose of binding the PIV data elements to the same PIV C
 
 Cardholder Identifiers
 :   Other identifiers MAY be present in credentials on the PIV Card that identity the cardholder rather than
-the card. Examples include the subject name and names that may appear in the subjectAltName
+the card. Examples include the cardholder UUID that may appear in the CHUID or the subject name(s) that may appear in the subjectAltName 
 extension in the PIV authentication certificate.
 
 ## 4.3 PIV Card Activation {#s-4-3}
