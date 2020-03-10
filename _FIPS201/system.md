@@ -52,7 +52,7 @@ is not meant to preclude FIPS 201 requirements on systems outside these boundari
 ### 3.1.1 PIV Front-End Subsystem {#s-3-1-1}
 
 The PIV Card will be issued to the applicant when all identity proofing, registration, and issuance
-processes have been completed. Derived PIV credentials might also be issued after post-enrollment binding is complete. The PIV Card takes the physical form of the [[ISO7816]] ID-1 card type (e.g., traditional payment card), with one or more
+processes have been completed. Derived PIV credentials might also be issued after post-enrollment binding is complete. The PIV Card takes the physical form of the [[ISO7816]](../_Appendix/references.md#ref-ISO7816) ID-1 card type (i.e., traditional payment card), with one or more
 embedded integrated circuit chips (ICC) that provide memory capacity and computational capability. The
 PIV Card is the primary component of the PIV system. The holder uses the PIV Card for authentication
 to various physical and logical resources. Derived PIV credentials increasingly play an important role as additional authenticators, especially in environments where use of the PIV Card is not easily supported. These AAL2 and/or AAL3 authenticators are not embedded in the PIV Card, but rather are stand-alone or integrated in a variety of devices/platforms. 
