@@ -25,20 +25,22 @@ components of the PIV system and the lifecycle activities of the PIV Card.
 
 An operational PIV system can be logically divided into the following three major subsystems:
 
-- **PIV Front-End Subsystem**—PIV Card, card readers, biometric capture devices, and PIN input device. The PIV
+- **PIV Front-End Subsystem**—the PIV Card, card readers, biometric capture devices, and PIN input devices
+    as well as any derived PIV credentials used by the PIV cardholder. The PIV
     cardholder interacts with these components to gain physical or logical access to the desired federal
     resource.
-- **PIV Card Issuance and Management Subsystem**—the components responsible for identity
+- **PIV Issuance and Management Subsystem**—the components responsible for identity
     proofing and registration, card and key issuance and management, and the various repositories and
     services (e.g., public key infrastructure (PKI) directory, certificate status servers) required as part of
     the verification infrastructure. This subsystem also manages the binding and termination of derived PIV credentials as described in [Section 2.10](requirements.md#s-2-10).
 - **PIV Relying Subsystem**—the physical and logical access control systems, the protected resources,
     and the authorization data.
 
-The PIV relying subsystem becomes relevant when the PIV Card is used to authenticate a cardholder who
+The PIV relying subsystem becomes relevant when the PIV Card or derived PIV credential is used to authenticate a cardholder who
 is seeking access to a physical or logical resource. Although this Standard does not provide technical
 specifications for this subsystem, various mechanisms for identification and authentication are defined in
-[Section 6](authentication.md#s-6) to provide consistent and secure means for performing the authentication function preceding an
+[Section 6](authentication.md#s-6) for PIV Cards and in [[SP 800-157]](../_Appendix/references.md#ref-SP-800-157) for derived PIV credentials
+to provide consistent and secure means for performing the authentication function preceding an
 access control decision.
 
 [Figure 3-1. PIV System Overview](#fig-3-1){:name="fig-3-1"}
