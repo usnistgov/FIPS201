@@ -244,6 +244,21 @@ of the following:
 
 > Note: One piece of Strong evidence and one other piece of evidence meeting the requirements of Fair evidence in [[SP 800-63A]](../_Appendix/references.md#ref-SP-800-63A) are considered sufficient for issuance of a PIV Card because the requirement for a federal background investigation is considered a compensating control for identity proofing at IAL3.
 
+Individual department and agency policies NEED NOT allow multiple identity
+proofing sessions to complete the PIV Card issuance process. If permitted and
+multiple identity proofing sessions are needed (e.g., applicant forgot a
+required piece of evidence), the attending operator SHALL first link the
+applicant to the previous identity proofing session through a positive biometric
+verification decision when comparing biometric characteristics captured at the
+previous session with biometric characteristics captured during the current
+session. If no biometric characteristics were able to be captured at the first
+of multiple identity proofing sessions, a negative biometric verification
+decision was returned, 10 days have elapsed between identity proofing sessions,
+or at the discretion of the attending operator, all data collected from the
+applicant SHALL be destroyed and the identity proofing session SHALL restart as
+if it was the first time the applicant appeared for an identity proofing
+session.
+
 The PIV identity proofing, registration, issuance, and reissuance processes SHALL adhere to the
 principle of separation of duties to ensure that no single individual has the capability to issue a PIV
 Card without the cooperation of another authorized person.
@@ -291,6 +306,25 @@ The trained operator SHALL terminate a supervised remote identity proofing
 session and require in-person identity proofing at an issuing facility if
 there is reasonable basis to believe[^believe] that the applicant is attempting
 to bypass protection capabilities of the station. 
+
+Individual department and agency policies NEED NOT allow multiple supervised
+remote identity proofing sessions to complete the PIV Card issuance process. If
+permitted and multiple supervised remote identity proofing sessions are needed
+(e.g., applicant forgot a required piece of evidence), the live operator SHALL
+first link the applicant to the previous supervised remote identity proofing
+session through a positive biometric verification decision when comparing
+biometric characteristics captured at the previous session with biometric
+characteristics captured during the current session. If no biometric
+characteristics were able to be captured at the first of multiple supervised
+remote identity proofing sessions, a negative biometric verification decision
+was returned, 10 days have elapsed between supervised remote identity proofing
+sessions, or at the discretion of the live operator, all data collected from
+the applicant SHALL be destroyed, supervised remote identity proofing SHALL NOT
+be used, and the identity proofing and enrollment SHALL be performed in person
+at the issuer's facility. Additionally at the discretion of the live operator,
+all data collected from the applicant SHALL be destroyed and the supervised
+remote identity proofing session SHALL restart as if it was the first time the
+applicant appeared for an identity proofing session.
 
 [^believe]: A reasonable basis to believe occurs when a disinterested observer, with knowledge of the same facts and circumstances, would reasonably reach the same conclusion.
 
