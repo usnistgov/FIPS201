@@ -57,9 +57,9 @@ Biometric Capture Device
 to a captured biometric sample. [[ISO2382-37]](references.md#ref-ISO/IEC-2382-37) 
 
 Biometric Characteristic
-: Biological characteristic of an individual from which 
-distinguishing, repeatable biometric features can be extracted for the purpose 
-of biometric recognition. Fingerprint ridge structure and face topography are 
+: Biological attribute of an individual from which 
+distinctive and repeatable values can be extracted for the purpose 
+of automated recognition. Fingerprint ridge structure and face topography are 
 examples of biometric characteristics. [[ISO2382-37]](references.md#ref-ISO/IEC-2382-37) 
 
 Biometric Data
