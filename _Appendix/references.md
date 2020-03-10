@@ -9,7 +9,7 @@ permalink: /references/
 # Appendix D— References {#s-appendix-d}
 
 [[A-130]](#ref-A-130){:name="ref-A-130"} OMB Circular A-130, Managing Federal Information as a Strategic Resource, July 28,
-2016. Available at [https://www.whitehouse.gov/sites/whitehouse.gov/files/omb/circulars/A130/a130revised.pdf](https://www.whitehouse.gov/sites/whitehouse.gov/files/omb/circulars/A130/a130revised.pdf).
+2016. Available at <https://www.whitehouse.gov/sites/whitehouse.gov/files/omb/circulars/A130/a130revised.pdf>.
  
 [[ANSI322]](#ref-ANSI322){:name="ref-ANSI322"} ANSI INCITS 322 Information Technology, *Card Durability Test Methods*, ANSI,
 2008.
