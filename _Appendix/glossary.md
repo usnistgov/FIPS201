@@ -184,11 +184,6 @@ comparing the credentials (something you know, something you have, something you
 requesting access with those previously proven and stored in the PIV Card or system and associated with
 the identity being claimed.
 
-Interoperability
-: For the purposes of this Standard, interoperability allows any government facility or
-information system, regardless of the issuer, to verify a cardholder's identity using the credentials on the
-PIV Card.
-
 Issuer
 : The organization that is issuing the PIV Card to an applicant. Typically this is an organization
 for which the applicant is working.
