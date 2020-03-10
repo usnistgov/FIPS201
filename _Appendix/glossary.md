@@ -21,7 +21,7 @@ military establishments, border crossing entrances).
 
 Applicant
 : An individual applying for a PIV Card/credential. The applicant may be a current or
-prospective federal hire, a federal employee, a government affiliate, or a contractor.[^eligibility]
+prospective federal hire, a federal employee, or a contractor.[^eligibility]
 
 Application
 : A hardware/software system implemented to satisfy a particular set of requirements. In
@@ -47,10 +47,10 @@ person's identity and the PIV Card.
 Authenticator Assurance Level (AAL)
 : A measure of the strength of an authentication mechanism, and therefore the confidence in it, as
 defined in [[SP 800-63]](references.md#ref-SP-800-63) in terms of three levels:
-	- AAL1: SOME confidence
-	- AAL2: HIGH confidence
-	- AAL3: VERY HIGH confidence
 
+  - AAL1: SOME confidence
+  - AAL2: HIGH confidence
+  - AAL3: VERY HIGH confidence
 
 Biometric Capture Device
 : Device that collects a signal from a biometric characteristic and converts it 
@@ -64,7 +64,7 @@ examples of biometric characteristics. [[ISO2382-37]](references.md#ref-ISO/IEC-
 
 Biometric Data
 : Biometric sample or aggregation of biometric samples at any stage of 
-processing [[ISO2382-37]](references.md#ref-ISO/IEC-2382-37) 
+processing. [[ISO2382-37]](references.md#ref-ISO/IEC-2382-37) 
 
 Biometric Data Record
 : Electronic data record containing biometric data [[ISO2382-37]](references.md#ref-ISO/IEC-2382-37).
@@ -147,13 +147,14 @@ information technology to achieve a common level of quality or some level of int
 Hash Function
 : A function that maps a bit string of arbitrary length to a fixed length bit string. Secure
 hash functions [[FIPS180]](references.md#ref-FIPS180) satisfy the following properties:
-	1. **One-Way.** It is computationally infeasible to find any input that maps to any pre-specified
-	    output.
-	2. **Collision Resistant.** It is computationally infeasible to find any two distinct inputs that map to
-	    the same output.
+
+  1. **One-Way.** It is computationally infeasible to find any input that maps to any pre-specified
+    output.
+  2. **Collision Resistant.** It is computationally infeasible to find any two distinct inputs that map to
+    the same output.
 
 Identification
-: The process of discovering the identity (i.e., origin, initial history) of a person or item
+: The process of discovering the identity (i.e., origin or initial history) of a person or item
 from the entire collection of similar persons or items.
 
 Identifier
@@ -196,10 +197,11 @@ Issuing Facility
 : A physical site or location---including all equipment, staff, and
   documentation---that is responsible for carrying out one or more of the
   following PIV functions:
-    * identity proofing/registration;
-    * card/token production;
-    * activation/issuance; and
-    * maintenance.
+  
+  * identity proofing/registration;
+  * card/token production;
+  * activation/issuance; and
+  * maintenance.
 
 Key
 : See "Cryptographic Key."
@@ -222,7 +224,7 @@ On-Card
 : Refers to data that is stored within the PIV Card or to a computation that is performed by the
 Integrated Circuit Chip (ICC) of the PIV Card.
 
-On-Card Biometric One-to-One Comparison
+On-Card Biometric One-to-One Comparison (OCC)
 : Comparison of fingerprint biometric data records transmitted to the card with a biometric reference 
 previously stored on the card.
 
@@ -245,7 +247,7 @@ such as date and place of birth, mother's maiden name, etc. [[OMB1712]](referenc
 
 Personal Identification Number (PIN)
 : A secret that a cardholder memorizes and uses to authenticate
-his or her identity.
+their identity.
 
 Personal Identity Verification (PIV) Account
 : The logical record containing credentialing information for a given PIV cardholder.  This is typically stored within the issuer’s identity management system, and includes PIV enrollment data, cardholder identity attributes, and information regarding authenticators bound to the cardholder’s identity (e.g., PIV card and derived PIV credentials).
@@ -394,9 +396,6 @@ ERT
 FASC-N
 : Federal Agency Smart Credential Number
 
-FBCA
-: Federal Bridge Certification Authority
-
 FBI
 : Federal Bureau of Investigation
 
@@ -421,11 +420,11 @@ HSPD
 HTTP
 : Hypertext Transfer Protocol
 
+HTTPS
+: Hypertext Transfer Protocol Secure
+
 I&A
 : Identification and Authentication
-
-IAB
-: Interagency Advisory Board
 
 ICAMSC
 : Identity, Credential, and Access Management Subcommittee
@@ -438,6 +437,9 @@ ID
 
 IDMS
 : Identity Management System
+
+IdP
+: Identity Provider
 
 IEC
 : International Electrotechnical Commission
@@ -457,17 +459,11 @@ IT
 ITL
 : Information Technology Laboratory
 
-LDAP
-: Lightweight Directory Access Protocol
-
 mm
 : Millimeter
 
 MWR
 : Morale, Welfare, and Recreation
-
-NAC
-: National Agency Check
 
 NACI
 : National Agency Check with Written Inquiries
@@ -529,17 +525,14 @@ PKI
 RFC
 : Request for Comments
 
-SES
-: Senior Executive Service
+RP
+: Relying Party
 
 SP
 : Special Publication
 
 SSP
 : Shared Service Provider
-
-TSA
-: Transportation Security Administration
 
 URN
 : Uniform Resource Name
@@ -556,10 +549,8 @@ UUID
 
 This Standard uses the following typographical conventions in text:
 
-- ASN.1 data types are represented in *italics*. For example, *SignedData* and *SignerInfo* are data types
+- ASN.1 data types are represented in a `monospaced font`. For example, `SignedData` and `SignerInfo` are data types
     defined for digital signatures.
-- Letters or words in CAPITALS separated with underscore represent CBEFF-compliant data
-    structures. For example, CBEFF_HEADER is a header field in the CBEFF structure.
 - Specific terms in CAPITALS represent normative requirements. When these same terms are not in CAPITALS, the term does not represent a normative requirement. 
     - The terms "SHALL" and "SHALL NOT" indicate requirements to be followed strictly in order to conform to the publication and from which no deviation is permitted.
     - The terms "SHOULD" and "SHOULD NOT" indicate that among several possibilities one is recommended as particularly suitable, without mentioning or excluding others, or that a certain course of action is preferred but not necessarily required, or that (in the negative form) a certain possibility or course of action is discouraged but not prohibited.

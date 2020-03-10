@@ -26,6 +26,7 @@
 \usepackage{tabulary}
 \usepackage[raggedrightboxes]{ragged2e}
 \usepackage{adjustbox}
+\usepackage{babel}
 
 \usepackage[sf]{titlesec}
 
@@ -60,16 +61,18 @@
 \makeatother
 % End macros 
 
+%\usepackage{draftwatermark}
+%\SetWatermarkText{FEB-21-2020}
+%\SetWatermarkScale{1}
 
 \usepackage{tocloft}	% change typeset, titles, and format list of appendices/figures/tables
-\renewcommand{\cftdot}{}	
 \renewcommand{\contentsname}{Table of Contents}
 \renewcommand{\cftpartleader}{\cftdotfill{\cftdotsep}} % for parts
 \renewcommand{\cftsecleader}{\cftdotfill{\cftdotsep}}
 \renewcommand\cftbeforesecskip{\setlength{4pt}{}}
-\addtolength{\cftfignumwidth}{1em}
+\addtolength{\cftfignumwidth}{1.7em}
 \renewcommand{\cftfigpresnum}{\figurename\ }
-\addtolength{\cfttabnumwidth}{1em}
+\addtolength{\cfttabnumwidth}{2.3em}
 \renewcommand{\cfttabpresnum}{\tablename\ }
 \setlength{\cfttabindent}{0in}    %% adjust as you like
 \setlength{\cftfigindent}{0in} 
@@ -84,6 +87,7 @@
 
 \definecolor{darkBlue}{rgb}{0,0,0.4} % dark blue for links
 
+\usepackage[hyphens]{url}
 \usepackage[hidelinks,hyperfootnotes=false]{hyperref}
 \hypersetup{
 colorlinks = true,
@@ -101,7 +105,6 @@ pdfauthor={},
 pdfkeywords={}
 }
 \urlstyle{same}
-\usepackage[anythingbreaks]{breakurl}
 
 \usepackage[outdir=./]{epstopdf} % converting EPS figure files to PDF
 
@@ -265,6 +268,7 @@ Gaithersburg, MD 20899-8900
 
 \clearpage
 \begin{center}
+  \hypersetup{linkcolor=black}
 	\tableofcontents
 	\listoftables
 	\listoffigures
