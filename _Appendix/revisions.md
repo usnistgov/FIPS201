@@ -39,4 +39,4 @@ The Revision History provides an overview of the changes to FIPS 201 since its i
 |||Require signature verification and certification path validation in the CHUID, BIO, and BIO-A authentication mechanisms.|
 |||The VIS and CHUID authentication mechanisms have been downgraded to indicate that they provide LITTLE or NO assurance in the identity of the cardholder.|
 |||Deprecated the use of the CHUID authentication mechanism. The CHUID data element has not been deprecated and continues to be mandatory.|
-{:latex-longtable="true"}
+{:latex-columns="p@0.13\textwidth,p@0.17\textwidth,p@0.61\textwidth" latex-longtable="true"}

@@ -14,26 +14,26 @@ permalink: /references/
 [[CBEFF]](#ref-CBEFF){:name="ref-CBEFF"} NISTIR 6529-A, *Common Biometric Exchange Formats Framework (CBEFF)*, NIST,
 April 2004.
 
-[[CDS]](#ref-CDS){:name="ref-CDS"} *DL/ID Card Design Standard*, American Association of Motor Vehicle Adminstrators, September, 2016. Available at [https://www.aamva.org/DL-ID-Card-Design-Standard/](https://www.aamva.org/DL-ID-Card-Design-Standard/).
+[[CDS]](#ref-CDS){:name="ref-CDS"} *DL/ID Card Design Standard*, American Association of Motor Vehicle Adminstrators, September, 2016. Available at <https://www.aamva.org/DL-ID-Card-Design-Standard/>.
 
 [[COMMON]](#ref-COMMON){:name="ref-COMMON"} *X.509 Certificate Policy for the U.S. Federal PKI Common Policy Framework*,
 Version 1.31, February 8, 2019, or as amended. Available at
-[https://www.idmanagement.gov/documents/common-policy-framework-certificate-policy](https://www.idmanagement.gov/documents/common-policy-framework-certificate-policy).
+<https://www.idmanagement.gov/documents/common-policy-framework-certificate-policy>.
 
 [[E-Gov]](#ref-E-Gov){:name="ref-E-Gov"} *E-Government Act of 2002*, U.S. Public Law 107-347, 2002.
 
 [[FCS]](#ref-FCS){:name="ref-FCS"} Final Credentialing Standards for Issuing Personal Identity Verification
-Cards under HSPD-12, OMB, July 31, 2008. Available at [https://www.opm.gov/suitability/suitability-executive-agent/policy/final-credentialing-standards.pdf](https://www.opm.gov/suitability/suitability-executive-agent/policy/final-credentialing-standards.pdf).
+Cards under HSPD-12, OMB, July 31, 2008. Available at <https://www.opm.gov/suitability/suitability-executive-agent/policy/final-credentialing-standards.pdf>.
 
 [[FIPS140]](#ref-FIPS140){:name="ref-FIPS140"} FIPS Publication 140-3, *Security Requirements for Cryptographic Modules*, NIST,
-March 22, 2019, or as amended. Available at [https://doi.org/10.6028/NIST.FIPS.140-3](https://doi.org/10.6028/NIST.FIPS.140-3).
+March 22, 2019, or as amended. Available at <https://doi.org/10.6028/NIST.FIPS.140-3>.
 
 [[FIPS180]](#ref-FIPS180){:name="ref-FIPS180"} FIPS Publication 180-4, *Secure Hash Standard (SHS)*, August 2015, or as amended.
-Available at [http://doi.org/10.6028/NIST.FIPS.180-4](http://doi.org/10.6028/NIST.FIPS.180-4).
+Available at <http://doi.org/10.6028/NIST.FIPS.180-4>.
 
 [[FICAM]](#ref-FICAM){:name="ref-FICAM"} Federal Identity, Credential, and Access Management (FICAM) Roadmap and Implementation Guidance,
 Version 2.0, December 2, 2011, or as amended. Available at 
-[https://www.idmanagement.gov/wp-content/uploads/sites/1171/uploads/FICAM_Roadmap_and_Implem_Guid.pdf](https://www.idmanagement.gov/wp-content/uploads/sites/1171/uploads/FICAM_Roadmap_and_Implem_Guid.pdf).
+<https://www.idmanagement.gov/wp-content/uploads/sites/1171/uploads/FICAM_Roadmap_and_Implem_Guid.pdf>.
 
 [[G155-2013]](#ref-G155-2013){:name="ref-G155-2013"} ASTM G155-2013, *Standard Practice for Operating Xenon Arc Light Apparatus for
 Exposure of Non-metallic Materials*, Vol. 14.04, ASTM, 2013.
@@ -49,7 +49,7 @@ management - Part 2-1: Colour management - Default RGB colour space – sRGB*, O
 
 [[ISC-RISK]](#ref-ISC-RISK){:name="ref-ISC-RISK"} The Risk Management Process for Federal Facilities: An Interagency Security Committee Standard,
 2nd Edition, November 2016. Interagency Security Committee. Available at 
-[https://www.dhs.gov/sites/default/files/publications/isc-risk-management-process-2016-508.pdf](https://www.dhs.gov/sites/default/files/publications/isc-risk-management-process-2016-508.pdf).
+<https://www.dhs.gov/sites/default/files/publications/isc-risk-management-process-2016-508.pdf>.
 
 [[ISO2382-37]](#ref-ISO/IEC-2382-37){:name="ref-ISO/IEC-2382-37"} ISO/IEC 2382-37:2017, *Information technology -- Vocabulary -- Part 37: Biometrics*, ISO, 2017.
 
@@ -80,107 +80,107 @@ administration*, ISO, 2008. Part 5—*Testing procedures*, ISO, 2011. Part 6—*
 authority procedures for the authentication protocols for interoperability*, ISO, 2010.
 
 [[NISTIR7863]](#ref-NISTIR7863){:name="ref-NISTIR7863"} NISTIR 7863, *Cardholder Authentication for the PIV Digital Signature Key*,
-NIST, June 2015. Available at [http://doi.org/10.6028/NIST.IR.7863](http://doi.org/10.6028/NIST.IR.7863).
+NIST, June 2015. Available at <http://doi.org/10.6028/NIST.IR.7863>.
 
 [[OMB0322]](#ref-OMB0322){:name="ref-OMB0322"} OMB Memorandum M-03-22, *Guidance for Implementing the Privacy Provisions of
 the E-Government Act of 2002*, OMB, September 26, 2003. Available at 
-[https://www.whitehouse.gov/wp-content/uploads/2017/11/203-M-03-22-OMB-Guidance-for-Implementing-the-Privacy-Provisions-of-the-E-Government-Act-of-2002-1.pdf](https://www.whitehouse.gov/wp-content/uploads/2017/11/203-M-03-22-OMB-Guidance-for-Implementing-the-Privacy-Provisions-of-the-E-Government-Act-of-2002-1.pdf).
+<https://www.whitehouse.gov/wp-content/uploads/2017/11/203-M-03-22-OMB-Guidance-for-Implementing-the-Privacy-Provisions-of-the-E-Government-Act-of-2002-1.pdf>.
 
 [[OMB0524]](#ref-OMB0524){:name="ref-OMB0524"} OMB Memorandum M-05-24, *Implementation of Homeland Security Presidential
 Directive (HSPD) 12 – Policy for a Common Identification Standard for Federal Employees and
-Contractors*, OMB, August 2005. Available at [https://www.whitehouse.gov/sites/whitehouse.gov/files/omb/memoranda/2005/m05-24.pdf](https://www.whitehouse.gov/sites/whitehouse.gov/files/omb/memoranda/2005/m05-24.pdf).
+Contractors*, OMB, August 2005. Available at <https://www.whitehouse.gov/sites/whitehouse.gov/files/omb/memoranda/2005/m05-24.pdf>.
 
 [[OMB1712]](#ref-OMB1712){:name="ref-OMB1712"} OMB Memorandum M-17-12, *Preparing for and Responding to a Breach of Personally Identifiable Information*,
-OMB, January 3, 2017. Available at [https://obamawhitehouse.archives.gov/sites/default/files/omb/memoranda/2017/m-17-12_0.pdf](https://obamawhitehouse.archives.gov/sites/default/files/omb/memoranda/2017/m-17-12_0.pdf).
+OMB, January 3, 2017. Available at <https://obamawhitehouse.archives.gov/sites/default/files/omb/memoranda/2017/m-17-12_0.pdf>.
 
 [[OMB1917]](#ref-OMB1917){:name="ref-OMB1917"} OMB Memorandum M-19-17, *Enabling Mission Delivery through Improved Identity, Credential, and Access Management*,
-OMB, May 21, 2019. Available at [https://www.whitehouse.gov/wp-content/uploads/2019/05/M-19-17.pdf](https://www.whitehouse.gov/wp-content/uploads/2019/05/M-19-17.pdf).
+OMB, May 21, 2019. Available at <https://www.whitehouse.gov/wp-content/uploads/2019/05/M-19-17.pdf>.
 
 [[PCSC]](#ref-PCSC){:name="ref-PCSC"} Personal Computer/Smart Card Workgroup Specifications. Available at
-[https://www.pcscworkgroup.com/](https://www.pcscworkgroup.com/).
+<https://www.pcscworkgroup.com/>.
 
 [[PRIVACY]](#ref-PRIVACY){:name="ref-PRIVACY"} *Privacy Act of 1974*, U.S. Public Law 93-579, 1974.
 
 [[PROF]](#ref-PROF){:name="ref-PROF"} *X.509 Certificate and Certificate Revocation List (CRL) Extensions Profile for the
 Shared Service Provider (SSP) Program*, Version 1.9, May 9, 2018 or as amended. Available
-at [https://www.idmanagement.gov/sites/default/files/documents/CertCRLprofileForCP.pdf](https://www.idmanagement.gov/sites/default/files/documents/CertCRLprofileForCP.pdf).
+at <https://www.idmanagement.gov/sites/default/files/documents/CertCRLprofileForCP.pdf>.
 
 [[REAL-ID]](#ref-REAL-ID){:name="ref-REAL-ID"} *Minimum Standards for Driver's Licenses and Identification Cards
-Acceptable by Federal Agencies for Official Purposes; Final Rule*, Department of Homeland Security, Federal Register Vol. 73 No. 19, January 29, 2008. Available at [https://www.govinfo.gov/content/pkg/FR-2008-01-29/html/08-140.htm](https://www.govinfo.gov/content/pkg/FR-2008-01-29/html/08-140.htm).
+Acceptable by Federal Agencies for Official Purposes; Final Rule*, Department of Homeland Security, Federal Register Vol. 73 No. 19, January 29, 2008. Available at <https://www.govinfo.gov/content/pkg/FR-2008-01-29/html/08-140.htm>.
 
 [[RFC4122]](#ref-RFC4122){:name="ref-RFC4122"} RFC 4122, *A Universally Unique IDentifier (UUID) URN Namespace*, Internet
-Engineering Task Force (IETF), July 2005. Available at [https://www.ietf.org/rfc/rfc4122.txt](https://www.ietf.org/rfc/rfc4122.txt).
+Engineering Task Force (IETF), July 2005. Available at <https://www.ietf.org/rfc/rfc4122.txt>.
 
 [[RFC5280]](#ref-RFC5280){:name="ref-RFC5280"} RFC 5280, *Internet X.509 Public Key Infrastructure Certificate and Certificate
-Revocation List (CRL) Profile*, IETF, May 2008. Available at [https://www.ietf.org/rfc/rfc5280.txt](https://www.ietf.org/rfc/rfc5280.txt).
+Revocation List (CRL) Profile*, IETF, May 2008. Available at <https://www.ietf.org/rfc/rfc5280.txt>.
 
 [[RFC5652]](#ref-RFC5652){:name="ref-RFC5652"} RFC 5652, *Cryptographic Message Syntax (CMS)*, IETF, September 2009. Available
-at [https://www.ietf.org/rfc/rfc5652.txt](https://www.ietf.org/rfc/rfc5652.txt).
+at <https://www.ietf.org/rfc/rfc5652.txt>.
 
 [[RFC6818]](#ref-RFC6818){:name="ref-RFC6818"} RFC 6818, *Updates to the Internet X.509 Public Key Infrastructure Certificate and Certificate
-Revocation List (CRL) Profile*, IETF, October 2015. Available at [https://www.ietf.org/rfc/rfc6818.txt](https://www.ietf.org/rfc/rfc6818.txt).
+Revocation List (CRL) Profile*, IETF, October 2015. Available at <https://www.ietf.org/rfc/rfc6818.txt>.
 
-[[RFC6960]](#ref-RFC6960){:name="ref-RFC6960"} RFC 6960, *X.509 Internet Public Key Infrastructure Online Certificate Status Protocol - OCSP*, IETF, June 2013. Available at [https://www.ietf.org/rfc/rfc6960.txt](https://www.ietf.org/rfc/rfc6960.txt).
+[[RFC6960]](#ref-RFC6960){:name="ref-RFC6960"} RFC 6960, *X.509 Internet Public Key Infrastructure Online Certificate Status Protocol - OCSP*, IETF, June 2013. Available at <https://www.ietf.org/rfc/rfc6960.txt>.
 
 [[RFC8485]](#ref-RFC8485){:name="ref-RFC8485"} RFC 8485, *Vectors of Trust*, IETF, October 2018. Available at
-[https://www.ietf.org/rfc/rfc8485.txt](https://www.ietf.org/rfc/rfc8485.txt).
+<https://www.ietf.org/rfc/rfc8485.txt>.
 
-[[RISK-MGMT-FACILITIES]](#ref-RISK-MGMT-FACILITIES){:name="ref-RISK-MGMT-FACILITIES"} *The Risk Management Process for Federal Facilities: An Interagency Security Committee Standard*, Interagency Security Committee, November, 2016. Available at [https://www.cisa.gov/sites/default/files/publications/isc-risk-management-process-2016-508.pdf](https://www.cisa.gov/sites/default/files/publications/isc-risk-management-process-2016-508.pdf).
+[[RISK-MGMT-FACILITIES]](#ref-RISK-MGMT-FACILITIES){:name="ref-RISK-MGMT-FACILITIES"} *The Risk Management Process for Federal Facilities: An Interagency Security Committee Standard*, Interagency Security Committee, November, 2016. Available at <https://www.cisa.gov/sites/default/files/publications/isc-risk-management-process-2016-508.pdf>.
 
 [[SAML-AC]](#ref-SAML-AC){:name="ref-SAML-AC"} Authentication Context for the OASISSecurity Assertion Markup Language(SAML) V2.0, OASIS, March 2005.
-Available at [https://docs.oasis-open.org/security/saml/v2.0/saml-authn-context-2.0-os.pdf](https://docs.oasis-open.org/security/saml/v2.0/saml-authn-context-2.0-os.pdf).
+Available at <https://docs.oasis-open.org/security/saml/v2.0/saml-authn-context-2.0-os.pdf>.
 
 [[SP 800-37]](#ref-SP-800-37){:name="ref-SP-800-37"} NIST Special Publication 800-37 Revision 2, *Risk Management Framework for Information Systems and Organizations: A System Life Cycle Approach for Security and Privacy*, NIST,
-December 2018 or as amended. Available at [https://doi.org/10.6028/NIST.SP.800-37r2](https://doi.org/10.6028/NIST.SP.800-37r2).
+December 2018 or as amended. Available at <https://doi.org/10.6028/NIST.SP.800-37r2>.
 
-[[SP 800-53]](#ref-SP-800-53){:name="ref-SP-800-53"} NIST Special Publication 800-53 Revision 4, *Security and Privacy Controls for Federal Information Systems and Organizations*, NIST, April 2013 or as amended. Available at [http://doi.org/10.6028/NIST.SP.800-53r4](http://doi.org/10.6028/NIST.SP.800-53r4).
+[[SP 800-53]](#ref-SP-800-53){:name="ref-SP-800-53"} NIST Special Publication 800-53 Revision 4, *Security and Privacy Controls for Federal Information Systems and Organizations*, NIST, April 2013 or as amended. Available at <http://doi.org/10.6028/NIST.SP.800-53r4>.
 
 [[SP 800-59]](#ref-SP-800-59){:name="ref-SP-800-59"} NIST Special Publication 800-59, *Guideline for Identifying an Information System
-as a National Security System*, NIST, August 2003 or as amended. Available at [https://doi.org/10.6028/NIST.SP.800-59](https://doi.org/10.6028/NIST.SP.800-59).
+as a National Security System*, NIST, August 2003 or as amended. Available at <https://doi.org/10.6028/NIST.SP.800-59>.
 
 [[SP 800-63]](#ref-SP-800-63){:name="ref-SP-800-63"} NIST Special Publication 800-63-3, *Digital Identity Guidelines*, NIST,
-June 2017 or as amended. Available at [https://doi.org/10.6028/NIST.SP.800-63-3](https://doi.org/10.6028/NIST.SP.800-63-3).
+June 2017 or as amended. Available at <https://doi.org/10.6028/NIST.SP.800-63-3>.
 
 [[SP 800-63A]](#ref-SP-800-63A){:name="ref-SP-800-63A"} NIST Special Publication 800-63A, *Digital Identity Guidelines: Enrollment and Identity Proofing Requirements*, NIST, June 2017 or as amended.
-Available at [https://doi.org/10.6028/NIST.SP.800-63a](https://doi.org/10.6028/NIST.SP.800-63a).
+Available at <https://doi.org/10.6028/NIST.SP.800-63a>.
 
 [[SP 800-63B]](#ref-SP-800-63B){:name="ref-SP-800-63B"} NIST Special Publication 800-63B, *Digital Identity Guidelines: Authentication and Lifecycle Management*, NIST, June 2017 or as amended.
-Available at [https://doi.org/10.6028/NIST.SP.800-63b](https://doi.org/10.6028/NIST.SP.800-63b).
+Available at <https://doi.org/10.6028/NIST.SP.800-63b>.
 
 [[SP 800-63C]](#ref-SP-800-63C){:name="ref-SP-800-63C"} NIST Special Publication 800-63C, *Digital Identity Guidelines: Federation and Assertions*, NIST, June 2017 or as amended.
-Available at [https://doi.org/10.6028/NIST.SP.800-63c](https://doi.org/10.6028/NIST.SP.800-63c).
+Available at <https://doi.org/10.6028/NIST.SP.800-63c>.
 
 [[SP 800-73]](#ref-SP-800-73){:name="ref-SP-800-73"} NIST Special Publication 800-73-4, *Interfaces for Personal Identity Verification*,
-NIST, May 2015 or as amended. Available at [https://doi.org/10.6028/NIST.SP.800-73-4](https://doi.org/10.6028/NIST.SP.800-73-4).
+NIST, May 2015 or as amended. Available at <https://doi.org/10.6028/NIST.SP.800-73-4>.
 
 [[SP 800-76]](#ref-SP-800-76){:name="ref-SP-800-76"} NIST Special Publication 800-76-2, *Biometric Specifications for Personal Identity
-Verification*, NIST, July 2013 or as amended. Available at [https://doi.org/10.6028/NIST.SP.800-76-2](https://doi.org/10.6028/NIST.SP.800-76-2).
+Verification*, NIST, July 2013 or as amended. Available at <https://doi.org/10.6028/NIST.SP.800-76-2>.
 
 [[SP 800-78]](#ref-SP-800-78){:name="ref-SP-800-78"} NIST Special Publication 800-78-4, *Cryptographic Algorithms and Key Sizes for
-Personal Identity Verification*, NIST, May 2015 or as amended. Available at [https://doi.org/10.6028/NIST.SP.800-78-4](https://doi.org/10.6028/NIST.SP.800-78-4).
+Personal Identity Verification*, NIST, May 2015 or as amended. Available at <https://doi.org/10.6028/NIST.SP.800-78-4>.
 
-[[SP 800-79]](#ref-SP-800-79){:name="ref-SP-800-79"} NIST Special Publication 800-79-2, *Guidelines for the Accreditation of Personal
+[[SP 800-79]](#ref-SP-800-79){:name="ref-SP-800-79"} NIST Special Publication 800-79-2, *Guidelines for the Authorization of Personal
 Identity Verification Card Issuers (PCI) and Derived PIV Credential Issuers (DPCI)*, NIST, July 2015 or as amended. 
-Available at [https://doi.org/10.6028/NIST.SP.800-79-2](https://doi.org/10.6028/NIST.SP.800-79-2).
+Available at <https://doi.org/10.6028/NIST.SP.800-79-2>.
 
 [[SP 800-85A]](#ref-SP-800-85A){:name="ref-SP-800-85A"} NIST Special Publication 800-85A-4, *PIV Card Application and Middleware
 Interface Test Guidelines (SP800-73-4 Compliance)*, NIST, April 2016 or as amended. Available at
-[https://doi.org/10.6028/NIST.SP.800-85A-4](https://doi.org/10.6028/NIST.SP.800-85A-4).
+<https://doi.org/10.6028/NIST.SP.800-85A-4>.
 
 [[SP 800-87]](#ref-SP-800-87){:name="ref-SP-800-87"} NIST Special Publication 800-87 Revision 2, *Codes for the Identification of Federal
-and Federally-Assisted Organizations*, NIST, April 2018 or as amended. Available at [https://doi.org/10.6028/NIST.SP.800-87r2](https://doi.org/10.6028/NIST.SP.800-87r2).
+and Federally-Assisted Organizations*, NIST, April 2018 or as amended. Available at <https://doi.org/10.6028/NIST.SP.800-87r2>.
 
 [[SP 800-96]](#ref-SP-800-96){:name="ref-SP-800-96"} NIST Special Publication 800-96, *PIV Card to Reader Interoperability Guidelines*,
-NIST, September 2006 or as amended. Available at [https://doi.org/10.6028/NIST.SP.800-96](https://doi.org/10.6028/NIST.SP.800-96).
+NIST, September 2006 or as amended. Available at <https://doi.org/10.6028/NIST.SP.800-96>.
 
 [[SP 800-116]](#ref-SP-800-116){:name="ref-SP-800-116"} NIST Special Publication 800-116-1, *Guidelines for the use of PIV
-Credentials in Facility Access*, NIST, June 2018 or as amended. Available at [https://doi.org/10.6028/NIST.SP.800-116r1](https://doi.org/10.6028/NIST.SP.800-116r1).
+Credentials in Facility Access*, NIST, June 2018 or as amended. Available at <https://doi.org/10.6028/NIST.SP.800-116r1>.
 
 [[SP 800-122]](#ref-SP-800-122){:name="ref-SP-800-122"} NIST Special Publication 800-122, *Guide to Protecting the Confidentiality of
-Personally Identifiable Information (PII)*, NIST, April 2010 or as amended. Available at [https://doi.org/10.6028/NIST.SP.800-122](https://doi.org/10.6028/NIST.SP.800-122).
+Personally Identifiable Information (PII)*, NIST, April 2010 or as amended. Available at <https://doi.org/10.6028/NIST.SP.800-122>.
 
 [[SP 800-156]](#ref-SP-800-156){:name="ref-SP-800-156"} NIST Special Publication 800-156, *Representation of PIV Chain-of-Trust for
-Import and Export*, NIST, May 2016 or as amended. Available at [https://doi.org/10.6028/NIST.SP.800-156](https://doi.org/10.6028/NIST.SP.800-156).
+Import and Export*, NIST, May 2016 or as amended. Available at <https://doi.org/10.6028/NIST.SP.800-156>.
 
 [[SP 800-157]](#ref-SP-800-157){:name="ref-SP-800-157"} NIST Special Publication 800-157, *Guidelines for Derived Personal Identity
-Verification (PIV) Credentials*, NIST, December 2014 or as amended. Available at [https://doi.org/10.6028/NIST.SP.800-157](https://doi.org/10.6028/NIST.SP.800-157).
+Verification (PIV) Credentials*, NIST, December 2014 or as amended. Available at <https://doi.org/10.6028/NIST.SP.800-157>.

@@ -15,6 +15,7 @@ This normative appendix provides additional details for the PIV objects identifi
 [Table B-1](#table-b-1) lists details for PIV object identifiers.
 
 [Table B-1. PIV Object Identifiers](#table-b-1){:name="table-b-1"}
+{:latex-ignore="true"}
 
 |ID| Object Identifier|Description|
 |---|---|---|
@@ -29,15 +30,16 @@ This normative appendix provides additional details for the PIV objects identifi
 |PIV Extended Key Usage|||
 |id-PIV-content-signing|2.16.840.1.101.3.6.7|This specifies that the public key MAY be used to verify signatures on CHUIDs and biometric data record.|
 |id-PIV-cardAuth|2.16.840.1.101.3.6.8|This specifies that the public key is used to authenticate the PIV Card rather than the PIV cardholder.|
+{:latex-columns="p@0.25\textwidth,p@0.25\textwidth,p@0.41\textwidth" latex-table="B-1" latex-caption="PIV Object Identifiers"}
 
 The OIDs for certificate policies are specified in [[COMMON]](references.md#ref-COMMON).
 
-## B.2 PIV Certificate Extension (Deprecated) {#s-b-2}
+## B.2 PIV Background Investigation Indicator Certificate Extension (Deprecated) {#s-b-2}
 
 The PIV background investigation indicator (previously known as the NACI indicator) is deprecated under this version of the 
 Standard. It is expected that the indicator will be removed from a future revision of this standard.
 Instead of the on-card indicator, background investigative status is commonly maintained in each 
-agency IDMS and personnel security system, and in the Central Verification System (or successor). Status of the investigation can be communicated as needed using 
+agency IDMS and personnel security system and in the Central Verification System (or successor). Status of the investigation can be communicated as needed using 
 federation protocols. 
 
 If used, the PIV background investigation indicator extension indicates to the issuer whether the subject's
@@ -46,15 +48,15 @@ extension is always non-critical.
 The value of this extension is asserted as
 follows:
 
-- TRUE if, at the time of credential issuance, (1) the FBI National Criminal History Fingerprint Check
+- `TRUE` if, at the time of credential issuance, (1) the FBI National Criminal History Fingerprint Check
     has completed, and (2) a background investigation has been initiated but has not completed.
-- FALSE if, at the time of credential issuance, the subject's background investigation has been
+- `FALSE` if, at the time of credential issuance, the subject's background investigation has been
     completed and successfully adjudicated.
 
 The PIV background investigation indicator extension is identified by the id-piv-NACI
 object identifier. The syntax for this extension is defined by the following ASN.1 module.
 
-```
+~~~
 PIV- Cert-Extensions { 2 16 840 1 101 3 6 10 1 }
 DEFINITIONS EXPLICIT TAGS ::=
 BEGIN
@@ -63,4 +65,4 @@ BEGIN
 id- piv- NACI OBJECT IDENTIFIER ::= { 2 16 840 1 101 3 6 9 1 }
 NACI-indicator ::= BOOLEAN
 END
-```
+~~~
