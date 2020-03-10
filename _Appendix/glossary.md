@@ -60,7 +60,7 @@ Biometric Characteristic
 : Biological attribute of an individual from which 
 distinctive and repeatable values can be extracted for the purpose 
 of automated recognition. Fingerprint ridge structure and face topography are 
-examples of biometric characteristics. [[ISO2382-37]](references.md#ref-ISO/IEC-2382-37) 
+examples of biometric characteristics. See [[ISO2382-37]](references.md#ref-ISO/IEC-2382-37) for more details.
 
 Biometric Data
 : Biometric sample or aggregation of biometric samples at any stage of 
@@ -80,7 +80,7 @@ the same biometric source based on comparison score(s) during a verification
 transaction. [[ISO2382-37]](references.md#ref-ISO/IEC-2382-37) 
 
 Capture
-: Series of actions undertaken to obtain and record, in a retrievable form, signals of biometric characteristics directly from individuals. [[ISO2382-37]](references.md#ref-ISO/IEC-2382-37) 
+: Series of actions undertaken to obtain and record, in a retrievable form, signals of biometric characteristics directly from individuals. See [[ISO2382-37]](references.md#ref-ISO/IEC-2382-37) for more details.
 
 Cardholder
 : An individual possessing an issued PIV Card.
@@ -207,7 +207,7 @@ Key
 Match
 : Comparison decision stating that the biometric probe(s) and the biometric 
 reference are from the same source. _Match_ is a possible result of a 
-_Comparison_. The opposite of a match is a _non-match_. [[ISO2382-37]](references.md#ref-ISO/IEC-2382-37)
+_Comparison_. The opposite of a match is a _non-match_. See [[ISO2382-37]](references.md#ref-ISO/IEC-2382-37) for more details.
 
 Model
 : A very detailed description or scaled representation of one component of a larger system that can
