@@ -464,7 +464,7 @@ issued under the id-fpki-common-piv-contentSigning policy of [[COMMON]](../_Appe
 signing certificate SHALL also include an extended key usage (*extKeyUsage*) extension asserting id-PIV-content-signing. 
 The public key SHALL be included in the certificates field of the CMS external digital signature in a content signing certificate. 
 Additional descriptions for the PIV object identifiers are provided in Appendix B. The
-content signing certificate on a valid PIV Card.[^validPIVCard] SHALL NOT be
+content signing certificate on a valid PIV Card[^validPIVCard] SHALL NOT be
 expired.
 
 [^validPIVCard]: A valid PIV Card refers to a PIV Card that is neither expired nor revoked. 
@@ -652,9 +652,7 @@ signing certificate SHALL also include an extended key usage (*extKeyUsage*) ext
 the CHUID, the certificates field of the CMS external digital signature SHALL include the content signing
 certificate required to verify the signature on the biometric data record. Otherwise, the *certificates* field SHALL be
 omitted. Additional descriptions for the PIV object identifiers are provided in Appendix B. The content
-signing certificate on a valid PIV Card[^validPIVCard2] SHALL NOT be expired.
-
-[^validPIVCard2]: A valid PIV Card refers to a PIV Card that is neither expired nor revoked. 
+signing certificate on a valid PIV Card[^validPIVCard] SHALL NOT be expired.
 
 #### 4.2.3.3 Biometric Data Record Access {#s-4-2-3-3}
 
