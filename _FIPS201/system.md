@@ -157,7 +157,7 @@ Descriptions of the seven card lifecycle activities are as follows:
     access to a physical or logical resource. Access authorization decisions are made after successful
     cardholder identification and authentication.
 - **PIV Card Maintenance.** This activity deals with the maintenance or update of the physical card and
-    its data data. Such data includes various card applications, PINs, PKI credentials, and
+    its data. Such data includes various card applications, PINs, PKI credentials, and
     biometric data.
 - **PIV Card Termination.** The termination process is used to permanently destroy or invalidate the
     PIV Card and the data and keys needed for authentication so as to prevent any future use of the card

@@ -37,7 +37,7 @@ Standardization (ISO)/International Electrotechnical Commission (IEC) 7810 [[ISO
 
 ### 4.1.1 Printed Material {#s-4-1-1}
 
-The printed material SHALL NOT rub off during the life of the PIV Card, and the printing process SHALL NOT 
+The printed material SHALL NOT rub off during the life of the PIV Card. The printing process SHALL NOT 
 deposit debris on the printer rollers during printing and laminating. Printed material SHALL NOT interfere
 with the contact and contactless ICC(s) and related components, nor SHALL it obstruct access to machine-readable information.
 
@@ -727,7 +727,7 @@ PIV Cards MAY support card activation by the card management system to support c
 and post-issuance card update. To activate the card for personalization or update, the card management
 system SHALL perform a challenge response protocol using cryptographic keys stored on the card in
 accordance with [[SP 800-73]](../_Appendix/references.md#ref-SP-800-73). When cards are personalized, 
-each PIV Card SHALL contain a unique PIV Card PIV Card Application administration key
+each PIV Card SHALL contain a unique PIV Card Application administration key
 specific to that PIV Card. PIV Card Application administration keys SHALL meet the algorithm
 and key size requirements stated in [[SP 800-78]](../_Appendix/references.md#ref-SP-800-78).
 
@@ -761,7 +761,7 @@ among PIV System middleware, card readers, and credentials more resilient and fl
 of Commerce will evaluate ISO/IEC 24727 and propose an optional profile of ISO/IEC 24727 in [[SP 800-73]](../_Appendix/references.md#ref-SP-800-73). The profile will explain how profile-conformant middleware, card readers, and PIV Cards can be
 used interchangeably with middleware, card readers, and PIV Cards currently deployed.
 
-Interoperability through the PIV Card, middleware, and card readers is only a portion of what is needed for interoperability between different PIV systems. Full interoperability is of PIV systems is intended to be grounded in federation, as discussed in [Section 7](federation.md#s-7).
+Interoperability through the PIV Card, middleware, and card readers is only a portion of what is needed for interoperability between different PIV systems. Full interoperability of PIV systems is intended to be grounded in federation, as discussed in [Section 7](federation.md#s-7).
 
 ### 4.4.4 Card Activation Device Requirements {#s-4-4-4}
 

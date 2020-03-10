@@ -549,7 +549,7 @@ UUID
 
 This Standard uses the following typographical conventions in text:
 
-- ASN.1 data types are represented in `fixed-width font`. For example, `SignedData` and `SignerInfo` are data types
+- ASN.1 data types are represented in a `monospaced font`. For example, `SignedData` and `SignerInfo` are data types
     defined for digital signatures.
 - Specific terms in CAPITALS represent normative requirements. When these same terms are not in CAPITALS, the term does not represent a normative requirement. 
     - The terms "SHALL" and "SHALL NOT" indicate requirements to be followed strictly in order to conform to the publication and from which no deviation is permitted.
