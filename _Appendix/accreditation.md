@@ -54,7 +54,7 @@ The accreditation of the capability and reliability of a PCI and DPCI using the 
 assurance that such a security exists in a PCI and DPCI is obtained through evidence of the application of the Risk
 Management Framework guidelines specified in [[SP 800-37]](references.md#ref-SP-800-37). The methodology in [[SP 800-37]](references.md#ref-SP-800-37) in turn
 was created pursuant to a mandate in Appendix III of Office of Management and Budget (OMB) Circular
-A-130. An Information system authorization decision together with evidence of security control
+[[A-130]](references.md#ref-A-130). An information system authorization decision together with evidence of security control
 monitoring compliant with [[SP 800-37]](references.md#ref-SP-800-37) guidelines signifies that a PCI/DPCI organization's official accepts
 responsibility for the security (in terms of confidentiality, integrity, and availability of information) of the
 information systems that will be involved in carrying out the PCI/DPCI functions. Hence evidence of
@@ -68,13 +68,13 @@ and its associated technical specifications is needed in order to meet the secur
 goals of [[HSPD-12]](references.md#ref-HSPD-12). To facilitate this, NIST has established the NIST Personal Identity Verification
 Program (NPIVP). Under this program NIST has developed test procedures in SP 800-85A, *PIV Card
 Application and Middleware Interface Test Guidelines (SP 800-73 compliance)*, and an associated toolkit
-for conformance testing of PIV Card Applications and PIV Middleware [[SP 800-85A]](references.md#ref-SP-800-85A). Note, NPIVP conformance testing also covers PIV Middleware, however, conformance testing may be discontinued at a future time as computer platforms increasingly provide built-in support for smart cards.
+for conformance testing of PIV Card Applications and PIV Middleware [[SP 800-85A]](references.md#ref-SP-800-85A). NPIVP conformance testing also covers PIV Middleware, but conformance testing may be discontinued at a future time as computer platforms increasingly provide built-in support for smart cards.
 
 Commercial products under these two categories are tested by the set of accredited test laboratories, accredited under
 the National Voluntary Laboratory Accreditation Program (NVLAP) program, using the NIST supplied
 test procedures and toolkit. The outcomes of the test results are validated by NIST, which then issues
 validation certificates. Information about NPIVP is available at
-[https://csrc.nist.gov/projects/nist-s-personal-identity-verification-program](https://csrc.nist.gov/projects/nist-s-personal-identity-verification-program).
+<https://csrc.nist.gov/projects/nist-s-personal-identity-verification-program>.
 
 ## A.4 Cryptographic Testing and Validation {#s-a-4}
 
@@ -87,7 +87,7 @@ submissions are validated and a validation certificate for each vendor module is
 Cryptographic Module Validation Program (CMVP), a joint program run by NIST and the
 Communications Security Establishment (CSE) of the Government of Canada. The details of the CMVP
 and NVLAP programs and the list of testing laboratories can be found at the CMVP Web site at
-[https://csrc.nist.gov/projects/cryptographic-module-validation-program](https://csrc.nist.gov/projects/cryptographic-module-validation-program).
+<https://csrc.nist.gov/projects/cryptographic-module-validation-program>.
 
 ## A.5 FIPS 201 Evaluation Program {#s-a-5}
 
@@ -97,4 +97,4 @@ established the FIPS 201 Evaluation Program. The product families may include
 the card products tested under the PIV Validation Program, physical access control systems, or other products as needed. Products evaluated and
 approved under this process are placed on the FIPS 201 Approved Products List to promote procurement
 of conformant products by implementing agencies. The details of the program are available at
-[https://www.idmanagement.gov/](https://www.idmanagement.gov/).
+<https://www.idmanagement.gov/>.

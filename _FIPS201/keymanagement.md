@@ -8,7 +8,7 @@ permalink: /keymanagement/
 
 # 5. PIV Key Management Requirements {#s-5}
 
-PIV Cards consistent with this specification will have two or more asymmetric private keys. To manage
+PIV Cards consistent with this specification SHALL have two or more asymmetric private keys. To manage
 the public keys associated with the asymmetric private keys, departments and agencies SHALL issue and
 manage X.509 public key certificates as specified below.
 
@@ -27,7 +27,7 @@ All certificates issued to support PIV private keys (PIV authentication, card au
 Policy for the U.S. Federal PKI Common Policy Framework* [[COMMON]](../_Appendix/references.md#ref-COMMON). 
 CAs and registration authorities MAY be operated by departments and agencies, or MAY be outsourced to PKI
 service providers. For a list of PKI service providers that have been approved to operate under
-[[COMMON]](../_Appendix/references.md#ref-COMMON), see [https://www.idmanagement.gov](https://www.idmanagement.gov).
+[[COMMON]](../_Appendix/references.md#ref-COMMON), see <https://www.idmanagement.gov>.
 
 Details of the cryptographic properties of PIV keys are found in [Section 4.2.2](frontend.md#s-4-2-2) and its subsections.
 
@@ -43,10 +43,10 @@ relationship is described below:
     SHALL conform to *Card Authentication Certificate Profile* in [[PROF]](../_Appendix/references.md#ref-PROF) and SHALL specify the id-fpki-common-cardAuth policy of [[COMMON]](../_Appendix/references.md#ref-COMMON) in the certificate policies extension.
     See [Section 4.2.2.2](frontend.md#s-4-2-2-2).
 - Certificates containing the public key associated with a digital signature private key SHALL conform to
-    *: End Entity Signature Certificate Profile* in [[PROF]](../_Appendix/references.md#ref-PROF) and SHALL specify the id-fpki-common-hardware policy of [[COMMON]](../_Appendix/references.md#ref-COMMON) in the certificate policies
+    *End Entity Signature Certificate Profile* in [[PROF]](../_Appendix/references.md#ref-PROF) and SHALL specify the id-fpki-common-hardware policy of [[COMMON]](../_Appendix/references.md#ref-COMMON) in the certificate policies
     extension. See [Section 4.2.2.4](frontend.md#s-4-2-2-4).
 - Certificates containing the public key associated with a key management private key SHALL conform to
-    *Key Management Certificate Profile* in [[PROF]](../_Appendix/references.md#ref-PROF) and SHALL specify the id-fpki-common-policy,or id-fpki-common-hardware policy of [[COMMON]](../_Appendix/references.md#ref-COMMON) in the certificate policies extension.
+    *Key Management Certificate Profile* in [[PROF]](../_Appendix/references.md#ref-PROF) and SHALL specify the id-fpki-common-policy or id-fpki-common-hardware policy of [[COMMON]](../_Appendix/references.md#ref-COMMON) in the certificate policies extension.
     See [Section 4.2.2.5](frontend.md#s-4-2-2-5).
 - Requirements for algorithms and key sizes for each type of PIV asymmetric key are given in
     [[SP 800-78]](../_Appendix/references.md#ref-SP-800-78).
@@ -56,14 +56,14 @@ SHALL NOT be after the expiration date of the PIV Card. If the card is revoked,
 the PIV authentication and card authentication certificates SHALL be revoked in cases where the card cannot be collected and destroyed.
 However, a PIV authentication or card authentication certificate MAY be revoked and subsequently replaced without revoking the
 PIV Card. The presence of a valid, unexpired, and unrevoked authentication
-certificate on a card is proof that the card was issued and is not revoked.
+certificate on a card is sufficient proof that the card was issued and is not revoked.
 
 ## 5.3 X.509 CRL Contents {#s-5-3}
 
 CAs that issue certificates corresponding to PIV private keys SHALL issue CRLs as specified in
 [[COMMON]](../_Appendix/references.md#ref-COMMON). The contents of X.509 CRLs SHALL conform to *CRL Profile* in [[PROF]](../_Appendix/references.md#ref-PROF).
 
-## 5.4 Legacy PKIs {#s-5-4}
+## 5.4 Legacy PKIs (Removed) {#s-5-4}
 
 The content of this section has been removed as [[COMMON]](../_Appendix/references.md#ref-COMMON) reflects the requirements for department and agency CAs that might be issuing cross-certified PIV authentication certificates and card authentication certificates.
 

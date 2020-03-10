@@ -21,7 +21,7 @@ military establishments, border crossing entrances).
 
 Applicant
 : An individual applying for a PIV Card/credential. The applicant may be a current or
-prospective federal hire, a federal employee, a government affiliate, or a contractor.[^eligibility]
+prospective federal hire, a federal employee, or a contractor.[^eligibility]
 
 Application
 : A hardware/software system implemented to satisfy a particular set of requirements. In
@@ -47,24 +47,24 @@ person's identity and the PIV Card.
 Authenticator Assurance Level (AAL)
 : A measure of the strength of an authentication mechanism, and therefore the confidence in it, as
 defined in [[SP 800-63]](references.md#ref-SP-800-63) in terms of three levels:
-	- AAL1: SOME confidence
-	- AAL2: HIGH confidence
-	- AAL3: VERY HIGH confidence
 
+  - AAL1: SOME confidence
+  - AAL2: HIGH confidence
+  - AAL3: VERY HIGH confidence
 
 Biometric Capture Device
 : Device that collects a signal from a biometric characteristic and converts it 
 to a captured biometric sample. [[ISO2382-37]](references.md#ref-ISO/IEC-2382-37) 
 
 Biometric Characteristic
-: Biological and behavioral characteristic of an individual from which 
-distinguishing, repeatable biometric features can be extracted for the purpose 
-of biometric recognition. Fingerprint ridge structure and face topography are 
-examples of biometric characteristics. [[ISO2382-37]](references.md#ref-ISO/IEC-2382-37) 
+: Biological attribute of an individual from which 
+distinctive and repeatable values can be extracted for the purpose 
+of automated recognition. Fingerprint ridge structure and face topography are 
+examples of biometric characteristics. See [[ISO2382-37]](references.md#ref-ISO/IEC-2382-37) for more details.
 
 Biometric Data
 : Biometric sample or aggregation of biometric samples at any stage of 
-processing [[ISO2382-37]](references.md#ref-ISO/IEC-2382-37) 
+processing. [[ISO2382-37]](references.md#ref-ISO/IEC-2382-37) 
 
 Biometric Data Record
 : Electronic data record containing biometric data [[ISO2382-37]](references.md#ref-ISO/IEC-2382-37).
@@ -84,7 +84,7 @@ the same biometric source based on comparison score(s) during a verification
 transaction. [[ISO2382-37]](references.md#ref-ISO/IEC-2382-37) 
 
 Capture
-: Series of actions undertaken to affect a biometric capture. [[ISO2382-37]](references.md#ref-ISO/IEC-2382-37) 
+: Series of actions undertaken to obtain and record, in a retrievable form, signals of biometric characteristics directly from individuals. See [[ISO2382-37]](references.md#ref-ISO/IEC-2382-37) for more details.
 
 Cardholder
 : An individual possessing an issued PIV Card.
@@ -151,13 +151,14 @@ information technology to achieve a common level of quality or some level of int
 Hash Function
 : A function that maps a bit string of arbitrary length to a fixed length bit string. Secure
 hash functions [[FIPS180]](references.md#ref-FIPS180) satisfy the following properties:
-	1. **One-Way.** It is computationally infeasible to find any input that maps to any pre-specified
-	    output.
-	2. **Collision Resistant.** It is computationally infeasible to find any two distinct inputs that map to
-	    the same output.
+
+  1. **One-Way.** It is computationally infeasible to find any input that maps to any pre-specified
+    output.
+  2. **Collision Resistant.** It is computationally infeasible to find any two distinct inputs that map to
+    the same output.
 
 Identification
-: The process of discovering the identity (i.e., origin, initial history) of a person or item
+: The process of discovering the identity (i.e., origin or initial history) of a person or item
 from the entire collection of similar persons or items.
 
 Identifier
@@ -187,11 +188,6 @@ comparing the credentials (something you know, something you have, something you
 requesting access with those previously proven and stored in the PIV Card or system and associated with
 the identity being claimed.
 
-Interoperability
-: For the purposes of this Standard, interoperability allows any government facility or
-information system, regardless of the issuer, to verify a cardholder's identity using the credentials on the
-PIV Card.
-
 Issuer
 : The organization that is issuing the PIV Card to an applicant. Typically this is an organization
 for which the applicant is working.
@@ -200,18 +196,19 @@ Issuing Facility
 : A physical site or location---including all equipment, staff, and
   documentation---that is responsible for carrying out one or more of the
   following PIV functions:
-    * identity proofing/registration;
-    * card/token production;
-    * activation/issuance; and
-    * maintenance.
+  
+  * identity proofing/registration;
+  * card/token production;
+  * activation/issuance; and
+  * maintenance.
 
 Key
 : See "Cryptographic Key."
 
 Match
 : Comparison decision stating that the biometric probe(s) and the biometric 
-reference are from the same source. Match is a possible result of a 
-"Comparison." The opposite of a match is a "non-match." [[ISO2382-37]](references.md#ref-ISO/IEC-2382-37)
+reference are from the same source. _Match_ is a possible result of a 
+_Comparison_. The opposite of a match is a _non-match_. See [[ISO2382-37]](references.md#ref-ISO/IEC-2382-37) for more details.
 
 Model
 : A very detailed description or scaled representation of one component of a larger system that can
@@ -245,7 +242,7 @@ such as date and place of birth, mother's maiden name, etc. [[OMB1712]](referenc
 
 Personal Identification Number (PIN)
 : A secret that a cardholder memorizes and uses to authenticate
-his or her identity.
+their identity.
 
 Personal Identity Verification (PIV) Account
 : The logical record containing credentialing information for a given PIV cardholder.  This is typically stored within the issuer’s identity management system, and includes PIV enrollment data, cardholder identity attributes, and information regarding authenticators bound to the cardholder’s identity (e.g., PIV card and derived PIV credentials).
@@ -305,6 +302,12 @@ Symmetric Key
 : A cryptographic key that is used to perform both the cryptographic operation and its
 inverse, for example to encrypt and decrypt, or create a message authentication code and to verify the
 code.
+
+Security Executive Agent
+: Individual responsible for the development, implementation, and oversight of effective, efficient, and uniform policies and procedures governing the conduct of investigations and adjudications for eligibility for access to classified information and eligibility to hold a sensitive position in the Federal Government. In accordance with Executive Order 13467 (as amended), this individual is the Director of National Intelligence (DNI).
+
+Suitability and Credentialing Executive Agent
+: Individual responsible for prescribing suitability standards and minimum standards of fitness for employment. With the issuance of Executive Order 13467, as amended, the Suitability and Credentialing Executive Agent is responsible for the development, implementation, and oversight of effective, efficient, and uniform policies and procedures governing the conduct of investigations and adjudications for Suitability, Fitness, and Credentialing determinations in the Federal Government. Pursuant to sections 1103 and 1104 of title 5, United States Code, and the Civil Service Rules, the director of the Office of Personnel Management (OPM) is the Suitability and Credentialing Executive Agent. 
 
 ## C.2 Acronyms {#s-c-2}
 
@@ -394,9 +397,6 @@ ERT
 FASC-N
 : Federal Agency Smart Credential Number
 
-FBCA
-: Federal Bridge Certification Authority
-
 FBI
 : Federal Bureau of Investigation
 
@@ -421,11 +421,11 @@ HSPD
 HTTP
 : Hypertext Transfer Protocol
 
+HTTPS
+: Hypertext Transfer Protocol Secure
+
 I&A
 : Identification and Authentication
-
-IAB
-: Interagency Advisory Board
 
 ICAMSC
 : Identity, Credential, and Access Management Subcommittee
@@ -438,6 +438,9 @@ ID
 
 IDMS
 : Identity Management System
+
+IdP
+: Identity Provider
 
 IEC
 : International Electrotechnical Commission
@@ -457,17 +460,11 @@ IT
 ITL
 : Information Technology Laboratory
 
-LDAP
-: Lightweight Directory Access Protocol
-
 mm
 : Millimeter
 
 MWR
 : Morale, Welfare, and Recreation
-
-NAC
-: National Agency Check
 
 NACI
 : National Agency Check with Written Inquiries
@@ -529,17 +526,14 @@ PKI
 RFC
 : Request for Comments
 
-SES
-: Senior Executive Service
+RP
+: Relying Party
 
 SP
 : Special Publication
 
 SSP
 : Shared Service Provider
-
-TSA
-: Transportation Security Administration
 
 URN
 : Uniform Resource Name
@@ -556,10 +550,8 @@ UUID
 
 This Standard uses the following typographical conventions in text:
 
-- ASN.1 data types are represented in *italics*. For example, *SignedData* and *SignerInfo* are data types
+- ASN.1 data types are represented in a `monospaced font`. For example, `SignedData` and `SignerInfo` are data types
     defined for digital signatures.
-- Letters or words in CAPITALS separated with underscore represent CBEFF-compliant data
-    structures. For example, CBEFF_HEADER is a header field in the CBEFF structure.
 - Specific terms in CAPITALS represent normative requirements. When these same terms are not in CAPITALS, the term does not represent a normative requirement. 
     - The terms "SHALL" and "SHALL NOT" indicate requirements to be followed strictly in order to conform to the publication and from which no deviation is permitted.
     - The terms "SHOULD" and "SHOULD NOT" indicate that among several possibilities one is recommended as particularly suitable, without mentioning or excluding others, or that a certain course of action is preferred but not necessarily required, or that (in the negative form) a certain possibility or course of action is discouraged but not prohibited.
