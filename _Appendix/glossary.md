@@ -71,8 +71,8 @@ Biometric Data Record
 This information
 can be in terms of raw or compressed pixels or in terms of some characteristic (e.g., patterns).
 
-Biometric One-to-One On-Card Comparison
-: Comparison of fingerprint biometric data records transmitted to the PIV Card with a biometric reference 
+Biometric On-Card Comparison
+: A one-to-one comparison of fingerprint biometric data records transmitted to the PIV Card with a biometric reference 
 previously stored on the PIV Card.
 
 Biometric Verification
