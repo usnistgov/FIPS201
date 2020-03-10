@@ -77,7 +77,7 @@ The following list describes the physical requirements for the PIV Card.
     integrity, surface abrasion, temperature and humidity-induced dye migration, ultraviolet light
     exposure, and a laundry test. Cards SHALL NOT malfunction or delaminate after hand cleaning with a
     mild soap and water mixture.
-- The card SHALL be subjected to actual, concentrated, or artificial sunlight to appropriately reflect 2,000
+- The card SHALL be subjected to actual, concentrated, or artificial sunlight to appropriately reflect 2&thinsp;000
     hours of southwestern United States' sunlight exposure in accordance with [[ISO10373]](../_Appendix/references.md#ref-ISO10373), Section 5.12.
     Concentrated sunlight exposure SHALL be performed in accordance with [[G90-98]](../_Appendix/references.md#ref-G90-98) and accelerated
     exposure in accordance with [[G155-2013]](../_Appendix/references.md#ref-G155-2013). After exposure, the card SHALL be subjected to the
