@@ -307,10 +307,10 @@ inverse, for example to encrypt and decrypt, or create a message authentication 
 code.
 
 Security Executive Agent
-The Director of National Intelligence (DNI), in accordance with Executive Order 13467, as amended, is responsible, as the Security Executive Agent, for the development, implementation, and oversight of effective, efficient, and uniform policies and procedures governing the conduct of investigations and adjudications for eligibility for access to classified information and eligibility to hold a sensitive position in the Federal Government. 
+: Individual responsible for the development, implementation, and oversight of effective, efficient, and uniform policies and procedures governing the conduct of investigations and adjudications for eligibility for access to classified information and eligibility to hold a sensitive position in the Federal Government. In accordance with Executive Order 13467 (as amended), this individual is The Director of National Intelligence (DNI).
 
 Suitability and Credentialing Executive Agent
-The Director of the Office of Personnel Management (OPM), pursuant to sections 1103 and 1104 of title 5, United States Code, and the Civil Service Rules is responsible for prescribing suitability standards and minimum standards of fitness for employment. With the issuance of Executive Order 13467, as amended, the OPM Director, is responsible, as the Suitability and Credentialing Executive Agent, for the development, implementation, and oversight of effective, efficient, and uniform policies and procedures governing the conduct of investigations and adjudications for Suitability, Fitness and Credentialing determinations in the Federal Government.
+: Individual responsible for prescribing suitability standards and minimum standards of fitness for employment. With the issuance of Executive Order 13467, as amended, the Suitability and Credentialing Executive Agent is responsible for the development, implementation, and oversight of effective, efficient, and uniform policies and procedures governing the conduct of investigations and adjudications for Suitability, Fitness and Credentialing determinations in the Federal Government. Pursuant to sections 1103 and 1104 of title 5, United States Code, and the Civil Service Rules, the Director of the Office of Personnel Management (OPM) is the Suitability and Credentialing Executive Agent. 
 
 ## C.2 Acronyms {#s-c-2}
 
