@@ -753,15 +753,9 @@ specified in [[SP 800-96]](../_Appendix/references.md#ref-SP-800-96). In systems
 computing systems, the reader-to-host system interface is not specified in this Standard.
 
 
-### 4.4.3 Reader Resilience and Flexibility {#s-4-4-3}
+### 4.4.3 Future ISO/IEC 24727 Reader Resilience and Flexibility Profile Option {#s-4-4-3}
 
-The international standard ISO/IEC 24727 [[ISO24727]](../_Appendix/references.md#ref-ISO24727) enables a high degree of interoperability between
-electronic credentials and relying subsystems by means of an adaptation layer. To make interoperability
-among PIV System middleware, card readers, and credentials more resilient and flexible, the Department
-of Commerce will evaluate ISO/IEC 24727 and propose an optional profile of ISO/IEC 24727 in [[SP 800-73]](../_Appendix/references.md#ref-SP-800-73). The profile will explain how profile-conformant middleware, card readers, and PIV Cards can be
-used interchangeably with middleware, card readers, and PIV Cards currently deployed.
-
-Interoperability through the PIV Card, middleware, and card readers is only a portion of what is needed for interoperability between different PIV systems. Full interoperability of PIV systems is intended to be grounded in federation, as discussed in [Section 7](federation.md#s-7).
+The content of this section has been removed as the PIV middleware specified in [[SP 800-73]](../_Appendix/references.md#ref-SP-800-73) adaquately covers reader resilience and flexibility for different PIV systems. Note that interoperability through the PIV Card, middleware, and card readers is only a portion of what is needed for interoperability between different PIV systems. Full interoperability of PIV systems is intended to be grounded in federation, as discussed in [Section 7](federation.md#s-7).
 
 ### 4.4.4 Card Activation Device Requirements {#s-4-4-4}
 
