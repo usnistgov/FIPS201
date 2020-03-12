@@ -473,7 +473,7 @@ the asymmetric signature and digest algorithm are detailed in [[SP 800-78]](../_
 The public key required to verify the digital signature SHALL be contained in
 a content signing certificate, which SHALL be
 issued under the id-fpki-common-piv-contentSigning policy of [[COMMON]](../_Appendix/references.md#ref-COMMON). The content
-signing certificate SHALL also include an extended key usage (`extKeyUsage`) extension asserting id-PIV-content-signing. 
+signing certificate SHALL also include an extended key usage (`extKeyUsage`) extension asserting `id-PIV-content-signing`. 
 The public key SHALL be included in the `certificates` field of the CMS external digital signature in a content signing certificate. 
 Additional descriptions for the PIV object identifiers are provided in [Appendix B](../_Appendix/oid.md#s-b). The
 content signing certificate on a valid PIV Card (one that is neither expired nor revoked) SHALL NOT be
@@ -555,7 +555,7 @@ The X.509 certificate SHALL include the FASC-N in the Subject Alternative Name (
 the UUID value from the GUID data element of the CHUID in the Subject Alternative Name extension.
 The UUID SHALL be encoded as a uniform resource name (URN), as specified in Section 3 of
 [[RFC4122]](../_Appendix/references.md#ref-RFC4122). The expiration date of the certificate SHALL be no later than the expiration date of the PIV
-Card. The PIV authentication certificate MAY include a PIV background investigation indicator (previously known as the NACI indicator) extension (see Appendix B.2). 
+Card. The PIV authentication certificate MAY include a PIV background investigation indicator (previously known as the NACI indicator) extension (see [Appendix B.2](../_Appendix/oid.md#s-b-2)). 
 This non-critical extension indicates the status
 of the subject's background investigation at the time of card issuance. [Section 5](keymanagement.md#s-5) of this document
 specifies the certificate format and the key management infrastructure for the PIV authentication key.
@@ -657,10 +657,10 @@ requirements for the digital signature and digest algorithm are detailed in [[SP
 
 The public key required to verify the digital signature SHALL be contained in a content signing certificate,
 which SHALL be issued under the id-fpki-common-piv-contentSigning policy of [[COMMON]](../_Appendix/references.md#ref-COMMON). The content
-signing certificate SHALL also include an extended key usage (`extKeyUsage`) extension asserting id-PIV-content-signing. If the signature on the biometric data record was generated with a different key than the signature on
+signing certificate SHALL also include an extended key usage (`extKeyUsage`) extension asserting `id-PIV-content-signing`. If the signature on the biometric data record was generated with a different key than the signature on
 the CHUID, the `certificates` field of the CMS external digital signature SHALL include the content signing
 certificate required to verify the signature on the biometric data record. Otherwise, the `certificates` field SHALL be
-omitted. Additional descriptions for the PIV object identifiers are provided in Appendix B. The content
+omitted. Additional descriptions for the PIV object identifiers are provided in [Appendix B](../_Appendix/oid.md#s-b). The content
 signing certificate on a valid PIV Card (one that is neither expired nor revoked) SHALL NOT be expired.
 
 #### 4.2.3.3 Biometric Data Record Access {#s-4-2-3-3}
