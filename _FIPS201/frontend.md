@@ -473,8 +473,8 @@ the asymmetric signature and digest algorithm are detailed in [[SP 800-78]](../_
 The public key required to verify the digital signature SHALL be contained in
 a content signing certificate, which SHALL be
 issued under the id-fpki-common-piv-contentSigning policy of [[COMMON]](../_Appendix/references.md#ref-COMMON). The content
-signing certificate SHALL also include an extended key usage (*extKeyUsage*) extension asserting id-PIV-content-signing. 
-The public key SHALL be included in the certificates field of the CMS external digital signature in a content signing certificate. 
+signing certificate SHALL also include an extended key usage (`extKeyUsage`) extension asserting id-PIV-content-signing. 
+The public key SHALL be included in the `certificates` field of the CMS external digital signature in a content signing certificate. 
 Additional descriptions for the PIV object identifiers are provided in [Appendix B](../_Appendix/oid.md#s-b). The
 content signing certificate on a valid PIV Card (one that is neither expired nor revoked) SHALL NOT be
 expired.
@@ -551,7 +551,7 @@ user action (e.g., the PIN need not be supplied for each operation).
 
 The PIV Card SHALL store a corresponding X.509 certificate to support validation of the public key.
 The X.509 certificate SHALL include the FASC-N in the Subject Alternative Name (SAN) extension using the
-pivFASC-N attribute to support physical access procedures. The X.509 certificate SHALL also include
+`pivFASC-N` attribute to support physical access procedures. The X.509 certificate SHALL also include
 the UUID value from the GUID data element of the CHUID in the Subject Alternative Name extension.
 The UUID SHALL be encoded as a uniform resource name (URN), as specified in Section 3 of
 [[RFC4122]](../_Appendix/references.md#ref-RFC4122). The expiration date of the certificate SHALL be no later than the expiration date of the PIV
@@ -570,7 +570,7 @@ with this key).
 
 The PIV Card SHALL store a corresponding X.509 certificate to support validation of the public key.
 The X.509 certificate SHALL include the FASC-N in the Subject Alternative Name extension using the
-pivFASC-N attribute to support physical access procedures. The X.509 certificate SHALL also include
+`pivFASC-N` attribute to support physical access procedures. The X.509 certificate SHALL also include
 the UUID value from the GUID data element of the CHUID in the Subject Alternative Name extension.
 The UUID SHALL be encoded as a URN, as specified in Section 3 of [[RFC4122]](../_Appendix/references.md#ref-RFC4122). The expiration date of
 the certificate SHALL be no later than the expiration date of the PIV Card. [Section 5](keymanagement.md#s-5) of this document
@@ -657,9 +657,9 @@ requirements for the digital signature and digest algorithm are detailed in [[SP
 
 The public key required to verify the digital signature SHALL be contained in a content signing certificate,
 which SHALL be issued under the id-fpki-common-piv-contentSigning policy of [[COMMON]](../_Appendix/references.md#ref-COMMON). The content
-signing certificate SHALL also include an extended key usage (*extKeyUsage*) extension asserting id-PIV-content-signing. If the signature on the biometric data record was generated with a different key than the signature on
-the CHUID, the certificates field of the CMS external digital signature SHALL include the content signing
-certificate required to verify the signature on the biometric data record. Otherwise, the *certificates* field SHALL be
+signing certificate SHALL also include an extended key usage (`extKeyUsage`) extension asserting id-PIV-content-signing. If the signature on the biometric data record was generated with a different key than the signature on
+the CHUID, the `certificates` field of the CMS external digital signature SHALL include the content signing
+certificate required to verify the signature on the biometric data record. Otherwise, the `certificates` field SHALL be
 omitted. Additional descriptions for the PIV object identifiers are provided in Appendix B. The content
 signing certificate on a valid PIV Card (one that is neither expired nor revoked) SHALL NOT be expired.
 
