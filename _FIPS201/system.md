@@ -71,7 +71,7 @@ The data to be stored on PIV Cards includes personal information, certificates, 
 PIN, and biometric data.
 
 PIN input devices can be used along with card readers when a higher level of authentication assurance is
-required. The cardholder presenting the PIV Card must type in his or her PIN into the PIN input device.
+required. The cardholder presenting the PIV Card must type their PIN into the PIN input device.
 For physical access, the PIN is typically entered using a PIN pad device; a keyboard is generally used for
 logical access. The input of a PIN provides a "something you know"[^somethingyouknow] authentication factor that
 activates[^oncardbiometric] the PIV Card and enables access to other credentials resident on the card that provide
