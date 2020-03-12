@@ -755,7 +755,7 @@ computing systems, the reader-to-host system interface is not specified in this 
 
 ### 4.4.3 Reader Interoperability (Removed) {#s-4-4-3}
 
-The content of this section has been removed as the PIV middleware specified in [[SP 800-73]](../_Appendix/references.md#ref-SP-800-73) adaquately covers reader resilience and flexibility for different PIV systems.
+The content of this section has been removed as the PIV middleware specified in [[SP 800-73]](../_Appendix/references.md#ref-SP-800-73) adaquately covers reader interoperability, resilience, and flexibility for different PIV systems.
 
 ### 4.4.4 Card Activation Device Requirements {#s-4-4-4}
 
