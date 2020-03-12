@@ -574,7 +574,7 @@ pivFASC-N attribute to support physical access procedures. The X.509 certificate
 the UUID value from the GUID data element of the CHUID in the Subject Alternative Name extension.
 The UUID SHALL be encoded as a URN, as specified in Section 3 of [[RFC4122]](../_Appendix/references.md#ref-RFC4122). The expiration date of
 the certificate SHALL be no later than the expiration date of the PIV Card. [Section 5](keymanagement.md#s-5) of this document
-specifies the certificate format and the key management infrastructure for asymmetric PIV card
+specifies the certificate format and the key management infrastructure for asymmetric card
 authentication keys.
 
 #### 4.2.2.3 Symmetric Card Authentication Key {#s-4-2-2-3}

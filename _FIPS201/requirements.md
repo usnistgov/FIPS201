@@ -519,7 +519,7 @@ and agency.
 
 ### 2.9.4 PIV Card Termination Requirements {#s-2-9-4}
 
-A PIV card is terminated when the department or agency that issued the card determines that the
+A PIV Card is terminated when the department or agency that issued the card determines that the
 cardholder is no longer eligible to have a PIV Card. The PIV Card SHALL be terminated under the
 following circumstances:
 
