@@ -12,25 +12,36 @@ This normative appendix provides additional details for the PIV objects identifi
 
 ## B.1 PIV Object Identifiers {#s-b-1}
 
-[Table B-1](#table-b-1) lists details for PIV object identifiers.
+[Table B-1](#table-b-1), [Table B-2](#table-b-2), and [Table B-3](#table-b-3) list details for PIV object identifiers.
 
-[Table B-1. PIV Object Identifiers](#table-b-1){:name="table-b-1"}
+[Table B-1. PIV Object Identifiers for PIV eContent Types](#table-b-1){:name="table-b-1"}
 {:latex-ignore="true"}
 
 |ID| Object Identifier|Description|
 |---|---|---|
-|PIV eContent Types|||
 |`id-PIV-CHUIDSecurityObject`|2.16.840.1.101.3.6.1|The associated content is the concatenated contents of the CHUID, excluding the asymmetric signature field.|
-|`id-PIV-biometricObject`|2.16.840.1.101.3.6.2|The associated content is the concatenated CBEFF_HEADER + STD_BIOMETRIC_RECORD.|
-|PIV Attributes|||
+|`id-PIV-biometricObject`|2.16.840.1.101.3.6.2|The associated content is the concatenated `CBEFF_HEADER` + `STD_BIOMETRIC_RECORD`.|
+{:latex-columns="p@0.275\textwidth,p@0.23\textwidth,p@0.385\textwidth" latex-table="B-1" latex-caption="PIV Object Identifiers for PIV eContent Types"}
+
+[Table B-2. PIV Object Identifiers for PIV Attributes](#table-b-2){:name="table-b-2"}
+{:latex-ignore="true"}
+
+|ID| Object Identifier|Description|
+|---|---|---|
 |`pivCardholder-Name`|2.16.840.1.101.3.6.3|The attribute value is of type DirectoryString and specifies the PIV cardholder's name.|
 |`pivCardholder-DN`|2.16.840.1.101.3.6.4|The attribute value is an X.501 type Name and specifies the DN associated with the PIV cardholder in the PIV certificate(s).|
 |`pivSigner-DN`|2.16.840.1.101.3.6.5|The attribute value is an X.501 type Name and specifies the subject name that appears in the PKI certificate for the entity that signed the biometric data record or CHUID.|
-|`pivFASC-N`|2.16.840.1.101.3.6.6|The pivFASC-N OID MAY appear as a name type in the `otherName` field of the Subject Alternative Name extension of X.509 certificates or a signed attribute in CMS external signatures. Where used as a name type, the syntax is OCTET STRING. Where used as an attribute, the attribute value is of type OCTET STRING. In each case, the value specifies the FASC-N of the PIV Card.|
-|PIV Extended Key Usage|||
+|`pivFASC-N`|2.16.840.1.101.3.6.6|The `pivFASC-N` OID MAY appear as a name type in the `otherName` field of the Subject Alternative Name extension of X.509 certificates or a signed attribute in CMS external signatures. Where used as a name type, the syntax is OCTET STRING. Where used as an attribute, the attribute value is of type OCTET STRING. In each case, the value specifies the FASC-N of the PIV Card.|
+{:latex-columns="p@0.25\textwidth,p@0.24\textwidth,p@0.40\textwidth" latex-table="B-2" latex-caption="PIV Object Identifiers for PIV Attributes"}
+
+[Table B-3. PIV Object Identifiers for PIV Extended Key Usage](#table-b-3){:name="table-b-3"}
+{:latex-ignore="true"}
+
+|ID| Object Identifier|Description|
+|---|---|---|
 |`id-PIV-content-signing`|2.16.840.1.101.3.6.7|This specifies that the public key MAY be used to verify signatures on CHUIDs and biometric data record.|
 |`id-PIV-cardAuth`|2.16.840.1.101.3.6.8|This specifies that the public key is used to authenticate the PIV Card rather than the PIV cardholder.|
-{:latex-columns="p@0.25\textwidth,p@0.25\textwidth,p@0.41\textwidth" latex-table="B-1" latex-caption="PIV Object Identifiers"}
+{:latex-columns="p@0.25\textwidth,p@0.24\textwidth,p@0.40\textwidth" latex-table="B-3" latex-caption="PIV Object Identifiers for PIV Extended Key Usage"}
 
 The OIDs for certificate policies are specified in [[COMMON]](references.md#ref-COMMON).
 
