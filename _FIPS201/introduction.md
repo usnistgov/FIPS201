@@ -111,10 +111,9 @@ agency decides to support the OCC-AUTH authentication mechanism.
 ### 1.3.4 Deprecated and Removed {#s-1-3-4}
 
 When a feature is to be discontinued or is no longer needed, it is deprecated. In general, a feature that is
-currently in use by relying systems would only be deprecated if there were a compelling
+currently in use by relying systems would only be deprecated if there is a compelling
 reason to do so (e.g., security). Deprecated features MAY continue to be used, but SHOULD be phased out in future systems
-since the feature will likely be removed in the next revision of the Standard. For example, the CHUID
-authentication mechanism ([Section 6.2.5](authentication.md#s-6-2-5)) has been removed from this version of the Standard
+since the feature will likely be removed in the next revision of the Standard. Removed features SHALL NOT be used. For example, the CHUID authentication mechanism ([Section 6.2.5](authentication.md#s-6-2-5)) has been removed from this version of the Standard
 and relying systems SHALL NOT use this authentication
 mechanism.[^CHUID] The VIS authentication mechanism ([Section 6.2.6](authentication.md#s-6-2-6)) has been deprecated as a stand-alone
 authentication mechanism, but it could still be used in conjunction with other authentication mechanisms.
