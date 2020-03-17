@@ -85,18 +85,18 @@ authority procedures for the authentication protocols for interoperability*, ISO
 [[NISTIR7863]](#ref-NISTIR7863){:name="ref-NISTIR7863"} NISTIR 7863, *Cardholder Authentication for the PIV Digital Signature Key*,
 NIST, June 2015. Available at <http://doi.org/10.6028/NIST.IR.7863>.
 
-[[OMB0322]](#ref-OMB0322){:name="ref-OMB0322"} OMB Memorandum M-03-22, *Guidance for Implementing the Privacy Provisions of
+[[M-03-22]](#ref-OMB0322){:name="ref-OMB0322"} OMB Memorandum M-03-22, *Guidance for Implementing the Privacy Provisions of
 the E-Government Act of 2002*, OMB, September 26, 2003. Available at 
 <https://www.whitehouse.gov/wp-content/uploads/2017/11/203-M-03-22-OMB-Guidance-for-Implementing-the-Privacy-Provisions-of-the-E-Government-Act-of-2002-1.pdf>.
 
-[[OMB0524]](#ref-OMB0524){:name="ref-OMB0524"} OMB Memorandum M-05-24, *Implementation of Homeland Security Presidential
+[[M-05-24]](#ref-OMB0524){:name="ref-OMB0524"} OMB Memorandum M-05-24, *Implementation of Homeland Security Presidential
 Directive (HSPD) 12 – Policy for a Common Identification Standard for Federal Employees and
 Contractors*, OMB, August 2005. Available at <https://www.whitehouse.gov/sites/whitehouse.gov/files/omb/memoranda/2005/m05-24.pdf>.
 
-[[OMB1712]](#ref-OMB1712){:name="ref-OMB1712"} OMB Memorandum M-17-12, *Preparing for and Responding to a Breach of Personally Identifiable Information*,
+[[M-17-12]](#ref-OMB1712){:name="ref-OMB1712"} OMB Memorandum M-17-12, *Preparing for and Responding to a Breach of Personally Identifiable Information*,
 OMB, January 3, 2017. Available at <https://obamawhitehouse.archives.gov/sites/default/files/omb/memoranda/2017/m-17-12_0.pdf>.
 
-[[OMB1917]](#ref-OMB1917){:name="ref-OMB1917"} OMB Memorandum M-19-17, *Enabling Mission Delivery through Improved Identity, Credential, and Access Management*,
+[[M-19-17]](#ref-OMB1917){:name="ref-OMB1917"} OMB Memorandum M-19-17, *Enabling Mission Delivery through Improved Identity, Credential, and Access Management*,
 OMB, May 21, 2019. Available at <https://www.whitehouse.gov/wp-content/uploads/2019/05/M-19-17.pdf>.
 
 [[PCSC]](#ref-PCSC){:name="ref-PCSC"} Personal Computer/Smart Card Workgroup Specifications. Available at

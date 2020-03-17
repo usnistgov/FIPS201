@@ -12,7 +12,7 @@ This section defines a suite of authentication mechanisms that are supported by 
 the applicability of these mechanisms in meeting the requirements for a set of graduated assurance levels. This
 section also defines some authentication mechanisms that make use of credential elements that MAY
 optionally be included on PIV Cards. Specific implementation details of authentication mechanisms
-identified in this section are provided in [[SP 800-73]](../_Appendix/references.md#ref-SP-800-73). Graduated authenticator assurance levels are also applicable to derived PIV credentials used in accordance with *Guidelines for Derived Personal Identity Verification (PIV) Credentials* [[SP 800-157]](../_Appendix/references.md#ref-SP-800-157).
+identified in this section are provided in [[SP 800-73]](../_Appendix/references.md#ref-SP-800-73). Graduated authenticator assurance levels are also applicable to derived PIV credentials used in accordance with [[SP 800-157]](../_Appendix/references.md#ref-SP-800-157).
 
 While a wide range of authentication
 mechanisms is identified in this section, departments and agencies may adopt additional mechanisms that
@@ -42,7 +42,7 @@ specified in [Section 6.2](#s-6-2) SHALL be applied to achieve that assurance le
 
 ### 6.1.1 Relationship to Federal Identity Policy (Removed) {#s-6-1-1}
 
-The content of this section has been removed as M-04-04 has been rescinded by OMB M-19-17 [[OMB1917]](../_Appendix/references.md#ref-OMB1917), which recognizes the identity assurance levels defined in NIST SP 800-63 [[SP 800-63]](../_Appendix/references.md#ref-SP-800-63) as the framework for managing digital identity risks within the federal government. A mapping between PIV authentication mechanisms and SP 800-63 assurance levels can be found in [Section 6.3.2](#s-6-3-2).
+The content of this section has been removed as OMB M-04-04 has been rescinded by OMB [[M-19-17]](../_Appendix/references.md#ref-OMB1917), which recognizes the identity assurance levels defined in NIST [[SP 800-63]](../_Appendix/references.md#ref-SP-800-63) as the framework for managing digital identity risks within the federal government. A mapping between PIV authentication mechanisms and SP 800-63 assurance levels can be found in [Section 6.3.2](#s-6-3-2).
 
 ## 6.2 PIV Card Authentication Mechanisms {#s-6-2}
 
@@ -264,7 +264,7 @@ Some characteristics of the visual authentication mechanism are as follows:
 
 The PIV Card supports a set of authentication mechanisms that can be used to implement graduated
 assurance levels. The assurance levels used within this Standard are closely aligned with
-NIST Digital Identity Guidelines [[SP 800-63]](../_Appendix/references.md#ref-SP-800-63), which specifies a digital identity risk management process that is cited by OMB M-19-17 [[OMB1917]](../_Appendix/references.md#ref-OMB1917).
+NIST [[SP 800-63]](../_Appendix/references.md#ref-SP-800-63), which specifies a digital identity risk management process that is cited by OMB [[M-19-17]](../_Appendix/references.md#ref-OMB1917).
 
 The following subsections specify which basic PIV
 authentication mechanisms CAN be used to support the various authenticator assurance levels
@@ -291,7 +291,7 @@ Three levels of authentication assurance for physical access, referred to as Phy
 - PAL2 - formerly HIGH confidence in the asserted identity's validity
 - PAL3 - formerly VERY HIGH confidence in the asserted identity's validity (strongest)
 
-Selection of the PAL SHALL be made in accordance with the applicable policies for a facility’s security level [[RISK-MGMT-FACILITIES]](../_Appendix/references.md#ref-RISK-MGMT-FACILITIES). Additional guidelines on the selection and use of PIV authentication mechanisms for facility access can be found in NIST SP 800-116 [[SP 800-116]](../_Appendix/references.md#ref-SP-800-116).
+Selection of the PAL SHALL be made in accordance with the applicable policies for a facility’s security level [[RISK-MGMT-FACILITIES]](../_Appendix/references.md#ref-RISK-MGMT-FACILITIES). Additional guidelines on the selection and use of PIV authentication mechanisms for facility access can be found in NIST [[SP 800-116]](../_Appendix/references.md#ref-SP-800-116).
 
 The PIV-supported authentication mechanisms
 for physical access control systems are summarized in [Table 6-1](#table-6-1). An authentication mechanism that is
@@ -299,7 +299,7 @@ suitable for a higher assurance level can also be applied to meet the requiremen
 level. Moreover, the authentication mechanisms in [Table 6-1](#table-6-1) can be combined to achieve higher
 assurance levels.[^combinations]
 
-[^combinations]: Combinations of authentication mechanisms are specified in [[SP 800-116]](../_Appendix/references.md#ref-SP-800-116){:.footnote-ref}.
+[^combinations]: Combinations of authentication mechanisms are specified in [[SP 800-116]](../references/#ref-SP-800-116){:.footnote-ref}.
 
 [Table 6-1. Authentication for Physical Access](#table-6-1){:name="table-6-1"}
 {:latex-ignore="true"}

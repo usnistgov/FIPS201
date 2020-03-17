@@ -8,13 +8,13 @@ permalink: /federation/
 
 # 7. Federation Considerations for PIV {#s-7}
 
-Federation protocols allow a trusted identity provider (IdP) to assert a subscriber's identity to a relying party (RP) across a network in a secure and verifiable fashion. The process and requirements for federation systems are discussed in depth in [[SP 800-63C]](#ref-sp-800-63C). 
+Federation protocols allow a trusted identity provider (IdP) to assert a subscriber's identity to a relying party (RP) across a network in a secure and verifiable fashion. The process and requirements for federation systems are discussed in depth in [[SP 800-63C]](../_Appendix/references.md#ref-SP-800-63C). 
 
 ## 7.1 Connecting PIV to Federation {#s-7-1}
 
 When using a federation protocol, the PIV credential is not presented to the RP directly. Instead, the PIV credential is used to authenticate the card holder to the IdP of a federation system. The IdP then associates this login with an account and a set of attributes for the subscriber, and then creates an assertion representing the user to be sent to the RP. The I&A subsystem of the RP validates the assertion and uses the attributes provided in the assertion to match the cardholder information to the information on record as discussed in [Section 3.1.3](system.md#s-3-1-3).
 
-Note that processing the PIV credential directly is not a form of federation as defined by [[SP 800-63C]](#ref-sp-800-63c), since the PIV credential does not meet the requirements of an assertion. In particular, while an assertion is a short-lived message created specifically for a federation transaction, the PIV certificate is long-lived and intended to be presented to many different RPs over time.
+Note that processing the PIV credential directly is not a form of federation as defined by [[SP 800-63C]](../_Appendix/references.md#ref-SP-800-63C), since the PIV credential does not meet the requirements of an assertion. In particular, while an assertion is a short-lived message created specifically for a federation transaction, the PIV certificate is long-lived and intended to be presented to many different RPs over time.
 
 ## 7.2 Federation Assurance Level (FAL) {#s-7-2}
 

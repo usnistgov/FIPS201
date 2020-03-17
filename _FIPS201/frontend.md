@@ -30,10 +30,9 @@ individual department and agency requirements. Having a common look for PIV Card
 meeting the objectives of improved security and interoperability. In support of these objectives,
 consistent placement of printed components and technology is generally necessary.
 
-The PIV Card SHALL comply with physical characteristics as described in International Organization for
-Standardization (ISO)/International Electrotechnical Commission (IEC) 7810 [[ISO7810]](../_Appendix/references.md#ref-ISO7810), ISO/IEC 10373
-[[ISO10373]](../_Appendix/references.md#ref-ISO10373), ISO/IEC 7816 for contact cards [[ISO7816]](../_Appendix/references.md#ref-ISO7816), and ISO/IEC 14443 for contactless cards
-[[ISO14443]](../_Appendix/references.md#ref-ISO14443).
+The PIV Card SHALL comply with physical characteristics as described in [[ISO7810]](../_Appendix/references.md#ref-ISO7810),
+[[ISO10373]](../_Appendix/references.md#ref-ISO10373), [[ISO7816]](../_Appendix/references.md#ref-ISO7816) for contact cards, and
+[[ISO14443]](../_Appendix/references.md#ref-ISO14443) for contactless cards.
 
 ### 4.1.1 Printed Material {#s-4-1-1}
 
@@ -70,9 +69,9 @@ The following list describes the physical requirements for the PIV Card.
     security feature SHALL NOT prevent the recognition of white as the principal card body color by a person
     with normal vision (corrected or uncorrected) at a working distance of 50 cm to 200 cm.
 - The card body structure SHALL consist of card material(s) that satisfy the card characteristics in
-    [[ISO7810]](../_Appendix/references.md#ref-ISO7810) and test methods in American National Standards Institute (ANSI) 322 [[ANSI322]](../_Appendix/references.md#ref-ANSI322).
+    [[ISO7810]](../_Appendix/references.md#ref-ISO7810) and test methods in [[ANSI322]](../_Appendix/references.md#ref-ANSI322).
     Although the [[ANSI322]](../_Appendix/references.md#ref-ANSI322) test methods do not currently specify compliance requirements, the tests
-    SHALL be used to evaluate card material durability and performance. The [[ANSI322]](../_Appendix/references.md#ref-ANSI322) tests minimally
+    SHALL be used to evaluate card material durability and performance. These tests minimally
     SHALL include card flexure, static stress, plasticizer exposure, impact resistance, card structural
     integrity, surface abrasion, temperature and humidity-induced dye migration, ultraviolet light
     exposure, and a laundry test. Cards SHALL NOT malfunction or delaminate after hand cleaning with a
@@ -266,7 +265,7 @@ roles are "Law Enforcement," "Fire Fighter," and "Emergency Response Team (ERT).
 When Zone 15F indicates Foreign National affiliation and the department or agency does not need to
 highlight emergency response official status, Zone 12F MAY be used to denote the country or countries of
 citizenship. If so used, the department or agency SHALL print the country name or the three-letter country
-abbreviation (alpha-3 format) in accordance with ISO 3166-1, Country Codes [[ISO3166]](../_Appendix/references.md#ref-ISO3166). [Figure 4-4](#fig-4-4)
+abbreviation (alpha-3 format) in accordance with [[ISO3166]](../_Appendix/references.md#ref-ISO3166). [Figure 4-4](#fig-4-4)
 illustrates an example of Foreign National color-coding using country abbreviations.
 
 *Zone 13F—Issue Date*. If used, the card issuance date SHALL be printed above the Zone 14F expiration
@@ -600,7 +599,7 @@ The expiration date of the certificate SHALL be no later than the expiration dat
 [Section 5](keymanagement.md#s-5) of this document specifies the certificate format and the key management infrastructure for
 PIV digital signature keys.
 
-[^cardholderauthentication]: [[NISTIR7863]](../references/#ref-NISTIR7863){:.footnote-ref}, *Cardholder Authentication for the PIV Digital Signature Key*, addresses the appropriate use of PIN caching related to digital signatures.
+[^cardholderauthentication]: [[NISTIR7863]](../references/#ref-NISTIR7863){:.footnote-ref} addresses the appropriate use of PIN caching related to digital signatures.
 
 #### 4.2.2.5 Key Management Key {#s-4-2-2-5}
 This key MAY be generated on the PIV Card or imported to the card. If
@@ -646,7 +645,7 @@ with the preparation and formatting specifications of [[SP 800-76]](../_Appendix
 The integrity of all biometric data records, except for fingerprint biometric templates for on-card one-to-one comparison, SHALL be
 protected using digital signatures as follows. The records SHALL be prepended with a Common Biometric
 Exchange Formats Framework (CBEFF) header and appended with the
-CBEFF signature block.[[CBEFF]](../_Appendix/references.md#ref-CBEFF)
+CBEFF signature block [[CBEFF]](../_Appendix/references.md#ref-CBEFF).
 
 The format for a CBEFF header is specified in [[SP 800-76]](../_Appendix/references.md#ref-SP-800-76).
 
@@ -755,7 +754,7 @@ computing systems, the reader-to-host system interface is not specified in this 
 
 ### 4.4.3 Reader Interoperability (Removed) {#s-4-4-3}
 
-The content of this section has been removed as the PIV middleware specified in [[SP 800-73]](../_Appendix/references.md#ref-SP-800-73) adaquately covers reader interoperability, resilience, and flexibility for different PIV systems.
+The content of this section has been removed as the PIV middleware specified in [[SP 800-73]](../_Appendix/references.md#ref-SP-800-73) adequately covers reader interoperability, resilience, and flexibility for different PIV systems.
 
 ### 4.4.4 Card Activation Device Requirements {#s-4-4-4}
 
@@ -771,4 +770,4 @@ Malicious code could be introduced into PIN capture and biometric capture device
 compromising or otherwise exploiting the PIV Card. General good practice to mitigate malicious code
 threats is outside the scope of this document.[^maliciouscode]
 
-[^maliciouscode]: See SP 800-53, *Recommended Security Controls for Federal Information Systems and Organizations* [[SP 800-53]](../references/#ref-SP-800-53){:.footnote-ref}.
+[^maliciouscode]: See [[SP 800-53]](../references/#ref-SP-800-53){:.footnote-ref}.
