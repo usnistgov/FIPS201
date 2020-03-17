@@ -49,11 +49,13 @@ Special-Risk Security Provision—The U.S. Government has personnel, facilities,
 
 # 7. Specifications. {#f-7}
 
-Federal Information Processing Standards (FIPS) 201 Personal Identity Verification (PIV) of Federal Employees and Contractors.
+Federal Information Processing Standards (FIPS) 201
+PIV of Federal Employees and Contractors.
 
 # 8. Implementations. {#f-8}
 
-This Standard satisfies the control objectives, security requirements, and technical interoperability requirements of [[HSPD-12]](_Appendix/references.md#ref-HSPD-12). The Standard specifies implementation and processes for binding identities to credentials such as integrated circuit cards used in the federal Personal Identity Verification (PIV) system.
+This Standard satisfies the control objectives, security requirements, and technical interoperability requirements of [[HSPD-12]](_Appendix/references.md#ref-HSPD-12). The Standard specifies implementation and processes for binding identities to credentials such as integrated circuit cards used in the federal
+PIV system.
 
 A PIV Card must be personalized with identity information for the individual to whom the card is issued to support verification by automated systems using the electronically stored data on the card. In implementing PIV systems and pursuant to Section 508 of the Rehabilitation Act of 1973 (the Act), as amended, agencies have the responsibility to accommodate federal employees and contractors with disabilities to have access to and use of information and data comparable to the access to and use of such information and data by federal employees and contractors who are not individuals with disabilities. In instances where federal agencies assert exceptions to Section 508 accessibility requirements (e.g., undue burden, national security, commercial non-availability), Sections 501 and 504 of the Act require federal agencies to provide reasonable accommodation for federal employees and contractors with disabilities whose needs are not met by the baseline accessibility provided under Section 508. While Section 508 compliance is the responsibility of federal agencies and departments, this Standard specifies options to aid in implementation of the requirements:
 
@@ -87,7 +89,7 @@ Because a standard of this nature must be flexible enough to adapt to advancemen
 
 # 11. Waivers. {#f-11}
 
-The  Federal  Information  Security  Management  Act  (FISMA)  does  not  allow for waivers to Federal Information Processing Standards (FIPS) that are made mandatory by the Secretary of Commerce.
+The  Federal  Information  Security  Management  Act  (FISMA)  does  not  allow for waivers to FIPS that are made mandatory by the Secretary of Commerce.
 
 # 12. Where to Obtain Copies. {#f-12}
 
