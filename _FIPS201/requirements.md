@@ -56,7 +56,7 @@ Federal departments and agencies must follow investigative requirements establis
 
 The minimum requirement for PIV Credential eligibility determination is a completed and favorably adjudicated Tier 1[^TierOne] investigation, formerly called a National Agency Check with Written Inquiries (NACI).
 
-If no corresponding prior investigation exists, the appropriate required investigation must be initiated with the authorized federal investigative service provider and the FBI National Criminal History Check (NCHC) portion of the background investigation is completed and adjudicated before an individual is determined eligible to be issued a PIV Card. 
+If no corresponding prior investigation exists, the appropriate required investigation must be initiated with the authorized federal investigative service provider and the FBI NCHC portion of the background investigation is completed and adjudicated before an individual is determined eligible to be issued a PIV Card. 
 
 Once the investigation is completed, the authorized adjudicative entity SHALL adjudicate the investigation and report final eligibility determination to the proper Federal System of Record (Central Verification System, or successor). 
 
@@ -494,7 +494,7 @@ remotely via a general computing platform:
     * the cardholder initiates a PIN reset with the issuer operator;
     * the operator authenticates the owner of the PIV Card through an independent
         procedure; and
-    * the cardholder's biometric characteristics elicit a positive biometric verification decision when compared to the stored biometric data records on the PIV Card through an on-card one-to-one comparison (OCC).
+    * the cardholder's biometric characteristics elicit a positive biometric verification decision when compared to the stored biometric data records on the PIV Card through OCC.
 
 The remote PIN reset operation SHALL satisfy the requirements for remote post-issuance updates
 specified in [Section 2.9.2](requirements.md#s-2-9-2).
