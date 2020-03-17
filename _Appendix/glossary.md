@@ -221,7 +221,7 @@ by the Integrated Circuit Chip (ICC) of the PIV Card.
 
 On-Card
 : Refers to data that is stored within the PIV Card or to a computation that is performed by the
-ICC of the PIV Card.
+Integrated Circuit Chip (ICC) of the PIV Card.
 
 Online Certificate Status Protocol (OCSP)
 : An online protocol used to determine the status of a public
@@ -247,7 +247,7 @@ their identity.
 Personal Identity Verification (PIV) Account
 : The logical record containing credentialing information for a given PIV cardholder.  This is typically stored within the issuer’s identity management system, and includes PIV enrollment data, cardholder identity attributes, and information regarding authenticators bound to the cardholder’s identity (e.g., PIV card and derived PIV credentials).
 
-PIV Card
+Personal Identity Verification (PIV) Card
 : A physical artifact (e.g., identity card, "smart" card) issued
 to an individual that contains a PIV Card Application which stores identity credentials (e.g., photograph,
 cryptographic keys, digitized fingerprint representation) so that the claimed identity of the cardholder can
