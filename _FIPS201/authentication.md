@@ -227,6 +227,9 @@ identification and authentication, as follows:
 - Zone 1B – Agency Card Serial Number (back of card); and
 - Zone 2B – Issuer Identification Number (back of card).
 
+In addition, any available tamper-proofing features described in [Section 4.1.2](frontend.md#s-4-1-2) SHOULD be used
+in visual inspection to provide additional assurance that the PIV Card is genuine and unaltered.
+
 The PIV Card MAY also bear optional components, some of which are:
 
 - Zone 11F – Agency Seal;
