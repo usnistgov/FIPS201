@@ -104,16 +104,16 @@ PIV Card would need to be changed to accept the new PIV AID.
 
 New features are optional or mandatory features that are added to the Standard. New features do not
 interfere with backward compatibility because they are not part of the existing relying systems. For
-example, the addition of an optional biometric on-card comparison (OCC) authentication mechanism is a
+example, the addition of an optional biometric On-Card Comparison (OCC) authentication mechanism is a
 new feature that does not affect the features in current systems. The systems will need to be updated if an
 agency decides to support the OCC-AUTH authentication mechanism.
 
 ### 1.3.4 Deprecated and Removed {#s-1-3-4}
 
 When a feature is to be discontinued or is no longer needed, it is deprecated. In general, a feature that is
-currently in use by relying systems would only be deprecated if there were a compelling
+currently in use by relying systems would only be deprecated if there is a compelling
 reason to do so (e.g., security). Deprecated features MAY continue to be used, but SHOULD be phased out in future systems
-since the feature will likely be removed in the next revision of the Standard. For example, the CHUID
+since the feature will likely be removed in the next revision of the Standard. Removed features SHALL NOT be used. For example, the CHUID
 authentication mechanism ([Section 6.2.5](authentication.md#s-6-2-5)) has been removed from this version of the Standard
 and relying systems SHALL NOT use this authentication
 mechanism.[^CHUID] The VIS authentication mechanism ([Section 6.2.6](authentication.md#s-6-2-6)) has been deprecated as a stand-alone

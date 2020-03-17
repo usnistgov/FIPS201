@@ -55,8 +55,8 @@ authentication mechanisms that may be applied to a particular situation.
 ### 6.2.1 Authentication Using Off-Card Biometric One-to-One Comparison {#s-6-2-1}
 
 The PIV Card Application hosts the signed fingerprint biometric templates and, optionally, the signed electronic iris images.
-Either mode of biometric data record can be read from the card following cardholder-to-card (CTC) authentication using a PIN
-supplied by the cardholder. This biometric data record is designed to support a cardholder-to-external
+Either mode of biometric data record can be read from the card following Cardholder-To-Card (CTC) authentication using a PIN
+supplied by the cardholder. This biometric data record is designed to support a Cardholder-To-External
 system (CTE) authentication mechanism through an off-card biometric one-to-one comparison scheme. The following subsections
 define two authentication schemes that make use of biometric data records.[^bioreaders]
 
@@ -226,6 +226,9 @@ identification and authentication, as follows:
 - Zone 15F – Color-Coding for Employee Affiliation;
 - Zone 1B – Agency Card Serial Number (back of card); and
 - Zone 2B – Issuer Identification Number (back of card).
+
+In addition, any available tamper-proofing features described in [Section 4.1.2](frontend.md#s-4-1-2) SHOULD be used
+in visual inspection to provide additional assurance that the PIV Card is genuine and unaltered.
 
 The PIV Card MAY also bear optional components, some of which are:
 
