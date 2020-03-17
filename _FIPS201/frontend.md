@@ -45,9 +45,14 @@ with the contact and contactless ICC(s) and related components, nor SHALL it obs
 
 To combat counterfeiting and alterations, the PIV Card SHALL contain security features outlined in the American Association of Motor Vehicle Association’s (AAMVA) Drivers License/Identification Card (DL/ID) Card Design Standard [[CDS]](../_Appendix/references.md#ref-CDS). The Card Design Standard classifies security features into three categories, depending on the security level required for verification:
 
-- **Level 1** - First line of inspection: Security features that can be examined without tools or aids that involves easily identifiable visual or tactile features for rapid inspection at point of usage (e.g.embossed surface pattern, optically variable device (such as a hologram), or color shifting inks). 
-- **Level 2** - Second line of inspection: Security features that require the use of a tool or instrument (e.g., UV light, magnifying glass, or scanner) to discern the feature. Level two sample security features include microtext, UV fluorescent images and IR-fluorescent ink. 
-- **Level 3** - Third line of inspection: Security features inspected by forensic specialists to conduct in-depth examination that may require special equipment to provide true certification.  Nano and micro images and chemical taggants, are examples of level 3 security features.
+Level 1
+: Security features that can be examined without tools or aids that involves easily identifiable visual or tactile features for rapid inspection at point of usage (e.g.embossed surface pattern, optically variable device (such as a hologram), or color shifting inks). 
+
+Level 2
+: Security features that require the use of a tool or instrument (e.g., UV light, magnifying glass, or scanner) to discern the feature. Level two sample security features include microtext, UV fluorescent images and IR-fluorescent ink. 
+
+Level 3
+: Security features inspected by forensic specialists to conduct in-depth examination that may require special equipment to provide true certification.  Nano and micro images and chemical taggants, are examples of level 3 security features.
 
 A PIV Card SHALL incorporate at least one security feature at inspection level 1 or inspection level 2.  Federal departments and agencies are strongly encouraged to incorporate additional security features and to include all three inspection levels.
 
@@ -143,27 +148,29 @@ integration of features that may improve tamper resistance and anti-counterfeiti
 
 #### 4.1.4.1 Mandatory Items on the Front of the PIV Card {#s-4-1-4-1}
 
-*Zone 1F—Photograph*. The photograph SHALL be placed in the upper left corner, as depicted in [Figure 4-1](#fig-4-1),
-and be a full frontal pose from top of the head to shoulder. A minimum of 300 dots per inch (dpi)
-resolution SHALL be used. The background SHALL follow recommendations set forth in [[SP 800-76]](../_Appendix/references.md#ref-SP-800-76).
+Zone 1F—Photograph.
+: The photograph SHALL be placed in the upper left corner, as depicted in [Figure 4-1](#fig-4-1),
+    and be a full frontal pose from top of the head to shoulder. A minimum of 300 dots per inch (dpi)
+    resolution SHALL be used. The background SHALL follow recommendations set forth in [[SP 800-76]](../_Appendix/references.md#ref-SP-800-76).
 
-*Zone 2F—Name*. The full name[^pseudonym] SHALL be printed directly under the photograph in capital letters. The
-full name SHALL be composed of a Primary Identifier (i.e., surnames or family names) and a Secondary
-Identifier (i.e., pre-names or given names). The printed name SHALL match the name on the identity source
-documents provided during identity proofing and registration to the extent possible. The full name SHALL
-be printed in the **Primary Identifier**, **Secondary Identifier** format. The entire full name SHOULD be
-printed on available lines of Zone 2F and either identifier could be wrapped. The wrapped identifier SHALL
-be indicated with "&gt;" character at the end of the line. The identifiers MAY be printed on separate lines if
-each fits on one line. Departments and agencies SHALL use the largest font size of 7 to 10 points that allows
-the full name to be printed. The font size 7 point allows space for 3 lines and SHALL only be used if the full
-name does not fit on two lines with font size 8 point. [Table 4-1](#table-4-1) provides examples of separate Primary
-and Secondary Identifier lines, single line with identifiers, wrapped full names, and full name in three
-lines. Note that the truncation SHOULD only occur if the full name cannot be printed in 7 point font.
-
-Names in the Primary Identifier and the first name in the Secondary Identifier SHALL NOT be abbreviated.
-Other names and conventional prefixes and suffixes, which SHALL be included in the Secondary Identifier,
-MAY be abbreviated. The special character "." (period) SHALL indicate such abbreviations, as shown in
-[Figure 4-2](#fig-4-2). Other uses of special symbols (e.g., the apostrophe in "O'BRIEN") are at the discretion of the issuer.
+Zone 2F—Name. 
+: The full name[^pseudonym] SHALL be printed directly under the photograph in capital letters. The
+    full name SHALL be composed of a Primary Identifier (i.e., surnames or family names) and a Secondary
+    Identifier (i.e., pre-names or given names). The printed name SHALL match the name on the identity source
+    documents provided during identity proofing and registration to the extent possible. The full name SHALL
+    be printed in the **Primary Identifier**, **Secondary Identifier** format. The entire full name SHOULD be
+    printed on available lines of Zone 2F and either identifier could be wrapped. The wrapped identifier SHALL
+    be indicated with "&gt;" character at the end of the line. The identifiers MAY be printed on separate lines if
+    each fits on one line. Departments and agencies SHALL use the largest font size of 7 to 10 points that allows
+    the full name to be printed. The font size 7 point allows space for 3 lines and SHALL only be used if the full
+    name does not fit on two lines with font size 8 point. [Table 4-1](#table-4-1) provides examples of separate Primary
+    and Secondary Identifier lines, single line with identifiers, wrapped full names, and full name in three
+    lines. Note that the truncation SHOULD only occur if the full name cannot be printed in 7 point font.
+    
+    Names in the Primary Identifier and the first name in the Secondary Identifier SHALL NOT be abbreviated.
+    Other names and conventional prefixes and suffixes, which SHALL be included in the Secondary Identifier,
+    MAY be abbreviated. The special character "." (period) SHALL indicate such abbreviations, as shown in
+    [Figure 4-2](#fig-4-2). Other uses of special symbols (e.g., the apostrophe in "O'BRIEN") are at the discretion of the issuer.
 
 [Table 4-1. Name Examples](#table-4-1){:name="table-4-1"}
 {:latex-ignore="true"}
@@ -182,21 +189,25 @@ MAY be abbreviated. The special character "." (period) SHALL indicate such abbre
 |Dingo Pontooroomooloo Vaasa Silvaan Beenelong Wooloomooloo Warrandyte Warwarnambool|truncated full name, three lines with 7 point NOT sufficient.|![]({{site.baseurl}}/{{page.collection}}/images/name10.png){:style="width: 400px;" latex-src="name10.pdf"}|
 {:latex-columns="p@0.28\textwidth,p@0.38\textwidth,m@0.25\textwidth" latex-table="4-1" latex-caption="Name Examples"}
 
-*Zone 8F—Employee Affiliation*. An employee affiliation SHALL be printed on the card as depicted in 
-[Figure 4-1](#fig-4-1). Some examples of employee affiliation are "Employee," "Contractor," "Active Duty," and
-"Civilian."
+Zone 8F—Employee Affiliation.
+: An employee affiliation SHALL be printed on the card as depicted in 
+    [Figure 4-1](#fig-4-1). Some examples of employee affiliation are "Employee," "Contractor," "Active Duty," and
+    "Civilian."
 
-*Zone 10F—Agency, Department, or Organization*. The organizational affiliation SHALL be printed as
-depicted in [Figure 4-1](#fig-4-1).
+Zone 10F—Agency, Department, or Organization.
+: The organizational affiliation SHALL be printed as
+    depicted in [Figure 4-1](#fig-4-1).
 
-*Zone 14F—Card Expiration Date*. The card expiration date SHALL be printed on the card as depicted in
-[Figure 4-1](#fig-4-1). The card expiration date SHALL be in a YYYYMMMDD format whereby the MMM characters
-represent the three-letter month abbreviation as follows: JAN, FEB, MAR, APR, MAY, JUN, JUL, AUG,
-SEP, OCT, NOV, and DEC. The Zone 14F expiration date SHALL be printed in Arial 6 to 9 point bold.
+Zone 14F—Card Expiration Date.
+: The card expiration date SHALL be printed on the card as depicted in
+    [Figure 4-1](#fig-4-1). The card expiration date SHALL be in a YYYYMMMDD format whereby the MMM characters
+    represent the three-letter month abbreviation as follows: JAN, FEB, MAR, APR, MAY, JUN, JUL, AUG,
+    SEP, OCT, NOV, and DEC. The Zone 14F expiration date SHALL be printed in Arial 6 to 9 point bold.
 
-*Zone 15F—Color-Coding for Employee Affiliation*. Color-coding SHALL be used for additional
-identification of employee affiliation as a background color for Zone 2F (name) as depicted in Figures [4-1](#fig-4-1)
-and [4-4](#fig-4-4). The following color scheme SHALL be used:
+Zone 15F—Color-Coding for Employee Affiliation.
+: Color-coding SHALL be used for additional
+    identification of employee affiliation as a background color for Zone 2F (name) as depicted in Figures [4-1](#fig-4-1)
+    and [4-4](#fig-4-4). The following color scheme SHALL be used:
 
 - blue: foreign national,
 - white: government employee, or
@@ -207,25 +218,29 @@ These colors SHALL be reserved and SHALL NOT be employed for other purposes. Als
 printed in accordance to the color specifications provided in [Section 4.1.5](frontend.md#s-4-1-5). Zone 15F MAY be a solid or
 patterned line at the department or agency's discretion.
 
-*Zone 18F—Affiliation Color Code*. The affiliation color code "B" for Blue, "W" for White, or "G" for
-Green SHALL be printed in a white circle in Zone 15F as depicted in [Figure 4-1](#fig-4-1). The diameter of the circle
-SHALL NOT be more than 5 mm. The lettering SHALL correspond to the printed color in Zone 15F.
+Zone 18F—Affiliation Color Code.
+: The affiliation color code "B" for Blue, "W" for White, or "G" for
+    Green SHALL be printed in a white circle in Zone 15F as depicted in [Figure 4-1](#fig-4-1). The diameter of the circle
+    SHALL NOT be more than 5 mm. The lettering SHALL correspond to the printed color in Zone 15F.
 
-*Zone 19F—Card Expiration Date*. The card expiration date SHALL be printed in a MMMYYYY format in
-the upper right-hand corner as depicted in [Figure 4-1](#fig-4-1). The Zone 19F expiration date SHALL be printed in
-Arial 12pt Bold.
+Zone 19F—Card Expiration Date.
+: The card expiration date SHALL be printed in a MMMYYYY format in
+    the upper right-hand corner as depicted in [Figure 4-1](#fig-4-1). The Zone 19F expiration date SHALL be printed in
+    Arial 12pt Bold.
 
 [^pseudonym]: Alternatively, an authorized pseudonym as provided under the law as discussed in [Section 2.8.1](../requirements/#s-2-8-1){:.footnote-ref}.
 
 #### 4.1.4.2 Mandatory Items on the Back of the PIV Card {#s-4-1-4-2}
 
-*Zone 1B—Agency Card Serial Number*. This item SHALL be printed as depicted in [Figure 4-6](#fig-4-6) and contain
-the unique serial number from the issuing department or agency. The format SHALL be at the discretion of
-the issuing department or agency.
+Zone 1B—Agency Card Serial Number.
+: This item SHALL be printed as depicted in [Figure 4-6](#fig-4-6) and contain
+    the unique serial number from the issuing department or agency. The format SHALL be at the discretion of
+    the issuing department or agency.
 
-*Zone 2B—Issuer Identification Number*. This item SHALL be printed as depicted in [Figure 4-6](#fig-4-6) and consist
-of six characters for the department code, four characters for the agency code, and a five-digit number
-that uniquely identifies the issuing facility within the department or agency.
+Zone 2B—Issuer Identification Number.
+: This item SHALL be printed as depicted in [Figure 4-6](#fig-4-6) and consist
+    of six characters for the department code, four characters for the agency code, and a five-digit number
+    that uniquely identifies the issuing facility within the department or agency.
 
 #### 4.1.4.3 Optional Items on the Front of the PIV Card {#s-4-1-4-3}
 
@@ -235,102 +250,123 @@ prescribed by individual departments and agencies and is not addressed in this S
 items discussed in this section are optional, if used they SHALL be placed on the card as designated in the
 examples provided and as noted.
 
-*Zone 3F—Signature*. If used, the department or agency SHALL place the cardholder signature below the
-photograph and cardholder name as depicted in [Figure 4-3](#fig-4-3). The space for the signature SHALL NOT interfere
-with the contact and contactless placement. Because of card surface space constraints, placement of a
-signature may limit the size of the optional two-dimensional bar code.
+Zone 3F—Signature.
+: If used, the department or agency SHALL place the cardholder signature below the
+    photograph and cardholder name as depicted in [Figure 4-3](#fig-4-3). The space for the signature SHALL NOT interfere
+    with the contact and contactless placement. Because of card surface space constraints, placement of a
+    signature may limit the size of the optional two-dimensional bar code.
 
-*Zone 4F—Agency Specific Text Area*. If used, this area can be used for printing agency specific
-requirements, such as employee status, as shown in [Figure 4-2](#fig-4-2).
+Zone 4F—Agency-Specific Text Area.
+: If used, this area can be used for printing agency-specific
+    requirements, such as employee status, as shown in [Figure 4-2](#fig-4-2).
 
-*Zone 5F—Rank*. If used, the cardholder's rank SHALL be printed in the area as illustrated in [Figure 4-2](#fig-4-2).
-Data format is at the department or agency's discretion.
+Zone 5F—Rank.
+: If used, the cardholder's rank SHALL be printed in the area as illustrated in [Figure 4-2](#fig-4-2).
+    Data format is at the department or agency's discretion.
 
-*Zone 6F—Portable Data File (PDF) Two-Dimensional Bar Code (Deprecated)*. This bar code is deprecated in this version of the Standard. In a future version of this Standard, the bar code may be removed.  If used, the PDF bar code placement SHALL be as depicted in [Figure 4-2](#fig-4-2) (i.e., left side of the card). If Zone 3F (a cardholder signature) is used, the size of the PDF bar code may be affected. The card issuer should confirm that a PDF used in
-conjunction with a PIV Card containing a cardholder signature will satisfy the anticipated PDF data storage requirements. 
+Zone 6F—Portable Data File (PDF) Two-Dimensional Bar Code (Deprecated).
+: This bar code is deprecated in this version of the Standard. In a future version of this Standard, the bar code may be removed.  If used, the PDF bar code placement SHALL be as depicted in [Figure 4-2](#fig-4-2) (i.e., left side of the card). If Zone 3F (a cardholder signature) is used, the size of the PDF bar code may be affected. The card issuer should confirm that a PDF used in
+    conjunction with a PIV Card containing a cardholder signature will satisfy the anticipated PDF data storage requirements. 
 
-*Zone 9F— Header*. If used, the text "United States Government" SHALL be placed as depicted in 
-[Figure 4-4](#fig-4-4). Departments and agencies MAY also choose to use this zone for other department or agency-specific
-information, such as identifying a federal emergency responder role, as depicted in [Figure 4-2](#fig-4-2).
+Zone 9F—Header.
+: If used, the text "United States Government" SHALL be placed as depicted in 
+    [Figure 4-4](#fig-4-4). Departments and agencies MAY also choose to use this zone for other department or agency-specific
+    information, such as identifying a federal emergency responder role, as depicted in [Figure 4-2](#fig-4-2).
 
-*Zone 11F—Agency Seal*. If used, the seal selected by the issuing department, agency, or organization
-SHALL be printed in the area depicted. It SHALL be printed using the guidelines provided in [Figure 4-2](#fig-4-2) to
-ensure information printed on the seal is legible and clearly visible.
+Zone 11F—Agency Seal.
+: If used, the seal selected by the issuing department, agency, or organization
+    SHALL be printed in the area depicted. It SHALL be printed using the guidelines provided in [Figure 4-2](#fig-4-2) to
+    ensure information printed on the seal is legible and clearly visible.
 
-*Zone 12F—Footer*. The footer is the location for the Federal Emergency Response Official identification
-label. If used, a department or agency MAY print "Federal Emergency Response Official" as depicted in
-[Figure 4-2](#fig-4-2), preferably in white lettering on a red background. Departments and agencies MAY also use
-Zone 9F to further identify the federal emergency respondent's official role. Some examples of official
-roles are "Law Enforcement," "Fire Fighter," and "Emergency Response Team (ERT)."
+Zone 12F—Footer.
+: The footer is the location for the Federal Emergency Response Official identification
+    label. If used, a department or agency MAY print "Federal Emergency Response Official" as depicted in
+    [Figure 4-2](#fig-4-2), preferably in white lettering on a red background. Departments and agencies MAY also use
+    Zone 9F to further identify the federal emergency respondent's official role. Some examples of official
+    roles are "Law Enforcement," "Fire Fighter," and "Emergency Response Team (ERT)."
+    
+    When Zone 15F indicates Foreign National affiliation and the department or agency does not need to
+    highlight emergency response official status, Zone 12F MAY be used to denote the country or countries of
+    citizenship. If so used, the department or agency SHALL print the country name or the three-letter country
+    abbreviation (alpha-3 format) in accordance with ISO 3166-1, Country Codes [[ISO3166]](../_Appendix/references.md#ref-ISO3166). [Figure 4-4](#fig-4-4)
+    illustrates an example of Foreign National color-coding using country abbreviations.
 
-When Zone 15F indicates Foreign National affiliation and the department or agency does not need to
-highlight emergency response official status, Zone 12F MAY be used to denote the country or countries of
-citizenship. If so used, the department or agency SHALL print the country name or the three-letter country
-abbreviation (alpha-3 format) in accordance with ISO 3166-1, Country Codes [[ISO3166]](../_Appendix/references.md#ref-ISO3166). [Figure 4-4](#fig-4-4)
-illustrates an example of Foreign National color-coding using country abbreviations.
+Zone 13F—Issue Date.
+: If used, the card issuance date SHALL be printed above the Zone 14F expiration
+    date in YYYYMMMDD format as depicted in [Figure 4-3](#fig-4-3).
 
-*Zone 13F—Issue Date*. If used, the card issuance date SHALL be printed above the Zone 14F expiration
-date in YYYYMMMDD format as depicted in [Figure 4-3](#fig-4-3).
+Zone 16F—Photograph Border.
+: A border MAY be used with the photograph to further identify employee affiliation,
+    as depicted in [Figure 4-3](#fig-4-3). This border MAY be used in conjunction with Zone 15F to enable departments
+    and agencies to develop various employee categories. The photograph border SHALL NOT obscure the photograph. The
+    border MAY be a solid or patterned line. For solid and patterned lines, red SHALL be reserved for emergency
+    response officials, blue for foreign nationals, and green for contractors. All other colors MAY be used at
+    the department or agency's discretion.
 
-*Zone 16F—Photograph Border*. A border MAY be used with the photograph to further identify employee affiliation,
-as depicted in [Figure 4-3](#fig-4-3). This border MAY be used in conjunction with Zone 15F to enable departments
-and agencies to develop various employee categories. The photograph border SHALL NOT obscure the photograph. The
-border MAY be a solid or patterned line. For solid and patterned lines, red SHALL be reserved for emergency
-response officials, blue for foreign nationals, and green for contractors. All other colors MAY be used at
-the department or agency's discretion.
+Zone 17F—Agency-Specific Data.
+: In cases in which other defined optional elements are not used, Zone
+    17F MAY be used for other department or agency-specific information, as depicted in [Figure 4-5](#fig-4-5).
 
-*Zone 17F—Agency Specific Data*. In cases in which other defined optional elements are not used, Zone
-17F MAY be used for other department or agency-specific information, as depicted in [Figure 4-5](#fig-4-5).
+Zone 20F—Organizational Affiliation Abbreviation.
+: The organizational affiliation abbreviation MAY be
+    printed in the upper right-hand corner below the Zone 19F expiration date as shown in [Figure 4-2](#fig-4-2). If
+    printed, the organizational affiliation abbreviation SHALL be printed in Arial 12pt Bold.
 
-*Zone 20F—Organizational Affiliation Abbreviation*. The organizational affiliation abbreviation MAY be
-printed in the upper right-hand corner below the Zone 19F expiration date as shown in [Figure 4-2](#fig-4-2). If
-printed, the organizational affiliation abbreviation SHALL be printed in Arial 12pt Bold.
+Zone 21F–Edge Ridging or Notched Corner Tactile Marker.
+: If used, this area SHALL incorporate edge
+    ridging or a notched corner to indicate card orientation as depicted in [Figure 4-4](#fig-4-4). Departments and
+    agencies should ensure such alterations are closely coordinated with the card vendor and/or manufacturer
+    to ensure the card material integrity and printing process is not adversely impacted.
 
-*Zone 21F –Edge Ridging or Notched Corner Tactile Marker*. If used, this area SHALL incorporate edge
-ridging or a notched corner to indicate card orientation as depicted in [Figure 4-4](#fig-4-4). Departments and
-agencies should ensure such alterations are closely coordinated with the card vendor and/or manufacturer
-to ensure the card material integrity and printing process is not adversely impacted.
-
-*Zone 22F –Laser Engraving Tactile Marker*. If used, tactilely discernible marks SHALL be created using
-laser engraving to indicate card orientation as depicted in [Figure 4-4](#fig-4-4). There SHALL be an opening in the
-lamination foil where laser engraving is performed. Departments and agencies should ensure such
-alterations are closely coordinated with the card vendor and/or manufacturer to ensure the card material
-integrity and printing process is not adversely impacted.
+Zone 22F–Laser Engraving Tactile Marker.
+: If used, tactilely discernible marks SHALL be created using
+    laser engraving to indicate card orientation as depicted in [Figure 4-4](#fig-4-4). There SHALL be an opening in the
+    lamination foil where laser engraving is performed. Departments and agencies should ensure such
+    alterations are closely coordinated with the card vendor and/or manufacturer to ensure the card material
+    integrity and printing process is not adversely impacted.
 
 
 #### 4.1.4.4 Optional Items on the Back of the PIV Card {#s-4-1-4-4}
 
-*Zone 3B—Magnetic Stripe (Deprecated)*. The magnetic stripe is deprecated in this version of the Standard. In a future version of this Standard, magnetic stripe may be removed and the space may be allocated for Agency-specific data to be printed.
-If used, the magnetic stripe SHALL be high coercivity and placed in accordance
-with [[ISO7811]](../_Appendix/references.md#ref-ISO7811), as illustrated in [Figure 4-7](#fig-4-7). Magnetic stripes are deprecated in this version of the Standard. 
+Zone 3B—Magnetic Stripe (Deprecated).
+: The magnetic stripe is deprecated in this version of the Standard. In a future version of this Standard, magnetic stripe may be removed and the space may be allocated for Agency-specific data to be printed.
+    If used, the magnetic stripe SHALL be high coercivity and placed in accordance
+    with [[ISO7811]](../_Appendix/references.md#ref-ISO7811), as illustrated in [Figure 4-7](#fig-4-7). Magnetic stripes are deprecated in this version of the Standard. 
 
-*Zone 4B—Return Address*. If used, the "return if lost" language SHALL be generally placed on the back of
-the card as depicted in [Figure 4-7](#fig-4-7).
+Zone 4B—Return Address.
+: If used, the "return if lost" language SHALL be generally placed on the back of
+    the card as depicted in [Figure 4-7](#fig-4-7).
 
-*Zone 5B—Physical Characteristics of Cardholder*. If used, the cardholder physical characteristics (e.g.,
-height, eye color, hair color) SHALL be printed in the general area illustrated in [Figure 4-7](#fig-4-7).
+Zone 5B—Physical Characteristics of Cardholder.
+: If used, the cardholder physical characteristics (e.g.,
+    height, eye color, hair color) SHALL be printed in the general area illustrated in [Figure 4-7](#fig-4-7).
 
-*Zone 6B—Additional Language for Emergency Response Officials*. Departments and agencies MAY
-choose to provide additional information to identify emergency response officials or to better identify the
-cardholder's authorized access. If used, this additional text SHALL be in the general area depicted and SHALL NOT interfere with other printed text or machine-readable components. An example of a printed statement
-is provided in [Figure 4-7](#fig-4-7).
+Zone 6B—Additional Language for Emergency Response Officials.
+: Departments and agencies MAY
+    choose to provide additional information to identify emergency response officials or to better identify the
+    cardholder's authorized access. If used, this additional text SHALL be in the general area depicted and SHALL NOT interfere with other printed text or machine-readable components. An example of a printed statement
+    is provided in [Figure 4-7](#fig-4-7).
 
-*Zone 7B—Standard Section 499, Title 18 Language*. If used, standard Section 499, Title 18, language
-warning against counterfeiting, altering, or misusing the card SHALL be printed in the general area depicted
-in [Figure 4-7](#fig-4-7).
+Zone 7B—Standard Section 499, Title 18 Language.
+: If used, standard Section 499, Title 18, language
+    warning against counterfeiting, altering, or misusing the card SHALL be printed in the general area depicted
+    in [Figure 4-7](#fig-4-7).
 
-*Zone 8B—Linear 3 of 9 Bar Code (Deprecated)*. The bar code is deprecated in this version of the Standard. In a future version of this Standard, the bar code may be removed. If used, a linear 3 of 9 bar code SHALL be generally placed as depicted
-in [Figure 4-7](#fig-4-7). It SHALL be in accordance with Association for Automatic Identification and Mobility (AIM)
-standards. Beginning and end points of the bar code will be dependent on the embedded contactless
-module selected. Departments and agencies are encouraged to coordinate placement of the bar code with
-the card vendor.
+Zone 8B—Linear 3 of 9 Bar Code (Deprecated).
+: The bar code is deprecated in this version of the Standard. In a future version of this Standard, the bar code may be removed. If used, a linear 3 of 9 bar code SHALL be generally placed as depicted
+    in [Figure 4-7](#fig-4-7). It SHALL be in accordance with Association for Automatic Identification and Mobility (AIM)
+    standards. Beginning and end points of the bar code will be dependent on the embedded contactless
+    module selected. Departments and agencies are encouraged to coordinate placement of the bar code with
+    the card vendor.
 
-*Zone 9B—Agency-Specific Text*. In cases in which other defined optional elements are not used, Zone 9B
-MAY be used for other department or agency-specific information, as depicted in [Figure 4-8](#fig-4-8). For example,
-emergency response officials MAY use this area to provide additional details.
+Zone 9B—Agency-Specific Text.
+: In cases in which other defined optional elements are not used, Zone 9B
+    MAY be used for other department or agency-specific information, as depicted in [Figure 4-8](#fig-4-8). For example,
+    emergency response officials MAY use this area to provide additional details.
 
-*Zone 10B—Agency-Specific Text*. Zone 10B is similar to Zone 9B in that it is another area for providing
-department or agency-specific information.
+Zone 10B—Agency-Specific Text.
+: Zone 10B is similar to Zone 9B in that it is another area for providing
+    department or agency-specific information.
 
 For Zones 9B and 10B, departments and agencies are encouraged to use this area prudently and minimize
 printed text to that which is absolutely necessary.
@@ -441,15 +477,13 @@ In addition to the above, other data elements are specified in [[SP 800-73]](../
 
 PIV logical credentials fall into the following three categories:
 
-1. credential elements used to prove the identity of the cardholder to the card (CTC authentication);
-2. credential elements used to prove the identity of the card management system to the card (CMTC
-    authentication); and
-3. credential elements used by the card to prove the identity of the cardholder to an external entity
-    (CTE authentication) such as a host computer system.
-
-The PIN falls into the first category, the PIV Card Application administration key into the second
-category, and the biometric data records, symmetric keys, and asymmetric keys into the third.
-The fingerprint biometric templates for on-card one-to-one comparison fall into the first and third categories.
+- Credential elements used to prove the identity of the cardholder to the card (CTC authentication). 
+    Examples include the PIN and the fingerprint biometric templates for on-card one-to-one comparison.
+- Credential elements used to prove the identity of the card management system to the card (CMTC
+    authentication). Examples include the PIV Card Application administration key.
+- Credential elements used by the card to prove the identity of the cardholder to an external entity
+    (CTE authentication) such as a host computer system. Examples include the biometric data records, 
+    symmetric keys, asymmetric keys, and the fingerprint biometric templates for on-card one-to-one comparison.
 
 ### 4.2.1 Cardholder Unique Identifier (CHUID) {#s-4-2-1}
 
@@ -512,23 +546,35 @@ the contactless interface. Algorithms and key sizes for each PIV key type are sp
 
 The PIV Card has both mandatory keys and optional keys:
 
-- The *PIV authentication key* is a mandatory asymmetric private key that supports card and cardholder
+PIV authentication key
+: A mandatory asymmetric private key that supports card and cardholder
     authentication for an interoperable environment. See [Section 4.2.2.1](frontend.md#s-4-2-2-1).
-- The *asymmetric card authentication key* is a mandatory private key that supports card authentication
+
+Asymmetric card authentication key
+: A mandatory private key that supports card authentication
     for an interoperable environment. See [Section 4.2.2.2](frontend.md#s-4-2-2-2).
-- The *symmetric card authentication key* supports card authentication for physical access, and
+
+Symmetric card authentication key
+: Supports card authentication for physical access, and
     it is optional. See [Section 4.2.2.3](frontend.md#s-4-2-2-3).
-- The *digital signature key* is an asymmetric private key supporting document signing, and it is
+
+Digital signature key
+: An asymmetric private key supporting document signing, and it is
     mandatory if the cardholder has a government-issued email account at the time of
     credential issuance. See [Section 4.2.2.4](frontend.md#s-4-2-2-4).
-- The *key management key* is an asymmetric private key supporting key establishment and transport,
+
+Key management key
+: An asymmetric private key supporting key establishment and transport,
     and it is mandatory if the cardholder has a government-issued email account at the
     time of credential issuance. Optionally, up to twenty retired key management keys may also be
     stored on the PIV Card. See [Section 4.2.2.5](frontend.md#s-4-2-2-5).
-- The *PIV Card Application administration key* is a symmetric key used for personalization and post-issuance activities, and it is optional.
+
+PIV Card Application administration key
+: A symmetric key used for personalization and post-issuance activities, and it is optional.
     See [Section 4.2.2.6](frontend.md#s-4-2-2-6).
-- The PIV Card MAY include additional key(s) for use with secure messaging. These keys are defined
-    in [[SP 800-73]](../_Appendix/references.md#ref-SP-800-73) or [[SP 800-78]](../_Appendix/references.md#ref-SP-800-78).
+
+The PIV Card MAY include additional key(s) for use with secure messaging. These keys are defined
+in [[SP 800-73]](../_Appendix/references.md#ref-SP-800-73) or [[SP 800-78]](../_Appendix/references.md#ref-SP-800-78).
 
 All PIV cryptographic keys SHALL be generated within a [[FIPS140]](../_Appendix/references.md#ref-FIPS140) validated cryptographic module with
 overall validation at Level 2 or above. In addition to an overall validation of Level 2, the PIV Card SHALL
@@ -690,7 +736,7 @@ Card identifiers
 correspondence, the cardholder. These two card identifiers are represented in all of the authentication
 data elements for the purpose of binding the PIV data elements to the same PIV Card.
 
-Cardholder Identifiers
+Cardholder identifiers
 :   Other identifiers MAY be present in credentials on the PIV Card that identity the cardholder rather than
 the card. Examples include the cardholder UUID that may appear in the CHUID or the subject name(s) that may appear in the subjectAltName 
 extension in the PIV authentication certificate.
