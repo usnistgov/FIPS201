@@ -148,12 +148,12 @@ integration of features that may improve tamper resistance and anti-counterfeiti
 
 #### 4.1.4.1 Mandatory Items on the Front of the PIV Card {#s-4-1-4-1}
 
-Zone 1F—Photograph.
+Zone 1F: Photograph
 : The photograph SHALL be placed in the upper left corner, as depicted in [Figure 4-1](#fig-4-1),
     and be a full frontal pose from top of the head to shoulder. A minimum of 300 dots per inch (dpi)
     resolution SHALL be used. The background SHALL follow recommendations set forth in [[SP 800-76]](../_Appendix/references.md#ref-SP-800-76).
 
-Zone 2F—Name. 
+Zone 2F: Name
 : The full name[^pseudonym] SHALL be printed directly under the photograph in capital letters. The
     full name SHALL be composed of a Primary Identifier (i.e., surnames or family names) and a Secondary
     Identifier (i.e., pre-names or given names). The printed name SHALL match the name on the identity source
@@ -189,41 +189,41 @@ Zone 2F—Name.
 |Dingo Pontooroomooloo Vaasa Silvaan Beenelong Wooloomooloo Warrandyte Warwarnambool|truncated full name, three lines with 7 point NOT sufficient.|![]({{site.baseurl}}/{{page.collection}}/images/name10.png){:style="width: 400px;" latex-src="name10.pdf"}|
 {:latex-columns="p@0.28\textwidth,p@0.38\textwidth,m@0.25\textwidth" latex-table="4-1" latex-caption="Name Examples"}
 
-Zone 8F—Employee Affiliation.
+Zone 8F: Employee Affiliation
 : An employee affiliation SHALL be printed on the card as depicted in 
     [Figure 4-1](#fig-4-1). Some examples of employee affiliation are "Employee," "Contractor," "Active Duty," and
     "Civilian."
 
-Zone 10F—Agency, Department, or Organization.
+Zone 10F: Agency, Department, or Organization
 : The organizational affiliation SHALL be printed as
     depicted in [Figure 4-1](#fig-4-1).
 
-Zone 14F—Card Expiration Date.
+Zone 14F: Card Expiration Date
 : The card expiration date SHALL be printed on the card as depicted in
     [Figure 4-1](#fig-4-1). The card expiration date SHALL be in a YYYYMMMDD format whereby the MMM characters
     represent the three-letter month abbreviation as follows: JAN, FEB, MAR, APR, MAY, JUN, JUL, AUG,
     SEP, OCT, NOV, and DEC. The Zone 14F expiration date SHALL be printed in Arial 6 to 9 point bold.
 
-Zone 15F—Color-Coding for Employee Affiliation.
+Zone 15F: Color-Coding for Employee Affiliation
 : Color-coding SHALL be used for additional
     identification of employee affiliation as a background color for Zone 2F (name) as depicted in Figures [4-1](#fig-4-1)
     and [4-4](#fig-4-4). The following color scheme SHALL be used:
 
-- blue: foreign national,
-- white: government employee, or
-- green: contractor.
+    - blue: foreign national,
+    - white: government employee, or
+    - green: contractor.
 
-Foreign National color-coding has precedence over Government Employee and Contractor color-coding.
-These colors SHALL be reserved and SHALL NOT be employed for other purposes. Also, these colors SHALL be
-printed in accordance to the color specifications provided in [Section 4.1.5](frontend.md#s-4-1-5). Zone 15F MAY be a solid or
-patterned line at the department or agency's discretion.
+    Foreign National color-coding has precedence over Government Employee and Contractor color-coding.
+    These colors SHALL be reserved and SHALL NOT be employed for other purposes. Also, these colors SHALL be
+    printed in accordance to the color specifications provided in [Section 4.1.5](frontend.md#s-4-1-5). Zone 15F MAY be a solid or
+    patterned line at the department or agency's discretion.
 
-Zone 18F—Affiliation Color Code.
+Zone 18F: Affiliation Color Code
 : The affiliation color code "B" for Blue, "W" for White, or "G" for
     Green SHALL be printed in a white circle in Zone 15F as depicted in [Figure 4-1](#fig-4-1). The diameter of the circle
     SHALL NOT be more than 5 mm. The lettering SHALL correspond to the printed color in Zone 15F.
 
-Zone 19F—Card Expiration Date.
+Zone 19F: Card Expiration Date
 : The card expiration date SHALL be printed in a MMMYYYY format in
     the upper right-hand corner as depicted in [Figure 4-1](#fig-4-1). The Zone 19F expiration date SHALL be printed in
     Arial 12pt Bold.
@@ -232,12 +232,12 @@ Zone 19F—Card Expiration Date.
 
 #### 4.1.4.2 Mandatory Items on the Back of the PIV Card {#s-4-1-4-2}
 
-Zone 1B—Agency Card Serial Number.
+Zone 1B: Agency Card Serial Number
 : This item SHALL be printed as depicted in [Figure 4-6](#fig-4-6) and contain
     the unique serial number from the issuing department or agency. The format SHALL be at the discretion of
     the issuing department or agency.
 
-Zone 2B—Issuer Identification Number.
+Zone 2B: Issuer Identification Number
 : This item SHALL be printed as depicted in [Figure 4-6](#fig-4-6) and consist
     of six characters for the department code, four characters for the agency code, and a five-digit number
     that uniquely identifies the issuing facility within the department or agency.
@@ -250,35 +250,35 @@ prescribed by individual departments and agencies and is not addressed in this S
 items discussed in this section are optional, if used they SHALL be placed on the card as designated in the
 examples provided and as noted.
 
-Zone 3F—Signature.
+Zone 3F: Signature
 : If used, the department or agency SHALL place the cardholder signature below the
     photograph and cardholder name as depicted in [Figure 4-3](#fig-4-3). The space for the signature SHALL NOT interfere
     with the contact and contactless placement. Because of card surface space constraints, placement of a
     signature may limit the size of the optional two-dimensional bar code.
 
-Zone 4F—Agency-Specific Text Area.
+Zone 4F: Agency-Specific Text Area
 : If used, this area can be used for printing agency-specific
     requirements, such as employee status, as shown in [Figure 4-2](#fig-4-2).
 
-Zone 5F—Rank.
+Zone 5F: Rank
 : If used, the cardholder's rank SHALL be printed in the area as illustrated in [Figure 4-2](#fig-4-2).
     Data format is at the department or agency's discretion.
 
-Zone 6F—Portable Data File (PDF) Two-Dimensional Bar Code (Deprecated).
+Zone 6F: Portable Data File (PDF) Two-Dimensional Bar Code (Deprecated)
 : This bar code is deprecated in this version of the Standard. In a future version of this Standard, the bar code may be removed.  If used, the PDF bar code placement SHALL be as depicted in [Figure 4-2](#fig-4-2) (i.e., left side of the card). If Zone 3F (a cardholder signature) is used, the size of the PDF bar code may be affected. The card issuer should confirm that a PDF used in
     conjunction with a PIV Card containing a cardholder signature will satisfy the anticipated PDF data storage requirements. 
 
-Zone 9F—Header.
+Zone 9F: Header
 : If used, the text "United States Government" SHALL be placed as depicted in 
     [Figure 4-4](#fig-4-4). Departments and agencies MAY also choose to use this zone for other department or agency-specific
     information, such as identifying a federal emergency responder role, as depicted in [Figure 4-2](#fig-4-2).
 
-Zone 11F—Agency Seal.
+Zone 11F: Agency Seal
 : If used, the seal selected by the issuing department, agency, or organization
     SHALL be printed in the area depicted. It SHALL be printed using the guidelines provided in [Figure 4-2](#fig-4-2) to
     ensure information printed on the seal is legible and clearly visible.
 
-Zone 12F—Footer.
+Zone 12F: Footer
 : The footer is the location for the Federal Emergency Response Official identification
     label. If used, a department or agency MAY print "Federal Emergency Response Official" as depicted in
     [Figure 4-2](#fig-4-2), preferably in white lettering on a red background. Departments and agencies MAY also use
@@ -291,11 +291,11 @@ Zone 12F—Footer.
     abbreviation (alpha-3 format) in accordance with ISO 3166-1, Country Codes [[ISO3166]](../_Appendix/references.md#ref-ISO3166). [Figure 4-4](#fig-4-4)
     illustrates an example of Foreign National color-coding using country abbreviations.
 
-Zone 13F—Issue Date.
+Zone 13F: Issue Date
 : If used, the card issuance date SHALL be printed above the Zone 14F expiration
     date in YYYYMMMDD format as depicted in [Figure 4-3](#fig-4-3).
 
-Zone 16F—Photograph Border.
+Zone 16F: Photograph Border
 : A border MAY be used with the photograph to further identify employee affiliation,
     as depicted in [Figure 4-3](#fig-4-3). This border MAY be used in conjunction with Zone 15F to enable departments
     and agencies to develop various employee categories. The photograph border SHALL NOT obscure the photograph. The
@@ -303,11 +303,11 @@ Zone 16F—Photograph Border.
     response officials, blue for foreign nationals, and green for contractors. All other colors MAY be used at
     the department or agency's discretion.
 
-Zone 17F—Agency-Specific Data.
+Zone 17F: Agency-Specific Data
 : In cases in which other defined optional elements are not used, Zone
     17F MAY be used for other department or agency-specific information, as depicted in [Figure 4-5](#fig-4-5).
 
-Zone 20F—Organizational Affiliation Abbreviation.
+Zone 20F: Organizational Affiliation Abbreviation
 : The organizational affiliation abbreviation MAY be
     printed in the upper right-hand corner below the Zone 19F expiration date as shown in [Figure 4-2](#fig-4-2). If
     printed, the organizational affiliation abbreviation SHALL be printed in Arial 12pt Bold.
@@ -328,43 +328,43 @@ Zone 22F–Laser Engraving Tactile Marker.
 
 #### 4.1.4.4 Optional Items on the Back of the PIV Card {#s-4-1-4-4}
 
-Zone 3B—Magnetic Stripe (Deprecated).
+Zone 3B: Magnetic Stripe (Deprecated)
 : The magnetic stripe is deprecated in this version of the Standard. In a future version of this Standard, magnetic stripe may be removed and the space may be allocated for Agency-specific data to be printed.
     If used, the magnetic stripe SHALL be high coercivity and placed in accordance
     with [[ISO7811]](../_Appendix/references.md#ref-ISO7811), as illustrated in [Figure 4-7](#fig-4-7). Magnetic stripes are deprecated in this version of the Standard. 
 
-Zone 4B—Return Address.
+Zone 4B: Return Address
 : If used, the "return if lost" language SHALL be generally placed on the back of
     the card as depicted in [Figure 4-7](#fig-4-7).
 
-Zone 5B—Physical Characteristics of Cardholder.
+Zone 5B: Physical Characteristics of Cardholder
 : If used, the cardholder physical characteristics (e.g.,
     height, eye color, hair color) SHALL be printed in the general area illustrated in [Figure 4-7](#fig-4-7).
 
-Zone 6B—Additional Language for Emergency Response Officials.
+Zone 6B: Additional Language for Emergency Response Officials
 : Departments and agencies MAY
     choose to provide additional information to identify emergency response officials or to better identify the
     cardholder's authorized access. If used, this additional text SHALL be in the general area depicted and SHALL NOT interfere with other printed text or machine-readable components. An example of a printed statement
     is provided in [Figure 4-7](#fig-4-7).
 
-Zone 7B—Standard Section 499, Title 18 Language.
+Zone 7B: Standard Section 499, Title 18 Language
 : If used, standard Section 499, Title 18, language
     warning against counterfeiting, altering, or misusing the card SHALL be printed in the general area depicted
     in [Figure 4-7](#fig-4-7).
 
-Zone 8B—Linear 3 of 9 Bar Code (Deprecated).
+Zone 8B: Linear 3 of 9 Bar Code (Deprecated)
 : The bar code is deprecated in this version of the Standard. In a future version of this Standard, the bar code may be removed. If used, a linear 3 of 9 bar code SHALL be generally placed as depicted
     in [Figure 4-7](#fig-4-7). It SHALL be in accordance with Association for Automatic Identification and Mobility (AIM)
     standards. Beginning and end points of the bar code will be dependent on the embedded contactless
     module selected. Departments and agencies are encouraged to coordinate placement of the bar code with
     the card vendor.
 
-Zone 9B—Agency-Specific Text.
+Zone 9B: Agency-Specific Text
 : In cases in which other defined optional elements are not used, Zone 9B
     MAY be used for other department or agency-specific information, as depicted in [Figure 4-8](#fig-4-8). For example,
     emergency response officials MAY use this area to provide additional details.
 
-Zone 10B—Agency-Specific Text.
+Zone 10B: Agency-Specific Text.
 : Zone 10B is similar to Zone 9B in that it is another area for providing
     department or agency-specific information.
 

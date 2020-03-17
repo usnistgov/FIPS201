@@ -37,7 +37,7 @@ PIV Issuance and Management Subsystem
     services (e.g., public key infrastructure (PKI) directory, certificate status servers) required as part of
     the verification infrastructure. This subsystem also manages the binding and termination of derived PIV credentials as described in [Section 2.10](requirements.md#s-2-10).
 
-PIV Relying Subsystem:
+PIV Relying Subsystem
 : The physical and logical access control systems, the protected resources,
     and the authorization data.
 
@@ -153,7 +153,7 @@ Card termination as the end of life.
 
 Descriptions of the seven card lifecycle activities are as follows:
 
-PIV Card Request.
+PIV Card Request
 : This activity applies to the initiation of a request for the issuance of a PIV Card
     to an applicant and the validation of this request.
 
@@ -162,25 +162,25 @@ Identity Proofing and Registration.[^enroll]
     applicant, verify that the entire set of identity source documents presented at the time of registration is
     valid, capture biometric characteristics, and optionally create the PIV enrollment record.
 
-PIV Card Issuance.
+PIV Card Issuance
 : This activity deals with the personalization (physical and logical) of the card
     and the issuance of the card to the intended applicant.
 
-PKI Credential Issuance.
+PKI Credential Issuance
 : This activity deals with generating logical credentials and loading them
     onto the PIV Card.
 
-PIV Card Usage.
+PIV Card Usage
 : During this activity, the PIV Card is used to perform cardholder authentication for
     access to a physical or logical resource. Access authorization decisions are made after successful
     cardholder identification and authentication.
 
-PIV Card Maintenance.
+PIV Card Maintenance
 : This activity deals with the maintenance or update of the physical card and
     its data. Such data includes various card applications, PINs, PKI credentials, and
     biometric data.
 
-PIV Card Termination.
+PIV Card Termination
 : The termination process is used to permanently destroy or invalidate the
     PIV Card and the data and keys needed for authentication so as to prevent any future use of the card
     for authentication.
