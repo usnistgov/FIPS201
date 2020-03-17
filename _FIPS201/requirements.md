@@ -488,7 +488,7 @@ remotely via a general computing platform:
 + PIN reset at an unattended issuer-operated kiosk SHALL ensure that the PIV Card is authenticated and
     that the cardholder's biometric characteristics elicit a positive biometric verification decision when compared to either the stored biometric on the PIV Card through an on-card one-to-one comparison, or biometric data records stored in the chain-of-trust through an off-card one-to-one
     comparison. If the biometric verification decision is negative, the cardholder's biometric characteristics are not successfully acquired, or card authentication is unsuccessful, the kiosk SHALL NOT
-    reset the PIV Card. The session SHALL be terminate and the reset SHALL be performed in-person at the issuing facility or at a supervised remote identity proofing station as described in [Section 2.7.1](#s-2-7-1).
+    reset the PIV Card. The session SHALL be terminated and the PIN reset SHALL be performed in-person at the issuing facility or at a supervised remote identity proofing station.
 + Remote PIN reset on a general computing platform (e.g., desktop, laptop) SHALL only be performed if
     the following requirements are met:
     * the cardholder initiates a PIN reset with the issuer operator;
