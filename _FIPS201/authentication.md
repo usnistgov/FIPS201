@@ -105,7 +105,7 @@ are the same as in [Section 6.2.1.1](#s-6-2-1-1).
 
 The PIV Card Application MAY host an optional on-card fingerprint one-to-one comparison algorithm. In this case,
 on-card fingerprint one-to-one comparison data is stored on the card, which cannot be read, but could be used for
-biometric verification. A fingerprint biometric template is supplied to the card to perform Cardholder-To-Card (CTC)
+biometric verification. A fingerprint biometric template is supplied to the card to perform CTC
 authentication and the card responds with an positive or negative biometric verification decision.
 The response includes information that allows the reader to authenticate the card. The
 cardholder PIN is not required for this operation. The PIV Card SHALL include a mechanism to block this
@@ -123,7 +123,7 @@ Some of the characteristics of OCC authentication are as follows:
 ### 6.2.3 Authentication Using PIV Asymmetric Cryptography {#s-6-2-3}
 
 The PIV Card contains two mandatory asymmetric authentication private keys and corresponding
-certificates to support Cardholder-To-External system (CTE) authentication, as described in [Section 4](frontend.md#s-4). The
+certificates to support CTE authentication, as described in [Section 4](frontend.md#s-4). The
 following subsections describe how to perform authentication using the authentication keys.
 
 #### 6.2.3.1 Authentication with the PIV Authentication Certificate Credential (PKI-AUTH) {#s-6-2-3-1}
