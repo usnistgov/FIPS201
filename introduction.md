@@ -104,9 +104,9 @@ PIV Card would need to be changed to accept the new PIV AID.
 
 New features are optional or mandatory features that are added to the Standard. New features do not
 interfere with backward compatibility because they are not part of the existing relying systems. For
-example, the addition of an optional biometric On-Card Comparison (OCC) authentication mechanism is a
-new feature that does not affect the features in current systems. The systems will need to be updated if an
-agency decides to support the OCC-AUTH authentication mechanism.
+example, the optional biometric On-Card Comparison Authentication (OCC-AUTH) mechanism was a
+new feature introduced in FIPS 201-2. The optional mechanism did not affect the features of existing systems. Systems had to be updated only if an
+agency decided to support the OCC-AUTH mechanism.
 
 ### 1.3.4 Deprecated and Removed {#s-1-3-4}
 
