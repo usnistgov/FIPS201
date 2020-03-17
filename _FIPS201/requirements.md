@@ -169,7 +169,7 @@ The biometric data records in the PIV enrollment records SHALL be valid for at m
 effects and thereby maintain operational readiness of a cardholder's PIV Card, agencies MAY require
 biometric enrollment more frequently than 12 years.
 
-PIV enrollment records contain personally identifiable information (PII). PII SHALL be protected
+PIV enrollment records contain Personally Identifiable Information (PII). PII SHALL be protected
 in a manner that protects the individual's privacy and maintains the integrity of the records
 both in transit and at rest. 
 
@@ -389,7 +389,7 @@ If the expiration date of the new PIV Card is later than the expiration date of 
 about the cardholder is being changed, the card issuer SHALL ensure that an adjudicative entity has authorized
 the issuance of the new PIV Card. The issuer SHALL ensure that the adjudicative entity has verified that there is a PIV eligibility determination in the system of record.[^record] 
 
-[^record]: The identity management system (IDMS) SHOULD reflect the PIV eligibility of each PIV cardholder and the subsequent re-enrollment in Continuous Vetting Program, as appropriate.
+[^record]: The Identity Management System (IDMS) SHOULD reflect the PIV eligibility of each PIV cardholder and the subsequent re-enrollment in Continuous Vetting Program, as appropriate.
 
 The issuer SHALL perform a biometric verification of the applicant to the chain-of-trust to reconnect to the chain-of-trust. The one-to-one
 comparison requires either fingerprint(s) or, if unavailable, other optional biometric data records
@@ -406,7 +406,7 @@ The old PIV Card SHALL be revoked when the new PIV Card is issued. The revocatio
 + Any databases maintained by the PIV Card issuer that contain FASC-N or UUID values from the old
     PIV Card must be updated to reflect the change in status.
 + If the old PIV Card cannot be collected and destroyed, or if the old PIV Card has been compromised
-    or damaged, then the certification authority (CA) SHALL be informed and the certificates corresponding
+    or damaged, then the Certification Authority (CA) SHALL be informed and the certificates corresponding
     to the PIV authentication key ([Section 4.2.2.1](frontend.md#s-4-2-2-1)) and asymmetric card authentication key ([Section 4.2.2.2](frontend.md#s-4-2-2-2)) on the old PIV Card SHALL be
     revoked. If present, the certificates corresponding to the digital signature key ([Section 4.2.2.1](frontend.md#s-4-2-2-4)) and the key
     management key ([Section 4.2.2.5](frontend.md#s-4-2-2-5)) SHALL also be revoked.
@@ -494,7 +494,7 @@ remotely via a general computing platform:
     * the cardholder initiates a PIN reset with the issuer operator;
     * the operator authenticates the owner of the PIV Card through an independent
         procedure; and
-    * the cardholder's biometric characteristics elicit a positive biometric verification decision when compared to the stored biometric data records on the PIV Card through an on-card one-to-one comparison (OCC).
+    * the cardholder's biometric characteristics elicit a positive biometric verification decision when compared to the stored biometric data records on the PIV Card through a one-to-one On-Card Comparison (OCC).
 
 The remote PIN reset operation SHALL satisfy the requirements for remote post-issuance updates
 specified in [Section 2.9.2](requirements.md#s-2-9-2).

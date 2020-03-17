@@ -55,8 +55,8 @@ authentication mechanisms that may be applied to a particular situation.
 ### 6.2.1 Authentication Using Off-Card Biometric One-to-One Comparison {#s-6-2-1}
 
 The PIV Card Application hosts the signed fingerprint biometric templates and, optionally, the signed electronic iris images.
-Either mode of biometric data record can be read from the card following cardholder-to-card (CTC) authentication using a PIN
-supplied by the cardholder. This biometric data record is designed to support a cardholder-to-external
+Either mode of biometric data record can be read from the card following Cardholder-To-Card (CTC) authentication using a PIN
+supplied by the cardholder. This biometric data record is designed to support a Cardholder-To-External
 system (CTE) authentication mechanism through an off-card biometric one-to-one comparison scheme. The following subsections
 define two authentication schemes that make use of biometric data records.[^bioreaders]
 
@@ -105,7 +105,7 @@ are the same as in [Section 6.2.1.1](#s-6-2-1-1).
 
 The PIV Card Application MAY host an optional on-card fingerprint one-to-one comparison algorithm. In this case,
 on-card fingerprint one-to-one comparison data is stored on the card, which cannot be read, but could be used for
-biometric verification. A fingerprint biometric template is supplied to the card to perform cardholder-to-card (CTC)
+biometric verification. A fingerprint biometric template is supplied to the card to perform Cardholder-To-Card (CTC)
 authentication and the card responds with an positive or negative biometric verification decision.
 The response includes information that allows the reader to authenticate the card. The
 cardholder PIN is not required for this operation. The PIV Card SHALL include a mechanism to block this
@@ -123,7 +123,7 @@ Some of the characteristics of OCC authentication are as follows:
 ### 6.2.3 Authentication Using PIV Asymmetric Cryptography {#s-6-2-3}
 
 The PIV Card contains two mandatory asymmetric authentication private keys and corresponding
-certificates to support cardholder-to-external system (CTE) authentication, as described in [Section 4](frontend.md#s-4). The
+certificates to support Cardholder-To-External system (CTE) authentication, as described in [Section 4](frontend.md#s-4). The
 following subsections describe how to perform authentication using the authentication keys.
 
 #### 6.2.3.1 Authentication with the PIV Authentication Certificate Credential (PKI-AUTH) {#s-6-2-3-1}

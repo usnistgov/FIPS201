@@ -31,7 +31,7 @@ An operational PIV system can be logically divided into the following three majo
     resource.
 - **PIV Issuance and Management Subsystem**—the components responsible for identity
     proofing and registration, card and key issuance and management, and the various repositories and
-    services (e.g., public key infrastructure (PKI) directory, certificate status servers) required as part of
+    services (e.g., Public Key Infrastructure (PKI) directory, certificate status servers) required as part of
     the verification infrastructure. This subsystem also manages the binding and termination of derived PIV credentials as described in [Section 2.10](requirements.md#s-2-10).
 - **PIV Relying Subsystem**—the physical and logical access control systems, the protected resources,
     and the authorization data.
@@ -56,7 +56,7 @@ is not meant to preclude FIPS 201 requirements on systems outside these boundari
 
 The PIV Card will be issued to the applicant when all identity proofing, registration, and issuance
 processes have been completed. Derived PIV credentials might also be issued after post-enrollment binding is complete. The PIV Card takes the physical form of the [[ISO7816]](../_Appendix/references.md#ref-ISO7816) ID-1 card type (i.e., traditional payment card), with one or more
-embedded integrated circuit chips (ICC) that provide memory capacity and computational capability. The
+embedded Integrated Circuit Chips (ICC) that provide memory capacity and computational capability. The
 PIV Card is the primary component of the PIV system. The holder uses the PIV Card for authentication
 to various physical and logical resources. Derived PIV credentials increasingly play an important role as additional authenticators, especially in environments where use of the PIV Card is not easily supported. These AAL2 and/or AAL3 authenticators are not embedded in the PIV Card, but rather are stand-alone or integrated in a variety of devices/platforms. 
 
@@ -120,7 +120,7 @@ program) to which the cardholder wants to gain access.
 
 The relying system depends on an authorization data component that defines the privileges (authorizations)
 possessed by entities requesting to access a particular logical or physical resource. An example of this is
-an access control list (ACL) associated with a file on a computer system.
+an Access Control List (ACL) associated with a file on a computer system.
 
 The physical and logical access control system grants or denies access to a particular resource and
 includes an identification and authentication (I&A) component as well as an authorization component.

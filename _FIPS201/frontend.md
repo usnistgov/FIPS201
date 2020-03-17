@@ -102,7 +102,7 @@ The following list describes the physical requirements for the PIV Card.
     alter or interfere with printed information, including the photograph; or
     damage or interfere with machine-readable technology, such as the embedded antenna.
 - The card material SHALL withstand the effects of temperatures required by the application of a polyester
-    laminate on one or both sides of the card by commercial off-the-shelf (COTS) equipment. The
+    laminate on one or both sides of the card by Commercial Off-The-Shelf (COTS) equipment. The
     thickness added due to a laminate layer SHALL NOT interfere with the smart card reader operation. The
     card material SHALL allow production of a flat card in accordance with [[ISO7810]](../_Appendix/references.md#ref-ISO7810) after lamination of
     one or both sides of the card.
@@ -553,7 +553,7 @@ The PIV Card SHALL store a corresponding X.509 certificate to support validation
 The X.509 certificate SHALL include the FASC-N in the Subject Alternative Name (SAN) extension using the
 pivFASC-N attribute to support physical access procedures. The X.509 certificate SHALL also include
 the UUID value from the GUID data element of the CHUID in the Subject Alternative Name extension.
-The UUID SHALL be encoded as a uniform resource name (URN), as specified in Section 3 of
+The UUID SHALL be encoded as a Uniform Resource Name (URN), as specified in Section 3 of
 [[RFC4122]](../_Appendix/references.md#ref-RFC4122). The expiration date of the certificate SHALL be no later than the expiration date of the PIV
 Card. The PIV authentication certificate MAY include a PIV background investigation indicator (previously known as the NACI indicator) extension (see Appendix B.2). 
 This non-critical extension indicates the status

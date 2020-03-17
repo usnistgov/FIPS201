@@ -44,7 +44,7 @@ personnel of the PCI and DPCI organization and the review of documents such as t
 assessment phase, the appropriate assessment methods stipulated in the methodology for each PCI/DPCI and control
 are carried out and the individual results recorded. The accreditation phase involves aggregating the
 results of assessment, arriving at an accreditation decision, and issuing the appropriate notification – the
-authorization to operate (ATO) or the denial of authorization to operate (DATO), that is consistent with
+Authorization To Operate (ATO) or the Denial of Authorization To Operate (DATO), that is consistent with
 the accreditation decision.
 
 
