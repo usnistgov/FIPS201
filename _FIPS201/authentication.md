@@ -218,23 +218,45 @@ Visual authentication of a PIV cardholder as a stand-alone authentication mechan
 The PIV Card has several mandatory features on the front and back that support visual
 identification and authentication, as follows:
 
-- Zone 1F – Photograph;
-- Zone 2F – Name;
-- Zone 8F – Employee Affiliation;
-- Zone 10F – Agency, Department, or Organization;
-- Zones 14F and 19F – Card Expiration Date;
-- Zone 15F – Color-Coding for Employee Affiliation;
-- Zone 1B – Agency Card Serial Number (back of card); and
-- Zone 2B – Issuer Identification Number (back of card).
+Zone 1F
+: Photograph
+
+Zone 2F
+: Name
 
 In addition, any available tamper-proofing features described in [Section 4.1.2](frontend.md#s-4-1-2) SHOULD be used
 in visual inspection to provide additional assurance that the PIV Card is genuine and unaltered.
 
 The PIV Card MAY also bear optional components, some of which are:
 
-- Zone 11F – Agency Seal;
-- Zone 5B – Physical Characteristics of Cardholder (back of card);
-- Zone 3F – Signature.
+Zone 8F
+: Employee Affiliation
+
+Zone 10F
+: Agency, Department, or Organization
+
+Zones 14F and 19F
+: Card Expiration Date
+
+Zone 15F
+: Color-Coding for Employee Affiliation
+
+Zone 1B
+: Agency Card Serial Number (back of card)
+
+Zone 2B
+: Issuer Identification Number (back of card)
+
+The PIV Card MAY also bear optional components, some of which include the following:
+
+Zone 11F
+: Agency Seal
+ 
+Zone 5B
+: Physical Characteristics of Cardholder (back of card)
+
+Zone 3F
+: Signature
 
 When a cardholder attempts to pass through an access control point for a federally-controlled facility, a
 human guard SHALL perform visual identity verification of the cardholder, and determine whether the
@@ -290,9 +312,15 @@ environment. For example, a federal facility may have physical entry doors that 
 checkpoints, or the facility may have electronic access control points.
 
 Three levels of authentication assurance for physical access, referred to as Physical Assurance Level (PAL) are defined:
-- PAL1 - formerly SOME confidence in the asserted identity's validity (weakest)
-- PAL2 - formerly HIGH confidence in the asserted identity's validity
-- PAL3 - formerly VERY HIGH confidence in the asserted identity's validity (strongest)
+
+PAL1
+: Formerly SOME confidence in the asserted identity's validity (weakest).
+
+PAL2
+: Formerly HIGH confidence in the asserted identity's validity.
+
+PAL3
+: Formerly VERY HIGH confidence in the asserted identity's validity (strongest).
 
 Selection of the PAL SHALL be made in accordance with the applicable policies for a facility’s security level [[RISK-MGMT-FACILITIES]](../_Appendix/references.md#ref-RISK-MGMT-FACILITIES). Additional guidelines on the selection and use of PIV authentication mechanisms for facility access can be found in NIST SP 800-116 [[SP 800-116]](../_Appendix/references.md#ref-SP-800-116).
 
