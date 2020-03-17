@@ -130,7 +130,7 @@ Revocation List (CRL) Profile*, IETF, October 2015. Available at <https://www.ie
 
 [[RISK-MGMT-FACILITIES]](#ref-RISK-MGMT-FACILITIES){:name="ref-RISK-MGMT-FACILITIES"} *The Risk Management Process for Federal Facilities: An Interagency Security Committee Standard*, Interagency Security Committee, November, 2016. Available at <https://www.cisa.gov/sites/default/files/publications/isc-risk-management-process-2016-508.pdf>.
 
-[[SAML-AC]](#ref-SAML-AC){:name="ref-SAML-AC"} Authentication Context for the OASISSecurity Assertion Markup Language(SAML) V2.0, OASIS, March 2005.
+[[SAML-AC]](#ref-SAML-AC){:name="ref-SAML-AC"} Authentication Context for the OASIS Security Assertion Markup Language (SAML) V2.0, OASIS, March 2005.
 Available at <https://docs.oasis-open.org/security/saml/v2.0/saml-authn-context-2.0-os.pdf>.
 
 [[SP 800-37]](#ref-SP-800-37){:name="ref-SP-800-37"} NIST Special Publication 800-37 Revision 2, *Risk Management Framework for Information Systems and Organizations: A System Life Cycle Approach for Security and Privacy*, NIST,

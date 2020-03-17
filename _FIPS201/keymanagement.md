@@ -72,7 +72,7 @@ The content of this section has been removed as [[COMMON]](../_Appendix/referenc
 CAs that issue certificates corresponding to PIV private keys (PIV authentication, card authentication, digital signature, or key management certificates) SHALL
 
 - maintain a Hypertext Transfer Protocol (HTTP) accessible service that publishes the CRLs for the PIV certificates it issues, as specified in [[PROF]](../_Appendix/references.md#ref-PROF);
-- maintain a Hypertext Transfer Protocol (HTTP) accessible service that publishes any CA certificates issued to it, as specified in [[PROF]](../_Appendix/references.md#ref-PROF); and
+- maintain an HTTP accessible service that publishes any CA certificates issued to it, as specified in [[PROF]](../_Appendix/references.md#ref-PROF); and
 - operate Online Certificate Status Protocol (OCSP) services for the PIV certificates it issues, as specified in [[PROF]](../_Appendix/references.md#ref-PROF).
 
 PIV authentication, card authentication, digital signature, and key management certificates SHALL
@@ -87,7 +87,7 @@ Departments and agencies will be responsible for notifying CAs when certificates
 This Standard requires distribution of CA certificates and CRLs using HTTP. Specific requirements are
 found in [[PROF]](../_Appendix/references.md#ref-PROF).
 
-Certificates that contain the FASC-N or UUID in the subject alternative name extension, such as PIV
+Certificates that contain the FASC-N or UUID in the Subject Alternative Name extension, such as PIV
 authentication certificates and card authentication certificates, SHALL NOT be distributed publicly (e.g., via
 HTTP accessible from the public Internet).
 Individual departments and agencies can decide whether digital signature and key
