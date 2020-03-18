@@ -412,7 +412,7 @@ The old PIV Card SHALL be revoked when the new PIV Card is issued. The revocatio
     management key ([Section 4.2.2.5](frontend.md#s-4-2-2-5)) SHALL also be revoked.
 
 In the case of a lost, stolen, or compromised card, normal revocation procedures SHALL be completed
-within 18 hours of notification. In certain cases, 18 hours is an unacceptable delay and in those cases
+within 18&nbsp;h of notification. In certain cases, 18&nbsp;h is an unacceptable delay and in those cases
 emergency procedures SHOULD be executed to disseminate the information as rapidly as possible.
 Departments and agencies are required to have procedures in place to issue emergency notifications in
 such cases.
@@ -547,8 +547,8 @@ must be in place as to ensure the following:
 + The PII collected from the cardholder is disposed of in accordance with the stated privacy and data
     retention policies of the department or agency.
 
-If the card cannot be collected, normal termination procedures SHALL be completed within 18 hours of
-notification. In certain cases, 18 hours is an unacceptable delay and in those cases emergency procedures
+If the card cannot be collected, normal termination procedures SHALL be completed within 18&nbsp;h of
+notification. In certain cases, 18&nbsp;h is an unacceptable delay and in those cases emergency procedures
 SHOULD be executed to disseminate the information as rapidly as possible. Departments and agencies are
 required to have procedures in place to issue emergency notifications in such cases.
 
