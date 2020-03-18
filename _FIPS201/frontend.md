@@ -221,7 +221,7 @@ Zone 15F: Color-Coding for Employee Affiliation
 Zone 18F: Affiliation Color Code
 : The affiliation color code "B" for Blue, "W" for White, or "G" for
     Green SHALL be printed in a white circle in Zone 15F as depicted in [Figure 4-1](#fig-4-1). The diameter of the circle
-    SHALL NOT be more than 5 mm. The lettering SHALL correspond to the printed color in Zone 15F.
+    SHALL NOT be more than 5&nbsp;mm. The lettering SHALL correspond to the printed color in Zone 15F.
 
 Zone 19F: Card Expiration Date
 : The card expiration date SHALL be printed in a MMMYYYY format in
@@ -765,7 +765,7 @@ activation of the card after a number of consecutive failed activation attempts.
 consecutive failed activation attempts MAY vary by activation mechanism.
 
 The PIN should not be easily guessable or otherwise individually identifiable in nature (e.g., part of a
-Social Security Number or phone number). The PIN SHALL be a minimum of six digits in length. The PIV Card SHALL compare the chosen PIN against a list of at least 10 commonly-chosen values (e.g., 000000, 123456) and require the choice of a different value if one of those is selected by the user.
+Social Security Number or phone number). The PIN SHALL be a minimum of six digits in length. The PIV Card SHALL compare the chosen PIN against a list of at least 10&nbsp;commonly-chosen values (e.g., 000000, 123456) and require the choice of a different value if one of those is selected by the user.
 
 ### 4.3.2 Activation by Card Management System {#s-4-3-2}
 
