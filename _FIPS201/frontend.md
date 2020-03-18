@@ -161,11 +161,11 @@ Zone 2F: Name
     be printed in the **Primary Identifier**, **Secondary Identifier** format. The entire full name SHOULD be
     printed on available lines of Zone 2F and either identifier could be wrapped. The wrapped identifier SHALL
     be indicated with "&gt;" character at the end of the line. The identifiers MAY be printed on separate lines if
-    each fits on one line. Departments and agencies SHALL use the largest font size of 7 to 10 points that allows
-    the full name to be printed. The font size 7 point allows space for 3 lines and SHALL only be used if the full
-    name does not fit on two lines with font size 8 point. [Table 4-1](#table-4-1) provides examples of separate Primary
+    each fits on one line. Departments and agencies SHALL use the largest font size of 7&nbsp;to 10&nbsp;pt that allows
+    the full name to be printed. The font size 7&nbsp;pt allows space for 3&nbsp;lines and SHALL only be used if the full
+    name does not fit on two lines with font size 8&nbsp;pt. [Table 4-1](#table-4-1) provides examples of separate Primary
     and Secondary Identifier lines, single line with identifiers, wrapped full names, and full name in three
-    lines. Note that the truncation SHOULD only occur if the full name cannot be printed in 7 point font.
+    lines. Note that the truncation SHOULD only occur if the full name cannot be printed in 7&nbsp;pt font.
     
     Names in the Primary Identifier and the first name in the Secondary Identifier SHALL NOT be abbreviated.
     Other names and conventional prefixes and suffixes, which SHALL be included in the Secondary Identifier,
@@ -177,16 +177,16 @@ Zone 2F: Name
 
 |Name|Characteristics|Example|
 |---|---|---|
-|John Doe|simple full name of individual who does not have a middle name, two lines sufficient with 10 points.|![]({{site.baseurl}}/{{page.collection}}/images/name1.png){:style="width: 400px;" latex-src="name1.pdf"}|
-|Anna Maria Eriksson|simple full name, two lines sufficient with 10 points.|![]({{site.baseurl}}/{{page.collection}}/images/name2.png){:style="width: 400px;" latex-src="name2.pdf"}|
-|Anna Maria Eriksson|simple full name with abbreviated middle name, two lines sufficient with 10 points.|![]({{site.baseurl}}/{{page.collection}}/images/name3.png){:style="width: 400px;" latex-src="name3.pdf"}|
-|Anna Maria Eriksson|simple full name, one line sufficient for full name with 10 points.|![]({{site.baseurl}}/{{page.collection}}/images/name4.png){:style="width: 400px;" latex-src="name4.pdf"}|
-|Susie Margaret Smith-Jones|longer full name in two lines, sufficient space in 10 points.|![]({{site.baseurl}}/{{page.collection}}/images/name5.png){:style="width: 400px;" latex-src="name5.pdf"}|
-|Susie Margaret Smith-Jones|longer full name wrapped, two lines sufficient with 10 points.|![]({{site.baseurl}}/{{page.collection}}/images/name6.png){:style="width: 400px;" latex-src="name6.pdf"}|
-|Chayapa Dejthamrong Krusuang Nilavadhanananda|longer full name wrapped, two lines NOT sufficient with 10 points. Reduce the font size to 8 points.|![]({{site.baseurl}}/{{page.collection}}/images/name7.png){:style="width: 400px;" latex-src="name7.pdf"}|
-|Vaasa Silvaan Beenelong Wooloomooloo Warrandyte Warwarnambool|longer full name, two lines NOT sufficient with 8 point, 7 point allows sufficient space for three lines in Zone 2F.|![]({{site.baseurl}}/{{page.collection}}/images/name8.png){:style="width: 400px;" latex-src="name8.pdf"}|
+|John Doe|simple full name of individual who does not have a middle name, two lines sufficient with 10&nbsp;pt.|![]({{site.baseurl}}/{{page.collection}}/images/name1.png){:style="width: 400px;" latex-src="name1.pdf"}|
+|Anna Maria Eriksson|simple full name, two lines sufficient with 10&nbsp;pt.|![]({{site.baseurl}}/{{page.collection}}/images/name2.png){:style="width: 400px;" latex-src="name2.pdf"}|
+|Anna Maria Eriksson|simple full name with abbreviated middle name, two lines sufficient with 10&nbsp;pt.|![]({{site.baseurl}}/{{page.collection}}/images/name3.png){:style="width: 400px;" latex-src="name3.pdf"}|
+|Anna Maria Eriksson|simple full name, one line sufficient for full name with 10\&nbsp;pt.|![]({{site.baseurl}}/{{page.collection}}/images/name4.png){:style="width: 400px;" latex-src="name4.pdf"}|
+|Susie Margaret Smith-Jones|longer full name in two lines, sufficient space in 10\&nbsp;pt.|![]({{site.baseurl}}/{{page.collection}}/images/name5.png){:style="width: 400px;" latex-src="name5.pdf"}|
+|Susie Margaret Smith-Jones|longer full name wrapped, two lines sufficient with 10\&nbsp;pt.|![]({{site.baseurl}}/{{page.collection}}/images/name6.png){:style="width: 400px;" latex-src="name6.pdf"}|
+|Chayapa Dejthamrong Krusuang Nilavadhanananda|longer full name wrapped, two lines NOT sufficient with 10\&nbsp;pt. Reduce the font size to 8&nbsp;pt.|![]({{site.baseurl}}/{{page.collection}}/images/name7.png){:style="width: 400px;" latex-src="name7.pdf"}|
+|Vaasa Silvaan Beenelong Wooloomooloo Warrandyte Warwarnambool|longer full name, two lines NOT sufficient with 8&nbsp;pt, 7&nbsp;pt allows sufficient space for three lines in Zone 2F.|![]({{site.baseurl}}/{{page.collection}}/images/name8.png){:style="width: 400px;" latex-src="name8.pdf"}|
 |Vaasa Silvaan Beenelong Wooloomooloo Warrandyte Warwarnambool|same as previous but full name is wrapped.|![]({{site.baseurl}}/{{page.collection}}/images/name9.png){:style="width: 400px;" latex-src="name9.pdf"}|
-|Dingo Pontooroomooloo Vaasa Silvaan Beenelong Wooloomooloo Warrandyte Warwarnambool|truncated full name, three lines with 7 point NOT sufficient.|![]({{site.baseurl}}/{{page.collection}}/images/name10.png){:style="width: 400px;" latex-src="name10.pdf"}|
+|Dingo Pontooroomooloo Vaasa Silvaan Beenelong Wooloomooloo Warrandyte Warwarnambool|truncated full name, three lines with 7&nbsp;pt NOT sufficient.|![]({{site.baseurl}}/{{page.collection}}/images/name10.png){:style="width: 400px;" latex-src="name10.pdf"}|
 {:latex-columns="p@0.28\textwidth,p@0.38\textwidth,m@0.25\textwidth" latex-table="4-1" latex-caption="Name Examples"}
 
 Zone 8F: Employee Affiliation
@@ -202,7 +202,7 @@ Zone 14F: Card Expiration Date
 : The card expiration date SHALL be printed on the card as depicted in
     [Figure 4-1](#fig-4-1). The card expiration date SHALL be in a YYYYMMMDD format whereby the MMM characters
     represent the three-letter month abbreviation as follows: JAN, FEB, MAR, APR, MAY, JUN, JUL, AUG,
-    SEP, OCT, NOV, and DEC. The Zone 14F expiration date SHALL be printed in Arial 6 to 9 point bold.
+    SEP, OCT, NOV, and DEC. The Zone 14F expiration date SHALL be printed in Arial 6&nbsp;to 9&nbsp;pt bold.
 
 Zone 15F: Color-Coding for Employee Affiliation
 : Color-coding SHALL be used for additional
@@ -226,7 +226,7 @@ Zone 18F: Affiliation Color Code
 Zone 19F: Card Expiration Date
 : The card expiration date SHALL be printed in a MMMYYYY format in
     the upper right-hand corner as depicted in [Figure 4-1](#fig-4-1). The Zone 19F expiration date SHALL be printed in
-    Arial 12pt Bold.
+    Arial 12&nbsp;pt Bold.
 
 [^pseudonym]: Alternatively, an authorized pseudonym as provided under the law as discussed in [Section 2.8.1](../requirements/#s-2-8-1){:.footnote-ref}.
 
@@ -310,7 +310,7 @@ Zone 17F: Agency-Specific Data
 Zone 20F: Organizational Affiliation Abbreviation
 : The organizational affiliation abbreviation MAY be
     printed in the upper right-hand corner below the Zone 19F expiration date as shown in [Figure 4-2](#fig-4-2). If
-    printed, the organizational affiliation abbreviation SHALL be printed in Arial 12pt Bold.
+    printed, the organizational affiliation abbreviation SHALL be printed in Arial 12&nbsp;pt Bold.
 
 Zone 21F–Edge Ridging or Notched Corner Tactile Marker.
 : If used, this area SHALL incorporate edge
