@@ -150,7 +150,7 @@ integration of features that may improve tamper resistance and anti-counterfeiti
 
 Zone 1F: Photograph
 : The photograph SHALL be placed in the upper left corner, as depicted in [Figure 4-1](#fig-4-1),
-    and be a full frontal pose from top of the head to shoulder. A minimum of 300 dots per inch (dpi)
+    and be a full frontal pose from top of the head to shoulder. A minimum of 300&nbsp;Dots Per Inch (DPI)
     resolution SHALL be used. The background SHALL follow recommendations set forth in [[SP 800-76]](../_Appendix/references.md#ref-SP-800-76).
 
 Zone 2F: Name
