@@ -73,7 +73,7 @@ The following list describes the physical requirements for the PIV Card.
 - The card body SHALL be white in accordance with color representation in [Section 4.1.5](frontend.md#s-4-1-5). Only a
     security feature, as described in [Section 4.1.2](frontend.md#s-4-1-2), may modify the perceived color slightly. Presence of a
     security feature SHALL NOT prevent the recognition of white as the principal card body color by a person
-    with normal vision (corrected or uncorrected) at a working distance of 50 cm to 200 cm.
+    with normal vision (corrected or uncorrected) at a working distance of 50&nbsp;to&nbsp;200&nbsp;cm.
 - The card body structure SHALL consist of card material(s) that satisfy the card characteristics in
     [[ISO7810]](../_Appendix/references.md#ref-ISO7810) and test methods in American National Standards Institute (ANSI) 322 [[ANSI322]](../_Appendix/references.md#ref-ANSI322).
     Although the [[ANSI322]](../_Appendix/references.md#ref-ANSI322) test methods do not currently specify compliance requirements, the tests
@@ -427,7 +427,7 @@ Since the card body is white, the white color-coding is achieved
 by the absence of printing. Note that presence of the security feature, which MAY overlap colored or
 printed regions, may modify the perceived color. In the case of colored regions, the effect of overlap
 SHALL NOT prevent the recognition of the principal color by a person with normal vision (corrected or
-uncorrected) at a working distance of 50 cm to 200 cm.
+uncorrected) at a working distance of 50&nbsp;to&nbsp;200&nbsp;cm.
 
 [Table 4-2. Color Representation](#table-4-2){:name="table-4-2"}
 {:latex-ignore="true"}
