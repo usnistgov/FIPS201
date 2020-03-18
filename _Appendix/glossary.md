@@ -57,8 +57,8 @@ defined in [[SP 800-63]](references.md#ref-SP-800-63) in terms of three levels:
   - AAL3: VERY HIGH confidence
 
 Biometric Authentication (BIO, BIO-A)
-: A form of _authentication_ in which authenticity is established by automated
-comparison of a new _biometric sample_ from a cardholder to a _biometric data
+: A form of _authentication_ in which authenticity is established by _biometric
+verification_ of a new _biometric sample_ from a cardholder to a _biometric data
 record_ read from the cardholder's activated _PIV Card_. In _BIO_, the biometric
 sample may be captured from the cardholder in isolation, while in _BIO-A_, an
 attendant must oversee the process of biometric _capture_.
