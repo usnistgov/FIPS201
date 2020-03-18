@@ -26,4 +26,10 @@ The IAL, AAL, and FAL SHALL be known to the RP during the federation transaction
 
 While it is possible to process a PIV credential belonging to a different agency, federation is the recommended way for an agency to accept and process PIV credentials from other agencies.
 
-There are many benefits to using a federation protocol to present a PIV credential. For example, while the attributes within a PIV credential are fixed as part of the certificate, the attributes associated with a federation assertion can be adapted to the needs of the RP. This can take the form of selective disclosure of attributes, per-provider identifiers to preserve privacy, and additional attributes that are not available from the PIV credential itself. The identifier in the assertion IdP can be stable across multiple certificates over time, even against different authenticators associated with the same subscriber. Additionally, processing of a federation protocol is simpler for the RP, which no longer has to validate or manage the often complex certificate revocation lists associated with the PIV certificate. This is further exemplified by the use of federation technologies to provide authentication and authorization to mobile applications, smart devices, and other non-traditional applications. 
+Benefits of using a federation protocol to present a PIV credential include:
+
+Federation attributes:  The assertion attributes are more dynamic in nature than the fixed attributes in PIV credentials. They can be adapted to the needs of the RP and further tailored (e.g., selective disclosure of attributes per-provider to preserve privacy). 
+
+Stable identifier:      The identifier in the assertion IdP is stable across multiple certificates over time and can be associated with all of the subscriber's authenticators. 
+
+Simplicity:             Processing of a federation protocol is simpler for the RP, as credential validation and management is tasked to the credential issuer/IdP. This is further exemplified by the use of federation technologies to provide authentication and authorization to mobile applications, smart devices, and other non-traditional applications. 
