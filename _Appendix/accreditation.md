@@ -18,7 +18,7 @@ validation of the PCI, NIST developed a set of attributes as the basis of reliab
 issuers in SP 800-79 and published this document in July 2005. Subsequent lessons learned in
 implementation experience of various agencies 
 motivated NIST to develop a new accreditation
-methodology and published the substantial revision as SP 800-79-1 in June 2008. In 2015 a second revision, SP 800-79-2 [[SP 800-79]](references.md#ref-SP-800-79), was published to include guidelines for assessing the reliability of issuers of DPCI for mobile devices. The PCI/DPCI
+methodology and published the substantial revision as SP 800-79-1 in June 2008. In 2015, a second revision, SP 800-79-2 [[SP 800-79]](references.md#ref-SP-800-79), was published to include guidelines for assessing the reliability of issuers of DPCI for mobile devices. The PCI/DPCI
 accreditation methodology is built on a foundation of four major accreditation topics, 13&nbsp;accreditation
 focus areas, and a total of 79&nbsp;control requirements distributed under the various accreditation focus areas.
 Associated with each control requirement is a set of assessment methods, the exercise of the latter will
