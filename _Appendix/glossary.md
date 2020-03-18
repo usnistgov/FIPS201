@@ -259,7 +259,7 @@ PIV Assurance Level
 
 PIV Enrollment Record
 : A sequence of related enrollment data sets that is created and
-maintained by PIV Card issuers. The PIV enrollment record contains data collected 
+maintained by PIV Card issuers. The PIV enrollment record typically contains data collected 
 at each step of the PIV issuance process, including identity proofing, registration 
 and biometric enrollment.  
 
