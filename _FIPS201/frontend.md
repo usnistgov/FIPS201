@@ -202,7 +202,7 @@ Zone 14F: Card Expiration Date
 : The card expiration date SHALL be printed on the card as depicted in
     [Figure 4-1](#fig-4-1). The card expiration date SHALL be in a YYYYMMMDD format whereby the MMM characters
     represent the three-letter month abbreviation as follows: JAN, FEB, MAR, APR, MAY, JUN, JUL, AUG,
-    SEP, OCT, NOV, and DEC. The Zone 14F expiration date SHALL be printed in Arial 6&nbsp;to 9&nbsp;pt bold.
+    SEP, OCT, NOV, and DEC. The Zone 14F expiration date SHALL be printed in Arial 6&nbsp;to 9&nbsp;pt Bold.
 
 Zone 15F: Color-Coding for Employee Affiliation
 : Color-coding SHALL be used for additional
