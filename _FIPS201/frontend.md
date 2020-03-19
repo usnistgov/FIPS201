@@ -759,7 +759,7 @@ credentials held by the card. At a minimum, the PIV Card SHALL implement PIN-bas
 activation in support of interoperability across departments and agencies. Other card activation
 mechanisms as specified in [[SP 800-73]](../_Appendix/references.md#ref-SP-800-73) (e.g., OCC card activation) MAY be implemented and SHALL
 be discoverable. For PIN-based cardholder activation, the cardholder SHALL supply a numeric PIN. The
-verification data SHALL be transmitted to the PIV Card and checked by the card. If the verification data
+PIN SHALL be transmitted to the PIV Card and checked by the card. If the PIN
 check is successful, the PIV Card is activated. The PIV Card SHALL include mechanisms to block
 activation of the card after a number of consecutive failed activation attempts. The number of allowable
 consecutive failed activation attempts MAY vary by activation mechanism.
