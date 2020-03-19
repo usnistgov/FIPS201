@@ -454,6 +454,9 @@ GSA
 GUID
 : Global Unique Identification Number
 
+h
+: hours
+
 HSPD
 : Homeland Security Presidential Directive
 

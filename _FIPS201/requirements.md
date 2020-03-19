@@ -165,9 +165,9 @@ PIV enrollment records SHOULD include the following data:
 + Any data or any subsequent changes in the data about the cardholder. If the changed data is the
     cardholder's name, then the issuer SHOULD include the evidence of a formal name change.
 
-The biometric data records in the PIV enrollment records SHALL be valid for at most 12 years. In order to mitigate aging
+The biometric data records in the PIV enrollment records SHALL be valid for at most 12&nbsp;years. In order to mitigate aging
 effects and thereby maintain operational readiness of a cardholder's PIV Card, agencies MAY require
-biometric enrollment more frequently than 12 years.
+biometric enrollment more frequently than 12&nbsp;years.
 
 PIV enrollment records contain Personally Identifiable Information (PII). PII SHALL be protected
 in a manner that protects the individual's privacy and maintains the integrity of the records
@@ -411,7 +411,7 @@ The old PIV Card SHALL be revoked when the new PIV Card is issued. The revocatio
     management key ([Section 4.2.2.5](frontend.md#s-4-2-2-5)) SHALL also be revoked.
 
 In the case of a lost, stolen, or compromised card, normal revocation procedures SHALL be completed
-within 18 hours of notification. In certain cases, 18 hours is an unacceptable delay and in those cases
+within 18&nbsp;h of notification. In certain cases, 18&nbsp;h is an unacceptable delay and in those cases
 emergency procedures SHOULD be executed to disseminate the information as rapidly as possible.
 Departments and agencies are required to have procedures in place to issue emergency notifications in
 such cases.
@@ -421,7 +421,7 @@ applicable. If the changed data is the cardholder's name, then the issuer SHALL 
 [Section 2.9.1.1](requirements.md#s-2-9-1-1).
 
 Previously collected biometric data MAY be reused with the new PIV Card if the expiration date of the
-new PIV Card is no later than 12 years after the date that the biometric data was obtained. As
+new PIV Card is no later than 12&nbsp;years after the date that the biometric data was obtained. As
 biometric system error rates generally increase with the time elapsed since initial collection (reference aging, [[ISO2382-37]](references.md#ref-ISO/IEC-2382-37)), issuers MAY refresh
 biometric data in the PIV enrollment record during the re-issuance process. Even if the same biometric data
 is reused with the new PIV Card, the digital signature must be recomputed with the new FASC-N and
@@ -546,8 +546,8 @@ must be in place as to ensure the following:
 + The PII collected from the cardholder is disposed of in accordance with the stated privacy and data
     retention policies of the department or agency.
 
-If the card cannot be collected, normal termination procedures SHALL be completed within 18 hours of
-notification. In certain cases, 18 hours is an unacceptable delay and in those cases emergency procedures
+If the card cannot be collected, normal termination procedures SHALL be completed within 18&nbsp;h of
+notification. In certain cases, 18&nbsp;h is an unacceptable delay and in those cases emergency procedures
 SHOULD be executed to disseminate the information as rapidly as possible. Departments and agencies are
 required to have procedures in place to issue emergency notifications in such cases.
 

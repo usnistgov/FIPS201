@@ -73,7 +73,7 @@ The following list describes the physical requirements for the PIV Card.
 - The card body SHALL be white in accordance with color representation in [Section 4.1.5](frontend.md#s-4-1-5). Only a
     security feature, as described in [Section 4.1.2](frontend.md#s-4-1-2), may modify the perceived color slightly. Presence of a
     security feature SHALL NOT prevent the recognition of white as the principal card body color by a person
-    with normal vision (corrected or uncorrected) at a working distance of 50 cm to 200 cm.
+    with normal vision (corrected or uncorrected) at a working distance of 50&nbsp;cm to 200&nbsp;cm.
 - The card body structure SHALL consist of card material(s) that satisfy the card characteristics in
     [[ISO7810]](../_Appendix/references.md#ref-ISO7810) and test methods in American National Standards Institute (ANSI) 322 [[ANSI322]](../_Appendix/references.md#ref-ANSI322).
     Although the [[ANSI322]](../_Appendix/references.md#ref-ANSI322) test methods do not currently specify compliance requirements, the tests
@@ -82,8 +82,8 @@ The following list describes the physical requirements for the PIV Card.
     integrity, surface abrasion, temperature and humidity-induced dye migration, ultraviolet light
     exposure, and a laundry test. Cards SHALL NOT malfunction or delaminate after hand cleaning with a
     mild soap and water mixture.
-- The card SHALL be subjected to actual, concentrated, or artificial sunlight to appropriately reflect 2&thinsp;000
-    hours of southwestern United States' sunlight exposure in accordance with [[ISO10373]](../_Appendix/references.md#ref-ISO10373), Section 5.12.
+- The card SHALL be subjected to actual, concentrated, or artificial sunlight to appropriately reflect 2&thinsp;000&nbsp;h
+    of southwestern United States' sunlight exposure in accordance with [[ISO10373]](../_Appendix/references.md#ref-ISO10373), Section 5.12.
     Concentrated sunlight exposure SHALL be performed in accordance with [[G90-98]](../_Appendix/references.md#ref-G90-98) and accelerated
     exposure in accordance with [[G155-2013]](../_Appendix/references.md#ref-G155-2013). After exposure, the card SHALL be subjected to the
     [[ISO10373]](../_Appendix/references.md#ref-ISO10373) dynamic bending test and SHALL have no visible cracks or failures. Alternatively, the card
@@ -150,7 +150,7 @@ integration of features that may improve tamper resistance and anti-counterfeiti
 
 Zone 1F: Photograph
 : The photograph SHALL be placed in the upper left corner, as depicted in [Figure 4-1](#fig-4-1),
-    and be a full frontal pose from top of the head to shoulder. A minimum of 300 dots per inch (dpi)
+    and be a full frontal pose from top of the head to shoulder. A minimum of 300&nbsp;Dots Per Inch (DPI)
     resolution SHALL be used. The background SHALL follow recommendations set forth in [[SP 800-76]](../_Appendix/references.md#ref-SP-800-76).
 
 Zone 2F: Name
@@ -161,11 +161,11 @@ Zone 2F: Name
     be printed in the **Primary Identifier**, **Secondary Identifier** format. The entire full name SHOULD be
     printed on available lines of Zone 2F and either identifier could be wrapped. The wrapped identifier SHALL
     be indicated with "&gt;" character at the end of the line. The identifiers MAY be printed on separate lines if
-    each fits on one line. Departments and agencies SHALL use the largest font size of 7 to 10 points that allows
-    the full name to be printed. The font size 7 point allows space for 3 lines and SHALL only be used if the full
-    name does not fit on two lines with font size 8 point. [Table 4-1](#table-4-1) provides examples of separate Primary
+    each fits on one line. Departments and agencies SHALL use the largest font size of 7&nbsp;pt to 10&nbsp;pt that allows
+    the full name to be printed. The font size 7&nbsp;pt allows space for 3&nbsp;lines and SHALL only be used if the full
+    name does not fit on two lines with font size 8&nbsp;pt. [Table 4-1](#table-4-1) provides examples of separate Primary
     and Secondary Identifier lines, single line with identifiers, wrapped full names, and full name in three
-    lines. Note that the truncation SHOULD only occur if the full name cannot be printed in 7 point font.
+    lines. Note that the truncation SHOULD only occur if the full name cannot be printed in 7&nbsp;pt font.
     
     Names in the Primary Identifier and the first name in the Secondary Identifier SHALL NOT be abbreviated.
     Other names and conventional prefixes and suffixes, which SHALL be included in the Secondary Identifier,
@@ -177,16 +177,16 @@ Zone 2F: Name
 
 |Name|Characteristics|Example|
 |---|---|---|
-|John Doe|simple full name of individual who does not have a middle name, two lines sufficient with 10 points.|![]({{site.baseurl}}/{{page.collection}}/images/name1.png){:style="width: 400px;" latex-src="name1.pdf"}|
-|Anna Maria Eriksson|simple full name, two lines sufficient with 10 points.|![]({{site.baseurl}}/{{page.collection}}/images/name2.png){:style="width: 400px;" latex-src="name2.pdf"}|
-|Anna Maria Eriksson|simple full name with abbreviated middle name, two lines sufficient with 10 points.|![]({{site.baseurl}}/{{page.collection}}/images/name3.png){:style="width: 400px;" latex-src="name3.pdf"}|
-|Anna Maria Eriksson|simple full name, one line sufficient for full name with 10 points.|![]({{site.baseurl}}/{{page.collection}}/images/name4.png){:style="width: 400px;" latex-src="name4.pdf"}|
-|Susie Margaret Smith-Jones|longer full name in two lines, sufficient space in 10 points.|![]({{site.baseurl}}/{{page.collection}}/images/name5.png){:style="width: 400px;" latex-src="name5.pdf"}|
-|Susie Margaret Smith-Jones|longer full name wrapped, two lines sufficient with 10 points.|![]({{site.baseurl}}/{{page.collection}}/images/name6.png){:style="width: 400px;" latex-src="name6.pdf"}|
-|Chayapa Dejthamrong Krusuang Nilavadhanananda|longer full name wrapped, two lines NOT sufficient with 10 points. Reduce the font size to 8 points.|![]({{site.baseurl}}/{{page.collection}}/images/name7.png){:style="width: 400px;" latex-src="name7.pdf"}|
-|Vaasa Silvaan Beenelong Wooloomooloo Warrandyte Warwarnambool|longer full name, two lines NOT sufficient with 8 point, 7 point allows sufficient space for three lines in Zone 2F.|![]({{site.baseurl}}/{{page.collection}}/images/name8.png){:style="width: 400px;" latex-src="name8.pdf"}|
+|John Doe|simple full name of individual who does not have a middle name, two lines sufficient with 10&nbsp;pt.|![]({{site.baseurl}}/{{page.collection}}/images/name1.png){:style="width: 400px;" latex-src="name1.pdf"}|
+|Anna Maria Eriksson|simple full name, two lines sufficient with 10&nbsp;pt.|![]({{site.baseurl}}/{{page.collection}}/images/name2.png){:style="width: 400px;" latex-src="name2.pdf"}|
+|Anna Maria Eriksson|simple full name with abbreviated middle name, two lines sufficient with 10&nbsp;pt.|![]({{site.baseurl}}/{{page.collection}}/images/name3.png){:style="width: 400px;" latex-src="name3.pdf"}|
+|Anna Maria Eriksson|simple full name, one line sufficient for full name with 10&nbsp;pt.|![]({{site.baseurl}}/{{page.collection}}/images/name4.png){:style="width: 400px;" latex-src="name4.pdf"}|
+|Susie Margaret Smith-Jones|longer full name in two lines, sufficient space in 10&nbsp;pt.|![]({{site.baseurl}}/{{page.collection}}/images/name5.png){:style="width: 400px;" latex-src="name5.pdf"}|
+|Susie Margaret Smith-Jones|longer full name wrapped, two lines sufficient with 10&nbsp;pt.|![]({{site.baseurl}}/{{page.collection}}/images/name6.png){:style="width: 400px;" latex-src="name6.pdf"}|
+|Chayapa Dejthamrong Krusuang Nilavadhanananda|longer full name wrapped, two lines NOT sufficient with 10&nbsp;pt. Reduce the font size to 8&nbsp;pt.|![]({{site.baseurl}}/{{page.collection}}/images/name7.png){:style="width: 400px;" latex-src="name7.pdf"}|
+|Vaasa Silvaan Beenelong Wooloomooloo Warrandyte Warwarnambool|longer full name, two lines NOT sufficient with 8&nbsp;pt, 7&nbsp;pt allows sufficient space for three lines in Zone 2F.|![]({{site.baseurl}}/{{page.collection}}/images/name8.png){:style="width: 400px;" latex-src="name8.pdf"}|
 |Vaasa Silvaan Beenelong Wooloomooloo Warrandyte Warwarnambool|same as previous but full name is wrapped.|![]({{site.baseurl}}/{{page.collection}}/images/name9.png){:style="width: 400px;" latex-src="name9.pdf"}|
-|Dingo Pontooroomooloo Vaasa Silvaan Beenelong Wooloomooloo Warrandyte Warwarnambool|truncated full name, three lines with 7 point NOT sufficient.|![]({{site.baseurl}}/{{page.collection}}/images/name10.png){:style="width: 400px;" latex-src="name10.pdf"}|
+|Dingo Pontooroomooloo Vaasa Silvaan Beenelong Wooloomooloo Warrandyte Warwarnambool|truncated full name, three lines with 7&nbsp;pt NOT sufficient.|![]({{site.baseurl}}/{{page.collection}}/images/name10.png){:style="width: 400px;" latex-src="name10.pdf"}|
 {:latex-columns="p@0.28\textwidth,p@0.38\textwidth,m@0.25\textwidth" latex-table="4-1" latex-caption="Name Examples"}
 
 Zone 8F: Employee Affiliation
@@ -202,7 +202,7 @@ Zone 14F: Card Expiration Date
 : The card expiration date SHALL be printed on the card as depicted in
     [Figure 4-1](#fig-4-1). The card expiration date SHALL be in a YYYYMMMDD format whereby the MMM characters
     represent the three-letter month abbreviation as follows: JAN, FEB, MAR, APR, MAY, JUN, JUL, AUG,
-    SEP, OCT, NOV, and DEC. The Zone 14F expiration date SHALL be printed in Arial 6 to 9 point bold.
+    SEP, OCT, NOV, and DEC. The Zone 14F expiration date SHALL be printed in Arial 6&nbsp;pt to 9&nbsp;pt Bold.
 
 Zone 15F: Color-Coding for Employee Affiliation
 : Color-coding SHALL be used for additional
@@ -221,12 +221,12 @@ Zone 15F: Color-Coding for Employee Affiliation
 Zone 18F: Affiliation Color Code
 : The affiliation color code "B" for Blue, "W" for White, or "G" for
     Green SHALL be printed in a white circle in Zone 15F as depicted in [Figure 4-1](#fig-4-1). The diameter of the circle
-    SHALL NOT be more than 5 mm. The lettering SHALL correspond to the printed color in Zone 15F.
+    SHALL NOT be more than 5&nbsp;mm. The lettering SHALL correspond to the printed color in Zone 15F.
 
 Zone 19F: Card Expiration Date
 : The card expiration date SHALL be printed in a MMMYYYY format in
     the upper right-hand corner as depicted in [Figure 4-1](#fig-4-1). The Zone 19F expiration date SHALL be printed in
-    Arial 12pt Bold.
+    Arial 12&nbsp;pt Bold.
 
 [^pseudonym]: Alternatively, an authorized pseudonym as provided under the law as discussed in [Section 2.8.1](../requirements/#s-2-8-1){:.footnote-ref}.
 
@@ -310,7 +310,7 @@ Zone 17F: Agency-Specific Data
 Zone 20F: Organizational Affiliation Abbreviation
 : The organizational affiliation abbreviation MAY be
     printed in the upper right-hand corner below the Zone 19F expiration date as shown in [Figure 4-2](#fig-4-2). If
-    printed, the organizational affiliation abbreviation SHALL be printed in Arial 12pt Bold.
+    printed, the organizational affiliation abbreviation SHALL be printed in Arial 12&nbsp;pt Bold.
 
 Zone 21F–Edge Ridging or Notched Corner Tactile Marker.
 : If used, this area SHALL incorporate edge
@@ -427,7 +427,7 @@ Since the card body is white, the white color-coding is achieved
 by the absence of printing. Note that presence of the security feature, which MAY overlap colored or
 printed regions, may modify the perceived color. In the case of colored regions, the effect of overlap
 SHALL NOT prevent the recognition of the principal color by a person with normal vision (corrected or
-uncorrected) at a working distance of 50 cm to 200 cm.
+uncorrected) at a working distance of 50&nbsp;cm to 200&nbsp;cm.
 
 [Table 4-2. Color Representation](#table-4-2){:name="table-4-2"}
 {:latex-ignore="true"}
@@ -765,7 +765,7 @@ activation of the card after a number of consecutive failed activation attempts.
 consecutive failed activation attempts MAY vary by activation mechanism.
 
 The PIN should not be easily guessable or otherwise individually identifiable in nature (e.g., part of a
-Social Security Number or phone number). The PIN SHALL be a minimum of six digits in length. The PIV Card SHALL compare the chosen PIN against a list of at least 10 commonly-chosen values (e.g., 000000, 123456) and require the choice of a different value if one of those is selected by the user.
+Social Security Number or phone number). The PIN SHALL be a minimum of six digits in length. The PIV Card SHALL compare the chosen PIN against a list of at least 10&nbsp;commonly-chosen values (e.g., 000000, 123456) and require the choice of a different value if one of those is selected by the user.
 
 ### 4.3.2 Activation by Card Management System {#s-4-3-2}
 
