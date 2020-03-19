@@ -258,10 +258,9 @@ PIV Assurance Level
 : A degree of confidence established in the identity of the holder of the PIV Card.
 
 PIV Enrollment Record
-: A sequence of related enrollment data sets that is created and
+: A sequence of related enrollment data sets that is created and 
 maintained by PIV Card issuers. The PIV enrollment record typically contains data collected 
-at each step of the PIV issuance process, including identity proofing, registration 
-and biometric enrollment.  
+at each step of the PIV identity proofing, registration, and issuance processes.
 
 Private Key
 : The secret part of an asymmetric key pair that is typically used to digitally sign or decrypt
