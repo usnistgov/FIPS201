@@ -52,7 +52,7 @@ such that
 Federal departments and agencies SHALL use the credentialing eligibility standards issued by the Director of the Office
 of Personnel Management (OPM)[^OPM] and OMB.[^OMB]
 
-Federal departments and agencies must follow investigative requirements established by the Suitability and Credentialing Executive Agent and the Security Executive Agent. Departments and agencies SHALL use position designation guidance issued by the Executive Agents. The designation of the position determines the prerequisite investigative requirement. Individuals being processed for a PIV Card must receive the appropriate required investigation and are subject to any corresponding reinvestigation or continuous vetting requirements as applicable, for issuance and to maintain their workforce PIV eligibility.
+Federal departments and agencies must follow investigative requirements established by the Suitability and Credentialing Executive Agent and the Security Executive Agent. Departments and agencies SHALL use position designation guidance issued by the Executive Agents. The designation of the position determines the prerequisite investigative requirement. Individuals being processed for a PIV Card must receive the required investigation and are subject to any applicable reinvestigation or continuous vetting requirements to maintain their PIV eligibility.
 
 The minimum requirement for PIV Credential eligibility determination is a completed and favorably adjudicated Tier 1[^TierOne] investigation, formerly called a National Agency Check with Written Inquiries (NACI).
 
