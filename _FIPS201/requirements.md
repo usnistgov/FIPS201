@@ -465,7 +465,7 @@ For remote post-issuance updates, the following SHALL apply:
     during the remote post-issuance update.
 
 Post-issuance updates to biometric data records, other than to the digital signature blocks within the
-biometric data records, SHALL satisfy the requirements for verification data reset specified in [Section 2.9.3](requirements.md#s-2-9-3).
+biometric data records, SHALL satisfy the requirements for PIV Card activation reset specified in [Section 2.9.3](requirements.md#s-2-9-3).
 
 If the PIV authentication key ([Section 4.2.2.1](frontend.md#s-4-2-2-1)), asymmetric card authentication key ([Section 4.2.2.2](frontend.md#s-4-2-2-2)), the digital signature key ([Section 4.2.2.1](frontend.md#s-4-2-2-4)), or the key
 management key ([Section 4.2.2.5](frontend.md#s-4-2-2-5)) was compromised, the corresponding certificate SHALL be revoked.
