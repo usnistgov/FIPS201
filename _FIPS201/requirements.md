@@ -304,7 +304,7 @@ of the federal department or agency.
 + PIV Cards are issued after the adjudicative entity has authorized issuance of the credential.
 + The organization SHALL use an approved PIV credential issuance process in accordance with
     [[SP 800-79]](../_Appendix/references.md#ref-SP-800-79).
-+ Before issuing the PIV Card, the issuer should ensure that the individual receiving it has been properly processed per Sections [2.1](requirements.md#s-2-1), [2.2](requirements.md#s-2-2), and [2.7](requirements.md#s-2-7).
++ Before issuing the PIV Card, the issuer should ensure that the individual receiving it has been properly processed per [Section 2.1](requirements.md#s-2-1), [Section 2.2](requirements.md#s-2-2), and [Section 2.7](requirements.md#s-2-7).
 + Biometric data used to personalize the PIV Card must be those captured during the identity proofing and registration process.
 + During the issuance process, the issuer SHALL verify that the individual to whom the PIV Card is to be
     issued is the same as the intended applicant/recipient as approved by the appropriate authority.
