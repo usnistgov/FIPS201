@@ -38,7 +38,7 @@ Parties responsible for controlling access to federal resources (both physical a
 the appropriate assurance levels required for access, based on the harm and impact to
 individuals and organizations as a result of errors in the authentication of the PIV
 cardholder. Once the required assurance level has been determined, one of the authentication mechanisms
-specified in [Section 6.2](#s-6-2) SHALL be applied to achieve that assurance level.[^
+specified in [Section 6.2](#s-6-2) SHALL be applied to achieve that assurance level.
 
 ### 6.1.1 Relationship to Federal Identity Policy (Removed) {#s-6-1-1}
 
