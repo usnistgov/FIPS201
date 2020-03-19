@@ -37,7 +37,7 @@ constraints (e.g., costs, local environment, user acceptability).
 
 Assertion
 : A verifiable statement from an IdP to an RP that contains information about an end user. 
-Assertions may also contain 
+Assertions may also contain information about the end user's authentication event at the IdP.
 
 Asymmetric Keys
 : Two related keys, a public key and a private key, that are used to perform
@@ -142,7 +142,7 @@ Cryptographic Key (Key)
 determines the specific operation of that algorithm.
 
 Derived PIV Credential
-: 
+: A credential issued based on proof of possession and control of a PIV Card so as not to duplicate the identity proofing process.
 
 Enrollment
 : See "Identity Registration."
@@ -440,9 +440,6 @@ FASC-N
 FBI
 : Federal Bureau of Investigation
 
-FCS
-: 
-
 FICAM
 : Federal Identity, Credential, and Access Management
 
@@ -589,9 +586,6 @@ SP
 
 SSP
 : Shared Service Provider
-
-T1
-: 
 
 URN
 : Uniform Resource Name
