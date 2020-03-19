@@ -23,7 +23,7 @@ The Revision History provides an overview of the changes to FIPS 201 since its i
 |||Added option to use electronic facial image for authentication in operator-attended environments.|
 |||Incorporated the content from Form I-9 that is relevant to FIPS 201.|
 |||Introduced the concept of a "chain-of-trust" optionally maintained by a PIV Card issuer.|
-|||Changed the maximum life of PIV Card from 5 years to 6 years.|
+|||Changed the maximum life of PIV Card from 5&nbsp;years to 6&nbsp;years.|
 |||Added requirements for issuing a PIV Card to an individual under a pseudonymous identity.|
 |||Added requirements for issuing a PIV Card to an individual within grace period.|
 |||Added requirements for post-issuance updates.|
@@ -39,4 +39,4 @@ The Revision History provides an overview of the changes to FIPS 201 since its i
 |||Require signature verification and certification path validation in the CHUID, BIO, and BIO-A authentication mechanisms.|
 |||The VIS and CHUID authentication mechanisms have been downgraded to indicate that they provide LITTLE or NO assurance in the identity of the cardholder.|
 |||Deprecated the use of the CHUID authentication mechanism. The CHUID data element has not been deprecated and continues to be mandatory.|
-{:latex-longtable="true"}
+{:latex-columns="p@0.13\textwidth,p@0.17\textwidth,p@0.61\textwidth" latex-longtable="true"}
