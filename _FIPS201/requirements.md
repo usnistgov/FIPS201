@@ -136,7 +136,7 @@ when fingerprint biometric data records are unavailable.
 
 > Note: This section was formerly entitled "Chain-of-Trust".
 
-A card issuer SHALL maintain the enrollment records for each PIV Card it issues that contains  
+A card issuer SHALL maintain the enrollment record for each PIV Card it issues that contains  
 identification data it collects. These enrollment records are created and maintained through the methods of 
 contemporaneous acquisition at each step of the PIV issuance process, typically including identity proofing, registration 
 and biometric enrollment, and are generally stored as part of the cardholder's PIV account.
