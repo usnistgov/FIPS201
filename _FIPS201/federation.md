@@ -26,7 +26,7 @@ The IAL, AAL, and FAL SHALL be known to the RP during the federation transaction
 
 While it is possible to process a PIV credential belonging to a different agency, federation is the recommended way for an agency to accept and process PIV credentials from other agencies.
 
-Benefits of using a federation protocol to present a PIV credential include:
+Benefits of using a federation protocol to present a PIV credential include the following:
 
 Federation attributes
 : The assertion attributes are more dynamic in nature than the fixed attributes in PIV credentials. They can be adapted to the needs of the RP and further tailored (e.g., selective disclosure of attributes per-provider to preserve privacy). 
