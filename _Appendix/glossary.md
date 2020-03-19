@@ -35,6 +35,10 @@ solving a specific problem. An architecture contains descriptions of all the com
 acceptable solution while allowing certain details of specific components to be variable to satisfy related
 constraints (e.g., costs, local environment, user acceptability).
 
+Assertion
+: A verifiable statement from an IdP to an RP that contains information about an end user. 
+Assertions may also contain information about the end user's authentication event at the IdP.
+
 Asymmetric Keys
 : Two related keys, a public key and a private key, that are used to perform
 complementary operations, such as encryption and decryption or signature generation and signature
@@ -51,6 +55,13 @@ defined in [[SP 800-63]](references.md#ref-SP-800-63) in terms of three levels:
   - AAL1: SOME confidence
   - AAL2: HIGH confidence
   - AAL3: VERY HIGH confidence
+
+Biometric Authentication (BIO, BIO-A)
+: A form of _authentication_ in which authenticity is established by _biometric
+verification_ of a new _biometric sample_ from a cardholder to a _biometric data
+record_ read from the cardholder's activated _PIV Card_. In _BIO_, the biometric
+sample may be captured from the cardholder in isolation, while in _BIO-A_, an
+attendant must oversee the process of biometric _capture_.
 
 Biometric Capture Device
 : Device that collects a signal from a biometric characteristic and converts it 
@@ -130,6 +141,9 @@ Cryptographic Key (Key)
 : A parameter used in conjunction with a cryptographic algorithm that
 determines the specific operation of that algorithm.
 
+Derived PIV Credential
+: A credential issued based on proof of possession and control of a PIV Card so as not to duplicate the identity proofing process.
+
 Enrollment
 : See "Identity Registration."
 
@@ -147,6 +161,18 @@ Federal Information Processing Standards (FIPS)
 departments and agencies that has been developed within the Information Technology Laboratory and
 published by NIST, a part of the U.S. Department of Commerce. A FIPS covers some topic in
 information technology to achieve a common level of quality or some level of interoperability.
+
+Federation
+: A process that allows the conveyance of identity and authentication information across a set of networked systems.
+
+Federation Assurance Level (FAL)
+: A category describing the assertion protocol used by the federation to communicate authentication and attribute 
+information (if applicable) to an RP,  as
+defined in [[SP 800-63]](references.md#ref-SP-800-63) in terms of three levels:
+
+  - FAL1: SOME confidence
+  - FAL2: HIGH confidence
+  - FAL3: VERY HIGH confidence
 
 Hash Function
 : A function that maps a bit string of arbitrary length to a fixed length bit string. Secure
@@ -168,6 +194,14 @@ number are examples of identifiers.
 Identity
 : The set of physical and behavioral characteristics by which an individual is uniquely
 recognizable.
+
+Identity Assurance Level (IAL)
+: A category that conveys the degree of confidence that the end user’s claimed identity is their real identity,  as
+defined in [[SP 800-63]](references.md#ref-SP-800-63) in terms of three levels:
+
+  - IAL1: SOME confidence
+  - IAL2: HIGH confidence
+  - IAL3: VERY HIGH confidence
 
 Identity Proofing
 : The process of providing sufficient information (e.g., identity history, credentials,
@@ -313,6 +347,9 @@ Suitability and Credentialing Executive Agent
 
 The following acronyms and abbreviations are used throughout this Standard:
 
+AAL
+: Authenticator Assurance Level
+
 ACL
 : Access Control List
 
@@ -394,6 +431,9 @@ dpi
 ERT
 : Emergency Response Team
 
+FAL
+: Federation Assurance Level
+
 FASC-N
 : Federal Agency Smart Credential Number
 
@@ -426,6 +466,9 @@ HTTPS
 
 I&A
 : Identification and Authentication
+
+IAL
+: Identity Assurance Level
 
 ICAMSC
 : Identity, Credential, and Access Management Subcommittee
@@ -499,6 +542,9 @@ OMB
 OPM
 : Office of Personnel Management
 
+PAL
+: Physical Assurance Level
+
 PCI
 : PIV Card Issuer
 
@@ -523,11 +569,17 @@ PIV
 PKI
 : Public Key Infrastructure
 
+pt
+: Point (unit of measurement)
+
 RFC
 : Request for Comments
 
 RP
 : Relying Party
+
+SAML
+: Security Assertion Markup Language
 
 SP
 : Special Publication
