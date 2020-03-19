@@ -18,7 +18,7 @@ validation of the PCI, NIST developed a set of attributes as the basis of reliab
 issuers in SP 800-79 and published this document in July 2005. Subsequent lessons learned in
 implementation experience of various agencies 
 motivated NIST to develop a new accreditation
-methodology and published the substantial revision as SP 800-79-1 in June 2008. In 2015, a second revision, SP 800-79-2 [[SP 800-79]](references.md#ref-SP-800-79), was published to include guidelines for assessing the reliability of issuers of DPCI for mobile devices. The PCI/DPCI
+methodology and publish a substantial revision in June 2008. In 2015 a second revision of [[SP 800-79]](references.md#ref-SP-800-79) was published to include guidelines for assessing the reliability of issuers of DPCI for mobile devices. The PCI/DPCI
 accreditation methodology is built on a foundation of four major accreditation topics, 13&nbsp;accreditation
 focus areas, and a total of 79&nbsp;control requirements distributed under the various accreditation focus areas.
 Associated with each control requirement is a set of assessment methods, the exercise of the latter will
@@ -66,9 +66,8 @@ mandatory for issuing PCI/DPCI accreditation using [[SP 800-79]](references.md#r
 Assurance of conformance of the PIV Card Application interface to this Standard
 and its associated technical specifications is needed in order to meet the security and interoperability
 goals of [[HSPD-12]](references.md#ref-HSPD-12). To facilitate this, NIST has established the NIST Personal Identity Verification
-Program (NPIVP). Under this program NIST has developed test procedures in SP 800-85A, *PIV Card
-Application and Middleware Interface Test Guidelines (SP 800-73 compliance)*, and an associated toolkit
-for conformance testing of PIV Card Applications and PIV Middleware [[SP 800-85A]](references.md#ref-SP-800-85A). NPIVP conformance testing also covers PIV Middleware, but conformance testing may be discontinued at a future time as computer platforms increasingly provide built-in support for smart cards.
+Program (NPIVP). Under this program, NIST has developed test procedures in [[SP 800-85A]](references.md#ref-SP-800-85A) and an associated toolkit
+for conformance testing of PIV Card applications and PIV middleware. NPIVP conformance testing also covers PIV middleware, but conformance testing may be discontinued at a future time as computer platforms increasingly provide built-in support for smart cards.
 
 Commercial products under these two categories are tested by the set of accredited test laboratories, accredited under
 the National Voluntary Laboratory Accreditation Program (NVLAP) program, using the NIST supplied

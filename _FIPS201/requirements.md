@@ -12,7 +12,7 @@ the identity proofing requirements for federal employees and contractors.
 
 ## 2.1 Control Objectives {#s-2-1}
 
-[[HSPD-12]](../_Appendix/references.md#ref-HSPD-12) established control objectives for secure and reliable identification of federal employees and
+[[HSPD-12]](../_Appendix/references.md#ref-HSPD-12) establishes control objectives for secure and reliable identification of federal employees and
 contractors. These control objectives, provided in paragraph 3 of the directive, are quoted here:
 
 > (3) "Secure and reliable forms of identification" for purposes of this directive means identification that (a)
@@ -65,9 +65,9 @@ For full guidance on PIV credentialing investigative and adjudicative requiremen
 
 [^OPM]: For example, [[FCS]](../references/#ref-FCS){:.footnote-ref} and the Federal Investigative Standards or subsequent standards.
 
-[^OMB]: For example, [[OMB0524]](../references/#ref-OMB0524){:.footnote-ref}.
+[^OMB]: For example, OMB [[M-05-24]](../references/#ref-OMB0524){:.footnote-ref}.
 
-[^TierOne]: NACI investigations were replaced with Tier 1 investigation upon implementation of the 2012 Federal Investigative Standards.
+[^TierOne]: NACI investigations were replaced with Tier 1 investigations upon implementation of the 2012 Federal Investigative Standards.
 
 
 ## 2.3 Biometric Data Collection for Background Investigations {#s-2-3}
@@ -286,7 +286,7 @@ Supervised remote identity proofing SHALL meet the following requirements:
 * The operator SHALL require that all validation of evidence (e.g., via chip or wireless technologies or through inspection of document security features) be performed using integrated scanners and sensors.
 * The issuer SHALL ensure that all communications occur over a mutually authenticated protected channel.
 
-If biometric data cannot be collected as per the criteria defined in [[SP 800-76]](../_Appendix/references.md#ref-SP-800-76) or if validation of the identity evidence is inadequate, supervised remote identity proofing SHALL NOT be used and the identity proofing and enrollment shall be performed in person at the issuer’s facility.
+If biometric data cannot be collected per the criteria defined in [[SP 800-76]](../_Appendix/references.md#ref-SP-800-76) or if validation of the identity evidence is inadequate, supervised remote identity proofing SHALL NOT be used and the identity proofing and enrollment shall be performed in person at the issuer’s facility.
 The trained operator SHALL terminate a supervised remote identity proofing
 session and require in-person identity proofing at an issuing facility if
 there is reasonable basis to believe[^believe] that the applicant is attempting
@@ -422,7 +422,7 @@ applicable. If the changed data is the cardholder's name, then the issuer SHALL 
 
 Previously collected biometric data MAY be reused with the new PIV Card if the expiration date of the
 new PIV Card is no later than 12&nbsp;years after the date that the biometric data was obtained. As
-biometric system error rates generally increase with the time elapsed since initial collection (reference aging, [[ISO2382-37]](references.md#ref-ISO/IEC-2382-37)), issuers MAY refresh
+biometric system error rates generally increase with the time elapsed since initial collection (reference aging, [[ISO 2382-37]](references.md#ref-ISO/IEC-2382-37)), issuers MAY refresh
 biometric data in the PIV enrollment record during the re-issuance process. Even if the same biometric data
 is reused with the new PIV Card, the digital signature must be recomputed with the new FASC-N and
 UUID.
@@ -557,8 +557,7 @@ required to have procedures in place to issue emergency notifications in such ca
 
 Issuance of a derived PIV credential is an instance of the post-enrollment binding of an authenticator described in [[SP 800-63B]](../_Appendix/references.md#ref-SP-800-63B) and SHALL be performed in accordance with the requirements that apply to physical authenticators as well as the requirements below.
 
-The issuing or binding of derived PIV credentials SHALL use valid PIV Cards in accordance with NIST
-Special Publication 800-157, *Guidelines for Derived Personal Identity Verification (PIV) Credentials*
+The issuing or binding of derived PIV credentials SHALL use valid PIV Cards in accordance with
 [[SP 800-157]](../_Appendix/references.md#ref-SP-800-157). Derived PIV credentials MAY be created at the same authentication assurance level as the PIV Card itself (AAL3), or MAY be created at a lower AAL (AAL2) depending on the security characteristics of the authenticator. The issuer SHALL attempt to promptly notify the cardholder of the binding of a derived PIV credential through an independent means that would not afford an attacker with an opportunity to erase the notification. More than one independent notification method MAY be used to ensure prompt receipt by the subscriber. Derived PIV credentials SHALL be bound to the subscriber's PIV account only by the issuer of that PIV account.
 
 ### 2.10.2 Derived PIV Credential Invalidation Requirements {#s-2-10-2}
@@ -580,7 +579,7 @@ Upon invalidation of a derived PIV credential, it SHALL no longer be accepted fo
 such, all departments and agencies SHALL implement the PIV system in accordance with the spirit and letter
 of all privacy controls specified in this Standard, as well as those specified in federal privacy laws and
 policies including but not limited to the E-Government Act of 2002 [[E-Gov]](../_Appendix/references.md#ref-E-Gov), the Privacy Act of 1974
-[[PRIVACY]](../_Appendix/references.md#ref-PRIVACY), and OMB Memorandum M-03-22 [[OMB0322]](../_Appendix/references.md#ref-OMB0322), as applicable.
+[[PRIVACY]](../_Appendix/references.md#ref-PRIVACY), and OMB [[M-03-22]](../_Appendix/references.md#ref-OMB0322), as applicable.
 
 Departments and agencies may have a wide variety of uses of the PIV system and its components that
 were not intended or anticipated by the President in issuing [[HSPD-12]](../_Appendix/references.md#ref-HSPD-12). In considering whether a
@@ -597,7 +596,7 @@ To ensure the privacy throughout PIV lifecycle, departments and agencies SHALL d
     operational role in the PIV system.
 - Conduct a comprehensive Privacy Impact Assessment (PIA) on systems containing PII for the
     purpose of implementing PIV, consistent with the methodology of [[E-Gov]](../_Appendix/references.md#ref-E-Gov) and the requirements of
-    [[OMB0322]](../_Appendix/references.md#ref-OMB0322). Consult with appropriate personnel responsible for privacy issues at the department or
+    [[M-03-22]](../_Appendix/references.md#ref-OMB0322). Consult with appropriate personnel responsible for privacy issues at the department or
     agency (e.g., Chief Information Officer) implementing the PIV system.
 - Write, publish, and maintain a clear and comprehensive document listing the types of information that
     will be collected (e.g., transactional information, PII), the purpose of collection, what information
@@ -616,8 +615,7 @@ To ensure the privacy throughout PIV lifecycle, departments and agencies SHALL d
 - Assure that the technologies used in the department or agency's implementation of the PIV system
     allow for continuous auditing of compliance with stated privacy policies and practices governing the
     collection, use, and distribution of information in the operation of the program.
-- Utilize security controls described in [[SP 800-53]](../_Appendix/references.md#ref-SP-800-53), Recommended Security Controls for Federal
-    Information Systems, to accomplish privacy goals, where applicable.
+- Utilize security controls described in [[SP 800-53]](../_Appendix/references.md#ref-SP-800-53) to accomplish privacy goals, where applicable.
 - Ensure that the technologies used to implement PIV sustain and do not erode privacy protections
     relating to the use, collection, and disclosure of PII. Agencies may choose to deploy PIV Cards with
     electromagnetically opaque holders or other technology to protect against any unauthorized
@@ -625,4 +623,4 @@ To ensure the privacy throughout PIV lifecycle, departments and agencies SHALL d
 
 [^privacyofficial]: Privacy official refers to the Senior Agency Official for Privacy (SAOP) or Chief Privacy Officer (CPO).
 
-[^access]: Agencies may refer to NIST SP 800-122 [[SP 800-122]](../references/#ref-SP-800-122){:.footnote-ref}, *Guide to Protecting the Confidentiality of Personally Identifiable Information (PII)*, for a best practice guideline on protection of PII.
+[^access]: Agencies may refer to [[SP 800-122]](../references/#ref-SP-800-122){:.footnote-ref} for a best practice guideline on protection of PII.

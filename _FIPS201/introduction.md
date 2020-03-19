@@ -42,7 +42,7 @@ security levels that are dependent on risks to the facility or information being
 
 ## 1.2 Scope {#s-1-2}
 
-Homeland Security Presidential Directive-12 [[HSPD-12]](../_Appendix/references.md#ref-HSPD-12), signed by President George W. Bush on August
+[[HSPD-12]](../_Appendix/references.md#ref-HSPD-12), signed by President George W. Bush on August
 27, 2004, established the requirements for a common identification standard for identity credentials issued
 by federal departments and agencies to federal employees and contractors (including contractor
 employees) for gaining physical access to federally controlled facilities and logical access to federally-controlled 
@@ -151,19 +151,15 @@ issuance. It provides detailed technical specifications to support the control a
 the policies and minimum requirements of a PIV Card that allows interoperability of credentials for
 physical and logical access. The physical card characteristics, storage media, and data elements that make
 up identity credentials are specified in this Standard. The interfaces and card architecture for storing and
-retrieving identity credentials from a smart card are specified in Special Publication 800-73 [[SP 800-73]](../_Appendix/references.md#ref-SP-800-73),
-*Interfaces for Personal Identity Verification*. Similarly, the requirements for collection and formatting of
-biometric data records are specified in Special Publication 800-76 [[SP 800-76]](../_Appendix/references.md#ref-SP-800-76), *Biometric Specifications
-for Personal Identity Verification*. The requirements for cryptographic algorithms are specified in Special
-Publication 800-78 [[SP 800-78]](../_Appendix/references.md#ref-SP-800-78), *Cryptographic Algorithms and Key Sizes for Personal Identity
-Verification*. The requirements for the accreditation of PIV Card issuers are specified in Special
-Publication 800-79 [[SP 800-79]](../_Appendix/references.md#ref-SP-800-79), *Guidelines for the Authorization of Personal Identity Verification Card 
-Issuers (PCI) and Derived PIV Credential Issuers (DPCI)*. The unique organizational codes for federal agencies are assigned in Special Publication 800-87 [[SP 800-87]](../_Appendix/references.md#ref-SP-800-87), *Codes for the Identification of Federal and Federally-Assisted Organizations*. The
-requirements for the PIV Card reader are provided in Special Publication 800-96 [[SP 800-96]](../_Appendix/references.md#ref-SP-800-96), *PIV Card
-to Reader Interoperability Guidelines*. The format for encoding PIV enrollment records for import and export is
-specified in Special Publication 800-156 [[SP 800-156]](../_Appendix/references.md#ref-SP-800-156), *Representation of PIV Chain-of-Trust for Import
-and Export*. The requirements for issuing derived PIV credentials are specified in Special Publication
-800-157 [[SP 800-157]](../_Appendix/references.md#ref-SP-800-157), *Guidelines for Derived Personal Identity Verification (PIV) Credentials*.
+retrieving identity credentials from a smart card are specified in [[SP 800-73]](../_Appendix/references.md#ref-SP-800-73).
+Similarly, the requirements for collection and formatting of
+biometric data records are specified in [[SP 800-76]](../_Appendix/references.md#ref-SP-800-76).
+The requirements for cryptographic algorithms are specified in [[SP 800-78]](../_Appendix/references.md#ref-SP-800-78).
+The requirements for the accreditation of PIV Card issuers are specified in [[SP 800-79]](../_Appendix/references.md#ref-SP-800-79).
+The unique organizational codes for federal agencies are assigned in [[SP 800-87]](../_Appendix/references.md#ref-SP-800-87).
+The requirements for the PIV Card reader are provided in [[SP 800-96]](../_Appendix/references.md#ref-SP-800-96).
+The format for encoding PIV enrollment records for import and export is specified in [[SP 800-156]](../_Appendix/references.md#ref-SP-800-156).
+The requirements for issuing derived PIV credentials are specified in [[SP 800-157]](../_Appendix/references.md#ref-SP-800-157).
 
 This Standard contains normative references to other documents, and to the extent described in each
 citation these documents are included by reference in this Standard. Should normative text in this
