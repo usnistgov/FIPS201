@@ -1,6 +1,10 @@
 ---
+layout: default
 title: "FIPS 201"
 description: "FIPS 201"
+navOrder: 1
+navTitle: Abstract
+permalink: /
 ---
 
 # FIPS 201

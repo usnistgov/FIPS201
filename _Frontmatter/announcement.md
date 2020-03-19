@@ -1,7 +1,9 @@
 ---
 layout: default
-title: Foreword
-permalink: /foreword/
+title: Announcement
+navOrder: 3
+navTitle: Announcement
+permalink: /announcement/
 ---
 
 # Federal Information Processing Standards 201 2020

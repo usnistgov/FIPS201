@@ -24,10 +24,9 @@ exclude:
 # Navigation
 # List links that should appear in the site sidebar here
 navigation:
-- text: Abstract
+- text: Frontmatter
   url: /
-- text: Foreword
-  url: /foreword/
+  collection: Frontmatter
 - text: FIPS 201
   url: /introduction/
   collection: FIPS201
@@ -37,6 +36,8 @@ navigation:
   
   
 collections:
+  Frontmatter:
+    output: true
   FIPS201:
     output: true
   Appendix:
