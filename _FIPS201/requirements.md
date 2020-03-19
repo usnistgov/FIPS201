@@ -136,7 +136,7 @@ when fingerprint biometric data records are unavailable.
 
 > Note: This section was formerly entitled "Chain-of-Trust".
 
-A card issuer SHALL maintain, for each PIV Card issued, an archive of enrollment records for the
+A card issuer SHALL maintain the enrollment records for each PIV Card it issues that contains  
 identification data it collects. These enrollment records are created and maintained through the methods of 
 contemporaneous acquisition at each step of the PIV issuance process, typically including identity proofing, registration 
 and biometric enrollment, and are generally stored as part of the cardholder's PIV account.
@@ -352,7 +352,7 @@ records from the issuer of the applicant's previous PIV Card.
 When issuing a PIV Card under the grace period, the card issuer SHALL verify that PIV Card issuance has
 been authorized by a proper authority and that the employee's or contractor's background investigation is
 valid. Re-investigations SHALL be performed if required, in accordance with the federal investigative standards. At the time
-of issuance, the card issuer SHALL perform biometric verification of the applicant to the biometric data records contained within
+of issuance, the card issuer SHALL perform biometric verification of the applicant to the biometric data records in 
 the applicant's previous PIV enrollment record. The one-to-one comparison requires either a comparison of fingerprint(s) or, if unavailable, other
 optional biometric data records that are available. On a positive biometric verification decision, the new PIV Card SHALL be released to the
 applicant. If the biometric verification decision is negative, or if no biometric data records are available, the cardholder SHALL provide
@@ -422,8 +422,8 @@ applicable. If the changed data is the cardholder's name, then the issuer SHALL 
 
 Previously collected biometric data MAY be reused with the new PIV Card if the expiration date of the
 new PIV Card is no later than 12 years after the date that the biometric data was obtained. As
-biometric system error rates generally increase with the time elapsed since initial collection (reference aging, [[ISO2382-37]](references.md#ref-ISO/IEC-2382-37)), issuers may elect to refresh
-biometric data within the PIV enrollment record. Even if the same biometric data
+biometric system error rates generally increase with the time elapsed since initial collection (reference aging, [[ISO2382-37]](references.md#ref-ISO/IEC-2382-37)), issuers MAY refresh
+biometric data in the PIV enrollment record during the re-issuance process. Even if the same biometric data
 is reused with the new PIV Card, the digital signature must be recomputed with the new FASC-N and
 UUID.
 
