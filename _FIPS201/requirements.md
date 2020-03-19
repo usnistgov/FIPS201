@@ -198,7 +198,7 @@ Identity proofing and registration requirements for issuance of PIV Cards meet I
 The organization SHALL adopt and use an identity proofing and registration process that is approved in
 accordance with [[SP 800-79]](../_Appendix/references.md#ref-SP-800-79).
 
-Biometrics data SHALL be captured as specified in Sections [2.3](requirements.md#s-2-3) and [2.4](requirements.md#s-2-4).
+Biometrics data SHALL be captured as specified in [Section 2.3](requirements.md#s-2-3) and [Section 2.4](requirements.md#s-2-4).
 
 Investigative requirements are specified in [Section 2.2](requirements.md#s-2-2).
 
@@ -304,7 +304,7 @@ of the federal department or agency.
 + PIV Cards are issued after the adjudicative entity has authorized issuance of the credential.
 + The organization SHALL use an approved PIV credential issuance process in accordance with
     [[SP 800-79]](../_Appendix/references.md#ref-SP-800-79).
-+ Before issuing the PIV Card, the issuer should ensure that the individual receiving it has been properly processed per Sections [2.1](requirements.md#s-2-1), [2.2](requirements.md#s-2-2), and [2.7](requirements.md#s-2-7).
++ Before issuing the PIV Card, the issuer should ensure that the individual receiving it has been properly processed per [Section 2.1](requirements.md#s-2-1), [Section 2.2](requirements.md#s-2-2), and [Section 2.7](requirements.md#s-2-7).
 + Biometric data used to personalize the PIV Card must be those captured during the identity proofing and registration process.
 + During the issuance process, the issuer SHALL verify that the individual to whom the PIV Card is to be
     issued is the same as the intended applicant/recipient as approved by the appropriate authority.
@@ -382,7 +382,7 @@ the entire identity proofing and registration procedure. The reissuance process 
 PIV Card that is nearing expiration, in the event of an employee status or attribute change, or to replace a
 PIV Card that has been compromised, lost, stolen, or damaged. The cardholder may also apply for
 reissuance of a PIV Card if one or more logical credentials have been compromised. The entire identity
-proofing, registration, and issuance processes, as described in Sections [2.7](requirements.md#s-2-7) and [2.8](requirements.md#s-2-8), SHALL be repeated if the 
+proofing, registration, and issuance processes, as described in [Section 2.7](requirements.md#s-2-7) and [Section 2.8](requirements.md#s-2-8), SHALL be repeated if the 
 issuer does not maintain a PIV enrollment record that includes biometric data records for the cardholder. The entire identity proofing, registation, and issuance process SHALL also be repeated if the reissuance process was not 
 started before the old PIV Card expired.
 

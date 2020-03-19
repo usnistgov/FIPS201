@@ -349,7 +349,7 @@ logical information resources. For example, a cardholder may log in to their dep
 network using the PIV Card; the identity established through this authentication process can be used for
 determining access to file systems, databases, and other services available on the network.
 
-Selection of required Authenticator Assurance Level (AAL) SHALL be made using the risk management process specified in [[SP 800-63]](../_Appendix/references.md#ref-SP-800-63) Section 6.
+Selection of required Authenticator Assurance Level (AAL) SHALL be made using the risk management process specified in [[SP 800-63]](../_Appendix/references.md#ref-SP-800-63).
 
 [Table 6-2](#table-6-2) describes the authentication mechanisms defined for this Standard to support logical access
 control. An authentication mechanism that is suitable for a higher assurance level can also be applied to
