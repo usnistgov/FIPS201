@@ -95,5 +95,5 @@ management certificates can be distributed publicly by the CA.
 
 ### 5.5.2 OCSP Status Responders {#s-5-5-2}
 
-OCSP [[RFC6960]](../_Appendix/references.md#ref-RFC6960) status responders SHALL be implemented as a certificate status
+OCSP [[RFC 6960]](../_Appendix/references.md#ref-RFC6960) status responders SHALL be implemented as a certificate status
 mechanism. The OCSP status responders SHALL be updated at least as frequently as CRLs are issued.

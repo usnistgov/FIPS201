@@ -54,20 +54,20 @@ defined in [[SP 800-63]](references.md#ref-SP-800-63) in terms of three levels:
 
 Biometric Capture Device
 : Device that collects a signal from a biometric characteristic and converts it 
-to a captured biometric sample [[ISO2382-37]](references.md#ref-ISO/IEC-2382-37).
+to a captured biometric sample [[ISO 2382-37]](references.md#ref-ISO/IEC-2382-37).
 
 Biometric Characteristic
 : Biological attribute of an individual from which 
 distinctive and repeatable values can be extracted for the purpose 
 of automated recognition. Fingerprint ridge structure and face topography are 
-examples of biometric characteristics. See [[ISO2382-37]](references.md#ref-ISO/IEC-2382-37) for more details.
+examples of biometric characteristics. See [[ISO 2382-37]](references.md#ref-ISO/IEC-2382-37) for more details.
 
 Biometric Data
 : Biometric sample or aggregation of biometric samples at any stage of 
-processing [[ISO2382-37]](references.md#ref-ISO/IEC-2382-37).
+processing [[ISO 2382-37]](references.md#ref-ISO/IEC-2382-37).
 
 Biometric Data Record
-: Electronic data record containing biometric data [[ISO2382-37]](references.md#ref-ISO/IEC-2382-37).
+: Electronic data record containing biometric data [[ISO 2382-37]](references.md#ref-ISO/IEC-2382-37).
 This information
 can be in terms of raw or compressed pixels or in terms of some characteristic (e.g., patterns).
 
@@ -81,10 +81,10 @@ Biometric Verification
 Biometric Verification Decision
 : A determination of whether biometric probe(s) and biometric reference(s) have 
 the same biometric source based on comparison score(s) during a verification 
-transaction [[ISO2382-37]](references.md#ref-ISO/IEC-2382-37).
+transaction [[ISO 2382-37]](references.md#ref-ISO/IEC-2382-37).
 
 Capture
-: Series of actions undertaken to obtain and record, in a retrievable form, signals of biometric characteristics directly from individuals. See [[ISO2382-37]](references.md#ref-ISO/IEC-2382-37) for more details.
+: Series of actions undertaken to obtain and record, in a retrievable form, signals of biometric characteristics directly from individuals. See [[ISO 2382-37]](references.md#ref-ISO/IEC-2382-37) for more details.
 
 Cardholder
 : An individual possessing an issued PIV Card.
@@ -95,7 +95,7 @@ Application.
 
 Certificate Revocation List
 : A list of revoked public key certificates created and digitally signed by a
-certification authority [[RFC5280]](references.md#ref-RFC5280) [[RFC6818]](references.md#ref-RFC6818).
+certification authority [[RFC 5280]](references.md#ref-RFC5280) [[RFC 6818]](references.md#ref-RFC6818).
 
 Certification
 : The process of verifying the correctness of a statement or claim and issuing a certificate as
@@ -110,7 +110,7 @@ between PIV Card issuers.
 
 Comparison
 : Estimation, calculation, or measurement of similarity or dissimilarity between biometric probe(s) and biometric reference(s). 
-See also "Identification." [[ISO2382-37]](references.md#ref-ISO/IEC-2382-37) 
+See also "Identification." [[ISO 2382-37]](references.md#ref-ISO/IEC-2382-37) 
 
 Component
 : An element of a large system, such as an identity card, issuer, card reader, or identity
@@ -208,7 +208,7 @@ Key
 Match
 : Comparison decision stating that the biometric probe(s) and the biometric 
 reference are from the same source. _Match_ is a possible result of a 
-_Comparison_. The opposite of a match is a _non-match_. See [[ISO2382-37]](references.md#ref-ISO/IEC-2382-37) for more details.
+_Comparison_. The opposite of a match is a _non-match_. See [[ISO 2382-37]](references.md#ref-ISO/IEC-2382-37) for more details.
 
 Model
 : A very detailed description or scaled representation of one component of a larger system that can
@@ -225,7 +225,7 @@ Integrated Circuit Chip (ICC) of the PIV Card.
 
 Online Certificate Status Protocol (OCSP)
 : An online protocol used to determine the status of a public
-key certificate [[RFC6960]](references.md#ref-RFC6960).
+key certificate [[RFC 6960]](references.md#ref-RFC6960).
 
 Path Validation
 : The process of verifying the binding between the subject identifier and subject public

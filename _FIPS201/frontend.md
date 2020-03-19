@@ -30,9 +30,9 @@ individual department and agency requirements. Having a common look for PIV Card
 meeting the objectives of improved security and interoperability. In support of these objectives,
 consistent placement of printed components and technology is generally necessary.
 
-The PIV Card SHALL comply with physical characteristics as described in [[ISO7810]](../_Appendix/references.md#ref-ISO7810),
-[[ISO10373]](../_Appendix/references.md#ref-ISO10373), [[ISO7816]](../_Appendix/references.md#ref-ISO7816) for contact cards, and
-[[ISO14443]](../_Appendix/references.md#ref-ISO14443) for contactless cards.
+The PIV Card SHALL comply with physical characteristics as described in [[ISO 7810]](../_Appendix/references.md#ref-ISO7810),
+[[ISO 10373]](../_Appendix/references.md#ref-ISO10373), [[ISO 7816]](../_Appendix/references.md#ref-ISO7816) for contact cards, and
+[[ISO 14443]](../_Appendix/references.md#ref-ISO14443) for contactless cards.
 
 ### 4.1.1 Printed Material {#s-4-1-1}
 
@@ -69,26 +69,26 @@ The following list describes the physical requirements for the PIV Card.
     security feature SHALL NOT prevent the recognition of white as the principal card body color by a person
     with normal vision (corrected or uncorrected) at a working distance of 50 cm to 200 cm.
 - The card body structure SHALL consist of card material(s) that satisfy the card characteristics in
-    [[ISO7810]](../_Appendix/references.md#ref-ISO7810) and test methods in [[ANSI322]](../_Appendix/references.md#ref-ANSI322).
-    Although the [[ANSI322]](../_Appendix/references.md#ref-ANSI322) test methods do not currently specify compliance requirements, the tests
+    [[ISO 7810]](../_Appendix/references.md#ref-ISO7810) and test methods in [[ANSI 322]](../_Appendix/references.md#ref-ANSI322).
+    Although the [[ANSI 322]](../_Appendix/references.md#ref-ANSI322) test methods do not currently specify compliance requirements, the tests
     SHALL be used to evaluate card material durability and performance. These tests minimally
     SHALL include card flexure, static stress, plasticizer exposure, impact resistance, card structural
     integrity, surface abrasion, temperature and humidity-induced dye migration, ultraviolet light
     exposure, and a laundry test. Cards SHALL NOT malfunction or delaminate after hand cleaning with a
     mild soap and water mixture.
 - The card SHALL be subjected to actual, concentrated, or artificial sunlight to appropriately reflect 2&thinsp;000
-    hours of southwestern United States' sunlight exposure in accordance with [[ISO10373]](../_Appendix/references.md#ref-ISO10373), Section 5.12.
+    hours of southwestern United States' sunlight exposure in accordance with [[ISO 10373]](../_Appendix/references.md#ref-ISO10373), Section 5.12.
     Concentrated sunlight exposure SHALL be performed in accordance with [[G90-98]](../_Appendix/references.md#ref-G90-98) and accelerated
     exposure in accordance with [[G155-2013]](../_Appendix/references.md#ref-G155-2013). After exposure, the card SHALL be subjected to the
-    [[ISO10373]](../_Appendix/references.md#ref-ISO10373) dynamic bending test and SHALL have no visible cracks or failures. Alternatively, the card
-    may be subjected to the [[ANSI322]](../_Appendix/references.md#ref-ANSI322) tests for ultraviolet and daylight fading resistance and subjected
-    to the same [[ISO10373]](../_Appendix/references.md#ref-ISO10373) dynamic bending test.
+    [[ISO 10373]](../_Appendix/references.md#ref-ISO10373) dynamic bending test and SHALL have no visible cracks or failures. Alternatively, the card
+    may be subjected to the [[ANSI 322]](../_Appendix/references.md#ref-ANSI322) tests for ultraviolet and daylight fading resistance and subjected
+    to the same [[ISO 10373]](../_Appendix/references.md#ref-ISO10373) dynamic bending test.
 - There are methods by which proper card orientation can be indicated. [Section 4.1.4.3](frontend.md#s-4-1-4-3), for example,
     defines Zones 21F and 22F, where card orientation features MAY be applied.[^orientation] Note: If an agency
     determines that tactilely discernible markers for PIV Cards impose an undue burden, the agency
     SHALL implement policies and procedures to accommodate employees and contractors with disabilities
     in accordance with Sections 501 and 504 of the Rehabilitation Act.
-- The card SHALL be 27- to 33-mil thick (before lamination) in accordance with [[ISO7810]](../_Appendix/references.md#ref-ISO7810).
+- The card SHALL be 27- to 33-mil thick (before lamination) in accordance with [[ISO 7810]](../_Appendix/references.md#ref-ISO7810).
 - The PIV Card SHALL NOT be embossed.
 - Decals SHALL NOT be adhered to the card.
 - Departments and agencies MAY choose to punch an opening in the card body to enable the card to be
@@ -103,7 +103,7 @@ The following list describes the physical requirements for the PIV Card.
 - The card material SHALL withstand the effects of temperatures required by the application of a polyester
     laminate on one or both sides of the card by commercial off-the-shelf (COTS) equipment. The
     thickness added due to a laminate layer SHALL NOT interfere with the smart card reader operation. The
-    card material SHALL allow production of a flat card in accordance with [[ISO7810]](../_Appendix/references.md#ref-ISO7810) after lamination of
+    card material SHALL allow production of a flat card in accordance with [[ISO 7810]](../_Appendix/references.md#ref-ISO7810) after lamination of
     one or both sides of the card.
 
 The PIV Card MAY be subjected to additional testing.
@@ -265,7 +265,7 @@ roles are "Law Enforcement," "Fire Fighter," and "Emergency Response Team (ERT).
 When Zone 15F indicates Foreign National affiliation and the department or agency does not need to
 highlight emergency response official status, Zone 12F MAY be used to denote the country or countries of
 citizenship. If so used, the department or agency SHALL print the country name or the three-letter country
-abbreviation (alpha-3 format) in accordance with [[ISO3166]](../_Appendix/references.md#ref-ISO3166). [Figure 4-4](#fig-4-4)
+abbreviation (alpha-3 format) in accordance with [[ISO 3166]](../_Appendix/references.md#ref-ISO3166). [Figure 4-4](#fig-4-4)
 illustrates an example of Foreign National color-coding using country abbreviations.
 
 *Zone 13F—Issue Date*. If used, the card issuance date SHALL be printed above the Zone 14F expiration
@@ -301,7 +301,7 @@ integrity and printing process is not adversely impacted.
 
 *Zone 3B—Magnetic Stripe (Deprecated)*. The magnetic stripe is deprecated in this version of the Standard. In a future version of this Standard, magnetic stripe may be removed and the space may be allocated for Agency-specific data to be printed.
 If used, the magnetic stripe SHALL be high coercivity and placed in accordance
-with [[ISO7811]](../_Appendix/references.md#ref-ISO7811), as illustrated in [Figure 4-7](#fig-4-7). Magnetic stripes are deprecated in this version of the Standard. 
+with [[ISO 7811]](../_Appendix/references.md#ref-ISO7811), as illustrated in [Figure 4-7](#fig-4-7). Magnetic stripes are deprecated in this version of the Standard. 
 
 *Zone 4B—Return Address*. If used, the "return if lost" language SHALL be generally placed on the back of
 the card as depicted in [Figure 4-7](#fig-4-7).
@@ -455,7 +455,7 @@ The fingerprint biometric templates for on-card one-to-one comparison fall into 
 The PIV Card SHALL include the CHUID as defined in [[SP 800-73]](../_Appendix/references.md#ref-SP-800-73). The CHUID includes the Federal
 Agency Smart Credential Number (FASC-N) and the Global Unique Identification Number (GUID),
 which uniquely identify each card as described in [[SP 800-73]](../_Appendix/references.md#ref-SP-800-73). The value of the GUID data element SHALL
-be a 16-byte binary representation of a valid Universally Unique IDentifier (UUID) [[RFC4122]](../_Appendix/references.md#ref-RFC4122). The
+be a 16-byte binary representation of a valid Universally Unique IDentifier (UUID) [[RFC 4122]](../_Appendix/references.md#ref-RFC4122). The
 CHUID SHALL also include an expiration date data element in machine-readable format that specifies when
 the card expires. The expiration date format and encoding rules are as specified in [[SP 800-73]](../_Appendix/references.md#ref-SP-800-73).
 
@@ -553,7 +553,7 @@ The X.509 certificate SHALL include the FASC-N in the Subject Alternative Name (
 pivFASC-N attribute to support physical access procedures. The X.509 certificate SHALL also include
 the UUID value from the GUID data element of the CHUID in the Subject Alternative Name extension.
 The UUID SHALL be encoded as a uniform resource name (URN), as specified in Section 3 of
-[[RFC4122]](../_Appendix/references.md#ref-RFC4122). The expiration date of the certificate SHALL be no later than the expiration date of the PIV
+[[RFC 4122]](../_Appendix/references.md#ref-RFC4122). The expiration date of the certificate SHALL be no later than the expiration date of the PIV
 Card. The PIV authentication certificate MAY include a PIV background investigation indicator (previously known as the NACI indicator) extension (see Appendix B.2). 
 This non-critical extension indicates the status
 of the subject's background investigation at the time of card issuance. [Section 5](keymanagement.md#s-5) of this document
@@ -571,7 +571,7 @@ The PIV Card SHALL store a corresponding X.509 certificate to support validation
 The X.509 certificate SHALL include the FASC-N in the Subject Alternative Name extension using the
 pivFASC-N attribute to support physical access procedures. The X.509 certificate SHALL also include
 the UUID value from the GUID data element of the CHUID in the Subject Alternative Name extension.
-The UUID SHALL be encoded as a URN, as specified in Section 3 of [[RFC4122]](../_Appendix/references.md#ref-RFC4122). The expiration date of
+The UUID SHALL be encoded as a URN, as specified in Section 3 of [[RFC 4122]](../_Appendix/references.md#ref-RFC4122). The expiration date of
 the certificate SHALL be no later than the expiration date of the PIV Card. [Section 5](keymanagement.md#s-5) of this document
 specifies the certificate format and the key management infrastructure for asymmetric PIV card
 authentication keys.
@@ -599,7 +599,7 @@ The expiration date of the certificate SHALL be no later than the expiration dat
 [Section 5](keymanagement.md#s-5) of this document specifies the certificate format and the key management infrastructure for
 PIV digital signature keys.
 
-[^cardholderauthentication]: [[NISTIR7863]](../references/#ref-NISTIR7863){:.footnote-ref} addresses the appropriate use of PIN caching related to digital signatures.
+[^cardholderauthentication]: NIST [[IR 7863]](../references/#ref-NISTIR7863){:.footnote-ref} addresses the appropriate use of PIN caching related to digital signatures.
 
 #### 4.2.2.5 Key Management Key {#s-4-2-2-5}
 This key MAY be generated on the PIV Card or imported to the card. If
@@ -737,7 +737,7 @@ section provides requirements for PIN input devices. Further requirements are sp
 
 ### 4.4.1 Contact Reader Requirements {#s-4-4-1}
 
-Contact card readers SHALL conform to the [[ISO7816]](../_Appendix/references.md#ref-ISO7816) standard for the card-to-reader interface. These
+Contact card readers SHALL conform to the [[ISO 7816]](../_Appendix/references.md#ref-ISO7816) standard for the card-to-reader interface. These
 readers SHALL conform to the Personal Computer/Smart Card (PC/SC) Specification [[PCSC]](../_Appendix/references.md#ref-PCSC) for the reader-to-host system interface in general desktop computing environment and
 SHALL conform to the requirements specified in [[SP 800-96]](../_Appendix/references.md#ref-SP-800-96). In systems where the readers are not
 connected to general-purpose desktop computing systems, the reader-to-host system interface is not
@@ -745,8 +745,8 @@ specified in this Standard.
 
 ### 4.4.2 Contactless Reader Requirements {#s-4-4-2}
 
-Contactless card readers SHALL conform to [[ISO14443]](../_Appendix/references.md#ref-ISO14443) standard for the card-to-reader interface and data
-transmitted over the [[ISO14443]](../_Appendix/references.md#ref-ISO14443) link SHALL conform to [[ISO7816]](../_Appendix/references.md#ref-ISO7816). In cases where these readers are
+Contactless card readers SHALL conform to [[ISO 14443]](../_Appendix/references.md#ref-ISO14443) standard for the card-to-reader interface and data
+transmitted over the [[ISO 14443]](../_Appendix/references.md#ref-ISO14443) link SHALL conform to [[ISO 7816]](../_Appendix/references.md#ref-ISO7816). In cases where these readers are
 connected to general-purpose desktop computing systems, they SHALL conform to [[PCSC]](../_Appendix/references.md#ref-PCSC) for the reader-to-host system interface and SHALL conform to the requirements
 specified in [[SP 800-96]](../_Appendix/references.md#ref-SP-800-96). In systems where the readers are not connected to general-purpose desktop
 computing systems, the reader-to-host system interface is not specified in this Standard.
