@@ -55,8 +55,8 @@ authentication mechanisms that may be applied to a particular situation.
 ### 6.2.1 Authentication Using Off-Card Biometric One-to-One Comparison {#s-6-2-1}
 
 The PIV Card Application hosts the signed fingerprint biometric templates and, optionally, the signed electronic iris images.
-Either mode of biometric data record can be read from the card following cardholder-to-card (CTC) authentication using a PIN
-supplied by the cardholder. This biometric data record is designed to support a cardholder-to-external
+Either mode of biometric data record can be read from the card following Cardholder-To-Card (CTC) authentication using a PIN
+supplied by the cardholder. This biometric data record is designed to support a Cardholder-To-External
 system (CTE) authentication mechanism through an off-card biometric one-to-one comparison scheme. The following subsections
 define two authentication schemes that make use of biometric data records.[^bioreaders]
 
@@ -105,7 +105,7 @@ are the same as in [Section 6.2.1.1](#s-6-2-1-1).
 
 The PIV Card Application MAY host an optional on-card fingerprint one-to-one comparison algorithm. In this case,
 on-card fingerprint one-to-one comparison data is stored on the card, which cannot be read, but could be used for
-biometric verification. A fingerprint biometric template is supplied to the card to perform cardholder-to-card (CTC)
+biometric verification. A fingerprint biometric template is supplied to the card to perform CTC
 authentication and the card responds with an positive or negative biometric verification decision.
 The response includes information that allows the reader to authenticate the card. The
 cardholder PIN is not required for this operation. The PIV Card SHALL include a mechanism to block this
@@ -123,7 +123,7 @@ Some of the characteristics of OCC authentication are as follows:
 ### 6.2.3 Authentication Using PIV Asymmetric Cryptography {#s-6-2-3}
 
 The PIV Card contains two mandatory asymmetric authentication private keys and corresponding
-certificates to support cardholder-to-external system (CTE) authentication, as described in [Section 4](frontend.md#s-4). The
+certificates to support CTE authentication, as described in [Section 4](frontend.md#s-4). The
 following subsections describe how to perform authentication using the authentication keys.
 
 #### 6.2.3.1 Authentication with the PIV Authentication Certificate Credential (PKI-AUTH) {#s-6-2-3-1}
@@ -218,20 +218,45 @@ Visual authentication of a PIV cardholder as a stand-alone authentication mechan
 The PIV Card has several mandatory features on the front and back that support visual
 identification and authentication, as follows:
 
-- Zone 1F – Photograph;
-- Zone 2F – Name;
-- Zone 8F – Employee Affiliation;
-- Zone 10F – Agency, Department, or Organization;
-- Zones 14F and 19F – Card Expiration Date;
-- Zone 15F – Color-Coding for Employee Affiliation;
-- Zone 1B – Agency Card Serial Number (back of card); and
-- Zone 2B – Issuer Identification Number (back of card).
+Zone 1F
+: Photograph
+
+Zone 2F
+: Name
+
+In addition, any available tamper-proofing features described in [Section 4.1.2](frontend.md#s-4-1-2) SHOULD be used
+in visual inspection to provide additional assurance that the PIV Card is genuine and unaltered.
 
 The PIV Card MAY also bear optional components, some of which are:
 
-- Zone 11F – Agency Seal;
-- Zone 5B – Physical Characteristics of Cardholder (back of card);
-- Zone 3F – Signature.
+Zone 8F
+: Employee Affiliation
+
+Zone 10F
+: Agency, Department, or Organization
+
+Zones 14F and 19F
+: Card Expiration Date
+
+Zone 15F
+: Color-Coding for Employee Affiliation
+
+Zone 1B
+: Agency Card Serial Number (back of card)
+
+Zone 2B
+: Issuer Identification Number (back of card)
+
+The PIV Card MAY also bear optional components, some of which include the following:
+
+Zone 11F
+: Agency Seal
+ 
+Zone 5B
+: Physical Characteristics of Cardholder (back of card)
+
+Zone 3F
+: Signature
 
 When a cardholder attempts to pass through an access control point for a federally-controlled facility, a
 human guard SHALL perform visual identity verification of the cardholder, and determine whether the
@@ -287,9 +312,15 @@ environment. For example, a federal facility may have physical entry doors that 
 checkpoints, or the facility may have electronic access control points.
 
 Three levels of authentication assurance for physical access, referred to as Physical Assurance Level (PAL) are defined:
-- PAL1 - formerly SOME confidence in the asserted identity's validity (weakest)
-- PAL2 - formerly HIGH confidence in the asserted identity's validity
-- PAL3 - formerly VERY HIGH confidence in the asserted identity's validity (strongest)
+
+PAL1
+: Formerly SOME confidence in the asserted identity's validity (weakest).
+
+PAL2
+: Formerly HIGH confidence in the asserted identity's validity.
+
+PAL3
+: Formerly VERY HIGH confidence in the asserted identity's validity (strongest).
 
 Selection of the PAL SHALL be made in accordance with the applicable policies for a facility’s security level [[RISK-MGMT-FACILITIES]](../_Appendix/references.md#ref-RISK-MGMT-FACILITIES). Additional guidelines on the selection and use of PIV authentication mechanisms for facility access can be found in NIST [[SP 800-116]](../_Appendix/references.md#ref-SP-800-116).
 
@@ -318,7 +349,7 @@ logical information resources. For example, a cardholder may log in to their dep
 network using the PIV Card; the identity established through this authentication process can be used for
 determining access to file systems, databases, and other services available on the network.
 
-Selection of required Authenticator Assurance Level (AAL) SHALL be made using the risk management process specified in [[SP 800-63]](../_Appendix/references.md#ref-SP-800-63) Section 6.
+Selection of required Authenticator Assurance Level (AAL) SHALL be made using the risk management process specified in [[SP 800-63]](../_Appendix/references.md#ref-SP-800-63).
 
 [Table 6-2](#table-6-2) describes the authentication mechanisms defined for this Standard to support logical access
 control. An authentication mechanism that is suitable for a higher assurance level can also be applied to

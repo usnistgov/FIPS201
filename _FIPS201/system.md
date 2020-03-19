@@ -25,15 +25,20 @@ components of the PIV system and the lifecycle activities of the PIV Card.
 
 An operational PIV system can be logically divided into the following three major subsystems:
 
-- **PIV Front-End Subsystem**—the PIV Card, card readers, biometric capture devices, and PIN input devices
+PIV Front-End Subsystem
+: The PIV Card, card readers, biometric capture devices, and PIN input devices
     as well as any derived PIV credentials used by the PIV cardholder. The PIV
     cardholder interacts with these components to gain physical or logical access to the desired federal
     resource.
-- **PIV Issuance and Management Subsystem**—the components responsible for identity
+
+PIV Issuance and Management Subsystem
+: The components responsible for identity
     proofing and registration, card and key issuance and management, and the various repositories and
-    services (e.g., public key infrastructure (PKI) directory, certificate status servers) required as part of
+    services (e.g., Public Key Infrastructure (PKI) directory, certificate status servers) required as part of
     the verification infrastructure. This subsystem also manages the binding and termination of derived PIV credentials as described in [Section 2.10](requirements.md#s-2-10).
-- **PIV Relying Subsystem**—the physical and logical access control systems, the protected resources,
+
+PIV Relying Subsystem
+: The physical and logical access control systems, the protected resources,
     and the authorization data.
 
 The PIV relying subsystem becomes relevant when the PIV Card or derived PIV credential is used to authenticate a cardholder who
@@ -56,7 +61,7 @@ is not meant to preclude FIPS 201 requirements on systems outside these boundari
 
 The PIV Card will be issued to the applicant when all identity proofing, registration, and issuance
 processes have been completed. Derived PIV credentials might also be issued after post-enrollment binding is complete. The PIV Card takes the physical form of the [[ISO 7816]](../_Appendix/references.md#ref-ISO7816) ID-1 card type (i.e., traditional payment card), with one or more
-embedded integrated circuit chips (ICC) that provide memory capacity and computational capability. The
+embedded Integrated Circuit Chips (ICC) that provide memory capacity and computational capability. The
 PIV Card is the primary component of the PIV system. The holder uses the PIV Card for authentication
 to various physical and logical resources. Derived PIV credentials increasingly play an important role as additional authenticators, especially in environments where use of the PIV Card is not easily supported. These AAL2 and/or AAL3 authenticators are not embedded in the PIV Card, but rather are stand-alone or integrated in a variety of devices/platforms. 
 
@@ -120,7 +125,7 @@ program) to which the cardholder wants to gain access.
 
 The relying system depends on an authorization data component that defines the privileges (authorizations)
 possessed by entities requesting to access a particular logical or physical resource. An example of this is
-an access control list (ACL) associated with a file on a computer system.
+an Access Control List (ACL) associated with a file on a computer system.
 
 The physical and logical access control system grants or denies access to a particular resource and
 includes an identification and authentication (I&A) component as well as an authorization component.
@@ -148,22 +153,35 @@ Card termination as the end of life.
 
 Descriptions of the seven card lifecycle activities are as follows:
 
-- **PIV Card Request.** This activity applies to the initiation of a request for the issuance of a PIV Card
+PIV Card Request
+: This activity applies to the initiation of a request for the issuance of a PIV Card
     to an applicant and the validation of this request.
-- **Identity Proofing and Registration.**[^enroll] The goal of this activity is to verify the claimed identity of the
+
+Identity Proofing and Registration.[^enroll]
+: The goal of this activity is to verify the claimed identity of the
     applicant, verify that the entire set of identity source documents presented at the time of registration is
     valid, capture biometric characteristics, and optionally create the PIV enrollment record.
-- **PIV Card Issuance.** This activity deals with the personalization (physical and logical) of the card
+
+PIV Card Issuance
+: This activity deals with the personalization (physical and logical) of the card
     and the issuance of the card to the intended applicant.
-- **PKI Credential Issuance.** This activity deals with generating logical credentials and loading them
+
+PKI Credential Issuance
+: This activity deals with generating logical credentials and loading them
     onto the PIV Card.
-- **PIV Card Usage.** During this activity, the PIV Card is used to perform cardholder authentication for
+
+PIV Card Usage
+: During this activity, the PIV Card is used to perform cardholder authentication for
     access to a physical or logical resource. Access authorization decisions are made after successful
     cardholder identification and authentication.
-- **PIV Card Maintenance.** This activity deals with the maintenance or update of the physical card and
+
+PIV Card Maintenance
+: This activity deals with the maintenance or update of the physical card and
     its data. Such data includes various card applications, PINs, PKI credentials, and
     biometric data.
-- **PIV Card Termination.** The termination process is used to permanently destroy or invalidate the
+
+PIV Card Termination
+: The termination process is used to permanently destroy or invalidate the
     PIV Card and the data and keys needed for authentication so as to prevent any future use of the card
     for authentication.
 

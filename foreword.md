@@ -45,20 +45,24 @@ Department of Commerce, NIST, Information Technology Laboratory (ITL).
 
 This Standard is applicable to identification issued by federal departments and agencies to federal employees and contractors (including contractor employees) for gaining physical access to federally-controlled facilities and logical access to federally-controlled information systems, except for "national security systems" as defined by 44 U.S.C. 3542(b)(2) and [[SP 800-59]](_Appendix/references.md#ref-SP-800-59). Except as provided in [[HSPD-12]](_Appendix/references.md#ref-HSPD-12), nothing in this Standard alters the ability of government entities to use the Standard for additional applications.
 
-Special-Risk Security Provision—The U.S. Government has personnel, facilities, and other assets deployed and operating worldwide under a vast range of threats (e.g., terrorist, technical, intelligence), the severity of which is particularly heightened overseas. For cardholders with particularly sensitive threats while outside the contiguous United States, the issuance, holding, and/or use of PIV Cards with full technical capabilities as described herein may result in unacceptably high risk. In such cases of risk (e.g., to facilities, individuals, operations, national interest, or national security) by the presence and/or use of full-capability PIV Cards, the head of a department or independent agency MAY issue a select number of maximum-security PIV Cards that do not contain (or otherwise do not fully support) the wireless and/or biometric capabilities otherwise required/referenced herein. To the greatest extent practicable, heads of departments and independent agencies SHOULD minimize the issuance of such special-risk security PIV Cards so as to support interagency interoperability and the President's policy. Use of other risk-mitigating technical (e.g., high-assurance on-off switches for the wireless capability) and procedural mechanisms in such situations is preferable, and as such is also explicitly permitted and encouraged. As protective security technology advances, the need for this provision will be re-assessed as the Standard undergoes the normal review and update process.
+## 6.1 Special-Risk Security Provision. {#f-6-1}
+
+The U.S. Government has personnel, facilities, and other assets deployed and operating worldwide under a vast range of threats (e.g., terrorist, technical, intelligence), the severity of which is particularly heightened overseas. For cardholders with particularly sensitive threats while outside the contiguous United States, the issuance, holding, and/or use of PIV Cards with full technical capabilities as described herein may result in unacceptably high risk. In such cases of risk (e.g., to facilities, individuals, operations, national interest, or national security) by the presence and/or use of full-capability PIV Cards, the head of a department or independent agency MAY issue a select number of maximum-security PIV Cards that do not contain (or otherwise do not fully support) the wireless and/or biometric capabilities otherwise required/referenced herein. To the greatest extent practicable, heads of departments and independent agencies SHOULD minimize the issuance of such special-risk security PIV Cards so as to support interagency interoperability and the President's policy. Use of other risk-mitigating technical (e.g., high-assurance on-off switches for the wireless capability) and procedural mechanisms in such situations is preferable, and as such is also explicitly permitted and encouraged. As protective security technology advances, the need for this provision will be re-assessed as the Standard undergoes the normal review and update process.
 
 # 7. Specifications. {#f-7}
 
-Federal Information Processing Standards (FIPS) 201 Personal Identity Verification (PIV) of Federal Employees and Contractors.
+Federal Information Processing Standards (FIPS) 201
+PIV of Federal Employees and Contractors.
 
 # 8. Implementations. {#f-8}
 
-This Standard satisfies the control objectives, security requirements, and technical interoperability requirements of [[HSPD-12]](_Appendix/references.md#ref-HSPD-12). The Standard specifies implementation and processes for binding identities to credentials such as integrated circuit cards used in the federal Personal Identity Verification (PIV) system.
+This Standard satisfies the control objectives, security requirements, and technical interoperability requirements of [[HSPD-12]](_Appendix/references.md#ref-HSPD-12). The Standard specifies implementation and processes for binding identities to credentials such as integrated circuit cards used in the federal
+PIV system.
 
 A PIV Card must be personalized with identity information for the individual to whom the card is issued to support verification by automated systems using the electronically stored data on the card. In implementing PIV systems and pursuant to Section 508 of the Rehabilitation Act of 1973 (the Act), as amended, agencies have the responsibility to accommodate federal employees and contractors with disabilities to have access to and use of information and data comparable to the access to and use of such information and data by federal employees and contractors who are not individuals with disabilities. In instances where federal agencies assert exceptions to Section 508 accessibility requirements (e.g., undue burden, national security, commercial non-availability), Sections 501 and 504 of the Act require federal agencies to provide reasonable accommodation for federal employees and contractors with disabilities whose needs are not met by the baseline accessibility provided under Section 508. While Section 508 compliance is the responsibility of federal agencies and departments, this Standard specifies options to aid in implementation of the requirements:
 
 + [Section 4.1.4.3](_FIPS201/frontend.md#s-4-1-4-3) specifies Zones 21F and 22F as an option for orientation markers of the PIV Card.
-+ Sections [2.8](_FIPS201/requirements.md#s-2-8) and [2.9](_FIPS201/requirements.md#s-2-9) specify alternatives for the biometric capture device interactions required at PIV Card issuance, reissuance, and reset.
++ [Section 2.8](_FIPS201/requirements.md#s-2-8) and [Section 2.9](_FIPS201/requirements.md#s-2-9) specify alternatives for the biometric capture device interactions required at PIV Card issuance, reissuance, and reset.
 + [Section 6](_FIPS201/authentication.md#s-6) defines authentication mechanisms with varying characteristics for both physical and logical access (e.g., with or without PIN, over contact, contactless, or virtual contact interface).
 
 The Office of Management and Budget (OMB) provides implementation oversight for this Standard. 
@@ -87,7 +91,7 @@ Because a standard of this nature must be flexible enough to adapt to advancemen
 
 # 11. Waivers. {#f-11}
 
-The  Federal  Information  Security  Management  Act  (FISMA)  does  not  allow for waivers to Federal Information Processing Standards (FIPS) that are made mandatory by the Secretary of Commerce.
+The  Federal  Information  Security  Management  Act  (FISMA)  does  not  allow for waivers to FIPS that are made mandatory by the Secretary of Commerce.
 
 # 12. Where to Obtain Copies. {#f-12}
 

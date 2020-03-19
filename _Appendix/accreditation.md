@@ -18,9 +18,9 @@ validation of the PCI, NIST developed a set of attributes as the basis of reliab
 issuers in SP 800-79 and published this document in July 2005. Subsequent lessons learned in
 implementation experience of various agencies 
 motivated NIST to develop a new accreditation
-methodology and publish a substantial revision in June 2008. In 2015 a second revision of [[SP 800-79]](references.md#ref-SP-800-79) was published to include guidelines for assessing the reliability of issuers of Derived PIV Credentials (DPCI) for mobile devices. The PCI/DPCI
-accreditation methodology is built on a foundation of four major accreditation topics, 13 accreditation
-focus areas, and a total of 79 control requirements distributed under the various accreditation focus areas.
+methodology and publish a substantial revision in June 2008. In 2015 a second revision of [[SP 800-79]](references.md#ref-SP-800-79) was published to include guidelines for assessing the reliability of issuers of DPCI for mobile devices. The PCI/DPCI
+accreditation methodology is built on a foundation of four major accreditation topics, 13&nbsp;accreditation
+focus areas, and a total of 79&nbsp;control requirements distributed under the various accreditation focus areas.
 Associated with each control requirement is a set of assessment methods, the exercise of the latter will
 result in outcomes that form the basis for accreditation decisions.
 
@@ -44,7 +44,7 @@ personnel of the PCI and DPCI organization and the review of documents such as t
 assessment phase, the appropriate assessment methods stipulated in the methodology for each PCI/DPCI and control
 are carried out and the individual results recorded. The accreditation phase involves aggregating the
 results of assessment, arriving at an accreditation decision, and issuing the appropriate notification – the
-authorization to operate (ATO) or the denial of authorization to operate (DATO), that is consistent with
+Authorization To Operate (ATO) or the Denial of Authorization To Operate (DATO), that is consistent with
 the accreditation decision.
 
 
