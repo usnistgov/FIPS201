@@ -4,6 +4,7 @@ title: Foreword
 navOrder: 2
 navTitle: Foreword
 permalink: /foreword/
+template: _pdftemplate/foreword.tex
 ---
 
 # FOREWORD
@@ -12,5 +13,16 @@ The Federal Information Processing Standards Publication Series of the National 
 
 Comments concerning FIPS publications are welcomed and should be addressed to the Director, Information Technology Laboratory, National Institute of Standards and Technology, 100 Bureau Drive, Stop 8900, Gaithersburg, MD 20899-8900. 
 
-Charles H. Romine, Director
+~~~
+{
+\leftskip 0.6\textwidth
+~~~
+{:latex-literal="true"}
+
+Charles H. Romine, Director  
 Information Technology Laboratory
+
+~~~
+}
+~~~
+{:latex-literal="true"}
