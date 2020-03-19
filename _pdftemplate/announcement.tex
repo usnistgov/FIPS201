@@ -1,0 +1,28 @@
+%%%
+% Section: \VAR{section.name}
+% Part:  \VAR{part}
+%%%
+
+{
+
+\begin{center}
+
+\normalsize{\textbf{\textsc{Federal Information Processing Standards Publication \VAR{config.doc_number}}}}\\
+\vspace{10pt}
+\normalsize{\textbf{\VAR{config.issued_date}}}\\
+\vspace{10pt}
+\normalsize{\textbf{Announcing the Standard for}}\\
+\Large{\textbf{\VAR{config.doc_title}}}
+\end{center}
+
+\vspace{10pt}
+
+\titleformat{\section}[runin]{\normalsize\raggedright\bfseries\sffamily}{}{0em}{}	% required for heading numbering style
+\titleformat{\subsection}[runin]{\normalsize\raggedright\bfseries\sffamily}{}{0em}{}	% required for heading numbering style
+\titleformat{\subsubsection}[runin]{\normalsize\raggedright\bfseries\sffamily}{}{0em}{}	% required for heading numbering style
+\titleformat{\paragraph}[runin]{\normalsize\raggedright\bfseries\sffamily}{}{0em}{}	% required for heading numbering style
+
+\VAR{body}
+
+
+}

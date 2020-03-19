@@ -1,12 +1,11 @@
 ---
 layout: default
-title: Foreword
-permalink: /foreword/
+title: Announcement
+navOrder: 3
+navTitle: Announcement
+permalink: /announcement/
+template: _pdftemplate/announcement.tex
 ---
-
-# Federal Information Processing Standards 201 2020
-
-## Announcing the Standard for Personal Identity Verification (PIV) of Federal Employees and Contractors
 
 Federal Information Processing Standards Publications (FIPS PUBS) are issued by the National Institute of Standards and Technology (NIST) after approval by the Secretary of Commerce pursuant to Section 5131 of the Information Technology Management Reform Act of 1996 (Public Law 104-106), and the Computer Security Act of 1987 (Public Law 100-235).
 

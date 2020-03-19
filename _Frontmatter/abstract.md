@@ -1,11 +1,14 @@
 ---
+layout: default
 title: "FIPS 201"
 description: "FIPS 201"
+navOrder: 1
+navTitle: Abstract
+permalink: /
+template: _pdftemplate/foreword.tex
 ---
 
-# FIPS 201
-
-### ABSTRACT
+# ABSTRACT
 
 This Standard specifies the architecture and technical requirements for a common identification standard
 for federal employees and contractors. The overall goal is to achieve appropriate security assurance for

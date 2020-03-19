@@ -28,6 +28,7 @@
 \usepackage{adjustbox}
 \usepackage{babel}
 \usepackage[htt]{hyphenat}
+\usepackage{changepage}
 \usepackage[sf]{titlesec}
 
 \newcommand{\colorsection}[1]{%
@@ -130,7 +131,7 @@ pdfkeywords={}
         \renewcommand{\footrulewidth}{0pt}
 
         \fancyhead{}
-        \fancyhead[L]{\sc\scriptsize\color{gray}\bfseries\sffamily \VAR{config.report_number}}
+        \fancyhead[L]{\sc\scriptsize\color{gray}\bfseries\sffamily \VAR{config.doc_short_title}}
         \fancyhead[R]{\sc\scriptsize\color{gray}\bfseries\sffamily \VAR{config.page_title}}
 
         \fancyfoot{}
@@ -194,12 +195,16 @@ pdfkeywords={}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %   Publication Series & Number - automated
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\LARGE{\textbf{\VAR{config.report_number}}}
+\LARGE{\textbf{\VAR{config.doc_short_title}}}
 \vspace{8pt}
 \hrule
 \vspace{8pt}
 \large{\textbf{\textsc{Federal Information Processing Standards Publication}}}\\
+%: if config.supersedes is not none
 \small{\textbf{(Supersedes \VAR{config.supersedes})}}
+%: else
+
+%: endif
 \vfill
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %	Title 
@@ -248,17 +253,14 @@ Gaithersburg, MD 20899-8900
 %   Start front matter - page number starts with "i"
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-%: if rendered.foreword is not none
+%: if rendered.frontmatter is not none
 
 \pagenumbering{roman}
 
-\titleformat{\section}[runin]{\normalsize\raggedright\bfseries\sffamily}{}{0em}{}	% required for heading numbering style
-\titleformat{\subsection}[runin]{\normalsize\raggedright\bfseries\sffamily}{}{0em}{}	% required for heading numbering style
-\titleformat{\subsubsection}[runin]{\normalsize\raggedright\bfseries\sffamily}{}{0em}{}	% required for heading numbering style
-\titleformat{\paragraph}[runin]{\normalsize\raggedright\bfseries\sffamily}{}{0em}{}	% required for heading numbering style
-
 \addtocontents{toc}{\setcounter{tocdepth}{-5}} % hide from TOC
-\VAR{rendered.foreword}
+
+\VAR{rendered.frontmatter}
+
 %: endif
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -267,7 +269,17 @@ Gaithersburg, MD 20899-8900
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \clearpage
+
 \begin{center}
+\normalsize{\textbf{\textsc{Federal Information Processing Standards Publication \VAR{config.doc_number}}}}\\
+\vspace{10pt}
+\normalsize{\textbf{\VAR{config.issued_date}}}\\
+\vspace{10pt}
+\normalsize{\textbf{Standard for}}\\
+\Large{\textbf{\VAR{config.doc_title}}}
+
+\vspace{10pt}
+
   \hypersetup{linkcolor=black}
 	\tableofcontents
 	\listoftables

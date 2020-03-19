@@ -7,9 +7,13 @@ pdf:
       - _FIPS201/images/
       - _pdftemplate/images/
     sections:
-        - name: foreword
+        - name: frontmatter
           parts: 
-              - foreword.md
+              - _Frontmatter/foreword.md
+              - _Frontmatter/abstract.md
+              - _Frontmatter/announcement.md
+          part_template: _pdftemplate/sectionpart.tex
+          section_template: _pdftemplate/section.tex
         - name: body
           parts:
               - _FIPS201/introduction.md
@@ -30,9 +34,10 @@ pdf:
               - _Appendix/revisions.md
           part_template: _pdftemplate/sectionpart.tex
           section_template: _pdftemplate/section.tex
-    report_number: FIPS 201-3 (DRAFT)
     doi_url: None
     issued_date: December 31, 2020
+    doc_number: 201-3
+    doc_short_title: FIPS 201-3 (DRAFT)
     page_title: Personal Identity Verification (PIV)
     doc_title: Personal Identity Verification (PIV) of Federal Employees and Contractors
     lineno: true
