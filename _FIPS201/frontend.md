@@ -73,7 +73,7 @@ The following list describes the physical requirements for the PIV Card.
 - The card body SHALL be white in accordance with color representation in [Section 4.1.5](frontend.md#s-4-1-5). Only a
     security feature, as described in [Section 4.1.2](frontend.md#s-4-1-2), may modify the perceived color slightly. Presence of a
     security feature SHALL NOT prevent the recognition of white as the principal card body color by a person
-    with normal vision (corrected or uncorrected) at a working distance of 50&nbsp;to 200&nbsp;cm.
+    with normal vision (corrected or uncorrected) at a working distance of 50&nbsp;cm to 200&nbsp;cm.
 - The card body structure SHALL consist of card material(s) that satisfy the card characteristics in
     [[ISO7810]](../_Appendix/references.md#ref-ISO7810) and test methods in American National Standards Institute (ANSI) 322 [[ANSI322]](../_Appendix/references.md#ref-ANSI322).
     Although the [[ANSI322]](../_Appendix/references.md#ref-ANSI322) test methods do not currently specify compliance requirements, the tests
@@ -161,7 +161,7 @@ Zone 2F: Name
     be printed in the **Primary Identifier**, **Secondary Identifier** format. The entire full name SHOULD be
     printed on available lines of Zone 2F and either identifier could be wrapped. The wrapped identifier SHALL
     be indicated with "&gt;" character at the end of the line. The identifiers MAY be printed on separate lines if
-    each fits on one line. Departments and agencies SHALL use the largest font size of 7&nbsp;to 10&nbsp;pt that allows
+    each fits on one line. Departments and agencies SHALL use the largest font size of 7&nbsp;pt to 10&nbsp;pt that allows
     the full name to be printed. The font size 7&nbsp;pt allows space for 3&nbsp;lines and SHALL only be used if the full
     name does not fit on two lines with font size 8&nbsp;pt. [Table 4-1](#table-4-1) provides examples of separate Primary
     and Secondary Identifier lines, single line with identifiers, wrapped full names, and full name in three
@@ -202,7 +202,7 @@ Zone 14F: Card Expiration Date
 : The card expiration date SHALL be printed on the card as depicted in
     [Figure 4-1](#fig-4-1). The card expiration date SHALL be in a YYYYMMMDD format whereby the MMM characters
     represent the three-letter month abbreviation as follows: JAN, FEB, MAR, APR, MAY, JUN, JUL, AUG,
-    SEP, OCT, NOV, and DEC. The Zone 14F expiration date SHALL be printed in Arial 6&nbsp;to 9&nbsp;pt Bold.
+    SEP, OCT, NOV, and DEC. The Zone 14F expiration date SHALL be printed in Arial 6&nbsp;pt to 9&nbsp;pt Bold.
 
 Zone 15F: Color-Coding for Employee Affiliation
 : Color-coding SHALL be used for additional
@@ -427,7 +427,7 @@ Since the card body is white, the white color-coding is achieved
 by the absence of printing. Note that presence of the security feature, which MAY overlap colored or
 printed regions, may modify the perceived color. In the case of colored regions, the effect of overlap
 SHALL NOT prevent the recognition of the principal color by a person with normal vision (corrected or
-uncorrected) at a working distance of 50&nbsp;to 200&nbsp;cm.
+uncorrected) at a working distance of 50&nbsp;cm to 200&nbsp;cm.
 
 [Table 4-2. Color Representation](#table-4-2){:name="table-4-2"}
 {:latex-ignore="true"}
