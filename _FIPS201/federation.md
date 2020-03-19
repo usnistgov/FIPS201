@@ -28,8 +28,11 @@ While it is possible to process a PIV credential belonging to a different agency
 
 Benefits of using a federation protocol to present a PIV credential include:
 
-Federation attributes:  The assertion attributes are more dynamic in nature than the fixed attributes in PIV credentials. They can be adapted to the needs of the RP and further tailored (e.g., selective disclosure of attributes per-provider to preserve privacy). 
+Federation attributes
+: The assertion attributes are more dynamic in nature than the fixed attributes in PIV credentials. They can be adapted to the needs of the RP and further tailored (e.g., selective disclosure of attributes per-provider to preserve privacy). 
 
-Stable identifier:      The identifier in the assertion IdP is stable across multiple certificates over time and can be associated with all of the subscriber's authenticators. 
+Stable identifier
+: The identifier in the assertion IdP is stable across multiple certificates over time and can be associated with all of the subscriber's authenticators. 
 
-Simplicity:             Processing of a federation protocol is simpler for the RP, as credential validation and management is tasked to the credential issuer/IdP. This is further exemplified by the use of federation technologies to provide authentication and authorization to mobile applications, smart devices, and other non-traditional applications. 
+Simplicity
+: Processing of a federation protocol is simpler for the RP, as credential validation and management is tasked to the credential issuer/IdP. This is further exemplified by the use of federation technologies to provide authentication and authorization to mobile applications, smart devices, and other non-traditional applications. 
