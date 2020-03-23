@@ -153,7 +153,7 @@ the acquiring agent, office and organization, time, place, and acquisition metho
 
 Federal Agency Smart Credential Number (FASC-N)
 : As required by FIPS 201, one of the primary
-identifiers on the _PIV Card_ for physical access control. The FASC-N is a fixed length (25 byte) data
+identifiers on the _PIV Card_ for physical _access control_. The FASC-N is a fixed length (25 byte) data
 object, specified in [[SP 800-73]](references.md#ref-SP-800-73), and included in several data objects on a _PIV Card_.
 
 Federal Information Processing Standards (FIPS)
