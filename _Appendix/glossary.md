@@ -20,7 +20,7 @@ related information processing services; and 2) enter specific physical faciliti
 military establishments, border crossing entrances).
 
 Applicant
-: An individual applying for a _PIV Card_/credential. The applicant may be a current or
+: An individual applying for a _PIV Card_/credential. The _applicant_ may be a current or
 prospective federal hire, a federal employee, or a contractor.[^eligibility]
 
 Application
@@ -223,8 +223,8 @@ requesting access with those previously proven and stored in the _PIV Card_ or s
 the identity being claimed.
 
 Issuer
-: The organization that is issuing the _PIV Card_ to an applicant. Typically this is an organization
-for which the applicant is working.
+: The organization that is issuing the _PIV Card_ to an _applicant_. Typically this is an organization
+for which the _applicant_ is working.
 
 Issuing Facility
 : A physical site or location---including all equipment, staff, and
