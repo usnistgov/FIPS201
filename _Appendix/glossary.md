@@ -121,7 +121,7 @@ between PIV Card issuers.
 
 Comparison
 : Estimation, calculation, or measurement of similarity or dissimilarity between biometric probe(s) and biometric reference(s). 
-See also "Identification." [[ISO 2382-37]](references.md#ref-ISO/IEC-2382-37) 
+See also _Identification_. [[ISO 2382-37]](references.md#ref-ISO/IEC-2382-37) 
 
 Component
 : An element of a large system, such as an identity card, issuer, card reader, or identity
@@ -145,7 +145,7 @@ Derived PIV Credential
 : A credential issued based on proof of possession and control of a PIV Card so as not to duplicate the identity proofing process.
 
 Enrollment
-: See "Identity Registration."
+: See _Identity Registration_.
 
 Enrollment Data Set
 : A record including information about a biometric enrollment: name and role of
@@ -237,7 +237,7 @@ Issuing Facility
   * maintenance.
 
 Key
-: See "Cryptographic Key."
+: See _Cryptographic Key_.
 
 Match
 : Comparison decision stating that the biometric probe(s) and the biometric 
@@ -329,7 +329,7 @@ Recommendation
 use or procedures to follow to achieve a common level of quality or level of interoperability.
 
 Registration
-: See "Identity Registration."
+: See _Identity Registration_.
 
 Symmetric Key
 : A cryptographic key that is used to perform both the cryptographic operation and its
