@@ -20,7 +20,7 @@ related information processing services; and 2) enter specific physical faciliti
 military establishments, border crossing entrances).
 
 Applicant
-: An individual applying for a PIV Card/credential. The applicant may be a current or
+: An individual applying for a _PIV Card_/credential. The applicant may be a current or
 prospective federal hire, a federal employee, or a contractor.[^eligibility]
 
 Application
@@ -46,7 +46,7 @@ verification.
 
 Authentication
 : The process of establishing confidence of authenticity; in this case, in the validity of a
-person's identity and the PIV Card.
+person's identity and the _PIV Card_.
 
 Authenticator Assurance Level (AAL)
 : A measure of the strength of an authentication mechanism, and therefore the confidence in it, as
@@ -83,8 +83,8 @@ This information
 can be in terms of raw or compressed pixels or in terms of some characteristic (e.g., patterns).
 
 Biometric On-Card Comparison
-: A one-to-one comparison of fingerprint biometric data records transmitted to the PIV Card with a biometric reference 
-previously stored on the PIV Card.
+: A one-to-one comparison of fingerprint biometric data records transmitted to the _PIV Card_ with a biometric reference 
+previously stored on the _PIV Card_.
 
 Biometric Verification
 : Process of confirming a biometric claim through biometric comparison.
@@ -98,10 +98,10 @@ Capture
 : Series of actions undertaken to obtain and record, in a retrievable form, signals of biometric characteristics directly from individuals. See [[ISO 2382-37]](references.md#ref-ISO/IEC-2382-37) for more details.
 
 Cardholder
-: An individual possessing an issued PIV Card.
+: An individual possessing an issued _PIV Card_.
 
 Card Management System
-: The card management system manages the lifecycle of a PIV Card
+: The card management system manages the lifecycle of a _PIV Card_
 Application.
 
 Certificate Revocation List
@@ -117,7 +117,7 @@ Certification Authority
 
 Chain-of-trust
 : An interoperable data format for PIV enrollment records facilitating import and export of records 
-between PIV Card issuers.
+between _PIV Card_ issuers.
 
 Comparison
 : Estimation, calculation, or measurement of similarity or dissimilarity between biometric probe(s) and biometric reference(s). 
@@ -133,7 +133,7 @@ promulgating, and supporting FIPS for testing specific characteristics of compon
 services, as well as people and organizations for compliance with a FIPS.
 
 Credential
-: Evidence attesting to one's right to credit or authority; in this Standard, it is the PIV Card
+: Evidence attesting to one's right to credit or authority; in this Standard, it is the _PIV Card_
 and data elements associated with an individual that authoritatively binds an identity (and, optionally,
 additional attributes) to that individual.
 
@@ -142,7 +142,7 @@ Cryptographic Key (Key)
 determines the specific operation of that algorithm.
 
 Derived PIV Credential
-: A credential issued based on proof of possession and control of a PIV Card so as not to duplicate the identity proofing process.
+: A credential issued based on proof of possession and control of a _PIV Card_ so as not to duplicate the identity proofing process.
 
 Enrollment
 : See _Identity Registration_.
@@ -153,8 +153,8 @@ the acquiring agent, office and organization, time, place, and acquisition metho
 
 Federal Agency Smart Credential Number (FASC-N)
 : As required by FIPS 201, one of the primary
-identifiers on the PIV Card for physical access control. The FASC-N is a fixed length (25 byte) data
-object, specified in [[SP 800-73]](references.md#ref-SP-800-73), and included in several data objects on a PIV Card.
+identifiers on the _PIV Card_ for physical access control. The FASC-N is a fixed length (25 byte) data
+object, specified in [[SP 800-73]](references.md#ref-SP-800-73), and included in several data objects on a _PIV Card_.
 
 Federal Information Processing Standards (FIPS)
 : A standard for adoption and use by federal
@@ -219,11 +219,11 @@ system. In some other NIST documents such as [[SP 800-63A]](references.md#ref-SP
 Identity Verification
 : The process of confirming or denying that a claimed identity is correct by
 comparing the credentials (something you know, something you have, something you are) of a person
-requesting access with those previously proven and stored in the PIV Card or system and associated with
+requesting access with those previously proven and stored in the _PIV Card_ or system and associated with
 the identity being claimed.
 
 Issuer
-: The organization that is issuing the PIV Card to an applicant. Typically this is an organization
+: The organization that is issuing the _PIV Card_ to an applicant. Typically this is an organization
 for which the applicant is working.
 
 Issuing Facility
@@ -250,12 +250,12 @@ be created, operated, and analyzed to predict actual operational characteristics
 component.
 
 Off-Card
-: Refers to data that is not stored within the PIV Card or to a computation that is not performed
-by the Integrated Circuit Chip (ICC) of the PIV Card.
+: Refers to data that is not stored within the _PIV Card_ or to a computation that is not performed
+by the Integrated Circuit Chip (ICC) of the _PIV Card_.
 
 On-Card
-: Refers to data that is stored within the PIV Card or to a computation that is performed by the
-Integrated Circuit Chip (ICC) of the PIV Card.
+: Refers to data that is stored within the _PIV Card_ or to a computation that is performed by the
+Integrated Circuit Chip (ICC) of the _PIV Card_.
 
 Online Certificate Status Protocol (OCSP)
 : An online protocol used to determine the status of a public
@@ -279,21 +279,21 @@ Personal Identification Number (PIN)
 their identity.
 
 Personal Identity Verification (PIV) Account
-: The logical record containing credentialing information for a given PIV cardholder.  This is typically stored within the issuer’s identity management system, and includes PIV enrollment data, cardholder identity attributes, and information regarding authenticators bound to the cardholder’s identity (e.g., PIV Card and derived PIV credentials).
+: The logical record containing credentialing information for a given PIV cardholder.  This is typically stored within the issuer’s identity management system, and includes PIV enrollment data, cardholder identity attributes, and information regarding authenticators bound to the cardholder’s identity (e.g., _PIV Card_ and derived PIV credentials).
 
 Personal Identity Verification (PIV) Card
 : A physical artifact (e.g., identity card, "smart" card) issued
-to an individual that contains a PIV Card Application which stores identity credentials (e.g., photograph,
+to an individual that contains a _PIV Card_ Application which stores identity credentials (e.g., photograph,
 cryptographic keys, digitized fingerprint representation) so that the claimed identity of the cardholder can
 be verified against the stored credentials by another person (human readable and verifiable) or an
 automated process (computer readable and verifiable).
 
 PIV Assurance Level
-: A degree of confidence established in the identity of the holder of the PIV Card.
+: A degree of confidence established in the identity of the holder of the _PIV Card_.
 
 PIV Enrollment Record
 : A sequence of related enrollment data sets that is created and 
-maintained by PIV Card issuers. The PIV enrollment record typically contains data collected 
+maintained by _PIV Card_ issuers. The PIV enrollment record typically contains data collected 
 at each step of the PIV identity proofing, registration, and issuance processes.
 
 Private Key
@@ -316,12 +316,12 @@ storage of sensitive verification system data within identity cards and the veri
 
 PKI-Card Authentication Key (PKI-CAK)
 : A PIV authentication mechanism that is implemented by
-an asymmetric key challenge/response protocol using the card authentication key of the PIV Card and a
+an asymmetric key challenge/response protocol using the card authentication key of the _PIV Card_ and a
 contact or contactless reader.
 
 PKI-PIV Authentication Key (PKI-AUTH)
 : A PIV authentication mechanism that is implemented by
-an asymmetric key challenge/response protocol using the PIV authentication key of the PIV Card and a
+an asymmetric key challenge/response protocol using the PIV authentication key of the _PIV Card_ and a
 contact reader, or a contactless card reader that supports the virtual contact interface.
 
 Recommendation
@@ -548,7 +548,7 @@ PAL
 : Physical Assurance Level
 
 PCI
-: PIV Card Issuer
+: _PIV Card_ Issuer
 
 PC/SC
 : Personal Computer/Smart Card
