@@ -18,7 +18,7 @@ Note that processing the PIV credential directly is not a form of federation as 
 
 ## 7.2 Federation Assurance Level (FAL) {#s-7-2}
 
-[[SP 800-63]](../_Appendix/references.md#ref-SP-800-63) defines three dimensions of assurance: Identity Assurance Level (IAL), AAL, and FAL. The use of a PIV credential or a derived PIV credential for authentication in a federation transaction will determine the IAL and AAL of that transaction, but the FAL is determined independently of the credential itself. As with all credentials, the PIV credential can be used with any FAL, regardless of the IAL and AAL that the credential represents. Guidance for determining the correct FAL for a given application is available in [[SP 800-63]](../_Appendix/references.md#ref-SP-800-63).
+[[SP 800-63]](../_Appendix/references.md#ref-SP-800-63) defines three dimensions of assurance: IAL, AAL, and FAL. The use of a PIV credential or a derived PIV credential for authentication in a federation transaction will determine the IAL and AAL of that transaction, but the FAL is determined independently of the credential itself. As with all credentials, the PIV credential can be used with any FAL, regardless of the IAL and AAL that the credential represents. Guidance for determining the correct FAL for a given application is available in [[SP 800-63]](../_Appendix/references.md#ref-SP-800-63).
 
 The IAL, AAL, and FAL SHALL be known to the RP during the federation transaction. The IdP MAY communicate this at runtime in the assertion, for example using technologies such as Vectors of Trust [[RFC 8485]](../_Appendix/references.md#ref-RFC8485) or an Authentication Context URL [[SAML-AC]](../_Appendix/references.md#ref-SAML-AC).
 
