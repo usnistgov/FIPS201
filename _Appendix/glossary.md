@@ -25,7 +25,7 @@ prospective federal hire, a federal employee, or a contractor.[^eligibility]
 
 Application
 : A hardware/software system implemented to satisfy a particular set of requirements. In
-this context, an application incorporates a system used to satisfy a subset of requirements related to the
+this context, an _application_ incorporates a system used to satisfy a subset of requirements related to the
 verification or identification of an end user's identity so that the end user's identifier can be used to
 facilitate the end user's interaction with the system.
 
@@ -209,7 +209,7 @@ documents) to establish an identity.
 
 Identity Management System (IDMS)
 : Identity management system comprised of one or more systems
-or applications that manages the identity verification, validation, and issuance process.
+or _applications_ that manages the identity verification, validation, and issuance process.
 
 Identity Registration
 : The process of making a person's identity known to the PIV system, associating a
