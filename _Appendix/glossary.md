@@ -20,12 +20,12 @@ related information processing services; and 2) enter specific physical faciliti
 military establishments, border crossing entrances).
 
 Applicant
-: An individual applying for a _PIV Card_/credential. The _applicant_ may be a current or
+: An individual applying for a _PIV Card_/credential. The applicant may be a current or
 prospective federal hire, a federal employee, or a contractor.[^eligibility]
 
 Application
 : A hardware/software system implemented to satisfy a particular set of requirements. In
-this context, an _application_ incorporates a system used to satisfy a subset of requirements related to the
+this context, an application incorporates a system used to satisfy a subset of requirements related to the
 verification or identification of an end user's identity so that the end user's identifier can be used to
 facilitate the end user's interaction with the system.
 
@@ -283,7 +283,7 @@ Personal Identity Verification (PIV) Account
 
 Personal Identity Verification (PIV) Card
 : A physical artifact (e.g., identity card, "smart" card) issued
-to an individual that contains a _PIV Card_ Application which stores identity credentials (e.g., photograph,
+to an individual that contains a PIV Card Application which stores identity credentials (e.g., photograph,
 cryptographic keys, digitized fingerprint representation) so that the claimed identity of the cardholder can
 be verified against the stored credentials by another person (human readable and verifiable) or an
 automated process (computer readable and verifiable).
