@@ -29,7 +29,7 @@ protocol, as described in [Section 7](#s-7).
 
 This Standard defines multiple levels of assurance for logical and physical access. Each assurance level establishes a degree of confidence that the presenter of
 the PIV Card is the person referred to by the PIV credential. The entity performing the authentication further establishes confidence that the person referred to by the PIV credential is a specific identified person through the rigor of the identity proofing process conducted prior to issuance of the PIV Card and the security of the PIV Card issuance and maintenance processes specified in [Section 2](requirements.md#s-2) of this Standard. The PIV identity proofing, registration, issuance, and maintenance processes meet or exceed the
-requirements for Identity Assurance Level 3 (IAL3) [[SP 800-63A]](../_Appendix/references.md#ref-SP-800-63A).
+requirements for IAL3 [[SP 800-63A]](../_Appendix/references.md#ref-SP-800-63A).
 
 The PIV Card contains a number of logical credentials that are used by the authentication mechanisms specified in [Section 6.2](#s-6-2). Varying assurance levels that the holder of the PIV Card is
 the owner of the card can be achieved, depending on the PIV authentication mechanism used. The assurance levels for physical and logical access are specified in [Section 6.3.1](#s-6-3-1) and [Section 6.3.2](#s-6-3-2) respectively.
@@ -42,7 +42,7 @@ specified in [Section 6.2](#s-6-2) SHALL be applied to achieve that assurance le
 
 ### 6.1.1 Relationship to Federal Identity Policy (Removed) {#s-6-1-1}
 
-The content of this section has been removed as OMB M-04-04 has been rescinded by OMB [[M-19-17]](../_Appendix/references.md#ref-OMB1917), which recognizes the identity assurance levels defined in NIST [[SP 800-63]](../_Appendix/references.md#ref-SP-800-63) as the framework for managing digital identity risks within the federal government. A mapping between PIV authentication mechanisms and SP 800-63 assurance levels can be found in [Section 6.3.2](#s-6-3-2).
+The content of this section has been removed as OMB M-04-04 has been rescinded by OMB [[M-19-17]](../_Appendix/references.md#ref-OMB1917), which recognizes the IALs defined in NIST [[SP 800-63]](../_Appendix/references.md#ref-SP-800-63) as the framework for managing digital identity risks within the federal government. A mapping between PIV authentication mechanisms and SP 800-63 assurance levels can be found in [Section 6.3.2](#s-6-3-2).
 
 ## 6.2 PIV Card Authentication Mechanisms {#s-6-2}
 
@@ -349,7 +349,7 @@ logical information resources. For example, a cardholder may log in to their dep
 network using the PIV Card; the identity established through this authentication process can be used for
 determining access to file systems, databases, and other services available on the network.
 
-Selection of required Authenticator Assurance Level (AAL) SHALL be made using the risk management process specified in [[SP 800-63]](../_Appendix/references.md#ref-SP-800-63).
+Selection of required AAL SHALL be made using the risk management process specified in [[SP 800-63]](../_Appendix/references.md#ref-SP-800-63).
 
 [Table 6-2](#table-6-2) describes the authentication mechanisms defined for this Standard to support logical access
 control. An authentication mechanism that is suitable for a higher assurance level can also be applied to
