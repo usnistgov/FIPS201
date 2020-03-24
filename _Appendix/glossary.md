@@ -83,7 +83,7 @@ This information
 can be in terms of raw or compressed pixels or in terms of some _biometric characteristic_ (e.g., patterns).
 
 Biometric On-Card Comparison
-: A one-to-one comparison of fingerprint biometric data records transmitted to the _PIV Card_ with a biometric reference 
+: A one-to-one comparison of fingerprint _biometric data records_ transmitted to the _PIV Card_ with a biometric reference 
 previously stored on the _PIV Card_.
 
 Biometric Verification
@@ -270,7 +270,7 @@ trustworthy.
 
 Personally Identifiable Information (PII)
 : Information that can be used to distinguish or trace an
-individual's identity, such as name, social security number, biometric data records, etc. alone, or when
+individual's identity, such as name, social security number, _biometric data records_, etc. alone, or when
 combined with other personal or identifying information that is linked or linkable to a specific individual,
 such as date and place of birth, mother's maiden name, etc. [[M-17-12]](references.md#ref-OMB1712)
 
