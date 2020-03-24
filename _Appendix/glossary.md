@@ -297,7 +297,7 @@ maintained by _PIV Card_ issuers. The PIV enrollment record typically contains d
 at each step of the PIV identity proofing, registration, and issuance processes.
 
 Private Key
-: The secret part of an asymmetric key pair that is typically used to digitally sign or decrypt
+: The secret part of an _asymmetric key_ pair that is typically used to digitally sign or decrypt
 data.
 
 Pseudonyms
@@ -306,7 +306,7 @@ employee for the purpose of the employee's protection (i.e., the employee might 
 her actual name were known) or for other purposes.
 
 Public Key
-: The public part of an asymmetric key pair that is typically used to verify signatures or
+: The public part of an _asymmetric key_ pair that is typically used to verify signatures or
 encrypt data.
 
 Public Key Infrastructure (PKI)
@@ -316,12 +316,12 @@ storage of sensitive verification system data within identity cards and the veri
 
 PKI-Card Authentication Key (PKI-CAK)
 : A PIV authentication mechanism that is implemented by
-an asymmetric key challenge/response protocol using the card authentication key of the _PIV Card_ and a
+an _asymmetric key_ challenge/response protocol using the card authentication key of the _PIV Card_ and a
 contact or contactless reader.
 
 PKI-PIV Authentication Key (PKI-AUTH)
 : A PIV authentication mechanism that is implemented by
-an asymmetric key challenge/response protocol using the PIV authentication key of the _PIV Card_ and a
+an _asymmetric key_ challenge/response protocol using the PIV authentication key of the _PIV Card_ and a
 contact reader, or a contactless card reader that supports the virtual contact interface.
 
 Recommendation
