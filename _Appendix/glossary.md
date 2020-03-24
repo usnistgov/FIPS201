@@ -64,7 +64,7 @@ sample may be captured from the cardholder in isolation, while in _BIO-A_, an
 attendant must oversee the process of biometric _capture_.
 
 Biometric Capture Device
-: Device that collects a signal from a biometric characteristic and converts it 
+: Device that collects a signal from a _biometric characteristic_ and converts it 
 to a captured biometric sample [[ISO 2382-37]](references.md#ref-ISO/IEC-2382-37).
 
 Biometric Characteristic
@@ -80,7 +80,7 @@ processing [[ISO 2382-37]](references.md#ref-ISO/IEC-2382-37).
 Biometric Data Record
 : Electronic data record containing biometric data [[ISO 2382-37]](references.md#ref-ISO/IEC-2382-37).
 This information
-can be in terms of raw or compressed pixels or in terms of some characteristic (e.g., patterns).
+can be in terms of raw or compressed pixels or in terms of some _biometric characteristic_ (e.g., patterns).
 
 Biometric On-Card Comparison
 : A one-to-one comparison of fingerprint biometric data records transmitted to the _PIV Card_ with a biometric reference 
@@ -95,7 +95,7 @@ the same biometric source based on comparison score(s) during a verification
 transaction [[ISO 2382-37]](references.md#ref-ISO/IEC-2382-37).
 
 Capture
-: Series of actions undertaken to obtain and record, in a retrievable form, signals of biometric characteristics directly from individuals. See [[ISO 2382-37]](references.md#ref-ISO/IEC-2382-37) for more details.
+: Series of actions undertaken to obtain and record, in a retrievable form, signals of _biometric characteristics_ directly from individuals. See [[ISO 2382-37]](references.md#ref-ISO/IEC-2382-37) for more details.
 
 Cardholder
 : An individual possessing an issued _PIV Card_.
