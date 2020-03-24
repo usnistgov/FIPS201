@@ -26,7 +26,7 @@ prospective federal hire, a federal employee, or a contractor.[^eligibility]
 Application
 : A hardware/software system implemented to satisfy a particular set of requirements. In
 this context, an application incorporates a system used to satisfy a subset of requirements related to the
-verification or identification of an end user's identity so that the end user's identifier can be used to
+verification or identification of an end user's identity so that the end user's _identifier_ can be used to
 facilitate the end user's interaction with the system.
 
 Architecture
@@ -153,7 +153,7 @@ the acquiring agent, office and organization, time, place, and acquisition metho
 
 Federal Agency Smart Credential Number (FASC-N)
 : As required by FIPS 201, one of the primary
-identifiers on the _PIV Card_ for physical _access control_. The FASC-N is a fixed length (25 byte) data
+_identifiers_ on the _PIV Card_ for physical _access control_. The FASC-N is a fixed length (25 byte) data
 object, specified in [[SP 800-73]](references.md#ref-SP-800-73), and included in several data objects on a _PIV Card_.
 
 Federal Information Processing Standards (FIPS)
@@ -213,7 +213,7 @@ or _applications_ that manages the identity verification, validation, and issuan
 
 Identity Registration
 : The process of making a person's identity known to the PIV system, associating a
-unique identifier with that identity, and collecting and recording the person's relevant attributes into the
+unique _identifier_ with that identity, and collecting and recording the person's relevant attributes into the
 system. In some other NIST documents such as [[SP 800-63A]](references.md#ref-SP-800-63A), identity registration is referred to as _enrollment_.
 
 Identity Verification
@@ -262,7 +262,7 @@ Online Certificate Status Protocol (OCSP)
 key certificate [[RFC 6960]](references.md#ref-RFC6960).
 
 Path Validation
-: The process of verifying the binding between the subject identifier and subject public
+: The process of verifying the binding between the subject _identifier_ and subject public
 key in a certificate, based on the public key of a trust anchor, through the validation of a chain of
 certificates that begins with a certificate issued by the trust anchor and ends with the target certificate.
 Successful path validation provides strong evidence that the information in the target certificate is
