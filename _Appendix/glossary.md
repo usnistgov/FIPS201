@@ -20,7 +20,7 @@ related information processing services; and 2) enter specific physical faciliti
 military establishments, border crossing entrances).
 
 Applicant
-: An individual applying for a _PIV Card_/credential. The applicant may be a current or
+: An individual applying for a _PIV Card_/_credential_. The applicant may be a current or
 prospective federal hire, a federal employee, or a contractor.[^eligibility]
 
 Application
@@ -142,7 +142,7 @@ Cryptographic Key (Key)
 determines the specific operation of that algorithm.
 
 Derived PIV Credential
-: A credential issued based on proof of possession and control of a _PIV Card_ so as not to duplicate the identity proofing process.
+: A _credential_ issued based on proof of possession and control of a _PIV Card_ so as not to duplicate the identity proofing process.
 
 Enrollment
 : See _Identity Registration_.
@@ -204,7 +204,7 @@ defined in [[SP 800-63]](references.md#ref-SP-800-63) in terms of three levels:
   - IAL3: VERY HIGH confidence
 
 Identity Proofing
-: The process of providing sufficient information (e.g., identity history, credentials,
+: The process of providing sufficient information (e.g., identity history, _credentials_,
 documents) to establish an identity.
 
 Identity Management System (IDMS)
@@ -218,7 +218,7 @@ system. In some other NIST documents such as [[SP 800-63A]](references.md#ref-SP
 
 Identity Verification
 : The process of confirming or denying that a claimed identity is correct by
-comparing the credentials (something you know, something you have, something you are) of a person
+comparing the _credentials_ (something you know, something you have, something you are) of a person
 requesting access with those previously proven and stored in the _PIV Card_ or system and associated with
 the identity being claimed.
 
@@ -279,13 +279,13 @@ Personal Identification Number (PIN)
 their identity.
 
 Personal Identity Verification (PIV) Account
-: The logical record containing credentialing information for a given PIV _cardholder_.  This is typically stored within the issuer’s identity management system, and includes PIV enrollment data, _cardholder_ identity attributes, and information regarding authenticators bound to the _cardholder_’s identity (e.g., _PIV Card_ and derived PIV credentials).
+: The logical record containing credentialing information for a given PIV _cardholder_.  This is typically stored within the issuer’s identity management system, and includes PIV enrollment data, _cardholder_ identity attributes, and information regarding authenticators bound to the _cardholder_’s identity (e.g., _PIV Card_ and _derived PIV credentials_).
 
 Personal Identity Verification (PIV) Card
 : A physical artifact (e.g., identity card, "smart" card) issued
-to an individual that contains a PIV Card Application which stores identity credentials (e.g., photograph,
+to an individual that contains a PIV Card Application which stores identity _credentials_ (e.g., photograph,
 cryptographic keys, digitized fingerprint representation) so that the claimed identity of the _cardholder_ can
-be verified against the stored credentials by another person (human readable and verifiable) or an
+be verified against the stored _credentials_ by another person (human readable and verifiable) or an
 automated process (computer readable and verifiable).
 
 PIV Assurance Level
