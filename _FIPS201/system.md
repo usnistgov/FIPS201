@@ -109,6 +109,7 @@ lifecycle of PIV Cards and PKI-based derived PIV credentials—from generation a
 requesting application certificate status information of the PKI credentials requesting access.
 
 The enterprise IDMS serves as the central repository for the cardholder’s digital identities.  It is where the relevant cardholder attributes are maintained.  The IDMS creates the PIV account and associates the cardholder's PIV Card and derived PIV credentials with the account.  The account is maintained throughout the cardholder’s employment with the organization. Various Identity, Credential, and Access Management (ICAM) related systems connect to the IDMS to request or update cardholder attributes. For example
+
   * A security office may provide updated background investigative information to the IDMS.
   * An HR system may relay hiring status updates.
   * Relying Parties (RP), for whom the IDMS may serve as the Credential Service Provider (CSP), authenticate the PIV credential holder and issue assertions derived from the credential.
