@@ -222,7 +222,7 @@ Zone 19F: Card Expiration Date
     the upper right-hand corner as depicted in [Figure 4-1](#fig-4-1). The Zone 19F expiration date SHALL be printed in
     Arial 12&nbsp;pt Bold.
 
-[^pseudonym]: Alternatively, an authorized pseudonym as provided under the law as discussed in [Section 2.8.1](../requirements/#s-2-8-1){:.footnote-ref}.
+[^pseudonym]: Alternatively, an authorized pseudonym as provided under the law as discussed in [Section 2.8.1](../requirements/#s-2-8-1).
 
 #### 4.1.4.2 Mandatory Items on the Back of the PIV Card {#s-4-1-4-2}
 
@@ -638,7 +638,7 @@ The expiration date of the certificate SHALL be no later than the expiration dat
 [Section 5](keymanagement.md#s-5) of this document specifies the certificate format and the key management infrastructure for
 PIV digital signature keys.
 
-[^cardholderauthentication]: NIST [[IR 7863]](../references/#ref-NISTIR7863){:.footnote-ref} addresses the appropriate use of PIN caching related to digital signatures.
+[^cardholderauthentication]: NIST [[IR 7863]](../references/#ref-NISTIR7863) addresses the appropriate use of PIN caching related to digital signatures.
 
 #### 4.2.2.5 Key Management Key {#s-4-2-2-5}
 This key MAY be generated on the PIV Card or imported to the card. If
@@ -677,7 +677,7 @@ The following biometric data MAY also be stored on the PIV Card:
 All biometric data SHALL be stored in the data elements referenced by [[SP 800-73]](../_Appendix/references.md#ref-SP-800-73) and in conformance
 with the preparation and formatting specifications of [[SP 800-76]](../_Appendix/references.md#ref-SP-800-76).
 
-[^fingerprints]: The on-card and off-card fingerprint biometric data records are stored separately and, as conformant instances of different formal fingerprint template standards, are syntactically different. This is described more fully in [[SP 800-76]](../references/#ref-SP-800-76){:.footnote-ref}.
+[^fingerprints]: The on-card and off-card fingerprint biometric data records are stored separately and, as conformant instances of different formal fingerprint template standards, are syntactically different. This is described more fully in [[SP 800-76]](../references/#ref-SP-800-76).
 
 #### 4.2.3.2 Biometric Data Record Protection {#s-4-2-3-2}
 
@@ -809,4 +809,4 @@ Malicious code could be introduced into PIN capture and biometric capture device
 compromising or otherwise exploiting the PIV Card. General good practice to mitigate malicious code
 threats is outside the scope of this document.[^maliciouscode]
 
-[^maliciouscode]: See [[SP 800-53]](../references/#ref-SP-800-53){:.footnote-ref}.
+[^maliciouscode]: See [[SP 800-53]](../references/#ref-SP-800-53).

@@ -63,9 +63,9 @@ Once the investigation is completed, the authorized adjudicative entity SHALL ad
 For full guidance on PIV credentialing investigative and adjudicative requirements, issuers must work closely with their personnel security/suitability offices to ensure adherence to the latest federal personnel vetting guidance as provided by the Executive Agents. 
 
 
-[^OPM]: For example, [[FCS]](../references/#ref-FCS){:.footnote-ref} and the Federal Investigative Standards or subsequent standards.
+[^OPM]: For example, [[FCS]](../references/#ref-FCS) and the Federal Investigative Standards or subsequent standards.
 
-[^OMB]: For example, OMB [[M-05-24]](../references/#ref-OMB0524){:.footnote-ref}.
+[^OMB]: For example, OMB [[M-05-24]](../references/#ref-OMB0524).
 
 [^TierOne]: NACI investigations were replaced with Tier 1 investigations upon implementation of the 2012 Federal Investigative Standards.
 
@@ -529,7 +529,7 @@ following circumstances:
     cardholder is ineligible[^ineligible] for a PIV Card; or
 + a cardholder is determined to hold a fraudulent identity.
 
-[^ineligible]: See [[FCS]](../references/#ref-FCS){:.footnote-ref}.
+[^ineligible]: See [[FCS]](../references/#ref-FCS).
 
 Similar to the situation in which the card or a credential is compromised, normal termination procedures
 must be in place as to ensure the following:
@@ -623,4 +623,4 @@ To ensure the privacy throughout PIV lifecycle, departments and agencies SHALL d
 
 [^privacyofficial]: Privacy official refers to the Senior Agency Official for Privacy (SAOP) or Chief Privacy Officer (CPO).
 
-[^access]: Agencies may refer to [[SP 800-122]](../references/#ref-SP-800-122){:.footnote-ref} for a best practice guideline on protection of PII.
+[^access]: Agencies may refer to [[SP 800-122]](../references/#ref-SP-800-122) for a best practice guideline on protection of PII.

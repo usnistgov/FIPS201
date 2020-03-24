@@ -71,7 +71,7 @@ Some characteristics of the authentication mechanisms using biometric data (desc
 - Applicable with contact card readers and contactless card readers that support the virtual contact
     interface.
 
-[^bioreaders]: As noted in [Section 4.2.3.1](../frontend/#s-4-2-3-1){:.footnote-ref}, fingerprint biometric templates are not guaranteed to contain biometric characteristic data, since it may not be possible to collect fingerprints from some cardholders. Additionally, electronic iris images are not guaranteed to be present on a PIV Card, since iris biometric capture is optional. When biometric verification cannot be performed, PKI-AUTH is the recommended alternate authentication mechanism.
+[^bioreaders]: As noted in [Section 4.2.3.1](../frontend/#s-4-2-3-1), fingerprint biometric templates are not guaranteed to contain biometric characteristic data, since it may not be possible to collect fingerprints from some cardholders. Additionally, electronic iris images are not guaranteed to be present on a PIV Card, since iris biometric capture is optional. When biometric verification cannot be performed, PKI-AUTH is the recommended alternate authentication mechanism.
 
 #### 6.2.1.1 Unattended Authentication Using Biometric Data (BIO) {#s-6-2-1-1}
 
@@ -330,7 +330,7 @@ suitable for a higher assurance level can also be applied to meet the requiremen
 level. Moreover, the authentication mechanisms in [Table 6-1](#table-6-1) can be combined to achieve higher
 assurance levels.[^combinations]
 
-[^combinations]: Combinations of authentication mechanisms are specified in [[SP 800-116]](../references/#ref-SP-800-116){:.footnote-ref}.
+[^combinations]: Combinations of authentication mechanisms are specified in [[SP 800-116]](../references/#ref-SP-800-116).
 
 [Table 6-1. Authentication for Physical Access](#table-6-1){:name="table-6-1"}
 {:latex-ignore="true"}
