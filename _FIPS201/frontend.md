@@ -483,7 +483,7 @@ PIV logical credentials fall into the following three categories:
 The PIV Card SHALL include the CHUID as defined in [[SP 800-73]](../_Appendix/references.md#ref-SP-800-73). The CHUID includes the Federal
 Agency Smart Credential Number (FASC-N) and the Global Unique Identification Number (GUID),
 which uniquely identify each card as described in [[SP 800-73]](../_Appendix/references.md#ref-SP-800-73). The value of the GUID data element SHALL
-be a 16-byte binary representation of a valid UUID [[RF C4122]](../_Appendix/references.md#ref-RFC4122). The
+be a 16&nbsp;B binary representation of a valid UUID [[RF C4122]](../_Appendix/references.md#ref-RFC4122). The
 CHUID SHALL also include an expiration date data element in machine-readable format that specifies when
 the card expires. The expiration date format and encoding rules are as specified in [[SP 800-73]](../_Appendix/references.md#ref-SP-800-73).
 
