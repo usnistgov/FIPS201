@@ -8,7 +8,7 @@ permalink: /glossary/
 
 # Appendix C— Glossary of Terms, Acronyms, and Notations {#s-c}
 
-This informative appendix describes the vocabulary and textual representations used in the document.
+This appendix is informative.  It describes the vocabulary and textual representations used in the document.
 
 ## C.1 Glossary of Terms {#s-c-1}
 
