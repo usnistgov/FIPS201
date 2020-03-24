@@ -601,7 +601,7 @@ U.S.C.
 UUID
 : Universally Unique IDentifier
 
-[^eligibility]: See Page 2 of [[M-05-24]](../references/#ref-OMB0524){:.footnote-ref} for further details of individuals who are eligible to be issued PIV Cards.
+[^eligibility]: See Page 2 of [[M-05-24]](../references/#ref-OMB0524) for further details of individuals who are eligible to be issued PIV Cards.
 
 ## C.3 Notations {#s-c-3}
 
