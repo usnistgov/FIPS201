@@ -166,7 +166,7 @@ Federation
 : A process that allows the conveyance of identity and _authentication_ information across a set of networked systems.
 
 Federation Assurance Level (FAL)
-: A category describing the _assertion_ protocol used by the federation to communicate _authentication_ and attribute 
+: A category describing the _assertion_ protocol used by the _federation_ to communicate _authentication_ and attribute 
 information (if applicable) to an RP,  as
 defined in [[SP 800-63]](references.md#ref-SP-800-63) in terms of three levels:
 
