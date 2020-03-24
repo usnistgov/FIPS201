@@ -116,7 +116,7 @@ Certification Authority
 : A trusted entity that issues and revokes public key certificates.
 
 Chain-of-trust
-: An interoperable data format for PIV enrollment records facilitating import and export of records 
+: An interoperable data format for _PIV enrollment records_ facilitating import and export of records 
 between _PIV Card_ issuers.
 
 Comparison
@@ -214,7 +214,7 @@ or _applications_ that manages the identity verification, validation, and issuan
 Identity Registration
 : The process of making a person's identity known to the PIV system, associating a
 unique identifier with that identity, and collecting and recording the person's relevant attributes into the
-system. In some other NIST documents such as [[SP 800-63A]](references.md#ref-SP-800-63A), identity registration is referred to as *enrollment*.
+system. In some other NIST documents such as [[SP 800-63A]](references.md#ref-SP-800-63A), identity registration is referred to as _enrollment_.
 
 Identity Verification
 : The process of confirming or denying that a claimed identity is correct by
@@ -292,7 +292,7 @@ PIV Assurance Level
 : A degree of confidence established in the identity of the holder of the _PIV Card_.
 
 PIV Enrollment Record
-: A sequence of related enrollment data sets that is created and 
+: A sequence of related _enrollment data sets_ that is created and 
 maintained by _PIV Card_ issuers. The PIV enrollment record typically contains data collected 
 at each step of the PIV identity proofing, registration, and issuance processes.
 
