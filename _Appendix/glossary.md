@@ -58,9 +58,9 @@ defined in [[SP 800-63]](references.md#ref-SP-800-63) in terms of three levels:
 
 Biometric Authentication (BIO, BIO-A)
 : A form of _authentication_ in which authenticity is established by _biometric
-verification_ of a new _biometric sample_ from a cardholder to a _biometric data
-record_ read from the cardholder's activated _PIV Card_. In _BIO_, the biometric
-sample may be captured from the cardholder in isolation, while in _BIO-A_, an
+verification_ of a new _biometric sample_ from a _cardholder_ to a _biometric data
+record_ read from the _cardholder_'s activated _PIV Card_. In _BIO_, the biometric
+sample may be captured from the _cardholder_ in isolation, while in _BIO-A_, an
 attendant must oversee the process of biometric _capture_.
 
 Biometric Capture Device
@@ -275,16 +275,16 @@ combined with other personal or identifying information that is linked or linkab
 such as date and place of birth, mother's maiden name, etc. [[M-17-12]](references.md#ref-OMB1712)
 
 Personal Identification Number (PIN)
-: A secret that a cardholder memorizes and uses to authenticate
+: A secret that a _cardholder_ memorizes and uses to authenticate
 their identity.
 
 Personal Identity Verification (PIV) Account
-: The logical record containing credentialing information for a given PIV cardholder.  This is typically stored within the issuer’s identity management system, and includes PIV enrollment data, cardholder identity attributes, and information regarding authenticators bound to the cardholder’s identity (e.g., _PIV Card_ and derived PIV credentials).
+: The logical record containing credentialing information for a given PIV _cardholder_.  This is typically stored within the issuer’s identity management system, and includes PIV enrollment data, _cardholder_ identity attributes, and information regarding authenticators bound to the _cardholder_’s identity (e.g., _PIV Card_ and derived PIV credentials).
 
 Personal Identity Verification (PIV) Card
 : A physical artifact (e.g., identity card, "smart" card) issued
 to an individual that contains a PIV Card Application which stores identity credentials (e.g., photograph,
-cryptographic keys, digitized fingerprint representation) so that the claimed identity of the cardholder can
+cryptographic keys, digitized fingerprint representation) so that the claimed identity of the _cardholder_ can
 be verified against the stored credentials by another person (human readable and verifiable) or an
 automated process (computer readable and verifiable).
 
