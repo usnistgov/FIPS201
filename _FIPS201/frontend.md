@@ -8,10 +8,7 @@ permalink: /frontend/
 
 # 4. PIV Front-End Subsystem {#s-4}
 
-This section identifies the requirements for the components of the PIV front-end subsystem. [Section 4.1](frontend.md#s-4-1)
-provides the physical card specifications. [Section 4.2](frontend.md#s-4-2) provides the logical card specifications. 
-[Section 4.3](frontend.md#s-4-3) specifies the requirements for card activation. [Section 4.4](frontend.md#s-4-4) provides requirements for PIV Card
-readers.
+This section is normative. It provides the requirements for the PIV front-end subsystem components.
 
 ## 4.1 PIV Card Physical Characteristics {#s-4-1}
 
