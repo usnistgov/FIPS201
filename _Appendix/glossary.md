@@ -284,7 +284,7 @@ Personal Identity Verification (PIV) Account
 Personal Identity Verification (PIV) Card
 : A physical artifact (e.g., identity card, "smart" card) issued
 to an individual that contains a PIV Card Application which stores identity _credentials_ (e.g., photograph,
-cryptographic keys, digitized fingerprint representation) so that the claimed identity of the _cardholder_ can
+_cryptographic keys_, digitized fingerprint representation) so that the claimed identity of the _cardholder_ can
 be verified against the stored _credentials_ by another person (human readable and verifiable) or an
 automated process (computer readable and verifiable).
 
@@ -332,7 +332,7 @@ Registration
 : See _Identity Registration_.
 
 Symmetric Key
-: A cryptographic key that is used to perform both the cryptographic operation and its
+: A _cryptographic key_ that is used to perform both the cryptographic operation and its
 inverse, for example to encrypt and decrypt, or create a message _authentication_ code and to verify the
 code.
 
