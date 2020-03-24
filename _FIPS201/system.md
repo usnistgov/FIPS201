@@ -185,4 +185,4 @@ PIV Card Termination
     PIV Card and the data and keys needed for authentication so as to prevent any future use of the card
     for authentication.
 
-[^enroll]: In some other NIST documents such as [[SP 800-63A]](../_Appendix/references.md#ref-SP-800-63A), registration is referred to as *enrollment*.
+[^enroll]: In some other National Institute of Standards and Technology (NIST) documents such as [[SP 800-63A]](../_Appendix/references.md#ref-SP-800-63A), registration is referred to as *enrollment*.

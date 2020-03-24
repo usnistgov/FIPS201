@@ -42,7 +42,7 @@ such that
     person not entitled to the credential.
 + An issued credential is not duplicated or forged, and is not modified by an unauthorized entity.
 
-[^background]: For guidance on investigation requirements refer to [Section 2.2](../requirements/#s-2-2). NACI investigations were replaced with Tier 1 investigation upon implementation of the 2012 Federal Investigative Standards.
+[^background]: For guidance on investigation requirements refer to [Section 2.2](../requirements/#s-2-2). National Agency Check with Written Inquiries investigations were replaced with Tier 1 investigation upon implementation of the 2012 Federal Investigative Standards.
 
 [^initiation]: The initiation of a background investigation is defined as the submission of the investigative request to the Defense Counterintelligence and Security Agency, or other authorized Federal investigation service provider.
 
@@ -193,7 +193,7 @@ PIV enrollment records can be applied in several situations to include
 
 ## 2.7 PIV Identity Proofing and Registration Requirements {#s-2-7}
 
-Identity proofing and registration requirements for issuance of PIV Cards meet Identity Assurance Level 3 (IAL3) as they follow a tailored process based on [[SP 800-63A]](../_Appendix/references.md#ref-SP-800-63A) IAL3 requirements. Departments and agencies SHALL follow an identity proofing and registration process that meets the requirements defined below when issuing PIV Cards.
+Identity proofing and registration requirements for issuance of PIV Cards meet Identity Assurance Level (IAL) 3 as they follow a tailored process based on [[SP 800-63A]](../_Appendix/references.md#ref-SP-800-63A) IAL3 requirements. Departments and agencies SHALL follow an identity proofing and registration process that meets the requirements defined below when issuing PIV Cards.
 
 The organization SHALL adopt and use an identity proofing and registration process that is approved in
 accordance with [[SP 800-79]](../_Appendix/references.md#ref-SP-800-79).
@@ -558,7 +558,7 @@ required to have procedures in place to issue emergency notifications in such ca
 Issuance of a derived PIV credential is an instance of the post-enrollment binding of an authenticator described in [[SP 800-63B]](../_Appendix/references.md#ref-SP-800-63B) and SHALL be performed in accordance with the requirements that apply to physical authenticators as well as the requirements below.
 
 The issuing or binding of derived PIV credentials SHALL use valid PIV Cards in accordance with
-[[SP 800-157]](../_Appendix/references.md#ref-SP-800-157). Derived PIV credentials MAY be created at the same authentication assurance level as the PIV Card itself (AAL3), or MAY be created at a lower AAL (AAL2) depending on the security characteristics of the authenticator. The issuer SHALL attempt to promptly notify the cardholder of the binding of a derived PIV credential through an independent means that would not afford an attacker with an opportunity to erase the notification. More than one independent notification method MAY be used to ensure prompt receipt by the subscriber. Derived PIV credentials SHALL be bound to the subscriber's PIV account only by the issuer of that PIV account.
+[[SP 800-157]](../_Appendix/references.md#ref-SP-800-157). Derived PIV credentials MAY be created at the same Authenticator Assurance Level (AAL) as the PIV Card itself (AAL3), or MAY be created at a lower AAL (AAL2) depending on the security characteristics of the authenticator. The issuer SHALL attempt to promptly notify the cardholder of the binding of a derived PIV credential through an independent means that would not afford an attacker with an opportunity to erase the notification. More than one independent notification method MAY be used to ensure prompt receipt by the subscriber. Derived PIV credentials SHALL be bound to the subscriber's PIV account only by the issuer of that PIV account.
 
 ### 2.10.2 Derived PIV Credential Invalidation Requirements {#s-2-10-2}
 

@@ -116,7 +116,7 @@ reason to do so (e.g., security). Deprecated features MAY continue to be used, b
 since the feature will likely be removed in the next revision of the Standard. Removed features SHALL NOT be used. For example, the CHUID
 authentication mechanism ([Section 6.2.5](authentication.md#s-6-2-5)) has been removed from this version of the Standard
 and relying systems SHALL NOT use this authentication
-mechanism.[^CHUID] The VIS authentication mechanism ([Section 6.2.6](authentication.md#s-6-2-6)) has been deprecated as a stand-alone
+mechanism.[^CHUID] The PIV Visual Credentials (VIS) authentication mechanism ([Section 6.2.6](authentication.md#s-6-2-6)) has been deprecated as a stand-alone
 authentication mechanism, but it could still be used in conjunction with other authentication mechanisms.
 
 In the case of deprecated features on PIV Cards, such as the magnetic stripe and bar codes, existing PIV Cards

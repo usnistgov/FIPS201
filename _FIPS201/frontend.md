@@ -445,7 +445,7 @@ data elements are part of the data model for PIV logical credentials that suppor
 mechanisms interoperable across agencies:
 
 - a PIN;
-- a CHUID;
+- a Cardholder Unique Identifier (CHUID);
 - PIV authentication data (one asymmetric private key and corresponding certificate);
 - two fingerprint biometric templates;
 - an electronic facial image; and
