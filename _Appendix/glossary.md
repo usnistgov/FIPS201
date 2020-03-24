@@ -37,7 +37,7 @@ constraints (e.g., costs, local environment, user acceptability).
 
 Assertion
 : A verifiable statement from an IdP to an RP that contains information about an end user. 
-Assertions may also contain information about the end user's authentication event at the IdP.
+Assertions may also contain information about the end user's _authentication_ event at the IdP.
 
 Asymmetric Keys
 : Two related keys, a public key and a private key, that are used to perform
@@ -49,7 +49,7 @@ Authentication
 person's identity and the _PIV Card_.
 
 Authenticator Assurance Level (AAL)
-: A measure of the strength of an authentication mechanism, and therefore the confidence in it, as
+: A measure of the strength of an _authentication_ mechanism, and therefore the confidence in it, as
 defined in [[SP 800-63]](references.md#ref-SP-800-63) in terms of three levels:
 
   - AAL1: SOME confidence
@@ -163,10 +163,10 @@ published by NIST, a part of the U.S. Department of Commerce. A FIPS covers some
 information technology to achieve a common level of quality or some level of interoperability.
 
 Federation
-: A process that allows the conveyance of identity and authentication information across a set of networked systems.
+: A process that allows the conveyance of identity and _authentication_ information across a set of networked systems.
 
 Federation Assurance Level (FAL)
-: A category describing the _assertion_ protocol used by the federation to communicate authentication and attribute 
+: A category describing the _assertion_ protocol used by the federation to communicate _authentication_ and attribute 
 information (if applicable) to an RP,  as
 defined in [[SP 800-63]](references.md#ref-SP-800-63) in terms of three levels:
 
@@ -315,13 +315,13 @@ keys needed to perform digital signature-based identity verification and to prot
 storage of sensitive verification system data within identity cards and the verification system.
 
 PKI-Card Authentication Key (PKI-CAK)
-: A PIV authentication mechanism that is implemented by
-an _asymmetric key_ challenge/response protocol using the card authentication key of the _PIV Card_ and a
+: A PIV _authentication_ mechanism that is implemented by
+an _asymmetric key_ challenge/response protocol using the card _authentication_ key of the _PIV Card_ and a
 contact or contactless reader.
 
 PKI-PIV Authentication Key (PKI-AUTH)
-: A PIV authentication mechanism that is implemented by
-an _asymmetric key_ challenge/response protocol using the PIV authentication key of the _PIV Card_ and a
+: A PIV _authentication_ mechanism that is implemented by
+an _asymmetric key_ challenge/response protocol using the PIV _authentication_ key of the _PIV Card_ and a
 contact reader, or a contactless card reader that supports the virtual contact interface.
 
 Recommendation
@@ -333,7 +333,7 @@ Registration
 
 Symmetric Key
 : A cryptographic key that is used to perform both the cryptographic operation and its
-inverse, for example to encrypt and decrypt, or create a message authentication code and to verify the
+inverse, for example to encrypt and decrypt, or create a message _authentication_ code and to verify the
 code.
 
 Security Executive Agent
