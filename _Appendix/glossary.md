@@ -106,7 +106,7 @@ Application.
 
 Certificate Revocation List
 : A list of revoked public key certificates created and digitally signed by a
-certification authority [[RFC 5280]](references.md#ref-RFC5280) [[RFC 6818]](references.md#ref-RFC6818).
+_certification authority_ [[RFC 5280]](references.md#ref-RFC5280) [[RFC 6818]](references.md#ref-RFC6818).
 
 Certification
 : The process of verifying the correctness of a statement or claim and issuing a certificate as
