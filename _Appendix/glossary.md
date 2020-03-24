@@ -91,7 +91,7 @@ Biometric Verification
 
 Biometric Verification Decision
 : A determination of whether biometric probe(s) and biometric reference(s) have 
-the same biometric source based on comparison score(s) during a verification 
+the same biometric source based on comparison score(s) during a _biometric verification_ 
 transaction [[ISO 2382-37]](references.md#ref-ISO/IEC-2382-37).
 
 Capture
