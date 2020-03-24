@@ -455,7 +455,7 @@ GUID
 : Global Unique Identification Number
 
 h
-: hours
+: Hours
 
 HSPD
 : Homeland Security Presidential Directive
