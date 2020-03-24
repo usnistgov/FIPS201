@@ -548,7 +548,7 @@ PAL
 : Physical Assurance Level
 
 PCI
-: _PIV Card_ Issuer
+: PIV Card Issuer
 
 PC/SC
 : Personal Computer/Smart Card
