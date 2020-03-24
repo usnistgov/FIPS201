@@ -31,8 +31,8 @@ facilitate the end user's interaction with the system.
 
 Architecture
 : A highly structured specification of an acceptable approach within a framework for
-solving a specific problem. An architecture contains descriptions of all the components of a selected,
-acceptable solution while allowing certain details of specific components to be variable to satisfy related
+solving a specific problem. An architecture contains descriptions of all the _components_ of a selected,
+acceptable solution while allowing certain details of specific _components_ to be variable to satisfy related
 constraints (e.g., costs, local environment, user acceptability).
 
 Assertion
@@ -129,7 +129,7 @@ verification support, within the PIV system.
 
 Conformance Testing
 : A process established by NIST within its responsibilities of developing,
-promulgating, and supporting FIPS for testing specific characteristics of components, products, and
+promulgating, and supporting FIPS for testing specific characteristics of _components_, products, and
 services, as well as people and organizations for compliance with a FIPS.
 
 Credential
@@ -245,9 +245,9 @@ reference are from the same source. _Match_ is a possible result of a
 _Comparison_. The opposite of a match is a _non-match_. See [[ISO 2382-37]](references.md#ref-ISO/IEC-2382-37) for more details.
 
 Model
-: A very detailed description or scaled representation of one component of a larger system that can
+: A very detailed description or scaled representation of one _component_ of a larger system that can
 be created, operated, and analyzed to predict actual operational characteristics of the final produced
-component.
+_component_.
 
 Off-Card
 : Refers to data that is not stored within the _PIV Card_ or to a computation that is not performed
