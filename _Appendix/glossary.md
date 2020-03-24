@@ -117,14 +117,14 @@ Certification Authority
 
 Chain-of-trust
 : An interoperable data format for _PIV enrollment records_ facilitating import and export of records 
-between _PIV Card_ issuers.
+between _PIV Card_ _issuers_.
 
 Comparison
 : Estimation, calculation, or measurement of similarity or dissimilarity between biometric probe(s) and biometric reference(s). 
 See also _Identification_. [[ISO 2382-37]](references.md#ref-ISO/IEC-2382-37) 
 
 Component
-: An element of a large system, such as an _identity_ card, issuer, card reader, or _identity
+: An element of a large system, such as an _identity_ card, _issuer_, card reader, or _identity
 verification_ support, within the PIV system.
 
 Conformance Testing
@@ -279,7 +279,7 @@ Personal Identification Number (PIN)
 their _identity_.
 
 Personal Identity Verification (PIV) Account
-: The logical record containing credentialing information for a given PIV _cardholder_.  This is typically stored within the issuer’s _identity management system_, and includes PIV enrollment data, _cardholder_ _identity_ attributes, and information regarding authenticators bound to the _cardholder_’s _identity_ (e.g., _PIV Card_ and _derived PIV credentials_).
+: The logical record containing credentialing information for a given PIV _cardholder_.  This is typically stored within the _issuer_’s _identity management system_, and includes PIV enrollment data, _cardholder_ _identity_ attributes, and information regarding authenticators bound to the _cardholder_’s _identity_ (e.g., _PIV Card_ and _derived PIV credentials_).
 
 Personal Identity Verification (PIV) Card
 : A physical artifact (e.g., _identity_ card, "smart" card) issued
@@ -293,7 +293,7 @@ PIV Assurance Level
 
 PIV Enrollment Record
 : A sequence of related _enrollment data sets_ that is created and 
-maintained by _PIV Card_ issuers. The PIV enrollment record typically contains data collected 
+maintained by _PIV Card_ _issuers_. The PIV enrollment record typically contains data collected 
 at each step of the PIV _identity proofing_, registration, and issuance processes.
 
 Private Key
