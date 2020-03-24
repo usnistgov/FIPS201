@@ -83,15 +83,15 @@ This information
 can be in terms of raw or compressed pixels or in terms of some _biometric characteristic_ (e.g., patterns).
 
 Biometric On-Card Comparison
-: A one-to-one comparison of fingerprint _biometric data records_ transmitted to the _PIV Card_ with a biometric reference 
+: A one-to-one _comparison_ of fingerprint _biometric data records_ transmitted to the _PIV Card_ with a biometric reference 
 previously stored on the _PIV Card_.
 
 Biometric Verification
-: Process of confirming a biometric claim through biometric comparison.
+: Process of confirming a biometric claim through biometric _comparison_.
 
 Biometric Verification Decision
 : A determination of whether biometric probe(s) and biometric reference(s) have 
-the same biometric source based on comparison score(s) during a _biometric verification_ 
+the same biometric source based on _comparison_ score(s) during a _biometric verification_ 
 transaction [[ISO 2382-37]](references.md#ref-ISO/IEC-2382-37).
 
 Capture
@@ -240,7 +240,7 @@ Key
 : See _Cryptographic Key_.
 
 Match
-: Comparison decision stating that the biometric probe(s) and the biometric 
+: _Comparison_ decision stating that the biometric probe(s) and the biometric 
 reference are from the same source. _Match_ is a possible result of a 
 _Comparison_. The opposite of a match is a _non-match_. See [[ISO 2382-37]](references.md#ref-ISO/IEC-2382-37) for more details.
 
