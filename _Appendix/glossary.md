@@ -26,7 +26,7 @@ prospective federal hire, a federal employee, or a contractor.[^eligibility]
 Application
 : A hardware/software system implemented to satisfy a particular set of requirements. In
 this context, an application incorporates a system used to satisfy a subset of requirements related to the
-verification or identification of an end user's identity so that the end user's _identifier_ can be used to
+verification or identification of an end user's _identity_ so that the end user's _identifier_ can be used to
 facilitate the end user's interaction with the system.
 
 Architecture
@@ -46,7 +46,7 @@ verification.
 
 Authentication
 : The process of establishing confidence of authenticity; in this case, in the validity of a
-person's identity and the _PIV Card_.
+person's _identity_ and the _PIV Card_.
 
 Authenticator Assurance Level (AAL)
 : A measure of the strength of an _authentication_ mechanism, and therefore the confidence in it, as
@@ -124,8 +124,8 @@ Comparison
 See also _Identification_. [[ISO 2382-37]](references.md#ref-ISO/IEC-2382-37) 
 
 Component
-: An element of a large system, such as an identity card, issuer, card reader, or identity
-verification support, within the PIV system.
+: An element of a large system, such as an _identity_ card, issuer, card reader, or _identity
+verification_ support, within the PIV system.
 
 Conformance Testing
 : A process established by NIST within its responsibilities of developing,
@@ -134,7 +134,7 @@ services, as well as people and organizations for compliance with a FIPS.
 
 Credential
 : Evidence attesting to one's right to credit or authority; in this Standard, it is the _PIV Card_
-and data elements associated with an individual that authoritatively binds an identity (and, optionally,
+and data elements associated with an individual that authoritatively binds an _identity_ (and, optionally,
 additional attributes) to that individual.
 
 Cryptographic Key (Key)
@@ -142,7 +142,7 @@ Cryptographic Key (Key)
 determines the specific operation of that algorithm.
 
 Derived PIV Credential
-: A _credential_ issued based on proof of possession and control of a _PIV Card_ so as not to duplicate the identity proofing process.
+: A _credential_ issued based on proof of possession and control of a _PIV Card_ so as not to duplicate the _identity proofing_ process.
 
 Enrollment
 : See _Identity Registration_.
@@ -163,7 +163,7 @@ published by NIST, a part of the U.S. Department of Commerce. A FIPS covers some
 information technology to achieve a common level of quality or some level of interoperability.
 
 Federation
-: A process that allows the conveyance of identity and _authentication_ information across a set of networked systems.
+: A process that allows the conveyance of _identity_ and _authentication_ information across a set of networked systems.
 
 Federation Assurance Level (FAL)
 : A category describing the _assertion_ protocol used by the _federation_ to communicate _authentication_ and attribute 
@@ -184,11 +184,11 @@ hash functions [[FIPS180]](references.md#ref-FIPS180) satisfy the following prop
     the same output.
 
 Identification
-: The process of discovering the identity (i.e., origin or initial history) of a person or item
+: The process of discovering the _identity_ (i.e., origin or initial history) of a person or item
 from the entire collection of similar persons or items.
 
 Identifier
-: Unique data used to represent a person's identity and associated attributes. A name or a card
+: Unique data used to represent a person's _identity_ and associated attributes. A name or a card
 number are examples of identifiers.
 
 Identity
@@ -196,7 +196,7 @@ Identity
 recognizable.
 
 Identity Assurance Level (IAL)
-: A category that conveys the degree of confidence that the end user’s claimed identity is their real identity,  as
+: A category that conveys the degree of confidence that the end user’s claimed _identity_ is their real _identity_,  as
 defined in [[SP 800-63]](references.md#ref-SP-800-63) in terms of three levels:
 
   - IAL1: SOME confidence
@@ -204,23 +204,23 @@ defined in [[SP 800-63]](references.md#ref-SP-800-63) in terms of three levels:
   - IAL3: VERY HIGH confidence
 
 Identity Proofing
-: The process of providing sufficient information (e.g., identity history, _credentials_,
-documents) to establish an identity.
+: The process of providing sufficient information (e.g., _identity_ history, _credentials_,
+documents) to establish an _identity_.
 
 Identity Management System (IDMS)
-: Identity management system comprised of one or more systems
-or _applications_ that manages the identity verification, validation, and issuance process.
+: One or more systems
+or _applications_ that manage the _identity verification_, validation, and issuance process.
 
 Identity Registration
-: The process of making a person's identity known to the PIV system, associating a
-unique _identifier_ with that identity, and collecting and recording the person's relevant attributes into the
+: The process of making a person's _identity_ known to the PIV system, associating a
+unique _identifier_ with that _identity_, and collecting and recording the person's relevant attributes into the
 system. In some other NIST documents such as [[SP 800-63A]](references.md#ref-SP-800-63A), identity registration is referred to as _enrollment_.
 
 Identity Verification
-: The process of confirming or denying that a claimed identity is correct by
+: The process of confirming or denying that a claimed _identity_ is correct by
 comparing the _credentials_ (something you know, something you have, something you are) of a person
 requesting access with those previously proven and stored in the _PIV Card_ or system and associated with
-the identity being claimed.
+the _identity_ being claimed.
 
 Issuer
 : The organization that is issuing the _PIV Card_ to an _applicant_. Typically this is an organization
@@ -231,7 +231,7 @@ Issuing Facility
   documentation---that is responsible for carrying out one or more of the
   following PIV functions:
   
-  * identity proofing/registration;
+  * _identity proofing_/registration;
   * card/token production;
   * activation/issuance; and
   * maintenance.
@@ -270,31 +270,31 @@ trustworthy.
 
 Personally Identifiable Information (PII)
 : Information that can be used to distinguish or trace an
-individual's identity, such as name, social security number, _biometric data records_, etc. alone, or when
+individual's _identity_, such as name, social security number, _biometric data records_, etc. alone, or when
 combined with other personal or identifying information that is linked or linkable to a specific individual,
 such as date and place of birth, mother's maiden name, etc. [[M-17-12]](references.md#ref-OMB1712)
 
 Personal Identification Number (PIN)
 : A secret that a _cardholder_ memorizes and uses to authenticate
-their identity.
+their _identity_.
 
 Personal Identity Verification (PIV) Account
-: The logical record containing credentialing information for a given PIV _cardholder_.  This is typically stored within the issuer’s identity management system, and includes PIV enrollment data, _cardholder_ identity attributes, and information regarding authenticators bound to the _cardholder_’s identity (e.g., _PIV Card_ and _derived PIV credentials_).
+: The logical record containing credentialing information for a given PIV _cardholder_.  This is typically stored within the issuer’s _identity management system_, and includes PIV enrollment data, _cardholder_ _identity_ attributes, and information regarding authenticators bound to the _cardholder_’s _identity_ (e.g., _PIV Card_ and _derived PIV credentials_).
 
 Personal Identity Verification (PIV) Card
-: A physical artifact (e.g., identity card, "smart" card) issued
-to an individual that contains a PIV Card Application which stores identity _credentials_ (e.g., photograph,
-_cryptographic keys_, digitized fingerprint representation) so that the claimed identity of the _cardholder_ can
+: A physical artifact (e.g., _identity_ card, "smart" card) issued
+to an individual that contains a PIV Card Application which stores _identity_ _credentials_ (e.g., photograph,
+_cryptographic keys_, digitized fingerprint representation) so that the claimed _identity_ of the _cardholder_ can
 be verified against the stored _credentials_ by another person (human readable and verifiable) or an
 automated process (computer readable and verifiable).
 
 PIV Assurance Level
-: A degree of confidence established in the identity of the holder of the _PIV Card_.
+: A degree of confidence established in the _identity_ of the holder of the _PIV Card_.
 
 PIV Enrollment Record
 : A sequence of related _enrollment data sets_ that is created and 
 maintained by _PIV Card_ issuers. The PIV enrollment record typically contains data collected 
-at each step of the PIV identity proofing, registration, and issuance processes.
+at each step of the PIV _identity proofing_, registration, and issuance processes.
 
 Private Key
 : The secret part of an _asymmetric key_ pair that is typically used to digitally sign or decrypt
@@ -311,8 +311,8 @@ encrypt data.
 
 Public Key Infrastructure (PKI)
 : A support service to the PIV system that provides the cryptographic
-keys needed to perform digital signature-based identity verification and to protect communications and
-storage of sensitive verification system data within identity cards and the verification system.
+keys needed to perform digital signature-based _identity verification_ and to protect communications and
+storage of sensitive verification system data within _identity_ cards and the verification system.
 
 PKI-Card Authentication Key (PKI-CAK)
 : A PIV _authentication_ mechanism that is implemented by
