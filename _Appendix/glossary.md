@@ -40,7 +40,7 @@ Assertion
 Assertions may also contain information about the end user's _authentication_ event at the IdP.
 
 Asymmetric Keys
-: Two related keys, a public key and a private key, that are used to perform
+: Two related _keys_, a _public key_ and a _private key_, that are used to perform
 complementary operations, such as encryption and decryption or signature generation and signature
 verification.
 
@@ -105,7 +105,7 @@ Card Management System
 Application.
 
 Certificate Revocation List
-: A list of revoked public key certificates created and digitally signed by a
+: A list of revoked _public key_ certificates created and digitally signed by a
 _certification authority_ [[RFC 5280]](references.md#ref-RFC5280) [[RFC 6818]](references.md#ref-RFC6818).
 
 Certification
@@ -113,7 +113,7 @@ Certification
 to its correctness.
 
 Certification Authority
-: A trusted entity that issues and revokes public key certificates.
+: A trusted entity that issues and revokes _public key_ certificates.
 
 Chain-of-trust
 : An interoperable data format for _PIV enrollment records_ facilitating import and export of records 
@@ -258,12 +258,12 @@ On-Card
 Integrated Circuit Chip (ICC) of the _PIV Card_.
 
 Online Certificate Status Protocol (OCSP)
-: An online protocol used to determine the status of a public
-key certificate [[RFC 6960]](references.md#ref-RFC6960).
+: An online protocol used to determine the status of a _public
+key_ certificate [[RFC 6960]](references.md#ref-RFC6960).
 
 Path Validation
-: The process of verifying the binding between the subject _identifier_ and subject public
-key in a certificate, based on the public key of a trust anchor, through the validation of a chain of
+: The process of verifying the binding between the subject _identifier_ and subject _public
+key_ in a certificate, based on the _public key_ of a trust anchor, through the validation of a chain of
 certificates that begins with a certificate issued by the trust anchor and ends with the target certificate.
 Successful path validation provides strong evidence that the information in the target certificate is
 trustworthy.
@@ -310,18 +310,18 @@ Public Key
 encrypt data.
 
 Public Key Infrastructure (PKI)
-: A support service to the PIV system that provides the cryptographic
-keys needed to perform digital signature-based _identity verification_ and to protect communications and
+: A support service to the PIV system that provides the _cryptographic
+keys_ needed to perform digital signature-based _identity verification_ and to protect communications and
 storage of sensitive verification system data within _identity_ cards and the verification system.
 
 PKI-Card Authentication Key (PKI-CAK)
 : A PIV _authentication_ mechanism that is implemented by
-an _asymmetric key_ challenge/response protocol using the card _authentication_ key of the _PIV Card_ and a
+an _asymmetric key_ challenge/response protocol using the card _authentication_ _key_ of the _PIV Card_ and a
 contact or contactless reader.
 
 PKI-PIV Authentication Key (PKI-AUTH)
 : A PIV _authentication_ mechanism that is implemented by
-an _asymmetric key_ challenge/response protocol using the PIV _authentication_ key of the _PIV Card_ and a
+an _asymmetric key_ challenge/response protocol using the PIV _authentication_ _key_ of the _PIV Card_ and a
 contact reader, or a contactless card reader that supports the virtual contact interface.
 
 Recommendation
