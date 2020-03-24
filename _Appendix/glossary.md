@@ -231,7 +231,7 @@ Issuing Facility
   documentation---that is responsible for carrying out one or more of the
   following PIV functions:
   
-  * _identity proofing_/registration;
+  * _identity proofing_/_registration_;
   * card/token production;
   * activation/issuance; and
   * maintenance.
@@ -294,7 +294,7 @@ PIV Assurance Level
 PIV Enrollment Record
 : A sequence of related _enrollment data sets_ that is created and 
 maintained by _PIV Card_ _issuers_. The PIV enrollment record typically contains data collected 
-at each step of the PIV _identity proofing_, registration, and issuance processes.
+at each step of the PIV _identity proofing_, _registration_, and issuance processes.
 
 Private Key
 : The secret part of an _asymmetric key_ pair that is typically used to digitally sign or decrypt
