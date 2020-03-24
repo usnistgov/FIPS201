@@ -300,7 +300,7 @@ Private Key
 : The secret part of an _asymmetric key_ pair that is typically used to digitally sign or decrypt
 data.
 
-Pseudonyms
+Pseudonym
 : a name assigned by a federal department or agency through a formal process to a federal
 employee for the purpose of the employee's protection (i.e., the employee might be placed at risk if his or
 her actual name were known) or for other purposes.
