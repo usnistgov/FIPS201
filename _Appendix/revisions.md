@@ -7,7 +7,7 @@ permalink: /revisions/
 ---
 # Appendix E— Revision History {#s-e}
 
-The Revision History provides an overview of the changes to FIPS 201 since its initial release.
+This appendix is informative.  It provides an overview of the changes to FIPS 201 since its initial release.
 
 |Version|Release Date|Updates|
 |---|---|---|
