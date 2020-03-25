@@ -58,7 +58,7 @@ The minimum requirement for PIV Credential eligibility determination is a comple
 
 If no corresponding prior investigation exists, the appropriate required investigation must be initiated with the authorized federal investigative service provider and the FBI NCHC portion of the background investigation is completed and adjudicated before an individual is determined eligible to be issued a PIV Card. 
 
-Once the investigation is completed, the authorized adjudicative entity SHALL adjudicate the investigation and report final eligibility determination to the proper Federal System of Record (Central Verification System, or successor). 
+Once the investigation is completed, the authorized adjudicative entity SHALL adjudicate the investigation and report final eligibility determination to the Central Verification System (or successor). This determination MAY also be recorded in the issuer's identity management system (IDMS). 
 
 For full guidance on PIV credentialing investigative and adjudicative requirements, issuers must work closely with their personnel security/suitability offices to ensure adherence to the latest federal personnel vetting guidance as provided by the Executive Agents. 
 
