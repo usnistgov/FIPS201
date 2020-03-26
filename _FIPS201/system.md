@@ -112,7 +112,7 @@ The enterprise IDMS serves as the central repository for the cardholder’s digi
 
   * A security office may provide updated background investigative information to the IDMS.
   * An HR system may relay hiring status updates.
-  * The IDMS may serve as the Credential Service Provider (CSP), authenticating the cardholder on behalf of Relying Parties and issuing assertions of attributes stored in the PIV account.
+  * The IDMS may serve as the Credential Service Provider (CSP), authenticating the cardholder on behalf of Relying Parties and issuing assertions of attributes relating to the PIV account.
 
 ### 3.1.3 PIV Relying Subsystem {#s-3-1-3}
 
