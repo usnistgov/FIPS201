@@ -17,7 +17,8 @@ to federally-controlled government facilities and logical access to government i
 
 The Standard contains the minimum requirements for a federal personal identity verification system that
 meets the control and security objectives of Homeland Security Presidential Directive-12 [[HSPD-12]](_Appendix/references.md#ref-HSPD-12) 
-including identity proofing, registration of applicant, and issuance of PIV cards and Derived PIV credentials. It specifies the use of  federation protocols as a means of accepting PIV card credential and derived PIV credentials issued by other agencies.
+including identity proofing, registration of applicant, and issuance of PIV cards and Derived PIV credentials. It specifies the use of 
+federation protocols as a means of accepting PIV card credential and derived PIV credentials issued by other agencies.
 
 The Standard describes the card elements, system interfaces, and security controls required to securely store, process,
 and retrieve identity credentials from the card. The physical card characteristics, storage media, and data
