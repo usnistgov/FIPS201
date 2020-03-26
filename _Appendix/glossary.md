@@ -105,7 +105,7 @@ Card Management System
 Application.
 
 Central Verification System
-: A system operated by the Office of Personnel Management containing information on security clearances, investigations, suitability, fitness determinations, HSPD-12 decisions, PIV credentials, and polygraph data.
+: A system operated by the Office of Personnel Management containing information on security clearances, investigations, suitability, fitness determinations, [[HSPD-12]](references.md#ref-HSPD-12) decisions, PIV credentials, and polygraph data.
 
 Certificate Revocation List
 : A list of revoked _public key_ certificates created and digitally signed by a
