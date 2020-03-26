@@ -209,7 +209,7 @@ documents) to establish an _identity_.
 
 Identity Management System (IDMS)
 : One or more systems
-or _applications_ that manage the _identity verification_, validation, and issuance processes.
+or _applications_ that manage the _identity proofing_, _registration_, and issuance processes.
 
 Identity Registration
 : The process of making a person's _identity_ known to the PIV system, associating a
