@@ -41,6 +41,7 @@ cardholder. Once the required assurance level has been determined, one of the au
 specified in [Section 6.2](#s-6-2) SHALL be applied to achieve that assurance level.
 
 ### 6.1.1 Relationship to Federal Identity Policy (Removed) {#s-6-1-1}
+{:latex-toc="6.1.1 Relationship to Federal Identity Policy"}
 
 The content of this section has been removed as OMB M-04-04 has been rescinded by OMB [[M-19-17]](../_Appendix/references.md#ref-OMB1917), which recognizes the IALs defined in NIST [[SP 800-63]](../_Appendix/references.md#ref-SP-800-63) as the framework for managing digital identity risks within the federal government. A mapping between PIV authentication mechanisms and SP 800-63 assurance levels can be found in [Section 6.3.2](#s-6-3-2).
 
@@ -74,6 +75,7 @@ Some characteristics of the authentication mechanisms using biometric data (desc
 [^bioreaders]: As noted in [Section 4.2.3.1](../frontend/#s-4-2-3-1), fingerprint biometric templates are not guaranteed to contain biometric characteristic data, since it may not be possible to collect fingerprints from some cardholders. Additionally, electronic iris images are not guaranteed to be present on a PIV Card, since iris biometric capture is optional. When biometric verification cannot be performed, PKI-AUTH is the recommended alternate authentication mechanism.
 
 #### 6.2.1.1 Unattended Authentication Using Biometric Data (BIO) {#s-6-2-1-1}
+{:latex-toc="6.2.1.1 Unattended Authentication Using Biometric Data"}
 
 The following steps SHALL be performed for unattended authentication of biometric data:
 
@@ -96,12 +98,14 @@ The following steps SHALL be performed for unattended authentication of biometri
 [^expired]: The PIV authentication certificate or card authentication certificate may be leveraged instead of the CHUID to verify that the card is not expired.
 
 #### 6.2.1.2 Attended Authentication of Biometric Data (BIO-A) {#s-6-2-1-2}
+{:latex-toc="6.2.1.2 Attended Authentication of Biometric Data"}
 
 In this higher assurance variant, an attendant (e.g., security guard) supervises 
 the submission of the new biometric sample by the cardholder. Otherwise, the steps for this authentication mechanism
 are the same as in [Section 6.2.1.1](#s-6-2-1-1).
 
 ### 6.2.2 Authentication Using On-Card Biometric One-to-One Comparison (OCC-AUTH) {#s-6-2-2}
+{:latex-toc="6.2.2 Authentication Using On-Card Biometric One-to-One Comparison"}
 
 The PIV Card Application MAY host an optional on-card fingerprint one-to-one comparison algorithm. In this case,
 on-card fingerprint one-to-one comparison data is stored on the card, which cannot be read, but could be used for
@@ -127,6 +131,7 @@ certificates to support CTE authentication, as described in [Section 4](frontend
 following subsections describe how to perform authentication using the authentication keys.
 
 #### 6.2.3.1 Authentication with the PIV Authentication Certificate Credential (PKI-AUTH) {#s-6-2-3-1}
+{:latex-toc="6.2.3.1 Authentication with the PIV Authentication Certificate Credential"}
 
 The following steps SHALL be performed for PKI-AUTH:
 
@@ -156,6 +161,7 @@ Some of the characteristics of the PKI-based authentication mechanism are as fol
 [^pivpath]: Path validation SHOULD be configured to specify which policy OIDs are trusted. The policy OID for the PIV authentication certificate is id-fpki-common-authentication.
 
 #### 6.2.3.2 Authentication with the Card Authentication Certificate Credential (PKI-CAK) {#s-6-2-3-2}
+{:latex-toc="6.2.3.2 Authentication with the Card Authentication Certificate Credential"}
 
 The following steps SHALL be performed for PKI-CAK:
 
@@ -181,6 +187,7 @@ Some of the characteristics of the PKI-CAK authentication mechanism are as follo
 [^cacpath]: Path validation SHOULD be configured to specify which policy OIDs are trusted. The policy OID for the card authentication certificate is id-fpki-common-cardAuth.
 
 ### 6.2.4 Authentication with the Symmetric Card Authentication Key (SYM-CAK) {#s-6-2-4}
+{:latex-toc="6.2.4 Authentication with the Symmetric Card Authentication Key"}
 
 The PIV Card Application MAY host the optional symmetric card authentication key. In this case, the
 symmetric card authentication key SHALL be used for PIV cardholder authentication using the following
@@ -206,12 +213,14 @@ follows:
 - applicable with contact and contactless readers.
 
 ### 6.2.5 Authentication Using the CHUID (Removed) {#s-6-2-5}
+{:latex-toc="6.2.5 Authentication Using the CHUID"}
 
 The content of this section has been removed since the CHUID authentication mechanism is no longer allowed under FIPS-201. 
 
 The CHUID data element remains a required on-card data element as described in [Section 4.2.1](frontend.md#s-4-2-1), as the BIO(-A) and SYM-CAK authentication mechanisms use the CHUID data element as a source for the card’s expiration date. The CHUID data element also provides the content signing certificate for some authentication mechanisms and unique identifiers for PACS ACLs. 
 
 ### 6.2.6 Authentication Using PIV Visual Credentials (VIS) (Deprecated) {#s-6-2-6}
+{:latex-toc="6.2.6 Authentication Using PIV Visual Credentials"}
 
 Visual authentication of a PIV cardholder as a stand-alone authentication mechanism has been deprecated in this version of the Standard. The mechanism provides little or no assurance of the cardholder's identity and SHOULD NOT be used. It is expected that the stand-alone use of visual authentication will be removed from this Standard in a future revision. 
 

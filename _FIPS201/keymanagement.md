@@ -61,15 +61,18 @@ PIV Card. The presence of a valid, unexpired, and unrevoked authentication
 certificate on a card is sufficient proof that the card was issued and is not revoked.
 
 ## 5.3 X.509 Certificate Revocation List (CRL) Contents {#s-5-3}
+{:latex-toc="5.3 X.509 Certificate Revocation List Contents"}
 
 CAs that issue certificates corresponding to PIV private keys SHALL issue CRLs as specified in
 [[COMMON]](../_Appendix/references.md#ref-COMMON). The contents of X.509 CRLs SHALL conform to *CRL Profile* in [[PROF]](../_Appendix/references.md#ref-PROF).
 
 ## 5.4 Legacy PKIs (Removed) {#s-5-4}
+{:latex-toc="5.4 Legacy PKIs"}
 
 The content of this section has been removed as [[COMMON]](../_Appendix/references.md#ref-COMMON) reflects the requirements for department and agency CAs that might be issuing cross-certified PIV authentication certificates and card authentication certificates.
 
 ## 5.5 PKI Repository and Online Certificate Status Protocol (OCSP) Responder(s) {#s-5-5}
+{:latex-toc="5.5 PKI Repository and Online Certificate Status Protocol Responder(s)"}
 
 CAs that issue certificates corresponding to PIV private keys (PIV authentication, card authentication, digital signature, or key management certificates) SHALL
 

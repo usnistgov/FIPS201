@@ -10,6 +10,7 @@ permalink: /accreditation/
 _This appendix is normative._ It provides compliance requirements for PIV validation, certification, and accreditation.
 
 ## A.1 Accreditation of PIV Card Issuers (PCI) and Derived PIV Credential Issuers (DPCI) {#s-a-1}
+{:latex-toc="A.1 Accreditation of PIV Card Issuers and Derived PIV Credential Issuers"}
 
 [[HSPD-12]](references.md#ref-HSPD-12) requires that all cards be issued by providers whose reliability has been established by an
 official accreditation process. The accreditation of the PIV Card issuer SHALL be reviewed through a third-party assessment to enhance the trustworthiness of the credential. To facilitate consistent independent
@@ -48,6 +49,7 @@ the accreditation decision.
 
 
 ## A.2 Application of Risk Management Framework to IT System(s) Supporting PCI {#s-a-2}
+{:latex-toc="A.2 Application of Risk Management Framework to IT Systems"}
 
 The accreditation of the capability and reliability of a PCI and DPCI using the methodology outlined in [[SP 800-79]](references.md#ref-SP-800-79) depends upon adequate security for the information systems that are used for PCI and DPCI functions. The
 assurance that such a security exists in a PCI and DPCI is obtained through evidence of the application of the Risk

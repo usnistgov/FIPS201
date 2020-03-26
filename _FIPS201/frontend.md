@@ -366,45 +366,45 @@ in [Figure 4-8](#fig-4-8). This is necessary to display information required by 
 legislatively mandated medical entitlements.
 
 
-[Figure 4-1. Card Front—Printable Areas and Required Data](#fig-4-1){:name="fig-4-1"}
+[Figure 4-1. Card Front: Printable Areas and Required Data](#fig-4-1){:name="fig-4-1"}
 {:latex-ignore="true"}
 
-![Card Front—Printable Areas and Required Data]({{site.baseurl}}/{{page.collection}}/images/cardfront-required.png){:style="width: 1047px;" latex-src="cardfront-required.pdf" latex-fig="4-1"}
+![Card Front: Printable Areas and Required Data]({{site.baseurl}}/{{page.collection}}/images/cardfront-required.png){:style="width: 1047px;" latex-src="cardfront-required.pdf" latex-fig="4-1"}
 
-[Figure 4-2. Card Front—Optional Data Placement—Example 1](#fig-4-2){:name="fig-4-2"}
+[Figure 4-2. Card Front: Optional Data Placement (Example 1)](#fig-4-2){:name="fig-4-2"}
 {:latex-ignore="true"}
 
-![Card Front—Optional Data Placement—Example 1]({{site.baseurl}}/{{page.collection}}/images/cardfront-optional1.png){:style="width: 1047px;" latex-src="cardfront-optional1.pdf" latex-fig="4-2"}
+![Card Front: Optional Data Placement (Example 1)]({{site.baseurl}}/{{page.collection}}/images/cardfront-optional1.png){:style="width: 1047px;" latex-src="cardfront-optional1.pdf" latex-fig="4-2"}
 
-[Figure 4-3. Card Front—Optional Data Placement—Example 2](#fig-4-3){:name="fig-4-3"}
+[Figure 4-3. Card Front: Optional Data Placement (Example 2)](#fig-4-3){:name="fig-4-3"}
 {:latex-ignore="true"}
 
-![Card Front—Optional Data Placement—Example 2]({{site.baseurl}}/{{page.collection}}/images/cardfront-optional2.png){:style="width: 1047px;" latex-src="cardfront-optional2.pdf" latex-fig="4-3"}
+![Card Front: Optional Data Placement (Example 2)]({{site.baseurl}}/{{page.collection}}/images/cardfront-optional2.png){:style="width: 1047px;" latex-src="cardfront-optional2.pdf" latex-fig="4-3"}
 
-[Figure 4-4. Card Front—Optional Data Placement—Example 3](#fig-4-4){:name="fig-4-4"}
+[Figure 4-4. Card Front: Optional Data Placement (Example 3)](#fig-4-4){:name="fig-4-4"}
 {:latex-ignore="true"}
 
-![Card Front—Optional Data Placement—Example 3]({{site.baseurl}}/{{page.collection}}/images/cardfront-optional3.png){:style="width: 1047px;" latex-src="cardfront-optional3.pdf" latex-fig="4-4"}
+![Card Front: Optional Data Placement (Example 3)]({{site.baseurl}}/{{page.collection}}/images/cardfront-optional3.png){:style="width: 1047px;" latex-src="cardfront-optional3.pdf" latex-fig="4-4"}
 
-[Figure 4-5. Card Front—Optional Data Placement—Example 4](#fig-4-5){:name="fig-4-5"}
+[Figure 4-5. Card Front: Optional Data Placement (Example 4)](#fig-4-5){:name="fig-4-5"}
 {:latex-ignore="true"}
 
-![Card Front—Optional Data Placement—Example 4]({{site.baseurl}}/{{page.collection}}/images/cardfront-optional4.png){:style="width: 1047px;" latex-src="cardfront-optional4.pdf" latex-fig="4-5"}
+![Card Front: Optional Data Placement (Example 4)]({{site.baseurl}}/{{page.collection}}/images/cardfront-optional4.png){:style="width: 1047px;" latex-src="cardfront-optional4.pdf" latex-fig="4-5"}
 
-[Figure 4-6. Card Back—Printable Areas and Required Data](#fig-4-6){:name="fig-4-6"}
+[Figure 4-6. Card Back: Printable Areas and Required Data](#fig-4-6){:name="fig-4-6"}
 {:latex-ignore="true"}
 
-![Card Back—Printable Areas and Required Data]({{site.baseurl}}/{{page.collection}}/images/cardback-required.png){:style="width: 1047px;" latex-src="cardback-required.pdf" latex-fig="4-6"}
+![Card Back: Printable Areas and Required Data]({{site.baseurl}}/{{page.collection}}/images/cardback-required.png){:style="width: 1047px;" latex-src="cardback-required.pdf" latex-fig="4-6"}
 
-[Figure 4-7. Card Back—Optional Data Placement—Example 1](#fig-4-7){:name="fig-4-7"}
+[Figure 4-7. Card Back: Optional Data Placement (Example 1)](#fig-4-7){:name="fig-4-7"}
 {:latex-ignore="true"}
 
-![Card Back—Optional Data Placement—Example 1]({{site.baseurl}}/{{page.collection}}/images/cardback-optional1.png){:style="width: 1047px;" latex-src="cardback-optional1.pdf" latex-fig="4-7"}
+![Card Back: Optional Data Placement (Example 1)]({{site.baseurl}}/{{page.collection}}/images/cardback-optional1.png){:style="width: 1047px;" latex-src="cardback-optional1.pdf" latex-fig="4-7"}
 
-[Figure 4-8. Card Back—Optional Data Placement—Example 2](#fig-4-8){:name="fig-4-8"}
+[Figure 4-8. Card Back Optional Data Placement (Example 2)](#fig-4-8){:name="fig-4-8"}
 {:latex-ignore="true"}
 
-![Card Back—Optional Data Placement—Example 2]({{site.baseurl}}/{{page.collection}}/images/cardback-optional2.png){:style="width: 1047px;" latex-src="cardback-optional2.pdf" latex-fig="4-8"}
+![Card Back Optional Data Placement (Example 2)]({{site.baseurl}}/{{page.collection}}/images/cardback-optional2.png){:style="width: 1047px;" latex-src="cardback-optional2.pdf" latex-fig="4-8"}
 
 ### 4.1.5 Color Representation {#s-4-1-5}
 
@@ -789,6 +789,7 @@ computing systems, the reader-to-host system interface is not specified in this 
 
 
 ### 4.4.3 Reader Interoperability (Removed) {#s-4-4-3}
+{:latex-toc="4.4.3 Reader Interoperability"}
 
 The content of this section has been removed as the PIV middleware specified in [[SP 800-73]](../_Appendix/references.md#ref-SP-800-73) adequately covers reader interoperability, resilience, and flexibility for different PIV systems.
 
