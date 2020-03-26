@@ -46,6 +46,7 @@ _This appendix is normative._ It provides additional details for the PIV objects
 The OIDs for certificate policies are specified in [[COMMON]](references.md#ref-COMMON).
 
 ## B.2 PIV Background Investigation Indicator Certificate Extension (Deprecated) {#s-b-2}
+{:latex-toc="B.2 PIV Background Investigation Indicator Certificate Extension"}
 
 The PIV background investigation indicator (previously known as the NACI indicator) is deprecated under this version of the 
 Standard. It is expected that the indicator will be removed from a future revision of this standard.
