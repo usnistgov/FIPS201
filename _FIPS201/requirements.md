@@ -58,7 +58,8 @@ The minimum requirement for PIV Credential eligibility determination is a comple
 
 If no corresponding prior investigation exists, the appropriate required investigation must be initiated with the authorized federal investigative service provider and the FBI NCHC portion of the background investigation is completed and adjudicated before an individual is determined eligible to be issued a PIV Card. 
 
-Once the investigation is completed, the authorized adjudicative entity SHALL adjudicate the investigation and report final eligibility determination to the proper Federal System of Record (Central Verification System, or successor). 
+Once the investigation is completed, the authorized adjudicative entity SHALL adjudicate the investigation and report final eligibility determination to the Central Verification System (or successor). This determination MAY also be recorded in the issuer's identity management system (IDMS). 
+The IDMS SHOULD reflect the PIV eligibility of each PIV cardholder and the subsequent re-enrollment in Continuous Vetting Program, as appropriate.
 
 For full guidance on PIV credentialing investigative and adjudicative requirements, issuers must work closely with their personnel security/suitability offices to ensure adherence to the latest federal personnel vetting guidance as provided by the Executive Agents. 
 
@@ -131,6 +132,8 @@ MAY be retrieved and displayed on guard workstations to augment
 authentication processes from [Section 6.2](authentication.md#s-6-2).
 The electronic facial image is a secondary means of authentication during operator-attended PIV issuance and maintenance processes
 when fingerprint biometric data records are unavailable.
+
+PIV background investigation, identity proofing, registration, and issuance processes MAY be performed across multiple sessions at different facilities. If multiple sessions are needed, the applicant SHALL be linked through a positive biometric verification decision by comparing biometric characteristics captured at a previous session with biometric characteristics captured during the current session. Issuers SHALL follow applicable federal law and regulations regarding the retention and destruction of biometric data.
 
 ## 2.6 PIV Enrollment Records {#s-2-6}
 
@@ -381,16 +384,14 @@ Reissuance is the process by which a new PIV Card is issued to a cardholder with
 the entire identity proofing and registration procedure. The reissuance process may be used to replace a
 PIV Card that is nearing expiration, in the event of an employee status or attribute change, or to replace a
 PIV Card that has been compromised, lost, stolen, or damaged. The cardholder may also apply for
-reissuance of a PIV Card if one or more logical credentials have been compromised. The entire identity
+reissuance of a PIV Card if one or more logical credentials have been compromised. The identity
 proofing, registration, and issuance processes, as described in [Section 2.7](requirements.md#s-2-7) and [Section 2.8](requirements.md#s-2-8), SHALL be repeated if the 
-issuer does not maintain a PIV enrollment record that includes biometric data records for the cardholder. The entire identity proofing, registation, and issuance process SHALL also be repeated if the reissuance process was not 
+issuer does not maintain a PIV enrollment record that includes biometric data records for the cardholder. The identity proofing, registation, and issuance processes SHALL also be repeated if the reissuance process was not 
 started before the old PIV Card expired.
 
 If the expiration date of the new PIV Card is later than the expiration date of the old card, or if any data
 about the cardholder is being changed, the card issuer SHALL ensure that an adjudicative entity has authorized
-the issuance of the new PIV Card. The issuer SHALL ensure that the adjudicative entity has verified that there is a PIV eligibility determination in the system of record.[^record] 
-
-[^record]: The Identity Management System (IDMS) SHOULD reflect the PIV eligibility of each PIV cardholder and the subsequent re-enrollment in Continuous Vetting Program, as appropriate.
+the issuance of the new PIV Card. The issuer SHALL ensure that the adjudicative entity has verified that there is a PIV eligibility determination in an authoritative record, such as the agency's IDMS or the Central Verification System (or successor).
 
 The issuer SHALL perform a biometric verification of the applicant to the biometric data records obtained from either the PIV Card or PIV enrollment record. Minimum accuracy requirements for
 the biometric verification are specified in [[SP 800-76]](../_Appendix/references.md#ref-SP-800-76). On a positive biometric verification decision, the new PIV Card SHALL be
@@ -558,15 +559,15 @@ required to have procedures in place to issue emergency notifications in such ca
 Issuance of a derived PIV credential is an instance of the post-enrollment binding of an authenticator described in [[SP 800-63B]](../_Appendix/references.md#ref-SP-800-63B) and SHALL be performed in accordance with the requirements that apply to physical authenticators as well as the requirements below.
 
 The issuing or binding of derived PIV credentials SHALL use valid PIV Cards in accordance with
-[[SP 800-157]](../_Appendix/references.md#ref-SP-800-157). Derived PIV credentials MAY be created at the same Authenticator Assurance Level (AAL) as the PIV Card itself (AAL3), or MAY be created at a lower AAL (AAL2) depending on the security characteristics of the authenticator. The issuer SHALL attempt to promptly notify the cardholder of the binding of a derived PIV credential through an independent means that would not afford an attacker with an opportunity to erase the notification. More than one independent notification method MAY be used to ensure prompt receipt by the subscriber. Derived PIV credentials SHALL be bound to the subscriber's PIV account only by the issuer of that PIV account.
+[[SP 800-157]](../_Appendix/references.md#ref-SP-800-157). Derived PIV credentials MAY be created at the same Authenticator Assurance Level (AAL) as the PIV Card itself (AAL3), or MAY be created at a lower AAL (AAL2) depending on the security characteristics of the authenticator. The issuer SHALL attempt to promptly notify the cardholder of the binding of a derived PIV credential through an independent means that would not afford an attacker with an opportunity to erase the notification. More than one independent notification method MAY be used to ensure prompt receipt by the subscriber. Derived PIV credentials SHALL be bound to the subscriber's PIV account only by the organization that manages that PIV account.
 
 ### 2.10.2 Derived PIV Credential Invalidation Requirements {#s-2-10-2}
 
 Derived PIV credentials SHALL be invalidated in any of the following circumstances:
 
 * Upon request of the PIV cardholder as a result of loss, failure, compromise, or intent to discontinue use of a derived PIV credential.
-* At the determination of the PIV account issuer upon reported loss or suspected compromise of a derived PIV credential.
-* At the determination of the PIV account issuer upon observation of possible fraudulent activity.
+* At the determination of the issuer upon reported loss or suspected compromise of a derived PIV credential.
+* At the determination of the issuer upon observation of possible fraudulent activity.
 * When a cardholder is no longer eligible to have a PIV Card as specified in [Section 2.9.4](requirements.md#s-2-9-4). In this situation, all derived PIV credentials associated with the PIV account SHALL be invalidated.
 
 If the derived PIV credential to be invalidated contains a derived PIV authentication certificate and the corresponding private key cannot be securely zeroized or destroyed, the CA SHALL be informed and the certificate corresponding to the derived PIV authentication key SHALL be revoked.
