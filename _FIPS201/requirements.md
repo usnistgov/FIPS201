@@ -98,7 +98,7 @@ The following biometric data MAY optionally be collected from a PIV applicant:
 + Two fingerprints, for OCC. These fingerprints MAY be taken from the full set of fingerprints collected in [Section 2.3](requirements.md#s-2-3) and SHOULD be imaged from fingers not imaged for off-card one-to-one comparison.
 
 If the biometric data that is collected as specified in this section and in [Section 2.3](requirements.md#s-2-3) is collected on separate
-occasions, then a biometric verification of the applicant's biometric characteristics  SHALL be performed at each visit against biometric
+occasions, then a biometric verification of the applicant's biometric characteristics SHALL be performed at each visit against biometric
 data collected during a previous visit.
 
 Biometric data collection SHALL conform to the procedural and technical specifications of [[SP 800-76]](../_Appendix/references.md#ref-SP-800-76).
@@ -139,7 +139,7 @@ PIV background investigation, identity proofing, registration, and issuance proc
 
 > Note: This section was formerly entitled "Chain-of-Trust".
 
-A card issuer SHALL maintain the enrollment record for each PIV Card it issues that contains  
+A card issuer SHALL maintain the enrollment record for each PIV Card it issues that contains 
 identification data it collects. These enrollment records are created and maintained through the methods of 
 contemporaneous acquisition at each step of the PIV issuance process, typically including identity proofing, registration 
 and biometric enrollment, and are generally stored as part of the cardholder's PIV account.

@@ -19,7 +19,7 @@ Comments concerning Federal Information Processing Standard publications are wel
 ~~~
 {:latex-literal="true"}
 
-Charles H. Romine, Director  
+Charles H. Romine, Director 
 Information Technology Laboratory
 
 ~~~

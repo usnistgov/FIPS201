@@ -459,7 +459,7 @@ include
 
 - an electronic image of the left iris;
 - an electronic image of the right iris;
-- one or two fingerprint biometric templates for on-card  one-to-one comparison;
+- one or two fingerprint biometric templates for on-card one-to-one comparison;
 - a symmetric card authentication key for supporting physical access applications; and
 - a symmetric PIV Card Application administration key associated with the card management system.
 
@@ -721,12 +721,12 @@ identifiers that serve as identification (of the cardholder) for authentication 
 are as follows:
 
 Card identifiers
-:   Each PIV Card contains a UUID and a FASC-N that uniquely identify the card and, by
+: Each PIV Card contains a UUID and a FASC-N that uniquely identify the card and, by
 correspondence, the cardholder. These two card identifiers are represented in all of the authentication
 data elements for the purpose of binding the PIV data elements to the same PIV Card.
 
 Cardholder identifiers
-:   Other identifiers MAY be present in credentials on the PIV Card that identity the cardholder rather than
+: Other identifiers MAY be present in credentials on the PIV Card that identity the cardholder rather than
 the card. Examples include the cardholder UUID that may appear in the CHUID or the subject name(s) that may appear in the subjectAltName 
 extension in the PIV authentication certificate.
 

@@ -90,7 +90,7 @@ Because a standard of this nature must be flexible enough to adapt to advancemen
 
 # 11. Waivers. {#f-11}
 
-FISMA  does  not  allow for waivers to FIPS that are made mandatory by the Secretary of Commerce.
+FISMA does not allow for waivers to FIPS that are made mandatory by the Secretary of Commerce.
 
 # 12. Where to Obtain Copies. {#f-12}
 

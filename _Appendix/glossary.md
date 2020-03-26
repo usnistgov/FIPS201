@@ -170,7 +170,7 @@ Federation
 
 Federation Assurance Level (FAL)
 : A category describing the _assertion_ protocol used by the _federation_ to communicate _authentication_ and attribute 
-information (if applicable) to an RP,  as
+information (if applicable) to an RP, as
 defined in [[SP 800-63]](references.md#ref-SP-800-63) in terms of three levels:
 
   - FAL1: SOME confidence
@@ -199,7 +199,7 @@ Identity
 recognizable.
 
 Identity Assurance Level (IAL)
-: A category that conveys the degree of confidence that the end user’s claimed _identity_ is their real _identity_,  as
+: A category that conveys the degree of confidence that the end user’s claimed _identity_ is their real _identity_, as
 defined in [[SP 800-63]](references.md#ref-SP-800-63) in terms of three levels:
 
   - IAL1: SOME confidence
