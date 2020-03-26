@@ -5,9 +5,9 @@ navOrder: 5
 navTitle: Revisions
 permalink: /revisions/
 ---
-# Appendix E— Revision History {#s-e}
+# Appendix E. Revision History {#s-e}
 
-The Revision History provides an overview of the changes to FIPS 201 since its initial release.
+_This appendix is informative._  It provides an overview of the changes to FIPS 201 since its initial release.
 
 |Version|Release Date|Updates|
 |---|---|---|

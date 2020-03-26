@@ -5,10 +5,9 @@ navOrder: 1
 navTitle: Accreditation
 permalink: /accreditation/
 ---
-# Appendix A—PIV Validation, Certification, and Accreditation {#s-a}
+# Appendix A. PIV Validation, Certification, and Accreditation {#s-a}
 
-This appendix provides compliance requirements for PIV validation, certification, and accreditation, and
-is normative.
+_This appendix is normative._ It provides compliance requirements for PIV validation, certification, and accreditation.
 
 ## A.1 Accreditation of PIV Card Issuers (PCI) and Derived PIV Credential Issuers (DPCI) {#s-a-1}
 

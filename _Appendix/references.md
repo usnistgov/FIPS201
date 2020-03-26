@@ -6,7 +6,9 @@ navTitle: References
 permalink: /references/
 ---
 
-# Appendix D— References {#s-appendix-d}
+# Appendix D. References {#s-appendix-d}
+
+_This appendix is informative._ It contains the full bibliography of references cited throughout this document.
 
 [[A-130]](#ref-A-130){:name="ref-A-130"} OMB Circular A-130, Managing Federal Information as a Strategic Resource, July 28, 2016. 
 Available at <https://www.whitehouse.gov/sites/whitehouse.gov/files/omb/circulars/A130/a130revised.pdf>.
