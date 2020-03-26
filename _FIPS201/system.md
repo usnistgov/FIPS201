@@ -54,8 +54,9 @@ access control decision.
 ![PIV System Overview]({{site.baseurl}}/{{page.collection}}/images/system.png){:style="width: 1047px;" latex-src="system.pdf" latex-fig="3-1"}
 
 [Figure 3-1](#fig-3-1) illustrates a notional model for the operational PIV system, identifying the various system
-components and the direction of data flow between these components. The boundary shown in the figure
-is not meant to preclude FIPS 201 requirements on systems outside these boundaries.
+components. The boundary shown in the figure
+is not meant to preclude FIPS 201 requirements on systems outside these boundaries. See [Section 3.3](system.md#s-3-3) for 
+information about data flow and connections between components.
 
 ### 3.1.1 PIV Front-End Subsystem {#s-3-1-1}
 
@@ -187,3 +188,30 @@ PIV Card Termination
     for authentication.
 
 [^enroll]: In some other National Institute of Standards and Technology (NIST) documents such as [[SP 800-63A]](../_Appendix/references.md#ref-SP-800-63A), registration is referred to as *enrollment*.
+
+## 3.3 Connections Between System Components {#s-3-3}
+
+To perform authentication for logical or physical access using a PIV Card or derived PIV credential, the relying subsystem
+verifies the credential and obtains attributes from the PIV account. The connections and data 
+flows between these components are shown in [Figure 3.3](#fig-3-3). 
+
+[Figure 3-3. PIV System Connections](#fig-3-3){:name="fig-3-3"}
+{:latex-ignore="true"}
+
+![PIV System Connections]({{site.baseurl}}/{{page.collection}}/images/system-direct.png){:style="width: 1047px;" latex-src="system-direct.pdf" latex-fig="3-3"}
+
+While it is possible to directly accept a PIV Card from another agency, the recommended interoperability mechanism for most agencies 
+is to use a federation protocol as discussed in [Section 7](federation.md#s-7). In this method, the PIV cardholder authenticates to an
+Identity Provider (IdP), which is part of the PIV Issuance and Management Subsystem, 
+using their PIV Card or derived PIV credential. The IdP verifies the credential and determines the attributes 
+associated with the PIV account. The IdP then creates an assertion that is sent to the
+relying subsystem. The connections and data flows between these components are shown in [Figure 3.4](#fig-3-4).
+
+[Figure 3-4. PIV System Federation Connections](#fig-3-4){:name="fig-3-4"}
+{:latex-ignore="true"}
+
+![PIV System Federation Connections]({{site.baseurl}}/{{page.collection}}/images/system-federation.png){:style="width: 1047px;" latex-src="system-federation.pdf" latex-fig="3-4"}
+
+While this Standard makes no requirements on when to apply direct or federated authentication mechanisms, there are some
+natural mappings. For example, note that physical access systems are not usually well-suited for a federation protocol. Also, note that 
+many derived PIV credentials can only be verified directly by their issuer and are therefore better suited for use in federation.
