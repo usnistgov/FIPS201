@@ -8,7 +8,7 @@ permalink: /glossary/
 
 # Appendix C. Glossary of Terms, Acronyms, and Notations {#s-c}
 
-_This appendix is informative._  It describes the vocabulary and textual representations used in the document.
+_This appendix is informative._ It describes the vocabulary and textual representations used in the document.
 
 ## C.1 Glossary of Terms {#s-c-1}
 
@@ -170,7 +170,7 @@ Federation
 
 Federation Assurance Level (FAL)
 : A category describing the _assertion_ protocol used by the _federation_ to communicate _authentication_ and attribute 
-information (if applicable) to an RP,  as
+information (if applicable) to an RP, as
 defined in [[SP 800-63]](references.md#ref-SP-800-63) in terms of three levels:
 
   - FAL1: SOME confidence
@@ -199,7 +199,7 @@ Identity
 recognizable.
 
 Identity Assurance Level (IAL)
-: A category that conveys the degree of confidence that the end user’s claimed _identity_ is their real _identity_,  as
+: A category that conveys the degree of confidence that the end user’s claimed _identity_ is their real _identity_, as
 defined in [[SP 800-63]](references.md#ref-SP-800-63) in terms of three levels:
 
   - IAL1: SOME confidence
@@ -282,7 +282,7 @@ Personal Identification Number (PIN)
 their _identity_.
 
 Personal Identity Verification (PIV) Account
-: The logical record containing credentialing information for a given PIV _cardholder_.  This is typically stored within the _issuer_’s _identity management system_, and includes PIV enrollment data, _cardholder_ _identity_ attributes, and information regarding authenticators bound to the _cardholder_’s _identity_ (e.g., _PIV Card_ and _derived PIV credentials_).
+: The logical record containing credentialing information for a given PIV _cardholder_. This is typically stored within the _issuer_’s _identity management system_, and includes PIV enrollment data, _cardholder_ _identity_ attributes, and information regarding authenticators bound to the _cardholder_’s _identity_ (e.g., _PIV Card_ and _derived PIV credentials_).
 
 Personal Identity Verification (PIV) Card
 : A physical artifact (e.g., _identity_ card, "smart" card) issued

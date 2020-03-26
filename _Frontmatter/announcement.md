@@ -66,7 +66,7 @@ A PIV Card must be personalized with identity information for the individual to 
 
 The Office of Management and Budget (OMB) provides implementation oversight for this Standard. 
 
-Federal departments and agencies must use accredited issuers to issue PIV Cards for federal employees and contractors. For this purpose, NIST provided guidelines for the accreditation of PIV Card issuers and derived PIV credential issuers in [[SP 800-79]](_Appendix/references.md#ref-SP-800-79).  The Standard also covers security and interoperability requirements for PIV Cards. For this purpose, NIST has established the PIV Validation Program that tests implementations for conformance with this Standard as specified in [[SP 800-73]](_Appendix/references.md#ref-SP-800-73) and [[SP 800-78]](_Appendix/references.md#ref-SP-800-78) (see [Appendix A.3](_Appendix/accreditation.md#s-a-3)).
+Federal departments and agencies must use accredited issuers to issue PIV Cards for federal employees and contractors. For this purpose, NIST provided guidelines for the accreditation of PIV Card issuers and derived PIV credential issuers in [[SP 800-79]](_Appendix/references.md#ref-SP-800-79). The Standard also covers security and interoperability requirements for PIV Cards. For this purpose, NIST has established the PIV Validation Program that tests implementations for conformance with this Standard as specified in [[SP 800-73]](_Appendix/references.md#ref-SP-800-73) and [[SP 800-78]](_Appendix/references.md#ref-SP-800-78) (see [Appendix A.3](_Appendix/accreditation.md#s-a-3)).
 
 FIPS 201 compliance of PIV components and subsystems is provided in accordance with M-19-17 [[OMB1917]](_Appendix/references.md#ref-OMB1917) through products and services from The U.S. General Services Administration's (GSA) Interoperability Test Program and Approved Products and Services List (see [Appendix A.5](_Appendix/accreditation.md#s-a-5)). Implementation guidance to PIV-enable federal facilities and information systems, in accordance with M-19-17 [[OMB1917]](_Appendix/references.md#ref-OMB1917) will be outlined in the [[FICAM]](_Appendix/references.md#ref-FICAM) in the form of playbooks and best practice repositories. See also [[SP 800-116]](_Appendix/references.md#ref-SP-800-116) and [[ISC-RISK]](_Appendix/references.md#ref-ISC-RISK).
 
@@ -90,7 +90,7 @@ Because a standard of this nature must be flexible enough to adapt to advancemen
 
 # 11. Waivers. {#f-11}
 
-FISMA  does  not  allow for waivers to FIPS that are made mandatory by the Secretary of Commerce.
+FISMA does not allow for waivers to FIPS that are made mandatory by the Secretary of Commerce.
 
 # 12. Where to Obtain Copies. {#f-12}
 

@@ -43,9 +43,9 @@ Level 2
 : Security features that require the use of a tool or instrument (e.g., UV light, magnifying glass, or scanner) to discern the feature. Level two sample security features include microtext, UV fluorescent images and IR-fluorescent ink. 
 
 Level 3
-: Security features inspected by forensic specialists to conduct in-depth examination that may require special equipment to provide true certification.  Nano and micro images and chemical taggants, are examples of level 3 security features.
+: Security features inspected by forensic specialists to conduct in-depth examination that may require special equipment to provide true certification. Nano and micro images and chemical taggants, are examples of level 3 security features.
 
-A PIV Card SHALL incorporate at least one security feature at inspection level 1 or inspection level 2.  Federal departments and agencies are strongly encouraged to incorporate additional security features and to include all three inspection levels.
+A PIV Card SHALL incorporate at least one security feature at inspection level 1 or inspection level 2. Federal departments and agencies are strongly encouraged to incorporate additional security features and to include all three inspection levels.
 
 Incorporation of security features SHALL
 
@@ -256,7 +256,7 @@ Zone 5F: Rank
     Data format is at the department or agency's discretion.
 
 Zone 6F: Portable Data File (PDF) Two-Dimensional Bar Code (Deprecated)
-: This bar code is deprecated in this version of the Standard. In a future version of this Standard, the bar code may be removed.  If used, the PDF bar code placement SHALL be as depicted in [Figure 4-2](#fig-4-2) (i.e., left side of the card). If Zone 3F (a cardholder signature) is used, the size of the PDF bar code may be affected. The card issuer should confirm that a PDF used in
+: This bar code is deprecated in this version of the Standard. In a future version of this Standard, the bar code may be removed. If used, the PDF bar code placement SHALL be as depicted in [Figure 4-2](#fig-4-2) (i.e., left side of the card). If Zone 3F (a cardholder signature) is used, the size of the PDF bar code may be affected. The card issuer should confirm that a PDF used in
     conjunction with a PIV Card containing a cardholder signature will satisfy the anticipated PDF data storage requirements. 
 
 Zone 9F: Header
@@ -459,7 +459,7 @@ include
 
 - an electronic image of the left iris;
 - an electronic image of the right iris;
-- one or two fingerprint biometric templates for on-card  one-to-one comparison;
+- one or two fingerprint biometric templates for on-card one-to-one comparison;
 - a symmetric card authentication key for supporting physical access applications; and
 - a symmetric PIV Card Application administration key associated with the card management system.
 
@@ -721,12 +721,12 @@ identifiers that serve as identification (of the cardholder) for authentication 
 are as follows:
 
 Card identifiers
-:   Each PIV Card contains a UUID and a FASC-N that uniquely identify the card and, by
+: Each PIV Card contains a UUID and a FASC-N that uniquely identify the card and, by
 correspondence, the cardholder. These two card identifiers are represented in all of the authentication
 data elements for the purpose of binding the PIV data elements to the same PIV Card.
 
 Cardholder identifiers
-:   Other identifiers MAY be present in credentials on the PIV Card that identity the cardholder rather than
+: Other identifiers MAY be present in credentials on the PIV Card that identity the cardholder rather than
 the card. Examples include the cardholder UUID that may appear in the CHUID or the subject name(s) that may appear in the subjectAltName 
 extension in the PIV authentication certificate.
 
