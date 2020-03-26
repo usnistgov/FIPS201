@@ -140,7 +140,7 @@ The following steps SHALL be performed for PKI-AUTH:
     response.
 - The card responds to the previously issued challenge by signing it using the PIV authentication
     private key.
-- The relying system verifies that the card's response is the expected response to the issued challenge.
+- The relying system verifies the signature using the public key in the PIV authentication certificate.
 - A unique identifier from the PIV authentication certificate is extracted and passed as input to the
     access control decision.
 
@@ -167,7 +167,7 @@ The following steps SHALL be performed for PKI-CAK:
     response.
 - The card responds to the previously issued challenge by signing it using the card authentication
     private key.
-- The relying system verifies that the card's response is the expected response to the issued challenge.
+- The relying system verifies the signature using the public key in the card authentication certificate.
 - A unique identifier from the card authentication certificate is extracted and passed as input to the
     access control decision.
 
@@ -193,7 +193,7 @@ steps:
 - The reader issues a challenge string to the card and requests a response.
 - The card responds to the previously issued challenge by encrypting the challenge using the symmetric
     card authentication key.
-- The response is validated as the expected response to the issued challenge.
+- The relying system decrypts the card's response with its symmetric key and verifies that it matches the challenge string sent to the card.
 - A unique identifier within the data element is used as input to the authorization check to determine
     whether the cardholder should be granted access.
 
