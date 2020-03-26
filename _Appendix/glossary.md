@@ -104,6 +104,9 @@ Card Management System
 : The card management system manages the lifecycle of a _PIV Card_
 Application.
 
+Central Verification System
+: A system operated by the Office of Personnel Management containing information on security clearances, investigations, suitability, fitness determinations, [[HSPD-12]](references.md#ref-HSPD-12) decisions, PIV credentials, and polygraph data.
+
 Certificate Revocation List
 : A list of revoked _public key_ certificates created and digitally signed by a
 _certification authority_ [[RFC 5280]](references.md#ref-RFC5280) [[RFC 6818]](references.md#ref-RFC6818).
