@@ -381,9 +381,9 @@ Reissuance is the process by which a new PIV Card is issued to a cardholder with
 the entire identity proofing and registration procedure. The reissuance process may be used to replace a
 PIV Card that is nearing expiration, in the event of an employee status or attribute change, or to replace a
 PIV Card that has been compromised, lost, stolen, or damaged. The cardholder may also apply for
-reissuance of a PIV Card if one or more logical credentials have been compromised. The entire identity
+reissuance of a PIV Card if one or more logical credentials have been compromised. The identity
 proofing, registration, and issuance processes, as described in [Section 2.7](requirements.md#s-2-7) and [Section 2.8](requirements.md#s-2-8), SHALL be repeated if the 
-issuer does not maintain a PIV enrollment record that includes biometric data records for the cardholder. The entire identity proofing, registation, and issuance process SHALL also be repeated if the reissuance process was not 
+issuer does not maintain a PIV enrollment record that includes biometric data records for the cardholder. The identity proofing, registation, and issuance processes SHALL also be repeated if the reissuance process was not 
 started before the old PIV Card expired.
 
 If the expiration date of the new PIV Card is later than the expiration date of the old card, or if any data
