@@ -7,7 +7,7 @@ permalink: /system/
 ---
 # 3. PIV System Overview {#s-3}
 
-This section is informative. It serves to provide a PIV system overview.
+_This section is informative._ It serves to provide a PIV system overview.
 
 The PIV system is composed of components and processes that support a common
 platform for identity authentication across federal departments and agencies for access to multiple types

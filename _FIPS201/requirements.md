@@ -7,7 +7,7 @@ permalink: /requirements/
 ---
 # 2. Common Identification, Security, and Privacy Requirements {#s-2}
 
-This section is normative. It addresses the fundamental control and security objectives outlined in [[HSPD-12]](../_Appendix/references.md#ref-HSPD-12), including
+_This section is normative._ It addresses the fundamental control and security objectives outlined in [[HSPD-12]](../_Appendix/references.md#ref-HSPD-12), including
 the identity proofing requirements for federal employees and contractors.
 
 ## 2.1 Control Objectives {#s-2-1}

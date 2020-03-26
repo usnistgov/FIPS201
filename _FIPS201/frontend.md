@@ -8,7 +8,7 @@ permalink: /frontend/
 
 # 4. PIV Front-End Subsystem {#s-4}
 
-This section is normative. It provides the requirements for the PIV front-end subsystem components.
+_This section is normative._ It provides the requirements for the PIV front-end subsystem components.
 
 ## 4.1 PIV Card Physical Characteristics {#s-4-1}
 

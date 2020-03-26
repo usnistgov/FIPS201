@@ -7,7 +7,7 @@ permalink: /introduction/
 ---
 # 1. Introduction {#s-1}
 
-This section is informative. It provides background information for understanding the scope of this Standard.
+_This section is informative._ It provides background information for understanding the scope of this Standard.
 
 Authentication of an individual's identity is a fundamental component of physical and logical access
 control processes. When an individual attempts to access security-sensitive buildings, computer systems,

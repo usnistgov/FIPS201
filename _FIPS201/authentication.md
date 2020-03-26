@@ -8,7 +8,7 @@ permalink: /authentication/
 
 # 6. PIV Cardholder Authentication {#s-6}
 
-This section is normative. It defines a suite of authentication mechanisms that are supported by all PIV Cards as well as
+_This section is normative._ It defines a suite of authentication mechanisms that are supported by all PIV Cards as well as
 the applicability of these mechanisms in meeting the requirements for a set of graduated assurance levels. This
 section also defines some authentication mechanisms that make use of credential elements that MAY
 optionally be included on PIV Cards. Specific implementation details of authentication mechanisms
