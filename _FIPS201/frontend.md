@@ -404,10 +404,10 @@ legislatively mandated medical entitlements.
 
 ![Card Back: Optional Data Placement (Example 1)]({{site.baseurl}}/{{page.collection}}/images/cardback-optional1.png){:style="width: 1047px;" latex-src="cardback-optional1.pdf" latex-fig="4-7"}
 
-[Figure 4-8. Card Back Optional Data Placement (Example 2)](#fig-4-8){:name="fig-4-8"}
+[Figure 4-8. Card Back: Optional Data Placement (Example 2)](#fig-4-8){:name="fig-4-8"}
 {:latex-ignore="true"}
 
-![Card Back Optional Data Placement (Example 2)]({{site.baseurl}}/{{page.collection}}/images/cardback-optional2.png){:style="width: 1047px;" latex-src="cardback-optional2.pdf" latex-fig="4-8"}
+![Card Back: Optional Data Placement (Example 2)]({{site.baseurl}}/{{page.collection}}/images/cardback-optional2.png){:style="width: 1047px;" latex-src="cardback-optional2.pdf" latex-fig="4-8"}
 
 ### 4.1.5 Color Representation {#s-4-1-5}
 
@@ -479,6 +479,7 @@ PIV logical credentials fall into the following three categories:
     symmetric keys, asymmetric keys, and the fingerprint biometric templates for on-card one-to-one comparison.
 
 ### 4.2.1 Cardholder Unique Identifier (CHUID) {#s-4-2-1}
+{:latex-toc="4.2.1 Cardholder Unique Identifier"}
 
 The PIV Card SHALL include the CHUID as defined in [[SP 800-73]](../_Appendix/references.md#ref-SP-800-73). The CHUID includes the Federal
 Agency Smart Credential Number (FASC-N) and the Global Unique Identification Number (GUID),

@@ -17,6 +17,7 @@ When using a federation protocol, the PIV credential is not presented to the RP 
 Note that processing the PIV credential directly is not a form of federation as defined by [[SP 800-63C]](../_Appendix/references.md#ref-SP-800-63C), since the PIV credential does not meet the requirements of an assertion. In particular, while an assertion is a short-lived message created specifically for a federation transaction, the PIV certificate is long-lived and intended to be presented to many different RPs over time.
 
 ## 7.2 Federation Assurance Level (FAL) {#s-7-2}
+{:latex-toc="7.2 Federation Assurance Level"}
 
 [[SP 800-63]](../_Appendix/references.md#ref-SP-800-63) defines three dimensions of assurance: IAL, AAL, and FAL. The use of a PIV credential or a derived PIV credential for authentication in a federation transaction will determine the IAL and AAL of that transaction, but the FAL is determined independently of the credential itself. As with all credentials, the PIV credential can be used with any FAL, regardless of the IAL and AAL that the credential represents. Guidance for determining the correct FAL for a given application is available in [[SP 800-63]](../_Appendix/references.md#ref-SP-800-63).
 

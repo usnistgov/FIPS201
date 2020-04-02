@@ -11,8 +11,9 @@ template: _pdftemplate/foreword.tex
 # ABSTRACT
 
 Authentication of an individual’s identity is a fundamental component of physical and
-logical access control. When an individual attempts to access security-sensitive 
-buildings, information systems and applications, an access control decision must be made. An 
+logical access control. An access control decision must be made
+when an individual attempts to access security-sensitive 
+buildings, information systems, and applications. An 
 accurate determination of an individual’s identity supports making sound access control
 decisions.
 

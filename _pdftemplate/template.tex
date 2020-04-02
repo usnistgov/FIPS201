@@ -81,6 +81,7 @@
 \setcounter{secnumdepth}{-2} % we number our sections by hand so don't include them in the section titles
 
 \usepackage{enumitem}         % to control spacing between bullets/numbered lists
+\setlist{topsep=0pt, partopsep=0pt, itemsep=-0.2em}
 
 \usepackage[numbers,sort&compress]{natbib} % format bibliography 
 \renewcommand{\bibsection}{}
@@ -100,7 +101,7 @@ anchorcolor = {.},
 filecolor = {.},
 menucolor = {.},
 runcolor = {.}
-pdftitle={\VAR{config.doc_title}},
+pdftitle={\VAR{config.pdf_title}},
 pdfsubject={},
 pdfauthor={},
 pdfkeywords={}
@@ -131,7 +132,7 @@ pdfkeywords={}
         \renewcommand{\footrulewidth}{0pt}
 
         \fancyhead{}
-        \fancyhead[L]{\sc\scriptsize\color{gray}\bfseries\sffamily \VAR{config.doc_short_title}}
+        \fancyhead[L]{\sc\scriptsize\color{gray}\bfseries\sffamily \VAR{config.page_doc_number}}
         \fancyhead[R]{\sc\scriptsize\color{gray}\bfseries\sffamily \VAR{config.page_title}}
 
         \fancyfoot{}
@@ -174,7 +175,6 @@ pdfkeywords={}
 %   	BEGIN DOCUMENT 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{document}
-	\urlstyle{rm} % Format style of \url   
     \RaggedRight % left-justification universal
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -185,6 +185,8 @@ pdfkeywords={}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{titlepage}
+
+\pagenumbering{gobble}
 
 \sffamily
 
@@ -200,7 +202,7 @@ pdfkeywords={}
 \hrule
 \vspace{8pt}
 \large{\textbf{\textsc{Federal Information Processing Standards Publication}}}\\
-%: if config.supersedes is not none
+%: if config.supersedes
 \small{\textbf{(Supersedes \VAR{config.supersedes})}}
 %: else
 

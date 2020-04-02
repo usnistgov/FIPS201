@@ -6,7 +6,7 @@ navTitle: References
 permalink: /references/
 ---
 
-# Appendix D. References {#s-appendix-d}
+# Appendix D. References {#s-d}
 
 _This appendix is informative._ It contains the full bibliography of references cited throughout this document.
 
