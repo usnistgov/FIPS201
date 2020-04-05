@@ -7,29 +7,27 @@ permalink: /introduction/
 ---
 # 1. Introduction {#s-1}
 
-_This section is informative._ It provides background information for understanding the scope of this Standard.
+_This section is informative._ It provides background information for understanding the
+scope of this Standard.
 
-Authentication of an individual's identity is a fundamental component of physical and logical access
-control processes. When an individual attempts to access security-sensitive buildings, computer systems,
-or data, an access control decision must be made. An accurate determination of an individual's identity
-supports making sound access control decisions.
+Authentication of an individual’s identity is a fundamental component of physical and
+logical access control. When an individual attempts to access security-sensitive 
+buildings, information systems and applications, an access control decision must be made. An 
+accurate determination of an individual’s identity supports making sound access control
+decisions.
 
-A wide range of mechanisms is employed to authenticate an individual, utilizing various classes of identity
-credentials. For physical access, an individual's identity has traditionally been authenticated by use of
-paper or other non-automated, hand-carried credentials, such as driver's licenses and badges. For logical access,
-authorization to computers and data has traditionally been based on identities authenticated through user-selected
-passwords. More recently, cryptographic mechanisms and biometric techniques have been used
-in physical and logical security applications, replacing or supplementing traditional identity
-credentials.
+In the past, a wide range of legacy mechanisms have been employed to authenticate an individual,
+utilizing various classes of identity credentials. For physical access, an individual’s
+identity has been authenticated by use of paper or other non-automated, hand-carried
+credentials, such as driver’s licenses and badges. For logical access, authorization to
+computers and data has been based on identities authenticated through user selected
+passwords. Today, cryptographic mechanisms and biometric techniques
+are replacing these legacy mechanism in  physical and logical security applications.
+The strength of the authentication that is achieved varies depending upon the type of
+credential, the process used to issue the credential, and the authentication mechanism
+used to validate the credential.
 
-The strength of the authentication that is achieved varies depending upon the type of credential, the
-process used to issue the credential, and the authentication mechanism used to validate the credential.
-This document establishes a standard for a Personal Identity Verification (PIV) system based on secure
-and reliable forms of identity credentials issued by the Federal Government to its employees and
-contractors. These credentials are intended to authenticate individuals who require access to federally-controlled 
-facilities, information systems, and applications. This Standard addresses requirements for
-initial identity proofing, infrastructures to support interoperability of identity credentials, and
-accreditation of organizations and processes issuing PIV credentials.
+This document establishes a standard for a Personal Identity Verification (PIV) system based on secure and reliable forms of identity credentials issued by the Federal Government to its employees and contractors. These credentials are intended to authenticate individuals who require access to federally controlled facilities, information systems, and applications. This Standard addresses requirements for initial identity proofing, infrastructures to support interoperability of identity credentials, and accreditation of organizations and processes issuing PIV credentials.
 
 ## 1.1 Purpose {#s-1-1}
 
