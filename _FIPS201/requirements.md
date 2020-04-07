@@ -25,26 +25,29 @@ accreditation process.
 Each agency's PIV implementation SHALL meet the four control objectives (a) through (d) listed above
 such that
 
-+ A credential is issued to an individuals whose identity has been verified and who has been appropriately vetted as per [Section 2.2](requirements.md#s-2-2)
++ A credential is issued only to an individual whose identity has been verified and who has been appropriately vetted as per [Section 2.2](requirements.md#s-2-2)
     after a proper authority has authorized issuance of the credential.
-+ A credential is issued only after an individual’s eligibility has been favorably adjudicated based on the prerequisite Federal investigation[^background] or the vetting process has been initiated[^initiation] with the federal investigative service provider and the Federal Bureau of Investigation (FBI) National Criminal History Check (NCHC) portion of the background investigation is completed and favorably adjudicated. 
++ A credential is issued only after an individual’s eligibility has been favorably adjudicated. 
+    This adjudication can be based on the prerequisite Federal investigation.[^background] Alternatively, the adjudication is complete after the vetting 
+    process has been initiated[^initiation] with the federal investigative service provider and the Federal Bureau of Investigation (FBI) National Criminal History Check (NCHC) 
+    portion of the background investigation is completed and favorably adjudicated.
 + An individual is issued a credential only after presenting two identity source documents, at least one
     of which is a Federal or State Government issued picture ID.
 + Fraudulent identity source documents are not accepted as genuine and unaltered.
 + A person suspected or known to the government as being a terrorist is not issued a credential.
 + No substitution occurs in the identity proofing process. More specifically, the individual who appears
-    for identity proofing, and whose fingerprints are checked against databases, is the person to whom the
+    for identity proofing and whose fingerprints are checked against databases is the person to whom the
     credential is issued.
-+ No credential is issued unless requested by proper authority.
++ No credential is issued unless requested by the proper authority.
 + A credential remains serviceable only up to its expiration date. More precisely, a revocation process
     exists such that expired or invalidated credentials are swiftly revoked.
 + A single corrupt official in the process may not issue a credential with an incorrect identity or to a
     person not entitled to the credential.
 + An issued credential is not duplicated or forged, and is not modified by an unauthorized entity.
 
-[^background]: For guidance on investigation requirements refer to [Section 2.2](../requirements/#s-2-2). National Agency Check with Written Inquiries investigations were replaced with Tier 1 investigation upon implementation of the 2012 Federal Investigative Standards.
+[^background]: For guidance on investigation requirements, refer to [Section 2.2](../requirements/#s-2-2). NACI investigations were replaced with Tier 1 investigations upon implementation of the 2012 Federal Investigative Standards.
 
-[^initiation]: The initiation of a background investigation is defined as the submission of the investigative request to the Defense Counterintelligence and Security Agency, or other authorized Federal investigation service provider.
+[^initiation]: The initiation of a background investigation is defined as the submission of an investigative request to the Defense Counterintelligence and Security Agency or other authorized federal investigation service provider.
 
 
 ## 2.2 Credentialing Requirements {#s-2-2}
@@ -52,14 +55,14 @@ such that
 Federal departments and agencies SHALL use the credentialing eligibility standards issued by the Director of the Office
 of Personnel Management (OPM)[^OPM] and OMB.[^OMB]
 
-Federal departments and agencies must follow investigative requirements established by the Suitability and Credentialing Executive Agent and the Security Executive Agent. Departments and agencies SHALL use position designation guidance issued by the Executive Agents. The designation of the position determines the prerequisite investigative requirement. Individuals being processed for a PIV Card must receive the required investigation and are subject to any applicable reinvestigation or continuous vetting requirements to maintain their PIV eligibility.
+Federal departments and agencies must follow investigative requirements established by the Suitability and Credentialing Executive Agent and the Security Executive Agent. Departments and agencies SHALL use position designation guidance issued by the Executive Agents. The designation of the position determines the prerequisite investigative requirement. Individuals being processed for a PIV Card SHALL receive the required investigation and are subject to any applicable reinvestigation or continuous vetting requirements to maintain their PIV eligibility.
 
-The minimum requirement for PIV Credential eligibility determination is a completed and favorably adjudicated Tier 1[^TierOne] investigation, formerly called a National Agency Check with Written Inquiries (NACI).
+The minimum requirement for PIV Credential eligibility determination is a completed and favorably adjudicated Tier 1 investigation, formerly called a National Agency Check with Written Inquiries (NACI).[^TierOne]
 
-If no corresponding prior investigation exists, the appropriate required investigation must be initiated with the authorized federal investigative service provider and the FBI NCHC portion of the background investigation is completed and adjudicated before an individual is determined eligible to be issued a PIV Card. 
+Before an individual is determined eligible to be issued a PIV Card when no corresponding prior investigation exists, the appropriate required investigation SHALL be initiated with the authorized federal investigative service provider and the FBI NCHC portion of the background investigation SHALL be completed and adjudicated.
 
-Once the investigation is completed, the authorized adjudicative entity SHALL adjudicate the investigation and report final eligibility determination to the Central Verification System (or successor). This determination MAY also be recorded in the issuer's identity management system (IDMS). 
-The IDMS SHOULD reflect the PIV eligibility of each PIV cardholder and the subsequent re-enrollment in Continuous Vetting Program, as appropriate.
+Once the investigation is completed, the authorized adjudicative entity SHALL adjudicate the investigation and report the final eligibility determination to the Central Verification System (or successor). This determination MAY also be recorded in the issuer's identity management system (IDMS). 
+If the determination is present, the IDMS SHALL reflect the PIV eligibility of each PIV cardholder and the subsequent re-enrollment in the Continuous Vetting Program.
 
 For full guidance on PIV credentialing investigative and adjudicative requirements, issuers must work closely with their personnel security/suitability offices to ensure adherence to the latest federal personnel vetting guidance as provided by the Executive Agents. 
 
@@ -77,7 +80,7 @@ A full set of fingerprints SHALL be collected from each PIV applicant.
 
 Biometric identification using fingerprints is the primary input to law
 enforcement checks. In cases where ten fingerprints are not available, then as many fingers as
-possible SHALL be imaged as per guidance in [[SP 800-76]](../_Appendix/references.md#ref-SP-800-76). In cases where no fingers are available to be imaged, agencies SHALL seek guidance from their respective investigative service provider for alternative means of performing the law enforcement checks.
+possible SHALL be imaged as per guidance in [[SP 800-76]](../_Appendix/references.md#ref-SP-800-76). In cases where no fingers are available to be imaged, agencies SHALL seek guidance from their respective investigative service provider for alternative means of performing law enforcement checks.
 
 This collection is not necessary for applicants who have a completed and favorably adjudicated Tier 1 or higher federal background investigation on record that can be located and referenced.
 
@@ -91,18 +94,21 @@ The following biometric data SHALL be collected from each PIV applicant:
     collected in [Section 2.3](requirements.md#s-2-3).
 + An electronic facial image.
 
-The following biometric data MAY optionally be collected from a PIV applicant:
+The following biometric data MAY be collected from a PIV applicant:
 
 + An electronic image of the left iris.
 + An electronic image of the right iris.
-+ Two fingerprints, for OCC. These fingerprints MAY be taken from the full set of fingerprints collected in [Section 2.3](requirements.md#s-2-3) and SHOULD be imaged from fingers not imaged for off-card one-to-one comparison.
++ Two fingerprints, for on-card comparison (OCC). These fingerprints MAY be taken from the full set of fingerprints collected in [Section 2.3](requirements.md#s-2-3) and SHOULD be imaged from fingers not imaged for off-card one-to-one comparison.
 
-If the biometric data that is collected as specified in this section and in [Section 2.3](requirements.md#s-2-3) is collected on separate
-occasions, then a biometric verification of the applicant's biometric characteristics SHALL be performed at each visit against biometric
+If collection of biometric data as specified in this section and in [Section 2.3](requirements.md#s-2-3) occurs on separate
+occasions, then a positive biometric verification of the applicant's biometric characteristics SHALL be performed at each visit against biometric
 data collected during a previous visit.
+For example, ten fingerprints for law enforcement checks MAY be collected at one time and place, and two fingerprints for PIV Card templates MAY
+be collected at a later time and different place, provided that a biometric comparison confirms that the two fingerprints belong to the original
+set of ten fingerprints.
 
 Biometric data collection SHALL conform to the procedural and technical specifications of [[SP 800-76]](../_Appendix/references.md#ref-SP-800-76).
-The choice of which two fingers is important and MAY vary between persons. The recommended
+The choice of fingers to use for mandatory fingerprint templates and optional fingerprint templates MAY vary between persons. The recommended
 selection and order is specified in [[SP 800-76]](../_Appendix/references.md#ref-SP-800-76).
 
 ## 2.5 Biometric Data Use {#s-2-5}
@@ -112,8 +118,8 @@ maintained by the FBI.
 
 
 The two mandatory fingerprints SHALL be used for preparation of biometric templates to be stored on the PIV Card as
-described in [Section 4.2.3.1](frontend.md#s-4-2-3-1). The fingerprints provide an interagency-interoperable authentication
-mechanism through an off-card comparison scheme as described in [Section 6.2.1](authentication.md#s-6-2-1). These fingerprints are also
+described in [Section 4.2.3.1](frontend.md#s-4-2-3-1). The fingerprints provide an interoperable authentication
+mechanism through an off-card comparison scheme (BIO or BIO-A) as described in [Section 6.2.1](authentication.md#s-6-2-1). These fingerprints are also
 the primary means of authentication during PIV issuance and maintenance processes.
 
 The optional fingerprints MAY be used for preparation of the biometric templates for OCC
@@ -123,31 +129,33 @@ as described in [Section 4.2.3.1](frontend.md#s-4-2-3-1). OCC MAY be used to sup
 Agencies MAY
 choose to collect electronic iris images as an additional biometric characteristic. If collected,
 the electronic iris images SHALL be stored on the PIV Card as described in [Section 4.2.3.1](frontend.md#s-4-2-3-1).
+The image MAY be used for cardholder authentication (BIO, BIO-A) as described in [Section 6.2.1](authentication.md#s-6-2-1).
 Electronic iris images are an additional means of authentication during PIV issuance and maintenance processes
 when fingerprint biometric data records are unavailable.
 
 The electronic facial image SHALL be stored on the PIV Card as described in [Section 4.2.3.1](frontend.md#s-4-2-3-1).
-It SHALL be printed on the PIV Card according to [Section 4.1.4.1](frontend.md#s-4-1-4-1) and 
-MAY be retrieved and displayed on guard workstations to augment 
-authentication processes from [Section 6.2](authentication.md#s-6-2).
+It SHALL be printed on the PIV Card according to [Section 4.1.4.1](frontend.md#s-4-1-4-1). 
+The image MAY be used for cardholder authentication (BIO, BIO-A) as described in [Section 6.2.1](authentication.md#s-6-2-1).
+It MAY be retrieved and displayed on guard workstations to augment 
+other authentication processes from [Section 6.2](authentication.md#s-6-2).
 The electronic facial image is a secondary means of authentication during operator-attended PIV issuance and maintenance processes
 when fingerprint biometric data records are unavailable.
 
-PIV background investigation, identity proofing, registration, and issuance processes MAY be performed across multiple sessions at different facilities. If multiple sessions are needed, the applicant SHALL be linked through a positive biometric verification decision by comparing biometric characteristics captured at a previous session with biometric characteristics captured during the current session. Issuers SHALL follow applicable federal law and regulations regarding the retention and destruction of biometric data.
+PIV background investigation, identity proofing, registration, and issuance processes MAY be performed across multiple sessions at different facilities. If multiple sessions are needed, the applicant SHALL be linked through a positive biometric verification decision by comparing biometric characteristics captured at a previous session with biometric characteristics captured during the current session. Issuers SHALL follow applicable federal laws and regulations regarding the retention and destruction of biometric data.
 
 ## 2.6 PIV Enrollment Records {#s-2-6}
 
 > Note: This section was formerly entitled "Chain-of-Trust".
 
-A card issuer SHALL maintain the enrollment record for each PIV Card it issues that contains 
-identification data it collects. These enrollment records are created and maintained through the methods of 
+A card issuer SHALL maintain the enrollment record for each issued PIV Card that contains 
+identification data the issuer collects. These enrollment records are created and maintained through the methods of 
 contemporaneous acquisition at each step of the PIV issuance process, typically including identity proofing, registration 
 and biometric enrollment, and are generally stored as part of the cardholder's PIV account.
 
-PIV enrollment records can maintain an auditable sequence of enrollment events to facilitate binding an applicant 
+PIV enrollment records maintain an auditable sequence of enrollment events to facilitate binding an applicant 
 to multiple transactions that might take place at different times and locations.[^fingerprints]
 
-[^fingerprints]: For example, ten fingerprints for law enforcement checks MAY be collected at one time and place, and two fingerprints for PIV Card templates MAY be collected at a later time and different place, provided that a biometric comparison confirms that the two fingerprints belong to the original set of ten fingerprints. 
+[^fingerprints]: For example, ten fingerprints for law enforcement checks may be collected at one time and place, and two fingerprints for PIV Card templates may be collected at a later time and different place, provided that a biometric comparison confirms that the two fingerprints belong to the original set of ten fingerprints. 
 
 PIV enrollment records SHOULD include the following data:
 
@@ -159,7 +167,7 @@ PIV enrollment records SHOULD include the following data:
     method. The enrollment data record MAY also document unavailable biometric data or failed attempts
     to collect biometric data. The enrollment data record MAY contain historical biometric data records.
 + The most recent unique identifiers issued to the individual, such as a Federal Agency Smart Credential Number (FASC-N) and
-    Universally Unique Identifier (UUID). The record MAY contain historical
+    a Universally Unique Identifier (UUID). The record MAY contain historical
     unique identifiers.
 + Information about the authorizing entity who has approved the issuance of a credential.
 + Current status of the background investigation, including the results of the investigation once
@@ -179,16 +187,22 @@ both in transit and at rest.
 To facilitate interoperability between PIV issuers, systems may import and export enrollment records in the manner and
 representation described in [[SP 800-156]](../_Appendix/references.md#ref-SP-800-156).
 
-PIV enrollment records can be applied in several situations to include
+PIV enrollment records can be applied in several situations including the following:
 
-+ Extended enrollment: a PIV applicant enrolls a full set of fingerprints for background investigations
-    at one place and time, and two fingerprints for the PIV Card at another place and time. The enrollment record would contain identifiers and two enrollment data records: one with the full set of fingerprint images collected for the background investigation, and one with two fingerprint templates collected for the PIV Card. The two fingerprint templates would be verified
+Extended enrollment
+: A PIV applicant enrolls a full set of fingerprints for background investigations
+    at one place and time and two fingerprints for the PIV Card at another place and time. The enrollment record would contain identifiers and two enrollment data records: one with the full set of fingerprint images collected for background investigations and one with two fingerprint templates collected for the PIV Card. The two fingerprint templates would be compared
     against the corresponding fingers in the ten-fingerprint data set in the PIV enrollment record.
-+ Reissuance: a PIV cardholder loses their card. Since the card issuer has biometric data
-    records from enrollment, the cardholder can perform a biometric comparison against the biometric data stored in the PIV enrollment record. The card issuer NEED NOT repeat the identity proofing and registration process. The card issuer
-    proceeds to issue a new card as described in [Section 2.9.1](requirements.md#s-2-9-1).
-+ Interagency transfer: a federal employee is transferred from one agency to another. When the
-    employee leaves the old agency, they surrender the PIV Card and it is destroyed. When the
+
+Reissuance
+: A PIV cardholder loses their card. Since the card issuer has biometric data
+    records from enrollment, the cardholder can perform a biometric comparison against the biometric data stored in the PIV enrollment record. 
+    The card issuer NEED NOT repeat the identity proofing and registration process on a positive biometric verification decision. Instead, the card issuer 
+    revokes the lost card and proceeds to issue a new card as described in [Section 2.9.1](requirements.md#s-2-9-1).
+
+Interagency transfer
+: A federal employee is transferred from one agency to another. When the
+    employee leaves the old agency, they surrender their PIV Card and it is destroyed. When the
     employee arrives at the new agency and is processed in, the card issuer in the new agency requests and receives the
     employee's PIV enrollment record from the card issuer in the old agency. The
     employee performs a biometric comparison against the biometric data stored in this record, and the interaction proceeds as
@@ -196,19 +210,19 @@ PIV enrollment records can be applied in several situations to include
 
 ## 2.7 PIV Identity Proofing and Registration Requirements {#s-2-7}
 
-Identity proofing and registration requirements for issuance of PIV Cards meet Identity Assurance Level (IAL) 3 as they follow a tailored process based on [[SP 800-63A]](../_Appendix/references.md#ref-SP-800-63A) IAL3 requirements. Departments and agencies SHALL follow an identity proofing and registration process that meets the requirements defined below when issuing PIV Cards.
+Identity proofing and registration requirements for issuance of PIV Cards meet Identity Assurance Level (IAL) 3, as they follow a tailored process based on [[SP 800-63A]](../_Appendix/references.md#ref-SP-800-63A) IAL3 requirements. Departments and agencies SHALL follow an identity proofing and registration process that meets the requirements defined below when issuing PIV Cards.
 
 The organization SHALL adopt and use an identity proofing and registration process that is approved in
 accordance with [[SP 800-79]](../_Appendix/references.md#ref-SP-800-79).
 
-Biometrics data SHALL be captured as specified in [Section 2.3](requirements.md#s-2-3) and [Section 2.4](requirements.md#s-2-4).
-
 Investigative requirements are specified in [Section 2.2](requirements.md#s-2-2).
+
+Biometric data SHALL be captured as specified in [Section 2.3](requirements.md#s-2-3) and [Section 2.4](requirements.md#s-2-4).
 
 The applicant SHALL appear in-person at least once before the issuance of a PIV Card, either at the issuing facility or at a supervised remote identity proofing station as described in [Section 2.7.1](#s-2-7-1).
 
-During identity proofing, the applicant SHALL be required to provide two forms of identity source
-documents in original form.[^documents] The identity source documents SHALL be bound to that applicant and SHALL NOT
+During identity proofing, the applicant SHALL be required to provide two original (e.g., non-photocopied) forms of identity source
+documents.[^documents] The identity source documents SHALL be bound to that applicant and SHALL NOT
 be expired or cancelled. If the two identity source documents bear different names, evidence
 of a formal name change SHALL be provided. At least one identity source document SHALL meet the requirements of Strong evidence as specified in [[SP 800-63A]](../_Appendix/references.md#ref-SP-800-63A) and be one of the
 following forms of identification:
