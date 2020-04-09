@@ -17,16 +17,16 @@ and agencies, and across installations. The specifications for processes in this
 minimum requirements for the various activities that need to be performed within an operational PIV
 system. When implemented in accordance with this Standard, the PIV Card and derived PIV credentials support a suite of
 authentication mechanisms that can be used consistently across departments and agencies. The
-authenticated identity information can then be used as a basis for access control in various federal
+authenticated identity information can then be used as a basis for access control in
 physical and logical access environments. The following sections briefly discuss the functional
 components of the PIV system and the lifecycle activities of the PIV Card.
 
 ## 3.1 Functional Components {#s-3-1}
 
-An operational PIV system can be logically divided into the following three major subsystems:
+An operational PIV system can be divided into the following three major subsystems:
 
 PIV Front-End Subsystem
-: The PIV Card, card readers, biometric capture devices, and PIN input devices
+: The PIV Card, card readers, biometric capture devices, and PIN input devices,
     as well as any derived PIV credentials used by the PIV cardholder. The PIV
     cardholder interacts with these components to gain physical or logical access to the desired federal
     resource.
@@ -34,19 +34,12 @@ PIV Front-End Subsystem
 PIV Issuance and Management Subsystem
 : The components responsible for identity
     proofing and registration, card and key issuance and management, and the various repositories and
-    services (e.g., Public Key Infrastructure (PKI) directory, certificate status servers) required as part of
-    the verification infrastructure. This subsystem also manages the binding and termination of derived PIV credentials as described in [Section 2.10](requirements.md#s-2-10).
+    services required as part of
+    the verification infrastructure, such as Public Key Infrastructure (PKI) directories and certificate status servers. This subsystem also manages the binding and termination of derived PIV credentials as described in [Section 2.10](requirements.md#s-2-10).
 
 PIV Relying Subsystem
 : The physical and logical access control systems, the protected resources,
     and the authorization data.
-
-The PIV relying subsystem becomes relevant when the PIV Card or derived PIV credential is used to authenticate a cardholder who
-is seeking access to a physical or logical resource. Although this Standard does not provide technical
-specifications for this subsystem, various mechanisms for identification and authentication are defined in
-[Section 6](authentication.md#s-6) for PIV Cards and in [[SP 800-157]](../_Appendix/references.md#ref-SP-800-157) for derived PIV credentials
-to provide consistent and secure means for performing the authentication function preceding an
-access control decision.
 
 [Figure 3-1. PIV System Overview](#fig-3-1){:name="fig-3-1"}
 {:latex-ignore="true"}
@@ -128,6 +121,13 @@ program) to which the cardholder wants to gain access.
 The relying system depends on an authorization data component that defines the privileges (authorizations)
 possessed by entities requesting to access a particular logical or physical resource. An example of this is
 an Access Control List (ACL) associated with a file on a computer system.
+
+The PIV relying subsystem becomes relevant when the PIV Card or derived PIV credential is used to authenticate a cardholder who
+is seeking access to a physical or logical resource. Although this Standard does not provide technical
+specifications for this subsystem, various mechanisms for identification and authentication are defined in
+[Section 6](authentication.md#s-6) for PIV Cards and in [[SP 800-157]](../_Appendix/references.md#ref-SP-800-157) for derived PIV credentials
+to provide consistent and secure means for performing the authentication function preceding an
+access control decision.
 
 The physical and logical access control system grants or denies access to a particular resource and
 includes an identification and authentication (I&A) component as well as an authorization component.
