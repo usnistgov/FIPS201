@@ -386,8 +386,7 @@ PIV Card that is nearing expiration, in the event of an employee status or attri
 PIV Card that has been compromised, lost, stolen, or damaged. The cardholder may also apply for
 reissuance of a PIV Card if one or more logical credentials have been compromised. The identity
 proofing, registration, and issuance processes, as described in [Section 2.7](requirements.md#s-2-7) and [Section 2.8](requirements.md#s-2-8), SHALL be repeated if the 
-issuer does not maintain a PIV enrollment record that includes biometric data records for the cardholder. The identity proofing, registation, and issuance processes SHALL also be repeated if the reissuance process was not 
-started before the old PIV Card expired.
+issuer does not maintain a PIV enrollment record that includes biometric data records for the cardholder. 
 
 If the expiration date of the new PIV Card is later than the expiration date of the old card, or if any data
 about the cardholder is being changed, the card issuer SHALL ensure that an adjudicative entity has authorized
