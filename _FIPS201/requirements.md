@@ -476,7 +476,7 @@ The Personal Identification Number (PIN) on a PIV Card may need to be reset if t
 forgotten the PIN or if PIN-based cardholder authentication has been disabled by the usage of an
 invalid PIN more than the allowed number of retries. A maximum of ten consecutive PIN retries SHALL be permitted unless a lower limit is stipulated by the department or agency.[^pinreset] PIN reset
 may be performed in person at an issuing facility, at an unattended kiosk operated by the issuer, or
-remotely via a general computing platform:
+remotely via a general computing platform or a supervised remote identity proofing station:
 
 + When PIN reset is performed in-person at the issuing facility, before providing the reset PIV Card
     back to the cardholder, the issuer SHALL perform a biometric verification to ensure that the cardholder's
@@ -488,6 +488,21 @@ remotely via a general computing platform:
     that the cardholder's biometric characteristics elicit a positive biometric verification decision when compared to either the stored biometric on the PIV Card through an on-card one-to-one comparison, or biometric data records stored in the PIV enrollment record through an off-card one-to-one
     comparison. If the biometric verification decision is negative, the cardholder's biometric characteristics are not successfully acquired, or card authentication is unsuccessful, the kiosk SHALL NOT
     reset the PIV Card. The session SHALL be terminated and the PIN reset SHALL be performed in person at the issuing facility or at a supervised remote identity proofing station.
++ PIN reset at a supervised remote identity proofing station combines the assurance
+    of an in-person reset with the convenience of a kiosk reset. All protections
+    and requirements of [Section 2.7.1](#s-2-7-1) SHALL be observed during the
+    procedure. The operator SHALL initiate a biometric verification to ensure that
+    the cardholder's biometric characteristics captured at the station elicit a
+    positive biometric verification decision when compared to biometric data
+    records stored either on the PIV Card or in the PIV enrollment record. In
+    cases where a negative biometric verification decision is returned or the
+    cardholder's biometric characteristics are not successfully acquired, the
+    cardholder SHALL provide the PIV Card to be reset and another primary identity
+    source document (as specified in [Section 2.7](requirements.md#s-2-7)) via the
+    scanners and sensors integrated into the station. The remote operator SHALL
+    inspect these items and compare the video feed of the cardholder with the
+    electronic facial image retrieved from the enrollment data record and the
+    photograph printed on the PIV Card. 
 + Remote PIN reset on a general computing platform (e.g., desktop, laptop) SHALL only be performed if
     the following requirements are met:
     * the cardholder initiates a PIN reset with the issuer operator;
