@@ -554,6 +554,8 @@ required to have procedures in place to issue emergency notifications in such ca
 
 ## 2.10 Derived PIV Credentials {#s-2-10}
 
+Derived PIV credentials are additional PIV credentials that are issued based on proof of possession and control of a PIV Card. These credentials are not embedded in the PIV Card but instead are stand-alone or integrated in a variety of devices and platforms. Derived PIV credentials play an important role for environments where use of the PIV Card is not easily supported.
+
 ### 2.10.1 Derived PIV Credential Issuance Requirements {#s-2-10-1}
 
 Issuance of a derived PIV credential is an instance of the post-enrollment binding of an authenticator described in [[SP 800-63B]](../_Appendix/references.md#ref-SP-800-63B) and SHALL be performed in accordance with the requirements that apply to physical authenticators as well as the requirements below.
