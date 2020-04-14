@@ -489,7 +489,7 @@ remotely via a general computing platform or a supervised remote identity proofi
     that the cardholder's biometric characteristics elicit a positive biometric verification decision when compared to either the stored biometric on the PIV Card through an on-card one-to-one comparison, or biometric data records stored in the PIV enrollment record through an off-card one-to-one
     comparison. If the biometric verification decision is negative, the cardholder's biometric characteristics are not successfully acquired, or card authentication is unsuccessful, the kiosk SHALL NOT
     reset the PIV Card. The session SHALL be terminated and the PIN reset SHALL be performed in person at the issuing facility or at a supervised remote identity proofing station.
-+ PIN reset at a supervised remote identity proofing station combines the power
++ PIN reset at a supervised remote identity proofing station combines the assurance
     of an in-person reset with the convenience of a kiosk reset. All protections
     and requirements of [Section 2.7.1](#s-2-7-1) SHALL be observed during the
     procedure. The operator SHALL initiate a biometric verification to ensure that
