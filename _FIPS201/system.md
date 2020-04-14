@@ -7,7 +7,7 @@ permalink: /system/
 ---
 # 3. PIV System Overview {#s-3}
 
-_This section is informative._ It serves to provide a PIV system overview.
+_This section is informative._ It serves to provide an overview of the different components of the PIV system.
 
 The PIV system is composed of components and processes that support a common
 platform for identity authentication across federal departments and agencies for access to multiple types
@@ -15,7 +15,7 @@ of physical and logical access environments. The specifications for the PIV comp
 promote uniformity and interoperability among the various PIV system components, across departments
 and agencies, and across installations. The specifications for processes in this Standard are a set of
 minimum requirements for the various activities that need to be performed within an operational PIV
-system. When implemented in accordance with this Standard, the PIV Card and derived PIV credentials support a suite of
+system. When implemented in accordance with this Standard, PIV Cards and derived PIV credentials support a suite of
 authentication mechanisms that can be used consistently across departments and agencies. The
 authenticated identity information can then be used as a basis for access control in
 physical and logical access environments. The following sections briefly discuss the functional
@@ -53,37 +53,37 @@ information about data flow and connections between components.
 
 ### 3.1.1 PIV Front-End Subsystem {#s-3-1-1}
 
+The PIV Front-End Subsystem in [Figure 3-1](#fig-3-1) consists of the credentials and devices
+used to interact with the credentials for authentication.
 The PIV Card will be issued to the applicant when all identity proofing, registration, and issuance
-processes have been completed. Derived PIV credentials might also be issued after post-enrollment binding is complete. The PIV Card takes the physical form of the [[ISO 7816]](../_Appendix/references.md#ref-ISO7816) ID-1 card type (i.e., traditional payment card), with one or more
+processes have been completed. Derived PIV credentials might also be registered after post-enrollment binding is complete. The PIV Card takes the physical form of the [[ISO 7816]](../_Appendix/references.md#ref-ISO7816) ID-1 card type (i.e., traditional payment card), with one or more
 embedded Integrated Circuit Chips (ICC) that provide memory capacity and computational capability. The
 PIV Card is the primary component of the PIV system. The holder uses the PIV Card for authentication
-to various physical and logical resources. Derived PIV credentials increasingly play an important role as additional authenticators, especially in environments where use of the PIV Card is not easily supported. These AAL2 and/or AAL3 authenticators are not embedded in the PIV Card, but rather are stand-alone or integrated in a variety of devices/platforms. 
+to access various physical and logical resources. Alternatively, derived PIV credentials increasingly play an important role as additional authenticators, especially in environments where use of the PIV Card is not easily supported. These AAL2 and AAL3 authenticators are not embedded in the PIV Card, but rather are stand-alone or integrated in a variety of devices and platforms. 
 
-Card readers are located at access points for controlled resources where a cardholder may wish to gain
-access (physical and logical) by using the PIV Card. The reader communicates with the PIV Card to
-retrieve the appropriate information, located in the card's memory, to relay it to the access control
+Card readers are located at access points for controlled resources to allow a cardholder to gain
+physical or logical access using the PIV Card. The reader communicates with PIV Card to
+perform the authentication protocol and relay that information to the access control
 systems for granting or denying access.
 
-Card writers, which are very similar to the card readers, personalize and initialize the information stored
-on PIV Cards. Card writers MAY also be used to perform remote PIV Card updates (see [Section 2.9.2](requirements.md#s-2-9-2)).
+Card writers, which are similar to card readers, personalize and initialize the information stored
+on PIV Cards. Card writers may also be used to perform remote PIV Card updates (see [Section 2.9.2](requirements.md#s-2-9-2)).
 The data to be stored on PIV Cards includes personal information, certificates, cryptographic keys, the
 PIN, and biometric data.
 
 PIN input devices can be used along with card readers when a higher level of authentication assurance is
-required. The cardholder presenting the PIV Card must type their PIN into the PIN input device.
+required. The cardholder presenting the PIV Card types their PIN into the PIN input device.
 For physical access, the PIN is typically entered using a PIN pad device; a keyboard is generally used for
 logical access. The input of a PIN provides a "something you know"[^somethingyouknow] authentication factor that
 activates[^oncardbiometric] the PIV Card and enables access to other credentials resident on the card that provide
-additional factors of authentication. A cryptographic key and certificate, for example, provides an
+additional factors of authentication. A cryptographic key and certificate, for example, provide an
 additional authentication factor of "something you have" (i.e., the card) through PKI-based
 authentication.
 
 Biometric capture devices may be located at secure locations where a cardholder may want to gain access. These
 devices depend upon the use of biometric data of the cardholder, stored in the memory of the card, and its
 comparison with a real-time captured biometric sample. The use of biometric characteristics provides an additional factor of
-authentication ("something you are") in addition to entering the PIN ("something you know") and
-providing the card ("something you have") for cryptographic key-based authentication. This provides for
-a higher level of authentication assurance.
+authentication ("something you are").
 
 
 [^somethingyouknow]: For more information on the terms "something you know," "something you have," and "something you are," see [[SP 800-63]](../_Appendix/references.md#ref-SP-800-63).
@@ -91,7 +91,7 @@ a higher level of authentication assurance.
 
 ### 3.1.2 PIV Issuance and Management Subsystem {#s-3-1-2}
 
-The registration and issuance activities in [Figure 3-1](#fig-3-1) start with identity proofing and registration, where all information and documentation required for enrollment are collected, stored, and maintained. The collected information is subsequently used to personalize and issue the PIV Card, as well as to bind and issue derived PIV credentials as additional PIV authenticators.
+The registration and issuance activities in [Figure 3-1](#fig-3-1) start with identity proofing and registration, during which all information and documentation required for enrollment are collected, stored, and maintained. The collected information is subsequently used to personalize and issue the PIV Card, as well as to bind and issue derived PIV credentials as additional PIV authenticators.
 
 The PIV Card issuance process focuses on the personalization of the physical (visual
 surface) and logical (contents of the ICC) aspects of the card at the time of issuance and maintenance
@@ -99,18 +99,18 @@ thereafter. This includes printing photographs, names, and other information on 
 relevant card applications, biometric data, and other data.
 
 The PKI component provides services for PKI-based PIV credentials. This component is used throughout the
-lifecycle of PIV Cards and PKI-based derived PIV credentials—from generation and loading of authentication keys and PKI credentials, to usage of these keys for secure operations, to eventual reissuance or termination of the PIV Card and associated derived PIV credentials. At the personalization phase, the PKI component issues and distributes the digital certificates for the keys generated on-card and keys generated for PKI-based derived PIV credentials. During use of the PIV credentials at authentication, the PKI component provides 
+lifecycle of PIV Cards and PKI-based derived PIV credentials—from generation and loading of authentication keys and PKI credentials, to usage of these keys for secure operations, to eventual reissuance or termination of the PIV Card and associated PKI-based derived PIV credentials. At the personalization phase, the PKI component issues and distributes the digital certificates for the keys generated on-card and keys generated for PKI-based derived PIV credentials. During use of the PIV credentials at authentication, the PKI component provides 
 requesting application certificate status information of the PKI credentials requesting access.
 
 The enterprise IDMS serves as the central repository for the cardholder’s digital identities. It is where the relevant cardholder attributes are maintained. The IDMS creates the PIV account and associates the cardholder's PIV Card and derived PIV credentials with the account. The account is maintained throughout the cardholder’s employment with the organization. Various Identity, Credential, and Access Management (ICAM) related systems connect to the IDMS to request or update cardholder attributes. For example
 
   * A security office may provide updated background investigative information to the IDMS.
   * An HR system may relay hiring status updates.
-  * The IDMS may serve as the Credential Service Provider (CSP), authenticating the cardholder on behalf of Relying Parties and issuing assertions of attributes relating to the PIV account.
+  * The IDMS may serve as the Identity Provider (IdP), authenticating the cardholder on behalf of a Relying Party (RP) and issuing assertions of attributes relating to the PIV account.
 
 ### 3.1.3 PIV Relying Subsystem {#s-3-1-3}
 
-The PIV relying subsystem includes components responsible for determining a particular PIV
+The PIV relying subsystem in [Figure 3-1](#fig-3-1) includes components responsible for determining a particular PIV
 cardholder's access to a physical or logical resource.[^DPC] A physical resource is the secured facility (e.g.,
 building, room, parking garage) that the cardholder wishes to access. The logical resource is typically a
 network or a location on the network (e.g., computer workstation, folder, file, database record, software
@@ -141,7 +141,7 @@ status service.
 
 ## 3.2 PIV Card Lifecycle Activities {#s-3-2}
 
-The PIV Card lifecycle consists of seven activities.[^DPCLifecyle] The activities that take place during fabrication and
+The PIV Card lifecycle consists of seven activities.[^DPCLifecycle] The activities that take place during fabrication and
 pre-personalization of the card at the manufacturer are not considered a part of this lifecycle model.
 [Figure 3-2](#fig-3-2) presents these PIV activities and depicts the PIV Card request as the initial activity and PIV
 Card termination as the end of life.
@@ -153,59 +153,60 @@ Card termination as the end of life.
 
 ![PIV Card Lifecycle Activities]({{site.baseurl}}/{{page.collection}}/images/lifecycle.png){:style="width: 1047px;" latex-src="lifecycle.pdf" latex-fig="3-2"}
 
-Descriptions of the seven card lifecycle activities are as follows:
+The seven card lifecycle activities are as follows:
 
 PIV Card Request
-: This activity applies to the initiation of a request for the issuance of a PIV Card
+: The initiation of a request for the issuance of a PIV Card
     to an applicant and the validation of this request.
 
-Identity Proofing and Registration.[^enroll]
-: The goal of this activity is to verify the claimed identity of the
+Identity Proofing and Registration
+: Verification of the claimed identity of the
     applicant, verify that the entire set of identity source documents presented at the time of registration is
-    valid, capture biometric characteristics, and optionally create the PIV enrollment record.
+    valid, capture biometric characteristics, and create the PIV enrollment record.[^enroll]
 
 PIV Card Issuance
-: This activity deals with the personalization (physical and logical) of the card
+: Personalization (physical and logical) of the card
     and the issuance of the card to the intended applicant.
 
 PKI Credential Issuance
-: This activity deals with generating logical credentials and loading them
+: Generation of logical credentials and loading them
     onto the PIV Card.
 
 PIV Card Usage
-: During this activity, the PIV Card is used to perform cardholder authentication for
+: Use of the PIV Card to perform cardholder authentication for
     access to a physical or logical resource. Access authorization decisions are made after successful
     cardholder identification and authentication.
 
 PIV Card Maintenance
-: This activity deals with the maintenance or update of the physical card and
+: Maintenance or update of the physical PIV Card and
     its data. Such data includes various card applications, PINs, PKI credentials, and
     biometric data.
 
 PIV Card Termination
-: The termination process is used to permanently destroy or invalidate the
-    PIV Card and the data and keys needed for authentication so as to prevent any future use of the card
+: Permanent destruction or invalidation of the
+    PIV Card and the data and keys needed for authentication so as to prevent any future use of the PIV Card
     for authentication.
 
-[^enroll]: In some other National Institute of Standards and Technology (NIST) documents such as [[SP 800-63A]](../_Appendix/references.md#ref-SP-800-63A), registration is referred to as *enrollment*.
+ [^enroll]: In some other National Institute of Standards and Technology (NIST) documents such as [[SP 800-63A]](../_Appendix/references.md#ref-SP-800-63A), registration is referred to as *enrollment*.
 
 ## 3.3 Connections Between System Components {#s-3-3}
 
-To perform authentication for logical or physical access using a PIV Card or derived PIV credential, the relying subsystem
-verifies the credential and obtains attributes from the PIV account. The connections and data 
-flows between these components are shown in [Figure 3.3](#fig-3-3). 
+To perform authentication for logical or physical access using a PIV Card or derived PIV credential directly, the credential is verified and 
+attributes from the PIV account are provided to the relying subsystem. The connections and data 
+flows between these components are shown in [Figure 3-3](#fig-3-3). 
 
 [Figure 3-3. PIV System Connections](#fig-3-3){:name="fig-3-3"}
 {:latex-ignore="true"}
 
 ![PIV System Connections]({{site.baseurl}}/{{page.collection}}/images/system-direct.png){:style="width: 1047px;" latex-src="system-direct.pdf" latex-fig="3-3"}
 
-While it is possible to directly accept a PIV Card from another agency, the recommended interoperability mechanism for most agencies 
+While it is possible to directly accept a PIV Card issued by another agency, the recommended interoperability mechanism for most agencies 
 is to use a federation protocol as discussed in [Section 7](federation.md#s-7). In this method, the PIV cardholder authenticates to an
-Identity Provider (IdP), which is part of the PIV Issuance and Management Subsystem, 
+IdP, which is part of the PIV Issuance and Management Subsystem, 
 using their PIV Card or derived PIV credential. The IdP verifies the credential and determines the attributes 
 associated with the PIV account. The IdP then creates an assertion that is sent to the
-relying subsystem. The connections and data flows between these components are shown in [Figure 3.4](#fig-3-4).
+relying subsystem. The RP validates the assertion from the IdP, but the RP never sees the credential
+or authentication at the IdP. The connections and data flows between these components are shown in [Figure 3-4](#fig-3-4).
 
 [Figure 3-4. PIV System Federation Connections](#fig-3-4){:name="fig-3-4"}
 {:latex-ignore="true"}
@@ -213,5 +214,5 @@ relying subsystem. The connections and data flows between these components are s
 ![PIV System Federation Connections]({{site.baseurl}}/{{page.collection}}/images/system-federation.png){:style="width: 1047px;" latex-src="system-federation.pdf" latex-fig="3-4"}
 
 While this Standard makes no requirements on when to apply direct or federated authentication mechanisms, there are some
-natural mappings. For example, note that physical access systems are not usually well-suited for a federation protocol. Also, note that 
-many derived PIV credentials can only be verified directly by their issuer and are therefore better suited for use in federation.
+natural mappings. For example, physical access systems are not usually well-suited for a federation protocol. Also,
+many derived PIV credentials can only be verified by their issuer and are therefore better suited for use as part of a federation protocol.

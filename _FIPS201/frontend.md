@@ -12,38 +12,38 @@ _This section is normative._ It provides the requirements for the PIV front-end 
 
 ## 4.1 PIV Card Physical Characteristics {#s-4-1}
 
-References to the PIV Card in this section pertain to the physical characteristics only. References to the
-front of the card apply to the side of the card that contains electronic contacts; references to the back
-of the card apply to the side opposite of the front side.
+References to the PIV Card in this section pertain to its physical characteristics only. References to the
+front of the card apply to the side of the card that contains electronic contacts. References to the back
+of the card apply to the side opposite of the front.
 
 The PIV Card's physical appearance and other characteristics should balance the need to have the PIV
 Card commonly recognized as a federal identification card while providing the flexibility to support
 individual department and agency requirements. Having a common look for PIV Cards is important in
 meeting the objectives of improved security and interoperability. In support of these objectives,
-consistent placement of printed components and technology is generally necessary.
+consistent placement of printed components and technology is necessary.
 
 The PIV Card SHALL comply with physical characteristics as described in [[ISO 7810]](../_Appendix/references.md#ref-ISO7810),
-[[ISO 10373]](../_Appendix/references.md#ref-ISO10373), [[ISO 7816]](../_Appendix/references.md#ref-ISO7816) for contact cards, and
+[[ISO 10373]](../_Appendix/references.md#ref-ISO10373), and [[ISO 7816]](../_Appendix/references.md#ref-ISO7816) for contact cards, in addition to
 [[ISO 14443]](../_Appendix/references.md#ref-ISO14443) for contactless cards.
 
 ### 4.1.1 Printed Material {#s-4-1-1}
 
 The printed material SHALL NOT rub off during the life of the PIV Card. The printing process SHALL NOT 
 deposit debris on the printer rollers during printing and laminating. Printed material SHALL NOT interfere
-with the contact and contactless ICC(s) and related components, nor SHALL it obstruct access to machine-readable information.
+with the ICCs or related components, nor SHALL it obstruct access to machine-readable information.
 
 ### 4.1.2 Tamper Proofing and Resistance {#s-4-1-2}
 
-To combat counterfeiting and alterations, the PIV Card SHALL contain security features outlined in the American Association of Motor Vehicle Association’s (AAMVA) Drivers License/Identification Card (DL/ID) Card Design Standard [[CDS]](../_Appendix/references.md#ref-CDS). The Card Design Standard classifies security features into three categories, depending on the security level required for verification:
+To combat counterfeiting and alterations, the PIV Card SHALL contain security features outlined in the American Association of Motor Vehicle Association’s (AAMVA) Drivers License/Identification Card (DL/ID) Card Design Standard [[CDS]](../_Appendix/references.md#ref-CDS). The Card Design Standard classifies security features into three categories, depending on the inspection level required for verification:
 
-Level 1
-: Security features that can be examined without tools or aids that involves easily identifiable visual or tactile features for rapid inspection at point of usage (e.g.embossed surface pattern, optically variable device (such as a hologram), or color shifting inks). 
+Inspection Level 1
+: Security features that can be examined without tools or aids that includes easily identifiable visual or tactile features for rapid inspection at point of usage. Examples include an embossed surface pattern, an optically variable device (such as a hologram), or color shifting inks.
 
-Level 2
-: Security features that require the use of a tool or instrument (e.g., UV light, magnifying glass, or scanner) to discern the feature. Level two sample security features include microtext, UV fluorescent images and IR-fluorescent ink. 
+Inspection Level 2
+: Security features that require the use of a tool or instrument (e.g., UV light, magnifying glass, or scanner) to discern. Examples include microtext, UV-fluorescent images, IR-fluorescent ink, nano and micro images, and chemical taggants.
 
-Level 3
-: Security features inspected by forensic specialists to conduct in-depth examination that may require special equipment to provide true certification. Nano and micro images and chemical taggants, are examples of level 3 security features.
+Inspection Level 3
+: Security features inspected by forensic specialists to conduct in-depth examination that may require special equipment to provide true certification. Examples of level 3 security features are available on a need-to-know basis.
 
 A PIV Card SHALL incorporate at least one security feature at inspection level 1 or inspection level 2. Federal departments and agencies SHOULD incorporate additional security features and include all three inspection levels.
 
@@ -54,57 +54,67 @@ Incorporation of security features SHALL
 - not obscure printed information; and
 - not impede access to machine-readable information.
 
-All security features SHOULD maintain their function for the life of the card. As a generally accepted security procedure, federal departments and agencies SHOULD periodically review the viability, effectiveness, and currency of employed tamper resistance and anticounterfeiting methods.
+All security features SHOULD maintain their function for the life of the card. As a generally accepted security procedure, federal departments and agencies SHOULD periodically review the viability, effectiveness, and currency of employed tamper resistance and anti-counterfeiting methods.
 
 ### 4.1.3 Physical Characteristics and Durability {#s-4-1-3}
 
-The following list describes the physical requirements for the PIV Card.
+This section describes the physical requirements for the PIV Card.
 
-- The PIV Card SHALL contain a contact and a contactless ICC interface.
-- The card body SHALL be white in accordance with color representation in [Section 4.1.5](frontend.md#s-4-1-5). Only a
-    security feature, as described in [Section 4.1.2](frontend.md#s-4-1-2), may modify the perceived color slightly. Presence of a
-    security feature SHALL NOT prevent the recognition of white as the principal card body color by a person
-    with normal vision (corrected or uncorrected) at a working distance of 50&nbsp;cm to 200&nbsp;cm.
-- The card body structure SHALL consist of card material(s) that satisfy the card characteristics in
-    [[ISO 7810]](../_Appendix/references.md#ref-ISO7810) and test methods in [[ANSI 322]](../_Appendix/references.md#ref-ANSI322).
-    Although the [[ANSI 322]](../_Appendix/references.md#ref-ANSI322) test methods do not currently specify compliance requirements, the tests
-    SHALL be used to evaluate card material durability and performance. These tests minimally
-    SHALL include card flexure, static stress, plasticizer exposure, impact resistance, card structural
-    integrity, surface abrasion, temperature and humidity-induced dye migration, ultraviolet light
-    exposure, and a laundry test. Cards SHALL NOT malfunction or delaminate after hand cleaning with a
-    mild soap and water mixture.
-- The card SHALL be subjected to sunlight exposure in accordance with Section 5.12 of [[ISO 10373]](../_Appendix/references.md#ref-ISO10373)
-    or to ultraviolet and daylight fading exposure in accordance with [[ANSI 322]](../_Appendix/references.md#ref-ANSI322).
-    Sunlight exposure in accordance to [[ISO 10373]](../_Appendix/references.md#ref-ISO10373) SHALL be in the
-    form of actual, concentrated, or artificial sunlight that appropriately reflect 2&thinsp;000&nbsp;hours of 
-    southwestern United States' sunlight. 
-    Concentrated sunlight exposure SHALL be performed in accordance with [[G90-98]](../_Appendix/references.md#ref-G90-98) and accelerated 
-    exposure in accordance with [[G155-2013]](../_Appendix/references.md#ref-G155-2013). The card 
-    SHALL be subjected to the
-    [[ISO 10373]](../_Appendix/references.md#ref-ISO10373) dynamic bending test and SHALL have no visible 
-    cracks or failures after the [[ISO 10373]](../_Appendix/references.md#ref-ISO10373) or [[ANSI 322]](../_Appendix/references.md#ref-ANSI322) exposure. 
-- There are methods by which proper card orientation can be indicated. [Section 4.1.4.3](frontend.md#s-4-1-4-3), for example,
-    defines Zones 21F and 22F, where card orientation features MAY be applied.[^orientation] Note: If an agency
-    determines that tactilely discernible markers for PIV Cards impose an undue burden, the agency
-    SHALL implement policies and procedures to accommodate employees and contractors with disabilities
-    in accordance with Sections 501 and 504 of the Rehabilitation Act.
-- The card SHALL be 27- to 33-mil thick (before lamination) in accordance with [[ISO 7810]](../_Appendix/references.md#ref-ISO7810).
-- The PIV Card SHALL NOT be embossed.
-- Decals SHALL NOT be adhered to the card.
-- Departments and agencies MAY choose to punch an opening in the card body to enable the card to be
-    oriented by touch or to be worn on a lanyard. Departments and agencies should ensure such
-    alterations are closely coordinated with the card vendor and/or manufacturer to ensure the card
-    material integrity and printing process are not adversely impacted. Departments and agencies
-    SHOULD ensure that such alterations do not
-    compromise card body durability requirements and characteristics;
-    invalidate card manufacturer warranties or other product claims;
-    alter or interfere with printed information, including the photograph; or
-    damage or interfere with machine-readable technology, such as the embedded antenna.
-- The card material SHALL withstand the effects of temperatures required by the application of a polyester
-    laminate on one or both sides of the card by Commercial Off-The-Shelf (COTS) equipment. The
-    thickness added due to a laminate layer SHALL NOT interfere with the smart card reader operation. The
-    card material SHALL allow production of a flat card in accordance with [[ISO 7810]](../_Appendix/references.md#ref-ISO7810) after lamination of
-    one or both sides of the card.
+The PIV Card SHALL contain a contact and a contactless ICC interface.
+
+The card body SHALL be white in accordance with color representation in [Section 4.1.5](frontend.md#s-4-1-5). Only
+security features, as described in [Section 4.1.2](frontend.md#s-4-1-2), may modify the perceived color slightly. Presence of
+security features SHALL NOT prevent the recognition of white as the principal card body color by a person
+with normal vision (corrected or uncorrected) at a working distance of 50&nbsp;cm to 200&nbsp;cm.
+
+The card body structure SHALL consist of card materials that satisfy the card characteristics in
+[[ISO 7810]](../_Appendix/references.md#ref-ISO7810) and test methods in [[ANSI 322]](../_Appendix/references.md#ref-ANSI322).
+Although the [[ANSI 322]](../_Appendix/references.md#ref-ANSI322) test methods do not currently specify compliance requirements, the tests
+SHALL be used to evaluate card material durability and performance. These tests
+SHALL include card flexure, static stress, plasticizer exposure, impact resistance, card structural
+integrity, surface abrasion, temperature and humidity-induced dye migration, ultraviolet light
+exposure, and laundry test. Cards SHALL NOT malfunction or delaminate after hand cleaning with a
+mild soap and water mixture.
+
+The card SHALL be subjected to sunlight exposure in accordance with Section 5.12 of [[ISO 10373]](../_Appendix/references.md#ref-ISO10373)
+or to ultraviolet and daylight fading exposure in accordance with [[ANSI 322]](../_Appendix/references.md#ref-ANSI322).
+Sunlight exposure in accordance to [[ISO 10373]](../_Appendix/references.md#ref-ISO10373) SHALL be in the
+form of actual, concentrated, or artificial sunlight that appropriately reflect 2&thinsp;000&nbsp;hours of 
+southwestern United States' sunlight. 
+Concentrated sunlight exposure SHALL be performed in accordance with [[G90-98]](../_Appendix/references.md#ref-G90-98) and accelerated 
+exposure in accordance with [[G155-2013]](../_Appendix/references.md#ref-G155-2013). The card 
+SHALL be subjected to the
+[[ISO 10373]](../_Appendix/references.md#ref-ISO10373) dynamic bending test and SHALL have no visible 
+cracks or failures after the [[ISO 10373]](../_Appendix/references.md#ref-ISO10373) or [[ANSI 322]](../_Appendix/references.md#ref-ANSI322) exposure. 
+
+There are methods by which proper card orientation can be indicated. [Section 4.1.4.3](frontend.md#s-4-1-4-3), for example,
+defines Zones 21F and 22F, where card orientation features MAY be applied.[^orientation] Note: If an agency
+determines that tactilely discernible markers for PIV Cards impose an undue burden, the agency
+SHALL implement policies and procedures to accommodate employees and contractors with disabilities
+in accordance with Sections 501 and 504 of the Rehabilitation Act.
+
+The card SHALL be 27&nbsp;mil to 33&nbsp;mil (0.69&nbsp;mm to 0.84&nbsp;mm) thick before lamination, in accordance with [[ISO 7810]](../_Appendix/references.md#ref-ISO7810).
+
+The PIV Card SHALL NOT be embossed other than for security and accessibility features.
+
+Decals SHALL NOT be adhered to the card.
+
+Departments and agencies MAY choose to punch an opening in the card body to enable the card to be
+oriented by touch or to be worn on a lanyard. Departments and agencies should ensure such
+alterations are closely coordinated with the card vendor and/or manufacturer to ensure the card
+material integrity and printing process are not adversely impacted. Departments and agencies
+SHOULD ensure such alterations do not
+
+- compromise card body durability requirements and characteristics;
+- invalidate card manufacturer warranties or other product claims;
+- alter or interfere with printed information, including the photograph; or
+- damage or interfere with machine-readable technology, such as the embedded antenna.
+
+The card material SHALL withstand the effects of temperatures required by the application of a polyester
+laminate on one or both sides of the card by Commercial Off-The-Shelf (COTS) equipment. The
+thickness added due to a laminate layer SHALL NOT interfere with the smart card reader operation. The
+card material SHALL allow production of a flat card in accordance with [[ISO 7810]](../_Appendix/references.md#ref-ISO7810) after lamination of
+one or both sides of the card.
 
 The PIV Card MAY be subjected to additional testing.
 
@@ -114,31 +124,29 @@ The PIV Card MAY be subjected to additional testing.
 
 The information on a PIV Card SHALL be in visual printed and electronic form. This section covers the
 placement of visual and printed information. It does not cover information stored in electronic form, such
-as stored data elements, and other possible machine-readable technologies. Logically stored data
+as stored data elements, and other possible machine-readable technologies. Logically-stored data
 elements are discussed in [Section 4.2](frontend.md#s-4-2).
 
 As noted in [Section 4.1.3](frontend.md#s-4-1-3), the PIV Card SHALL contain a contact and a contactless ICC interface. This
-Standard does not specify whether a single chip is used or multiple chips are used to support the mandated
+Standard does not specify the number of chips used to support the mandated
 contact and contactless interfaces.
 
 To achieve a common PIV Card appearance, yet provide departments and agencies the flexibility to
-augment the card with department or agency-specific requirements, the card SHALL contain mandated and
-optional printed information and mandated and optional machine-readable technologies. Mandated and
+augment the card with department- or agency-specific requirements, the card SHALL contain 
+printed information and machine-readable technologies. Mandated and
 optional items SHALL be placed as described and depicted. Printed data SHALL NOT interfere with
 machine-readable technology.
 
 Areas that are marked as reserved SHOULD NOT be used for printing. The reason for the recommended
-reserved areas is that placement of the embedded contactless ICC module may vary from manufacturer to
-manufacturer, and there are constraints that prohibit printing over the embedded contactless module. The
+reserved areas is that placement of the embedded contactless ICC module may between
+manufacturers, and there are constraints that prohibit printing over the embedded contactless module. The
 PIV Card topography provides flexibility for placement of the embedded module, either in the upper
-right-hand corner or in the lower bottom portion. Printing restrictions apply only to the area where the
-embedded module is located (i.e., upper right-hand corner, lower bottom portion).
+right corner or in the lower portion. Printing restrictions apply only to the area where the
+embedded module is located.
 
-Because technological developments may obviate the need to have a restricted area, or change the size of
-the restricted area, departments and agencies are encouraged to work closely with card vendors and
-manufacturers to ensure current printing procedures and methods are applied as well as potential
-integration of features that may improve tamper resistance and anti-counterfeiting of the PIV Card.
-
+Departments and agencies are encouraged to work closely with card vendors and manufacturers to
+integrate features that may improve tamper resistance and anti-counterfeiting properties
+of the PIV Card.
 
 #### 4.1.4.1 Mandatory Items on the Front of the PIV Card {#s-4-1-4-1}
 

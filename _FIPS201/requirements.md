@@ -635,7 +635,7 @@ To ensure the privacy throughout PIV lifecycle, departments and agencies SHALL d
     the complete set of uses of the credential and related information at the department or agency.
 - Provide PIV applicants full disclosure of the intended uses of the information associated with the PIV
     Card and the related privacy implications.
-- Assure that systems that contain PII for the purpose of enabling the implementation of PIV are
+- Ensure that systems that contain PII for the purpose of enabling the implementation of PIV are
     handled in full compliance with fair information practices as defined in [[PRIVACY]](../_Appendix/references.md#ref-PRIVACY).
 - Maintain appeal procedures for those who are denied a credential or whose credentials are revoked.
 - Ensure that only personnel with a legitimate need for access to PII in the PIV system are authorized to
@@ -643,10 +643,9 @@ To ensure the privacy throughout PIV lifecycle, departments and agencies SHALL d
     credential issuance.[^access]
 - Coordinate with appropriate department or agency officials to define consequences for violating
     privacy policies of the PIV system.
-- Assure that the technologies used in the department or agency's implementation of the PIV system
-    allow for continuous auditing of compliance with stated privacy policies.
-- Assure that the technologies used in the department or agency's implementation of the PIV system conform to the practices governing the
-    collection, use, and distribution of information in the operation of the program.
+- Ensure that the technologies used in the department or agency’s implementation of the PIV system 
+    allow for continuous auditing of compliance with stated privacy policies and with practices governing
+		the collection, use, and distribution of information in the operation of the program.
 - Utilize security controls described in [[SP 800-53]](../_Appendix/references.md#ref-SP-800-53) to accomplish privacy goals, where applicable.
 - Ensure that the technologies used to implement PIV sustain and do not erode privacy protections
     relating to the use, collection, and disclosure of PII. Agencies MAY choose to deploy PIV Cards with

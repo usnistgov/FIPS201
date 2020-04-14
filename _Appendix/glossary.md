@@ -496,6 +496,9 @@ IETF
 INCITS
 : International Committee for Information Technology Standards
 
+IR
+: Infrared
+
 ISO
 : International Organization for Standardization
 
@@ -504,6 +507,9 @@ IT
 
 ITL
 : Information Technology Laboratory
+
+mil
+: Thousandth of an inch
 
 mm
 : Millimeter
@@ -596,7 +602,10 @@ U.S.C.
 : United States Code
 
 UUID
-: Universally Unique IDentifier
+: Universally Unique Identifier
+
+UV
+: Ultraviolet
 
 [^eligibility]: See Page 2 of [[M-05-24]](../references/#ref-OMB0524) for further details of individuals who are eligible to be issued PIV Cards.
 
