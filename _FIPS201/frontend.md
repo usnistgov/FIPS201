@@ -76,11 +76,11 @@ The following list describes the physical requirements for the PIV Card.
 - The card SHALL be subjected to sunlight exposure in accordance with Section 5.12 of [[ISO 10373]](../_Appendix/references.md#ref-ISO10373)
     or to ultraviolet and daylight fading exposure in accordance with [[ANSI 322]](../_Appendix/references.md#ref-ANSI322).
     Sunlight exposure in accordance to [[ISO 10373]](../_Appendix/references.md#ref-ISO10373) SHALL be in the
-    form of actual, concentrated, or artificial sunlight that appropriately reflect 2&thinsp;000&nbsp;h of 
+    form of actual, concentrated, or artificial sunlight that appropriately reflect 2&thinsp;000&nbsp;hours of 
     southwestern United States' sunlight. 
     Concentrated sunlight exposure SHALL be performed in accordance with [[G90-98]](../_Appendix/references.md#ref-G90-98) and accelerated 
     exposure in accordance with [[G155-2013]](../_Appendix/references.md#ref-G155-2013). The card 
-SHALL be subjected to the
+    SHALL be subjected to the
     [[ISO 10373]](../_Appendix/references.md#ref-ISO10373) dynamic bending test and SHALL have no visible 
     cracks or failures after the [[ISO 10373]](../_Appendix/references.md#ref-ISO10373) or [[ANSI 322]](../_Appendix/references.md#ref-ANSI322) exposure. 
 - There are methods by which proper card orientation can be indicated. [Section 4.1.4.3](frontend.md#s-4-1-4-3), for example,
@@ -484,7 +484,7 @@ PIV logical credentials fall into the following three categories:
 The PIV Card SHALL include the CHUID as defined in [[SP 800-73]](../_Appendix/references.md#ref-SP-800-73). The CHUID includes the Federal
 Agency Smart Credential Number (FASC-N) and the Global Unique Identification Number (GUID),
 which uniquely identify each card as described in [[SP 800-73]](../_Appendix/references.md#ref-SP-800-73). The value of the GUID data element SHALL
-be a 16&nbsp;B binary representation of a valid UUID [[RFC 4122]](../_Appendix/references.md#ref-RFC4122). The
+be a 16&nbsp;byte binary representation of a valid UUID [[RFC 4122]](../_Appendix/references.md#ref-RFC4122). The
 CHUID SHALL also include an expiration date data element in machine-readable format that specifies when
 the card expires. The expiration date format and encoding rules are as specified in [[SP 800-73]](../_Appendix/references.md#ref-SP-800-73).
 
