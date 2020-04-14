@@ -27,10 +27,12 @@ such that
 
 + A credential is issued only to an individual whose identity has been verified and who has been appropriately vetted as per [Section 2.2](requirements.md#s-2-2)
     after a proper authority has authorized issuance of the credential.
-+ A credential is issued only after an individual’s eligibility has been favorably adjudicated. 
-    This adjudication can be based on the prerequisite Federal investigation.[^background] Alternatively, the adjudication is complete after the vetting 
-    process has been initiated[^initiation] with the federal investigative service provider and the Federal Bureau of Investigation (FBI) National Criminal History Check (NCHC) 
-    portion of the background investigation is completed and favorably adjudicated.
++ A credential is issued only after an individual’s eligibility has been favorably adjudicated
+    based on the prerequisite Federal investigation (See [Section 2.2](../requirements/#s-2-2)). If there 
+		is no investigation meeting the investigative standards, the PIV credential eligibility may be approved 
+		upon favorable initiation of the prerequisite investigation[^initiation] and once the Federal Bureau of
+		Investigation (FBI) National Criminal History Check (NCHC) portion of the background investigation is
+		completed and favorably adjudicated.
 + An individual is issued a credential only after presenting two identity source documents, at least one
     of which is a Federal or State Government issued picture ID.
 + Fraudulent identity source documents are not accepted as genuine and unaltered.
@@ -44,8 +46,6 @@ such that
 + A single corrupt official in the process may not issue a credential with an incorrect identity or to a
     person not entitled to the credential.
 + An issued credential is not duplicated or forged, and is not modified by an unauthorized entity.
-
-[^background]: For guidance on investigation requirements, refer to [Section 2.2](../requirements/#s-2-2). NACI investigations were replaced with Tier 1 investigations upon implementation of the 2012 Federal Investigative Standards.
 
 [^initiation]: The initiation of a background investigation is defined as the submission of an investigative request to the Defense Counterintelligence and Security Agency or other authorized federal investigation service provider.
 
@@ -215,7 +215,7 @@ Identity proofing and registration requirements for issuance of PIV Cards meet I
 The organization SHALL adopt and use an identity proofing and registration process that is approved in
 accordance with [[SP 800-79]](../_Appendix/references.md#ref-SP-800-79).
 
-Investigative requirements are specified in [Section 2.2](requirements.md#s-2-2).
+The organization SHALL follow investigative requirements as outlined in [Section 2.2](requirements.md#s-2-2).
 
 Biometric data SHALL be captured as specified in [Section 2.3](requirements.md#s-2-3) and [Section 2.4](requirements.md#s-2-4).
 
@@ -523,6 +523,7 @@ Supervised remote identity proofing station
     electronic facial image retrieved from the enrollment data record and the
     photograph printed on the PIV Card. 
     the following requirements are met:
+    
     * the cardholder initiates a PIN reset with the issuer operator;
     * the operator authenticates the owner of the PIV Card through an independent
         procedure; and
