@@ -9,9 +9,12 @@ pdf:
     sections:
         - name: frontmatter
           parts: 
-              - _Frontmatter/foreword.md
-              - _Frontmatter/abstract.md
-              - _Frontmatter/announcement.md
+              - content: _Frontmatter/foreword.md
+                template: _pdftemplate/foreword.tex
+              - content: _Frontmatter/abstract.md
+                template: _pdftemplate/foreword.tex
+              - content: _Frontmatter/announcement.md
+                template: _pdftemplate/announcement.tex
           part_template: _pdftemplate/sectionpart.tex
           section_template: _pdftemplate/section.tex
         - name: body

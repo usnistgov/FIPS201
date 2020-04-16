@@ -4,7 +4,6 @@ title: Foreword
 navOrder: 2
 navTitle: Foreword
 permalink: /foreword/
-template: _pdftemplate/foreword.tex
 ---
 
 # FOREWORD

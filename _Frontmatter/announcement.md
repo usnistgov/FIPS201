@@ -4,7 +4,6 @@ title: Announcement
 navOrder: 3
 navTitle: Announcement
 permalink: /announcement/
-template: _pdftemplate/announcement.tex
 ---
 
 Federal Information Processing Standards Publications (FIPS PUBS) are issued by the National Institute of Standards and Technology (NIST) after approval by the Secretary of Commerce pursuant to Section 5131 of the Information Technology Management Reform Act of 1996 (Public Law 104-106), and the Computer Security Act of 1987 (Public Law 100-235).
@@ -59,7 +58,7 @@ A PIV Card must be personalized with identity information for the individual to 
 + [Section 2.8](_FIPS201/requirements.md#s-2-8) and [Section 2.9](_FIPS201/requirements.md#s-2-9) specify alternatives for the biometric capture device interactions required at PIV Card issuance, reissuance, and reset.
 + [Section 2.10](_FIPS201/requirements.md#s-2-10) defines alternatives to smart card-based PIV credentials in the form of derived PIV credentials.
 + [Section 6](_FIPS201/authentication.md#s-6) defines authentication mechanisms with varying characteristics for both physical and logical access (e.g., with or without PIN, over contact, contactless, or virtual contact interface).
-+ [Section 7](_FIPS201/federation.md#s-7) defines a federation as a means for a relying system to leverage the capabilities and characteristics of the IdP.
++ [Section 7](_FIPS201/federation.md#s-7) defines federation as a means for a relying system to leverage the capabilities and characteristics of the IdP.
 
 The Office of Management and Budget (OMB) provides implementation oversight for this Standard. 
 

@@ -5,7 +5,6 @@ description: "FIPS 201"
 navOrder: 1
 navTitle: Abstract
 permalink: /
-template: _pdftemplate/foreword.tex
 ---
 
 # ABSTRACT
