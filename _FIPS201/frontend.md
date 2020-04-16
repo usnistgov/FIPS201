@@ -45,7 +45,7 @@ Level 2
 Level 3
 : Security features inspected by forensic specialists to conduct in-depth examination that may require special equipment to provide true certification. Nano and micro images and chemical taggants, are examples of level 3 security features.
 
-A PIV Card SHALL incorporate at least one security feature at inspection level 1 or inspection level 2. Federal departments and agencies are strongly encouraged to incorporate additional security features and to include all three inspection levels.
+A PIV Card SHALL incorporate at least one security feature at inspection level 1 or inspection level 2. Federal departments and agencies SHOULD incorporate additional security features and include all three inspection levels.
 
 Incorporation of security features SHALL
 
@@ -54,7 +54,7 @@ Incorporation of security features SHALL
 - not obscure printed information; and
 - not impede access to machine-readable information.
 
-All security features SHOULD maintain their function for the life of the card. As a generally accepted security procedure, federal departments and agencies are strongly encouraged to periodically review the viability, effectiveness, and currency of employed tamper resistance and anticounterfeiting methods.
+All security features SHOULD maintain their function for the life of the card. As a generally accepted security procedure, federal departments and agencies SHOULD periodically review the viability, effectiveness, and currency of employed tamper resistance and anticounterfeiting methods.
 
 ### 4.1.3 Physical Characteristics and Durability {#s-4-1-3}
 
@@ -91,8 +91,8 @@ The following list describes the physical requirements for the PIV Card.
 - Departments and agencies MAY choose to punch an opening in the card body to enable the card to be
     oriented by touch or to be worn on a lanyard. Departments and agencies should ensure such
     alterations are closely coordinated with the card vendor and/or manufacturer to ensure the card
-    material integrity and printing process are not adversely impacted. Departments and agencies are
-    strongly encouraged to ensure such alterations do not
+    material integrity and printing process are not adversely impacted. Departments and agencies
+    SHOULD ensure that such alterations do not
     compromise card body durability requirements and characteristics;
     invalidate card manufacturer warranties or other product claims;
     alter or interfere with printed information, including the photograph; or
