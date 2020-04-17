@@ -310,7 +310,7 @@ components of relying systems, including card readers, biometric capture devices
 key management systems, involves many factors not fully specified by FIPS 201, such as correctness of
 the functional mechanism, physical protection of the mechanism, and environmental conditions at the
 authentication point. Additional standards and best practice guidelines apply to the design and
-implementation of relying systems, e.g., [[FIPS140]](../_Appendix/references.md#ref-FIPS140) and [[SP 800-116]](../_Appendix/references.md#ref-SP-800-116).
+implementation of relying systems, e.g., [[FIPS 140]](../_Appendix/references.md#ref-FIPS140) and [[SP 800-116]](../_Appendix/references.md#ref-SP-800-116).
 
 ### 6.3.1 Physical Access {#s-6-3-1}
 

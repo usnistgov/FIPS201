@@ -29,10 +29,10 @@ Version 1.31, February 8, 2019, or as amended. Available at
 [[FCS]](#ref-FCS){:name="ref-FCS"} Final Credentialing Standards for Issuing Personal Identity Verification
 Cards under HSPD-12, OMB, July 31, 2008. Available at <https://www.opm.gov/suitability/suitability-executive-agent/policy/final-credentialing-standards.pdf>.
 
-[[FIPS140]](#ref-FIPS140){:name="ref-FIPS140"} FIPS Publication 140-3, *Security Requirements for Cryptographic Modules*, NIST,
+[[FIPS 140]](#ref-FIPS140){:name="ref-FIPS140"} FIPS Publication 140-3, *Security Requirements for Cryptographic Modules*, NIST,
 March 22, 2019, or as amended. Available at <https://doi.org/10.6028/NIST.FIPS.140-3>.
 
-[[FIPS180]](#ref-FIPS180){:name="ref-FIPS180"} FIPS Publication 180-4, *Secure Hash Standard (SHS)*, August 2015, or as amended.
+[[FIPS 180]](#ref-FIPS180){:name="ref-FIPS180"} FIPS Publication 180-4, *Secure Hash Standard (SHS)*, August 2015, or as amended.
 Available at <http://doi.org/10.6028/NIST.FIPS.180-4>.
 
 [[FICAM]](#ref-FICAM){:name="ref-FICAM"} Federal Identity, Credential, and Access Management (FICAM) Roadmap and Implementation Guidance,

@@ -100,5 +100,5 @@ FISMA does not allow for waivers to FIPS that are made mandatory by the Secretar
 
 # 13. Where to Obtain Copies of the Standard. {#f-13}
 
-This publication is available through the Internet by accessing <https://csrc.nist.gov/publications/>. Other computer security publications are available at the same website.
+This publication is available through the internet by accessing <https://csrc.nist.gov/publications/>. Other computer security publications are available at the same website.
 

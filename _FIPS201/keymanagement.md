@@ -94,7 +94,7 @@ found in [[PROF]](../_Appendix/references.md#ref-PROF).
 
 Certificates that contain the FASC-N or UUID in the Subject Alternative Name extension, such as PIV
 authentication certificates and card authentication certificates, SHALL NOT be distributed publicly (e.g., via
-HTTP accessible from the public Internet).
+HTTP accessible from the public internet).
 Individual departments and agencies can decide whether digital signature and key
 management certificates can be distributed publicly by the CA.
 
