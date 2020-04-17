@@ -255,7 +255,7 @@ Gaithersburg, MD 20899-8900
 %   Start front matter - page number starts with "i"
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-%: if rendered.frontmatter is not none
+%: if rendered.frontmatter
 
 \pagenumbering{roman}
 
@@ -316,7 +316,7 @@ Gaithersburg, MD 20899-8900
 %   start with 'A'
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-%: if rendered.appendix is not none
+%: if rendered.appendix
 
 \appendix
 \VAR{rendered.appendix}
