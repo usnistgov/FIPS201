@@ -46,7 +46,7 @@ pdf:
     doc_title: Personal Identity Verification (PIV)\\of Federal Employees and Contractors
     pdf_title: 'FIPS 201-3: Personal Identity Verification (PIV) of Federal Employees and Contractors'
     lineno: true
-    zsupersedes: FIPS 201-2
+    supersedes: FIPS 201-2
     category: Information Security
     subcategory: Identity
     
