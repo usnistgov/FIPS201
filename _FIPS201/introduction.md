@@ -103,7 +103,7 @@ indicating this is a backward incompatible change.
 
 New features are optional or mandatory features that are added to the Standard. New features do not
 interfere with backward compatibility because they are not part of the existing relying systems. For
-example, the optional biometric On-Card Comparison Authentication (OCC-AUTH) mechanism was a
+example, the optional biometric on-card comparison (OCC) authentication mechanism (OCC-AUTH) was a
 new feature introduced in FIPS 201-2. The optional mechanism did not affect the features of existing systems. Systems had to be updated only if an
 agency decided to support the OCC-AUTH mechanism.
 
@@ -182,7 +182,7 @@ informative (i.e., provide information details that do not affect compliance). T
     data elements, biometric data records, cryptography, and card readers. This section is *normative*.
 + [Section 5, PIV Key Management Requirements](keymanagement.md#s-5), defines the processes and components required
     for managing a PIV Card's lifecycle. It also provides the requirements and specifications related
-    to the key management subsystem. This section is *normative*.
+    to key management. This section is *normative*.
 + [Section 6, PIV Cardholder Authentication](authentication.md#s-6), defines a suite of authentication mechanisms that are
     supported by the PIV Card and their applicability in meeting the requirements of graduated
     levels of identity assurance. This section is *normative*.

@@ -445,39 +445,41 @@ the purpose of verifying the cardholder's identity at graduated assurance levels
 data elements are part of the data model for PIV Card logical credentials that support authentication
 mechanisms interoperable across agencies:
 
-- a PIN;
-- a Cardholder Unique Identifier (CHUID);
-- PIV authentication data (one asymmetric private key and corresponding certificate);
-- two fingerprint biometric templates;
-- an electronic facial image; and
+- a PIN,
+- a Cardholder Unique Identifier (CHUID),
+- PIV authentication data (one asymmetric private key and corresponding certificate),
+- two fingerprint biometric templates,
+- an electronic facial image, and
 - card authentication data (one asymmetric private key and corresponding certificate).
 
 This Standard also defines two data elements for the PIV Card data model that are mandatory if the cardholder
 has a government-issued email account at the time of PIV Card issuance. These data elements are
 
-- an asymmetric private key and corresponding certificate for digital signatures; and
+- an asymmetric private key and corresponding certificate for digital signatures, and
 - an asymmetric private key and corresponding certificate for key management.
 
 This Standard also defines optional data elements for the PIV Card data model. These optional data elements
 include
 
-- an electronic image of the left iris;
-- an electronic image of the right iris;
-- one or two fingerprint biometric templates for OCC;
-- a symmetric card authentication key for supporting physical access applications; and
+- an electronic image of the left iris,
+- an electronic image of the right iris,
+- one or two fingerprint biometric templates for OCC,
+- a symmetric card authentication key for supporting physical access applicationsc and
 - a symmetric PIV Card Application administration key associated with the card management system.
 
 In addition to the above, other data elements are specified in [[SP 800-73]](../_Appendix/references.md#ref-SP-800-73).
 
 PIV Card logical credentials fall into the following three categories:
 
-CTC authentication
+Cardholder-To-Card (CTC) authentication
 : Credential elements used to prove the identity of the cardholder to the card, also known as card activation. 
   Examples include the PIN and the fingerprint biometric templates for OCC.
-CMTC authentication
+
+Card-Management-To-Card (CMTC) authentication
 : Credential elements used to prove the identity of the card management system to the card.
   Examples include the PIV Card Application administration key.
-CTE authentication
+
+Cardholder-To-External (CTE) authentication
 : Credential elements used by the card to prove the identity of the cardholder to an external entity
   such as a host computer system. Examples include the biometric data records,
   symmetric keys, asymmetric keys, and the fingerprint biometric templates for OCC-AUTH.

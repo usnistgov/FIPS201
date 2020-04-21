@@ -90,6 +90,9 @@ authority procedures for the authentication protocols for interoperability*, ISO
 the E-Government Act of 2002*, OMB, September 26, 2003. Available at 
 <https://www.whitehouse.gov/wp-content/uploads/2017/11/203-M-03-22-OMB-Guidance-for-Implementing-the-Privacy-Provisions-of-the-E-Government-Act-of-2002-1.pdf>.
 
+[[M-04-04]](#ref-OMB0404){:name="ref-OMB0404"} OMB Memorandum M-04-04, *E-Authentication Guidance for Federal Agencies*, 
+OMB, December 2003. Rescinded. Available at <https://www.whitehouse.gov/sites/whitehouse.gov/files/omb/memoranda/2004/m04-04.pdf>.
+
 [[M-05-24]](#ref-OMB0524){:name="ref-OMB0524"} OMB Memorandum M-05-24, *Implementation of Homeland Security Presidential
 Directive (HSPD) 12 – Policy for a Common Identification Standard for Federal Employees and
 Contractors*, OMB, August 2005. Available at <https://www.whitehouse.gov/sites/whitehouse.gov/files/omb/memoranda/2005/m05-24.pdf>.

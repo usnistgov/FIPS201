@@ -359,7 +359,7 @@ AES
 : Advanced Encryption Standard
 
 AID
-: Application IDentifier
+: Application Identifier
 
 AIM
 : Association for Automatic Identification and Mobility
@@ -395,7 +395,7 @@ CMS
 : Cryptographic Message Syntax
 
 CMTC
-: Card Management System to the Card
+: Card Management System to Card
 
 CMVP
 : Cryptographic Module Validation Program
@@ -455,7 +455,7 @@ GSA
 : U.S. General Services Administration
 
 GUID
-: Global Unique Identification Number
+: Global Unique Identification number
 
 HSPD
 : Homeland Security Presidential Directive
