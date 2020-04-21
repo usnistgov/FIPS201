@@ -660,7 +660,7 @@ The PIV front-end subsystem employs biometric verification to automate the
 recognition of cardholders based on their biological characteristics. The PIV
 Card can digitally store fingerprint, face, and iris biometric characteristics.
 Techniques for storage, protection, and access of these biometric data records
-are outlined in the following subsections and explained in depth in
+are outlined in the following sections and are explained in depth in
 [[SP 800-76]](../_Appendix/references.md#ref-SP-800-76).
 
 #### 4.2.3.1 Biometric Data Representation {#s-4-2-3-1}
