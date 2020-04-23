@@ -233,11 +233,6 @@ Zone 1F
 Zone 2F
 : Name
 
-In addition, any available tamper-proofing features described in [Section 4.1.2](frontend.md#s-4-1-2) SHOULD be used
-in visual inspection to provide additional assurance that the PIV Card is genuine and unaltered.
-
-The PIV Card MAY also bear optional components, some of which are:
-
 Zone 8F
 : Employee Affiliation
 
@@ -251,10 +246,13 @@ Zone 15F
 : Color-Coding for Employee Affiliation
 
 Zone 1B
-: Agency Card Serial Number (back of card)
+: Agency Card Serial Number
 
 Zone 2B
-: Issuer Identification Number (back of card)
+: Issuer Identification Number
+
+In addition, any available tamper-proofing features described in [Section 4.1.2](frontend.md#s-4-1-2) SHOULD be used
+in visual inspection to provide additional assurance that the PIV Card is genuine and unaltered.
 
 The PIV Card MAY also bear optional components, some of which include the following:
 
