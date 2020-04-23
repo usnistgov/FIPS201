@@ -80,7 +80,7 @@ The following list describes the physical requirements for the PIV Card.
     southwestern United States' sunlight. 
     Concentrated sunlight exposure SHALL be performed in accordance with [[G90-98]](../_Appendix/references.md#ref-G90-98) and accelerated 
     exposure in accordance with [[G155-2013]](../_Appendix/references.md#ref-G155-2013). The card 
-SHALL be subjected to the  
+SHALL be subjected to the
     [[ISO 10373]](../_Appendix/references.md#ref-ISO10373) dynamic bending test and SHALL have no visible 
     cracks or failures after the [[ISO 10373]](../_Appendix/references.md#ref-ISO10373) or [[ANSI 322]](../_Appendix/references.md#ref-ANSI322) exposure. 
 - There are methods by which proper card orientation can be indicated. [Section 4.1.4.3](frontend.md#s-4-1-4-3), for example,
