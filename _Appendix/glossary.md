@@ -20,8 +20,8 @@ related information processing services; and 2) enter specific physical faciliti
 military establishments, border crossing entrances).
 
 Applicant
-: An individual applying for a _PIV Card_/_credential_. The applicant may be a current or
-prospective federal hire, a federal employee, or a contractor.[^eligibility]
+: An individual applying for a _PIV Card_ or _derived PIV credential_. The applicant may be a current or
+prospective federal hire, a federal employee, or a contractor.
 
 Application
 : A hardware/software system implemented to satisfy a particular set of requirements. In
@@ -46,15 +46,20 @@ verification.
 
 Authentication
 : The process of establishing confidence of authenticity; in this case, in the validity of a
-person's _identity_ and the _PIV Card_.
+person's _identity_ and the authenticator (e.g., _PIV Card_ or _derived PIV credential_).
 
 Authenticator Assurance Level (AAL)
 : A measure of the strength of an _authentication_ mechanism, and therefore the confidence in it, as
 defined in [[SP 800-63]](references.md#ref-SP-800-63) in terms of three levels:
 
-  - AAL1: SOME confidence
-  - AAL2: HIGH confidence
-  - AAL3: VERY HIGH confidence
+  AAL1
+	: SOME confidence
+  
+	AAL2
+	: HIGH confidence
+  
+	AAL3
+	: VERY HIGH confidence
 
 Biometric Authentication (BIO, BIO-A)
 : A form of _authentication_ in which authenticity is established by _biometric
@@ -65,26 +70,26 @@ attendant must oversee the process of biometric _capture_.
 
 Biometric Capture Device
 : Device that collects a signal from a _biometric characteristic_ and converts it 
-to a captured biometric sample [[ISO 2382-37]](references.md#ref-ISO/IEC-2382-37).
+to a captured biometric sample. [[ISO 2382-37]](references.md#ref-ISO/IEC-2382-37)
 
 Biometric Characteristic
 : Biological attribute of an individual from which 
 distinctive and repeatable values can be extracted for the purpose 
 of automated recognition. Fingerprint ridge structure and face topography are 
-examples of biometric characteristics. See [[ISO 2382-37]](references.md#ref-ISO/IEC-2382-37) for more details.
+examples of biometric characteristics. [[ISO 2382-37]](references.md#ref-ISO/IEC-2382-37).
 
 Biometric Data
 : Biometric sample or aggregation of biometric samples at any stage of 
 processing [[ISO 2382-37]](references.md#ref-ISO/IEC-2382-37).
 
 Biometric Data Record
-: Electronic data record containing biometric data [[ISO 2382-37]](references.md#ref-ISO/IEC-2382-37).
+: Electronic data record containing biometric data.
 This information
-can be in terms of raw or compressed pixels or in terms of some _biometric characteristic_ (e.g., patterns).
+can be in terms of raw or compressed pixels or in terms of some _biometric characteristic_ (e.g., patterns). [[ISO 2382-37]](references.md#ref-ISO/IEC-2382-37)
 
-Biometric On-Card Comparison
+Biometric On-Card Comparison (OCC)
 : A one-to-one _comparison_ of fingerprint _biometric data records_ transmitted to the _PIV Card_ with a biometric reference 
-previously stored on the _PIV Card_.
+previously stored on the _PIV Card_. In this Standard, OCC is used as a means of performing card activation and as part of OCC-AUTH.
 
 Biometric Verification
 : Process of confirming a biometric claim through biometric _comparison_.
@@ -92,10 +97,10 @@ Biometric Verification
 Biometric Verification Decision
 : A determination of whether biometric probe(s) and biometric reference(s) have 
 the same biometric source based on _comparison_ score(s) during a _biometric verification_ 
-transaction [[ISO 2382-37]](references.md#ref-ISO/IEC-2382-37).
+transaction. [[ISO 2382-37]](references.md#ref-ISO/IEC-2382-37)
 
 Capture
-: Series of actions undertaken to obtain and record, in a retrievable form, signals of _biometric characteristics_ directly from individuals. See [[ISO 2382-37]](references.md#ref-ISO/IEC-2382-37) for more details.
+: Series of actions undertaken to obtain and record, in a retrievable form, signals of _biometric characteristics_ directly from individuals. [[ISO 2382-37]](references.md#ref-ISO/IEC-2382-37)
 
 Cardholder
 : An individual possessing an issued _PIV Card_.
@@ -109,7 +114,7 @@ Central Verification System
 
 Certificate Revocation List
 : A list of revoked _public key_ certificates created and digitally signed by a
-_certification authority_ [[RFC 5280]](references.md#ref-RFC5280) [[RFC 6818]](references.md#ref-RFC6818).
+_certification authority_. [[RFC 5280]](references.md#ref-RFC5280) [[RFC 6818]](references.md#ref-RFC6818)
 
 Certification
 : The process of verifying the correctness of a statement or claim and issuing a certificate as
@@ -137,7 +142,7 @@ services, as well as people and organizations for compliance with a FIPS.
 
 Credential
 : Evidence attesting to one's right to credit or authority; in this Standard, it is the _PIV Card_
-and data elements associated with an individual that authoritatively binds an _identity_ (and, optionally,
+or _derived PIV credential_ associated with an individual that authoritatively binds an _identity_ (and, optionally,
 additional attributes) to that individual.
 
 Cryptographic Key (Key)
@@ -169,22 +174,30 @@ Federation
 : A process that allows the conveyance of _identity_ and _authentication_ information across a set of networked systems.
 
 Federation Assurance Level (FAL)
-: A category describing the _assertion_ protocol used by the _federation_ to communicate _authentication_ and attribute 
+: A category describing the _federation_ protocol used to communicate the _assertion_ containing _authentication_ and attribute 
 information (if applicable) to an RP, as
 defined in [[SP 800-63]](references.md#ref-SP-800-63) in terms of three levels:
 
-  - FAL1: SOME confidence
-  - FAL2: HIGH confidence
-  - FAL3: VERY HIGH confidence
+  FAL1
+	: SOME confidence
+  
+	FAL2
+	: HIGH confidence
+  
+	FAL3
+	: VERY HIGH confidence
 
 Hash Function
 : A function that maps a bit string of arbitrary length to a fixed length bit string. Secure
-hash functions [[FIPS 180]](references.md#ref-FIPS180) satisfy the following properties:
+hash functions ([[FIPS 180]](references.md#ref-FIPS180)) satisfy the following properties:
 
-  1. **One-Way.** It is computationally infeasible to find any input that maps to any pre-specified
-    output.
-  2. **Collision Resistant.** It is computationally infeasible to find any two distinct inputs that map to
-    the same output.
+  One-Way
+	:It is computationally infeasible to find any input that maps to any pre-specified
+  output.
+  
+	Collision Resistant
+	:It is computationally infeasible to find any two distinct inputs that map to
+  the same output.
 
 Identification
 : The process of discovering the _identity_ (i.e., origin or initial history) of a person or item
@@ -202,9 +215,14 @@ Identity Assurance Level (IAL)
 : A category that conveys the degree of confidence that the end user’s claimed _identity_ is their real _identity_, as
 defined in [[SP 800-63]](references.md#ref-SP-800-63) in terms of three levels:
 
-  - IAL1: SOME confidence
-  - IAL2: HIGH confidence
-  - IAL3: VERY HIGH confidence
+  IAL1
+	: SOME confidence
+  
+	IAL2
+	: HIGH confidence
+  
+	IAL3
+	: VERY HIGH confidence
 
 Identity Proofing
 : The process of providing sufficient information (e.g., _identity_ history, _credentials_,
@@ -221,8 +239,8 @@ system. In some other NIST documents such as [[SP 800-63A]](references.md#ref-SP
 
 Identity Verification
 : The process of confirming or denying that a claimed _identity_ is correct by
-comparing the _credentials_ (something you know, something you have, something you are) of a person
-requesting access with those previously proven and stored in the _PIV Card_ or system and associated with
+comparing the _credentials_ of a person
+requesting access with those previously proven and associated with the _PIV Card_ or _derived PIV credential_ and associated with
 the _identity_ being claimed.
 
 Issuer
@@ -236,7 +254,8 @@ Issuing Facility
   
   * _identity proofing_/_registration_;
   * card/token production;
-  * activation/issuance; and
+  * activation/issuance;
+	* post-issuance binding of _derived PIV credential_; and
   * maintenance.
 
 Key
@@ -245,7 +264,7 @@ Key
 Match
 : _Comparison_ decision stating that the biometric probe(s) and the biometric 
 reference are from the same source. Match is a possible result of a 
-_Comparison_. The opposite of a match is a non-match. See [[ISO 2382-37]](references.md#ref-ISO/IEC-2382-37) for more details.
+_Comparison_. The opposite of a match is a non-match. [[ISO 2382-37]](references.md#ref-ISO/IEC-2382-37)
 
 Model
 : A very detailed description or scaled representation of one _component_ of a larger system that can
@@ -262,7 +281,7 @@ Integrated Circuit Chip (ICC) of the _PIV Card_.
 
 Online Certificate Status Protocol (OCSP)
 : An online protocol used to determine the status of a _public
-key_ certificate [[RFC 6960]](references.md#ref-RFC6960).
+key_ certificate. [[RFC 6960]](references.md#ref-RFC6960)
 
 Path Validation
 : The process of verifying the binding between the subject _identifier_ and subject _public
@@ -278,7 +297,7 @@ combined with other personal or identifying information that is linked or linkab
 such as date and place of birth, mother's maiden name, etc. [[M-17-12]](references.md#ref-OMB1712)
 
 Personal Identification Number (PIN)
-: A secret that a _cardholder_ memorizes and uses to authenticate
+: A numeric secret that a _cardholder_ memorizes and uses to authenticate
 their _identity_.
 
 Personal Identity Verification (PIV) Account
@@ -288,11 +307,7 @@ Personal Identity Verification (PIV) Card
 : A physical artifact (e.g., _identity_ card, "smart" card) issued
 to an individual that contains a PIV Card Application which stores _identity_ _credentials_ (e.g., photograph,
 _cryptographic keys_, digitized fingerprint representation) so that the claimed _identity_ of the _cardholder_ can
-be verified against the stored _credentials_ by another person (human readable and verifiable) or an
-automated process (computer readable and verifiable).
-
-PIV Assurance Level
-: A degree of confidence established in the _identity_ of the holder of the _PIV Card_.
+be verified against the stored _credentials_.
 
 PIV Enrollment Record
 : A sequence of related _enrollment data sets_ that is created and 
@@ -304,7 +319,7 @@ Private Key
 data.
 
 Pseudonym
-: a name assigned by a federal department or agency through a formal process to a federal
+: A name assigned by a federal department or agency through a formal process to a federal
 employee for the purpose of the employee's protection (i.e., the employee might be placed at risk if his or
 her actual name were known) or for other purposes.
 
@@ -317,12 +332,12 @@ Public Key Infrastructure (PKI)
 keys_ needed to perform digital signature-based _identity verification_ and to protect communications and
 storage of sensitive verification system data within _identity_ cards and the verification system.
 
-PKI-Card Authentication Key (PKI-CAK)
+PKI-Card Authentication (PKI-CAK)
 : A PIV _authentication_ mechanism that is implemented by
 an _asymmetric key_ challenge/response protocol using the card _authentication_ _key_ of the _PIV Card_ and a
 contact or contactless reader.
 
-PKI-PIV Authentication Key (PKI-AUTH)
+PKI-PIV Authentication (PKI-AUTH)
 : A PIV _authentication_ mechanism that is implemented by
 an _asymmetric key_ challenge/response protocol using the PIV _authentication_ _key_ of the _PIV Card_ and a
 contact reader, or a contactless card reader that supports the virtual contact interface.
@@ -351,6 +366,9 @@ The following acronyms and abbreviations are used throughout this Standard:
 
 AAL
 : Authenticator Assurance Level
+
+AAMVA
+: American Association of Motor Vehicle Association
 
 ACL
 : Access Control List
@@ -385,6 +403,9 @@ CAK
 CBEFF
 : Common Biometric Exchange Formats Framework
 
+CDS
+: Card Design Standard
+
 CHUID
 : Cardholder Unique Identifier
 
@@ -399,6 +420,9 @@ CMTC
 
 CMVP
 : Cryptographic Module Validation Program
+
+CMYK
+: Cyan, Magenta, Yellow, and Key (or blacK)
 
 COTS
 : Commercial Off-the-Shelf
@@ -456,6 +480,9 @@ GSA
 
 GUID
 : Global Unique Identification number
+
+HR
+: Human Resources
 
 HSPD
 : Homeland Security Presidential Directive
@@ -589,8 +616,14 @@ RP
 SAML
 : Security Assertion Markup Language
 
+SAN
+: Subject Alternative Name
+
 SP
 : Special Publication
+
+sRGB
+: Standard Red Green Blue
 
 SSP
 : Shared Service Provider
@@ -606,8 +639,6 @@ UUID
 
 UV
 : Ultraviolet
-
-[^eligibility]: See Page 2 of [[M-05-24]](../references/#ref-OMB0524) for further details of individuals who are eligible to be issued PIV Cards.
 
 ## C.3 Notations {#s-c-3}
 
