@@ -213,7 +213,10 @@ pdfkeywords={}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \huge{\textbf{\VAR{config.doc_title}}}
 \vfill
-\normalsize{\textbf{\textsc{Category: \VAR{config.category}\hfill Subcategory: \VAR{config.subcategory}}}}
+\normalsize{\textbf{\textsc{Category: \VAR{config.category}
+%: if config.subcategory
+\hfill Subcategory: \VAR{config.subcategory}}}}
+%: endif
 \vspace{8pt}
 \hrule
 \vfill
