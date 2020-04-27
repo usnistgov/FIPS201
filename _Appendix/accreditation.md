@@ -14,7 +14,7 @@ _This appendix is normative._ It provides compliance requirements for PIV valida
 
 [[HSPD-12]](references.md#ref-HSPD-12) requires that PIV credentials be issued by providers whose reliability has been established by an
 official accreditation process. The accreditation of the credential issuer SHALL be reviewed through a third-party assessment to enhance the trustworthiness of the credential. To facilitate consistent independent
-validation, NIST published PIV Card Issuer (PCI) and Derived PIV Credential Issuer (DPCI) guidelines in SP 800-79. 
+validation, NIST published PIV Card Issuer (PCI) and Derived PIV Credential Issuer (DPCI) guidelines in [[SP 800-79]](references.md#ref-SP-800-79). 
 
 The entire spectrum of activities in the PCI and DPCI accreditation methodology is divided into the following four
 phases:
