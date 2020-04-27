@@ -225,7 +225,8 @@ Therefore, the CHUID data element remains a required on-card data element as des
 
 Visual authentication of a PIV cardholder as a stand-alone authentication mechanism has been deprecated in this version of the Standard. The mechanism provides little or no assurance of the cardholder's identity and SHOULD NOT be used. It is expected that the stand-alone use of visual authentication will be removed from this Standard in a future revision. 
 
-The PIV Card has several mandatory features on the front (see [Section 4.1.4.1](#s-4-1-4-1)) that support visual
+The PIV Card has several mandatory features on the front (see [Section 4.1.4.1](frontend.md#s-4-1-4-1)) and
+back (see [Section 4.1.4.2](frontend.md#s-4-1-4-2)) that support visual
 identification and authentication:
 
 Zone 1F
@@ -234,38 +235,36 @@ Zone 1F
 Zone 2F
 : Name
 
-In addition, any available security features described in [Section 4.1.2](frontend.md#s-4-1-2) SHOULD be checked
-in visual inspection to provide additional assurance that the PIV Card is genuine and unaltered.
-
-The PIV Card may also have several optional components on the front (see [Section 4.1.4.3](#s-4-1-4-3)) that support visual
-identification and authentication, if present:
-
-Zone 3F
-: Signature
-
 Zone 8F
 : Employee Affiliation
 
 Zone 10F
 : Agency, Department, or Organization
 
-Zone 11F
-: Agency Seal
- 
 Zones 14F and 19F
 : Card Expiration Date
 
 Zone 15F
 : Color-Coding for Employee Affiliation
 
-The PIV Card may also have several optional components on the back (see [Section 4.1.4.4](#s-4-1-4-4)) that support visual
-identification and authentication, if present:
-
 Zone 1B
 : Agency Card Serial Number
 
 Zone 2B
 : Issuer Identification Number
+
+In addition, any available security features described in [Section 4.1.2](frontend.md#s-4-1-2) SHOULD be checked
+in visual inspection to provide additional assurance that the PIV Card is genuine and unaltered.
+
+The PIV Card may also have several optional components on the front (see [Section 4.1.4.3](frontend.md#s-4-1-4-3)) and
+back (see [Section 4.1.4.4](frontend.md#s-4-1-4-4)) that support visual
+identification and authentication, if present:
+
+Zone 3F
+: Signature
+
+Zone 11F
+: Agency Seal
 
 Zone 5B
 : Physical Characteristics of Cardholder
