@@ -147,6 +147,9 @@ determines the specific operation of that algorithm.
 Derived PIV Credential
 : A _credential_ issued based on proof of possession and control of a _PIV Card_ so as not to duplicate the _identity proofing_ process.
 
+Derived PIV Credential Issuer
+: The organization that binds and issuesd erived PIV credentials to the cardholder based on proof of possession and control of a _PIV Card_.
+
 Enrollment
 : See _Identity Registration_.
 
