@@ -432,7 +432,7 @@ uncorrected) at a working distance of 50&nbsp;cm to 200&nbsp;cm.
 |Green|15F|153, 255, 153|203, 255, 203|40, 0, 40, 0|359&nbsp;C|
 |Blue|15F|0, 255, 255|0, 255, 255|100, 0, 0, 0|630&nbsp;C
 |Red|12F|253, 27, 20|254, 92, 79|0, 90, 86, 0|032&nbsp;C|
-{:latex-columns="p@0.09\textwidth,p@0.07\textwidth,p@0.22\textwidth,p@0.17\textwidth,p@0.15\textwidth,p@0.11\textwidth" latex-table="4-2" latex-caption="Color Representation"}
+{:latex-columns="p@0.07\textwidth,p@0.06\textwidth,p@0.22\textwidth,p@0.16\textwidth,p@0.13\textwidth,p@0.15\textwidth" latex-table="4-2" latex-caption="Color Representation"}
 
 [^pantone]: PANTONE&reg; is a registered name protected by law.
 
