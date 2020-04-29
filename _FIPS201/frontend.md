@@ -480,17 +480,15 @@ PIV logical credentials fall into the following three categories:
 
 ### 4.2.1 Cardholder Unique Identifier (CHUID) {#s-4-2-1}
 
-The PIV Card SHALL include the CHUID as defined in [[SP 800-73]](../_Appendix/references.md#ref-SP-800-73). The CHUID includes the Federal
-Agency Smart Credential Number (FASC-N) and the Global Unique Identification Number (GUID),
-which uniquely identify each card as described in [[SP 800-73]](../_Appendix/references.md#ref-SP-800-73). The value of the GUID data element SHALL
-be a 16&nbsp;B binary representation of a valid UUID [[RFC 4122]](../_Appendix/references.md#ref-RFC4122). The
+The PIV Card SHALL include the CHUID as defined in [[SP 800-73]](../_Appendix/references.md#ref-SP-800-73). The CHUID includes two card identifiers: the 
+Federal Agency Smart Credential Number (FASC-N) and the card UUID in the Global Unique Identification Number (GUID) data element of the CHUID). Each identifier uniquely indentify each card as described in [[SP 800-73]](../_Appendix/references.md#ref-SP-800-73). The value of the card UUID SHALL be a 16&nbsp;B binary representation of a valid UUID [[RFC 4122]](../_Appendix/references.md#ref-RFC4122). The
 CHUID SHALL also include an expiration date data element in machine-readable format that specifies when
 the card expires. The expiration date format and encoding rules are as specified in [[SP 800-73]](../_Appendix/references.md#ref-SP-800-73).
 
 The CHUID SHALL be accessible from both the contact and contactless interfaces of the PIV Card without
 card activation. 
 
-The FASC-N, UUID, and expiration date SHALL NOT be modified post-issuance.
+The FASC-N, card UUID, and expiration date SHALL NOT be modified post-issuance.
 
 This Standard requires inclusion of the asymmetric signature field in the CHUID container. The
 asymmetric signature data element of the CHUID SHALL be encoded as a Cryptographic Message Syntax
@@ -590,8 +588,8 @@ user action (e.g., the PIN need not be supplied for each operation).
 The PIV Card SHALL store a corresponding X.509 certificate to support validation of the public key.
 The X.509 certificate SHALL include the FASC-N in the Subject Alternative Name (SAN) extension using the
 `pivFASC-N` attribute to support physical access procedures. The X.509 certificate SHALL also include
-the UUID value from the GUID data element of the CHUID in the Subject Alternative Name extension.
-The UUID SHALL be encoded as a Uniform Resource Name (URN), as specified in Section 3 of
+the card UUID value from the GUID data element of the CHUID in the Subject Alternative Name extension.
+The card UUID SHALL be encoded as a Uniform Resource Name (URN), as specified in Section 3 of
 [[RFC 4122]](../_Appendix/references.md#ref-RFC4122). The expiration date of the certificate SHALL be no later than the expiration date of the PIV
 Card. The PIV authentication certificate MAY include a PIV background investigation indicator (previously known as the NACI indicator) extension (see [Appendix B.2](../_Appendix/oid.md#s-b-2)). 
 This non-critical extension indicates the status
@@ -609,8 +607,8 @@ with this key).
 The PIV Card SHALL store a corresponding X.509 certificate to support validation of the public key.
 The X.509 certificate SHALL include the FASC-N in the Subject Alternative Name extension using the
 `pivFASC-N` attribute to support physical access procedures. The X.509 certificate SHALL also include
-the UUID value from the GUID data element of the CHUID in the Subject Alternative Name extension.
-The UUID SHALL be encoded as a URN, as specified in Section 3 of [[RFC 4122]](../_Appendix/references.md#ref-RFC4122). The expiration date of
+the card UUID value from the GUID data element of the CHUID in the Subject Alternative Name extension.
+The card UUID SHALL be encoded as a URN, as specified in Section 3 of [[RFC 4122]](../_Appendix/references.md#ref-RFC4122). The expiration date of
 the certificate SHALL be no later than the expiration date of the PIV Card. [Section 5](keymanagement.md#s-5) of this document
 specifies the certificate format and the key management infrastructure for asymmetric card
 authentication keys.
@@ -723,7 +721,7 @@ SHALL be implemented and used in accordance with [[SP 800-73]](../_Appendix/refe
 
 ### 4.2.4 PIV Unique Identifiers {#s-4-2-4}
 
-A cardholder is authenticated through identification and authentication (I&A) using the PIV Card (and its
+A cardholder is authenticated using the PIV Card (and its
 identifier) in authentication mechanisms described in [Section 6](authentication.md#s-6). The authenticated identity MAY then be
 used as the basis for making authorization decisions. Unique identifiers for both authentication and
 authorization are provided in this Standard in order to uniquely identify the cardholder. The two types of
@@ -731,9 +729,9 @@ identifiers that serve as identification (of the cardholder) for authentication 
 are as follows:
 
 Card identifiers
-: Each PIV Card contains a UUID and a FASC-N that uniquely identify the card and, by
+: Each PIV Card contains a card UUID and a FASC-N that uniquely identify the card and, by
 correspondence, the cardholder. These two card identifiers are represented in all of the authentication
-data elements for the purpose of binding the PIV data elements to the same PIV Card.
+data elements for the purpose of binding the PIV data elements to the same PIV Card. For example, the card UUID is represented in the  GUID data element of the CHUID, in the entryUUID attribute of CMS-signed biometric data records and in the subjectAltName extension of  PIV authentication certificates. Similary, the FASC-N is represented in the CHUID, in the pivFASC-N attribute of CMS-signed biometric data records and in the subjectAltName extension of PIV authentication certificates.   
 
 Cardholder identifiers
 : Other identifiers MAY be present in credentials on the PIV Card that identity the cardholder rather than
