@@ -69,12 +69,12 @@ The PIV background investigation indicator extension is identified by the `id-pi
 object identifier. The syntax for this extension is defined by the following ASN.1 module.
 
 ~~~
-PIV- Cert-Extensions { 2 16 840 1 101 3 6 10 1 }
+PIV-Cert-Extensions { 2 16 840 1 101 3 6 10 1 }
 DEFINITIONS EXPLICIT TAGS ::=
 BEGIN
 -- EXPORTS ALL --
 -- IMPORTS NONE --
-id- piv- NACI OBJECT IDENTIFIER ::= { 2 16 840 1 101 3 6 9 1 }
+id-piv-NACI OBJECT IDENTIFIER ::= { 2 16 840 1 101 3 6 9 1 }
 NACI-indicator ::= BOOLEAN
 END
 ~~~
