@@ -92,7 +92,7 @@ Departments and agencies will be responsible for notifying CAs when certificates
 This Standard requires distribution of CA certificates and CRLs using HTTP. Specific requirements are
 found in [[PROF]](../_Appendix/references.md#ref-PROF).
 
-Certificates that contain the FASC-N or UUID in the Subject Alternative Name extension, such as PIV
+Certificates that contain the FASC-N or card UUID in the Subject Alternative Name extension, such as PIV
 authentication certificates and card authentication certificates, SHALL NOT be distributed publicly (e.g., via
 HTTP accessible from the public Internet).
 Individual departments and agencies can decide whether digital signature and key
