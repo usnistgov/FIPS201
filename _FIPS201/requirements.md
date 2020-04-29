@@ -402,7 +402,7 @@ and the photograph printed on the new PIV Card.
 The old PIV Card SHALL be revoked when the new PIV Card is issued. The revocation process SHALL include the following:
 
 + The old PIV Card SHALL be collected and destroyed, if possible.
-+ Any databases maintained by the PIV Card issuer that contain FASC-N or UUID values from the old
++ Any databases maintained by the PIV Card issuer that contain FASC-N or card UUID values from the old
     PIV Card must be updated to reflect the change in status.
 + If the old PIV Card cannot be collected and destroyed, or if the old PIV Card has been compromised
     or damaged, then the Certification Authority (CA) SHALL be informed and the certificates corresponding
@@ -428,7 +428,7 @@ is reused with the new PIV Card, the digital signature must be recomputed with t
 UUID.
 
 A new PIV authentication certificate and a new card authentication certificate SHALL be generated. The
-corresponding certificates SHALL be populated with the new FASC-N and UUID. For cardholders who are
+corresponding certificates SHALL be populated with the new FASC-N and card UUID. For cardholders who are
 required to have a digital signature certificate, a new digital signature certificate SHALL also be generated.
 Key management key(s) and certificate(s) MAY be imported to the new PIV Card.
 
