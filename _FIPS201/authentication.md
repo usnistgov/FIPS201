@@ -89,7 +89,7 @@ The following steps SHALL be performed for unattended authentication of biometri
 - The cardholder is prompted to capture a new biometric sample.
 - If the new biometric sample elicits a positive biometric verification decision, the cardholder is authenticated to
     be the owner of the card.
-- The FASC-N or UUID in the CHUID or other data element is compared with the corresponding element
+- The FASC-N or the card UUID in the CHUID or other data element is compared with the corresponding element
     in the Signed Attributes field of the external digital signature in the biometric data record.
 - A unique identifier within the CHUID or other data element is used as input to the authorization
     check to determine whether the cardholder should be granted access.
