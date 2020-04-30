@@ -481,7 +481,7 @@ PIV logical credentials fall into the following three categories:
 ### 4.2.1 Cardholder Unique Identifier (CHUID) {#s-4-2-1}
 
 The PIV Card SHALL include the CHUID as defined in [[SP 800-73]](../_Appendix/references.md#ref-SP-800-73). The CHUID includes two card identifiers: the 
-Federal Agency Smart Credential Number (FASC-N) and the card UUID in the Global Unique Identification Number (GUID) data element of the CHUID). Each identifier uniquely indentify each card as described in [[SP 800-73]](../_Appendix/references.md#ref-SP-800-73). The value of the card UUID SHALL be a 16&nbsp;B binary representation of a valid UUID [[RFC 4122]](../_Appendix/references.md#ref-RFC4122). The
+Federal Agency Smart Credential Number (FASC-N) and the card UUID in the Global Unique Identification Number (GUID) data element of the CHUID. Each identifier uniquely identifies each card as described in [[SP 800-73]](../_Appendix/references.md#ref-SP-800-73). The value of the card UUID SHALL be a 16&nbsp;byte binary representation of a valid UUID [[RFC 4122]](../_Appendix/references.md#ref-RFC4122). The
 CHUID SHALL also include an expiration date data element in machine-readable format that specifies when
 the card expires. The expiration date format and encoding rules are as specified in [[SP 800-73]](../_Appendix/references.md#ref-SP-800-73).
 
@@ -721,8 +721,8 @@ SHALL be implemented and used in accordance with [[SP 800-73]](../_Appendix/refe
 
 ### 4.2.4 PIV Unique Identifiers {#s-4-2-4}
 
-A cardholder is authenticated using the PIV Card (and its
-identifier) in authentication mechanisms described in [Section 6](authentication.md#s-6). The authenticated identity MAY then be
+A cardholder is authenticated using the PIV Card
+using authentication mechanisms described in [Section 6](authentication.md#s-6). The authenticated identity MAY then be
 used as the basis for making authorization decisions. Unique identifiers for both authentication and
 authorization are provided in this Standard in order to uniquely identify the cardholder. The two types of
 identifiers that serve as identification (of the cardholder) for authentication and authorization purposes,
@@ -731,7 +731,7 @@ are as follows:
 Card identifiers
 : Each PIV Card contains a card UUID and a FASC-N that uniquely identify the card and, by
 correspondence, the cardholder. These two card identifiers are represented in all of the authentication
-data elements for the purpose of binding the PIV data elements to the same PIV Card. For example, the card UUID is represented in the  GUID data element of the CHUID, in the entryUUID attribute of CMS-signed biometric data records and in the subjectAltName extension of  PIV authentication certificates. Similary, the FASC-N is represented in the CHUID, in the pivFASC-N attribute of CMS-signed biometric data records and in the subjectAltName extension of PIV authentication certificates.   
+data elements for the purpose of binding the PIV data elements to the same PIV Card. For example, the card UUID is represented in the GUID data element of the CHUID, in the entryUUID attribute of CMS-signed biometric data records and in the subjectAltName extension of PIV authentication certificates. Similarly, the FASC-N is represented in the CHUID, in the pivFASC-N attribute of CMS-signed biometric data records and in the subjectAltName extension of PIV authentication certificates.
 
 Cardholder identifiers
 : Other identifiers MAY be present in credentials on the PIV Card that identity the cardholder rather than
