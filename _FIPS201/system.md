@@ -56,13 +56,13 @@ information about data flow and connections between components.
 The PIV Front-End Subsystem in [Figure 3-1](#fig-3-1) consists of the credentials and devices
 used to interact with the credentials for authentication.
 The PIV Card will be issued to the applicant when all identity proofing, registration, and issuance
-processes have been completed. Derived PIV credentials might also be registered after post-enrollment binding is complete. The PIV Card takes the physical form of the [[ISO 7816]](../_Appendix/references.md#ref-ISO7816) ID-1 card type (i.e., traditional payment card), with one or more
+processes have been completed. Derived PIV credentials might also be registered after these processes are complete. The PIV Card takes the physical form of the [[ISO 7816]](../_Appendix/references.md#ref-ISO7816) ID-1 card type (i.e., traditional payment card), with one or more
 embedded Integrated Circuit Chips (ICC) that provide memory capacity and computational capability. The
 PIV Card is the primary component of the PIV system. The holder uses the PIV Card for authentication
 to access various physical and logical resources. Alternatively, derived PIV credentials increasingly play an important role as additional authenticators, especially in environments where use of the PIV Card is not easily supported. These AAL2 and AAL3 authenticators are not embedded in the PIV Card, but rather are stand-alone or integrated in a variety of devices and platforms. 
 
 Card readers are located at access points for controlled resources to allow a cardholder to gain
-physical or logical access using the PIV Card. The reader communicates with PIV Card to
+physical or logical access using the PIV Card. The reader communicates with a PIV Card to
 perform the authentication protocol and relay that information to the access control
 systems for granting or denying access.
 
@@ -106,7 +106,7 @@ The enterprise IDMS serves as the central repository for the cardholder’s digi
 
   * A security office may provide updated background investigative information to the IDMS.
   * An HR system may relay hiring status updates.
-  * The IDMS may serve as the Identity Provider (IdP), authenticating the cardholder on behalf of a Relying Party (RP) and issuing assertions of attributes relating to the PIV account.
+  * The IDMS may serve as the Identity Provider (IdP), authenticating the cardholder on behalf of a Relying Party (RP) and issuing assertions of attributes relating to the PIV account to the RP.
 
 ### 3.1.3 PIV Relying Subsystem {#s-3-1-3}
 
@@ -161,8 +161,8 @@ PIV Card Request
 
 Identity Proofing and Registration
 : Verification of the claimed identity of the
-    applicant, verify that the entire set of identity source documents presented at the time of registration is
-    valid, capture biometric characteristics, and create the PIV enrollment record.[^enroll]
+    applicant, including verification that the entire set of identity source documents presented at the time of registration is
+    valid, capture of biometric characteristics, and creation of the PIV enrollment record.[^enroll]
 
 PIV Card Issuance
 : Personalization (physical and logical) of the card

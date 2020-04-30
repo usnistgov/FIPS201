@@ -14,7 +14,7 @@ _This section is normative._ It provides the requirements for the PIV front-end 
 
 References to the PIV Card in this section pertain to its physical characteristics only. References to the
 front of the card apply to the side of the card that contains electronic contacts. References to the back
-of the card apply to the side opposite of the front.
+of the card apply to the side opposite the front.
 
 The PIV Card's physical appearance and other characteristics should balance the need to have the PIV
 Card commonly recognized as a federal identification card while providing the flexibility to support
@@ -43,7 +43,7 @@ Inspection Level 2
 : Security features that require the use of a tool or instrument (e.g., UV light, magnifying glass, or scanner) to discern. Examples include microtext, UV-fluorescent images, IR-fluorescent ink, nano and micro images, and chemical taggants.
 
 Inspection Level 3
-: Security features inspected by forensic specialists to conduct in-depth examination that may require special equipment to provide true certification. Examples of level 3 security features are available on a need-to-know basis.
+: Security features inspected by forensic specialists to conduct in-depth examination that may require special equipment to provide true certification.
 
 A PIV Card SHALL incorporate at least one security feature at inspection level 1 or inspection level 2. Federal departments and agencies SHOULD incorporate additional security features and include all three inspection levels.
 
@@ -93,7 +93,7 @@ determines that tactilely discernible markers for PIV Cards impose an undue burd
 SHALL implement policies and procedures to accommodate employees and contractors with disabilities
 in accordance with Sections 501 and 504 of the Rehabilitation Act.
 
-The card SHALL be 27&nbsp;mil to 33&nbsp;mil (0.69&nbsp;mm to 0.84&nbsp;mm) thick before lamination, in accordance with [[ISO 7810]](../_Appendix/references.md#ref-ISO7810).
+The card SHALL be 27&nbsp;mil to 33&nbsp;mil (0.68&nbsp;mm to 0.84&nbsp;mm) thick before lamination, in accordance with [[ISO 7810]](../_Appendix/references.md#ref-ISO7810).
 
 The PIV Card SHALL NOT be embossed other than for security and accessibility features.
 
@@ -138,15 +138,12 @@ optional items SHALL be placed as described and depicted. Printed data SHALL NOT
 machine-readable technology.
 
 Areas that are marked as reserved SHOULD NOT be used for printing. The reason for the recommended
-reserved areas is that placement of the embedded contactless ICC module may between
+reserved areas is that placement of the embedded contactless ICC module may vary between
 manufacturers, and there are constraints that prohibit printing over the embedded contactless module. The
 PIV Card topography provides flexibility for placement of the embedded module, either in the upper
 right corner or in the lower portion. Printing restrictions apply only to the area where the
 embedded module is located.
 
-Departments and agencies are encouraged to work closely with card vendors and manufacturers to
-integrate features that may improve tamper resistance and anti-counterfeiting properties
-of the PIV Card.
 
 #### 4.1.4.1 Mandatory Items on the Front of the PIV Card {#s-4-1-4-1}
 
@@ -361,7 +358,7 @@ Zone 8B: Linear 3 of 9 Bar Code (Deprecated)
     the card vendor and manufacturer.
 
 Zone 9B and Zone 10B: Agency-Specific Text
-: In cases in which other defined optional elements are not used, Zone 9B
+: In cases in which other defined optional elements are not used, these zones
     MAY be used for other department or agency-specific information, as depicted in [Figure 4-8](#fig-4-8).
     Departments and agencies SHOULD minimize printed text to that which is absolutely necessary.
 
@@ -413,8 +410,8 @@ legislatively-mandated medical entitlements.
 ### 4.1.5 Color Representation {#s-4-1-5}
 
 [Table 4-2](#table-4-2) provides quantitative specifications for colors in four different color systems: sRGB
-Tristimulus [[IEC61966]](../_Appendix/references.md#ref-IEC61966), sRGB [[IEC61966]](../_Appendix/references.md#ref-IEC61966), CMYK (Cyan,
-Magenta, Yellow, and Key or 'blacK'), and PANTONE&reg;.[^pantone] Note the PANTONE&reg; color cue mapping is approximate and will not
+Tristimulus ([[IEC 61966]](../_Appendix/references.md#ref-IEC61966)), sRGB ([[IEC 61966]](../_Appendix/references.md#ref-IEC61966)), CMYK (Cyan,
+Magenta, Yellow, and Key or 'blacK'), and PANTONE&reg;. Note the PANTONE&reg; color cue mapping is approximate and will not
 produce an exact match. An agency or department MAY use the PANTONE&reg; mappings in cases
 where the exact color scales are not available. 
 Since the card body is white, the white color-coding is achieved
@@ -434,7 +431,6 @@ uncorrected) at a working distance of 50&nbsp;cm to 200&nbsp;cm.
 |Red|12F|253, 27, 20|254, 92, 79|0, 90, 86, 0|032&nbsp;C|
 {:latex-columns="p@0.07\textwidth,p@0.06\textwidth,p@0.22\textwidth,p@0.16\textwidth,p@0.13\textwidth,p@0.15\textwidth" latex-table="4-2" latex-caption="Color Representation"}
 
-[^pantone]: PANTONE&reg; is a registered name protected by law.
 
 ## 4.2 PIV Card Logical Characteristics {#s-4-2}
 
@@ -464,7 +460,7 @@ include
 - an electronic image of the left iris,
 - an electronic image of the right iris,
 - one or two fingerprint biometric templates for OCC,
-- a symmetric card authentication key for supporting physical access applicationsc and
+- a symmetric card authentication key for supporting physical access applications, and
 - a symmetric PIV Card Application administration key associated with the card management system.
 
 In addition to the above, other data elements are specified in [[SP 800-73]](../_Appendix/references.md#ref-SP-800-73).
@@ -481,7 +477,7 @@ Card-Management-To-Card (CMTC) authentication
 
 Cardholder-To-External (CTE) authentication
 : Credential elements used by the card to prove the identity of the cardholder to an external entity
-  such as a host computer system. Examples include the biometric data records,
+  such as a host computer system. Examples include the biometric data records for BIO and BIO-A,
   symmetric keys, asymmetric keys, and the fingerprint biometric templates for OCC-AUTH.
 
 ### 4.2.1 Cardholder Unique Identifier (CHUID) {#s-4-2-1}
@@ -546,8 +542,8 @@ PIV Card Application administration key
 : A symmetric key used for personalization and post-issuance activities, and it is optional.
     See [Section 4.2.2.6](frontend.md#s-4-2-2-6).
 
-The PIV Card MAY include additional optional key for use with secure messaging. Such keys are defined
-in [[SP 800-73]](../_Appendix/references.md#ref-SP-800-73) or [[SP 800-78]](../_Appendix/references.md#ref-SP-800-78).
+The PIV Card MAY include additional optional keys for use with secure messaging. Such keys are defined
+in [[SP 800-73]](../_Appendix/references.md#ref-SP-800-73) and [[SP 800-78]](../_Appendix/references.md#ref-SP-800-78).
 
 The PIV Card SHALL store private keys and corresponding public key certificates and SHALL perform
 cryptographic operations using the asymmetric private keys. At a minimum, the PIV Card SHALL store the PIV authentication key,
@@ -773,7 +769,7 @@ be discoverable. For PIN-based cardholder activation, the cardholder SHALL suppl
 PIN SHALL be transmitted to the PIV Card and checked by the card. If the PIN
 check is successful, the PIV Card is activated. The PIV Card SHALL include mechanisms to block
 activation of the card after a number of consecutive failed activation attempts. A maximum of ten
-consecutive PIN retries SHALL be permitted unless a lower limit is stipulated by the department or agency.
+consecutive PIN retries SHALL be permitted unless a lower limit is imposed by the department or agency.
 
 The PIN should not be easily guessable or otherwise individually identifiable in nature (e.g., part of a
 Social Security Number or phone number). The PIN SHALL be a minimum of six digits in length. The PIV Card SHALL compare the chosen PIN against a list of at least 10&nbsp;commonly-chosen values (e.g., 000000, 123456) and require the choice of a different value if one of those is selected by the cardholder.
@@ -821,7 +817,7 @@ The content of this section has been removed as the PIV middleware specified in 
 
 When the PIV Card is used with OCC data or a PIN for physical access, the input device SHALL be
 integrated with the PIV Card reader. When the PIV Card is used with OCC data or a PIN for logical
-access (e.g., to authenticate to a website site or other server), the input device is not required to be integrated
+access (e.g., to authenticate to a website or other server), the input device is not required to be integrated
 with the PIV Card reader. If the input device is not integrated with the PIV Card reader, the OCC data or
 the PIN SHALL be transmitted securely and directly to the PIV Card for card activation.
 

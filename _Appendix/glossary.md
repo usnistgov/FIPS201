@@ -46,13 +46,13 @@ verification.
 
 Authentication
 : The process of establishing confidence of authenticity; in this case, in the validity of a
-person's _identity_ and the authenticator (e.g., _PIV Card_ or _derived PIV credential_).
+person's _identity_ and an authenticator (e.g., _PIV Card_ or _derived PIV credential_).
 
 Authenticator Assurance Level (AAL)
 : A measure of the strength of an _authentication_ mechanism, and therefore the confidence in it, as
 defined in [[SP 800-63]](references.md#ref-SP-800-63) in terms of three levels:
 
-  AAL1
+    AAL1
 	: SOME confidence
   
 	AAL2
@@ -76,7 +76,7 @@ Biometric Characteristic
 : Biological attribute of an individual from which 
 distinctive and repeatable values can be extracted for the purpose 
 of automated recognition. Fingerprint ridge structure and face topography are 
-examples of biometric characteristics. [[ISO 2382-37]](references.md#ref-ISO/IEC-2382-37).
+examples of biometric characteristics. [[ISO 2382-37]](references.md#ref-ISO/IEC-2382-37)
 
 Biometric Data
 : Biometric sample or aggregation of biometric samples at any stage of 
@@ -174,11 +174,11 @@ Federation
 : A process that allows the conveyance of _identity_ and _authentication_ information across a set of networked systems.
 
 Federation Assurance Level (FAL)
-: A category describing the _federation_ protocol used to communicate the _assertion_ containing _authentication_ and attribute 
+: A category describing the _federation_ protocol used to communicate an _assertion_ containing _authentication_ and attribute 
 information (if applicable) to an RP, as
 defined in [[SP 800-63]](references.md#ref-SP-800-63) in terms of three levels:
 
-  FAL1
+    FAL1
 	: SOME confidence
   
 	FAL2
@@ -191,12 +191,12 @@ Hash Function
 : A function that maps a bit string of arbitrary length to a fixed length bit string. Secure
 hash functions ([[FIPS 180]](references.md#ref-FIPS180)) satisfy the following properties:
 
-  One-Way
-	:It is computationally infeasible to find any input that maps to any pre-specified
+    One-Way
+    : It is computationally infeasible to find any input that maps to any pre-specified
   output.
   
-	Collision Resistant
-	:It is computationally infeasible to find any two distinct inputs that map to
+    Collision Resistant
+    : It is computationally infeasible to find any two distinct inputs that map to
   the same output.
 
 Identification
@@ -215,7 +215,7 @@ Identity Assurance Level (IAL)
 : A category that conveys the degree of confidence that the end user’s claimed _identity_ is their real _identity_, as
 defined in [[SP 800-63]](references.md#ref-SP-800-63) in terms of three levels:
 
-  IAL1
+      IAL1
 	: SOME confidence
   
 	IAL2
@@ -240,7 +240,7 @@ system. In some other NIST documents such as [[SP 800-63A]](references.md#ref-SP
 Identity Verification
 : The process of confirming or denying that a claimed _identity_ is correct by
 comparing the _credentials_ of a person
-requesting access with those previously proven and associated with the _PIV Card_ or _derived PIV credential_ and associated with
+requesting access with those previously proven and associated with the _PIV Card_ or a _derived PIV credential_ associated with
 the _identity_ being claimed.
 
 Issuer
@@ -255,7 +255,7 @@ Issuing Facility
   * _identity proofing_/_registration_;
   * card/token production;
   * activation/issuance;
-	* post-issuance binding of _derived PIV credential_; and
+    * post-issuance binding of _derived PIV credential_; and
   * maintenance.
 
 Key
@@ -297,7 +297,7 @@ combined with other personal or identifying information that is linked or linkab
 such as date and place of birth, mother's maiden name, etc. [[M-17-12]](references.md#ref-OMB1712)
 
 Personal Identification Number (PIN)
-: A numeric secret that a _cardholder_ memorizes and uses to authenticate
+: A numeric secret that a _cardholder_ memorizes and uses as part of authenticating
 their _identity_.
 
 Personal Identity Verification (PIV) Account

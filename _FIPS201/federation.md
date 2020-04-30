@@ -19,7 +19,7 @@ When using a federation protocol, the PIV Card or derived PIV credential is not 
 
 Note that processing the PIV Card's PKI-based certificate directly is not a form of federation as defined by [[SP 800-63C]](../_Appendix/references.md#ref-SP-800-63C), since the certificates on the PIV Card do not meet the requirements of an assertion. In particular, while an assertion is a short-lived message created specifically for a federation transaction, the certificate is long-lived and intended to be presented to many different RPs over time.
 
-[^issuer] The IdP is usually the issuer of the PIV Card or derived PIV credential
+[^issuer] The IdP is usually the issuer of the PIV Card or derived PIV credential.
 
 ## 7.2 Federation Assurance Level (FAL) {#s-7-2}
 {:latex-toc="7.2 Federation Assurance Level"}

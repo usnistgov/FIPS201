@@ -11,7 +11,7 @@ _This section is informative unless otherwise marked as normative._ It provides 
 scope of this Standard.
 
 Authentication of an individual’s identity is a fundamental component of both physical and
-logical access control. an access control decision must be made
+logical access control. An access control decision must be made
 when an individual attempts to access security-sensitive 
 buildings, information systems, and applications. An 
 accurate determination of an individual’s identity supports making sound access control
@@ -85,7 +85,7 @@ manage newly introduced changes and modifications to the previous version of thi
 
 ### 1.3.1 Backward Compatible Change {#s-1-3-1}
 
-A backward compatible change is a change or modification to an existing feature that does not break the
+A backward compatible change is a change or modification to an existing feature that does not break
 relying systems using the feature. For example, changing the card authentication certificate from
 optional to mandatory does not affect the systems using the card authentication certificate for
 authentication (i.e., using the PKI-CAK authentication mechanism).
@@ -97,7 +97,7 @@ modified feature cannot be used with existing relying systems. For example, chan
 biometric data records would not be compatible with the existing system because a biometric authentication
 attempt with the modified format would fail. Similarly, all systems interacting with the 
 PIV Card would need to change if the PIV Card Application Identifier (AID) changed, 
-indicating this is a backward incompatible change.
+indicating a backward incompatible change.
 
 ### 1.3.3 New Features {#s-1-3-3}
 
@@ -150,7 +150,7 @@ meets the control and security objectives of [[HSPD-12]](../_Appendix/references
 issuance. It provides detailed technical specifications to support the control and security objectives of
 [[HSPD-12]](../_Appendix/references.md#ref-HSPD-12) as well as interoperability among federal departments and agencies. This Standard describes
 the policies and minimum requirements of a PIV Card and derived PIV credentials that allow interoperability of credentials for
-physical and logical access. It specifies the use of federation protocols as a means of accepting PIV card credentials and 
+physical and logical access. It specifies the use of federation protocols as a means of accepting PIV Card credentials and 
 derived PIV credentials issued by other agencies. The physical card characteristics, storage media, and data elements that make
 up identity credentials are specified in this Standard. The interfaces and card architecture for storing and
 retrieving identity credentials from a smart card are specified in [[SP 800-73]](../_Appendix/references.md#ref-SP-800-73).
@@ -171,7 +171,7 @@ All sections in this document indicate whether they are *normative* (i.e., provi
 informative (i.e., provide information details that do not affect compliance). This document is structured as follows:
 
 + [Section 1, Introduction](introduction.md#s-1), provides background information for understanding the scope of this
-    Standard. This section is *informative and normative*.
+    Standard. This section is *informative* unless otherwise marked as normative.
 + [Section 2, Common Identification, Security, and Privacy Requirements](requirements.md#s-2), outlines the requirements
     for identity proofing, registration, and issuance, by establishing the control and security
     objectives for compliance with [[HSPD-12]](../_Appendix/references.md#ref-HSPD-12). This section is *normative*.

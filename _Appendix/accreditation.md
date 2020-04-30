@@ -85,7 +85,7 @@ select any of the accredited laboratories. The tests conducted by these laborato
 submissions are validated and a validation certificate for each vendor module is issued by the
 Cryptographic Module Validation Program (CMVP), a joint program run by NIST and the
 Communications Security Establishment (CSE) of the Government of Canada. The details of the CMVP
-and NVLAP programs and the list of testing laboratories can be found at the CMVP website site at
+and NVLAP programs and the list of testing laboratories can be found at the CMVP website at
 <https://csrc.nist.gov/projects/cryptographic-module-validation-program>.
 
 ## A.5 FIPS 201 Evaluation Program {#s-a-5}

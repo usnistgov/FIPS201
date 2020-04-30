@@ -60,13 +60,13 @@ authentication mechanisms that may be applied to a particular situation.
 
 The PIV Card Application hosts the fingerprint biometric templates, the electronic facial image, and the optional electronic iris images.
 Biometric data records can be read from the card following CTC authentication using a PIN
-supplied by the cardholder. This biometric data record is designed to support a 
-CTE authentication mechanism through an off-card biometric OCC scheme. The following subsections
-define two authentication schemes that make use of biometric data records.[^bioreaders]
+supplied by the cardholder. These biometric data records are designed to support the 
+CTE authentication mechanism through an off-card biometric one-to-one comparison scheme. The following subsections
+define two authentication mechanisms that make use of biometric data records.[^bioreaders]
 
 Some characteristics of the authentication mechanisms using biometric data are as follows:
 
-- strong resistance to use of unaltered card by non-owner since both PIN entry and cardholder biometric characteristics are
+- strong resistance to use of the PIV Card by a non-owner since both PIN entry and cardholder biometric characteristics are
     required;
 - digital signature on biometric data records, which is checked to further strengthen the mechanism;
 - slower since it requires multiple interactions with the cardholder for presentation of PIN and acquisition of a biometric sample;
@@ -92,13 +92,13 @@ The following steps SHALL be performed for unattended authentication using biome
 - If the new biometric sample elicits a positive biometric verification decision, the cardholder is authenticated to
     be the owner of the card.
 - The FASC-N or UUID in the CHUID or other data element is compared with the corresponding element
-    in the signed attributes field (`signerInfos`) of the external digital signature in the biometric data record.
+    in the signed attributes field of the external digital signature in the biometric data record.
 - A unique identifier within the CHUID or other data element is used as input to the authorization
     check to determine whether the cardholder should be granted access.
 
 [^expired]: The PIV authentication certificate or card authentication certificate may be leveraged instead of the CHUID to verify that the card is not expired.
 
-#### 6.2.1.2 Attended Authentication of Biometric Data (BIO-A) {#s-6-2-1-2}
+#### 6.2.1.2 Attended Authentication Using Biometric Data (BIO-A) {#s-6-2-1-2}
 
 In this higher assurance variant of BIO, an attendant (e.g., security guard) supervises 
 the submission of the new biometric sample by the cardholder. Otherwise, the steps for this authentication mechanism
@@ -107,18 +107,18 @@ are the same as in [Section 6.2.1.1](#s-6-2-1-1).
 ### 6.2.2 Authentication Using On-Card Biometric One-to-One Comparison (OCC-AUTH) {#s-6-2-2}
 {:latex-toc="6.2.2 On-Card Biometric One-to-One Comparison"}
 
-The PIV Card Application MAY host an optional on-card fingerprint OCC algorithm. In this case,
-on-card fingerprint OCC data is stored on the card, which cannot be read, but could be used for
+The PIV Card Application MAY host an optional OCC algorithm. In this case,
+OCC data is stored on the card, which cannot be read, but could be used for
 biometric verification. A fingerprint biometric template is supplied to the card to perform CTC
 authentication and the card responds with a positive or negative biometric verification decision.
 The response includes information that allows the reader to authenticate the card. The
 cardholder PIN is not required for this operation. The PIV Card SHALL include a mechanism to block this
 authentication mechanism after a number of consecutive failed authentication attempts as stipulated by
 the department or agency. As with BIO, if agencies choose to
-implement on-card fingerprint OCC, it SHALL be implemented as defined in [[SP 800-73]](../_Appendix/references.md#ref-SP-800-73) and
+implement OCC, it SHALL be implemented as defined in [[SP 800-73]](../_Appendix/references.md#ref-SP-800-73) and
 [[SP 800-76]](../_Appendix/references.md#ref-SP-800-76).
 
-Some of the characteristics of OCC authentication mechanism are as follows:
+Some of the characteristics of OCC-AUTH are as follows:
 
 - highly resistant to credential forgery,
 - strong resistance to use of unaltered card by non-owner, and
@@ -290,12 +290,11 @@ the visual authentication process:
 Some characteristics of the visual authentication mechanism are as follows:
 
 - human inspection of card,
-- not amenable for rapid or high volume access control
+- not amenable for rapid or high volume access control,
 - susceptible to human error,
 - some resistance to use of unaltered card by non-owner of card,
-- low resistance to tampering and forgery,
-- does not provide protection against use of a revoked card, and
-- usable in environments with and without card readers.
+- low resistance to tampering and forgery, and
+- does not provide protection against use of a revoked card.
 
 ## 6.3 PIV Support of Graduated Authenticator Assurance Levels {#s-6-3}
 
@@ -309,7 +308,7 @@ as described in this section. Two or more authentication mechanisms MAY be appli
 unison to achieve additional assurance of the identity of the PIV cardholder. For example, PKI-AUTH and BIO may be applied in unison to achieve additional assurance in cardholder identity.
 
 Adequately designed and implemented relying systems can achieve the PIV Card
-assurance levels stated in [Table 6-1](#table-6-1) for physical access and [Table 6-2](#table-6-2) for logical access. Relying systems that are less adequately designed
+assurance levels stated in [Table 6-1](#table-6-1) for physical access and [Table 6-2](#table-6-2) for logical access. Relying systems that are inadequately designed
 or implemented may only achieve lower assurance levels. The design of the
 components of relying systems, including card readers, biometric capture devices, cryptographic modules, and
 key management systems, involves many factors not fully specified by FIPS 201, such as correctness of

@@ -59,10 +59,10 @@ Federal departments and agencies must follow investigative requirements establis
 
 The minimum requirement for PIV Credential eligibility determination is a completed and favorably adjudicated Tier 1 investigation, formerly called a National Agency Check with Written Inquiries (NACI).[^TierOne]
 
-Before an individual is determined eligible to be issued a PIV Card when no corresponding prior investigation exists, the appropriate required investigation SHALL be initiated with the authorized federal investigative service provider and the FBI NCHC portion of the background investigation SHALL be completed and adjudicated.
+Before an individual is determined eligible to be issued a PIV Card when no corresponding prior investigation exists, the appropriate required investigation SHALL be initiated with the authorized federal investigative service provider and the FBI NCHC portion of the background investigation SHALL be completed and favorably adjudicated.
 
-Once the investigation is completed, the authorized adjudicative entity SHALL adjudicate the investigation and report the final eligibility determination to the Central Verification System (or successor). This determination MAY also be recorded in the issuer's identity management system (IDMS). 
-If the determination is present, the IDMS SHALL reflect the PIV eligibility of each PIV cardholder and the subsequent re-enrollment in the Continuous Vetting Program.
+Once the investigation is completed, the authorized adjudicative entity SHALL adjudicate the investigation and report the final eligibility determination to the Central Verification System (or successor). This determination MAY also be recorded in the issuer's identity management system (IDMS) to reflect 
+ the PIV eligibility of each PIV cardholder and the subsequent re-enrollment in the Continuous Vetting Program.
 
 For full guidance on PIV credentialing investigative and adjudicative requirements, issuers must work closely with their personnel security/suitability offices to ensure adherence to the latest federal personnel vetting guidance as provided by the Executive Agents. 
 
@@ -129,13 +129,13 @@ as described in [Section 4.2.3.1](frontend.md#s-4-2-3-1). OCC MAY be used to sup
 Agencies MAY
 choose to collect electronic iris images as an additional biometric characteristic. If collected,
 the electronic iris images SHALL be stored on the PIV Card as described in [Section 4.2.3.1](frontend.md#s-4-2-3-1).
-The image MAY be used for cardholder authentication (BIO, BIO-A) as described in [Section 6.2.1](authentication.md#s-6-2-1).
+The images MAY be used for cardholder authentication (BIO or BIO-A) as described in [Section 6.2.1](authentication.md#s-6-2-1).
 Electronic iris images are an additional means of authentication during PIV issuance and maintenance processes
 when fingerprint biometric data records are unavailable.
 
 The electronic facial image SHALL be stored on the PIV Card as described in [Section 4.2.3.1](frontend.md#s-4-2-3-1).
 It SHALL be printed on the PIV Card according to [Section 4.1.4.1](frontend.md#s-4-1-4-1). 
-The image MAY be used for cardholder authentication (BIO, BIO-A) as described in [Section 6.2.1](authentication.md#s-6-2-1).
+The image MAY be used for cardholder authentication (BIO or BIO-A) as described in [Section 6.2.1](authentication.md#s-6-2-1).
 It MAY be retrieved and displayed on guard workstations to augment 
 other authentication processes from [Section 6.2](authentication.md#s-6-2).
 The electronic facial image is a secondary means of authentication during operator-attended PIV issuance and maintenance processes
@@ -147,8 +147,8 @@ PIV background investigation, identity proofing, registration, and issuance proc
 
 > Note: This section was formerly entitled "Chain-of-Trust".
 
-A card issuer SHALL maintain the enrollment record for each issued PIV Card that contains 
-identification data the issuer collects. These enrollment records are created and maintained through the methods of 
+A card issuer SHALL maintain the enrollment record for each issued PIV Card.
+These enrollment records are created and maintained through the methods of 
 contemporaneous acquisition at each step of the PIV issuance process, typically including identity proofing, registration 
 and biometric enrollment, and are generally stored as part of the cardholder's PIV account.
 
@@ -221,7 +221,7 @@ Biometric data SHALL be captured as specified in [Section 2.3](requirements.md#s
 
 The applicant SHALL appear in-person at least once before the issuance of a PIV Card, either at the issuing facility or at a supervised remote identity proofing station as described in [Section 2.7.1](#s-2-7-1).
 
-During identity proofing, the applicant SHALL be required to provide two original (e.g., non-photocopied) forms of identity source
+During identity proofing, the applicant SHALL be required to provide two original forms of identity source
 documents.[^documents] The identity source documents SHALL be bound to the applicant and SHALL NOT
 be expired or cancelled. If the two identity source documents bear different names, evidence
 of a formal name change SHALL be provided. At least one identity source document SHALL meet the requirements of Strong evidence as specified in [[SP 800-63A]](../_Appendix/references.md#ref-SP-800-63A) and be one of the
@@ -532,8 +532,6 @@ Supervised remote identity proofing station
 The remote PIN reset operation SHALL satisfy the requirements for remote post-issuance updates
 specified in [Section 2.9.2](requirements.md#s-2-9-2).
 
-Departments and agencies MAY adopt more stringent procedures for PIN reset, including disallowing PIN
-reset. PIN reset procedures SHALL be formally documented by each department and agency.
 
 Regardless of the PIN reset procedure used, the chosen PIN SHALL meet the activation requirements specified in [Section 4.3.1](frontend.md#s-4-3-1).
 
@@ -561,7 +559,7 @@ following circumstances:
     cardholder is ineligible for a PIV Card (See [[FCS]](../references/#ref-FCS)); or
 + a cardholder is determined to hold a fraudulent identity.
 
-Similar to the situation in which the PIV Card or derived PIV credential is compromised, normal termination procedures
+Similar to the situation in which the PIV Card is compromised, normal termination procedures
 must be in place as to ensure the following:
 
 + The PIV Card SHALL be revoked through the following procedure:
@@ -654,4 +652,4 @@ To ensure the privacy throughout PIV lifecycle, departments and agencies SHALL d
 
 [^privacyofficial]: Privacy official refers to the Senior Agency Official for Privacy (SAOP) or Chief Privacy Officer (CPO).
 
-[^access]: Agencies may refer to [[SP 800-122]](../references/#ref-SP-800-122) for example best practice guidelines on protection of PII.
+[^access]: Agencies may refer to [[SP 800-122]](../references/#ref-SP-800-122) for best practice guidelines on protection of PII.
