@@ -12,24 +12,8 @@ _This appendix is normative._ It provides compliance requirements for PIV valida
 ## A.1 Accreditation of PIV Card Issuers (PCI) and Derived PIV Credential Issuers (DPCI) {#s-a-1}
 {:latex-toc="A.1 Accreditation of PIV Card Issuers and Derived PIV Credential Issuers"}
 
-[[HSPD-12]](references.md#ref-HSPD-12) requires that all cards be issued by providers whose reliability has been established by an
-official accreditation process. The accreditation of the PIV Card issuer SHALL be reviewed through a third-party assessment to enhance the trustworthiness of the credential. To facilitate consistent independent
-validation of the PCI, NIST developed a set of attributes as the basis of reliability assessment of PIV Card
-issuers in SP 800-79 and published this document in July 2005. Subsequent lessons learned in
-implementation experience of various agencies 
-motivated NIST to develop a new accreditation
-methodology and publish a substantial revision in June 2008. In 2015 a second revision of [[SP 800-79]](references.md#ref-SP-800-79) was published to include guidelines for assessing the reliability of issuers of DPCI for mobile devices. The PCI/DPCI
-accreditation methodology is built on a foundation of four major accreditation topics, 13&nbsp;accreditation
-focus areas, and a total of 79&nbsp;control requirements distributed under the various accreditation focus areas.
-Associated with each control requirement is a set of assessment methods, the exercise of the latter will
-result in outcomes that form the basis for accreditation decisions.
-
-The four major accreditation topics identified in [[SP 800-79]](references.md#ref-SP-800-79) are
-
-- organizational preparedness;
-- security management and data protection;
-- infrastructure elements; and
-- PIV and Derived PIV processes.
+[[HSPD-12]](references.md#ref-HSPD-12) requires that PIV credentials be issued by providers whose reliability has been established by an
+official accreditation process. Consistent assessment guidelines are established for PIV Card Issuers (PCI) and Derived PIV Credential Issuers (DPCI) in [[SP 800-79]](references.md#ref-SP-800-79), which SHALL be followed by all credential issuers in order to achieve accreditation.
 
 The entire spectrum of activities in the PCI and DPCI accreditation methodology is divided into the following four
 phases:
