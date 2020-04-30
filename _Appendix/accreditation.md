@@ -31,7 +31,6 @@ results of assessment, arriving at an accreditation decision, and issuing the ap
 Authorization To Operate (ATO) or the Denial of Authorization To Operate (DATO), that is consistent with
 the accreditation decision.
 
-
 ## A.2 Application of Risk Management Framework to IT System(s) Supporting PCI {#s-a-2}
 {:latex-toc="A.2 Application of Risk Management Framework to IT Systems"}
 
@@ -52,7 +51,7 @@ Assurance of conformance of the PIV Card Application interface to this Standard
 and its associated technical specifications is needed in order to meet the security and interoperability
 goals of [[HSPD-12]](references.md#ref-HSPD-12). To facilitate this, NIST has established the NIST Personal Identity Verification
 Program (NPIVP). Under this program, NIST has developed test procedures in [[SP 800-85A]](references.md#ref-SP-800-85A) and an associated toolkit
-for conformance testing of PIV Card applications and PIV middleware. NPIVP conformance testing also covers PIV middleware, but conformance testing may be discontinued at a future time as computer platforms increasingly provide built-in support for smart cards.
+for conformance testing of PIV Card applications and PIV middleware. NPIVP conformance testing also covers PIV middleware, but conformance testing may be discontinued at a future time as computer operating systems increasingly provide built-in support for smart cards.
 
 Commercial products under these two categories are tested by the set of accredited test laboratories, accredited under
 the National Voluntary Laboratory Accreditation Program (NVLAP) program, using the NIST supplied
@@ -63,14 +62,14 @@ validation certificates. Information about NPIVP is available at
 ## A.4 Cryptographic Testing and Validation {#s-a-4}
 
 All on-card cryptographic modules hosting the PIV Card Application and cryptographic modules of card
-issuance and maintenance systems SHALL be validated to [[FIPS140]](references.md#ref-FIPS140) with an overall Security Level 2 (or
-higher). The facilities for [[FIPS140]](references.md#ref-FIPS140) testing are the Cryptographic and Security Testing laboratories
+issuance and maintenance systems SHALL be validated to [[FIPS 140]](references.md#ref-FIPS140) with an overall Security Level 2 (or
+higher). The facilities for [[FIPS 140]](references.md#ref-FIPS140) testing are the Cryptographic and Security Testing laboratories
 accredited by the NVLAP program of NIST. Vendors wanting to supply cryptographic modules can
 select any of the accredited laboratories. The tests conducted by these laboratories for all vendor
 submissions are validated and a validation certificate for each vendor module is issued by the
 Cryptographic Module Validation Program (CMVP), a joint program run by NIST and the
 Communications Security Establishment (CSE) of the Government of Canada. The details of the CMVP
-and NVLAP programs and the list of testing laboratories can be found at the CMVP Web site at
+and NVLAP programs and the list of testing laboratories can be found at the CMVP website at
 <https://csrc.nist.gov/projects/cryptographic-module-validation-program>.
 
 ## A.5 FIPS 201 Evaluation Program {#s-a-5}

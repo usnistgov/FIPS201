@@ -6,9 +6,9 @@ navTitle: References
 permalink: /references/
 ---
 
-# Appendix D. References {#s-appendix-d}
+# Appendix D. References {#s-d}
 
-_This appendix is informative._ It contains the full bibliography of references cited throughout this document.
+_This appendix is informative._ It lists the specifications and standards referred to in this document.
 
 [[A-130]](#ref-A-130){:name="ref-A-130"} OMB Circular A-130, Managing Federal Information as a Strategic Resource, July 28, 2016. 
 Available at <https://www.whitehouse.gov/sites/whitehouse.gov/files/omb/circulars/A130/a130revised.pdf>.
@@ -27,12 +27,12 @@ Version 1.31, February 8, 2019, or as amended. Available at
 [[E-Gov]](#ref-E-Gov){:name="ref-E-Gov"} *E-Government Act of 2002*, U.S. Public Law 107-347, 2002.
 
 [[FCS]](#ref-FCS){:name="ref-FCS"} Final Credentialing Standards for Issuing Personal Identity Verification
-Cards under HSPD-12, OMB, July 31, 2008. Available at <https://www.opm.gov/suitability/suitability-executive-agent/policy/final-credentialing-standards.pdf>.
+Cards under HSPD-12, OMB, July 31, 2008, or as amended. Available at <https://www.opm.gov/suitability/suitability-executive-agent/policy/final-credentialing-standards.pdf>.
 
-[[FIPS140]](#ref-FIPS140){:name="ref-FIPS140"} FIPS Publication 140-3, *Security Requirements for Cryptographic Modules*, NIST,
+[[FIPS 140]](#ref-FIPS140){:name="ref-FIPS140"} FIPS Publication 140-3, *Security Requirements for Cryptographic Modules*, NIST,
 March 22, 2019, or as amended. Available at <https://doi.org/10.6028/NIST.FIPS.140-3>.
 
-[[FIPS180]](#ref-FIPS180){:name="ref-FIPS180"} FIPS Publication 180-4, *Secure Hash Standard (SHS)*, August 2015, or as amended.
+[[FIPS 180]](#ref-FIPS180){:name="ref-FIPS180"} FIPS Publication 180-4, *Secure Hash Standard (SHS)*, August 2015, or as amended.
 Available at <http://doi.org/10.6028/NIST.FIPS.180-4>.
 
 [[FICAM]](#ref-FICAM){:name="ref-FICAM"} Federal Identity, Credential, and Access Management (FICAM) Roadmap and Implementation Guidance,
@@ -55,7 +55,7 @@ management - Part 2-1: Colour management - Default RGB colour space – sRGB*, O
 NIST, June 2015. Available at <http://doi.org/10.6028/NIST.IR.7863>.
 
 [[ISC-RISK]](#ref-ISC-RISK){:name="ref-ISC-RISK"} The Risk Management Process for Federal Facilities: An Interagency Security Committee Standard,
-2nd Edition, November 2016. Interagency Security Committee. Available at 
+2nd Edition, November 2016, or as amended. Interagency Security Committee. Available at 
 <https://www.dhs.gov/sites/default/files/publications/isc-risk-management-process-2016-508.pdf>.
 
 [[ISO 2382-37]](#ref-ISO/IEC-2382-37){:name="ref-ISO/IEC-2382-37"} ISO/IEC 2382-37:2017, *Information technology -- Vocabulary -- Part 37: Biometrics*, ISO, 2017.
@@ -80,15 +80,12 @@ ISO, 2018.
 [[ISO 7816]](#ref-ISO7816){:name="ref-ISO7816"} ISO/IEC 7816, *Identification Cards—Integrated Circuits with Contacts*, Parts 1-6,
 ISO. 1-2011, 2-2007, 3-2006, 4-2013, 5-2004, 6-2016.
 
-[[ISO 24727]](#ref-ISO24727){:name="ref-ISO24727"} ISO/IEC 24727, *Identification cards -- Integrated circuit card programming
-interfaces*. Part 1—*Architecture*, ISO, 2014. Part 2—*Generic card interface*, ISO, 2008. Part
-3—*Application interface*, ISO 2008. Part 4—*Application programming interface (API)
-administration*, ISO, 2008. Part 5—*Testing procedures*, ISO, 2011. Part 6—*Registration
-authority procedures for the authentication protocols for interoperability*, ISO, 2010.
-
 [[M-03-22]](#ref-OMB0322){:name="ref-OMB0322"} OMB Memorandum M-03-22, *Guidance for Implementing the Privacy Provisions of
 the E-Government Act of 2002*, OMB, September 26, 2003. Available at 
 <https://www.whitehouse.gov/wp-content/uploads/2017/11/203-M-03-22-OMB-Guidance-for-Implementing-the-Privacy-Provisions-of-the-E-Government-Act-of-2002-1.pdf>.
+
+[[M-04-04]](#ref-OMB0404){:name="ref-OMB0404"} OMB Memorandum M-04-04, *E-Authentication Guidance for Federal Agencies*, 
+OMB, December 2003. Rescinded. Available at <https://www.whitehouse.gov/sites/whitehouse.gov/files/omb/memoranda/2004/m04-04.pdf>.
 
 [[M-05-24]](#ref-OMB0524){:name="ref-OMB0524"} OMB Memorandum M-05-24, *Implementation of Homeland Security Presidential
 Directive (HSPD) 12 – Policy for a Common Identification Standard for Federal Employees and
@@ -129,7 +126,7 @@ Revocation List (CRL) Profile*, IETF, October 2015. Available at <https://www.ie
 [[RFC 8485]](#ref-RFC8485){:name="ref-RFC8485"} RFC 8485, *Vectors of Trust*, IETF, October 2018. Available at
 <https://www.ietf.org/rfc/rfc8485.txt>.
 
-[[RISK-MGMT-FACILITIES]](#ref-RISK-MGMT-FACILITIES){:name="ref-RISK-MGMT-FACILITIES"} *The Risk Management Process for Federal Facilities: An Interagency Security Committee Standard*, Interagency Security Committee, November, 2016. Available at <https://www.cisa.gov/sites/default/files/publications/isc-risk-management-process-2016-508.pdf>.
+[[RISK-MGMT-FACILITIES]](#ref-RISK-MGMT-FACILITIES){:name="ref-RISK-MGMT-FACILITIES"} *The Risk Management Process for Federal Facilities: An Interagency Security Committee Standard*, Interagency Security Committee, November, 2016, or as amended. Available at <https://www.cisa.gov/sites/default/files/publications/isc-risk-management-process-2016-508.pdf>.
 
 [[SAML-AC]](#ref-SAML-AC){:name="ref-SAML-AC"} Authentication Context for the OASIS Security Assertion Markup Language (SAML) V2.0, OASIS, March 2005.
 Available at <https://docs.oasis-open.org/security/saml/v2.0/saml-authn-context-2.0-os.pdf>.

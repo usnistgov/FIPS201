@@ -14,8 +14,8 @@ section also defines some authentication mechanisms that make use of credential 
 optionally be included on PIV Cards. Specific implementation details of authentication mechanisms
 identified in this section are provided in [[SP 800-73]](../_Appendix/references.md#ref-SP-800-73). Graduated authenticator assurance levels are also applicable to derived PIV credentials used in accordance with [[SP 800-157]](../_Appendix/references.md#ref-SP-800-157).
 
-While a wide range of authentication
-mechanisms is identified in this section, departments and agencies may adopt additional mechanisms that
+While this section identifies a wide range of authentication
+mechanisms, departments and agencies may adopt additional mechanisms that
 use the identity credentials on the PIV Card. In the context of the PIV Card Application,
 authentication is defined as the process of establishing confidence in the identity of the cardholder
 presenting a PIV Card. The authenticated identity can then be used to determine the permissions or
@@ -23,27 +23,29 @@ authorizations granted to that identity for access to various physical and logic
 
 The authentication mechanisms in this section describe how to authenticate using the PIV Card directly. The 
 authenticated identity can also be used to create an identity assertion as part of a federation
-protocol, as described in [Section 7](#s-7).
+protocol as described in [Section 7](#s-7).
 
 ## 6.1 PIV Assurance Levels {#s-6-1}
 
 This Standard defines multiple levels of assurance for logical and physical access. Each assurance level establishes a degree of confidence that the presenter of
-the PIV Card is the person referred to by the PIV credential. The entity performing the authentication further establishes confidence that the person referred to by the PIV credential is a specific identified person through the rigor of the identity proofing process conducted prior to issuance of the PIV Card and the security of the PIV Card issuance and maintenance processes specified in [Section 2](requirements.md#s-2) of this Standard. The PIV identity proofing, registration, issuance, and maintenance processes meet or exceed the
-requirements for IAL3 [[SP 800-63A]](../_Appendix/references.md#ref-SP-800-63A).
+the PIV Card is the person referred to by the PIV credential. The entity performing the authentication further establishes confidence that the person referred to by the PIV credential is a specific person identified through the rigor of the identity proofing process conducted prior to issuance of the PIV Card and the security of the PIV Card issuance and maintenance processes specified in [Section 2](requirements.md#s-2). The PIV identity proofing, registration, issuance, and maintenance processes meet or exceed the
+requirements for IAL3 as defined in [[SP 800-63A]](../_Appendix/references.md#ref-SP-800-63A).
 
-The PIV Card contains a number of logical credentials that are used by the authentication mechanisms specified in [Section 6.2](#s-6-2). Varying assurance levels that the holder of the PIV Card is
-the owner of the card can be achieved, depending on the PIV authentication mechanism used. The assurance levels for physical and logical access are specified in [Section 6.3.1](#s-6-3-1) and [Section 6.3.2](#s-6-3-2) respectively.
+The PIV Card contains a number of logical credentials that are used by the authentication mechanisms specified in [Section 6.2](#s-6-2). PIV assurance levels may vary
+depending on the PIV authentication mechanism used. The assurance levels for physical and logical access are specified in [Section 6.3.1](#s-6-3-1) and [Section 6.3.2](#s-6-3-2) respectively.
 
 Parties responsible for controlling access to federal resources (both physical and logical) SHALL determine
 the appropriate assurance levels required for access, based on the harm and impact to
-individuals and organizations as a result of errors in the authentication of the PIV
+individuals and organizations that could occur as a result of errors in the authentication of the PIV
 cardholder. Once the required assurance level has been determined, one of the authentication mechanisms
 specified in [Section 6.2](#s-6-2) SHALL be applied to achieve that assurance level.
 
 ### 6.1.1 Relationship to Federal Identity Policy (Removed) {#s-6-1-1}
 {:latex-toc="6.1.1 Relationship to Federal Identity Policy"}
 
-The content of this section has been removed as OMB M-04-04 has been rescinded by OMB [[M-19-17]](../_Appendix/references.md#ref-OMB1917), which recognizes the IALs defined in NIST [[SP 800-63]](../_Appendix/references.md#ref-SP-800-63) as the framework for managing digital identity risks within the federal government. A mapping between PIV authentication mechanisms and SP 800-63 assurance levels can be found in [Section 6.3.2](#s-6-3-2).
+> Note: This section was formerly entitled "Relationship to OMB’s E-Authentication Guidance".
+
+The content of this section has been removed as OMB [[M-04-04]](../_Appendix/references.md#ref-OMB0404) has been rescinded by OMB [[M-19-17]](../_Appendix/references.md#ref-OMB1917), which recognizes the IALs defined in NIST [[SP 800-63]](../_Appendix/references.md#ref-SP-800-63) as the framework for managing digital identity risks within the Federal Government. A mapping between PIV authentication mechanisms and SP 800-63 assurance levels can be found in [Section 6.3.2](#s-6-3-2).
 
 ## 6.2 PIV Card Authentication Mechanisms {#s-6-2}
 
@@ -54,33 +56,32 @@ when present, can be contact readers or contactless readers. The usage environme
 authentication mechanisms that may be applied to a particular situation.
 
 ### 6.2.1 Authentication Using Off-Card Biometric One-to-One Comparison {#s-6-2-1}
+{:latex-toc="6.2.1 Off-Card Biometric One-to-One Comparison"}
 
-The PIV Card Application hosts the signed fingerprint biometric templates and, optionally, the signed electronic iris images.
-Either mode of biometric data record can be read from the card following Cardholder-To-Card (CTC) authentication using a PIN
-supplied by the cardholder. This biometric data record is designed to support a Cardholder-To-External
-system (CTE) authentication mechanism through an off-card biometric one-to-one comparison scheme. The following subsections
-define two authentication schemes that make use of biometric data records.[^bioreaders]
+The PIV Card Application hosts the fingerprint biometric templates, the electronic facial image, and the optional electronic iris images.
+Biometric data records can be read from the card following CTC authentication using a PIN
+supplied by the cardholder. These biometric data records are designed to support the 
+CTE authentication mechanism through an off-card biometric one-to-one comparison scheme. The following subsections
+define two authentication mechanisms that make use of biometric data records.[^bioreaders]
 
-Some characteristics of the authentication mechanisms using biometric data (described below) are as follows:
+Some characteristics of the authentication mechanisms using biometric data are as follows:
 
-- Strong resistance to use of unaltered card by non-owner since PIN entry and cardholder biometric characteristics are
-    required.
-- Digital signature on biometric data records, which is checked to further strengthen the mechanism.
-- Slower mechanism, because it requires two interactions (e.g., presentation of PIN and acquisition of a biometric sample) with
-    the cardholder.
-- Does not provide protection against use of a revoked card.
-- Applicable with contact card readers and contactless card readers that support the virtual contact
+- strong resistance to use of the PIV Card by a non-owner since both PIN entry and cardholder biometric characteristics are
+    required;
+- digital signature on biometric data records, which is checked to further strengthen the mechanism;
+- slower since it requires multiple interactions with the cardholder for presentation of PIN and acquisition of a biometric sample;
+- does not provide protection against use of a revoked card; and
+- usable with contact card readers and contactless card readers that support the virtual contact
     interface.
 
 [^bioreaders]: As noted in [Section 4.2.3.1](../frontend/#s-4-2-3-1), fingerprint biometric templates are not guaranteed to contain biometric characteristic data, since it may not be possible to collect fingerprints from some cardholders. Additionally, electronic iris images are not guaranteed to be present on a PIV Card, since iris biometric capture is optional. When biometric verification cannot be performed, PKI-AUTH is the recommended alternate authentication mechanism.
 
 #### 6.2.1.1 Unattended Authentication Using Biometric Data (BIO) {#s-6-2-1-1}
-{:latex-toc="6.2.1.1 Unattended Authentication Using Biometric Data"}
 
-The following steps SHALL be performed for unattended authentication of biometric data:
+The following steps SHALL be performed for unattended authentication using biometric data:
 
 - The CHUID or another data element[^expired] is read from the card. The signature of the CHUID or another data element is verified to ensure the card has not expired and the card comes from a trusted source.
-- The cardholder is prompted to submit a PIN, activating the PIV Card.
+- The cardholder is prompted to enter a PIN, activating the PIV Card.
 - Biometric data record is read from the card.
 - The signature on the biometric data record is verified to ensure the biometric data record is intact and comes from a trusted
     source. Note that the signature verification may require retrieval of the content signing certificate
@@ -90,47 +91,46 @@ The following steps SHALL be performed for unattended authentication of biometri
 - If the new biometric sample elicits a positive biometric verification decision, the cardholder is authenticated to
     be the owner of the card.
 - The FASC-N or the card UUID in the CHUID or other data element is compared with the corresponding element
-    in the Signed Attributes field of the external digital signature in the biometric data record.
+    in the signed attributes field of the external digital signature in the biometric data record.
 - A unique identifier within the CHUID or other data element is used as input to the authorization
     check to determine whether the cardholder should be granted access.
 
 [^expired]: The PIV authentication certificate or card authentication certificate may be leveraged instead of the CHUID to verify that the card is not expired.
 
-#### 6.2.1.2 Attended Authentication of Biometric Data (BIO-A) {#s-6-2-1-2}
-{:latex-toc="6.2.1.2 Attended Authentication of Biometric Data"}
+#### 6.2.1.2 Attended Authentication Using Biometric Data (BIO-A) {#s-6-2-1-2}
 
-In this higher assurance variant, an attendant (e.g., security guard) supervises 
+In this higher assurance variant of BIO, an attendant (e.g., security guard) supervises 
 the submission of the new biometric sample by the cardholder. Otherwise, the steps for this authentication mechanism
 are the same as in [Section 6.2.1.1](#s-6-2-1-1).
 
 ### 6.2.2 Authentication Using On-Card Biometric One-to-One Comparison (OCC-AUTH) {#s-6-2-2}
-{:latex-toc="6.2.2 Authentication Using On-Card Biometric One-to-One Comparison"}
+{:latex-toc="6.2.2 On-Card Biometric One-to-One Comparison"}
 
-The PIV Card Application MAY host an optional on-card fingerprint one-to-one comparison algorithm. In this case,
-on-card fingerprint one-to-one comparison data is stored on the card, which cannot be read, but could be used for
+The PIV Card Application MAY host an optional OCC algorithm. In this case,
+OCC data is stored on the card, which cannot be read, but could be used for
 biometric verification. A fingerprint biometric template is supplied to the card to perform CTC
-authentication and the card responds with an positive or negative biometric verification decision.
+authentication and the card responds with a positive or negative biometric verification decision.
 The response includes information that allows the reader to authenticate the card. The
 cardholder PIN is not required for this operation. The PIV Card SHALL include a mechanism to block this
 authentication mechanism after a number of consecutive failed authentication attempts as stipulated by
 the department or agency. As with BIO, if agencies choose to
-implement on-card fingerprint one-to-one comparisons, it SHALL be implemented as defined in [[SP 800-73]](../_Appendix/references.md#ref-SP-800-73) and
+implement OCC, it SHALL be implemented as defined in [[SP 800-73]](../_Appendix/references.md#ref-SP-800-73) and
 [[SP 800-76]](../_Appendix/references.md#ref-SP-800-76).
 
-Some of the characteristics of OCC authentication are as follows:
+Some of the characteristics of OCC-AUTH are as follows:
 
 - highly resistant to credential forgery,
 - strong resistance to use of unaltered card by non-owner, and
-- applicable with contact and contactless card readers.
+- usable with contact and contactless card readers.
 
 ### 6.2.3 Authentication Using PIV Asymmetric Cryptography {#s-6-2-3}
+{:latex-toc="6.2.3 PIV Asymmetric Cryptography"}
 
 The PIV Card contains two mandatory asymmetric authentication private keys and corresponding
 certificates to support CTE authentication, as described in [Section 4](frontend.md#s-4). The
 following subsections describe how to perform authentication using the authentication keys.
 
 #### 6.2.3.1 Authentication with the PIV Authentication Certificate Credential (PKI-AUTH) {#s-6-2-3-1}
-{:latex-toc="6.2.3.1 Authentication with the PIV Authentication Certificate Credential"}
 
 The following steps SHALL be performed for PKI-AUTH:
 
@@ -138,29 +138,28 @@ The following steps SHALL be performed for PKI-AUTH:
 - The relying system validates the PIV authentication certificate from the PIV Card Application using
     standards-compliant PKI path validation[^pivpath] to ensure that it is neither expired nor revoked and that it is
     from a trusted source.
-- The cardholder is prompted to submit a PIN, which is used to activate the card. (If implemented,
-    other card activation mechanisms, as specified in [[SP 800-73]](../_Appendix/references.md#ref-SP-800-73), MAY be used to activate the card.)
+- The cardholder is prompted to enter a PIN, which is used to activate the card. If implemented,
+    other card activation mechanisms, as specified in [[SP 800-73]](../_Appendix/references.md#ref-SP-800-73), MAY be used to activate the card.
 - The relying system issues a challenge string to the card and requests an asymmetric operation in
     response.
-- The card responds to the previously issued challenge by signing it using the PIV authentication
+- The card responds to the previously-issued challenge by signing it using the PIV authentication
     private key.
 - The relying system verifies the signature using the public key in the PIV authentication certificate.
 - A unique identifier from the PIV authentication certificate is extracted and passed as input to the
-    access control decision.
+    authorization check to determine whether the cardholder should be granted access.
 
 Some of the characteristics of the PKI-based authentication mechanism are as follows:
 
-- requires the use of certificate status checking infrastructure;
-- highly resistant to credential forgery;
-- strong resistance to use of unaltered card by non-owner since card activation is required;
-- protection against use of a revoked card; and
-- applicable to contact card readers and contactless card readers that support the virtual contact
+- requires the use of certificate status checking infrastructure,
+- highly resistant to credential forgery,
+- strong resistance to use of unaltered card by non-owner since card activation is required,
+- protection against use of a revoked card, and
+- usable with contact card readers and contactless card readers that support the virtual contact
     interface.
 
-[^pivpath]: Path validation SHOULD be configured to specify which policy OIDs are trusted. The policy OID for the PIV authentication certificate is id-fpki-common-authentication.
+[^pivpath]: Path validation SHOULD be configured to specify which policy OIDs are trusted. The policy OID for the PIV authentication certificate is `id-fpki-common-authentication`.
 
 #### 6.2.3.2 Authentication with the Card Authentication Certificate Credential (PKI-CAK) {#s-6-2-3-2}
-{:latex-toc="6.2.3.2 Authentication with the Card Authentication Certificate Credential"}
 
 The following steps SHALL be performed for PKI-CAK:
 
@@ -170,25 +169,25 @@ The following steps SHALL be performed for PKI-CAK:
     from a trusted source.
 - The relying system issues a challenge string to the card and requests an asymmetric operation in
     response.
-- The card responds to the previously issued challenge by signing it using the card authentication
+- The card responds to the previously-issued challenge by signing it using the card authentication
     private key.
 - The relying system verifies the signature using the public key in the card authentication certificate.
 - A unique identifier from the card authentication certificate is extracted and passed as input to the
-    access control decision.
+    authorization check to determine whether the cardholder should be granted access.
 
 Some of the characteristics of the PKI-CAK authentication mechanism are as follows:
 
 - requires the use of certificate status checking infrastructure,
 - highly resistant to credential forgery,
 - low resistance to use of unaltered card by non-owner of card, and
-- applicable with contact and contactless readers.
+- usable with contact and contactless readers.
 
 [^cacpath]: Path validation SHOULD be configured to specify which policy OIDs are trusted. The policy OID for the card authentication certificate is id-fpki-common-cardAuth.
 
-### 6.2.4 Authentication with the Symmetric Card Authentication Key (SYM-CAK) {#s-6-2-4}
-{:latex-toc="6.2.4 Authentication with the Symmetric Card Authentication Key"}
+### 6.2.4 Authentication Using the Symmetric Card Authentication Key (SYM-CAK) {#s-6-2-4}
+{:latex-toc="6.2.4 Symmetric Card Authentication Key"}
 
-The PIV Card Application MAY host the optional symmetric card authentication key. In this case, the
+The PIV Card Application MAY host the optional symmetric card authentication key. If present, the
 symmetric card authentication key SHALL be used for PIV cardholder authentication using the following
 steps:
 
@@ -197,7 +196,7 @@ steps:
 - The digital signature on the data element is checked to ensure that it was signed by a trusted source
     and is unaltered.
 - The reader issues a challenge string to the card and requests a response.
-- The card responds to the previously issued challenge by encrypting the challenge using the symmetric
+- The card responds to the previously-issued challenge by encrypting the challenge using the symmetric
     card authentication key.
 - The relying system decrypts the card's response with its symmetric key and verifies that it matches the challenge string sent to the card.
 - A unique identifier within the data element is used as input to the authorization check to determine
@@ -209,33 +208,31 @@ follows:
 - resistant to credential forgery,
 - does not provide protection against use of a revoked card,
 - low resistance to use of unaltered card by non-owner of card, and
-- applicable with contact and contactless readers.
+- usable with contact and contactless readers.
 
 ### 6.2.5 Authentication Using the CHUID (Removed) {#s-6-2-5}
-{:latex-toc="6.2.5 Authentication Using the CHUID"}
+{:latex-toc="6.2.5 CHUID"}
 
 The content of this section has been removed since the CHUID authentication mechanism is no longer allowed under FIPS-201. 
 
-The CHUID data element remains a required on-card data element as described in [Section 4.2.1](frontend.md#s-4-2-1), as the BIO(-A) and SYM-CAK authentication mechanisms use the CHUID data element as a source for the card’s expiration date. The CHUID data element also provides the content signing certificate for some authentication mechanisms and unique identifiers for PACS ACLs. 
+The BIO, BIO-A, and SYM-CAK authentication mechanisms use the CHUID data element as a source for the card’s expiration date.
+The CHUID data element also provides the content signing certificate for some authentication mechanisms and unique identifiers for PACS ACLs. 
+Therefore, the CHUID data element remains a required on-card data element as described in [Section 4.2.1](frontend.md#s-4-2-1).
 
 ### 6.2.6 Authentication Using PIV Visual Credentials (VIS) (Deprecated) {#s-6-2-6}
-{:latex-toc="6.2.6 Authentication Using PIV Visual Credentials"}
+{:latex-toc="6.2.6 PIV Visual Credentials"}
 
 Visual authentication of a PIV cardholder as a stand-alone authentication mechanism has been deprecated in this version of the Standard. The mechanism provides little or no assurance of the cardholder's identity and SHOULD NOT be used. It is expected that the stand-alone use of visual authentication will be removed from this Standard in a future revision. 
 
-The PIV Card has several mandatory features on the front and back that support visual
-identification and authentication, as follows:
+The PIV Card has several mandatory features on the front (see [Section 4.1.4.1](frontend.md#s-4-1-4-1)) and
+back (see [Section 4.1.4.2](frontend.md#s-4-1-4-2)) that support visual
+identification and authentication:
 
 Zone 1F
 : Photograph
 
 Zone 2F
 : Name
-
-In addition, any available tamper-proofing features described in [Section 4.1.2](frontend.md#s-4-1-2) SHOULD be used
-in visual inspection to provide additional assurance that the PIV Card is genuine and unaltered.
-
-The PIV Card MAY also bear optional components, some of which are:
 
 Zone 8F
 : Employee Affiliation
@@ -250,24 +247,29 @@ Zone 15F
 : Color-Coding for Employee Affiliation
 
 Zone 1B
-: Agency Card Serial Number (back of card)
+: Agency Card Serial Number
 
 Zone 2B
-: Issuer Identification Number (back of card)
+: Issuer Identification Number
 
-The PIV Card MAY also bear optional components, some of which include the following:
+In addition, any available security features described in [Section 4.1.2](frontend.md#s-4-1-2) SHOULD be checked
+in visual inspection to provide additional assurance that the PIV Card is genuine and unaltered.
 
-Zone 11F
-: Agency Seal
- 
-Zone 5B
-: Physical Characteristics of Cardholder (back of card)
+The PIV Card may also have several optional components on the front (see [Section 4.1.4.3](frontend.md#s-4-1-4-3)) and
+back (see [Section 4.1.4.4](frontend.md#s-4-1-4-4)) that support visual
+identification and authentication, if present:
 
 Zone 3F
 : Signature
 
+Zone 11F
+: Agency Seal
+
+Zone 5B
+: Physical Characteristics of Cardholder
+
 When a cardholder attempts to pass through an access control point for a federally-controlled facility, a
-human guard SHALL perform visual identity verification of the cardholder, and determine whether the
+human guard SHALL perform visual identity verification of the cardholder and SHALL determine whether the
 identified individual should be allowed through the control point. The following steps SHALL be applied in
 the visual authentication process:
 
@@ -286,12 +288,12 @@ the visual authentication process:
 
 Some characteristics of the visual authentication mechanism are as follows:
 
-- human inspection of card, which is not amenable for rapid or high volume access control and is
-    susceptible to human error;
-- some resistance to use of unaltered card by non-owner of card;
-- low resistance to tampering and forgery;
-- does not provide protection against use of a revoked card; and
-- applicable in environments with and without card readers.
+- human inspection of card,
+- not amenable for rapid or high volume access control,
+- susceptible to human error,
+- some resistance to use of unaltered card by non-owner of card,
+- low resistance to tampering and forgery, and
+- does not provide protection against use of a revoked card.
 
 ## 6.3 PIV Support of Graduated Authenticator Assurance Levels {#s-6-3}
 
@@ -301,25 +303,24 @@ NIST [[SP 800-63]](../_Appendix/references.md#ref-SP-800-63), which specifies a 
 
 The following subsections specify which basic PIV
 authentication mechanisms CAN be used to support the various authenticator assurance levels
-as described in the subsections below. Two or more authentication mechanisms MAY be applied in
-unison to achieve additional assurance of the identity of the PIV cardholder. For example, PKI-AUTH and BIO MAY be applied in unison to achieve additional assurance in cardholder identity.
+as described in this section. Two or more authentication mechanisms MAY be applied in
+unison to achieve additional assurance of the identity of the PIV cardholder. For example, PKI-AUTH and BIO may be applied in unison to achieve additional assurance in cardholder identity.
 
 Adequately designed and implemented relying systems can achieve the PIV Card
-assurance levels stated in Tables [6-1 (physical access)](#table-6-1) and [6-2 (logical access)](#table-6-2). Less adequately designed
-or implemented relying systems may only achieve lower assurance levels. The design of
+assurance levels stated in [Table 6-1](#table-6-1) for physical access and [Table 6-2](#table-6-2) for logical access. Relying systems that are inadequately designed
+or implemented may only achieve lower assurance levels. The design of the
 components of relying systems, including card readers, biometric capture devices, cryptographic modules, and
 key management systems, involves many factors not fully specified by FIPS 201, such as correctness of
 the functional mechanism, physical protection of the mechanism, and environmental conditions at the
-authentication point. Additional standards and best practice guidelines apply to the design and
-implementation of relying systems, e.g., [[FIPS140]](../_Appendix/references.md#ref-FIPS140) and [[SP 800-116]](../_Appendix/references.md#ref-SP-800-116).
+authentication point. Additional standards and best practice guidelines (e.g., [[FIPS 140]](../_Appendix/references.md#ref-FIPS140) and [[SP 800-116]](../_Appendix/references.md#ref-SP-800-116)) apply to the design and
+implementation of relying systems.
 
 ### 6.3.1 Physical Access {#s-6-3-1}
 
 The PIV Card can be used to authenticate the cardholder in a physical access control
-environment. For example, a federal facility may have physical entry doors that have human guards at
-checkpoints, or the facility may have electronic access control points.
+environment.
 
-Three levels of authentication assurance for physical access, referred to as Physical Assurance Level (PAL) are defined:
+Three levels of authentication assurance for physical access, referred to as the Physical Assurance Level (PAL), are defined as:
 
 PAL1
 : Formerly SOME confidence in the asserted identity's validity (weakest).
@@ -330,7 +331,7 @@ PAL2
 PAL3
 : Formerly VERY HIGH confidence in the asserted identity's validity (strongest).
 
-Selection of the PAL SHALL be made in accordance with the applicable policies for a facility’s security level [[RISK-MGMT-FACILITIES]](../_Appendix/references.md#ref-RISK-MGMT-FACILITIES). Additional guidelines on the selection and use of PIV authentication mechanisms for facility access can be found in NIST [[SP 800-116]](../_Appendix/references.md#ref-SP-800-116).
+Selection of the PAL SHALL be made in accordance with the applicable policies for a facility’s security level ([[RISK-MGMT-FACILITIES]](../_Appendix/references.md#ref-RISK-MGMT-FACILITIES)). Additional guidelines on the selection and use of PIV authentication mechanisms for facility access can be found in NIST [[SP 800-116]](../_Appendix/references.md#ref-SP-800-116).
 
 The PIV-supported authentication mechanisms
 for physical access control systems are summarized in [Table 6-1](#table-6-1). An authentication mechanism that is
@@ -340,22 +341,22 @@ assurance levels.[^combinations]
 
 [^combinations]: Combinations of authentication mechanisms are specified in [[SP 800-116]](../references/#ref-SP-800-116).
 
-[Table 6-1. Authentication for Physical Access](#table-6-1){:name="table-6-1"}
+[Table 6-1. Applicable PIV Authentication Mechanisms for Physical Access](#table-6-1){:name="table-6-1"}
 {:latex-ignore="true"}
 
-|Physical Assurance Level|Applicable PIV Authentication Mechanism(s)|
+|Physical Assurance Level|Applicable PIV Authentication Mechanisms|
 |---|---|
 |PAL1|PKI-CAK, SYM-CAK|
 |PAL2|BIO|
 |PAL3|BIO-A, OCC-AUTH, PKI-AUTH|
-{:latex-table="6-1" latex-caption="Authentication for Physical Access"}
+{:latex-table="6-1" latex-caption="Applicable PIV Authentication Mechanisms for Physical Access"}
 
 ### 6.3.2 Logical Access {#s-6-3-2}
 
 The PIV Card can be used to authenticate the cardholder in support of decisions concerning access to
 logical information resources. For example, a cardholder may log in to their department or agency
 network using the PIV Card; the identity established through this authentication process can be used for
-determining access to file systems, databases, and other services available on the network.
+determining access to information systems and applications available on the network.
 
 Selection of required AAL SHALL be made using the risk management process specified in [[SP 800-63]](../_Appendix/references.md#ref-SP-800-63).
 

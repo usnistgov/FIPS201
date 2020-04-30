@@ -7,19 +7,20 @@ permalink: /introduction/
 ---
 # 1. Introduction {#s-1}
 
-_This section is informative._ It provides background information for understanding the
+_This section is informative unless otherwise marked as normative._ It provides background information for understanding the
 scope of this Standard.
 
-Authentication of an individual’s identity is a fundamental component of physical and
-logical access control. When an individual attempts to access security-sensitive 
-buildings, information systems and applications, an access control decision must be made. An 
+Authentication of an individual’s identity is a fundamental component of both physical and
+logical access control. An access control decision must be made
+when an individual attempts to access security-sensitive 
+buildings, information systems, and applications. An 
 accurate determination of an individual’s identity supports making sound access control
 decisions.
 
 In the past, a wide range of legacy mechanisms has been employed to authenticate an individual,
 utilizing various classes of identity credentials. For physical access, an individual’s
 identity has been authenticated by use of paper or other non-automated, hand-carried
-credentials such as driver’s licenses and badges. For logical access, authorization to access
+credentials such as badges and driver’s licenses. For logical access, authorization to access
 computers and data has been based on identities authenticated through user-selected
 passwords. Today, cryptographic mechanisms and biometric techniques
 are replacing these legacy mechanisms in physical and logical security applications.
@@ -33,7 +34,7 @@ This document establishes a standard for a Personal Identity Verification (PIV) 
 
 This Standard defines reliable, government-wide identity credentials for use in applications such as
 access to federally-controlled facilities and information systems. This Standard has been developed
-within the context and constraints of federal law, regulations, and policy based on currently available and
+within the context and constraints of federal laws, regulations, and policies based on currently available and
 evolving information processing technology.
 
 This Standard specifies a PIV system within which common identity credentials can be created and later
@@ -45,7 +46,7 @@ security levels that are dependent on risks to the facility or information being
 [[HSPD-12]](../_Appendix/references.md#ref-HSPD-12), signed by President George W. Bush on August
 27, 2004, established the requirements for a common identification standard for identity credentials issued
 by federal departments and agencies to federal employees and contractors (including contractor
-employees) for gaining physical access to federally controlled facilities and logical access to federally-controlled 
+employees) for gaining physical access to federally-controlled facilities and logical access to federally-controlled 
 information systems. HSPD-12 directs the Department of Commerce to develop a Federal
 Information Processing Standards (FIPS) publication to define such common identity credentials. In
 accordance with HSPD-12, this Standard defines the technical requirements for these identity credentials
@@ -59,10 +60,9 @@ that
 This Standard defines authentication mechanisms offering varying degrees of security for both logical and
 physical access applications. Federal departments and agencies will determine the level of security and
 authentication mechanisms appropriate for their applications. The scope of this
-Standard is limited to authentication of an individual's identity. This Standard does not specify access
-control policies or requirements for federal departments and agencies. Authorization and access control
-decisions are outside the scope of this Standard. Moreover, requirements for a temporary card used until
-a new or replacement PIV Card arrives are out of scope of this Standard.
+Standard is limited to authentication of an individual's identity. Authorization and access control
+decisions are outside the scope of this Standard. Moreover, requirements for a temporary credential used until
+a new or replacement PIV credential arrives are out of scope of this Standard.
 
 While this Standard remains focused predominantly on PIV Cards, derived PIV credentials and
 federation protocols play an important role in the use of PIV accounts as well.
@@ -76,18 +76,17 @@ components of the PIV system.
 ## 1.3 Change Management {#s-1-3}
 
 Every revision of this Standard introduces refinements and changes that may impact existing
-implementations. FIPS 201 and and associated normative specifications encourage implementation approaches that
+implementations. FIPS 201 and associated normative specifications encourage implementation approaches that
 reduce the high cost of configuration and change management by architecting resilience to change into
 system processes and components. Nevertheless, changes and modifications are required over time.
 
 This section provides change management principles and guidance to implementers of relying systems to
 manage newly introduced changes and modifications to the previous version of this Standard.
-Specifically, this section provides a description of the types of changes expected in FIPS 201 revisions.
 
 ### 1.3.1 Backward Compatible Change {#s-1-3-1}
 
-A backward compatible change is a change or modification to an existing feature that does not break the
-relying systems using this feature. For example, changing the card authentication certificate from
+A backward compatible change is a change or modification to an existing feature that does not break
+relying systems using the feature. For example, changing the card authentication certificate from
 optional to mandatory does not affect the systems using the card authentication certificate for
 authentication (i.e., using the PKI-CAK authentication mechanism).
 
@@ -96,30 +95,32 @@ authentication (i.e., using the PKI-CAK authentication mechanism).
 A backward incompatible change is a change or modification to an existing feature such that the
 modified feature cannot be used with existing relying systems. For example, changing the format of the
 biometric data records would not be compatible with the existing system because a biometric authentication
-attempt with the modified format would fail. Similarly, changing the PIV Card Application IDentifier
-(AID) would introduce a backward incompatible change. As a result, all systems interacting with the
-PIV Card would need to be changed to accept the new PIV AID.
+attempt with the modified format would fail. Similarly, all systems interacting with the 
+PIV Card would need to change if the PIV Card Application Identifier (AID) changed, 
+indicating a backward incompatible change.
 
 ### 1.3.3 New Features {#s-1-3-3}
 
 New features are optional or mandatory features that are added to the Standard. New features do not
 interfere with backward compatibility because they are not part of the existing relying systems. For
-example, the optional biometric On-Card Comparison Authentication (OCC-AUTH) mechanism was a
+example, the optional biometric on-card comparison (OCC) authentication mechanism (OCC-AUTH) was a
 new feature introduced in FIPS 201-2. The optional mechanism did not affect the features of existing systems. Systems had to be updated only if an
 agency decided to support the OCC-AUTH mechanism.
 
 ### 1.3.4 Deprecated and Removed {#s-1-3-4}
 
+_This subsection is normative._
+
 When a feature is to be discontinued or is no longer needed, it is deprecated. In general, a feature that is
-currently in use by relying systems would only be deprecated if there is a compelling
+currently in use by relying systems would only be deprecated if there were a compelling
 reason to do so (e.g., security). Deprecated features MAY continue to be used, but SHOULD be phased out in future systems
 since the feature will likely be removed in the next revision of the Standard. Removed features SHALL NOT be used. For example, the CHUID
 authentication mechanism ([Section 6.2.5](authentication.md#s-6-2-5)) has been removed from this version of the Standard
 and relying systems SHALL NOT use this authentication
 mechanism.[^CHUID] The PIV Visual Credentials (VIS) authentication mechanism ([Section 6.2.6](authentication.md#s-6-2-6)) has been deprecated as a stand-alone
-authentication mechanism, but it could still be used in conjunction with other authentication mechanisms.
+authentication mechanism, but it MAY still be used in conjunction with other authentication mechanisms.
 
-In the case of deprecated features on PIV Cards, such as the magnetic stripe and bar codes, existing PIV Cards
+In the case of deprecated features on PIV Cards such as the magnetic stripe ([Section 4.1.4.4](frontend.md#s-4-1-4-4)), existing PIV Cards
 with the deprecated features remain valid. However, new PIV Cards SHOULD NOT include the deprecated
 features.
 
@@ -129,18 +130,18 @@ features.
 
 Subsequent revisions of this Standard may necessitate FIPS 201 version management that introduces new
 version numbers for FIPS 201 products. Components that may be affected by version management
-include, for example, PIV Cards, PIV middleware software, and card issuance systems.
+include but are not limited to PIV Cards, PIV middleware software, and card issuance systems.
 
 New version numbers will be assigned in [[SP 800-73]](../_Appendix/references.md#ref-SP-800-73), if needed, based on the nature of the change. For
 example, new mandatory features introduced in a revision of this Standard may necessitate a new PIV
 Card Application version number so that systems can quickly discover the new mandatory features.
-Optional features, on the other hand, may be discoverable by an on-card discovery mechanism.
+Optional features may be discoverable by an on-card discovery mechanism.
 
 ### 1.3.6 Section Number Stability {#s-1-3-6}
 
 Section numbers have not been changed in this revision. Any deleted sections have had their contents 
 removed and replaced with a removal notice while retaining the section header and number. New subsections
-have been added at the end of their respective sections with a new section number in the header.
+have been added at the end of their respective sections with a new subsection number.
 
 ## 1.4 Document Organization {#s-1-4}
 
@@ -148,29 +149,29 @@ This Standard describes the minimum requirements for a federal personal identity
 meets the control and security objectives of [[HSPD-12]](../_Appendix/references.md#ref-HSPD-12), including identity proofing, registration, and
 issuance. It provides detailed technical specifications to support the control and security objectives of
 [[HSPD-12]](../_Appendix/references.md#ref-HSPD-12) as well as interoperability among federal departments and agencies. This Standard describes
-the policies and minimum requirements of a PIV Card that allows interoperability of credentials for
-physical and logical access. The physical card characteristics, storage media, and data elements that make
+the policies and minimum requirements of a PIV Card and derived PIV credentials that allow interoperability of credentials for
+physical and logical access. It specifies the use of federation protocols as a means of accepting PIV Card credentials and 
+derived PIV credentials issued by other agencies. The physical card characteristics, storage media, and data elements that make
 up identity credentials are specified in this Standard. The interfaces and card architecture for storing and
 retrieving identity credentials from a smart card are specified in [[SP 800-73]](../_Appendix/references.md#ref-SP-800-73).
-Similarly, the requirements for collection and formatting of
+Similarly, the requirements for collection, formatting, and use of
 biometric data records are specified in [[SP 800-76]](../_Appendix/references.md#ref-SP-800-76).
 The requirements for cryptographic algorithms are specified in [[SP 800-78]](../_Appendix/references.md#ref-SP-800-78).
 The requirements for the accreditation of PIV Card issuers are specified in [[SP 800-79]](../_Appendix/references.md#ref-SP-800-79).
 The unique organizational codes for federal agencies are assigned in [[SP 800-87]](../_Appendix/references.md#ref-SP-800-87).
-The requirements for the PIV Card reader are provided in [[SP 800-96]](../_Appendix/references.md#ref-SP-800-96).
+The requirements for PIV Card readers are provided in [[SP 800-96]](../_Appendix/references.md#ref-SP-800-96).
 The format for encoding PIV enrollment records for import and export is specified in [[SP 800-156]](../_Appendix/references.md#ref-SP-800-156).
 The requirements for issuing derived PIV credentials are specified in [[SP 800-157]](../_Appendix/references.md#ref-SP-800-157).
 
-This Standard contains normative references to other documents, and to the extent described in each
-citation these documents are included by reference in this Standard. Should normative text in this
+This Standard contains normative references to other documents. Should normative text in this
 Standard conflict with normative text in a referenced document, the normative text in this Standard
 prevails for this Standard.
 
-All sections in this document are *normative* (i.e., mandatory for compliance) unless specified as
-informative (i.e., non-mandatory). Following is the structure of this document:
+All sections in this document indicate whether they are *normative* (i.e., provide requirements for compliance) or
+informative (i.e., provide information details that do not affect compliance). This document is structured as follows:
 
 + [Section 1, Introduction](introduction.md#s-1), provides background information for understanding the scope of this
-    Standard. This section is *informative*.
+    Standard. This section is *informative* unless otherwise marked as normative.
 + [Section 2, Common Identification, Security, and Privacy Requirements](requirements.md#s-2), outlines the requirements
     for identity proofing, registration, and issuance, by establishing the control and security
     objectives for compliance with [[HSPD-12]](../_Appendix/references.md#ref-HSPD-12). This section is *normative*.
@@ -181,9 +182,9 @@ informative (i.e., non-mandatory). Following is the structure of this document:
     data elements, biometric data records, cryptography, and card readers. This section is *normative*.
 + [Section 5, PIV Key Management Requirements](keymanagement.md#s-5), defines the processes and components required
     for managing a PIV Card's lifecycle. It also provides the requirements and specifications related
-    to this subsystem. This section is *normative*.
+    to key management. This section is *normative*.
 + [Section 6, PIV Cardholder Authentication](authentication.md#s-6), defines a suite of authentication mechanisms that are
-    supported by the PIV Card, and their applicability in meeting the requirements of graduated
+    supported by the PIV Card and their applicability in meeting the requirements of graduated
     levels of identity assurance. This section is *normative*.
 + [Section 7, Federation](federation.md#s-7), defines a set of mechanisms for using federation technologies to 
     interoperate with PIV credentials issued by other agencies. This section is *normative*.
