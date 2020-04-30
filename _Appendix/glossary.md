@@ -360,7 +360,7 @@ Security Executive Agent
 Suitability and Credentialing Executive Agent
 : Individual responsible for prescribing suitability standards and minimum standards of fitness for employment. With the issuance of Executive Order 13467, as amended, the Suitability and Credentialing Executive Agent is responsible for the development, implementation, and oversight of effective, efficient, and uniform policies and procedures governing the conduct of investigations and adjudications for Suitability, Fitness, and Credentialing determinations in the Federal Government. Pursuant to sections 1103 and 1104 of title 5, United States Code, and the Civil Service Rules, the director of the Office of Personnel Management (OPM) is the Suitability and Credentialing Executive Agent. 
 
-## C.2 Acronyms {#s-c-2}
+## C.2 Acronyms and Abbreviations {#s-c-2}
 
 The following acronyms and abbreviations are used throughout this Standard:
 
