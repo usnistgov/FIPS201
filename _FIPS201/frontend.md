@@ -731,7 +731,7 @@ are as follows:
 Card identifiers
 : Each PIV Card contains a card UUID and a FASC-N that uniquely identify the card and, by
 correspondence, the cardholder. These two card identifiers are represented in all of the authentication
-data elements for the purpose of binding the PIV data elements to the same PIV Card. For example, the card UUID is represented in the GUID data element of the CHUID, in the entryUUID attribute of CMS-signed biometric data records and in the subjectAltName extension of PIV authentication certificates. Similarly, the FASC-N is represented in the CHUID, in the pivFASC-N attribute of CMS-signed biometric data records and in the subjectAltName extension of PIV authentication certificates.
+data elements for the purpose of binding the PIV data elements to the same PIV Card. For example, the card UUID is represented in the GUID data element of the CHUID, in the `entryUUID` attribute of CMS-signed biometric data records and in the `subjectAltName` extension of PIV authentication certificates. Similarly, the FASC-N is represented in the CHUID, in the `pivFASC-N` attribute of CMS-signed biometric data records and in the `subjectAltName` extension of PIV authentication certificates.
 
 Cardholder identifiers
 : Other identifiers MAY be present in credentials on the PIV Card that identity the cardholder rather than
