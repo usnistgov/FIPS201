@@ -90,7 +90,7 @@ Departments and agencies SHALL notify CAs when certificates need to be revoked.
 This Standard requires distribution of CA certificates and CRLs using HTTP. Specific requirements are
 found in [[PROF]](../_Appendix/references.md#ref-PROF).
 
-Certificates that contain the FASC-N or UUID in the SAN extension, such as PIV
+Certificates that contain the FASC-N or card UUID in the SAN extension, such as PIV
 authentication certificates and card authentication certificates, SHALL NOT be distributed publicly (e.g., via
 HTTP accessible from the public internet).
 Individual departments and agencies can decide whether digital signature and key

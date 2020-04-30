@@ -166,8 +166,8 @@ PIV enrollment records SHOULD include the following data:
     the name and role of the acquiring agent, the office and organization, time, place, and acquisition
     method. The enrollment data record MAY also document unavailable biometric data or failed attempts
     to collect biometric data. The enrollment data record MAY contain historical biometric data records.
-+ The most recent unique identifiers issued to the individual, such as a Federal Agency Smart Credential Number (FASC-N) and
-    a Universally Unique Identifier (UUID). The record MAY contain historical
++ The most recent unique identifiers issued to the individual, such as the Federal Agency Smart Credential Number (FASC-N) and 
+    the card Universally Unique Identifier (UUID). The record MAY contain historical
     unique identifiers.
 + Information about the authorizing entity who has approved the issuance of a credential.
 + Current status of the background investigation, including the results of the investigation once
@@ -416,7 +416,7 @@ and the photograph printed on the new PIV Card.
 The old PIV Card SHALL be revoked when the new PIV Card is issued. The revocation process SHALL include the following:
 
 + The old PIV Card SHALL be collected and destroyed, if possible.
-+ Any databases maintained by the PIV Card issuer that contain FASC-N or UUID values from the old
++ Any databases maintained by the PIV Card issuer that contain FASC-N or card UUID values from the old
     PIV Card must be updated to reflect the change in status.
 + If the old PIV Card cannot be collected and destroyed, or if the old PIV Card has been compromised
     or damaged, then the Certification Authority (CA) SHALL be informed and the certificates corresponding
@@ -440,7 +440,7 @@ is reused with the new PIV Card, the digital signature must be recomputed with t
 UUID.
 
 A new PIV authentication certificate and a new card authentication certificate SHALL be generated. The
-corresponding certificates SHALL be populated with the new FASC-N and UUID. For cardholders who are
+corresponding certificates SHALL be populated with the new FASC-N and card UUID. For cardholders who are
 required to have a digital signature certificate, a new digital signature certificate SHALL also be generated.
 Key management keys and certificates MAY be imported to the new PIV Card.
 
