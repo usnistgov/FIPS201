@@ -79,9 +79,7 @@ Some characteristics of the authentication mechanisms using biometric data (desc
 
 The following steps SHALL be performed for unattended authentication of biometric data:
 
-- The CHUID or another data element[^expired] is read from the card to ensure the card has not
-    expired. The signature of the CHUID or another data element[^expired] is verified to ensure expiration check is intact comes from a trusted
-    source.
+- The CHUID or another data element[^expired] is read from the card. The signature of the CHUID or another data element is verified to ensure the card has not expired and the card comes from a trusted source.
 - The cardholder is prompted to submit a PIN, activating the PIV Card.
 - Biometric data record is read from the card.
 - The signature on the biometric data record is verified to ensure the biometric data record is intact and comes from a trusted
