@@ -485,11 +485,12 @@ Cardholder-To-External (CTE) authentication
 
 The PIV Card SHALL include the CHUID as defined in [[SP 800-73]](../_Appendix/references.md#ref-SP-800-73). The CHUID includes two card identifiers: the Federal
 Agency Smart Credential Number (FASC-N) and the card UUID in the Global Unique Identification Number (GUID) data element of the CHUID. 
-Each identifier uniquely identifies each card as described in [[SP 800-73]](../_Appendix/references.md#ref-SP-800-73). The value of the card UUID SHALL
-be a 16&nbsp;byte binary representation of a valid UUID ([[RFC 4122]](../_Appendix/references.md#ref-RFC4122)). The
+Each identifier uniquely identifies each card as described in Section 4.2.4 and further defined in [[SP 800-73]](../_Appendix/references.md#ref-SP-800-73). The value of the card UUID SHALL
+be a 16&nbsp;byte binary representation of a valid UUID ([[RFC 4122]](../_Appendix/references.md#ref-RFC4122)). A CHUID MAY optionally include a Cardholder UUID that represents an persistent identifier of the cardholder. When present,
+the Cardholder UUID SHALL be a 16-byte binary representation of a valid UUID, and it SHALL be version
+1, 4, or 5, as specified in [([[RFC 4122], Section 4.1.3](../_Appendix/references.md#ref-RFC4122)). The
 CHUID SHALL also include an expiration date data element in machine-readable format that specifies when
 the card expires. The expiration date format and encoding rules are as specified in [[SP 800-73]](../_Appendix/references.md#ref-SP-800-73).
-
 The CHUID SHALL be accessible from both the contact and contactless interfaces of the PIV Card without
 card activation. 
 
