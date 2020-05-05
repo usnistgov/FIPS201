@@ -483,12 +483,17 @@ Cardholder-To-External (CTE) authentication
 ### 4.2.1 Cardholder Unique Identifier (CHUID) {#s-4-2-1}
 {:latex-toc="4.2.1 Cardholder Unique Identifier"}
 
-The PIV Card SHALL include the CHUID as defined in [[SP 800-73]](../_Appendix/references.md#ref-SP-800-73). The CHUID includes two card identifiers: the Federal
+The PIV Card SHALL include the CHUID as defined in [[SP 800-73]](../_Appendix/references.md#ref-SP-800-73). The CHUID SHALL include two card identifiers: the Federal
 Agency Smart Credential Number (FASC-N) and the card UUID in the Global Unique Identification Number (GUID) data element of the CHUID. 
-Each identifier uniquely identifies each card as described in [[SP 800-73]](../_Appendix/references.md#ref-SP-800-73). The value of the card UUID SHALL
-be a 16&nbsp;byte binary representation of a valid UUID ([[RFC 4122]](../_Appendix/references.md#ref-RFC4122)). The
+Each identifier uniquely identifies each card as specified in [[SP 800-73]](../_Appendix/references.md#ref-SP-800-73).
+The value of the card UUID SHALL
+be a 16&nbsp;byte binary representation of a valid UUID as specified in [[RFC 4122]](../_Appendix/references.md#ref-RFC4122). The
 CHUID SHALL also include an expiration date data element in machine-readable format that specifies when
 the card expires. The expiration date format and encoding rules are as specified in [[SP 800-73]](../_Appendix/references.md#ref-SP-800-73).
+
+A CHUID MAY also include a Cardholder UUID that represents a persistent identifier of the cardholder as specified
+in [[SP 800-73]](../_Appendix/references.md#ref-SP-800-73). The value of the cardholder UUID SHALL
+be a 16&nbsp;byte binary representation of valid UUID  as specified in [[RFC 4122]](../_Appendix/references.md#ref-RFC4122).
 
 The CHUID SHALL be accessible from both the contact and contactless interfaces of the PIV Card without
 card activation. 
@@ -745,7 +750,7 @@ data elements for the purpose of binding the PIV data elements to the same PIV C
 
 Cardholder identifiers
 : Other identifiers MAY be present in credentials on the PIV Card that identify the cardholder rather than
-the card. Examples include the cardholder UUID that may appear in the CHUID or the subject name(s) that may appear in the `subjectAltName` 
+the card. Examples include the cardholder UUID that may appear in the CHUID or the subject names that may appear in the `subjectAltName`
 extension in the PIV authentication certificate.
 
 ## 4.3 PIV Card Activation {#s-4-3}
