@@ -491,6 +491,7 @@ the Cardholder UUID SHALL be a 16-byte binary representation of a valid UUID, an
 1, 4, or 5, as specified in [([[RFC 4122], Section 4.1.3](../_Appendix/references.md#ref-RFC4122)). The
 CHUID SHALL also include an expiration date data element in machine-readable format that specifies when
 the card expires. The expiration date format and encoding rules are as specified in [[SP 800-73]](../_Appendix/references.md#ref-SP-800-73).
+
 The CHUID SHALL be accessible from both the contact and contactless interfaces of the PIV Card without
 card activation. 
 
