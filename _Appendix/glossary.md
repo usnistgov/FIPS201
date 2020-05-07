@@ -216,7 +216,7 @@ Identity Assurance Level (IAL)
 : A category that conveys the degree of confidence that the end user’s claimed _identity_ is their real _identity_, as
 defined in [[SP 800-63]](references.md#ref-SP-800-63) in terms of three levels:
 
-      IAL1
+	IAL1
 	: SOME confidence
   
 	IAL2
