@@ -100,12 +100,10 @@ The following biometric data MAY be collected from a PIV applicant:
 + An electronic image of the right iris.
 + Two fingerprints, for on-card comparison (OCC). These fingerprints MAY be taken from the full set of fingerprints collected in [Section 2.3](requirements.md#s-2-3) and SHOULD be imaged from fingers not imaged for off-card one-to-one comparison.
 
-If collection of biometric data as specified in this section and in [Section 2.3](requirements.md#s-2-3) occurs on separate
-occasions, then a positive biometric verification of the applicant's biometric characteristics SHALL be performed at each visit against biometric
-data collected during a previous visit.
-For example, ten fingerprints for law enforcement checks MAY be collected at one time and place, and two fingerprints for PIV Card templates MAY
-be collected at a later time and different place, provided that a biometric comparison confirms that the two fingerprints belong to the original
-set of ten fingerprints.
+If the identity proofing and enrollment process is performed on multiple visits, a positive biometric verification of the applicant's biometric characteristics SHALL be performed at each visit against biometric data collected during a previous visit.
+
+If collection of biometric data as specified in this section and in [Section 2.3](requirements.md#s-2-3) occur on separate
+occasions, a biometric comparison SHALL be performed to confirm that the two fingerprints collected belong to the original set of ten fingerprints.
 
 Biometric data collection SHALL conform to the procedural and technical specifications of [[SP 800-76]](../_Appendix/references.md#ref-SP-800-76).
 The choice of fingers to use for mandatory fingerprint templates and optional fingerprint templates MAY vary between persons. The recommended
