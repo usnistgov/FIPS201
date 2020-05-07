@@ -150,7 +150,8 @@ Cryptographic Key (Key)
 determines the specific operation of that algorithm.
 
 Derived PIV Credential
-: A _credential_ issued based on proof of possession and control of a _PIV Card_ so as not to duplicate the _identity proofing_ process.
+: A _credential_ issued based on proof of possession and control of a _PIV Card_. Derived PIV credentials are typically used
+in situations that do not easily accommodate a _PIV Card_, such as in conjunction with mobile devices.
 
 Enrollment
 : See _Identity Registration_.
