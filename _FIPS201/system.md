@@ -118,7 +118,7 @@ program) to which the cardholder wants to gain access.
 
 [^DPC]: The cardholder may authenticate with the PIV Card or a derived PIV credential.
 
-The relying system depends on an authorization data component that defines the privileges (authorizations)
+The relying subsystem depends on authorization mechanisms that define the privileges (authorizations)
 possessed by entities requesting to access a particular logical or physical resource. An example of this is
 an Access Control List (ACL) associated with a file on a computer system.
 
@@ -129,15 +129,8 @@ specifications for this subsystem, various mechanisms for identification and aut
 to provide consistent and secure means for performing the authentication function preceding an
 access control decision.
 
-The physical and logical access control system grants or denies access to a particular resource and
-includes an identification and authentication (I&A) component as well as an authorization component.
-
-The I&A component identifies and authenticates cardholders either by interacting with the PIV Card and uses mechanisms discussed in [Section 6](authentication.md#s-6) or 
-by communicating with an IdP through a federation protocol as discussed in [Section 7](federation.md#s-7). Once authenticated, the I&A component passes information to the
-authorization component which in turn interacts with the authorization data component to match the
-cardholder information to the information on record. Either the RP or the IdP interface with
-the card reader, the PIN input device, the biometric capture device, supplementary databases, and any certificate
-status service.
+The replying subsystem identifies and authenticates cardholders either by interacting with the PIV Card and uses mechanisms discussed in [Section 6](authentication.md#s-6) or 
+by communicating with an IdP through a federation protocol as discussed in [Section 7](federation.md#s-7). Once authenticated, authorization mechanisms supporting the replying subsystem grant or deny access to resources based on the priviledges assigned to the cardholder.
 
 ## 3.2 PIV Card Lifecycle Activities {#s-3-2}
 
