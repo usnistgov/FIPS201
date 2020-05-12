@@ -136,7 +136,7 @@ The following steps SHALL be performed for PKI-AUTH:
 
 - The PIV authentication certificate is read from the PIV Card Application.
 - The relying system validates the PIV authentication certificate from the PIV Card Application using
-    standards-compliant PKI path validation[^pivpath] to ensure that it is neither expired nor revoked and that it is
+   certificate path validation[^pivpath] algorithms specified in [[RFC 5280]](references.md#ref-RFC5280) to ensure that it is neither expired nor revoked and that it is
     from a trusted source.
 - The cardholder is prompted to enter a PIN, which is used to activate the card. If implemented,
     other card activation mechanisms, as specified in [[SP 800-73]](../_Appendix/references.md#ref-SP-800-73), MAY be used to activate the card.
@@ -165,7 +165,7 @@ The following steps SHALL be performed for PKI-CAK:
 
 - The card authentication certificate is read from the PIV Card Application.
 - The relying system validates the card authentication certificate from the PIV Card Application using
-    standards-compliant PKI path validation[^cacpath] to ensure that it is neither expired nor revoked and that it is
+    certificate path validation[^cacpath] algorithms specified in [[RFC 5280]](references.md#ref-RFC5280) to ensure that it is neither expired nor revoked and that it is
     from a trusted source.
 - The relying system issues a challenge string to the card and requests an asymmetric operation in
     response.
