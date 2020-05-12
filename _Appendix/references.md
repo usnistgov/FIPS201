@@ -109,8 +109,10 @@ at <https://www.idmanagement.gov/sites/default/files/documents/CertCRLprofileFor
 [[REAL-ID]](#ref-REAL-ID){:name="ref-REAL-ID"} *Minimum Standards for Driver's Licenses and Identification Cards
 Acceptable by Federal Agencies for Official Purposes; Final Rule*, Department of Homeland Security, Federal Register Vol. 73 No. 19, January 29, 2008. Available at <https://www.govinfo.gov/content/pkg/FR-2008-01-29/html/08-140.htm>.
 
-[[RFC 4122]](#ref-RFC4122){:name="ref-RFC4122"} RFC 4122, *A Universally Unique IDentifier (UUID) URN Namespace*, Internet
-Engineering Task Force (IETF), July 2005. Available at <https://www.ietf.org/rfc/rfc4122.txt>.
+[[RFC 20]](#ref-RFC20){:name="ref-RFC20"} RFC 20, *ASCII Format for Network Interchange*, Internet
+Engineering Task Force (IETF), October 1969. Available at <https://www.ietf.org/rfc/rfc20.txt>.
+
+[[RFC 4122]](#ref-RFC4122){:name="ref-RFC4122"} RFC 4122, *A Universally Unique IDentifier (UUID) URN Namespace*, IETF, July 2005. Available at <https://www.ietf.org/rfc/rfc4122.txt>.
 
 [[RFC 5280]](#ref-RFC5280){:name="ref-RFC5280"} RFC 5280, *Internet X.509 Public Key Infrastructure Certificate and Certificate
 Revocation List (CRL) Profile*, IETF, May 2008. Available at <https://www.ietf.org/rfc/rfc5280.txt>.

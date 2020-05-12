@@ -153,7 +153,7 @@ Zone 1F: Photograph
     resolution SHALL be used. The background SHALL follow recommendations set forth in [[SP 800-76]](../_Appendix/references.md#ref-SP-800-76).
 
 Zone 2F: Name
-: The full name[^pseudonym] SHALL be printed directly under the photograph in capital letters. The
+: The full name[^pseudonym] SHALL be printed directly under the photograph in capital letters from the American Standard Code for Information Interchange (ASCII) character set specified in [[RFC 20]](../_Appendix/references.md#ref-RFC20). The
     full name SHALL be composed of a primary identifier (i.e., surnames or family names) and a secondary
     identifier (i.e., pre-names or given names). The printed name SHALL match the name on the identity source
     documents provided during identity proofing and registration to the extent possible. The full name SHALL
