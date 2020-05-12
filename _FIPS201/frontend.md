@@ -188,6 +188,10 @@ Zone 2F: Name
 |Dingo Pontooroomooloo Vaasa Silvaan Beenelong Wooloomooloo Warrandyte Warwarnambool|Truncated full name, three lines at 7&nbsp;pt not sufficient.|![]({{site.baseurl}}/{{page.collection}}/images/name10.png){:style="width: 400px;" latex-src="name10.pdf"}|
 {:latex-columns="p@0.28\textwidth,p@0.38\textwidth,m@0.25\textwidth" latex-table="4-1" latex-caption="Name Examples"}
 
+Zone 7F: Contact Chip
+: The electronic contact interface for the card as defined by [[ISO 7816]](../_Appendix/references/#ISO7816). Printed items
+    SHALL NOT cover the contact surface. The total size of the contact surface MAY vary between manufacturers.
+
 Zone 8F: Employee Affiliation
 : An employee affiliation SHALL be printed on the card as depicted in 
     [Figure 4-1](#fig-4-1). Some examples of employee affiliation are "Employee," "Contractor," "Active Duty," and
@@ -258,6 +262,7 @@ Zone 3F: Signature
 Zone 4F: Agency-Specific Text Area
 : If used, this area can be used for printing agency-specific
     requirements, such as employee status, as shown in [Figure 4-2](#fig-4-2).
+    Note that this zone overlaps with an area that some card manufacturers may not be able to use for printing.
 
 Zone 5F: Rank
 : If used, the cardholder's rank SHALL be printed in the area as illustrated in [Figure 4-2](#fig-4-2).
@@ -266,6 +271,7 @@ Zone 5F: Rank
 Zone 6F: Portable Data File (PDF) Two-Dimensional Bar Code (Deprecated)
 : This bar code is deprecated in this version of the Standard. In a future version of this Standard, the bar code may be removed. If used, the PDF bar code placement SHALL be as depicted in [Figure 4-2](#fig-4-2) (i.e., left side of the card). If Zone 3F (a cardholder signature) is used, the size of the PDF bar code may be affected. The card issuer SHALL confirm that a PDF used in
     conjunction with a PIV Card containing a cardholder signature will satisfy the anticipated PDF data storage requirements. 
+    Note that this zone overlaps with an area that some card manufacturers may not be able to use for printing.
 
 Zone 9F: Header
 : If used, the text "United States Government" SHALL be placed as depicted in 
@@ -289,6 +295,8 @@ Zone 12F: Footer
     citizenship. If so used, the department or agency SHALL print the country name or the three-letter country
     abbreviation (alpha-3 format) in accordance with [[ISO 3166]](../_Appendix/references.md#ref-ISO3166). [Figure 4-4](#fig-4-4)
     illustrates an example of foreign national color-coding using country abbreviations.
+		
+    Note that this zone overlaps with an area that some card manufacturers may not be able to use for printing.
 
 Zone 13F: Issue Date
 : If used, the card issuance date SHALL be printed above the Zone 14F expiration
