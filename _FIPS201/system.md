@@ -129,8 +129,8 @@ specifications for this subsystem, various mechanisms for identification and aut
 to provide consistent and secure means for performing the authentication function preceding an
 access control decision.
 
-The replying subsystem identifies and authenticates cardholders either by interacting with the PIV Card and uses mechanisms discussed in [Section 6](authentication.md#s-6) or 
-by communicating with an IdP through a federation protocol as discussed in [Section 7](federation.md#s-7). Once authenticated, authorization mechanisms supporting the replying subsystem grant or deny access to resources based on the priviledges assigned to the cardholder.
+The relying subsystem identifies and authenticates cardholders either by interacting with the PIV Card and uses mechanisms discussed in [Section 6](authentication.md#s-6) or 
+by communicating with an IdP through a federation protocol as discussed in [Section 7](federation.md#s-7). Once authenticated, authorization mechanisms supporting the relying subsystem grant or deny access to resources based on the privileges assigned to the cardholder.
 
 ## 3.2 PIV Card Lifecycle Activities {#s-3-2}
 
