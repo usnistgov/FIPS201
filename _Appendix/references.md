@@ -15,6 +15,8 @@ Available at <https://www.whitehouse.gov/sites/whitehouse.gov/files/omb/circular
  
 [[ANSI 322]](#ref-ANSI322){:name="ref-ANSI322"} ANSI INCITS 322 Information Technology, *Card Durability Test Methods*, ANSI, 2008.
 
+[[ANSI 4]](#ref-ANSI4){:name="ref-ANSI4"} ANSI INCITS 4 Information Systems, *Coded Character Sets - 7-Bit American National Standard Code for Information Interchange (7-Bit ASCII)*, ANSI, 1986
+
 [[CBEFF]](#ref-CBEFF){:name="ref-CBEFF"} NISTIR 6529-A, *Common Biometric Exchange Formats Framework (CBEFF)*, NIST,
 April 2004.
 
