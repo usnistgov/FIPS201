@@ -16,6 +16,8 @@ exclude:
 - vendor
 - README.md
 - "*.yml"
+- "*/images/*.pdf"
+
 
 # GitHub information will uncomment ones names are finalized and NIST GitHub Pages resources have been allocated
 #org_name: usnistgov
