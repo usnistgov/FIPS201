@@ -112,8 +112,7 @@ Acceptable by Federal Agencies for Official Purposes; Final Rule*, Department of
 [[RFC 20]](#ref-RFC20){:name="ref-RFC20"} RFC 20, *ASCII Format for Network Interchange*, Internet
 Engineering Task Force (IETF), October 1969. Available at <https://www.ietf.org/rfc/rfc20.txt>.
 
-[[RFC 4122]](#ref-RFC4122){:name="ref-RFC4122"} RFC 4122, *A Universally Unique IDentifier (UUID) URN Namespace*, Internet
-Engineering Task Force (IETF), July 2005. Available at <https://www.ietf.org/rfc/rfc4122.txt>.
+[[RFC 4122]](#ref-RFC4122){:name="ref-RFC4122"} RFC 4122, *A Universally Unique IDentifier (UUID) URN Namespace*, IETF, July 2005. Available at <https://www.ietf.org/rfc/rfc4122.txt>.
 
 [[RFC 5280]](#ref-RFC5280){:name="ref-RFC5280"} RFC 5280, *Internet X.509 Public Key Infrastructure Certificate and Certificate
 Revocation List (CRL) Profile*, IETF, May 2008. Available at <https://www.ietf.org/rfc/rfc5280.txt>.
