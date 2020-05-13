@@ -191,7 +191,7 @@ Zone 2F: Name
 Zone 7F: Contact Area
 : The electronic contact interface for the card as defined by [[ISO 7816]](../_Appendix/references/#ISO7816). Printed items
     SHALL NOT cover the contact surface. The total size of the contact surface can vary between manufacturers. The area shown
-		in [Figure 4-1](#fig-4-1) roughly represents the minimal possible size.
+    in [Figure 4-1](#fig-4-1) roughly represents the minimal possible size.
 
 Zone 8F: Employee Affiliation
 : An employee affiliation SHALL be printed on the card as depicted in 
@@ -231,7 +231,7 @@ Zone 18F: Affiliation Color Code
 Zone 19F: Card Expiration Date
 : The card expiration date SHALL be printed in a MMMYYYY format in
     the upper right-hand corner as depicted in [Figure 4-1](#fig-4-1). The YYYY characters
-		represent the four-digit year and the MMM characters
+    represent the four-digit year and the MMM characters
     represent the three-letter month abbreviation as follows: JAN, FEB, MAR, APR, MAY, JUN, JUL, AUG,
     SEP, OCT, NOV, and DEC. The Zone 19F expiration date SHALL be printed in
     12&nbsp;pt Arial Bold.
@@ -244,8 +244,8 @@ Zone 1B: Agency Card Serial Number
 : This item SHALL be printed on the back of the card and contain
     the unique serial number from the issuing department or agency. The format SHALL be at the discretion of
     the issuing department or agency. The preferred placement is as depicted in [Figure 4-6](#fig-4-6), 
-		but variable placement along the outer edge is allowed in accordance with
-		other FIPS 201 requirements, as shown in [Figure 4-8](#fig-4-8).
+    but variable placement along the outer edge is allowed in accordance with
+    other FIPS 201 requirements, as shown in [Figure 4-8](#fig-4-8).
 
 Zone 2B: Issuer Identification Number
 : This item SHALL be printed as depicted in [Figure 4-6](#fig-4-6) and consist
@@ -284,7 +284,7 @@ Zone 9F: Header
 : If used, the text "United States Government" SHALL be placed as depicted in 
     [Figure 4-3](#fig-4-3), [Figure 4-4](#fig-4-4), and [Figure 4-5](#fig-4-5). Departments and agencies MAY instead use this zone for other department or agency-specific
     information, such as identifying a federal emergency responder role, as depicted in [Figure 4-2](#fig-4-2). 
-		Some examples of official roles are "Law Enforcement," "Fire Fighter," and "Emergency Response Team (ERT)."
+    Some examples of official roles are "Law Enforcement," "Fire Fighter," and "Emergency Response Team (ERT)."
 
 Zone 11F: Agency Seal
 : If used, the seal selected by the issuing department, agency, or organization
@@ -295,7 +295,7 @@ Zone 12F: Footer
 : If used as the federal emergency response official identification
     label, a department or agency SHALL print "Federal Emergency Response Official" as depicted in
     [Figure 4-2](#fig-4-2), preferably in white lettering on a red background. Additional information
-		regarding the federal emergency responder role MAY be included in Zone 9F.
+    regarding the federal emergency responder role MAY be included in Zone 9F.
     
     When Zone 15F indicates foreign national affiliation and the department or agency does not need to
     highlight emergency response official status, Zone 12F MAY be used to denote the country or countries of
@@ -304,12 +304,12 @@ Zone 12F: Footer
     illustrates an example of foreign national color-coding using country abbreviations.
 		
     Note that this zone overlaps with an area that some card manufacturers do not allow to be used for printing.
-		A possible alternate placement of Zone 12F is shown in [Figure 4-4](#fig-4-4).
+    A possible alternate placement of Zone 12F is shown in [Figure 4-4](#fig-4-4).
 
 Zone 13F: Issue Date
 : If used, the card issuance date SHALL be printed above the Zone 14F expiration
     date in YYYYMMMDD format as depicted in [Figure 4-3](#fig-4-3). The YYYY characters
-		represent the four-digit year, the DD characters represent the two-digit day of the month, and the MMM characters
+    represent the four-digit year, the DD characters represent the two-digit day of the month, and the MMM characters
     represent the three-letter month abbreviation as follows: JAN, FEB, MAR, APR, MAY, JUN, JUL, AUG,
     SEP, OCT, NOV, and DEC.
 
