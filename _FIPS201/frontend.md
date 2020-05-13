@@ -205,7 +205,7 @@ Zone 10F: Agency, Department, or Organization
 Zone 14F: Card Expiration Date
 : The card expiration date SHALL be printed on the card as depicted in
     [Figure 4-1](#fig-4-1). The card expiration date SHALL be in a YYYYMMMDD format. The YYYY characters
-		represent the four-digit year, the DD character represent the two-digit day of the month, and the MMM characters
+		represent the four-digit year, the DD characters represent the two-digit day of the month, and the MMM characters
     represent the three-letter month abbreviation as follows: JAN, FEB, MAR, APR, MAY, JUN, JUL, AUG,
     SEP, OCT, NOV, and DEC. The Zone 14F expiration date SHALL be printed in 6&nbsp;pt to 9&nbsp;pt Arial Bold.
 
@@ -243,7 +243,7 @@ Zone 19F: Card Expiration Date
 Zone 1B: Agency Card Serial Number
 : This item SHALL be printed on the back of the card and contain
     the unique serial number from the issuing department or agency. The format SHALL be at the discretion of
-    the issuing department or agency. The preferred placement as depicted in [Figure 4-6](#fig-4-6), 
+    the issuing department or agency. The preferred placement is as depicted in [Figure 4-6](#fig-4-6), 
 		but variable placement along the outer edge is allowed in accordance with
 		other FIPS 201 requirements, as shown in [Figure 4-8](#fig-4-8).
 
@@ -276,7 +276,7 @@ Zone 5F: Rank
     Data format is at the department or agency's discretion.
 
 Zone 6F: Portable Data File (PDF) Two-Dimensional Bar Code (Deprecated)
-: This bar code is deprecated in this version of the Standard. In a future version of this Standard, the bar code may be removed. If used, the PDF bar code placement SHALL be as generally depicted in [Figure 4-2](#fig-4-2) (i.e., left side of the card). If Zone 3F (a cardholder signature) is used, the size of the PDF bar code may be affected. The card issuer SHALL confirm that a PDF used in
+: This bar code is deprecated in this version of the Standard. In a future version of this Standard, the bar code may be removed. If used, the PDF bar code SHALL be placed in the general area depicted in [Figure 4-2](#fig-4-2) (i.e., left side of the card). If Zone 3F (a cardholder signature) is used, the size of the PDF bar code may be affected. The card issuer SHALL confirm that a PDF used in
     conjunction with a PIV Card containing a cardholder signature will satisfy the anticipated PDF data storage requirements. 
     Note that this zone overlaps with an area that some card manufacturers do not allow to be used for printing.
 
@@ -352,7 +352,7 @@ Zone 3B: Magnetic Stripe (Deprecated)
 
 Zone 4B: Return Address
 : If used, the "return if lost" language SHALL be placed on the back of
-    the card generally as depicted in [Figure 4-7](#fig-4-7).
+    the card in the general area depicted in [Figure 4-7](#fig-4-7).
 
 Zone 5B: Physical Characteristics of Cardholder
 : If used, the cardholder physical characteristics (e.g.,
@@ -361,7 +361,7 @@ Zone 5B: Physical Characteristics of Cardholder
 Zone 6B: Additional Language for Emergency Response Officials
 : Departments and agencies MAY
     choose to provide additional information to identify emergency response officials or to better identify the
-    cardholder's authorized access. If used, this additional text SHALL be in the general area depicted and SHALL NOT interfere with other printed text or machine-readable components. An example of a printed statement
+    cardholder's authorized access. If used, this additional text SHALL be in the general area depicted in [Figure 4-7](#fig-4-7) and SHALL NOT interfere with other printed text or machine-readable components. An example of a printed statement
     is provided in [Figure 4-7](#fig-4-7).
 
 Zone 7B: Standard Section 499, Title 18 Language
@@ -370,7 +370,7 @@ Zone 7B: Standard Section 499, Title 18 Language
     in [Figure 4-7](#fig-4-7).
 
 Zone 8B: Linear 3 of 9 Bar Code (Deprecated)
-: The bar code is deprecated in this version of the Standard. In a future version of this Standard, the bar code may be removed. If used, a linear 3 of 9 bar code SHALL be placed generally as depicted
+: The bar code is deprecated in this version of the Standard. In a future version of this Standard, the bar code may be removed. If used, a linear 3 of 9 bar code SHALL be placed in the general area depicted
     in [Figure 4-7](#fig-4-7). It SHALL be in accordance with Association for Automatic Identification and Mobility (AIM)
     standards. Beginning and end points of the bar code will be dependent on the embedded contactless
     module selected. Departments and agencies are encouraged to coordinate placement of the bar code with
