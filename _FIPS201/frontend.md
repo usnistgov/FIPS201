@@ -144,6 +144,8 @@ PIV Card topography provides flexibility for placement of the embedded module, e
 right corner or in the lower portion. Printing restrictions apply only to the area where the
 embedded module is located.
 
+Unless otherwise specified, all data labels SHALL be printed in 5&nbsp;pt Arial with the corresponding
+data in 6&nbsp;pt Arial Bold. Unless otherwise specified, all text SHALL be printed in black.
 
 #### 4.1.4.1 Mandatory Items on the Front of the PIV Card {#s-4-1-4-1}
 
@@ -158,7 +160,7 @@ Zone 2F: Name
     identifier (i.e., pre-names or given names). The printed name SHALL match the name on the identity source
     documents provided during identity proofing and registration to the extent possible. The full name SHALL
     be printed in the PRIMARY IDENTIFIER, SECONDARY IDENTIFIER format. The entire full name SHOULD be
-    printed on available lines of Zone 2F and either identifier could be wrapped. The wrapped identifier SHALL
+    printed on available lines of Zone 2F and either identifier MAY be wrapped. The wrapped identifier SHALL
     be indicated with "&gt;" character at the end of the line. The identifiers MAY be printed on separate lines if
     each fits on one line. Departments and agencies SHALL use the largest font in the range of 7&nbsp;pt to 10&nbsp;pt Arial Bold that allows
     the full name to be printed. Using 7&nbsp;pt Arial Bold allows space for 3&nbsp;lines and SHALL only be used if the full
@@ -205,14 +207,14 @@ Zone 10F: Agency, Department, or Organization
 Zone 14F: Card Expiration Date
 : The card expiration date SHALL be printed on the card as depicted in
     [Figure 4-1](#fig-4-1). The card expiration date SHALL be in a YYYYMMMDD format. The YYYY characters
-		represent the four-digit year, the DD characters represent the two-digit day of the month, and the MMM characters
+    represent the four-digit year, the DD characters represent the two-digit day of the month, and the MMM characters
     represent the three-letter month abbreviation as follows: JAN, FEB, MAR, APR, MAY, JUN, JUL, AUG,
     SEP, OCT, NOV, and DEC. The Zone 14F expiration date SHALL be printed in 6&nbsp;pt to 9&nbsp;pt Arial Bold.
 
 Zone 15F: Color-Coding for Employee Affiliation
 : Color-coding SHALL be used for additional
     identification of employee affiliation as a background color for Zone 2F (name) as depicted in [Figure 4-1](#fig-4-1),
-		[Figure 4-3](#fig-4-3), and [Figure 4-4](#fig-4-4). The following color scheme SHALL be used:
+    [Figure 4-3](#fig-4-3), and [Figure 4-4](#fig-4-4). The following color scheme SHALL be used:
 
     - blue: foreign national,
     - white: government employee, or
@@ -294,17 +296,16 @@ Zone 11F: Agency Seal
 Zone 12F: Footer
 : If used as the federal emergency response official identification
     label, a department or agency SHALL print "Federal Emergency Response Official" as depicted in
-    [Figure 4-2](#fig-4-2), preferably in white lettering on a red background. Additional information
-    regarding the federal emergency responder role MAY be included in Zone 9F.
+    [Figure 4-2](#fig-4-2). The label SHOULD be in white lettering on a red background. Additional information
+    regarding the federal emergency responder role MAY be included in Zone 9F as depicted in [Figure 4-2](#fig-4-2).
     
     When Zone 15F indicates foreign national affiliation and the department or agency does not need to
     highlight emergency response official status, Zone 12F MAY be used to denote the country or countries of
     citizenship. If so used, the department or agency SHALL print the country name or the three-letter country
     abbreviation (alpha-3 format) in accordance with [[ISO 3166]](../_Appendix/references.md#ref-ISO3166). [Figure 4-4](#fig-4-4)
-    illustrates an example of foreign national color-coding using country abbreviations.
-		
+    illustrates an example of using country abbreviations for a card issued to a foreign national.
+    
     Note that this zone overlaps with an area that some card manufacturers do not allow to be used for printing.
-    A possible alternate placement of Zone 12F is shown in [Figure 4-4](#fig-4-4).
 
 Zone 13F: Issue Date
 : If used, the card issuance date SHALL be printed above the Zone 14F expiration
@@ -370,7 +371,7 @@ Zone 7B: Standard Section 499, Title 18 Language
     in [Figure 4-7](#fig-4-7).
 
 Zone 8B: Linear 3 of 9 Bar Code (Deprecated)
-: The bar code is deprecated in this version of the Standard. In a future version of this Standard, the bar code may be removed. If used, a linear 3 of 9 bar code SHALL be placed in the general area depicted
+: The bar code is deprecated in this version of the Standard. In a future version of this Standard, the bar code may be removed. If used, a linear 3 of 9 bar code SHALL be placed in the area depicted
     in [Figure 4-7](#fig-4-7). It SHALL be in accordance with Association for Automatic Identification and Mobility (AIM)
     standards. Beginning and end points of the bar code will be dependent on the embedded contactless
     module selected. Departments and agencies are encouraged to coordinate placement of the bar code with
