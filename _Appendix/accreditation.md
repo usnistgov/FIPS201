@@ -18,10 +18,10 @@ official accreditation process. Consistent assessment guidelines are established
 The entire spectrum of activities in the PCI and DPCI accreditation methodology is divided into the following four
 phases:
 
-- initiation phase;
-- assessment phase;
-- accreditation phase; and
-- monitoring phase.
+- initiation,
+- assessment,
+- accreditation, and
+- monitoring.
 
 The initiation phase involves communicating the goals of the assessment/accreditation to the key
 personnel of the PCI and DPCI organization and the review of documents such as the PCI and DPCI operations plan. In the
@@ -31,7 +31,7 @@ results of assessment, arriving at an accreditation decision, and issuing the ap
 Authorization To Operate (ATO) or the Denial of Authorization To Operate (DATO), that is consistent with
 the accreditation decision.
 
-## A.2 Application of Risk Management Framework to IT System(s) Supporting PCI {#s-a-2}
+## A.2 Application of Risk Management Framework to IT Systems Supporting PCI {#s-a-2}
 {:latex-toc="A.2 Application of Risk Management Framework to IT Systems"}
 
 The accreditation of the capability and reliability of a PCI and DPCI using the methodology outlined in [[SP 800-79]](references.md#ref-SP-800-79) depends upon adequate security for the information systems that are used for PCI and DPCI functions. The

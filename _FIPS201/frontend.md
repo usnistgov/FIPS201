@@ -188,7 +188,7 @@ Zone 2F: Name
 |Vaasa Silvaan Beenelong Wooloomooloo Warrandyte Warwarnambool|Longer full name, two lines not sufficient at 8&nbsp;pt, 7&nbsp;pt allows sufficient space for three lines in Zone 2F.|![]({{site.baseurl}}/{{page.collection}}/images/name8.png){:style="width: 400px;" latex-src="name8.pdf"}|
 |Vaasa Silvaan Beenelong Wooloomooloo Warrandyte Warwarnambool|Same as previous but full name is wrapped.|![]({{site.baseurl}}/{{page.collection}}/images/name9.png){:style="width: 400px;" latex-src="name9.pdf"}|
 |Dingo Pontooroomooloo Vaasa Silvaan Beenelong Wooloomooloo Warrandyte Warwarnambool|Truncated full name, three lines at 7&nbsp;pt not sufficient.|![]({{site.baseurl}}/{{page.collection}}/images/name10.png){:style="width: 400px;" latex-src="name10.pdf"}|
-{:latex-columns="p@0.28\textwidth,p@0.38\textwidth,m@0.25\textwidth" latex-table="4-1" latex-caption="Name Examples"}
+{:latex-columns="p@0.28\textwidth,p@0.38\textwidth,m@0.25\textwidth" latex-table="4-1" latex-caption="Name Examples" latex-place="p"}
 
 Zone 7F: Contact Area
 : The electronic contact interface for the card as defined by [[ISO 7816]](../_Appendix/references/#ISO7816). Printed items
@@ -426,6 +426,11 @@ legislatively-mandated medical entitlements.
 {:latex-ignore="true"}
 
 ![Card Back: Optional Data Placement (Example 2)]({{site.baseurl}}/{{page.collection}}/images/cardback-optional2.png){:style="width: 1047px;" latex-src="cardback-optional2.pdf" latex-fig="4-8"}
+
+~~~
+\clearpage
+~~~
+{:latex-literal="true"}
 
 ### 4.1.5 Color Representation {#s-4-1-5}
 

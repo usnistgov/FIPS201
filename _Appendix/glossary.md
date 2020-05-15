@@ -94,6 +94,11 @@ previously stored on the _PIV Card_. In this Standard, OCC is used as a means of
 Biometric Verification
 : Process of confirming a biometric claim through biometric _comparison_.
 
+~~~
+\clearpage
+~~~
+{:latex-literal="true"}
+
 Biometric Verification Decision
 : A determination of whether biometric probe(s) and biometric reference(s) have 
 the same biometric source based on _comparison_ score(s) during a _biometric verification_ 
@@ -173,6 +178,11 @@ information technology to achieve a common level of quality or some level of int
 
 Federation
 : A process that allows the conveyance of _identity_ and _authentication_ information across a set of networked systems.
+
+~~~
+\clearpage
+~~~
+{:latex-literal="true"}
 
 Federation Assurance Level (FAL)
 : A category describing the _federation_ protocol used to communicate an _assertion_ containing _authentication_ and attribute 
@@ -256,7 +266,7 @@ Issuing Facility
   * _identity proofing_/_registration_;
   * card/token production;
   * activation/issuance;
-    * post-issuance binding of _derived PIV credential_; and
+  * post-issuance binding of _derived PIV credential_; and
   * maintenance.
 
 Key
@@ -271,6 +281,11 @@ Model
 : A very detailed description or scaled representation of one _component_ of a larger system that can
 be created, operated, and analyzed to predict actual operational characteristics of the final produced
 _component_.
+
+~~~
+\clearpage
+~~~
+{:latex-literal="true"}
 
 Off-Card
 : Refers to data that is not stored within the _PIV Card_ or to a computation that is not performed
@@ -315,6 +330,11 @@ PIV Enrollment Record
 maintained by _PIV Card_ _issuers_. The PIV enrollment record typically contains data collected 
 at each step of the PIV _identity proofing_, _registration_, and issuance processes.
 
+~~~
+\clearpage
+~~~
+{:latex-literal="true"}
+
 Private Key
 : The secret part of an _asymmetric key_ pair that is typically used to digitally sign or decrypt
 data.
@@ -354,6 +374,11 @@ Symmetric Key
 : A _cryptographic key_ that is used to perform both the cryptographic operation and its
 inverse, for example to encrypt and decrypt, or create a message _authentication_ code and to verify the
 code.
+
+~~~
+\clearpage
+~~~
+{:latex-literal="true"}
 
 Security Executive Agent
 : Individual responsible for the development, implementation, and oversight of effective, efficient, and uniform policies and procedures governing the conduct of investigations and adjudications for eligibility for access to classified information and eligibility to hold a sensitive position in the Federal Government. In accordance with Executive Order 13467 (as amended), this individual is the Director of National Intelligence (DNI).

@@ -144,7 +144,7 @@ Card termination as the end of life.
 [Figure 3-2. PIV Card Lifecycle Activities](#fig-3-2){:name="fig-3-2"}
 {:latex-ignore="true"}
 
-![PIV Card Lifecycle Activities]({{site.baseurl}}/{{page.collection}}/images/lifecycle.png){:style="width: 1047px;" latex-src="lifecycle.pdf" latex-fig="3-2"}
+![PIV Card Lifecycle Activities]({{site.baseurl}}/{{page.collection}}/images/lifecycle.png){:style="width: 1047px;" latex-src="lifecycle.pdf" latex-fig="3-2" latex-place="h!"}
 
 The seven card lifecycle activities are as follows:
 
@@ -182,6 +182,11 @@ PIV Card Termination
 
  [^enroll]: In some other National Institute of Standards and Technology (NIST) documents such as [[SP 800-63A]](../_Appendix/references.md#ref-SP-800-63A), registration is referred to as *enrollment*.
 
+~~~
+\clearpage
+~~~
+{:latex-literal="true"}
+
 ## 3.3 Connections Between System Components {#s-3-3}
 
 To perform authentication for logical or physical access using a PIV Card or derived PIV credential directly, the credential is verified and 
@@ -191,7 +196,7 @@ flows between these components are shown in [Figure 3-3](#fig-3-3).
 [Figure 3-3. PIV System Connections](#fig-3-3){:name="fig-3-3"}
 {:latex-ignore="true"}
 
-![PIV System Connections]({{site.baseurl}}/{{page.collection}}/images/system-direct.png){:style="width: 1047px;" latex-src="system-direct.pdf" latex-fig="3-3"}
+![PIV System Connections]({{site.baseurl}}/{{page.collection}}/images/system-direct.png){:style="width: 1047px;" latex-src="system-direct.pdf" latex-fig="3-3" latex-place="p"}
 
 While it is possible to directly accept a PIV Card issued by another agency, the recommended interoperability mechanism for most agencies 
 is to use a federation protocol as discussed in [Section 7](federation.md#s-7). In this method, the PIV cardholder authenticates to an
@@ -204,7 +209,7 @@ or authentication at the IdP. The connections and data flows between these compo
 [Figure 3-4. PIV System Federation Connections](#fig-3-4){:name="fig-3-4"}
 {:latex-ignore="true"}
 
-![PIV System Federation Connections]({{site.baseurl}}/{{page.collection}}/images/system-federation.png){:style="width: 1047px;" latex-src="system-federation.pdf" latex-fig="3-4"}
+![PIV System Federation Connections]({{site.baseurl}}/{{page.collection}}/images/system-federation.png){:style="width: 1047px;" latex-src="system-federation.pdf" latex-fig="3-4" latex-place="bp"}
 
 While this Standard makes no requirements on when to apply direct or federated authentication mechanisms, there are some
 natural mappings. For example, physical access systems are not usually well-suited for a federation protocol. Also,

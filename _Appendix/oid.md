@@ -29,7 +29,7 @@ _This appendix is normative._ It provides additional details for the PIV objects
 |ID| Object Identifier|Description|
 |---|---|---|
 |`pivCardholder-Name`|2.16.840.1.101.3.6.3|The attribute value is of type DirectoryString and specifies the PIV cardholder's name.|
-|`pivCardholder-DN`|2.16.840.1.101.3.6.4|The attribute value is an X.501 type Name and specifies the DN associated with the PIV cardholder in the PIV certificate(s).|
+|`pivCardholder-DN`|2.16.840.1.101.3.6.4|The attribute value is an X.501 type Name and specifies the DN associated with the PIV cardholder in the PIV certificates.|
 |`pivSigner-DN`|2.16.840.1.101.3.6.5|The attribute value is an X.501 type Name and specifies the subject name that appears in the PKI certificate for the entity that signed the biometric data record or CHUID.|
 |`pivFASC-N`|2.16.840.1.101.3.6.6|The `pivFASC-N` OID MAY appear as a name type in the `otherName` field of the Subject Alternative Name extension of X.509 certificates or a signed attribute in CMS external signatures. Where used as a name type, the syntax is OCTET STRING. Where used as an attribute, the attribute value is of type OCTET STRING. In each case, the value specifies the FASC-N of the PIV Card.|
 {:latex-columns="p@0.25\textwidth,p@0.24\textwidth,p@0.40\textwidth" latex-table="B-2" latex-caption="PIV Object Identifiers for PIV Attributes"}

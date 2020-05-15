@@ -42,6 +42,11 @@ Version 2.0, December 2, 2011, or as amended. Available at
 [[G155-2013]](#ref-G155-2013){:name="ref-G155-2013"} ASTM G155-2013, *Standard Practice for Operating Xenon Arc Light Apparatus for
 Exposure of Non-metallic Materials*, Vol. 14.04, ASTM, 2013.
 
+~~~
+\clearpage
+~~~
+{:latex-literal="true"}
+
 [[G90-98]](#ref-G90-98){:name="ref-G90-98"} ASTM G90-98, *Standard Practice for Performing Accelerated Outdoor Weathering of
 Non-metallic Materials Using Concentrated Natural Sunlight*, Vol. 14.04, ASTM, 2017.
 
@@ -80,6 +85,11 @@ ISO, 2018.
 [[ISO 7816]](#ref-ISO7816){:name="ref-ISO7816"} ISO/IEC 7816, *Identification Cards—Integrated Circuits with Contacts*, Parts 1-6,
 ISO. 1-2011, 2-2007, 3-2006, 4-2013, 5-2004, 6-2016.
 
+~~~
+\clearpage
+~~~
+{:latex-literal="true"}
+
 [[M-03-22]](#ref-OMB0322){:name="ref-OMB0322"} OMB Memorandum M-03-22, *Guidance for Implementing the Privacy Provisions of
 the E-Government Act of 2002*, OMB, September 26, 2003. Available at 
 <https://www.whitehouse.gov/wp-content/uploads/2017/11/203-M-03-22-OMB-Guidance-for-Implementing-the-Privacy-Provisions-of-the-E-Government-Act-of-2002-1.pdf>.
@@ -114,6 +124,11 @@ Engineering Task Force (IETF), October 1969. Available at <https://www.ietf.org/
 
 [[RFC 4122]](#ref-RFC4122){:name="ref-RFC4122"} RFC 4122, *A Universally Unique IDentifier (UUID) URN Namespace*, IETF, July 2005. Available at <https://www.ietf.org/rfc/rfc4122.txt>.
 
+~~~
+\clearpage
+~~~
+{:latex-literal="true"}
+
 [[RFC 5280]](#ref-RFC5280){:name="ref-RFC5280"} RFC 5280, *Internet X.509 Public Key Infrastructure Certificate and Certificate
 Revocation List (CRL) Profile*, IETF, May 2008. Available at <https://www.ietf.org/rfc/rfc5280.txt>.
 
@@ -146,6 +161,11 @@ June 2017 or as amended. Available at <https://doi.org/10.6028/NIST.SP.800-63-3>
 
 [[SP 800-63A]](#ref-SP-800-63A){:name="ref-SP-800-63A"} NIST Special Publication 800-63A, *Digital Identity Guidelines: Enrollment and Identity Proofing Requirements*, NIST, June 2017 or as amended.
 Available at <https://doi.org/10.6028/NIST.SP.800-63a>.
+
+~~~
+\clearpage
+~~~
+{:latex-literal="true"}
 
 [[SP 800-63B]](#ref-SP-800-63B){:name="ref-SP-800-63B"} NIST Special Publication 800-63B, *Digital Identity Guidelines: Authentication and Lifecycle Management*, NIST, June 2017 or as amended.
 Available at <https://doi.org/10.6028/NIST.SP.800-63b>.
@@ -181,6 +201,11 @@ Credentials in Facility Access*, NIST, June 2018 or as amended. Available at <ht
 
 [[SP 800-122]](#ref-SP-800-122){:name="ref-SP-800-122"} NIST Special Publication 800-122, *Guide to Protecting the Confidentiality of
 Personally Identifiable Information (PII)*, NIST, April 2010 or as amended. Available at <https://doi.org/10.6028/NIST.SP.800-122>.
+
+~~~
+\clearpage
+~~~
+{:latex-literal="true"}
 
 [[SP 800-156]](#ref-SP-800-156){:name="ref-SP-800-156"} NIST Special Publication 800-156, *Representation of PIV Chain-of-Trust for
 Import and Export*, NIST, May 2016 or as amended. Available at <https://doi.org/10.6028/NIST.SP.800-156>.

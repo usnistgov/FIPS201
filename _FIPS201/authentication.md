@@ -255,6 +255,11 @@ Zone 2B
 In addition, any available security features described in [Section 4.1.2](frontend.md#s-4-1-2) SHOULD be checked
 in visual inspection to provide additional assurance that the PIV Card is genuine and unaltered.
 
+~~~
+\clearpage
+~~~
+{:latex-literal="true"}
+
 The PIV Card may also have several optional components on the front (see [Section 4.1.4.3](frontend.md#s-4-1-4-3)) and
 back (see [Section 4.1.4.4](frontend.md#s-4-1-4-4)) that support visual
 identification and authentication, if present:
