@@ -53,12 +53,11 @@ information about data flow and connections between components.
 
 ### 3.1.1 PIV Front-End Subsystem {#s-3-1-1}
 
-The PIV Front-End Subsystem in [Figure 3-1](#fig-3-1) consists of the credentials and devices
-used to interact with the credentials for authentication.
+The PIV Front-End Subsystem in [Figure 3-1](#fig-3-1) consists of credentials and devices that interact during authentication.
 The PIV Card will be issued to the applicant when all identity proofing, registration, and issuance
 processes have been completed. Derived PIV credentials might also be registered after these processes are complete. The PIV Card takes the physical form of the [[ISO 7816]](../_Appendix/references.md#ref-ISO7816) ID-1 card type (i.e., traditional payment card), with one or more
 embedded Integrated Circuit Chips (ICC) that provide memory capacity and computational capability. The
-PIV Card is the primary component of the PIV system. The holder uses the PIV Card for authentication
+PIV Card is the primary component of the PIV system. The cardholder uses the PIV Card for authentication
 to access various physical and logical resources. Alternatively, derived PIV credentials increasingly play an important role as additional authenticators, especially in environments where use of the PIV Card is not easily supported. These AAL2 and AAL3 authenticators are not embedded in the PIV Card, but rather are stand-alone or integrated in a variety of devices and platforms. 
 
 Card readers are located at access points for controlled resources to allow a cardholder to gain
@@ -68,7 +67,7 @@ systems for granting or denying access.
 
 Card writers, which are similar to card readers, personalize and initialize the information stored
 on PIV Cards. Card writers may also be used to perform remote PIV Card updates (see [Section 2.9.2](requirements.md#s-2-9-2)).
-The data to be stored on PIV Cards includes personal information, certificates, cryptographic keys, the
+The data to be stored on PIV Cards includes cardholder information, certificates, cryptographic keys, the
 PIN, and biometric data.
 
 PIN input devices can be used along with card readers when a higher level of authentication assurance is
@@ -124,12 +123,12 @@ an Access Control List (ACL) associated with a file on a computer system.
 
 The PIV relying subsystem becomes relevant when the PIV Card or derived PIV credential is used to authenticate a cardholder who
 is seeking access to a physical or logical resource. Although this Standard does not provide technical
-specifications for this subsystem, various mechanisms for identification and authentication are defined in
+specifications for this subsystem, various mechanisms for authentication are defined in
 [Section 6](authentication.md#s-6) for PIV Cards and in [[SP 800-157]](../_Appendix/references.md#ref-SP-800-157) for derived PIV credentials
 to provide consistent and secure means for performing the authentication function preceding an
 access control decision.
 
-The relying subsystem identifies and authenticates cardholders either by interacting with the PIV Card and uses mechanisms discussed in [Section 6](authentication.md#s-6) or 
+The relying subsystem identifies and authenticates cardholders either by interacting with the PIV Card using mechanisms discussed in [Section 6](authentication.md#s-6) or 
 by communicating with an IdP through a federation protocol as discussed in [Section 7](federation.md#s-7). Once authenticated, authorization mechanisms supporting the relying subsystem grant or deny access to resources based on the privileges assigned to the cardholder.
 
 ## 3.2 PIV Card Lifecycle Activities {#s-3-2}
@@ -137,7 +136,7 @@ by communicating with an IdP through a federation protocol as discussed in [Sect
 The PIV Card lifecycle consists of seven activities.[^DPCLifecycle] The activities that take place during fabrication and
 pre-personalization of the card at the manufacturer are not considered a part of this lifecycle model.
 [Figure 3-2](#fig-3-2) presents these PIV activities and depicts the PIV Card request as the initial activity and PIV
-Card termination as the end of life.
+Card termination as the end of life activity.
 
 [^DPCLifecycle]: The lifecycle activities of derived PIV credentials are described in SP 800-157.
 
@@ -189,7 +188,7 @@ PIV Card Termination
 
 ## 3.3 Connections Between System Components {#s-3-3}
 
-To perform authentication for logical or physical access using a PIV Card or derived PIV credential directly, the credential is verified and 
+To perform authentication for logical or physical access using a PIV Card or a derived PIV credential directly, the credential is verified and 
 attributes from the PIV account are provided to the relying subsystem. The connections and data 
 flows between these components are shown in [Figure 3-3](#fig-3-3). 
 
