@@ -1,0 +1,21 @@
+%%%
+% Section: \VAR{section.name}
+%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%   Start front matter - page number starts with "1", sections
+%   start with '1'
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\setcounter{section}{0}
+\pagenumbering{arabic}
+\pagestyle{body}
+
+\titleformat{\section}{\large\raggedright\bfseries\sffamily}{}{0em}{\colorsection}	% required for heading numbering style
+\titleformat{\subsection}{\large\raggedright\bfseries\sffamily}{}{0em}{}	% required for heading numbering style
+\titleformat{\subsubsection}{\normalsize\raggedright\bfseries\sffamily}{}{0em}{}	% required for heading numbering style
+\titleformat{\paragraph}{\normalsize\raggedright\bfseries\sffamily}{}{0em}{}	% required for heading numbering style
+
+\addtocontents{toc}{\setcounter{tocdepth}{3}} % Set TOC depth to 3 (subsection)
+
+\VAR{body}
