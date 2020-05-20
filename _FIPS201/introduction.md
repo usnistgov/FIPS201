@@ -39,7 +39,7 @@ evolving information processing technology.
 
 This Standard specifies a PIV system within which common identity credentials can be created and later
 used to verify a claimed identity. The Standard also identifies federal government-wide requirements for
-security levels that are dependent on risks to the facility or information being protected.
+security levels that are dependent on risks to federal facilities or information being protected.
 
 ## 1.2 Scope {#s-1-2}
 
@@ -48,7 +48,7 @@ security levels that are dependent on risks to the facility or information being
 by federal departments and agencies to federal employees and contractors (including contractor
 employees) for gaining physical access to federally-controlled facilities and logical access to federally-controlled 
 information systems. HSPD-12 directs the Department of Commerce to develop a Federal
-Information Processing Standards (FIPS) publication to define such common identity credentials. In
+Information Processing Standard (FIPS) publication to define such common identity credentials. In
 accordance with HSPD-12, this Standard defines the technical requirements for these identity credentials
 that
 
