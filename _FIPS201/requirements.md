@@ -217,7 +217,7 @@ The organization SHALL follow investigative requirements as outlined in [Section
 
 Biometric data SHALL be captured as specified in [Section 2.3](requirements.md#s-2-3) and [Section 2.4](requirements.md#s-2-4).
 
-The applicant SHALL appear in-person at least once before the issuance of a PIV Card, either at the issuing facility or at a supervised remote identity proofing station as described in [Section 2.7.1](#s-2-7-1).
+The applicant SHALL appear in-person at least once before the issuance of a PIV Card, either at the issuing facility or at a supervised remote identity proofing station (as described in [Section 2.7.1](#s-2-7-1)).
 
 During identity proofing, the applicant SHALL be required to provide two original forms of identity source
 documents.[^documents] The identity source documents SHALL be bound to the applicant and SHALL NOT
@@ -459,7 +459,7 @@ performing a re-investigation.
 A PIV Card post-issuance update MAY be performed without replacing the PIV Card in cases where none
 of the printed information on the surface of the card is changed. The post-issuance update applies to cases
 where one or more certificates, keys, biometric data records, or signed data objects are updated. A post-issuance
-update SHALL NOT modify the PIV Card expiration date, FASC-N, or UUID.
+update SHALL NOT modify the PIV Card expiration date, FASC-N, or card UUID.
 
 A PIV Card post-issuance update MAY be done locally (performed with the issuer in physical custody of
 the PIV Card) or remotely (performed with the PIV Card at a remote location). Post-issuance updates
@@ -520,7 +520,9 @@ Supervised remote identity proofing station
     inspect these items and compare the video feed of the cardholder with the
     electronic facial image retrieved from the enrollment data record and the
     photograph printed on the PIV Card. 
-    the following requirements are met:
+   
+   General computing platform
+   : Remote PIN reset on a general computing platform (e.g., desktop, laptop) shall only be performed if the following requirements are met:
     
     * the cardholder initiates a PIN reset with the issuer operator;
     * the operator authenticates the owner of the PIV Card through an independent
@@ -554,17 +556,17 @@ following circumstances:
 + a contractor changes positions and no longer needs access to federal buildings or systems;
 + a cardholder passes away;
 + an authorized adjudicative entity determines after completion of a cardholder's background investigation that the
-    cardholder is ineligible for a PIV Card (See [[FCS]](../references/#ref-FCS)); or
+    cardholder is ineligible for a PIV Card (see [[FCS]](../references/#ref-FCS)); or
 + a cardholder is determined to hold a fraudulent identity.
 
 Similar to the situation in which the PIV Card is compromised, normal termination procedures
-must be in place as to ensure the following:
+must be in place:
 
 + The PIV Card SHALL be revoked through the following procedure:
     * The PIV Card SHALL be collected and destroyed, if possible.
     * Per OPM guidance, the Central Verification System (or successor) SHALL be updated to reflect the change in status.
     * Any databases maintained by the PIV Card issuer that indicate current valid or invalid
-        FASC-N or UUID values SHALL be updated to reflect the change in status.
+        FASC-N or card UUID values SHALL be updated to reflect the change in status.
     * If the PIV Card cannot be collected and destroyed, the CA SHALL be informed and the
         certificates corresponding to the PIV authentication key and the asymmetric card
         authentication key on the PIV Card SHALL be revoked. The certificates corresponding to the
