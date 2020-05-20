@@ -157,7 +157,7 @@ Some of the characteristics of the PKI-based authentication mechanism are as fol
 - usable with contact card readers and contactless card readers that support the virtual contact
     interface.
 
-[^pivpath]: Path validation SHOULD be configured to specify which policy OIDs are trusted. The policy OID for the PIV authentication certificate is `id-fpki-common-authentication`.
+[^pivpath]: Path validation should be configured to specify which policy OIDs are trusted. The policy OID for the PIV authentication certificate is `id-fpki-common-authentication`.
 
 #### 6.2.3.2 Authentication with the Card Authentication Certificate Credential (PKI-CAK) {#s-6-2-3-2}
 
@@ -182,7 +182,7 @@ Some of the characteristics of the PKI-CAK authentication mechanism are as follo
 - low resistance to use of unaltered card by non-owner of card, and
 - usable with contact and contactless readers.
 
-[^cacpath]: Path validation SHOULD be configured to specify which policy OIDs are trusted. The policy OID for the card authentication certificate is id-fpki-common-cardAuth.
+[^cacpath]: Path validation should be configured to specify which policy OIDs are trusted. The policy OID for the card authentication certificate is id-fpki-common-cardAuth.
 
 ### 6.2.4 Authentication Using the Symmetric Card Authentication Key (SYM-CAK) {#s-6-2-4}
 {:latex-toc="6.2.4 Symmetric Card Authentication Key"}

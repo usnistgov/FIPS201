@@ -118,7 +118,7 @@ one or both sides of the card.
 
 The PIV Card MAY be subjected to additional testing.
 
-[^orientation]: For some individuals, the contact surface for the ICC MAY be sufficient for determining the orientation of the card.
+[^orientation]: For some individuals, the contact surface for the ICC may be sufficient for determining the orientation of the card.
 
 ### 4.1.4 Visual Card Topography {#s-4-1-4}
 
