@@ -7,7 +7,7 @@ permalink: /introduction/
 ---
 # 1. Introduction {#s-1}
 
-_This section is informative unless otherwise marked as normative._ It provides background information for understanding the
+_This section is informative except where otherwise marked as normative._ It provides background information for understanding the
 scope of this Standard.
 
 Authentication of an individual’s identity is a fundamental component of both physical and
@@ -66,8 +66,8 @@ a new or replacement PIV credential arrives are out of scope of this Standard.
 
 While this Standard remains focused predominantly on PIV Cards, derived PIV credentials and
 federation protocols play an important role in the use of PIV accounts as well.
-This Standard defines mechanisms for derived PIV credentials
-associated with an active PIV account in [Section 2.10](requirements.md#s-2-10). Derived PIV credentials
+[Section 2.10](requirements.md#s-2-10) of this Standard defines mechanisms for derived PIV credentials
+associated with an active PIV account. Derived PIV credentials
 have authentication and lifecycle requirements that may differ from the PIV Card itself. This
 Standard also discusses federation protocols in [Section 7](federation.md#s-7) as a means of 
 accepting PIV credentials issued by other agencies. See [Section 3](system.md#s-3) for more information on
@@ -107,7 +107,7 @@ example, the optional biometric on-card comparison (OCC) authentication mechanis
 new feature introduced in FIPS 201-2. The optional mechanism did not affect the features of existing systems. Systems had to be updated only if an
 agency decided to support the OCC-AUTH mechanism.
 
-### 1.3.4 Deprecated and Removed {#s-1-3-4}
+### 1.3.4 Deprecated and Removed Features {#s-1-3-4}
 
 _This subsection is normative._
 

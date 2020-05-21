@@ -729,7 +729,7 @@ with the preparation and formatting specifications of [[SP 800-76]](../_Appendix
 The integrity of all biometric data records, except for fingerprint biometric templates for OCC, SHALL be
 protected using digital signatures as follows. The records SHALL be prepended with a Common Biometric
 Exchange Formats Framework (CBEFF) header and appended with the
-CBEFF signature block [[CBEFF]](../_Appendix/references.md#ref-CBEFF).
+CBEFF signature block ([[IR 6529-A]](../_Appendix/references.md#ref-CBEFF)).
 
 The format for a CBEFF header is specified in [[SP 800-76]](../_Appendix/references.md#ref-SP-800-76).
 

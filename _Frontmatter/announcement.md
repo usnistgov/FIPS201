@@ -58,7 +58,7 @@ A PIV Card must be personalized with identity information for the individual to 
 + [Section 2.8](_FIPS201/requirements.md#s-2-8) and [Section 2.9](_FIPS201/requirements.md#s-2-9) specify alternatives for the biometric capture device interactions required at PIV Card issuance, reissuance, and reset.
 + [Section 2.10](_FIPS201/requirements.md#s-2-10) defines alternatives to smart card-based PIV credentials in the form of derived PIV credentials.
 + [Section 6](_FIPS201/authentication.md#s-6) defines authentication mechanisms with varying characteristics for both physical and logical access (e.g., with or without PIN, over contact, contactless, or virtual contact interface).
-+ [Section 7](_FIPS201/federation.md#s-7) defines federation as a means for a relying system to leverage the capabilities and characteristics of the IdP.
++ [Section 7](_FIPS201/federation.md#s-7) defines federation as a means for a relying system to interoperate with credentials issued by other agencies.
 
 The Office of Management and Budget (OMB) provides implementation oversight for this Standard. 
 
@@ -84,7 +84,7 @@ Personal Identity Verification (PIV) of Federal Employees and Contractors.
 The security provided by the PIV system is dependent on many factors outside the scope of this Standard. Organizations must be aware that the overall security of the personal identification system relies on
 
 + assurance provided by the issuer of an identity credential that the individual in possession of the credential has been correctly identified;
-+ protection provided to an identity credential stored within the PIV Card and transmitted between the card and the PIV issuance and usage infrastructure;
++ protection provided to an identity credential stored within the PIV Card and transmitted between the card and the PIV issuance and relying subsystems;
 + infrastructure protection provided for derived PIV credential in the binding, maintenance and use of the identity credential; and
 + protection provided to the identity verification system infrastructure and components throughout the entire lifecycle.
 
@@ -101,4 +101,3 @@ FISMA does not allow for waivers to a FIPS that is made mandatory by the Secreta
 # 13. Where to Obtain Copies of the Standard. {#f-13}
 
 This publication is available through the internet by accessing <https://csrc.nist.gov/publications/>. Other computer security publications are available at the same website.
-
