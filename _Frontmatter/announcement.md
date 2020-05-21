@@ -21,7 +21,7 @@ Information Security. **Subcategory**. Identity.
 
 # 3. Explanation. {#f-3}
 
-Homeland Security Presidential Directive-12 [[HSPD-12]](_Appendix/references.md#ref-HSPD-12), dated August 27, 2004, entitled "Policy for a Common Identification Standard for Federal Employees and Contractors," directs the promulgation of a federal standard for secure and reliable forms of identification for federal employees and contractors. It further specifies secure and reliable identification that
+Homeland Security Presidential Directive-12 ([[HSPD-12]](_Appendix/references.md#ref-HSPD-12)), dated August 27, 2004, entitled "Policy for a Common Identification Standard for Federal Employees and Contractors," directs the promulgation of a federal standard for secure and reliable forms of identification for federal employees and contractors. It further specifies secure and reliable identification that
 
 1. is issued based on sound criteria for verifying an individual employee's identity;
 2. is strongly resistant to identity fraud, tampering, counterfeiting, and terrorist exploitation;
