@@ -54,7 +54,7 @@ PIV system.
 
 A PIV Card must be personalized with identity information for the individual to whom the card is issued to support verification by automated systems using the electronically-stored data on the card. In implementing PIV systems and pursuant to Section 508 of the Rehabilitation Act of 1973 (the Act), as amended, agencies have the responsibility to accommodate federal employees and contractors with disabilities to have access to and use of information and data comparable to the access to and use of such information and data by federal employees and contractors who are not individuals with disabilities. In instances where federal agencies assert exceptions to Section 508 accessibility requirements (e.g., undue burden, national security, commercial non-availability), Sections 501 and 504 of the Act require federal agencies to provide reasonable accommodation for federal employees and contractors with disabilities whose needs are not met by the baseline accessibility provided under Section 508. While Section 508 compliance is the responsibility of federal agencies and departments, this Standard specifies several options to aid in implementation of the requirements:
 
-+ [Section 4.1.4.3](_FIPS201/frontend.md#s-4-1-4-3) specifies Zones 21F and 22F as an option for orientation markers of the PIV Card.
++ [Section 4.1.4.3](_FIPS201/frontend.md#s-4-1-4-3) specifies Zones 21F and 22F as options for orientation markers of the PIV Card.
 + [Section 2.8](_FIPS201/requirements.md#s-2-8) and [Section 2.9](_FIPS201/requirements.md#s-2-9) specify alternatives for the biometric capture device interactions required at PIV Card issuance, reissuance, and reset.
 + [Section 2.10](_FIPS201/requirements.md#s-2-10) defines alternatives to smart card-based PIV credentials in the form of derived PIV credentials.
 + [Section 6](_FIPS201/authentication.md#s-6) defines authentication mechanisms with varying characteristics for both physical and logical access (e.g., with or without PIN, over contact, contactless, or virtual contact interface).
@@ -62,7 +62,7 @@ A PIV Card must be personalized with identity information for the individual to 
 
 The Office of Management and Budget (OMB) provides implementation oversight for this Standard. 
 
-Federal departments and agencies must use accredited issuers to issue PIV Cards and derived PIV credentials for federal employees and contractors. For this purpose, NIST provided guidelines for the accreditation of PIV Card issuers and derived PIV credential issuers in [[SP 800-79]](_Appendix/references.md#ref-SP-800-79). The Standard also covers security and interoperability requirements for PIV Cards. For this purpose, NIST has established the PIV Validation Program that tests implementations for conformance with this Standard as specified in [[SP 800-73]](_Appendix/references.md#ref-SP-800-73) and [[SP 800-78]](_Appendix/references.md#ref-SP-800-78) (see [Appendix A.3](_Appendix/accreditation.md#s-a-3)).
+Federal departments and agencies must use accredited issuers to issue PIV Cards and derived PIV credentials for federal employees and contractors. For this purpose, NIST provides guidelines for the accreditation of PIV Card issuers and derived PIV credential issuers in [[SP 800-79]](_Appendix/references.md#ref-SP-800-79). The Standard also covers security and interoperability requirements for PIV Cards. For this purpose, NIST has established the PIV Validation Program that tests implementations for conformance with this Standard as specified in [[SP 800-73]](_Appendix/references.md#ref-SP-800-73) and [[SP 800-78]](_Appendix/references.md#ref-SP-800-78) (see [Appendix A.3](_Appendix/accreditation.md#s-a-3)).
 
 FIPS 201 compliance of PIV components and subsystems is provided in accordance with OMB [[M-19-17]](_Appendix/references.md#ref-OMB1917) through products and services from The U.S. General Services Administration's (GSA) Interoperability Test Program and Approved Products and Services List (see [Appendix A.5](_Appendix/accreditation.md#s-a-5)). Implementation guidance to PIV-enable federal facilities and information systems, in accordance with OMB [[M-19-17]](_Appendix/references.md#ref-OMB1917) will be outlined by [[FICAM]](_Appendix/references.md#ref-FICAM) as playbooks and best practice repositories. See also [[SP 800-116]](_Appendix/references.md#ref-SP-800-116) and [[ISC-RISK]](_Appendix/references.md#ref-ISC-RISK).
 
@@ -77,7 +77,7 @@ This Standard will be effective immediately upon final publication of this revis
 # 10. Specifications. {#f-10}
 
 Federal Information Processing Standards (FIPS) 201
-PIV of Federal Employees and Contractors.
+Personal Identity Verification (PIV) of Federal Employees and Contractors.
 
 # 12. Qualifications. {#f-12}
 
@@ -96,7 +96,7 @@ Because a standard of this nature must be flexible enough to adapt to advancemen
 
 # 12. Waiver Procedure. {#f-12}
 
-FISMA does not allow for waivers to FIPS that are made mandatory by the Secretary of Commerce.
+FISMA does not allow for waivers to a FIPS that is made mandatory by the Secretary of Commerce.
 
 # 13. Where to Obtain Copies of the Standard. {#f-13}
 
