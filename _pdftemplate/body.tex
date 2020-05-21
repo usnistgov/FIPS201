@@ -3,19 +3,19 @@
 %%%
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%   Start front matter - page number starts with "1", sections
-%   start with '1'
+%   Page number starts with "1", sections start with '1'
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \setcounter{section}{0}
 \pagenumbering{arabic}
 \pagestyle{body}
 
-\titleformat{\section}{\large\raggedright\bfseries\sffamily}{}{0em}{\colorsection}	% required for heading numbering style
-\titleformat{\subsection}{\large\raggedright\bfseries\sffamily}{}{0em}{}	% required for heading numbering style
-\titleformat{\subsubsection}{\normalsize\raggedright\bfseries\sffamily}{}{0em}{}	% required for heading numbering style
-\titleformat{\paragraph}{\normalsize\raggedright\bfseries\sffamily}{}{0em}{}	% required for heading numbering style
+\titleformat{\section}{\large\raggedright\bfseries\sffamily}{}{0em}{\colorsection} % reverse colors on primary header only
+\titleformat{\subsection}{\large\raggedright\bfseries\sffamily}{}{0em}{}
+\titleformat{\subsubsection}{\normalsize\raggedright\bfseries\sffamily}{}{0em}{}
+\titleformat{\paragraph}{\normalsize\raggedright\bfseries\sffamily}{}{0em}{}
 
+% Use tighter spacing than defaults
 \titlespacing{\section}{0pt}{3.5ex plus 1ex minus .2ex}{1.3ex plus .2ex}
 \titlespacing{\subsection}{0pt}{3.5ex plus 1ex minus .2ex}{0.2ex plus .2ex}
 \titlespacing{\subsubsection}{0pt}{3.5ex plus 1ex minus .2ex}{0.2ex plus .2ex}
