@@ -217,7 +217,7 @@ The organization SHALL follow investigative requirements as outlined in [Section
 
 Biometric data SHALL be captured as specified in [Section 2.3](requirements.md#s-2-3) and [Section 2.4](requirements.md#s-2-4).
 
-The applicant SHALL appear in-person at least once before the issuance of a PIV Card, either at the issuing facility or at a supervised remote identity proofing station (as described in [Section 2.7.1](#s-2-7-1)).
+The applicant SHALL appear in person at least once before the issuance of a PIV Card, either at the issuing facility or at a supervised remote identity proofing station (as described in [Section 2.7.1](#s-2-7-1)).
 
 During identity proofing, the applicant SHALL be required to provide two original forms of identity source
 documents.[^documents] The identity source documents SHALL be bound to the applicant and SHALL NOT
@@ -459,7 +459,7 @@ performing a re-investigation.
 A PIV Card post-issuance update MAY be performed without replacing the PIV Card in cases where none
 of the printed information on the surface of the card is changed. The post-issuance update applies to cases
 where one or more certificates, keys, biometric data records, or signed data objects are updated. A post-issuance
-update SHALL NOT modify the PIV Card expiration date, FASC-N, or card UUID.
+update SHALL NOT modify the PIV Card expiration date, FASC-N, card UUID, or cardholder UUID.
 
 A PIV Card post-issuance update MAY be done locally (performed with the issuer in physical custody of
 the PIV Card) or remotely (performed with the PIV Card at a remote location). Post-issuance updates
@@ -521,8 +521,8 @@ Supervised remote identity proofing station
     electronic facial image retrieved from the enrollment data record and the
     photograph printed on the PIV Card. 
    
-   General computing platform
-   : Remote PIN reset on a general computing platform (e.g., desktop, laptop) shall only be performed if the following requirements are met:
+General computing platform
+: Remote PIN reset on a general computing platform (e.g., desktop, laptop) shall only be performed if the following requirements are met:
     
     * the cardholder initiates a PIN reset with the issuer operator;
     * the operator authenticates the owner of the PIV Card through an independent
