@@ -164,12 +164,12 @@ Zone 2F: Name
     be indicated with "&gt;" character at the end of the line. The identifiers MAY be printed on separate lines if
     each fits on one line. Departments and agencies SHALL use the largest font in the range of 7&nbsp;pt to 10&nbsp;pt Arial Bold that allows
     the full name to be printed. Using 7&nbsp;pt Arial Bold allows space for 3&nbsp;lines and SHALL only be used if the full
-    name does not fit on two lines in 8&nbsp;pt Arial Bold. [Table 4-1](#table-4-1) provides examples of separate Primary
-    and Secondary Identifier lines, single line with identifiers, wrapped full names, and full name in three
+    name does not fit on two lines in 8&nbsp;pt Arial Bold. [Table 4-1](#table-4-1) provides examples of separate primary
+    and secondary identifier lines, single line with identifiers, wrapped full names, and full name in three
     lines. Note that the truncation SHOULD only occur if the full name cannot be printed in 7&nbsp;pt Arial Bold.
     
-    Names in the Primary Identifier and the first name in the Secondary Identifier SHALL NOT be abbreviated.
-    Other names and conventional prefixes and suffixes, which SHALL be included in the Secondary Identifier,
+    Names in the primary identifier and the first name in the secondary identifier SHALL NOT be abbreviated.
+    Other names and conventional prefixes and suffixes, which SHALL be included in the secondary identifier,
     MAY be abbreviated. The special character "." (period) SHALL indicate such abbreviations, as shown in
     [Figure 4-2](#fig-4-2). Other uses of special symbols (e.g., the apostrophe in "O'BRIEN") are at the discretion of the issuer.
 
