@@ -76,15 +76,15 @@ This Standard will be effective immediately upon final publication of this revis
 
 # 10. Specifications. {#f-10}
 
-Federal Information Processing Standards (FIPS) 201 Personal Identity Verification
-(PIV) of Federal Employees and Contractors.
+Federal Information Processing Standards (FIPS) 201
+PIV of Federal Employees and Contractors.
 
 # 12. Qualifications. {#f-12}
 
 The security provided by the PIV system is dependent on many factors outside the scope of this Standard. Organizations must be aware that the overall security of the personal identification system relies on
 
 + assurance provided by the issuer of an identity credential that the individual in possession of the credential has been correctly identified;
-+ protection provided to an identity credential stored within the PIV Card and transmitted between the card and the PIV issuance and usage subsystems;
++ protection provided to an identity credential stored within the PIV Card and transmitted between the card and the PIV issuance and relying subsystems;
 + infrastructure protection provided for derived PIV credential in the binding, maintenance and use of the identity credential; and
 + protection provided to the identity verification system infrastructure and components throughout the entire lifecycle.
 
@@ -101,4 +101,3 @@ FISMA does not allow for waivers to FIPS that are made mandatory by the Secretar
 # 13. Where to Obtain Copies of the Standard. {#f-13}
 
 This publication is available through the internet by accessing <https://csrc.nist.gov/publications/>. Other computer security publications are available at the same website.
-
