@@ -168,7 +168,6 @@ Zone 2F: Name
     and Secondary Identifier lines, single line with identifiers, wrapped full names, and full name in three
     lines. Note that the truncation SHOULD only occur if the full name cannot be printed in 7&nbsp;pt Arial Bold.
     
-    
     Names in the Primary Identifier and the first name in the Secondary Identifier SHALL NOT be abbreviated.
     Other names and conventional prefixes and suffixes, which SHALL be included in the Secondary Identifier,
     MAY be abbreviated. The special character "." (period) SHALL indicate such abbreviations, as shown in
