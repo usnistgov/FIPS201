@@ -39,7 +39,7 @@ evolving information processing technology.
 
 This Standard specifies a PIV system within which common identity credentials can be created and later
 used to verify a claimed identity. The Standard also identifies federal government-wide requirements for
-security levels that are dependent on risks to the facility or information being protected.
+security levels that are dependent on risks to federal facilities or information being protected.
 
 ## 1.2 Scope {#s-1-2}
 
