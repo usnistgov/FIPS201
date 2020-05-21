@@ -15,9 +15,6 @@ Available at <https://www.whitehouse.gov/sites/whitehouse.gov/files/omb/circular
  
 [[ANSI 322]](#ref-ANSI322){:name="ref-ANSI322"} ANSI INCITS 322 Information Technology, *Card Durability Test Methods*, ANSI, 2008.
 
-[[CBEFF]](#ref-CBEFF){:name="ref-CBEFF"} NISTIR 6529-A, *Common Biometric Exchange Formats Framework (CBEFF)*, NIST,
-April 2004.
-
 [[CDS]](#ref-CDS){:name="ref-CDS"} *DL/ID Card Design Standard*, American Association of Motor Vehicle Adminstrators, September, 2016. Available at <https://www.aamva.org/DL-ID-Card-Design-Standard/>.
 
 [[COMMON]](#ref-COMMON){:name="ref-COMMON"} *X.509 Certificate Policy for the U.S. Federal PKI Common Policy Framework*,
@@ -55,6 +52,9 @@ Contractors*, August 27, 2004.
 
 [[IEC61966]](#ref-IEC61966){:name="ref-IEC61966"} IEC 61966-2-1:1999, *Multimedia systems and equipment - Colour measurement and
 management - Part 2-1: Colour management - Default RGB colour space – sRGB*, October 2003+COR1 2014.
+
+[[IR 6529-A]](#ref-CBEFF){:name="ref-CBEFF"} NISTIR 6529-A, *Common Biometric Exchange Formats Framework (CBEFF)*, NIST,
+April 2004.
 
 [[IR 7863]](#ref-NISTIR7863){:name="ref-NISTIR7863"} NIST IR 7863, *Cardholder Authentication for the PIV Digital Signature Key*,
 NIST, June 2015. Available at <http://doi.org/10.6028/NIST.IR.7863>.

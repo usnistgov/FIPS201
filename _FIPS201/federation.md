@@ -9,7 +9,7 @@ permalink: /federation/
 # 7. Federation Considerations for PIV {#s-7}
 
 _This section is normative._ It defines a set of mechanisms for using federation technologies to 
-interoperate with PIV credentials issued by other agencies.
+interoperate with PIV and derived PIV credentials issued by other agencies.
 
 Federation protocols allow a trusted IdP to assert a cardholder's identity to an RP across a network in a secure and verifiable fashion, even if the PIV Card or derived PIV credential has been issued by another agency. The processes and requirements for federation systems are discussed in depth in [[SP 800-63C]](../_Appendix/references.md#ref-SP-800-63C). 
 
