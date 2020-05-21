@@ -101,7 +101,7 @@ indicating a backward incompatible change.
 
 ### 1.3.3 New Features {#s-1-3-3}
 
-New features are features that are added to the Standard, and these features can be optional or mandatory. New features do not
+New features are features that are added to the Standard. These features can be optional or mandatory. New features do not
 interfere with backward compatibility because they are not part of the existing relying systems. For
 example, the optional biometric on-card comparison (OCC) authentication mechanism (OCC-AUTH) was a
 new feature introduced in FIPS 201-2. The optional mechanism did not affect the features of existing systems. Systems had to be updated only if an
