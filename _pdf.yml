@@ -7,6 +7,10 @@ pdf:
       - _FIPS201/images/
       - _pdftemplate/images/
     sections:
+        - name: cover
+          template: _pdftemplate/cover.tex
+        - name: toc
+          template: _pdftemplate/toc.tex
         - name: frontmatter
           parts: 
               - content: _Frontmatter/foreword.md
@@ -16,7 +20,7 @@ pdf:
               - content: _Frontmatter/announcement.md
                 template: _pdftemplate/announcement.tex
           part_template: _pdftemplate/sectionpart.tex
-          section_template: _pdftemplate/section.tex
+          template: _pdftemplate/frontmatter.tex
         - name: body
           parts:
               - _FIPS201/introduction.md
@@ -27,7 +31,7 @@ pdf:
               - _FIPS201/authentication.md
               - _FIPS201/federation.md
           part_template: _pdftemplate/sectionpart.tex
-          section_template: _pdftemplate/section.tex
+          template: _pdftemplate/body.tex
         - name: appendix
           parts:
               - _Appendix/accreditation.md
@@ -36,12 +40,12 @@ pdf:
               - _Appendix/references.md
               - _Appendix/revisions.md
           part_template: _pdftemplate/sectionpart.tex
-          section_template: _pdftemplate/section.tex
+          template: _pdftemplate/appendix.tex
     doi_url: None
-    issued_date: April 2020
-    doc_number: 201-3
-    doc_short_title: FIPS PUB 201-3 (DRAFT)
-    page_doc_number: FIPS 201-3 (DRAFT)
+    issued_date: May 2020
+    long_doc_number: Federal Information Processing Standards Publication 201-3
+    doc_short_title: FIPS PUB 201-3
+    page_doc_number: FIPS 201-3
     page_title: Personal Identity Verification (PIV)
     doc_title: Personal Identity Verification (PIV)\\of Federal Employees and Contractors
     pdf_title: 'FIPS 201-3: Personal Identity Verification (PIV) of Federal Employees and Contractors'
@@ -49,4 +53,3 @@ pdf:
     supersedes: FIPS 201-2
     category: Information Security
     subcategory: Identity
-    

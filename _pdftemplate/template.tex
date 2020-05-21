@@ -1,8 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     LaTeX source code to approximate a NIST Technical report
-%	  Instructions for authors: tinyurl.com/techpubsnist 
-%	DOI watermark will be added on final PDF
-% 	Developed by K. Miller, kmm5@nist.gov 
+%       Developed by J. Richer
+% 	Original SP template developed by K. Miller, kmm5@nist.gov 
 %	Last updated: 26-March-2019
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \documentclass[12pt]{article}
@@ -62,9 +61,13 @@
 \makeatother
 % End macros 
 
-%\usepackage{draftwatermark}
-%\SetWatermarkText{FEB-21-2020}
-%\SetWatermarkScale{1}
+%: if config.watermark
+
+\usepackage{draftwatermark}
+\SetWatermarkText{\VAR{config.watermark}}
+\SetWatermarkScale{1}
+
+%: endif
 
 \usepackage{tocloft}	% change typeset, titles, and format list of appendices/figures/tables
 \renewcommand{\contentsname}{Table of Contents}
@@ -154,6 +157,9 @@ pdfkeywords={}
 \setlength{\parindent}{0cm}
 \setlength{\parskip}{0.3cm plus 2mm minus 1mm}
 
+\widowpenalty500
+\clubpenalty500
+
 %: if config.lineno
 
 % Turn on line numbering
@@ -178,147 +184,17 @@ pdfkeywords={}
 \begin{document}
     \RaggedRight % left-justification universal
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%   Cover Page is REQUIRED and must cont ain the information 
-%	displayed here, at a minimum. Additional artwork may be included 
-%	(e.g., official project/conference logo, etc.).
-%	Pub Number automated based on metadata
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\begin{titlepage}
-
-\pagenumbering{gobble}
-
-\sffamily
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%	Title Page is REQUIRED
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%\begin{flushright}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%   Publication Series & Number - automated
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\LARGE{\textbf{\VAR{config.doc_short_title}}}
-\vspace{8pt}
-\hrule
-\vspace{8pt}
-\large{\textbf{\textsc{Federal Information Processing Standards Publication}}}\\
-%: if config.supersedes
-\small{\textbf{(Supersedes \VAR{config.supersedes})}}
-%: else
-
-%: endif
-\vfill
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%	Title 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\huge{\textbf{\VAR{config.doc_title}}}
-\vfill
-\normalsize{\textbf{\textsc{Category: \VAR{config.category}
-%: if config.subcategory
-\hfill Subcategory: \VAR{config.subcategory}}}}
-%: endif
-\vspace{8pt}
-\hrule
-\vfill
-
-% Address
-Information Technology Laboratory\\
-National Institute of Standards and Technology\\
-Gaithersburg, MD 20899-8900
-\vfill
-%   DOI Statement - automated
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\normalsize This publication is available free of charge from:\\
-\url{\VAR{config.doi_url}}\\
-\vfill
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%   Date - Month and Year - automated
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\normalsize Issued \VAR{config.issued_date}
-\vfill
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%  Department of Commerce LOGO - leave as-is
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%	
-
-\includegraphics[width=0.33\linewidth]{DoC-logo.eps}\\ 
-\vfill
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%  Department of Commerce & NIST Leadership 
-%	will be updated as changes occur
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\footnotesize \textbf{U.S. Department of Commerce}\\ 
-\textit{Wilbur L. Ross, Jr., Secretary}\\
-\vspace{10pt}
-\textbf{National Institute of Standards and Technology}\\ 
-\textit{Walter Copan, NIST Director and Undersecretary of Commerce for Standards and Technology}  
-%\end{flushright}
-\end{titlepage}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%   Start front matter - page number starts with "i"
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\VAR{rendered.cover}
 
 %: if rendered.frontmatter
-
-\pagenumbering{roman}
-
-\addtocontents{toc}{\setcounter{tocdepth}{-5}} % hide from TOC
 
 \VAR{rendered.frontmatter}
 
 %: endif
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%   Table of Contents is required
-% 	List of Tables & Figures required if more than 5 tables/figures
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\clearpage
-
-\begin{center}
-\normalsize{\textbf{\textsc{Federal Information Processing Standards Publication \VAR{config.doc_number}}}}\\
-\vspace{10pt}
-\normalsize{\textbf{\VAR{config.issued_date}}}\\
-\vspace{10pt}
-\normalsize{\textbf{Standard for}}\\
-\Large{\textbf{\VAR{config.doc_title}}}
-
-\vspace{10pt}
-
-\normalsize
-
-\hypersetup{linkcolor=black}
-
-    \tableofcontents
-    \listoftables
-    \listoffigures
-
-\end{center}
-\clearpage
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%   Start front matter - page number starts with "1", sections
-%   start with '1'
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\setcounter{section}{0}
-\pagenumbering{arabic}
-\pagestyle{body}
-
-\titleformat{\section}{\large\raggedright\bfseries\sffamily}{}{0em}{\colorsection}	% required for heading numbering style
-\titleformat{\subsection}{\large\raggedright\bfseries\sffamily}{}{0em}{}	% required for heading numbering style
-\titleformat{\subsubsection}{\normalsize\raggedright\bfseries\sffamily}{}{0em}{}	% required for heading numbering style
-\titleformat{\paragraph}{\normalsize\raggedright\bfseries\sffamily}{}{0em}{}	% required for heading numbering style
-
-\addtocontents{toc}{\setcounter{tocdepth}{3}} % Set TOC depth to 3 (subsection)
+\VAR{rendered.toc}
 
 \VAR{rendered.body}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%   Start Appendix - page number continues as before, sections
-%   start with 'A'
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %: if rendered.appendix
 
