@@ -560,23 +560,23 @@ following circumstances:
 + a cardholder is determined to hold a fraudulent identity.
 
 Similar to the situation in which the PIV Card is compromised, normal termination procedures
-must be in place:
+must be in place. The PIV Card SHALL be revoked through the following procedure:
 
-+ The PIV Card SHALL be revoked through the following procedure:
-    * The PIV Card SHALL be collected and destroyed, if possible.
-    * Per OPM guidance, the Central Verification System (or successor) SHALL be updated to reflect the change in status.
-    * Any databases maintained by the PIV Card issuer that indicate current valid or invalid
-        FASC-N or card UUID values SHALL be updated to reflect the change in status.
-    * If the PIV Card cannot be collected and destroyed, the CA SHALL be informed and the
-        certificates corresponding to the PIV authentication key and the asymmetric card
-        authentication key on the PIV Card SHALL be revoked. The certificates corresponding to the
-        digital signature and key management keys SHALL also be revoked, if present.
-+ The PII collected from the cardholder is disposed of in accordance with the stated privacy and data
-    retention policies of the department or agency.
+* The PIV Card SHALL be collected and destroyed, if possible.
+* Per OPM guidance, the Central Verification System (or successor) SHALL be updated to reflect the change in status.
+* Any databases maintained by the PIV Card issuer that indicate current valid or invalid
+    FASC-N or card UUID values SHALL be updated to reflect the change in status.
+* If the PIV Card cannot be collected and destroyed, the CA SHALL be informed and the
+    certificates corresponding to the PIV authentication key and the asymmetric card
+    authentication key on the PIV Card SHALL be revoked. The certificates corresponding to the
+    digital signature and key management keys SHALL also be revoked, if present.
 
 If the card cannot be collected, normal termination procedures SHALL be completed within 18&nbsp;hours of
 notification. In certain cases, 18&nbsp;hours is an unacceptable delay and in those cases emergency procedures
 SHOULD be executed to disseminate the information as rapidly as possible.
+
+The PII collected from the cardholder SHALL be disposed of in accordance with the stated privacy and data
+retention policies of the department or agency.
 
 ## 2.10 Derived PIV Credentials {#s-2-10}
 
