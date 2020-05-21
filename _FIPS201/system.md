@@ -53,7 +53,7 @@ information about data flow and connections between components.
 
 ### 3.1.1 PIV Front-End Subsystem {#s-3-1-1}
 
-The PIV Front-End Subsystem in [Figure 3-1](#fig-3-1) consists of credentials and devices that interact during authentication.
+The PIV Front-End Subsystem in [Figure 3-1](#fig-3-1) consists of credentials and devices that are used during authentication.
 The PIV Card will be issued to the applicant when all identity proofing, registration, and issuance
 processes have been completed. Derived PIV credentials might also be registered after these processes are complete. The PIV Card takes the physical form of the [[ISO 7816]](../_Appendix/references.md#ref-ISO7816) ID-1 card type (i.e., traditional payment card), with one or more
 embedded Integrated Circuit Chips (ICC) that provide memory capacity and computational capability. The
