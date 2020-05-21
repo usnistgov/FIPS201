@@ -271,7 +271,7 @@ Zone 3F: Signature
 Zone 4F: Agency-Specific Text Area
 : If used, this area can be used for printing agency-specific
     requirements, such as employee status, as shown in [Figure 4-2](#fig-4-2).
-    Note that this zone overlaps with an area that some card manufacturers MAY not allow to be used for printing.
+    Note that this zone overlaps with an area that some card manufacturers do not allow to be used for printing.
 
 Zone 5F: Rank
 : If used, the cardholder's rank SHALL be printed in the area as illustrated in [Figure 4-2](#fig-4-2).
