@@ -600,7 +600,7 @@ Derived PIV credentials SHALL be invalidated in any of the following circumstanc
 
 If the derived PIV credential to be invalidated contains a derived PIV authentication certificate and the corresponding private key cannot be securely zeroized or destroyed, the CA SHALL be informed and the certificate corresponding to the derived PIV authentication key SHALL be revoked.
 
-A derived PIV credentials SHALL NOT be accepted for authentication once the credential has been invalidated. When invalidation occurs, the issuer SHALL notify the cardholder of the change.
+A derived PIV credential SHALL NOT be accepted for authentication once the credential has been invalidated. When invalidation occurs, the issuer SHALL notify the cardholder of the change.
 
 ## 2.11 PIV Privacy Requirements {#s-2-11}
 
