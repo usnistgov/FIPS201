@@ -271,7 +271,7 @@ Zone 3F: Signature
 Zone 4F: Agency-Specific Text Area
 : If used, this area can be used for printing agency-specific
     requirements, such as employee status, as shown in [Figure 4-2](#fig-4-2).
-    Note that this zone overlaps with an area that some card manufacturers do not allow to be used for printing.
+    Note that this zone overlaps with an area that some card manufacturers might not allow to be used for printing.
 
 Zone 5F: Rank
 : If used, the cardholder's rank SHALL be printed in the area as illustrated in [Figure 4-2](#fig-4-2).
@@ -280,7 +280,7 @@ Zone 5F: Rank
 Zone 6F: Portable Data File (PDF) Two-Dimensional Bar Code (Deprecated)
 : This bar code is deprecated in this version of the Standard. In a future version of this Standard, the bar code may be removed. If used, the PDF bar code SHALL be placed in the general area depicted in [Figure 4-2](#fig-4-2) (i.e., left side of the card). If Zone 3F (a cardholder signature) is used, the size of the PDF bar code may be affected. The card issuer SHALL confirm that a PDF used in
     conjunction with a PIV Card containing a cardholder signature will satisfy the anticipated PDF data storage requirements. 
-    Note that this zone overlaps with an area that some card manufacturers may not allow to be used for printing.
+    Note that this zone overlaps with an area that some card manufacturers might not allow to be used for printing.
 
 Zone 9F: Header
 : If used, the text "United States Government" SHALL be placed as depicted in 
@@ -305,7 +305,7 @@ Zone 12F: Footer
     abbreviation (alpha-3 format) in accordance with [[ISO 3166]](../_Appendix/references.md#ref-ISO3166). [Figure 4-4](#fig-4-4)
     illustrates an example of using country abbreviations for a card issued to a foreign national.
     
-    Note that this zone overlaps with an area that some card manufacturers may not allow to be used for printing.
+    Note that this zone overlaps with an area that some card manufacturers might not allow to be used for printing.
 
 Zone 13F: Issue Date
 : If used, the card issuance date SHALL be printed above the Zone 14F expiration
