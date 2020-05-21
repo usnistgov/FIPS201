@@ -293,7 +293,7 @@ The following forms of protection SHALL be provided by either inherent capabilit
 
 Supervised remote identity proofing SHALL meet the following requirements:
 
-* The station SHALL be maintained in a controlled-access environment, and SHALL be monitored by staff at the station location while it is being used.
+* The station SHALL be maintained in a controlled-access environment and SHALL be monitored by staff at the station location while it is being used.[^controlled]
 * The issuer SHALL have a live operator participate remotely with the applicant for the entirety of the identity proofing session.
 * The issuer SHALL require operators to have undergone a training program to detect potential fraud and to properly perform a supervised remote identity proofing session.
 * The operator SHALL monitor the entire identity proofing session, from which the applicant SHALL NOT depart, by at least one continuous high-resolution video transmission of the applicant.
@@ -306,6 +306,8 @@ The trained operator SHALL terminate a supervised remote identity proofing
 session and require in-person identity proofing at an issuing facility if
 there is reasonable basis to believe[^believe] that the applicant is attempting
 to bypass protection capabilities of the station. 
+
+[^controlled]: A controlled-access environment is a location with limited egress points where staff can see the station while performing other duties.
 
 [^believe]: A reasonable basis to believe occurs when a disinterested observer, with knowledge of the same facts and circumstances, would reasonably reach the same conclusion.
 
