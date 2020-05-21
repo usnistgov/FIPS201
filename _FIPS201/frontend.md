@@ -37,7 +37,7 @@ with the ICCs or related components, nor SHALL it obstruct access to machine-rea
 To combat counterfeiting and alterations, the PIV Card SHALL contain security features outlined in the American Association of Motor Vehicle Association’s (AAMVA) Drivers License/Identification Card (DL/ID) Card Design Standard [[CDS]](../_Appendix/references.md#ref-CDS). The Card Design Standard classifies security features into three categories, depending on the inspection level required for verification:
 
 Inspection Level 1
-: Security features that can be examined without tools or aids that includes easily identifiable visual or tactile features for rapid inspection at point of usage. Examples include an embossed surface pattern, an optically variable device (such as a hologram), or color shifting inks.
+: Security features that can be examined without tools or aids that include easily identifiable visual or tactile features for rapid inspection at point of usage. Examples include an embossed surface pattern, an optically variable device (such as a hologram), or color shifting inks.
 
 Inspection Level 2
 : Security features that require the use of a tool or instrument (e.g., UV light, magnifying glass, or scanner) to discern. Examples include microtext, UV-fluorescent images, IR-fluorescent ink, nano and micro images, and chemical taggants.
@@ -265,13 +265,13 @@ examples provided and as noted.
 Zone 3F: Signature
 : If used, the department or agency SHALL place the cardholder signature below the
     photograph and cardholder name as depicted in [Figure 4-3](#fig-4-3). The space for the signature SHALL NOT interfere
-    with the contact and contactless placement. Because of card surface space constraints, placement of a
+    with the placement of the ICCs and related components. Because of card surface space constraints, placement of a
     signature may limit the size of the optional two-dimensional bar code.
 
 Zone 4F: Agency-Specific Text Area
 : If used, this area can be used for printing agency-specific
     requirements, such as employee status, as shown in [Figure 4-2](#fig-4-2).
-    Note that this zone overlaps with an area that some card manufacturers do not allow to be used for printing.
+    Note that this zone overlaps with an area that some card manufacturers might not allow to be used for printing.
 
 Zone 5F: Rank
 : If used, the cardholder's rank SHALL be printed in the area as illustrated in [Figure 4-2](#fig-4-2).
@@ -280,7 +280,7 @@ Zone 5F: Rank
 Zone 6F: Portable Data File (PDF) Two-Dimensional Bar Code (Deprecated)
 : This bar code is deprecated in this version of the Standard. In a future version of this Standard, the bar code may be removed. If used, the PDF bar code SHALL be placed in the general area depicted in [Figure 4-2](#fig-4-2) (i.e., left side of the card). If Zone 3F (a cardholder signature) is used, the size of the PDF bar code may be affected. The card issuer SHALL confirm that a PDF used in
     conjunction with a PIV Card containing a cardholder signature will satisfy the anticipated PDF data storage requirements. 
-    Note that this zone overlaps with an area that some card manufacturers do not allow to be used for printing.
+    Note that this zone overlaps with an area that some card manufacturers might not allow to be used for printing.
 
 Zone 9F: Header
 : If used, the text "United States Government" SHALL be placed as depicted in 
@@ -305,7 +305,7 @@ Zone 12F: Footer
     abbreviation (alpha-3 format) in accordance with [[ISO 3166]](../_Appendix/references.md#ref-ISO3166). [Figure 4-4](#fig-4-4)
     illustrates an example of using country abbreviations for a card issued to a foreign national.
     
-    Note that this zone overlaps with an area that some card manufacturers do not allow to be used for printing.
+    Note that this zone overlaps with an area that some card manufacturers might not allow to be used for printing.
 
 Zone 13F: Issue Date
 : If used, the card issuance date SHALL be printed above the Zone 14F expiration
@@ -334,13 +334,13 @@ Zone 20F: Organizational Affiliation Abbreviation
 Zone 21F: Edge Ridging or Notched Corner Tactile Marker
 : If used, this area SHALL incorporate edge
     ridging or a notched corner to indicate card orientation as depicted in [Figure 4-4](#fig-4-4). Departments and
-    agencies should ensure such alterations are closely coordinated with the card vendor and manufacturer
+    agencies SHOULD ensure such alterations are closely coordinated with the card vendor and manufacturer
     to ensure the card material integrity and printing process are not adversely impacted.
 
 Zone 22F: Laser Engraving Tactile Marker
 : If used, tactilely-discernible marks SHALL be created using
     laser engraving to indicate card orientation as depicted in [Figure 4-4](#fig-4-4). There SHALL be an opening in the
-    lamination foil where laser engraving is performed. Departments and agencies should ensure such
+    lamination foil where laser engraving is performed. Departments and agencies SHOULD ensure such
     alterations are closely coordinated with the card vendor and manufacturer to ensure the card material
     integrity and printing process are not adversely impacted.
 
@@ -467,12 +467,14 @@ data elements are part of the data model for PIV Card logical credentials that s
 mechanisms interoperable across agencies:
 
 - a PIN,
-- a Cardholder Unique Identifier (CHUID),
+- a Cardholder Unique Identifier (CHUID)[^support],
 - PIV authentication data (one asymmetric private key and corresponding certificate),
 - two fingerprint biometric templates,
 - an electronic facial image, and
 - card authentication data (one asymmetric private key and corresponding certificate).
 
+[^support]: The CHUID as an authentication mechanims (Section 6.2.5) has been
+removed from this version of the Standard. The CHUID data element itself, however, has not been removed and continues to be mandatory as it supports other PIV authentication mechanisms.
 This Standard also defines two data elements for the PIV Card data model that are mandatory if the cardholder
 has a government-issued email account at the time of PIV Card issuance. These data elements are
 
@@ -508,7 +510,11 @@ Cardholder-To-External (CTE) authentication
 ### 4.2.1 Cardholder Unique Identifier (CHUID) {#s-4-2-1}
 {:latex-toc="4.2.1 Cardholder Unique Identifier"}
 
-The PIV Card SHALL include the CHUID as defined in [[SP 800-73]](../_Appendix/references.md#ref-SP-800-73). The CHUID SHALL include two card identifiers: the Federal
+Note: The CHUID authentication mechanims (Section 6.2.5) has been
+removed from this version of the Standard. The CHUID data element itself, however, has not been removed and continues to be mandatory as it supports other PIV authentication mechanisms. For example, the BIO, BIO-A, and SYM-CAK authentication mechanisms use the CHUID data
+ element as a source for the card’s expiration date. The CHUID data element also provides the content signing certificate for some authentication mechanisms and unique identifiers for PACS ACLs. 
+ 
+ The PIV Card SHALL include the CHUID as defined in [[SP 800-73]](../_Appendix/references.md#ref-SP-800-73). The CHUID SHALL include two card identifiers: the Federal
 Agency Smart Credential Number (FASC-N) and the card UUID in the Global Unique Identification Number (GUID) data element of the CHUID. 
 Each identifier uniquely identifies each card as specified in [[SP 800-73]](../_Appendix/references.md#ref-SP-800-73).
 The value of the card UUID SHALL
@@ -587,6 +593,13 @@ Secure messaging enables data and commands transmitted between the card and an e
 both integrity protected and encrypted. Secure messaging MAY be used, for example, to enable the use of
 on-card biometric comparison as an authentication mechanism.
 
+Once secure messaging has been established, a virtual contact interface MAY be established.
+Requirements for the virtual contact interface are specified in [[SP 800-73]](../_Appendix/references.md#ref-SP-800-73). Any operation that MAY be
+performed over the contact interface of the PIV Card MAY also be performed over the virtual contact
+interface. With the exception of the card authentication key and keys used to establish secure
+messaging, cryptographic private key operations SHALL be performed only through the contact interface
+or the virtual contact interface.
+
 All PIV cryptographic keys SHALL be generated within cryptographic module with overall validation at [[FIPS 140]](../_Appendix/references.md#ref-FIPS140) 
 Level 2 or above. In addition to an overall validation of Level 2, the PIV Card SHALL
 provide Level 3 physical security to protect the PIV private keys in storage. The scope of the validation
@@ -600,13 +613,6 @@ contactless interfaces
 Specific algorithm
 testing requirements for the cryptographic operations performed by the PIV Card Application are
 specified in [[SP 800-78]](../_Appendix/references.md#ref-SP-800-78).
-
-Once secure messaging has been established, a virtual contact interface MAY be established.
-Requirements for the virtual contact interface are specified in [[SP 800-73]](../_Appendix/references.md#ref-SP-800-73). Any operation that MAY be
-performed over the contact interface of the PIV Card MAY also be performed over the virtual contact
-interface. With the exception of the card authentication key and keys used to establish secure
-messaging, cryptographic private key operations SHALL be performed only through the contact interface
-or the virtual contact interface.
 
 Symmetric cryptographic operations are not mandated for the contactless interface, but departments and
 agencies MAY choose to supplement the basic functionality with storage for a symmetric card
