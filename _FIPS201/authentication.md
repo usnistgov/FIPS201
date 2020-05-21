@@ -136,8 +136,8 @@ The following steps SHALL be performed for PKI-AUTH:
 
 - The PIV authentication certificate is read from the PIV Card Application.
 - The relying system validates the PIV authentication certificate from the PIV Card Application using
-   certificate path validation[^pivpath] algorithms specified in [[RFC 5280]](references.md#ref-RFC5280) to ensure that it is neither expired nor revoked and that it is
-    from a trusted source.
+    certificate path validation algorithms specified in [[RFC 5280]](references.md#ref-RFC5280) to ensure that it is neither expired nor revoked and that it is
+    from a trusted source. Path validation SHOULD be configured to specify which policy OIDs are trusted.[^pivpath]
 - The cardholder is prompted to enter a PIN, which is used to activate the card. If implemented,
     other card activation mechanisms, as specified in [[SP 800-73]](../_Appendix/references.md#ref-SP-800-73), MAY be used to activate the card.
 - The relying system issues a challenge string to the card and requests an asymmetric operation in
@@ -157,7 +157,7 @@ Some of the characteristics of the PKI-based authentication mechanism are as fol
 - usable with contact card readers and contactless card readers that support the virtual contact
     interface.
 
-[^pivpath]: Path validation SHOULD be configured to specify which policy OIDs are trusted. The policy OID for the PIV authentication certificate is `id-fpki-common-authentication`.
+[^pivpath]: The policy OID for the PIV authentication certificate is `id-fpki-common-authentication`.
 
 #### 6.2.3.2 Authentication with the Card Authentication Certificate Credential (PKI-CAK) {#s-6-2-3-2}
 
@@ -165,8 +165,8 @@ The following steps SHALL be performed for PKI-CAK:
 
 - The card authentication certificate is read from the PIV Card Application.
 - The relying system validates the card authentication certificate from the PIV Card Application using
-    certificate path validation[^cacpath] algorithms specified in [[RFC 5280]](references.md#ref-RFC5280) to ensure that it is neither expired nor revoked and that it is
-    from a trusted source.
+    certificate path validation algorithms specified in [[RFC 5280]](references.md#ref-RFC5280) to ensure that it is neither expired nor revoked and that it is
+    from a trusted source. Path validation SHOULD be configured to specify which policy OIDs are trusted.[^cacpath]
 - The relying system issues a challenge string to the card and requests an asymmetric operation in
     response.
 - The card responds to the previously-issued challenge by signing it using the card authentication
@@ -182,7 +182,7 @@ Some of the characteristics of the PKI-CAK authentication mechanism are as follo
 - low resistance to use of unaltered card by non-owner of card, and
 - usable with contact and contactless readers.
 
-[^cacpath]: Path validation SHOULD be configured to specify which policy OIDs are trusted. The policy OID for the card authentication certificate is id-fpki-common-cardAuth.
+[^cacpath]: The policy OID for the card authentication certificate is `id-fpki-common-cardAuth`.
 
 ### 6.2.4 Authentication Using the Symmetric Card Authentication Key (SYM-CAK) {#s-6-2-4}
 {:latex-toc="6.2.4 Symmetric Card Authentication Key"}
