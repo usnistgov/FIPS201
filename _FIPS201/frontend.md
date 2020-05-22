@@ -225,7 +225,7 @@ Zone 15F: Color-Coding for Employee Affiliation
     printed in accordance to the color specifications provided in [Section 4.1.5](frontend.md#s-4-1-5). Zone 15F MAY be a solid or
     patterned line at the department or agency's discretion.
 
-Zone 18F: Affiliation Color Code
+Zone 18F: Color Code for Employee Affiliation
 : The affiliation color code "B" for blue, "W" for white, or "G" for
     green SHALL be printed in a white circle on the right side of Zone 15F as depicted in [Figure 4-1](#fig-4-1). The diameter of the circle
     SHALL NOT be more than 5&nbsp;mm. The lettering SHALL correspond to the printed color in Zone 15F.
@@ -277,8 +277,8 @@ Zone 5F: Rank
 : If used, the cardholder's rank SHALL be printed in the area as illustrated in [Figure 4-2](#fig-4-2).
     Data format is at the department or agency's discretion.
 
-Zone 6F: Portable Data File (PDF) Two-Dimensional Bar Code (Deprecated)
-: This bar code is deprecated in this version of the Standard. In a future version of this Standard, the bar code may be removed. If used, the PDF bar code SHALL be placed in the general area depicted in [Figure 4-2](#fig-4-2) (i.e., left side of the card). If Zone 3F (a cardholder signature) is used, the size of the PDF bar code may be affected. The card issuer SHALL confirm that a PDF used in
+Zone 6F: Portable Data File (PDF) 417 Two-Dimensional Bar Code (Deprecated)
+: This bar code is deprecated in this version of the Standard. In a future version of this Standard, the bar code may be removed. If used, the PDF bar code SHALL be placed in the general area depicted in [Figure 4-4](#fig-4-4) (i.e., left side of the card). If Zone 3F (a cardholder signature) is used, the size of the PDF bar code may be affected. The card issuer SHALL confirm that a PDF used in
     conjunction with a PIV Card containing a cardholder signature will satisfy the anticipated PDF data storage requirements. 
     Note that this zone overlaps with an area that some card manufacturers might not allow to be used for printing.
 
@@ -349,7 +349,7 @@ Zone 22F: Laser Engraving Tactile Marker
 Zone 3B: Magnetic Stripe (Deprecated)
 : The magnetic stripe is deprecated in this version of the Standard. In a future version of this Standard, the magnetic stripe may be removed and the space may be allocated for agency-specific data to be printed.
     If used, the magnetic stripe SHALL be high coercivity and placed in accordance
-    with [[ISO 7811]](../_Appendix/references.md#ref-ISO7811), as illustrated in [Figure 4-7](#fig-4-7).
+    with [[ISO 7811]](../_Appendix/references.md#ref-ISO7811), as illustrated in [Figure 4-8](#fig-4-8).
 
 Zone 4B: Return Address
 : If used, the "return if lost" language SHALL be placed on the back of
@@ -365,14 +365,14 @@ Zone 6B: Additional Language for Emergency Response Officials
     cardholder's authorized access. If used, this additional text SHALL be in the general area depicted in [Figure 4-7](#fig-4-7) and SHALL NOT interfere with other printed text or machine-readable components. An example of a printed statement
     is provided in [Figure 4-7](#fig-4-7).
 
-Zone 7B: Standard Section 499, Title 18 Language
+Zone 7B: Section 499, Title 18 Language
 : If used, standard Section 499, Title 18, language
     warning against counterfeiting, altering, or misusing the card SHALL be printed in the general area depicted
     in [Figure 4-7](#fig-4-7).
 
 Zone 8B: Linear 3 of 9 Bar Code (Deprecated)
 : The bar code is deprecated in this version of the Standard. In a future version of this Standard, the bar code may be removed. If used, a linear 3 of 9 bar code SHALL be placed in the area depicted
-    in [Figure 4-7](#fig-4-7). It SHALL be in accordance with Association for Automatic Identification and Mobility (AIM)
+    in [Figure 4-8](#fig-4-8). It SHALL be in accordance with Association for Automatic Identification and Mobility (AIM)
     standards. Beginning and end points of the bar code will be dependent on the embedded contactless
     module selected. Departments and agencies are encouraged to coordinate placement of the bar code with
     the card vendor and manufacturer.
