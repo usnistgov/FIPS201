@@ -51,7 +51,7 @@ The content of this section has been removed as OMB [[M-04-04]](../_Appendix/ref
 
 The following subsections define the basic types of authentication mechanisms that are supported by the
 credential set hosted by the PIV Card Application. PIV Cards can be used for authentication in
-environments that are equipped with card readers. Card readers can be contact readers or contactless readers. The usage environment affects the PIV
+environments that are equipped with contact or contactless card readers. The usage environment affects the PIV
 authentication mechanisms that may be applied to a particular situation.
 
 ### 6.2.1 Authentication Using Off-Card Biometric One-to-One Comparison {#s-6-2-1}
