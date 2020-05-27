@@ -519,9 +519,6 @@ HTTP
 HTTPS
 : Hypertext Transfer Protocol Secure
 
-I&A
-: Identification and Authentication
-
 IAL
 : Identity Assurance Level
 
