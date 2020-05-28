@@ -51,16 +51,15 @@ The content of this section has been removed as OMB [[M-04-04]](../_Appendix/ref
 
 The following subsections define the basic types of authentication mechanisms that are supported by the
 credential set hosted by the PIV Card Application. PIV Cards can be used for authentication in
-environments that are equipped with card readers. Card readers,
-when present, can be contact readers or contactless readers. The usage environment affects the PIV
+environments that are equipped with contact or contactless card readers. The usage environment affects the PIV
 authentication mechanisms that may be applied to a particular situation.
 
 ### 6.2.1 Authentication Using Off-Card Biometric One-to-One Comparison {#s-6-2-1}
 {:latex-toc="6.2.1 Off-Card Biometric One-to-One Comparison"}
 
 The PIV Card Application hosts the fingerprint biometric templates, the electronic facial image, and the optional electronic iris images.
-Biometric data records can be read from the card following CTC authentication using a PIN
-supplied by the cardholder. These biometric data records are designed to support the 
+These biometric data records can be read from the card following CTC authentication using a PIN
+supplied by the cardholder. The biometric data records are designed to support the 
 CTE authentication mechanism through an off-card biometric one-to-one comparison scheme. The following subsections
 define two authentication mechanisms that make use of biometric data records.[^bioreaders]
 
@@ -113,7 +112,7 @@ authentication and the card responds with a positive or negative biometric verif
 The response includes information that allows the reader to authenticate the card. The
 cardholder PIN is not required for this operation. The PIV Card SHALL include a mechanism to block this
 authentication mechanism after a number of consecutive failed authentication attempts as stipulated by
-the department or agency. As with BIO, if agencies choose to
+the department or agency. As with BIO and BIO-A, if agencies choose to
 implement OCC, it SHALL be implemented as defined in [[SP 800-73]](../_Appendix/references.md#ref-SP-800-73) and
 [[SP 800-76]](../_Appendix/references.md#ref-SP-800-76).
 
@@ -136,7 +135,7 @@ The following steps SHALL be performed for PKI-AUTH:
 
 - The PIV authentication certificate is read from the PIV Card Application.
 - The relying system validates the PIV authentication certificate from the PIV Card Application using
-    certificate path validation algorithms specified in [[RFC 5280]](references.md#ref-RFC5280) to ensure that it is neither expired nor revoked and that it is
+    certificate path validation specified in [[RFC 5280]](references.md#ref-RFC5280) to ensure that it is neither expired nor revoked and that it is
     from a trusted source. Path validation SHOULD be configured to specify which policy OIDs are trusted.[^pivpath]
 - The cardholder is prompted to enter a PIN, which is used to activate the card. If implemented,
     other card activation mechanisms, as specified in [[SP 800-73]](../_Appendix/references.md#ref-SP-800-73), MAY be used to activate the card.
@@ -165,7 +164,7 @@ The following steps SHALL be performed for PKI-CAK:
 
 - The card authentication certificate is read from the PIV Card Application.
 - The relying system validates the card authentication certificate from the PIV Card Application using
-    certificate path validation algorithms specified in [[RFC 5280]](references.md#ref-RFC5280) to ensure that it is neither expired nor revoked and that it is
+    certificate path validation specified in [[RFC 5280]](references.md#ref-RFC5280) to ensure that it is neither expired nor revoked and that it is
     from a trusted source. Path validation SHOULD be configured to specify which policy OIDs are trusted.[^cacpath]
 - The relying system issues a challenge string to the card and requests an asymmetric operation in
     response.
@@ -306,10 +305,10 @@ The PIV Card supports a set of authentication mechanisms that can be used to imp
 assurance levels. The assurance levels used within this Standard are closely aligned with
 NIST [[SP 800-63]](../_Appendix/references.md#ref-SP-800-63), which specifies a digital identity risk management process that is cited by OMB [[M-19-17]](../_Appendix/references.md#ref-OMB1917).
 
-The following subsections specify which basic PIV
+The following subsections specify which PIV
 authentication mechanisms CAN be used to support the various authenticator assurance levels
-as described in this section. Two or more authentication mechanisms MAY be applied in
-unison to achieve additional assurance of the identity of the PIV cardholder. For example, PKI-AUTH and BIO may be applied in unison to achieve additional assurance in cardholder identity.
+ described in this section. Two or more authentication mechanisms MAY be applied in
+unison to achieve additional assurance of the identity of the PIV cardholder. For example, PKI-AUTH and BIO may be applied in unison to achieve additional assurance in the cardholder's identity.
 
 Adequately designed and implemented relying systems can achieve the PIV Card
 assurance levels stated in [Table 6-1](#table-6-1) for physical access and [Table 6-2](#table-6-2) for logical access. Relying systems that are inadequately designed
