@@ -41,19 +41,19 @@ PIV Relying Subsystem
 : The physical and logical access control systems, the protected resources,
     and the authorization data.
 
-[Figure 3-1. PIV System Overview](#fig-3-1){:name="fig-3-1"}
+[Figure 3-1. PIV System Overview](system.md#fig-3-1){:name="fig-3-1"}
 {:latex-ignore="true"}
 
 ![PIV System Overview]({{site.baseurl}}/{{page.collection}}/images/system.png){:style="width: 1047px;" latex-src="system.pdf" latex-fig="3-1"}
 
-[Figure 3-1](#fig-3-1) illustrates a notional model for the operational PIV system, identifying the various system
+[Figure 3-1](system.md#fig-3-1) illustrates a notional model for the operational PIV system, identifying the various system
 components. The boundary shown in the figure
 is not meant to preclude FIPS 201 requirements on systems outside these boundaries. See [Section 3.3](system.md#s-3-3) for 
 information about data flow and connections between components.
 
 ### 3.1.1 PIV Front-End Subsystem {#s-3-1-1}
 
-The PIV Front-End Subsystem in [Figure 3-1](#fig-3-1) consists of credentials and devices that are used during authentication.
+The PIV Front-End Subsystem in [Figure 3-1](system.md#fig-3-1) consists of credentials and devices that are used during authentication.
 The PIV Card will be issued to the applicant when all identity proofing, registration, and issuance
 processes have been completed. Derived PIV credentials might also be registered after these processes are complete. The PIV Card takes the physical form of the [[ISO 7816]](../_Appendix/references.md#ref-ISO7816) ID-1 card type (i.e., traditional payment card), with one or more
 embedded Integrated Circuit Chips (ICC) that provide memory capacity and computational capability. The
@@ -90,7 +90,7 @@ authentication ("something you are").
 
 ### 3.1.2 PIV Issuance and Management Subsystem {#s-3-1-2}
 
-The registration and issuance activities in [Figure 3-1](#fig-3-1) start with identity proofing and registration, during which all information and documentation required for enrollment are collected, stored, and maintained. The collected information is subsequently used to personalize and issue the PIV Card, as well as to bind and issue derived PIV credentials as additional PIV authenticators.
+The registration and issuance activities in [Figure 3-1](system.md#fig-3-1) start with identity proofing and registration, during which all information and documentation required for enrollment are collected, stored, and maintained. The collected information is subsequently used to personalize and issue the PIV Card, as well as to bind and issue derived PIV credentials as additional PIV authenticators.
 
 The PIV Card issuance process focuses on the personalization of the physical (visual
 surface) and logical (contents of the ICC) aspects of the card at the time of issuance and maintenance
@@ -109,7 +109,7 @@ The enterprise IDMS serves as the central repository for the cardholder’s digi
 
 ### 3.1.3 PIV Relying Subsystem {#s-3-1-3}
 
-The PIV relying subsystem in [Figure 3-1](#fig-3-1) includes components responsible for determining a particular PIV
+The PIV relying subsystem in [Figure 3-1](system.md#fig-3-1) includes components responsible for determining a particular PIV
 cardholder's access to a physical or logical resource.[^DPC] A physical resource is the secured facility (e.g.,
 building, room, parking garage) that the cardholder wishes to access. The logical resource is typically a
 network or a location on the network (e.g., computer workstation, folder, file, database record, software
@@ -135,12 +135,12 @@ by communicating with an IdP through a federation protocol as discussed in [Sect
 
 The PIV Card lifecycle consists of seven activities.[^DPCLifecycle] The activities that take place during fabrication and
 pre-personalization of the card at the manufacturer are not considered a part of this lifecycle model.
-[Figure 3-2](#fig-3-2) presents these PIV activities and depicts the PIV Card request as the initial activity and PIV
+[Figure 3-2](system.md#fig-3-2) presents these PIV activities and depicts the PIV Card request as the initial activity and PIV
 Card termination as the end of life activity.
 
 [^DPCLifecycle]: The lifecycle activities of derived PIV credentials are described in SP 800-157.
 
-[Figure 3-2. PIV Card Lifecycle Activities](#fig-3-2){:name="fig-3-2"}
+[Figure 3-2. PIV Card Lifecycle Activities](system.md#fig-3-2){:name="fig-3-2"}
 {:latex-ignore="true"}
 
 ![PIV Card Lifecycle Activities]({{site.baseurl}}/{{page.collection}}/images/lifecycle.png){:style="width: 1047px;" latex-src="lifecycle.pdf" latex-fig="3-2" latex-place="h!"}
@@ -190,9 +190,9 @@ PIV Card Termination
 
 To perform authentication for logical or physical access using a PIV Card or a derived PIV credential directly, the credential is verified and 
 attributes from the PIV account are provided to the relying subsystem. The connections and data 
-flows between these components are shown in [Figure 3-3](#fig-3-3). 
+flows between these components are shown in [Figure 3-3](system.md#fig-3-3). 
 
-[Figure 3-3. PIV System Connections](#fig-3-3){:name="fig-3-3"}
+[Figure 3-3. PIV System Connections](system.md#fig-3-3){:name="fig-3-3"}
 {:latex-ignore="true"}
 
 ![PIV System Connections]({{site.baseurl}}/{{page.collection}}/images/system-direct.png){:style="width: 1047px;" latex-src="system-direct.pdf" latex-fig="3-3" latex-place="p"}
@@ -203,9 +203,9 @@ IdP, which is part of the PIV Issuance and Management Subsystem,
 using their PIV Card or derived PIV credential. The IdP verifies the credential and determines the attributes 
 associated with the PIV account. The IdP then creates an assertion that is sent to the
 relying subsystem. The RP validates the assertion from the IdP, but the RP never sees the credential
-or authentication at the IdP. The connections and data flows between these components are shown in [Figure 3-4](#fig-3-4).
+or authentication at the IdP. The connections and data flows between these components are shown in [Figure 3-4](system.md#fig-3-4).
 
-[Figure 3-4. PIV System Federation Connections](#fig-3-4){:name="fig-3-4"}
+[Figure 3-4. PIV System Federation Connections](system.md#fig-3-4){:name="fig-3-4"}
 {:latex-ignore="true"}
 
 ![PIV System Federation Connections]({{site.baseurl}}/{{page.collection}}/images/system-federation.png){:style="width: 1047px;" latex-src="system-federation.pdf" latex-fig="3-4" latex-place="bp"}

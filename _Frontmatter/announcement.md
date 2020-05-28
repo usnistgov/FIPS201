@@ -79,7 +79,7 @@ This Standard will be effective immediately upon final publication of this revis
 Federal Information Processing Standards (FIPS) 201
 Personal Identity Verification (PIV) of Federal Employees and Contractors.
 
-# 12. Qualifications. {#f-12}
+# 11. Qualifications. {#f-11}
 
 The security provided by the PIV system is dependent on many factors outside the scope of this Standard. Organizations must be aware that the overall security of the personal identification system relies on
 
