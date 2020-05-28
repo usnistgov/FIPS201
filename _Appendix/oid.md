@@ -39,7 +39,7 @@ _This appendix is normative._ It provides additional details for the PIV objects
 
 |ID| Object Identifier|Description|
 |---|---|---|
-|`id-PIV-content-signing`|2.16.840.1.101.3.6.7|This specifies that the public key MAY be used to verify signatures on CHUIDs and biometric data record.|
+|`id-PIV-content-signing`|2.16.840.1.101.3.6.7|This specifies that the public key MAY be used to verify signatures on CHUIDs and biometric data records.|
 |`id-PIV-cardAuth`|2.16.840.1.101.3.6.8|This specifies that the public key is used to authenticate the PIV Card rather than the PIV cardholder.|
 {:latex-columns="p@0.25\textwidth,p@0.24\textwidth,p@0.40\textwidth" latex-table="B-3" latex-caption="PIV Object Identifiers for PIV Extended Key Usage"}
 
@@ -49,7 +49,7 @@ The OIDs for certificate policies are specified in [[COMMON]](references.md#ref-
 {:latex-toc="B.2 PIV Background Investigation Indicator Certificate Extension"}
 
 The PIV background investigation indicator (previously known as the NACI indicator) is deprecated under this version of the 
-Standard. It is expected that the indicator will be removed from a future revision of this standard.
+Standard. It is expected that the indicator will be removed from a future revision of this Standard.
 Instead of the on-card indicator, background investigative status is commonly maintained in each 
 agency IDMS and personnel security system as well as in the Central Verification System (or successor). Status of the investigation can be communicated as needed using 
 federation protocols. 
