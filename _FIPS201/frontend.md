@@ -793,7 +793,7 @@ Cardholder activation is described in [Section 4.3.1](frontend.md#s-4-3-1) and c
 [Section 4.3.2](frontend.md#s-4-3-2).
 
 [^activation]: Activation in this context refers to the unlocking of the PIV Card Application so privileged operations can be performed.
-[^privileged]: Use of the card authentication key is not considered a privileged operation.
+[^privileged]: A read of a CHUID or use of the card authentication key is not considered a privileged operation.
 
 ### 4.3.1 Activation by Cardholder {#s-4-3-1}
 
