@@ -733,7 +733,7 @@ with the preparation and formatting specifications of [[SP 800-76]](../_Appendix
 #### 4.2.3.2 Biometric Data Record Protection {#s-4-2-3-2}
 
 The integrity of all biometric data records, except for fingerprint biometric templates for OCC, SHALL be
-protected using digital signatures as follows. The records SHALL be prepended with a Common Biometric
+protected using digital signatures. The records SHALL be prepended with a Common Biometric
 Exchange Formats Framework (CBEFF) header and appended with the
 CBEFF signature block ([[IR 6529-A]](../_Appendix/references.md#ref-CBEFF)).
 
@@ -851,11 +851,11 @@ The content of this section has been removed as the PIV middleware specified in 
 
 ### 4.4.4 Card Activation Device Requirements {#s-4-4-4}
 
-When the PIV Card is used with OCC data or a PIN for physical access, the input device SHALL be
-integrated with the PIV Card reader. When the PIV Card is used with OCC data or a PIN for logical
+When the PIV Card is used with a PIN or OCC data for physical access, the input device SHALL be
+integrated with the PIV Card reader. When the PIV Card is used with a PIN or OCC data for logical
 access (e.g., to authenticate to a website or other server), the input device is not required to be integrated
-with the PIV Card reader. If the input device is not integrated with the PIV Card reader, the OCC data or
-the PIN SHALL be transmitted securely and directly to the PIV Card for card activation.
+with the PIV Card reader. If the input device is not integrated with the PIV Card reader, the PIN or
+OCC data SHALL be transmitted securely and directly to the PIV Card for card activation.
 
 The specifications for fingerprint biometric capture devices for OCC are given in [[SP 800-76]](../_Appendix/references.md#ref-SP-800-76).
 
