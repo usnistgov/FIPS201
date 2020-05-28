@@ -28,7 +28,7 @@ such that
 + A credential is issued only to an individual whose identity has been verified and who has been appropriately vetted as per [Section 2.2](requirements.md#s-2-2)
     after a proper authority has authorized issuance of the credential.
 + A credential is issued only after an individual’s eligibility has been favorably adjudicated
-    based on the prerequisite Federal investigation (See [Section 2.2](../requirements/#s-2-2)). If there 
+    based on the prerequisite Federal investigation (See [Section 2.2](requirements.md#s-2-2)). If there 
 		is no investigation meeting the investigative standards, the PIV credential eligibility may be approved 
 		upon favorable initiation of the prerequisite investigation[^initiation] and once the Federal Bureau of
 		Investigation (FBI) National Criminal History Check (NCHC) portion of the background investigation is
@@ -217,7 +217,7 @@ The organization SHALL follow investigative requirements as outlined in [Section
 
 Biometric data SHALL be captured as specified in [Section 2.3](requirements.md#s-2-3) and [Section 2.4](requirements.md#s-2-4).
 
-The applicant SHALL appear in person at least once before the issuance of a PIV Card, either at the issuing facility or at a supervised remote identity proofing station (as described in [Section 2.7.1](#s-2-7-1)).
+The applicant SHALL appear in person at least once before the issuance of a PIV Card, either at the issuing facility or at a supervised remote identity proofing station (as described in [Section 2.7.1](requirements.md#s-2-7-1)).
 
 During identity proofing, the applicant SHALL be required to provide two original forms of identity source
 documents.[^documents] The identity source documents SHALL be bound to the applicant and SHALL NOT
@@ -509,7 +509,7 @@ Issuer-operated kiosk
 Supervised remote identity proofing station
 : PIN reset at a supervised remote identity proofing station combines the assurance
     of an in-person reset with the convenience of a kiosk reset. All protections
-    and requirements of [Section 2.7.1](#s-2-7-1) SHALL be observed during the
+    and requirements of [Section 2.7.1](requirements.md#s-2-7-1) SHALL be observed during the
     procedure. The operator SHALL initiate a biometric verification to ensure that
     the cardholder's biometric characteristics captured at the station elicit a
     positive biometric verification decision when compared to biometric data
@@ -558,7 +558,7 @@ following circumstances:
 + a contractor changes positions and no longer needs access to federal buildings or systems;
 + a cardholder passes away;
 + an authorized adjudicative entity determines after completion of a cardholder's background investigation that the
-    cardholder is ineligible for a PIV Card (see [[FCS]](../references/#ref-FCS)); or
+    cardholder is ineligible for a PIV Card (see [[FCS]](../_Appendix/references.md#ref-FCS)); or
 + a cardholder is determined to hold a fraudulent identity.
 
 Similar to the situation in which the PIV Card is compromised, normal termination procedures
