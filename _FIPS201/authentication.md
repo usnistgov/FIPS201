@@ -316,7 +316,7 @@ or implemented may only achieve lower assurance levels. The design of the
 components of relying systems, including card readers, biometric capture devices, cryptographic modules, and
 key management systems, involves many factors not fully specified by FIPS 201, such as correctness of
 the functional mechanism, physical protection of the mechanism, and environmental conditions at the
-authentication point. Additional standards and best practice guidelines (e.g., [[FIPS 140]](../_Appendix/references.md#ref-FIPS140) and [[SP 800-116]](../_Appendix/references.md#ref-SP-800-116)) apply to the design and
+authentication point. Additional standards and best practice guidelines (e.g., [[SP 800-53]](../_Appendix/references.md#ref-SP-800-53), [[FIPS 140]](../_Appendix/references.md#ref-FIPS140), and [[SP 800-116]](../_Appendix/references.md#ref-SP-800-116)) apply to the design and
 implementation of relying systems.
 
 ### 6.3.1 Physical Access {#s-6-3-1}

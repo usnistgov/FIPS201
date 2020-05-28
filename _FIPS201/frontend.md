@@ -861,4 +861,4 @@ The specifications for fingerprint biometric capture devices for OCC are given i
 
 Malicious code could be introduced into PIN capture and biometric capture devices for the purpose of
 compromising or otherwise exploiting the PIV Card. General good practice to mitigate malicious code
-threats is outside the scope of this document (see [[SP 800-53]](../references/#ref-SP-800-53)).
+threats is outside the scope of this document (see [[SP 800-53]](../_Appendix/references.md/#ref-SP-800-53)).
