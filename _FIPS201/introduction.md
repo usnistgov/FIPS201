@@ -19,21 +19,21 @@ decisions.
 
 In the past, a wide range of legacy mechanisms has been employed to authenticate an individual,
 utilizing various classes of identity credentials. For physical access, an individual’s
-identity has been authenticated by use of paper or other non-automated, hand-carried
+identity has been authenticated using paper or other non-automated, hand-carried
 credentials such as badges and driver’s licenses. For logical access, authorization to access
 computers and data has been based on identities authenticated through user-selected
 passwords. Today, cryptographic mechanisms and biometric techniques
 are replacing these legacy mechanisms in physical and logical security applications.
-The strength of authentication that is achieved depends upon the type of
+The strength of authentication that is achieved depends on the type of
 credential, the process used to issue the credential, and the authentication mechanism
 used to validate the credential.
 
-This document establishes a standard for a Personal Identity Verification (PIV) system that meets the control and security objectives of [[HSPD-12]](_Appendix/references.md#ref-HSPD-12). It is based on secure and reliable forms of identity credentials issued by the Federal Government to its employees and contractors. These credentials are intended to authenticate individuals who require access to federally-controlled facilities, information systems, and applications. This Standard addresses requirements for initial identity proofing, infrastructure to support interoperability of identity credentials, and accreditation of organizations and processes issuing PIV credentials.
+This document establishes a standard for a Personal Identity Verification (PIV) system that meets the control and security objectives of [[HSPD-12]](_Appendix/references.md#ref-HSPD-12). It is based on secure and reliable forms of identity credentials issued by the Federal Government to its employees and contractors. These credentials are intended to authenticate individuals who require access to federallycontrolled facilities, information systems, and applications. This Standard addresses requirements for initial identity proofing, infrastructure to support interoperability of identity credentials, and accreditation of organizations and processes issuing PIV credentials.
 
 ## 1.1 Purpose {#s-1-1}
 
 This Standard defines reliable, government-wide identity credentials for use in applications such as
-access to federally-controlled facilities and information systems. This Standard has been developed
+access to federally controlled facilities and information systems. This Standard has been developed
 within the context and constraints of federal laws, regulations, and policies based on currently available and
 evolving information processing technology.
 
@@ -46,26 +46,25 @@ security levels that are dependent on risks to federal facilities or information
 [[HSPD-12]](../_Appendix/references.md#ref-HSPD-12), signed by President George W. Bush on August
 27, 2004, established the requirements for a common identification standard for identity credentials issued
 by federal departments and agencies to federal employees and contractors (including contractor
-employees) for gaining physical access to federally-controlled facilities and logical access to federally-controlled 
+employees) for gaining physical access to federally controlled facilities and logical access to federally controlled 
 information systems. HSPD-12 directs the Department of Commerce to develop a Federal
 Information Processing Standards (FIPS) publication to define such common identity credentials. In
-accordance with HSPD-12, this Standard defines the technical requirements for these identity credentials
-that
+accordance with HSPD-12, this Standard defines the following technical requirements for these identity credentials:
 
-- are issued based on sound criteria for verifying an individual employee's identity;
-- are strongly resistant to identity fraud, tampering, counterfeiting, and terrorist exploitation;
-- can be rapidly authenticated electronically; and
-- are issued only by providers whose reliability has been established by an official accreditation process.
+- They are issued based on sound criteria for verifying an individual employee's identity.
+- They are strongly resistant to identity fraud, tampering, counterfeiting, and terrorist exploitation.
+- They can be rapidly authenticated electronically.
+- They are issued only by providers whose reliability has been established by an official accreditation process.
 
-This Standard defines authentication mechanisms offering varying degrees of security for both logical and
+This Standard defines authentication mechanisms that offer varying degrees of security for both logical and
 physical access applications. Federal departments and agencies will determine the level of security and
 authentication mechanisms appropriate for their applications. The scope of this
-Standard is limited to authentication of an individual's identity. Authorization and access control
-decisions are outside the scope of this Standard. Moreover, requirements for a temporary credential used until
-a new or replacement PIV credential arrives are out of scope of this Standard.
+Standard is limited to the authentication of an individual's identity. Authorization and access control
+decisions are outside of the scope of this Standard. Moreover, requirements for a temporary credential used until
+a new or replacement PIV credential arrives are out of the scope of this Standard.
 
-While this Standard remains focused predominantly on PIV Cards, derived PIV credentials and
-federation protocols play an important role in the use of PIV accounts as well.
+While this Standard remains predominantly focused on PIV Cards, derived PIV credentials and
+federation protocols also play important roles in the use of PIV accounts.
 [Section 2.10](requirements.md#s-2-10) of this Standard defines mechanisms for derived PIV credentials
 associated with an active PIV account. Derived PIV credentials
 have authentication and lifecycle requirements that may differ from the PIV Card itself. This
@@ -113,7 +112,7 @@ _This subsection is normative._
 
 When a feature is to be discontinued or is no longer needed, it is deprecated. In general, a feature that is
 currently in use by relying systems would only be deprecated if there were a compelling
-reason to do so (e.g., security). Deprecated features MAY continue to be used, but SHOULD be phased out in future systems
+reason to do so (e.g., security). Deprecated features MAY continue to be used but SHOULD be phased out in future systems
 since the feature will likely be removed in the next revision of the Standard. Removed features SHALL NOT be used. For example, the CHUID
 authentication mechanism ([Section 6.2.5](authentication.md#s-6-2-5)) has been removed from this version of the Standard
 and relying systems SHALL NOT use this authentication
@@ -175,7 +174,7 @@ informative (i.e., provide information details that do not affect compliance). T
 + [Section 2, Common Identification, Security, and Privacy Requirements](requirements.md#s-2), outlines the requirements
     for identity proofing, registration, and issuance, by establishing the control and security
     objectives for compliance with [[HSPD-12]](../_Appendix/references.md#ref-HSPD-12). This section is *normative*.
-+ [Section 3, PIV System Overview](system.md#s-3), serves to provide an overview of the different components
++ [Section 3, PIV System Overview](system.md#s-3), provides an overview of the different components
     of the PIV system. This section is *informative*.
 + [Section 4, PIV Front-End Subsystem](frontend.md#s-4), provides the requirements for the components of the PIV
     front-end subsystem. It defines requirements for the PIV Card, logical
