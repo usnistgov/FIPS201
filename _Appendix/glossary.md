@@ -15,8 +15,8 @@ _This appendix is informative._ It describes the vocabulary and textual represen
 The following terms are used throughout this Standard.
 
 Access Control
-: The process of granting or denying specific requests: 1) obtain and use information and
-related information processing services; and 2) enter specific physical facilities (e.g., federal buildings,
+: The process of granting or denying specific requests to 1) obtain and use information and
+related information processing services and 2) enter specific physical facilities (e.g., federal buildings,
 military establishments, border crossing entrances).
 
 Applicant
@@ -40,16 +40,16 @@ Assertion
 Assertions may also contain information about the end user's _authentication_ event at the IdP.
 
 Asymmetric Keys
-: Two related _keys_, a _public key_ and a _private key_, that are used to perform
+: Two related _keys_&mdash;a _public key_ and a _private key_&mdash;that are used to perform
 complementary operations, such as encryption and decryption or signature generation and signature
 verification.
 
 Authentication
-: The process of establishing confidence of authenticity; in this case, in the validity of a
+: The process of establishing confidence of authenticity; in this case, the validity of a
 person's _identity_ and an authenticator (e.g., _PIV Card_ or _derived PIV credential_).
 
 Authenticator Assurance Level (AAL)
-: A measure of the strength of an _authentication_ mechanism, and therefore the confidence in it, as
+: A measure of the strength of an _authentication_ mechanism and, therefore, the confidence in it, as
 defined in [[SP 800-63]](references.md#ref-SP-800-63) in terms of three levels:
 
     AAL1
@@ -76,7 +76,7 @@ Biometric Characteristic
 : Biological attribute of an individual from which 
 distinctive and repeatable values can be extracted for the purpose 
 of automated recognition. Fingerprint ridge structure and face topography are 
-examples of biometric characteristics. [[ISO 2382-37]](references.md#ref-ISO/IEC-2382-37)
+examples of biometric characteristics [[ISO 2382-37]](references.md#ref-ISO/IEC-2382-37).
 
 Biometric Data
 : Biometric sample or aggregation of biometric samples at any stage of 
@@ -85,7 +85,7 @@ processing [[ISO 2382-37]](references.md#ref-ISO/IEC-2382-37).
 Biometric Data Record
 : Electronic data record containing biometric data.
 This information
-can be in terms of raw or compressed pixels or in terms of some _biometric characteristic_ (e.g., patterns). [[ISO 2382-37]](references.md#ref-ISO/IEC-2382-37)
+can be in terms of raw or compressed pixels or some _biometric characteristic_ (e.g., patterns) [[ISO 2382-37]](references.md#ref-ISO/IEC-2382-37).
 
 Biometric On-Card Comparison (OCC)
 : A one-to-one _comparison_ of fingerprint _biometric data records_ transmitted to the _PIV Card_ with a biometric reference 
@@ -102,24 +102,24 @@ Biometric Verification
 Biometric Verification Decision
 : A determination of whether biometric probe(s) and biometric reference(s) have 
 the same biometric source based on _comparison_ score(s) during a _biometric verification_ 
-transaction. [[ISO 2382-37]](references.md#ref-ISO/IEC-2382-37)
+transaction [[ISO 2382-37]](references.md#ref-ISO/IEC-2382-37).
 
 Capture
-: Series of actions undertaken to obtain and record, in a retrievable form, signals of _biometric characteristics_ directly from individuals. [[ISO 2382-37]](references.md#ref-ISO/IEC-2382-37)
+: Series of actions undertaken to directly obtain and record, in a retrievable form, signals of _biometric characteristics_ from individuals [[ISO 2382-37]](references.md#ref-ISO/IEC-2382-37).
 
 Cardholder
-: An individual possessing an issued _PIV Card_.
+: An individual who possesses an issued _PIV Card_.
 
 Card Management System
 : The card management system manages the lifecycle of a _PIV Card_
-Application.
+application.
 
 Central Verification System
-: A system operated by the Office of Personnel Management containing information on security clearances, investigations, suitability, fitness determinations, [[HSPD-12]](references.md#ref-HSPD-12) decisions, PIV credentials, and polygraph data.
+: A system operated by the Office of Personnel Management that contains information on security clearances, investigations, suitability, fitness determinations, [[HSPD-12]](references.md#ref-HSPD-12) decisions, PIV credentials, and polygraph data.
 
 Certificate Revocation List
 : A list of revoked _public key_ certificates created and digitally signed by a
-_certification authority_. [[RFC 5280]](references.md#ref-RFC5280) [[RFC 6818]](references.md#ref-RFC6818)
+_certification authority_ [[RFC 5280]](references.md#ref-RFC5280) [[RFC 6818]](references.md#ref-RFC6818).
 
 Certification
 : The process of verifying the correctness of a statement or claim and issuing a certificate as
@@ -128,25 +128,25 @@ to its correctness.
 Certification Authority
 : A trusted entity that issues and revokes _public key_ certificates.
 
-Chain-of-trust
-: An interoperable data format for _PIV enrollment records_ facilitating import and export of records 
+Chain of trust
+: An interoperable data format for _PIV enrollment records_ that facilitates the import and export of records 
 between _PIV Card_ _issuers_.
 
 Comparison
-: Estimation, calculation, or measurement of similarity or dissimilarity between biometric probe(s) and biometric reference(s). 
-See also _Identification_. [[ISO 2382-37]](references.md#ref-ISO/IEC-2382-37) 
+: Estimation, calculation, or measurement of similarity or dissimilarity between biometric probe(s) and biometric reference(s) [[ISO 2382-37]](references.md#ref-ISO/IEC-2382-37). 
+See also _Identification_. 
 
 Component
-: An element of a large system, such as an _identity_ card, _issuer_, card reader, or _identity
-verification_ support, within the PIV system.
+: An element of a large system&mdash;such as an _identity_ card, _issuer_, card reader, or _identity
+verification_ support&mdash;within the PIV system.
 
 Conformance Testing
 : A process established by NIST within its responsibilities of developing,
-promulgating, and supporting FIPS for testing specific characteristics of _components_, products, and
-services, as well as people and organizations for compliance with a FIPS.
+promulgating, and supporting FIPS for testing specific characteristics of _components_, products,
+services, people, and organizations for compliance with a FIPS.
 
 Credential
-: Evidence attesting to one's right to credit or authority; in this Standard, it is the _PIV Card_
+: Evidence attesting to one's right to credit or authority. In this Standard, it is the _PIV Card_
 or _derived PIV credential_ associated with an individual that authoritatively binds an _identity_ (and, optionally,
 additional attributes) to that individual.
 
@@ -162,13 +162,13 @@ Enrollment
 : See _Identity Registration_.
 
 Enrollment Data Set
-: A record including information about a biometric enrollment: name and role of
-the acquiring agent, office and organization, time, place, and acquisition method.
+: A record that includes information about a biometric enrollment (i.e., name and role of
+the acquiring agent, office and organization, time, place, and acquisition method).
 
 Federal Agency Smart Credential Number (FASC-N)
-: As required by FIPS 201, one of the primary
-_identifiers_ on the _PIV Card_ for physical _access control_. The FASC-N is a fixed length (25&nbsp;byte) data
-object, specified in [[SP 800-73]](references.md#ref-SP-800-73), and included in several data objects on a _PIV Card_.
+: One of the primary
+_identifiers_ on the _PIV Card_ for physical _access control_, as required by FIPS 201. The FASC-N is a fixed length (25&nbsp;byte) data
+object that is specified in [[SP 800-73]](references.md#ref-SP-800-73), and included in several data objects on a _PIV Card_.
 
 Federal Information Processing Standards (FIPS)
 : A standard for adoption and use by federal
@@ -177,7 +177,7 @@ published by NIST, a part of the U.S. Department of Commerce. A FIPS covers some
 information technology to achieve a common level of quality or some level of interoperability.
 
 Federation
-: A process that allows the conveyance of _identity_ and _authentication_ information across a set of networked systems.
+: A process that allows for the conveyance of _identity_ and _authentication_ information across a set of networked systems.
 
 ~~~
 \clearpage
@@ -185,7 +185,7 @@ Federation
 {:latex-literal="true"}
 
 Federation Assurance Level (FAL)
-: A category describing the _federation_ protocol used to communicate an _assertion_ containing _authentication_ and attribute 
+: A category that describes the _federation_ protocol used to communicate an _assertion_ containing _authentication_ and attribute 
 information (if applicable) to an RP, as
 defined in [[SP 800-63]](references.md#ref-SP-800-63) in terms of three levels:
 
@@ -246,7 +246,7 @@ or _applications_ that manage the _identity proofing_, _registration_, and issua
 Identity Registration
 : The process of making a person's _identity_ known to the PIV system, associating a
 unique _identifier_ with that _identity_, and collecting and recording the person's relevant attributes into the
-system. In some other NIST documents such as [[SP 800-63A]](references.md#ref-SP-800-63A), identity registration is referred to as _enrollment_.
+system. In some other NIST documents, such as [[SP 800-63A]](references.md#ref-SP-800-63A), identity registration is referred to as _enrollment_.
 
 Identity Verification
 : The process of confirming or denying that a claimed _identity_ is correct by
@@ -263,11 +263,11 @@ Issuing Facility
   documentation---that is responsible for carrying out one or more of the
   following PIV functions:
   
-  * _identity proofing_/_registration_;
-  * card/token production;
-  * activation/issuance;
-  * post-issuance binding of _derived PIV credential_; and
-  * maintenance.
+  * _identity proofing_/_registration_
+  * card/token production
+  * activation/issuance
+  * post-issuance binding of _derived PIV credential_
+  * maintenance
 
 Key
 : See _Cryptographic Key_.
@@ -275,10 +275,10 @@ Key
 Match
 : _Comparison_ decision stating that the biometric probe(s) and the biometric 
 reference are from the same source. Match is a possible result of a 
-_Comparison_. The opposite of a match is a non-match. [[ISO 2382-37]](references.md#ref-ISO/IEC-2382-37)
+_Comparison_. The opposite of a match is a non-match [[ISO 2382-37]](references.md#ref-ISO/IEC-2382-37).
 
 Model
-: A very detailed description or scaled representation of one _component_ of a larger system that can
+: A detailed description or scaled representation of one _component_ of a larger system that can
 be created, operated, and analyzed to predict actual operational characteristics of the final produced
 _component_.
 
@@ -289,15 +289,15 @@ _component_.
 
 Off-Card
 : Refers to data that is not stored within the _PIV Card_ or to a computation that is not performed
-by the Integrated Circuit Chip (ICC) of the _PIV Card_.
+by the integrated circuit chip (ICC) of the _PIV Card_.
 
 On-Card
 : Refers to data that is stored within the _PIV Card_ or to a computation that is performed by the
-Integrated Circuit Chip (ICC) of the _PIV Card_.
+integrated circuit chip (ICC) of the _PIV Card_.
 
 Online Certificate Status Protocol (OCSP)
 : An online protocol used to determine the status of a _public
-key_ certificate. [[RFC 6960]](references.md#ref-RFC6960)
+key_ certificate [[RFC 6960]](references.md#ref-RFC6960).
 
 Path Validation
 : The process of verifying the binding between the subject _identifier_ and subject _public
@@ -308,20 +308,20 @@ trustworthy.
 
 Personally Identifiable Information (PII)
 : Information that can be used to distinguish or trace an
-individual's _identity_, such as name, social security number, _biometric data records_, etc. alone, or when
-combined with other personal or identifying information that is linked or linkable to a specific individual,
-such as date and place of birth, mother's maiden name, etc. [[M-17-12]](references.md#ref-OMB1712)
+individual's _identity_&mdash;such as name, social security number, _biometric data records_&mdash;alone, or when
+combined with other personal or identifying information that is linked or linkable to a specific individual
+(e.g., date and place of birth, mother's maiden name, etc.) [[M-17-12]](references.md#ref-OMB1712).
 
 Personal Identification Number (PIN)
 : A numeric secret that a _cardholder_ memorizes and uses as part of authenticating
 their _identity_.
 
 Personal Identity Verification (PIV) Account
-: The logical record containing credentialing information for a given PIV _cardholder_. This is typically stored within the _issuer_’s _identity management system_, and includes PIV enrollment data, _cardholder_ _identity_ attributes, and information regarding authenticators bound to the _cardholder_’s _identity_ (e.g., _PIV Card_ and _derived PIV credentials_).
+: The logical record containing credentialing information for a given PIV _cardholder_. This is typically stored within the _issuer’s_ _identity management system_ and includes PIV enrollment data, _cardholder_ _identity_ attributes, and information regarding authenticators bound to the _cardholder_’s _identity_ (e.g., _PIV Card_ and _derived PIV credentials_).
 
 Personal Identity Verification (PIV) Card
 : A physical artifact (e.g., _identity_ card, "smart" card) issued
-to an individual that contains a PIV Card Application which stores _identity_ _credentials_ (e.g., photograph,
+to an individual that contains a PIV Card application which stores _identity_ _credentials_ (e.g., photograph,
 _cryptographic keys_, digitized fingerprint representation) so that the claimed _identity_ of the _cardholder_ can
 be verified against the stored _credentials_.
 
@@ -340,9 +340,9 @@ Private Key
 data.
 
 Pseudonym
-: A name assigned by a federal department or agency through a formal process to a federal
-employee for the purpose of the employee's protection (i.e., the employee might be placed at risk if his or
-her actual name were known) or for other purposes.
+: A name assigned through a formal process by a federal department or agency to a federal
+employee for the purpose of the employee's protection (i.e., the employee might be placed at risk if their
+actual name were known) or for other purposes.
 
 Public Key
 : The public part of an _asymmetric key_ pair that is typically used to verify signatures or
@@ -351,7 +351,7 @@ encrypt data.
 Public Key Infrastructure (PKI)
 : A support service to the PIV system that provides the _cryptographic
 keys_ needed to perform digital signature-based _identity verification_ and to protect communications and
-storage of sensitive verification system data within _identity_ cards and the verification system.
+the storage of sensitive verification system data within _identity_ cards and the verification system.
 
 PKI-Card Authentication (PKI-CAK)
 : A PIV _authentication_ mechanism that is implemented by
@@ -361,19 +361,19 @@ contact or contactless reader.
 PKI-PIV Authentication (PKI-AUTH)
 : A PIV _authentication_ mechanism that is implemented by
 an _asymmetric key_ challenge/response protocol using the PIV _authentication_ _key_ of the _PIV Card_ and a
-contact reader, or a contactless card reader that supports the virtual contact interface.
+contact reader or a contactless card reader that supports the virtual contact interface.
 
 Recommendation
-: A special publication of the ITL stipulating specific characteristics of technology to
-use or procedures to follow to achieve a common level of quality or level of interoperability.
+: A special publication of the ITL that stipulates specific characteristics of technology to
+use or the procedures to follow to achieve a common level of quality or level of interoperability.
 
 Registration
 : See _Identity Registration_.
 
 Symmetric Key
 : A _cryptographic key_ that is used to perform both the cryptographic operation and its
-inverse, for example to encrypt and decrypt, or create a message _authentication_ code and to verify the
-code.
+inverse (e.g., to encrypt, decrypt, or create a message _authentication_ code and verify
+it).
 
 ~~~
 \clearpage
@@ -381,7 +381,7 @@ code.
 {:latex-literal="true"}
 
 Security Executive Agent
-: Individual responsible for the development, implementation, and oversight of effective, efficient, and uniform policies and procedures governing the conduct of investigations and adjudications for eligibility for access to classified information and eligibility to hold a sensitive position in the Federal Government. In accordance with Executive Order 13467 (as amended), this individual is the Director of National Intelligence (DNI).
+: Individual responsible for the development, implementation, and oversight of effective, efficient, and uniform policies and procedures that govern the conduct of investigations and adjudications for eligibility to access classified information and eligibility to hold a sensitive position in the Federal Government. In accordance with Executive Order 13467 (as amended), this individual is the Director of National Intelligence (DNI).
 
 Suitability and Credentialing Executive Agent
 : Individual responsible for prescribing suitability standards and minimum standards of fitness for employment. With the issuance of Executive Order 13467, as amended, the Suitability and Credentialing Executive Agent is responsible for the development, implementation, and oversight of effective, efficient, and uniform policies and procedures governing the conduct of investigations and adjudications for Suitability, Fitness, and Credentialing determinations in the Federal Government. Pursuant to sections 1103 and 1104 of title 5, United States Code, and the Civil Service Rules, the director of the Office of Personnel Management (OPM) is the Suitability and Credentialing Executive Agent. 
@@ -671,6 +671,6 @@ This Standard uses the following typographical conventions in text:
     defined for digital signatures.
 - Specific terms in CAPITALS represent normative requirements. When these same terms are not in CAPITALS, the term does not represent a normative requirement. 
     - The terms "SHALL" and "SHALL NOT" indicate requirements to be followed strictly in order to conform to the publication and from which no deviation is permitted.
-    - The terms "SHOULD" and "SHOULD NOT" indicate that among several possibilities one is recommended as particularly suitable, without mentioning or excluding others, or that a certain course of action is preferred but not necessarily required, or that (in the negative form) a certain possibility or course of action is discouraged but not prohibited.
+    - The terms "SHOULD" and "SHOULD NOT" indicate that among several possibilities, one is recommended as particularly suitable without mentioning or excluding others, that a certain course of action is preferred but not necessarily required, or that (in the negative form) a certain possibility or course of action is discouraged but not prohibited.
     - The terms "MAY" and "NEED NOT" indicate a course of action permissible within the limits of the publication.
-    - The terms "CAN" and "CANNOT" indicate a possibility and capability, whether material, physical or causal or, in the negative, the absence of that possibility or capability.
+    - The terms "CAN" and "CANNOT" indicate a possibility and capability&mdash;whether material, physical, or causal&mdash;or, in the negative, the absence of that possibility or capability.
