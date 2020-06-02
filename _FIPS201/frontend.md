@@ -81,7 +81,7 @@ or to ultraviolet and daylight fading exposure in accordance with [[ANSI 322]](.
 Sunlight exposure in accordance to [[ISO 10373]](../_Appendix/references.md#ref-ISO10373) SHALL be in the
 form of actual, concentrated, or artificial sunlight that appropriately reflect 2&thinsp;000&nbsp;hours of 
 southwestern United States' sunlight. 
-Concentrated sunlight exposure SHALL be performed in accordance with [[G90-98]](../_Appendix/references.md#ref-G90-98) and accelerated 
+Concentrated sunlight exposure SHALL be performed in accordance with [[G90-17]](../_Appendix/references.md#ref-G90-17) and accelerated 
 exposure in accordance with [[G155-2013]](../_Appendix/references.md#ref-G155-2013). The card 
 SHALL be subjected to the
 [[ISO 10373]](../_Appendix/references.md#ref-ISO10373) dynamic bending test and SHALL have no visible 
