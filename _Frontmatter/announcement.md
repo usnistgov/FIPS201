@@ -10,10 +10,7 @@ Federal Information Processing Standards Publications (FIPS PUBS) are issued by 
 
 # 1. Name of Standard. {#f-1}
 
-Personal Identity Verification (PIV) of Federal Employees and Contractors (FIPS 201-3).[^hspd12]
-
-[^hspd12]: This Standard is in response to Homeland Security Presidential Directive-12, which states that it is "intended only to improve the internal management of the executive branch of the Federal Government."
-
+Personal Identity Verification (PIV) of Federal Employees and Contractors (FIPS 201-3).
 
 # 2. Category of Standard. {#f-2}
 
