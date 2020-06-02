@@ -11,7 +11,7 @@ permalink: /references/
 _This appendix is informative._ It lists the specifications and standards referred to in this document.
 
 [[A-130]](references.md#ref-A-130){:name="ref-A-130"} Office of Management and Budget (2016)
-Managing Information as a Strategic Resource.
+*Managing Information as a Strategic Resource.*
 (The White House, Washington, DC), OMB Circular A-130, July 28, 2016. 
 Available at <https://www.whitehouse.gov/sites/whitehouse.gov/files/omb/circulars/A130/a130revised.pdf>
  
@@ -36,7 +36,7 @@ Available at <https://www.idmanagement.gov/wp-content/uploads/sites/1171/uploads
 [[FCS]](references.md#ref-FCS){:name="ref-FCS"} U.S. Office of Personnel Management (2008)
 *Final Credentialing Standards for Issuing Personal Identity Verification Cards under HSPD-12.*
 (U.S. Office of Personnel Management, Washington, DC), July 31, 2008. 
-Available at https://www.opm.gov/suitability/suitability-executive-agent/policy/final-credentialing-standards.pdf 
+Available at <https://www.opm.gov/suitability/suitability-executive-agent/policy/final-credentialing-standards.pdf>
 
 [[FIPS 140]](references.md#ref-FIPS140){:name="ref-FIPS140"} National Institute of Standards and Technology (2019)
 *Security Requirements for Cryptographic Modules.*
@@ -71,12 +71,12 @@ Available at <https://compass.astm.org/EDIT/html_annot.cgi?G90+17>
 [[HSPD-12]](references.md#ref-HSPD-12){:name="ref-HSPD-12"} Bush, GW (2004)
 *Policy for a Common Identification Standard for Federal Employees and Contractors.*
 (The White House, Washington, DC), Homeland Security Presidential Directive HSPD-12.
-Available at https://www.dhs.gov/homeland-security-presidential-directive-12
+Available at <https://www.dhs.gov/homeland-security-presidential-directive-12>
 
 [[IEC61966]](references.md#ref-IEC61966){:name="ref-IEC61966"} International Electrotechnical Commission (1999)
 *IEC 61966-2-1:1999 &mdash; Multimedia systems and equipment &mdash; Colour measurement and management&mdash;Part 2-1: Colour management&mdash;Default RGB colour space &mdash; sRGB.*
 (International Electrotechnical Commission, Geneva, Switzerland) [or as amended].
-Available at https://webstore.iec.ch/publication/6169
+Available at <https://webstore.iec.ch/publication/6169>
 
 [[IR 6529-A]](references.md#ref-CBEFF){:name="ref-CBEFF"} Podio FL, Dunn JS, Reinert L, Tilton CJ, Struif B, Herr F, Russell J (2004)
 *Common Biometric Exchange Formats Framework (CBEFF).*
@@ -91,37 +91,12 @@ Cardholder Authentication for the PIV Digital Signature Key.
 [[ISC-RISK]](references.md#ref-ISC-RISK){:name="ref-ISC-RISK"} Interagency Security Committee (2016)
 *The Risk Management Process for Federal Facilities: An Interagency Security Committee Standard.*
 (U.S. Department of Homeland Security, Washington, DC), 2nd edition [or as amended].
-Available at <https://www.cisa.gov/publication/isc-risk-management-process>
+Available at <https://www.cisa.gov/sites/default/files/publications/isc-risk-management-process-2016-508.pdf>
 
 [[ISO 2382-37]](references.md#ref-ISO/IEC-2382-37){:name="ref-ISO/IEC-2382-37"} International Organization for Standardization/International Electrotechnical Commission (2017)
 *ISO/IEC 2382-37:2017 &mdash; Information technology &mdash; Vocabulary &mdash; Part 37: Biometrics.*
 (International Organization for Standardization, Geneva, Switzerland) [or as amended].
 Available at <https://www.iso.org/standard/66693.html>
-
-[[ISO 10373]](references.md#ref-ISO10373){:name="ref-ISO10373"} ISO/IEC 10373, *Identification Cards—Test Methods.* Part 1—*Standard for General
-Characteristic Test of Identification Cards*, ISO, 2006+AMD1 2012. Part 3—*Standard for Integrated Circuit
-Cards with Contacts and Related Interface Devices*, ISO, 2018. Part 6—*Standard for Proximity
-Card Support in Identification Cards*, ISO, 2016.
-
-[[ISO 10373-1]](references.md#ref-ISO10373-1){:name="ref-ISO10373-1"} International Organization for Standardization/International Electrotechnical Commission (2006)
-*ISO/IEC 10373-1:2006 &mdash; Identification Cards &mdash; Test Methods &mdash; Part 1: General Characteristics.*
-(International Organization for Standardization, Geneva, Switzerland) [or as amended].
-Available at <https://www.iso.org/standard/40682.html>
-
-[[ISO 10373-3]](references.md#ref-ISO10373-3){:name="ref-ISO10373-3"} International Organization for Standardization/International Electrotechnical Commission (2018)
-*ISO/IEC 10373-3:2018 &mdash; Identification Cards &mdash; Test Methods &mdash; Part 3: Integrated Circuit Cards with Contacts and Related Interface Devices.*
-(International Organization for Standardization, Geneva, Switzerland) [or as amended].
-Available at <https://www.iso.org/standard/74238.html >
-
-[[ISO 10373-6]](references.md#ref-ISO10373-6){:name="ref-ISO10373-6"} International Organization for Standardization/International Electrotechnical Commission (2016)
-*ISO/IEC 10373-6:2016 &mdash; Identification Cards &mdash; Test Methods &mdash; Part 6: Proximity Cards.*
-(International Organization for Standardization, Geneva, Switzerland) [or as amended].
-Available at <https://www.iso.org/standard/66290.html >
-
-[[ISO 14443]](references.md#ref-ISO14443){:name="ref-ISO14443"} International Organization for Standardization/International Electrotechnical Commission (2018)
-*ISO/IEC 14443-1:2018 &mdash; Cards and security devices for personal identification &mdash; Contactless proximity objects Part 1: Physical characteristics.*
-(International Organization for Standardization, Geneva, Switzerland) [or as amended].
-Available at <https://www.iso.org/standard/73596.html>
 
 [[ISO 3166]](references.md#ref-ISO3166){:name="ref-ISO3166"} International Organization for Standardization (2013)
 *ISO 3166-1:2013 Codes for the representation of names of countries and their subdivisions &mdash; Part 1: Country codes.*
@@ -133,58 +108,74 @@ Available at <https://www.iso.org/standard/63545.html>
 (International Organization for Standardization, Geneva, Switzerland) [or as amended].
 Available at <https://www.iso.org/standard/70483.html>
 
-[[ISO 7811]](references.md#ref-ISO7811){:name="ref-ISO7811"} ISO/IEC 7811, *Identification cards -- Recording technique.* Part 6—*Magnetic
-stripe -- High coercivity*, ISO, 2018. Part 7—*Magnetic stripe -- High coercivity, high density*,
-ISO, 2018.
+[[ISO 7811]](references.md#ref-ISO7811){:name="ref-ISO7811"} International Organization for Standardization/International Electrotechnical Commission (2018)
+*ISO/IEC 7811-6:2018 &mdash; Identification cards &mdash; Recording technique.* (multiple parts):
+   
+- International Organization for Standardization/International Electrotechnical Commission (2018)
+    *ISO/IEC 7811-6:2018 &mdash; Identification cards &mdash; Recording technique &mdash; Part 6: Magnetic stripe: High coercivity.*
+    (International Organization for Standardization, Geneva, Switzerland) [or as amended].
+    Available at <https://www.iso.org/standard/73639.html>
+    
+-  International Organization for Standardization/International Electrotechnical Commission (2018)
+    *ISO/IEC 7811-7:2018 &mdash; Identification cards &mdash; Recording technique &mdash; Part 7: Magnetic stripe: High coercivity, high density.*
+    (International Organization for Standardization, Geneva, Switzerland) [or as amended].
+    Available at <https://www.iso.org/standard/73640.html>
 
-[[ISO 7811-6]](references.md#ref-ISO7811-6){:name="ref-ISO7811-6"} International Organization for Standardization/International Electrotechnical Commission (2018)
-*ISO/IEC 7811-6:2018 &mdash; Identification cards &mdash; Recording technique &mdash; Part 6: Magnetic stripe: High coercivity.*
+[[ISO 7816]](references.md#ref-ISO7816){:name="ref-ISO7816"} International Organization for Standardization/International Electrotechnical Commission (2004-2020)
+*ISO/IEC 7816 &mdash; Identification cards &mdash; Integrated circuit cards.* (multiple parts):
+
+- International Organization for Standardization/International Electrotechnical Commission (2011)
+    *ISO/IEC 7816-1:2011 &mdash; Identification cards &mdash; Integrated circuit cards &mdash; Part 1: Cards with Contacts &mdash; Physical characteristics.*
+    (International Organization for Standardization, Geneva, Switzerland) [or as amended].
+    Available at <https://www.iso.org/standard/54089.html>
+    
+- International Organization for Standardization/International Electrotechnical Commission (2007)
+    *ISO/IEC 7816-2:2007 &mdash; Identification cards &mdash; Integrated circuit cards &mdash; Part 2: Cards with contacts &mdash; Dimensions and location of the contacts.*
+    (International Organization for Standardization, Geneva, Switzerland) [or as amended].
+    Available at <https://www.iso.org/standard/45989.html>
+    
+- International Organization for Standardization/International Electrotechnical Commission (2006)
+    *ISO/IEC 7816-3:2006 &mdash; Identification cards &mdash; Integrated circuit cards &mdash; Part 3: Cards with contacts &mdash; Electrical interface and transmission protocols.*
+    (International Organization for Standardization, Geneva, Switzerland) [or as amended].
+    Available at <https://www.iso.org/standard/38770.html>
+    
+- International Organization for Standardization/International Electrotechnical Commission (2020)
+    *ISO/IEC 7816-4:2020 &mdash; Identification cards &mdash; Integrated circuit cards &mdash; Part 4: Organization, security and commands for interchange.*
+    (International Organization for Standardization, Geneva, Switzerland) [or as amended].
+    Available at <https://www.iso.org/standard/77180.html>
+    
+- International Organization for Standardization/International Electrotechnical Commission (2004)
+    *ISO/IEC 7816-5:2004 &mdash; Identification cards &mdash; Integrated circuit cards &mdash; Part 5: Registration of application providers.*
+    (International Organization for Standardization, Geneva, Switzerland) [or as amended].
+    Available at https://www.iso.org/standard/34259.html
+
+- International Organization for Standardization/International Electrotechnical Commission (2016)
+    *ISO/IEC 7816-6:2016 &mdash; Identification cards &mdash; Integrated circuit cards &mdash; Part 6: Interindustry data elements for interchange.*
+    (International Organization for Standardization, Geneva, Switzerland) [or as amended].
+    Available at <https://www.iso.org/standard/64598.html>
+
+[[ISO 10373]](references.md#ref-ISO10373){:name="ref-ISO10373"} International Organization for Standardization/International Electrotechnical Commission (2006-2018)
+*ISO/IEC 10373-1:2006 &mdash; Identification Cards &mdash; Test Methods &mdash.* (multiple parts):
+
+-  International Organization for Standardization/International Electrotechnical Commission (2006)
+    *ISO/IEC 10373-1:2006 &mdash; Identification Cards &mdash; Test Methods &mdash; Part 1: General Characteristics.*
+    (International Organization for Standardization, Geneva, Switzerland) [or as amended].
+    Available at <https://www.iso.org/standard/40682.html>
+    
+-  International Organization for Standardization/International Electrotechnical Commission (2018)
+    *ISO/IEC 10373-3:2018 &mdash; Identification Cards &mdash; Test Methods &mdash; Part 3: Integrated Circuit Cards with Contacts and Related Interface Devices.*
+    (International Organization for Standardization, Geneva, Switzerland) [or as amended].
+    Available at <https://www.iso.org/standard/74238.html>
+    
+-  International Organization for Standardization/International Electrotechnical Commission (2016)
+    *ISO/IEC 10373-6:2016 &mdash; Identification Cards &mdash; Test Methods &mdash; Part 6: Proximity Cards.*
+    (International Organization for Standardization, Geneva, Switzerland) [or as amended].
+    Available at <https://www.iso.org/standard/66290.html>
+
+[[ISO 14443]](references.md#ref-ISO14443){:name="ref-ISO14443"} International Organization for Standardization/International Electrotechnical Commission (2018)
+*ISO/IEC 14443-1:2018 &mdash; Cards and security devices for personal identification &mdash; Contactless proximity objects Part 1: Physical characteristics.*
 (International Organization for Standardization, Geneva, Switzerland) [or as amended].
-Available at <https://www.iso.org/standard/73639.html>
-
-[[ISO 7811-7]](references.md#ref-ISO7811-7){:name="ref-ISO7811-7"} International Organization for Standardization/International Electrotechnical Commission (2018)
-*ISO/IEC 7811-7:2018 &mdash; Identification cards &mdash; Recording technique &mdash; Part 7: Magnetic stripe: High coercivity, high density.*
-(International Organization for Standardization, Geneva, Switzerland) [or as amended].
-Available at <https://www.iso.org/standard/73640.html>
-
-[[ISO 7816]](references.md#ref-ISO7816){:name="ref-ISO7816"} ISO/IEC 7816, *Identification Cards—Integrated Circuits with Contacts*, Parts 1-6,
-ISO. 1-2011, 2-2007, 3-2006, 4-2013, 5-2004, 6-2016.
-
-[[ISO 7816-1]](references.md#ref-ISO7816-1){:name="ref-ISO7816-1"}
-International Organization for Standardization/International Electrotechnical Commission (2011)
-*ISO/IEC 7816-1:2011 &mdash; Identification cards &mdash; Integrated circuit cards &mdash; Part 1: Cards with Contacts &mdash; Physical characteristics.*
-(International Organization for Standardization, Geneva, Switzerland) [or as amended].
-Available at <https://www.iso.org/standard/54089.html>
-
-[[ISO 7816-2]](references.md#ref-ISO7816-2){:name="ref-ISO7816-2"}
-International Organization for Standardization/International Electrotechnical Commission (2007)
-*ISO/IEC 7816-2:2007 &mdash; Identification cards &mdash; Integrated circuit cards &mdash; Part 2: Cards with contacts &mdash; Dimensions and location of the contacts.*
-(International Organization for Standardization, Geneva, Switzerland) [or as amended].
-Available at <https://www.iso.org/standard/45989.html>
-
-[[ISO 7816-3]](references.md#ref-ISO7816-3){:name="ref-ISO7816-3"}
-International Organization for Standardization/International Electrotechnical Commission (2006)
-*ISO/IEC 7816-3:2006 &mdash; Identification cards &mdash; Integrated circuit cards &mdash; Part 3: Cards with contacts &mdash; Electrical interface and transmission protocols.*
-(International Organization for Standardization, Geneva, Switzerland) [or as amended].
-Available at <https://www.iso.org/standard/38770.html>
-
-[[ISO 7816-4]](references.md#ref-ISO7816-4){:name="ref-ISO7816-4"}
-International Organization for Standardization/International Electrotechnical Commission (2020)
-*ISO/IEC 7816-4:2020 &mdash; Identification cards &mdash; Integrated circuit cards &mdash; Part 4: Organization, security and commands for interchange.*
-(International Organization for Standardization, Geneva, Switzerland) [or as amended].
-Available at https://www.iso.org/standard/77180.html
-
-[[ISO 7816-5]](references.md#ref-ISO7816-5){:name="ref-ISO7816-5"}
-International Organization for Standardization/International Electrotechnical Commission (2004)
-*ISO/IEC 7816-5:2004 &mdash; Identification cards &mdash; Integrated circuit cards &mdash; Part 5: Registration of application providers.*
-(International Organization for Standardization, Geneva, Switzerland) [or as amended].
-Available at https://www.iso.org/standard/34259.html
-
-[[ISO 7816-6]](references.md#ref-ISO7816-6){:name="ref-ISO7816-6"}
-International Organization for Standardization/International Electrotechnical Commission (2016)
-*ISO/IEC 7816-6:2016 &mdash; Identification cards &mdash; Integrated circuit cards &mdash; Part 6: Interindustry data elements for interchange.*
-(International Organization for Standardization, Geneva, Switzerland) [or as amended].
-Available at https://www.iso.org/standard/64598.html
+Available at <https://www.iso.org/standard/73596.html>
 
 ~~~
 \clearpage
@@ -226,7 +217,6 @@ Available at <https://www.pcscworkgroup.com/specifications/>
 [[PROF]](references.md#ref-PROF){:name="ref-PROF"} Federal Public Key Infrastructure Policy Authority (2018)
 *X.509 Certificate and Certificate Revocation List (CRL) Extensions Profile for the Shared Service Providers (SSP) Program.*
 (Federal CIO Council), Version 1.9 [or as amended].
-Available at <https://www.idmanagement.gov/sites/default/files/documents/CertCRLprofileForCP.pdf>.
 
 [[REAL-ID]](references.md#ref-REAL-ID){:name="ref-REAL-ID"} "Minimum Standards for Driver’s Licenses and Identification Cards Acceptable by Federal Agencies for Official Purposes; Final Rule,"
 73 Federal Register 5271 (January 29, 2008), pp 5271-5340.
@@ -240,7 +230,7 @@ Available at <https://www.idmanagement.gov/sites/default/files/documents/CertCRL
 [[RFC 4122]](references.md#ref-RFC4122){:name="ref-RFC4122"} Leach P, Mealling M, Salz R (2005)
 *A Universally Unique IDentifier (UUID) URN Namespace.*
 (Internet Engineering Task Force (IETF) Network Working Group), IETF Request for Comments (RFC) 4122.
-<http://doi.org/10.17487/RFC4122>
+<https://doi.org/10.17487/RFC4122>
 
 ~~~
 \clearpage
@@ -250,27 +240,27 @@ Available at <https://www.idmanagement.gov/sites/default/files/documents/CertCRL
 [[RFC 5280]](references.md#ref-RFC5280){:name="ref-RFC5280"} Cooper D, Santesson S, Farrell S, Boeyen S, Housley R, Polk W (2008)
 *Internet X.509 Public Key Infrastructure Certificate and Certificate Revocation List (CRL) Profile.*
 (Internet Engineering Task Force (IETF) Network Working Group), IETF Request for Comments (RFC) 5280.
-<http://doi.org/10.17487/RFC5280>
+<https://doi.org/10.17487/RFC5280>
 
 [[RFC 5652]](references.md#ref-RFC5652){:name="ref-RFC5652"} Housley R (2009)
 *Cryptographic Message Syntax (CMS).*
 (Internet Engineering Task Force (IETF) Network Working Group), IETF Request for Comments (RFC) 5652.
-<http://doi.org/10.17487/RFC5652>
+<https://doi.org/10.17487/RFC5652>
 
 [[RFC 6818]](references.md#ref-RFC6818){:name="ref-RFC6818"} Yee P (2013)
 *Updates to the Internet X.509 Public Key Infrastructure Certificate and Certificate Revocation List (CRL) Profile.*
 (Internet Engineering Task Force (IETF)), IETF Request for Comments (RFC) 6818.
-<http://doi.org/10.17487/RFC6818>
+<https://doi.org/10.17487/RFC6818>
 
 [[RFC 6960]](references.md#ref-RFC6960){:name="ref-RFC6960"} Santesson S, Myers M, Ankney R, Malpani A, Galperin S, Adams C (2013)
 *X.509 Internet Public Key Infrastructure Online Certificate Status Protocol &mdash; OCSP.*
 (Internet Engineering Task Force (IETF)), IETF Request for Comments (RFC) 6960.
-<http://doi.org/10.17487/RFC6960>
+<https://doi.org/10.17487/RFC6960>
 
 [[RFC 8485]](references.md#ref-RFC8485){:name="ref-RFC8485"} Richer J (ed.), Johansson L (2018)
 *Vectors of Trust.*
 (Internet Engineering Task Force (IETF)), IETF Request for Comments (RFC) 8485.
-<http://doi.org/10.17487/RFC8485>
+<https://doi.org/10.17487/RFC8485>
 
 [[RISK-MGMT-FACILITIES]](references.md#ref-RISK-MGMT-FACILITIES){:name="ref-RISK-MGMT-FACILITIES"} Interagency Security Committee (2016)
 *The Risk Management Process for Federal Facilities: An Interagency Security Committee Standard.*
