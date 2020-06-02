@@ -10,205 +10,370 @@ permalink: /references/
 
 _This appendix is informative._ It lists the specifications and standards referred to in this document.
 
-[[A-130]](references.md#ref-A-130){:name="ref-A-130"} OMB Circular A-130, Managing Federal Information as a Strategic Resource, July 28, 2016. 
-Available at <https://www.whitehouse.gov/sites/whitehouse.gov/files/omb/circulars/A130/a130revised.pdf>.
+[[A-130]](references.md#ref-A-130){:name="ref-A-130"} Office of Management and Budget (2016) Managing Information as a Strategic Resource. 
+(The White House, Washington, DC), OMB Circular A-130, July 28, 2016. 
+Available at <https://www.whitehouse.gov/sites/whitehouse.gov/files/omb/circulars/A130/a130revised.pdf>
  
-[[ANSI 322]](references.md#ref-ANSI322){:name="ref-ANSI322"} ANSI INCITS 322 Information Technology, *Card Durability Test Methods*, ANSI, 2008.
+[[ANSI 322]](references.md#ref-ANSI322){:name="ref-ANSI322"} InterNational Committee for Information Technology Standards (2008) 
+*ANSI INCITS 322-2008 - Information Technology - Card Durability Test Methods* (ANSI, New York, NY) [or as amended]. 
+Available at <https://webstore.ansi.org/standards/incits/ansiincits3222008>
 
-[[CDS]](references.md#ref-CDS){:name="ref-CDS"} *DL/ID Card Design Standard*, American Association of Motor Vehicle Adminstrators, September, 2016. Available at <https://www.aamva.org/DL-ID-Card-Design-Standard/>.
+[[CDS]](references.md#ref-CDS){:name="ref-CDS"} American Association of Motor Vehicle Administrators (2016) AAMVA 
+*DL/ID Card Design Standard: Personal Identification* - AAMVA North American Standard. (American Association of Motor 
+Vehicle Administrators, Arlington, VA), Version 1.0. Available at <https://www.aamva.org/DL-ID-Card-Design-Standard/>
 
-[[COMMON]](references.md#ref-COMMON){:name="ref-COMMON"} *X.509 Certificate Policy for the U.S. Federal PKI Common Policy Framework*,
-Version 1.31, February 8, 2019, or as amended. Available at
-<https://www.idmanagement.gov/documents/common-policy-framework-certificate-policy>.
+[[COMMON]](references.md#ref-COMMON){:name="ref-COMMON"} Federal Public Key Infrastructure Policy Authority (2020)
+*X.509 Certificate Policy for the U.S. Federal PKI Common Policy Framework.*
+(Federal CIO Council), Version 1.32 [or as amended]. Available at <https://www.idmanagement.gov/wp-content/uploads/sites/1171/uploads/fpki-x509-cert-policy-common.pdf>
 
-[[E-Gov]](references.md#ref-E-Gov){:name="ref-E-Gov"} *E-Government Act of 2002*, U.S. Public Law 107-347, 2002.
+[[E-Gov]](references.md#ref-E-Gov){:name="ref-E-Gov"} E-Government Act of 2002, Pub. L. 107-347, 116 Stat 2899. 
+<https://www.govinfo.gov/app/details/PLAW-107publ347>
 
-[[FCS]](references.md#ref-FCS){:name="ref-FCS"} Final Credentialing Standards for Issuing Personal Identity Verification
-Cards under HSPD-12, OMB, July 31, 2008, or as amended. Available at <https://www.opm.gov/suitability/suitability-executive-agent/policy/final-credentialing-standards.pdf>.
+[[FCS]](references.md#ref-FCS){:name="ref-FCS"} U.S. Office of Personnel Management (2008)
+*Final Credentialing Standards for Issuing Personal Identity Verification Cards under HSPD-12.*
+(U.S. Office of Personnel Management, Washington, DC), July 31, 2008. 
+Available at https://www.opm.gov/suitability/suitability-executive-agent/policy/final-credentialing-standards.pdf 
 
-[[FIPS 140]](references.md#ref-FIPS140){:name="ref-FIPS140"} FIPS Publication 140-3, *Security Requirements for Cryptographic Modules*, NIST,
-March 22, 2019, or as amended. Available at <https://doi.org/10.6028/NIST.FIPS.140-3>.
+[[FIPS 140]](references.md#ref-FIPS140){:name="ref-FIPS140"} National Institute of Standards and Technology (2019)
+*Security Requirements for Cryptographic Modules.*
+(U.S. Department of Commerce, Washington, DC), Federal Information Processing Standards Publication (FIPS) 140-3 [or as amended].
+<https://doi.org/10.6028/NIST.FIPS.140-3>
 
-[[FIPS 180]](references.md#ref-FIPS180){:name="ref-FIPS180"} FIPS Publication 180-4, *Secure Hash Standard (SHS)*, August 2015, or as amended.
-Available at <http://doi.org/10.6028/NIST.FIPS.180-4>.
+[[FIPS 180]](references.md#ref-FIPS180){:name="ref-FIPS180"} National Institute of Standards and Technology (2015)
+*Secure Hash Standard (SHS).*
+(U.S. Department of Commerce, Washington, DC), Federal Information Processing Standards Publication (FIPS) 180-4 [or as amended]. 
+<https://doi.org/10.6028/NIST.FIPS.180-4>
 
-[[FICAM]](references.md#ref-FICAM){:name="ref-FICAM"} Federal Identity, Credential, and Access Management (FICAM) Roadmap and Implementation Guidance,
-Version 2.0, December 2, 2011, or as amended. Available at 
-<https://www.idmanagement.gov/wp-content/uploads/sites/1171/uploads/FICAM_Roadmap_and_Implem_Guid.pdf>.
+[[FICAM]](references.md#ref-FICAM){:name="ref-FICAM"} Federal CIO Council, Federal Enterprise Architecture (2011)
+*Federal Identity, Credential, and Access Management (FICAM) Roadmap and Implementation Guidance.*
+(Federal CIO Council), Version 2.0 [or as amended].
+Available at <https://www.idmanagement.gov/wp-content/uploads/sites/1171/uploads/FICAM_Roadmap_and_Implem_Guid.pdf> 
 
-[[G155-2013]](references.md#ref-G155-2013){:name="ref-G155-2013"} ASTM G155-2013, *Standard Practice for Operating Xenon Arc Light Apparatus for
-Exposure of Non-metallic Materials*, Vol. 14.04, ASTM, 2013.
+[[G155-2013]](references.md#ref-G155-2013){:name="ref-G155-2013"} ASTM International (2013)
+*ASTM G155-13 – Standard Practice for Operating Xenon Arc Light Apparatus for Exposure of Non-metallic Materials.*
+(ASTM International, West Conshohocken, PA) [or as amended].
+Available at <https://compass.astm.org/EDIT/html_annot.cgi?G155+13> 
 
 ~~~
 \clearpage
 ~~~
 {:latex-literal="true"}
 
-[[G90-98]](references.md#ref-G90-98){:name="ref-G90-98"} ASTM G90-98, *Standard Practice for Performing Accelerated Outdoor Weathering of
-Non-metallic Materials Using Concentrated Natural Sunlight*, Vol. 14.04, ASTM, 2017.
+[[G90-17]](references.md#ref-G90-17){:name="ref-G90-17"} ASTM International (2017)
+*ASTM G90-17 - Standard Practice for Performing Accelerated Outdoor Weathering of Materials Using Concentrated Natural Sunlight.*
+(ASTM International, West Conshohocken, PA) [or as amended].
+Available at <https://compass.astm.org/EDIT/html_annot.cgi?G90+17>
 
-[[HSPD-12]](references.md#ref-HSPD-12){:name="ref-HSPD-12"} HSPD-12, *Policy for a Common Identification Standard for Federal Employees and
-Contractors*, August 27, 2004.
+[[HSPD-12]](references.md#ref-HSPD-12){:name="ref-HSPD-12"} Bush, GW (2004)
+*Policy for a Common Identification Standard for Federal Employees and Contractors.*
+(The White House, Washington, DC), Homeland Security Presidential Directive HSPD-12.
+Available at https://www.dhs.gov/homeland-security-presidential-directive-12
 
-[[IEC61966]](references.md#ref-IEC61966){:name="ref-IEC61966"} IEC 61966-2-1:1999, *Multimedia systems and equipment - Colour measurement and
-management - Part 2-1: Colour management - Default RGB colour space – sRGB*, October 2003+COR1 2014.
+[[IEC61966]](references.md#ref-IEC61966){:name="ref-IEC61966"} International Electrotechnical Commission (1999)
+*IEC 61966-2-1:1999 – Multimedia systems and equipment – Colour measurement and management - Part 2-1: Colour management - Default RGB colour space – sRGB.*
+(International Electrotechnical Commission, Geneva, Switzerland) [or as amended].
+Available at https://webstore.iec.ch/publication/6169
 
-[[IR 6529-A]](references.md#ref-CBEFF){:name="ref-CBEFF"} NISTIR 6529-A, *Common Biometric Exchange Formats Framework (CBEFF)*, NIST,
-April 2004.
+[[IR 6529-A]](references.md#ref-CBEFF){:name="ref-CBEFF"} Podio FL, Dunn JS, Reinert L, Tilton CJ, Struif B, Herr F, Russell J (2004)
+*Common Biometric Exchange Formats Framework (CBEFF).*
+(National Institute of Standards and Technology, Gaithersburg, MD), NIST Interagency or Internal Report (IR) 6529-A.
+<https://doi.org/10.6028/NIST.IR.6529-a>
 
-[[IR 7863]](references.md#ref-NISTIR7863){:name="ref-NISTIR7863"} NIST IR 7863, *Cardholder Authentication for the PIV Digital Signature Key*,
-NIST, June 2015. Available at <http://doi.org/10.6028/NIST.IR.7863>.
+[[IR 7863]](references.md#ref-NISTIR7863){:name="ref-NISTIR7863"} Polk WT, Ferraiolo H, Cooper DA (2015)
+Cardholder Authentication for the PIV Digital Signature Key.
+(National Institute of Standards and Technology, Gaithersburg, MD), NIST Interagency or Internal Report (IR) 7863.
+<https://doi.org/10.6028/NIST.IR.7863>
 
-[[ISC-RISK]](references.md#ref-ISC-RISK){:name="ref-ISC-RISK"} The Risk Management Process for Federal Facilities: An Interagency Security Committee Standard,
-2nd Edition, November 2016, or as amended. Interagency Security Committee. Available at 
-<https://www.dhs.gov/sites/default/files/publications/isc-risk-management-process-2016-508.pdf>.
+[[ISC-RISK]](references.md#ref-ISC-RISK){:name="ref-ISC-RISK"} Interagency Security Committee (2016)
+*The Risk Management Process for Federal Facilities: An Interagency Security Committee Standard.*
+(U.S. Department of Homeland Security, Washington, DC), 2nd edition [or as amended].
+Available at <https://www.cisa.gov/publication/isc-risk-management-process>
 
-[[ISO 2382-37]](references.md#ref-ISO/IEC-2382-37){:name="ref-ISO/IEC-2382-37"} ISO/IEC 2382-37:2017, *Information technology -- Vocabulary -- Part 37: Biometrics*, ISO, 2017.
+[[ISO 2382-37]](references.md#ref-ISO/IEC-2382-37){:name="ref-ISO/IEC-2382-37"} International Organization for Standardization/International Electrotechnical Commission (2017)
+*ISO/IEC 2382-37:2017 – Information technology – Vocabulary – Part 37: Biometrics.*
+(International Organization for Standardization, Geneva, Switzerland) [or as amended].
+Available at <https://www.iso.org/standard/66693.html>
 
-[[ISO 10373]](references.md#ref-ISO10373){:name="ref-ISO10373"} ISO/IEC 10373, *Identification Cards—Test Methods*. Part 1—*Standard for General
+[[ISO 10373]](references.md#ref-ISO10373){:name="ref-ISO10373"} ISO/IEC 10373, *Identification Cards—Test Methods.* Part 1—*Standard for General
 Characteristic Test of Identification Cards*, ISO, 2006+AMD1 2012. Part 3—*Standard for Integrated Circuit
 Cards with Contacts and Related Interface Devices*, ISO, 2018. Part 6—*Standard for Proximity
 Card Support in Identification Cards*, ISO, 2016.
 
-[[ISO 14443]](references.md#ref-ISO14443){:name="ref-ISO14443"} ISO/IEC 14443-1, *Identification Cards—Contactless Integrated Circuit(s)
-Cards—Proximity Cards*, ISO, 2018.
+[[ISO 10373-1]](references.md#ref-ISO10373-1){:name="ref-ISO10373-1"} International Organization for Standardization/International Electrotechnical Commission (2006)
+*ISO/IEC 10373-1:2006 – Identification Cards – Test Methods – Part 1: General Characteristics.*
+(International Organization for Standardization, Geneva, Switzerland) [or as amended].
+Available at <https://www.iso.org/standard/40682.html>
 
-[[ISO 3166]](references.md#ref-ISO3166){:name="ref-ISO3166"} ISO 3166-1. *Codes for the representation of names of countries and their
-subdivisions—Part 1: Country codes*, ISO, 2013.
+[[ISO 10373-3]](references.md#ref-ISO10373-3){:name="ref-ISO10373-3"} International Organization for Standardization/International Electrotechnical Commission (2018)
+*ISO/IEC 10373-3:2018 – Identification Cards – Test Methods – Part 3: Integrated Circuit Cards with Contacts and Related Interface Devices.*
+(International Organization for Standardization, Geneva, Switzerland) [or as amended].
+Available at <https://www.iso.org/standard/74238.html >
 
-[[ISO 7810]](references.md#ref-ISO7810){:name="ref-ISO7810"} ISO/IEC 7810:2003, *Identification Cards—Physical Characteristics*, ISO, 2003.
+[[ISO 10373-6]](references.md#ref-ISO10373-6){:name="ref-ISO10373-6"} International Organization for Standardization/International Electrotechnical Commission (2016)
+*ISO/IEC 10373-6:2016 – Identification Cards – Test Methods – Part 6: Proximity Cards.*
+(International Organization for Standardization, Geneva, Switzerland) [or as amended].
+Available at <https://www.iso.org/standard/66290.html >
 
-[[ISO 7811]](references.md#ref-ISO7811){:name="ref-ISO7811"} ISO/IEC 7811, *Identification cards -- Recording technique*. Part 6—*Magnetic
+[[ISO 14443]](references.md#ref-ISO14443){:name="ref-ISO14443"} International Organization for Standardization/International Electrotechnical Commission (2018)
+*ISO/IEC 14443-1:2018 – Cards and security devices for personal identification – Contactless proximity objects Part 1: Physical characteristics.*
+(International Organization for Standardization, Geneva, Switzerland) [or as amended].
+Available at <https://www.iso.org/standard/73596.html>
+
+[[ISO 3166]](references.md#ref-ISO3166){:name="ref-ISO3166"} International Organization for Standardization (2013)
+*ISO 3166-1:2013 Codes for the representation of names of countries and their subdivisions – Part 1: Country codes.*
+(International Organization for Standardization, Geneva, Switzerland) [or as amended].
+Available at <https://www.iso.org/standard/63545.html>
+
+[[ISO 7810]](references.md#ref-ISO7810){:name="ref-ISO7810"} International Organization for Standardization/International Electrotechnical Commission (2019)
+*ISO/IEC 7810:2019 – Identification Cards – Physical Characteristics.*
+(International Organization for Standardization, Geneva, Switzerland) [or as amended].
+Available at <https://www.iso.org/standard/70483.html>
+
+[[ISO 7811]](references.md#ref-ISO7811){:name="ref-ISO7811"} ISO/IEC 7811, *Identification cards -- Recording technique.* Part 6—*Magnetic
 stripe -- High coercivity*, ISO, 2018. Part 7—*Magnetic stripe -- High coercivity, high density*,
 ISO, 2018.
+
+[[ISO 7811-6]](references.md#ref-ISO7811-6){:name="ref-ISO7811-6"} International Organization for Standardization/International Electrotechnical Commission (2018)
+*ISO/IEC 7811-6:2018 – Identification cards – Recording technique – Part 6: Magnetic stripe: High coercivity.*
+(International Organization for Standardization, Geneva, Switzerland) [or as amended].
+Available at <https://www.iso.org/standard/73639.html>
+
+[[ISO 7811-7]](references.md#ref-ISO7811-7){:name="ref-ISO7811-7"} International Organization for Standardization/International Electrotechnical Commission (2018)
+*ISO/IEC 7811-7:2018 – Identification cards – Recording technique – Part 7: Magnetic stripe: High coercivity, high density.*
+(International Organization for Standardization, Geneva, Switzerland) [or as amended].
+Available at <https://www.iso.org/standard/73640.html>
 
 [[ISO 7816]](references.md#ref-ISO7816){:name="ref-ISO7816"} ISO/IEC 7816, *Identification Cards—Integrated Circuits with Contacts*, Parts 1-6,
 ISO. 1-2011, 2-2007, 3-2006, 4-2013, 5-2004, 6-2016.
 
-~~~
-\clearpage
-~~~
-{:latex-literal="true"}
+[[ISO 7816-1]](references.md#ref-ISO7816-1){:name="ref-ISO7816-1"}
+International Organization for Standardization/International Electrotechnical Commission (2011)
+*ISO/IEC 7816-1:2011 – Identification cards – Integrated circuit cards – Part 1: Cards with Contacts – Physical characteristics.*
+(International Organization for Standardization, Geneva, Switzerland) [or as amended].
+Available at <https://www.iso.org/standard/54089.html>
 
-[[M-03-22]](references.md#ref-OMB0322){:name="ref-OMB0322"} OMB Memorandum M-03-22, *Guidance for Implementing the Privacy Provisions of
-the E-Government Act of 2002*, OMB, September 26, 2003. Available at 
-<https://www.whitehouse.gov/wp-content/uploads/2017/11/203-M-03-22-OMB-Guidance-for-Implementing-the-Privacy-Provisions-of-the-E-Government-Act-of-2002-1.pdf>.
+[[ISO 7816-2]](references.md#ref-ISO7816-2){:name="ref-ISO7816-2"}
+International Organization for Standardization/International Electrotechnical Commission (2007)
+*ISO/IEC 7816-2:2007 – Identification cards – Integrated circuit cards – Part 2: Cards with contacts – Dimensions and location of the contacts.*
+(International Organization for Standardization, Geneva, Switzerland) [or as amended].
+Available at <https://www.iso.org/standard/45989.html>
 
-[[M-04-04]](references.md#ref-OMB0404){:name="ref-OMB0404"} OMB Memorandum M-04-04, *E-Authentication Guidance for Federal Agencies*, 
-OMB, December 2003. Rescinded. Available at <https://www.whitehouse.gov/sites/whitehouse.gov/files/omb/memoranda/2004/m04-04.pdf>.
+[[ISO 7816-3]](references.md#ref-ISO7816-3){:name="ref-ISO7816-3"}
+International Organization for Standardization/International Electrotechnical Commission (2006)
+*ISO/IEC 7816-3:2006 – Identification cards – Integrated circuit cards – Part 3: Cards with contacts – Electrical interface and transmission protocols.*
+(International Organization for Standardization, Geneva, Switzerland) [or as amended].
+Available at <https://www.iso.org/standard/38770.html>
 
-[[M-05-24]](references.md#ref-OMB0524){:name="ref-OMB0524"} OMB Memorandum M-05-24, *Implementation of Homeland Security Presidential
-Directive (HSPD) 12 – Policy for a Common Identification Standard for Federal Employees and
-Contractors*, OMB, August 2005. Available at <https://www.whitehouse.gov/sites/whitehouse.gov/files/omb/memoranda/2005/m05-24.pdf>.
+[[ISO 7816-4]](references.md#ref-ISO7816-4){:name="ref-ISO7816-4"}
+International Organization for Standardization/International Electrotechnical Commission (2020)
+*ISO/IEC 7816-4:2020 – Identification cards – Integrated circuit cards – Part 4: Organization, security and commands for interchange.*
+(International Organization for Standardization, Geneva, Switzerland) [or as amended].
+Available at https://www.iso.org/standard/77180.html
 
-[[M-17-12]](references.md#ref-OMB1712){:name="ref-OMB1712"} OMB Memorandum M-17-12, *Preparing for and Responding to a Breach of Personally Identifiable Information*,
-OMB, January 3, 2017. Available at <https://obamawhitehouse.archives.gov/sites/default/files/omb/memoranda/2017/m-17-12_0.pdf>.
+[[ISO 7816-5]](references.md#ref-ISO7816-5){:name="ref-ISO7816-5"}
+International Organization for Standardization/International Electrotechnical Commission (2004)
+*ISO/IEC 7816-5:2004 – Identification cards – Integrated circuit cards – Part 5: Registration of application providers.*
+(International Organization for Standardization, Geneva, Switzerland) [or as amended].
+Available at https://www.iso.org/standard/34259.html
 
-[[M-19-17]](references.md#ref-OMB1917){:name="ref-OMB1917"} OMB Memorandum M-19-17, *Enabling Mission Delivery through Improved Identity, Credential, and Access Management*,
-OMB, May 21, 2019. Available at <https://www.whitehouse.gov/wp-content/uploads/2019/05/M-19-17.pdf>.
-
-[[PCSC]](references.md#ref-PCSC){:name="ref-PCSC"} Personal Computer/Smart Card Workgroup Specifications. Available at
-<https://www.pcscworkgroup.com/>.
-
-[[PRIVACY]](references.md#ref-PRIVACY){:name="ref-PRIVACY"} *Privacy Act of 1974*, U.S. Public Law 93-579, 1974.
-
-[[PROF]](references.md#ref-PROF){:name="ref-PROF"} *X.509 Certificate and Certificate Revocation List (CRL) Extensions Profile for the
-Shared Service Provider (SSP) Program*, Version 1.9, May 9, 2018 or as amended. Available
-at <https://www.idmanagement.gov/sites/default/files/documents/CertCRLprofileForCP.pdf>.
-
-[[REAL-ID]](references.md#ref-REAL-ID){:name="ref-REAL-ID"} *Minimum Standards for Driver's Licenses and Identification Cards
-Acceptable by Federal Agencies for Official Purposes; Final Rule*, Department of Homeland Security, Federal Register Vol. 73 No. 19, January 29, 2008. Available at <https://www.govinfo.gov/content/pkg/FR-2008-01-29/html/08-140.htm>.
-
-[[RFC 20]](references.md#ref-RFC20){:name="ref-RFC20"} RFC 20, *ASCII Format for Network Interchange*, Internet
-Engineering Task Force (IETF), October 1969. Available at <https://www.ietf.org/rfc/rfc20.txt>.
-
-[[RFC 4122]](references.md#ref-RFC4122){:name="ref-RFC4122"} RFC 4122, *A Universally Unique IDentifier (UUID) URN Namespace*, IETF, July 2005. Available at <https://www.ietf.org/rfc/rfc4122.txt>.
+[[ISO 7816-6]](references.md#ref-ISO7816-6){:name="ref-ISO7816-6"}
+International Organization for Standardization/International Electrotechnical Commission (2016)
+*ISO/IEC 7816-6:2016 – Identification cards – Integrated circuit cards – Part 6: Interindustry data elements for interchange.*
+(International Organization for Standardization, Geneva, Switzerland) [or as amended].
+Available at https://www.iso.org/standard/64598.html
 
 ~~~
 \clearpage
 ~~~
 {:latex-literal="true"}
 
-[[RFC 5280]](references.md#ref-RFC5280){:name="ref-RFC5280"} RFC 5280, *Internet X.509 Public Key Infrastructure Certificate and Certificate
-Revocation List (CRL) Profile*, IETF, May 2008. Available at <https://www.ietf.org/rfc/rfc5280.txt>.
+[[M-03-22]](references.md#ref-OMB0322){:name="ref-OMB0322"} Office of Management and Budget (2003)
+*OMB Guidance for Implementing the Privacy Provisions of the E-Government Act of 2002.*
+(The White House, Washington, DC), OMB Memorandum M-03-22, September 26, 2003.
+Available at <https://www.whitehouse.gov/wp-content/uploads/2017/11/203-M-03-22-OMB-Guidance-for-Implementing-the-Privacy-Provisions-of-the-E-Government-Act-of-2002-1.pdf>
 
-[[RFC 5652]](references.md#ref-RFC5652){:name="ref-RFC5652"} RFC 5652, *Cryptographic Message Syntax (CMS)*, IETF, September 2009. Available
-at <https://www.ietf.org/rfc/rfc5652.txt>.
+[[M-04-04]](references.md#ref-OMB0404){:name="ref-OMB0404"} Office of Management and Budget (2003)
+*E-Authentication Guidance for Federal Agencies.*
+(The White House, Washington, DC), OMB Memorandum M-04-04 (Rescinded), December 16, 2003.
+Available at <https://www.whitehouse.gov/sites/whitehouse.gov/files/omb/memoranda/2004/m04-04.pdf>
 
-[[RFC 6818]](references.md#ref-RFC6818){:name="ref-RFC6818"} RFC 6818, *Updates to the Internet X.509 Public Key Infrastructure Certificate and Certificate
-Revocation List (CRL) Profile*, IETF, October 2015. Available at <https://www.ietf.org/rfc/rfc6818.txt>.
+[[M-05-24]](references.md#ref-OMB0524){:name="ref-OMB0524"} Office of Management and Budget (2005)
+*Implementation of Homeland Security Presidential Directive (HSPD) 12 – Policy for a Common Identification Standard for Federal Employees and Contractors.*
+(The White House, Washington, DC), OMB Memorandum M-05-24, August 5, 2005.
+Available at <https://www.whitehouse.gov/sites/whitehouse.gov/files/omb/memoranda/2005/m05-24.pdf> 
 
-[[RFC 6960]](references.md#ref-RFC6960){:name="ref-RFC6960"} RFC 6960, *X.509 Internet Public Key Infrastructure Online Certificate Status Protocol - OCSP*, IETF, June 2013. Available at <https://www.ietf.org/rfc/rfc6960.txt>.
+[[M-17-12]](references.md#ref-OMB1712){:name="ref-OMB1712"} Office of Management and Budget (2017)
+*Preparing for and Responding to a Breach of Personally Identifiable Information.*
+(The White House, Washington, DC), OMB Memorandum M-17-12, January 3, 2017.
+Available at <https://obamawhitehouse.archives.gov/sites/default/files/omb/memoranda/2017/m-17-12_0.pdf>
 
-[[RFC 8485]](references.md#ref-RFC8485){:name="ref-RFC8485"} RFC 8485, *Vectors of Trust*, IETF, October 2018. Available at
-<https://www.ietf.org/rfc/rfc8485.txt>.
+[[M-19-17]](references.md#ref-OMB1917){:name="ref-OMB1917"} Office of Management and Budget (2019)
+*Enabling Mission Delivery through Improved Identity, Credential, and Access Management.*
+(The White House, Washington, DC), OMB Memorandum M-19-17, May 21, 2019.
+Available at <https://obamawhitehouse.archives.gov/sites/default/files/omb/memoranda/2017/m-17-12_0.pdf>
 
-[[RISK-MGMT-FACILITIES]](references.md#ref-RISK-MGMT-FACILITIES){:name="ref-RISK-MGMT-FACILITIES"} *The Risk Management Process for Federal Facilities: An Interagency Security Committee Standard*, Interagency Security Committee, November, 2016, or as amended. Available at <https://www.cisa.gov/sites/default/files/publications/isc-risk-management-process-2016-508.pdf>.
+[[PCSC]](references.md#ref-PCSC){:name="ref-PCSC"} Personal Computer/Smart Card Workgroup (2020)
+*PC/SC Workgroup Specifications Overview.*
+Available at <https://www.pcscworkgroup.com/specifications/>
 
-[[SAML-AC]](references.md#ref-SAML-AC){:name="ref-SAML-AC"} Authentication Context for the OASIS Security Assertion Markup Language (SAML) V2.0, OASIS, March 2005.
-Available at <https://docs.oasis-open.org/security/saml/v2.0/saml-authn-context-2.0-os.pdf>.
+[[PRIVACY]](references.md#ref-PRIVACY){:name="ref-PRIVACY"} Privacy Act of 1974, Pub. L. 93-579, 88 Stat 1896. 
+<https://www.govinfo.gov/content/pkg/STATUTE-88/pdf/STATUTE-88-Pg1896.pdf> 
 
-[[SP 800-37]](references.md#ref-SP-800-37){:name="ref-SP-800-37"} NIST Special Publication 800-37 Revision 2, *Risk Management Framework for Information Systems and Organizations: A System Life Cycle Approach for Security and Privacy*, NIST,
-December 2018 or as amended. Available at <https://doi.org/10.6028/NIST.SP.800-37r2>.
+[[PROF]](references.md#ref-PROF){:name="ref-PROF"} Federal Public Key Infrastructure Policy Authority (2018)
+*X.509 Certificate and Certificate Revocation List (CRL) Extensions Profile for the Shared Service Providers (SSP) Program.*
+(Federal CIO Council), Version 1.9 [or as amended].
+Available at <https://www.idmanagement.gov/sites/default/files/documents/CertCRLprofileForCP.pdf>.
 
-[[SP 800-53]](references.md#ref-SP-800-53){:name="ref-SP-800-53"} NIST Special Publication 800-53 Revision 4, *Security and Privacy Controls for Federal Information Systems and Organizations*, NIST, April 2013 or as amended. Available at <http://doi.org/10.6028/NIST.SP.800-53r4>.
+[[REAL-ID]](references.md#ref-REAL-ID){:name="ref-REAL-ID"} "Minimum Standards for Driver’s Licenses and Identification Cards Acceptable by Federal Agencies for Official Purposes; Final Rule,"
+73 Federal Register 5271 (January 29, 2008), pp 5271-5340.
+<https://www.federalregister.gov/d/08-140>
 
-[[SP 800-59]](references.md#ref-SP-800-59){:name="ref-SP-800-59"} NIST Special Publication 800-59, *Guideline for Identifying an Information System
-as a National Security System*, NIST, August 2003 or as amended. Available at <https://doi.org/10.6028/NIST.SP.800-59>.
+[[RFC 20]](references.md#ref-RFC20){:name="ref-RFC20"} Cerf VG (1969)
+*ASCII Format for Network Interchange.*
+(Internet Engineering Task Force (IETF) Network Working Group), IETF Request for Comments (RFC) 20.
+<https://doi.org/10.17487/RFC0020>
 
-[[SP 800-63]](references.md#ref-SP-800-63){:name="ref-SP-800-63"} NIST Special Publication 800-63-3, *Digital Identity Guidelines*, NIST,
-June 2017 or as amended. Available at <https://doi.org/10.6028/NIST.SP.800-63-3>.
-
-[[SP 800-63A]](references.md#ref-SP-800-63A){:name="ref-SP-800-63A"} NIST Special Publication 800-63A, *Digital Identity Guidelines: Enrollment and Identity Proofing Requirements*, NIST, June 2017 or as amended.
-Available at <https://doi.org/10.6028/NIST.SP.800-63a>.
-
-~~~
-\clearpage
-~~~
-{:latex-literal="true"}
-
-[[SP 800-63B]](references.md#ref-SP-800-63B){:name="ref-SP-800-63B"} NIST Special Publication 800-63B, *Digital Identity Guidelines: Authentication and Lifecycle Management*, NIST, June 2017 or as amended.
-Available at <https://doi.org/10.6028/NIST.SP.800-63b>.
-
-[[SP 800-63C]](references.md#ref-SP-800-63C){:name="ref-SP-800-63C"} NIST Special Publication 800-63C, *Digital Identity Guidelines: Federation and Assertions*, NIST, June 2017 or as amended.
-Available at <https://doi.org/10.6028/NIST.SP.800-63c>.
-
-[[SP 800-73]](references.md#ref-SP-800-73){:name="ref-SP-800-73"} NIST Special Publication 800-73-4, *Interfaces for Personal Identity Verification*,
-NIST, May 2015 or as amended. Available at <https://doi.org/10.6028/NIST.SP.800-73-4>.
-
-[[SP 800-76]](references.md#ref-SP-800-76){:name="ref-SP-800-76"} NIST Special Publication 800-76-2, *Biometric Specifications for Personal Identity
-Verification*, NIST, July 2013 or as amended. Available at <https://doi.org/10.6028/NIST.SP.800-76-2>.
-
-[[SP 800-78]](references.md#ref-SP-800-78){:name="ref-SP-800-78"} NIST Special Publication 800-78-4, *Cryptographic Algorithms and Key Sizes for
-Personal Identity Verification*, NIST, May 2015 or as amended. Available at <https://doi.org/10.6028/NIST.SP.800-78-4>.
-
-[[SP 800-79]](references.md#ref-SP-800-79){:name="ref-SP-800-79"} NIST Special Publication 800-79-2, *Guidelines for the Authorization of Personal
-Identity Verification Card Issuers (PCI) and Derived PIV Credential Issuers (DPCI)*, NIST, July 2015 or as amended. 
-Available at <https://doi.org/10.6028/NIST.SP.800-79-2>.
-
-[[SP 800-85A]](references.md#ref-SP-800-85A){:name="ref-SP-800-85A"} NIST Special Publication 800-85A-4, *PIV Card Application and Middleware
-Interface Test Guidelines (SP800-73-4 Compliance)*, NIST, April 2016 or as amended. Available at
-<https://doi.org/10.6028/NIST.SP.800-85A-4>.
-
-[[SP 800-87]](references.md#ref-SP-800-87){:name="ref-SP-800-87"} NIST Special Publication 800-87 Revision 2, *Codes for the Identification of Federal
-and Federally-Assisted Organizations*, NIST, April 2018 or as amended. Available at <https://doi.org/10.6028/NIST.SP.800-87r2>.
-
-[[SP 800-96]](references.md#ref-SP-800-96){:name="ref-SP-800-96"} NIST Special Publication 800-96, *PIV Card to Reader Interoperability Guidelines*,
-NIST, September 2006 or as amended. Available at <https://doi.org/10.6028/NIST.SP.800-96>.
-
-[[SP 800-116]](references.md#ref-SP-800-116){:name="ref-SP-800-116"} NIST Special Publication 800-116-1, *Guidelines for the use of PIV
-Credentials in Facility Access*, NIST, June 2018 or as amended. Available at <https://doi.org/10.6028/NIST.SP.800-116r1>.
-
-[[SP 800-122]](references.md#ref-SP-800-122){:name="ref-SP-800-122"} NIST Special Publication 800-122, *Guide to Protecting the Confidentiality of
-Personally Identifiable Information (PII)*, NIST, April 2010 or as amended. Available at <https://doi.org/10.6028/NIST.SP.800-122>.
+[[RFC 4122]](references.md#ref-RFC4122){:name="ref-RFC4122"} Leach P, Mealling M, Salz R (2005)
+*A Universally Unique IDentifier (UUID) URN Namespace.*
+(Internet Engineering Task Force (IETF) Network Working Group), IETF Request for Comments (RFC) 4122.
+<http://doi.org/10.17487/RFC4122>
 
 ~~~
 \clearpage
 ~~~
 {:latex-literal="true"}
 
-[[SP 800-156]](references.md#ref-SP-800-156){:name="ref-SP-800-156"} NIST Special Publication 800-156, *Representation of PIV Chain-of-Trust for
-Import and Export*, NIST, May 2016 or as amended. Available at <https://doi.org/10.6028/NIST.SP.800-156>.
+[[RFC 5280]](references.md#ref-RFC5280){:name="ref-RFC5280"} Cooper D, Santesson S, Farrell S, Boeyen S, Housley R, Polk W (2008)
+*Internet X.509 Public Key Infrastructure Certificate and Certificate Revocation List (CRL) Profile.*
+(Internet Engineering Task Force (IETF) Network Working Group), IETF Request for Comments (RFC) 5280.
+<http://doi.org/10.17487/RFC5280>
 
-[[SP 800-157]](references.md#ref-SP-800-157){:name="ref-SP-800-157"} NIST Special Publication 800-157, *Guidelines for Derived Personal Identity
-Verification (PIV) Credentials*, NIST, December 2014 or as amended. Available at <https://doi.org/10.6028/NIST.SP.800-157>.
+[[RFC 5652]](references.md#ref-RFC5652){:name="ref-RFC5652"} Housley R (2009)
+*Cryptographic Message Syntax (CMS).*
+(Internet Engineering Task Force (IETF) Network Working Group), IETF Request for Comments (RFC) 5652.
+<http://doi.org/10.17487/RFC5652>
+
+[[RFC 6818]](references.md#ref-RFC6818){:name="ref-RFC6818"} Yee P (2013)
+*Updates to the Internet X.509 Public Key Infrastructure Certificate and Certificate Revocation List (CRL) Profile.*
+(Internet Engineering Task Force (IETF)), IETF Request for Comments (RFC) 6818.
+<http://doi.org/10.17487/RFC6818>
+
+[[RFC 6960]](references.md#ref-RFC6960){:name="ref-RFC6960"} Santesson S, Myers M, Ankney R, Malpani A, Galperin S, Adams C (2013)
+*X.509 Internet Public Key Infrastructure Online Certificate Status Protocol – OCSP.*
+(Internet Engineering Task Force (IETF)), IETF Request for Comments (RFC) 6960.
+<http://doi.org/10.17487/RFC6960>
+
+[[RFC 8485]](references.md#ref-RFC8485){:name="ref-RFC8485"} Richer J (ed.), Johansson L (2018)
+*Vectors of Trust.*
+(Internet Engineering Task Force (IETF)), IETF Request for Comments (RFC) 8485.
+<http://doi.org/10.17487/RFC8485>
+
+[[RISK-MGMT-FACILITIES]](references.md#ref-RISK-MGMT-FACILITIES){:name="ref-RISK-MGMT-FACILITIES"} Interagency Security Committee (2016)
+*The Risk Management Process for Federal Facilities: An Interagency Security Committee Standard.*
+(U.S. Department of Homeland Security, Washington, DC), Interagency Security Standard, 2nd Edition [or as amended].
+Available at <https://www.cisa.gov/sites/default/files/publications/isc-risk-management-process-2016-508.pdf>
+
+[[SAML-AC]](references.md#ref-SAML-AC){:name="ref-SAML-AC"} Kemp J, Cantor S, Mishra P, Philpott R, Maler E (eds.) (2005)
+*Authentication Context for the OASIS Security Assertion Markup Language (SAML) V2.0.*
+(OASIS), OASIS Standard saml-authn-context-2.0-os.
+Available at <https://docs.oasis-open.org/security/saml/v2.0/saml-authn-context-2.0-os.pdf> 
+
+[[SP 800-37]](references.md#ref-SP-800-37){:name="ref-SP-800-37"} Joint Task Force (2018)
+*Risk Management Framework for Information Systems and Organizations: A System Life Cycle Approach for Security and Privacy.*
+(National Institute of Standards and Technology, Gaithersburg, MD), NIST Special Publication (SP) 800-37, Rev. 2 [or as amended].
+<https://doi.org/10.6028/NIST.SP.800-37r2>
+
+[[SP 800-53]](references.md#ref-SP-800-53){:name="ref-SP-800-53"} Joint Task Force Transformation Initiative (2013)
+*Security and Privacy Controls for Federal Information Systems and Organizations.*
+(National Institute of Standards and Technology, Gaithersburg, MD), NIST Special Publication (SP) 800-53, Rev. 4, Includes updates as of January 22, 2015 [or as amended].
+<https://doi.org/10.6028/NIST.SP.800-53r4>
+
+[[SP 800-59]](references.md#ref-SP-800-59){:name="ref-SP-800-59"} Barker WC (2003)
+*Guideline for Identifying an Information System as a National Security System.*
+(National Institute of Standards and Technology, Gaithersburg, MD), NIST Special Publication (SP) 800-59 [or as amended].
+<https://doi.org/10.6028/NIST.SP.800-59>
+
+[[SP 800-63]](references.md#ref-SP-800-63){:name="ref-SP-800-63"} Grassi PA, Garcia ME, Fenton JL (2017)
+*Digital Identity Guidelines.*
+(National Institute of Standards and Technology, Gaithersburg, MD), NIST Special Publication (SP) 800-63-3, Includes updates as of March 02, 2020 [or as amended].
+<https://doi.org/10.6028/NIST.SP.800-63-3>
+
+[[SP 800-63A]](references.md#ref-SP-800-63A){:name="ref-SP-800-63A"} Grassi PA, Fenton JL, Lefkovitz NB, Danker JM, Choong Y-Y, Greene KK, Theofanos MF (2017)
+*Digital Identity Guidelines: Enrollment and Identity Proofing.*
+(National Institute of Standards and Technology, Gaithersburg, MD), NIST Special Publication (SP) 800-63A, Includes updates as of March 02, 2020 [or as amended].
+<https://doi.org/10.6028/NIST.SP.800-63A>
+
+~~~
+\clearpage
+~~~
+{:latex-literal="true"}
+
+[[SP 800-63B]](references.md#ref-SP-800-63B){:name="ref-SP-800-63B"} Grassi PA, Newton EM, Perlner RA, Regenscheid AR, Fenton JL, Burr WE, Richer JP, Lefkovitz NB, Danker JM, Choong Y-Y, Greene KK, Theofanos MF (2017)
+*Digital Identity Guidelines: Authentication and Lifecycle Management.*
+(National Institute of Standards and Technology, Gaithersburg, MD), NIST Special Publication (SP) 800-63B, Includes updates as of March 02, 2020 [or as amended].
+<https://doi.org/10.6028/NIST.SP.800-63B>
+
+[[SP 800-63C]](references.md#ref-SP-800-63C){:name="ref-SP-800-63C"} Grassi PA, Nadeau EM, Richer JP, Squire SK, Fenton JL, Lefkovitz NB, Danker JM, Choong Y-Y, Greene KK, Theofanos MF (2017)
+*Digital Identity Guidelines: Federation and Assertions.*
+(National Institute of Standards and Technology, Gaithersburg, MD), NIST Special Publication (SP) 800-63C, Includes updates as of March 02, 2020 [or as amended].
+<https://doi.org/10.6028/NIST.SP.800-63C>
+
+[[SP 800-73]](references.md#ref-SP-800-73){:name="ref-SP-800-73"} Cooper DA, Ferraiolo H, Mehta KL, Francomacaro S, Chandramouli R, Mohler J (2015)
+*Interfaces for Personal Identity Verification.*
+(National Institute of Standards and Technology, Gaithersburg, MD), NIST Special Publication (SP) 800-73-4, Includes updates as of February 8, 2016 [or as amended].
+<https://doi.org/10.6028/NIST.SP.800-73-4>
+
+[[SP 800-76]](references.md#ref-SP-800-76){:name="ref-SP-800-76"} Grother PJ, Salamon WJ, Chandramouli R (2013)
+*Biometric Specifications for Personal Identity Verification.*
+(National Institute of Standards and Technology, Gaithersburg, MD), NIST Special Publication (SP) 800-76-2 [or as amended].
+<https://doi.org/10.6028/NIST.SP.800-76-2>
+
+[[SP 800-78]](references.md#ref-SP-800-78){:name="ref-SP-800-78"} Polk WT, Dodson DF, Burr WE, Ferraiolo H, Cooper DA (2015)
+*Cryptographic Algorithms and Key Sizes for Personal Identity Verification.*
+(National Institute of Standards and Technology, Gaithersburg, MD), NIST Special Publication (SP) 800-78-4 [or as amended].
+<https://doi.org/10.6028/NIST.SP.800-78-4>
+
+[[SP 800-79]](references.md#ref-SP-800-79){:name="ref-SP-800-79"} Ferraiolo H, Chandramouli R, Ghadiali N, Mohler J, Shorter S (2015)
+*Guidelines for the Authorization of Personal Identity Verification Card Issuers (PCI) and Derived PIV Credential Issuers (DPCI).*
+(National Institute of Standards and Technology, Gaithersburg, MD), NIST Special Publication (SP) 800-79-2 [or as amended].
+<https://doi.org/10.6028/NIST.SP.800-79-2>
+
+[[SP 800-85A]](references.md#ref-SP-800-85A){:name="ref-SP-800-85A"} Chandramouli R, Mehta KL, Uzamere PA, II, Simon D, Ghadiali N, Founds AP (2016)
+*PIV Card Application and Middleware Interface Test Guidelines (SP 800-73-4 Compliance).*
+(National Institute of Standards and Technology, Gaithersburg, MD), NIST Special Publication (SP) 800-85A-4 [or as amended].
+<https://doi.org/10.6028/NIST.SP.800-85A-4>
+
+[[SP 800-87]](references.md#ref-SP-800-87){:name="ref-SP-800-87"} Ferraiolo H (2018)
+*Codes for Identification of Federal and Federally-Assisted Organizations.*
+(National Institute of Standards and Technology, Gaithersburg, MD), NIST Special Publication (SP) 800-87, Rev. 2 [or as amended].
+<https://doi.org/10.6028/NIST.SP.800-87r2>
+
+[[SP 800-96]](references.md#ref-SP-800-96){:name="ref-SP-800-96"} Dray JF, Jr., Giles A, Kelley M, Chandramouli R (2006)
+*PIV Card to Reader Interoperability Guidelines.*
+(National Institute of Standards and Technology, Gaithersburg, MD), NIST Special Publication (SP) 800-96 [or as amended].
+<https://doi.org/10.6028/NIST.SP.800-96>
+
+[[SP 800-116]](references.md#ref-SP-800-116){:name="ref-SP-800-116"} Ferraiolo H, Mehta KL, Ghadiali N, Mohler J, Johnson V, Brady S (2018)
+*A Recommendation for the Use of PIV Credentials in Physical Access Control Systems (PACS).*
+(National Institute of Standards and Technology, Gaithersburg, MD), NIST Special Publication (SP) 800-116, Rev. 1 [or as amended].
+<https://doi.org/10.6028/NIST.SP.800-116r1>
+
+[[SP 800-122]](references.md#ref-SP-800-122){:name="ref-SP-800-122"} McCallister E, Grance T, Scarfone KA (2010)
+*Guide to Protecting the Confidentiality of Personally Identifiable Information (PII).*
+(National Institute of Standards and Technology, Gaithersburg, MD), NIST Special Publication (SP) 800-122 [or as amended].
+<https://doi.org/10.6028/NIST.SP.800-122>
+
+~~~
+\clearpage
+~~~
+{:latex-literal="true"}
+
+[[SP 800-156]](references.md#ref-SP-800-156){:name="ref-SP-800-156"} Ferraiolo H, Chandramouli R, Mehta KL, Mohler J, Skordinski S, Brady S (2016)
+*Representation of PIV Chain-of-Trust for Import and Export.*
+(National Institute of Standards and Technology, Gaithersburg, MD), NIST Special Publication (SP) 800-156 [or as amended].
+<https://doi.org/10.6028/NIST.SP.800-156>
+
+[[SP 800-157]](references.md#ref-SP-800-157){:name="ref-SP-800-157"} Ferraiolo H, Cooper DA, Francomacaro S, Regenscheid AR, Burr WE, Mohler J, Gupta S (2014)
+*Guidelines for Derived Personal Identity Verification (PIV) Credentials.*
+(National Institute of Standards and Technology, Gaithersburg, MD), NIST Special Publication (SP) 800-157 [or as amended].
+<https://doi.org/10.6028/NIST.SP.800-157>
