@@ -65,7 +65,7 @@ All on-card cryptographic modules that host the PIV Card application and cryptog
 issuance and maintenance systems SHALL be validated to [[FIPS 140]](references.md#ref-FIPS140) with an overall Security Level 2 (or
 higher). The facilities for [[FIPS 140]](references.md#ref-FIPS140) testing are the Cryptographic and Security Testing Laboratories
 accredited by the NVLAP program of NIST. Vendors who want to supply cryptographic modules can
-select any of the accredited laboratories. The tests that these laboratories conduct on for all vendor
+select any of the accredited laboratories. The tests that these laboratories conduct for all vendor
 submissions are validated, and a validation certificate for each vendor module is issued by the
 Cryptographic Module Validation Program (CMVP), a joint program run by NIST and the
 Communications Security Establishment (CSE) of the Government of Canada. The details of the CMVP

@@ -85,7 +85,7 @@ processing [[ISO 2382-37]](references.md#ref-ISO/IEC-2382-37).
 Biometric Data Record
 : Electronic data record containing biometric data.
 This information
-can be in terms of raw or compressed pixels or some _biometric characteristic_ (e.g., patterns) [[ISO 2382-37]](references.md#ref-ISO/IEC-2382-37).
+can be in terms of raw or compressed pixels or in terms of some _biometric characteristic_ (e.g., patterns) [[ISO 2382-37]](references.md#ref-ISO/IEC-2382-37).
 
 Biometric On-Card Comparison (OCC)
 : A one-to-one _comparison_ of fingerprint _biometric data records_ transmitted to the _PIV Card_ with a biometric reference 
@@ -105,7 +105,7 @@ the same biometric source based on _comparison_ score(s) during a _biometric ver
 transaction [[ISO 2382-37]](references.md#ref-ISO/IEC-2382-37).
 
 Capture
-: Series of actions undertaken to directly obtain and record, in a retrievable form, signals of _biometric characteristics_ from individuals [[ISO 2382-37]](references.md#ref-ISO/IEC-2382-37).
+: Series of actions undertaken to obtain and record, in a retrievable form, signals of _biometric characteristics_ directly from individuals [[ISO 2382-37]](references.md#ref-ISO/IEC-2382-37).
 
 Cardholder
 : An individual who possesses an issued _PIV Card_.
@@ -364,7 +364,7 @@ an _asymmetric key_ challenge/response protocol using the PIV _authentication_ _
 contact reader or a contactless card reader that supports the virtual contact interface.
 
 Recommendation
-: A special publication of the ITL that stipulates specific characteristics of technology to
+: A special publication of the ITL that stipulates specific characteristics of the technology to
 use or the procedures to follow to achieve a common level of quality or level of interoperability.
 
 Registration

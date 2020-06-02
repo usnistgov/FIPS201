@@ -8,7 +8,7 @@ permalink: /authentication/
 
 # 6. PIV Cardholder Authentication {#s-6}
 
-_This section is normative._ It defines a suite of authentication mechanisms that are supported by all PIV Cards, as well as
+_This section is normative._ It defines a suite of authentication mechanisms that are supported by all PIV Cards as well as
 the applicability of these mechanisms in meeting the requirements for a set of graduated assurance levels. This
 section also defines some authentication mechanisms that make use of credential elements that MAY
 optionally be included on PIV Cards. Specific implementation details of authentication mechanisms
@@ -79,7 +79,7 @@ Some characteristics of the authentication mechanisms using biometric data are a
 
 The following steps SHALL be performed for unattended authentication using biometric data:
 
-- The CHUID or another data element[^expired] is read from the card. The signature of the CHUID or another data element is verified to ensure that the card has not expired and that it comes from a trusted source.
+- The CHUID or another data element[^expired] is read from the card. The signature of the CHUID or another data element is verified to ensure that the card has not expired and that the card comes from a trusted source.
 - The cardholder is prompted to enter a PIN, activating the PIV Card.
 - The biometric data record is read from the card.
 - The signature on the biometric data record is verified to ensure that the biometric data record is intact and comes from a trusted
