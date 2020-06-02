@@ -15,7 +15,7 @@ Available at <https://www.whitehouse.gov/sites/whitehouse.gov/files/omb/circular
  
 [[ANSI 322]](references.md#ref-ANSI322){:name="ref-ANSI322"} ANSI INCITS 322 Information Technology, *Card Durability Test Methods*, ANSI, 2008.
 
-[[CDS]](references.md#ref-CDS){:name="ref-CDS"} *DL/ID Card Design Standard*, American Association of Motor Vehicle Adminstrators, September 2016. Available at <https://www.aamva.org/DL-ID-Card-Design-Standard/>.
+[[CDS]](references.md#ref-CDS){:name="ref-CDS"} *DL/ID Card Design Standard*, American Association of Motor Vehicle Adminstrators, September, 2016. Available at <https://www.aamva.org/DL-ID-Card-Design-Standard/>.
 
 [[COMMON]](references.md#ref-COMMON){:name="ref-COMMON"} *X.509 Certificate Policy for the U.S. Federal PKI Common Policy Framework*,
 Version 1.31, February 8, 2019, or as amended. Available at
@@ -61,7 +61,7 @@ NIST, June 2015. Available at <http://doi.org/10.6028/NIST.IR.7863>.
 
 [[ISC-RISK]](references.md#ref-ISC-RISK){:name="ref-ISC-RISK"} The Risk Management Process for Federal Facilities: An Interagency Security Committee Standard,
 2nd Edition, November 2016, or as amended. Interagency Security Committee. Available at 
-<https://www.cisa.gov/sites/default/files/publications/isc-risk-management-process-2016-508.pdf>.
+<https://www.dhs.gov/sites/default/files/publications/isc-risk-management-process-2016-508.pdf>.
 
 [[ISO 2382-37]](references.md#ref-ISO/IEC-2382-37){:name="ref-ISO/IEC-2382-37"} ISO/IEC 2382-37:2017, *Information technology -- Vocabulary -- Part 37: Biometrics*, ISO, 2017.
 
