@@ -36,7 +36,7 @@ such that
 + An individual is issued a credential only after presenting two identity source documents, at least one
     of which is a Federal or State Government-issued picture ID.
 + Fraudulent identity source documents are not accepted as genuine or unaltered.
-+ A person suspected or known to the Government as being a terrorist is not issued a credential.
++ A person suspected or known to the government as being a terrorist is not issued a credential.
 + No substitution occurs in the identity proofing process. More specifically, the individual who appears
     for identity proofing and whose fingerprints are checked against databases is the person to whom the
     credential is issued.
@@ -45,7 +45,8 @@ such that
     exists such that expired or invalidated credentials are swiftly revoked.
 + A single corrupt official in the process may not issue a credential with an incorrect identity or to a
     person not entitled to the credential.
-+ An issued credential is not duplicated, forged, or modified by an unauthorized entity.
++ An issued credential is not duplicated or forged.
++ An issued credential is not modified by an unauthorized entity.
 
 [^initiation]: The initiation of a background investigation is defined as the submission of an investigative request to the Defense Counterintelligence and Security Agency or other authorized federal investigative service provider.
 
@@ -255,9 +256,9 @@ of the following:
 * U.S. Social Security Card issued by the Social Security Administration
 * original or certified copy of a birth certificate issued by a state, county, municipal
     authority, possession, or outlying possession of the United States bearing an official seal; or
-* another piece of evidence that meets the requirements of fair evidence specified in [[SP 800-63A]](../_Appendix/references.md#ref-SP-800-63A).
+* another piece of evidence that meets the requirements of Fair evidence specified in [[SP 800-63A]](../_Appendix/references.md#ref-SP-800-63A).
 
-> Note: One piece of strong evidence and one other piece of evidence meeting the requirements of fair evidence in [[SP 800-63A]](../_Appendix/references.md#ref-SP-800-63A) are considered sufficient for issuance of a PIV Card because the requirement for a federal background investigation is considered a compensating control for identity proofing at IAL3.
+> Note: One piece of Strong evidence and one other piece of evidence meeting the requirements of Fair evidence in [[SP 800-63A]](../_Appendix/references.md#ref-SP-800-63A) are considered sufficient for issuance of a PIV Card because the requirement for a federal background investigation is considered a compensating control for identity proofing at IAL3.
 
 The PIV identity proofing, registration, issuance, and reissuance processes SHALL adhere to the
 principle of separation of duties to ensure that no single individual has the capability to issue a PIV
@@ -333,7 +334,7 @@ of the federal department or agency.
     no biometric data records are available, the cardholder SHALL provide two identity source documents (as
     specified in [Section 2.7](requirements.md#s-2-7)), and an attending operator SHALL inspect these and compare the cardholder
     with the photograph printed on the PIV Card.
-+ The organization SHALL only issue PIV credentials through systems and providers whose reliability has
++ The organization SHALL issue PIV credentials only through systems and providers whose reliability has
     been established by the agency and so documented and approved in writing (i.e., accredited) in
     accordance with [[SP 800-79]](../_Appendix/references.md#ref-SP-800-79).
 + The PIV Card SHALL be valid for no more than six years.
@@ -468,7 +469,7 @@ the PIV Card) or remotely (i.e., performed with the PIV Card at a remote locatio
 SHALL be performed with issuer security controls equivalent to those applied during PIV Card reissuance.
 For remote post-issuance updates, the following SHALL apply:
 
-+ Communication between the PIV Card issuer and the PIV Card SHALL only occur over mutually
++ Communication between the PIV Card issuer and the PIV Card SHALL occur only over mutually
     authenticated secure sessions between tested and validated cryptographic modules (one being the PIV
     Card).
 + Data transmitted between the PIV Card issuer and PIV Card SHALL be encrypted and contain data

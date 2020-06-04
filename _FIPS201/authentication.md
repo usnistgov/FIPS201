@@ -70,7 +70,7 @@ Some characteristics of the authentication mechanisms using biometric data are a
 - digital signature on biometric data records, which is checked to further strengthen the mechanism
 - slower since it requires multiple interactions with the cardholder for presentation of the PIN and acquisition of a biometric sample
 - does not provide protection against use of a revoked card
-- usable with both contact and contactless card readers that support the virtual contact
+- usable with both contact card readers and contactless card readers that support the virtual contact
     interface
 
 [^bioreaders]: As noted in [Section 4.2.3.1](../frontend/#s-4-2-3-1), fingerprint biometric templates are not guaranteed to contain biometric characteristic data since it may not be possible to collect fingerprints from some cardholders. Additionally, electronic iris images are not guaranteed to be present on a PIV Card since iris biometric capture is optional. When biometric verification cannot be performed, PKI-AUTH is the recommended alternate authentication mechanism.
@@ -153,7 +153,7 @@ Some of the characteristics of the PKI-based authentication mechanism are as fol
 - highly resistant to credential forgery
 - strong resistance to the use of an unaltered card by a non-owner since card activation is required
 - protection against the use of a revoked card
-- usable with both contact and contactless card readers that support the virtual contact
+- usable with both contact card readers and contactless card readers that support the virtual contact
     interface
 
 [^pivpath]: The policy OID for the PIV authentication certificate is `id-fpki-common-authentication`.
@@ -176,7 +176,7 @@ The following steps SHALL be performed for PKI-CAK:
 
 Some of the characteristics of the PKI-CAK authentication mechanism are as follows:
 
-- requires the use of certificate status-checking infrastructure
+- requires the use of certificate status checking infrastructure
 - highly resistant to credential forgery
 - low resistance to use of unaltered card by non-owner
 - usable with contact and contactless readers

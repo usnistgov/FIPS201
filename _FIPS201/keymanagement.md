@@ -24,7 +24,7 @@ CA certificates SHALL conform to
 
 ## 5.2 PKI Certificate {#s-5-2}
 
-All certificates issued to support PIV private keys (e.g., PIV authentication, card authentication, digital signature, and key management certificates) SHALL be issued in accordance with [[COMMON]](../_Appendix/references.md#ref-COMMON). 
+All certificates issued to support PIV private keys (i.e., PIV authentication, card authentication, digital signature, and key management certificates) SHALL be issued in accordance with [[COMMON]](../_Appendix/references.md#ref-COMMON). 
 CAs and registration authorities can either be operated by departments and agencies or be outsourced to PKI
 service providers. For a list of PKI service providers that have been approved to operate under
 [[COMMON]](../_Appendix/references.md#ref-COMMON), see <https://www.idmanagement.gov>.
@@ -72,9 +72,9 @@ The content of this section has been removed since [[COMMON]](../_Appendix/refer
 ## 5.5 PKI Repository and Online Certificate Status Protocol (OCSP) Responders {#s-5-5}
 {:latex-toc="5.5 PKI Repository and Online Certificate Status Protocol Responders"}
 
-CAs that issue certificates corresponding to PIV private keys (e.g., PIV authentication, card authentication, digital signature, or key management certificates) SHALL
+CAs that issue certificates corresponding to PIV private keys (i.e., PIV authentication, card authentication, digital signature, or key management certificates) SHALL
 
-- maintain a Hypertext Transfer Protocol (HTTP)-accessible service that publishes the CRLs for the PIV certificates that it issues, as specified in [[PROF]](../_Appendix/references.md#ref-PROF);
+- maintain a Hypertext Transfer Protocol (HTTP) accessible service that publishes the CRLs for the PIV certificates that it issues, as specified in [[PROF]](../_Appendix/references.md#ref-PROF);
 - maintain an HTTP-accessible service that publishes any CA certificates issued to it, as specified in [[PROF]](../_Appendix/references.md#ref-PROF); and
 - operate Online Certificate Status Protocol (OCSP, specified in [[RFC 6960]](../_Appendix/references.md#ref-RFC6960)) services for the PIV certificates that it issues, as specified in [[PROF]](../_Appendix/references.md#ref-PROF).
 

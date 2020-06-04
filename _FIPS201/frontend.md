@@ -257,7 +257,7 @@ Zone 2B: Issuer Identification Number
 #### 4.1.4.3 Optional Items on the Front of the PIV Card {#s-4-1-4-3}
 
 This section contains a description of the optional information and machine-readable technologies that
-may be used, as well as their respective placement. The storage capacity of all optional technologies is as
+may be used as well as their respective placement. The storage capacity of all optional technologies is as
 prescribed by individual departments and agencies and is not addressed in this Standard. Although the
 items discussed in this section are optional, if used, they SHALL be placed on the card as designated in the
 examples provided and as noted.
@@ -295,7 +295,7 @@ Zone 11F: Agency Seal
 
 Zone 12F: Footer
 : If used as the federal emergency response official identification
-    label, a department or agency SHALL print "Federal Emergency Response Official," as depicted in
+    label, a department or agency SHALL print "Federal Emergency Response Official" as depicted in
     [Figure 4-2](frontend.md#fig-4-2). The label SHOULD be in white lettering on a red background. Additional information
     regarding the federal emergency responder role MAY be included in Zone 9F, as depicted in [Figure 4-2](frontend.md#fig-4-2).
     
@@ -450,7 +450,7 @@ uncorrected) at a working distance of 50&nbsp;cm to 200&nbsp;cm.
 
 |Color|Zone|sRGB Tristimulus|sRGB|CMYK|PANTONE&reg;|
 |---|---|---|---|---|
-|White|15F|255, 255, 255|255, 255, 255|0, 0, 0, 0|White|
+|White|15F|255, 255, 255|255, 255, 255|0, 0, 0, 0||
 |Green|15F|153, 255, 153|203, 255, 203|40, 0, 40, 0|359&nbsp;C|
 |Blue|15F|0, 255, 255|0, 255, 255|100, 0, 0, 0|630&nbsp;C
 |Red|12F|253, 27, 20|254, 92, 79|0, 90, 86, 0|032&nbsp;C|
@@ -518,7 +518,7 @@ removed from this version of the Standard. The CHUID data element itself, howeve
 Agency Smart Credential Number (FASC-N) and the card UUID in the Global Unique Identification Number (GUID) data element of the CHUID. 
 Each identifier uniquely identifies each card as specified in [[SP 800-73]](../_Appendix/references.md#ref-SP-800-73).
 The value of the card UUID SHALL
-be a 16-byte binary representation of a valid UUID as specified in [[RFC 4122]](../_Appendix/references.md#ref-RFC4122). The
+be a 16&nbsp;byte binary representation of a valid UUID as specified in [[RFC 4122]](../_Appendix/references.md#ref-RFC4122). The
 CHUID SHALL also include an expiration date data element in machine-readable format that specifies when
 the card expires. The expiration date format and encoding rules are as specified in [[SP 800-73]](../_Appendix/references.md#ref-SP-800-73).
 
@@ -617,7 +617,7 @@ specified in [[SP 800-78]](../_Appendix/references.md#ref-SP-800-78).
 Symmetric cryptographic operations are not mandated for the contactless interface, but departments and
 agencies MAY choose to supplement the basic functionality with storage for a symmetric card
 authentication key and support for a corresponding set of cryptographic operations. For example, if a
-department or agency wants to utilize an Advanced Encryption Standard (AES)-based challenge/response for
+department or agency wants to utilize an Advanced Encryption Standard (AES) based challenge/response for
 physical access, the PIV Card SHALL contain storage for the AES key and support AES operations through
 the contactless interface. Algorithms and key sizes for each PIV key type are specified in [[SP 800-78]](../_Appendix/references.md#ref-SP-800-78).
 
@@ -739,7 +739,7 @@ CBEFF signature block ([[IR 6529-A]](../_Appendix/references.md#ref-CBEFF)).
 
 The format for a CBEFF header is specified in [[SP 800-76]](../_Appendix/references.md#ref-SP-800-76).
 
-The CBEFF signature block contains the digital signature of the biometric data record and, thus,
+The CBEFF signature block contains the digital signature of the biometric data record and
 facilitates the verification of integrity of the biometric data record. The CBEFF signature block SHALL be
 encoded as a CMS external digital signature as specified in [[SP 800-76]](../_Appendix/references.md#ref-SP-800-76). The algorithm and key size
 requirements for the digital signature and digest algorithm are detailed in [[SP 800-78]](../_Appendix/references.md#ref-SP-800-78).
@@ -808,7 +808,7 @@ activation of the card after a number of consecutive failed activation attempts.
 consecutive PIN retries SHALL be permitted unless a lower limit is imposed by the department or agency.
 
 The PIN should not be easily guessable or otherwise individually identifiable in nature (e.g., part of a
-Social Security Number or phone number). The PIN SHALL be a minimum of six digits in length. The PIV Card SHALL compare the chosen PIN with a list of at least 10 commonly chosen values (e.g., 000000, 123456) and require the choice of a different value if one of those is selected by the cardholder.
+Social Security Number or phone number). The PIN SHALL be a minimum of six digits in length. The PIV Card SHALL compare the chosen PIN against a list of at least 10 commonly-chosen values (e.g., 000000, 123456) and require the choice of a different value if one of those is selected by the cardholder.
 
 ### 4.3.2 Activation by Card Management System {#s-4-3-2}
 
