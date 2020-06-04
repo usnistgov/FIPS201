@@ -207,7 +207,7 @@ Zone 10F: Agency, Department, or Organization
 Zone 14F: Card Expiration Date
 : The card expiration date SHALL be printed on the card as depicted in
     [Figure 4-1](frontend.md#fig-4-1). The card expiration date SHALL be in a YYYYMMMDD format. The YYYY characters
-    represent the four-digit year, the DD characters represent the two-digit day of the month, and the MMM characters
+    represent the four-digit year; the DD characters represent the two-digit day of the month; and the MMM characters
     represent the three-letter month abbreviation as follows: JAN, FEB, MAR, APR, MAY, JUN, JUL, AUG,
     SEP, OCT, NOV, and DEC. The Zone 14F expiration date SHALL be printed in 6&nbsp;pt to 9&nbsp;pt Arial Bold.
 
@@ -310,7 +310,7 @@ Zone 12F: Footer
 Zone 13F: Issue Date
 : If used, the card issuance date SHALL be printed above the Zone 14F expiration
     date in YYYYMMMDD format, as depicted in [Figure 4-3](frontend.md#fig-4-3). The YYYY characters
-    represent the four-digit year, the DD characters represent the two-digit day of the month, and the MMM characters
+    represent the four-digit year; the DD characters represent the two-digit day of the month; and the MMM characters
     represent the three-letter month abbreviation as follows: JAN, FEB, MAR, APR, MAY, JUN, JUL, AUG,
     SEP, OCT, NOV, and DEC.
 
