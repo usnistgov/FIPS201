@@ -200,7 +200,7 @@ defined in [[SP 800-63]](references.md#ref-SP-800-63) in terms of three levels:
 
 Hash Function
 : A function that maps a bit string of arbitrary length to a fixed length bit string. Secure
-hash functions ([[FIPS 180]](references.md#ref-FIPS180)) satisfy the following properties:
+hash functions [[FIPS 180]](references.md#ref-FIPS180) satisfy the following properties:
 
     One-Way
     : It is computationally infeasible to find any input that maps to any pre-specified

@@ -435,7 +435,7 @@ legislatively mandated medical entitlements.
 ### 4.1.5 Color Representation {#s-4-1-5}
 
 [Table 4-2](frontend.md#table-4-2) provides quantitative specifications for colors in four different color systems: sRGB
-Tristimulus ([[IEC 61966]](../_Appendix/references.md#ref-IEC61966)), sRGB ([[IEC 61966]](../_Appendix/references.md#ref-IEC61966)), CMYK (Cyan,
+Tristimulus [[IEC 61966]](../_Appendix/references.md#ref-IEC61966), sRGB [[IEC 61966]](../_Appendix/references.md#ref-IEC61966), CMYK (Cyan,
 Magenta, Yellow, and Key or 'blacK'), and PANTONE&reg;. Note the PANTONE&reg; color cue mapping is approximate and will not
 produce an exact match. An agency or department MAY use the PANTONE&reg; mappings in cases
 where the exact color scales are not available. 
@@ -735,7 +735,7 @@ with the preparation and formatting specifications of [[SP 800-76]](../_Appendix
 The integrity of all biometric data records, except for fingerprint biometric templates for OCC, SHALL be
 protected using digital signatures. The records SHALL be prepended with a Common Biometric
 Exchange Formats Framework (CBEFF) header and appended with the
-CBEFF signature block ([[IR 6529-A]](../_Appendix/references.md#ref-CBEFF)).
+CBEFF signature block [[IR 6529-A]](../_Appendix/references.md#ref-CBEFF).
 
 The format for a CBEFF header is specified in [[SP 800-76]](../_Appendix/references.md#ref-SP-800-76).
 
@@ -828,7 +828,7 @@ section also provides requirements for PIN input devices. Further card reader re
 ### 4.4.1 Contact Reader Requirements {#s-4-4-1}
 
 Contact card readers SHALL conform to [[ISO 7816]](../_Appendix/references.md#ref-ISO7816) for the card-to-reader interface. These
-readers SHALL conform to the Personal Computer/Smart Card (PC/SC) Specification ([[PCSC]](../_Appendix/references.md#ref-PCSC)) for the reader-to-host system interface in general-purpose desktop computing systems and
+readers SHALL conform to the Personal Computer/Smart Card (PC/SC) Specification [[PCSC]](../_Appendix/references.md#ref-PCSC) for the reader-to-host system interface in general-purpose desktop computing systems and
 SHALL conform to the requirements specified in [[SP 800-96]](../_Appendix/references.md#ref-SP-800-96). In systems where the readers are not
 connected to general-purpose desktop computing systems, the reader-to-host system interface is not
 specified in this Standard.
