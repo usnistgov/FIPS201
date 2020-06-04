@@ -263,11 +263,11 @@ Issuing Facility
   documentation---that is responsible for carrying out one or more of the
   following PIV functions:
   
-  * _identity proofing_/_registration_
-  * card/token production
-  * activation/issuance
-  * post-issuance binding of _derived PIV credential_
-  * maintenance
+  * _identity proofing_ and _registration_;
+  * card and token production;
+  * activation and issuance;
+  * post-issuance binding of _derived PIV credential_; and
+  * maintenance.
 
 Key
 : See _Cryptographic Key_.

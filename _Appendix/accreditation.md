@@ -18,10 +18,10 @@ official accreditation process. Consistent assessment guidelines are established
 The entire spectrum of activities in the PCI and DPCI accreditation methodology is divided into the following four
 phases:
 
-- initiation
-- assessment
-- accreditation
-- monitoring
+- initiation,
+- assessment,
+- accreditation, and
+- monitoring.
 
 The initiation phase involves communicating the goals of the assessment/accreditation to the key
 personnel of the PCI and DPCI organization and the review of documents, such as the PCI and DPCI operations plan. In the

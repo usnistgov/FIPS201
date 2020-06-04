@@ -176,10 +176,10 @@ The following steps SHALL be performed for PKI-CAK:
 
 Some of the characteristics of the PKI-CAK authentication mechanism are as follows:
 
-- requires the use of certificate status checking infrastructure
-- highly resistant to credential forgery
-- low resistance to use of unaltered card by non-owner
-- usable with contact and contactless readers
+- requires the use of certificate status checking infrastructure,
+- highly resistant to credential forgery,
+- low resistance to use of unaltered card by non-owner, and
+- usable with contact and contactless readers.
 
 [^cacpath]: The policy OID for the card authentication certificate is `id-fpki-common-cardAuth`.
 
@@ -204,10 +204,10 @@ steps:
 Some of the characteristics of the symmetric card authentication key authentication mechanism are as
 follows:
 
-- resistant to credential forgery
-- does not provide protection against use of a revoked card
-- low resistance to the use of an unaltered card by a non-owner
-- usable with contact and contactless readers
+- resistant to credential forgery,
+- does not provide protection against use of a revoked card,
+- low resistance to the use of an unaltered card by a non-owner, and
+- usable with contact and contactless readers.
 
 ### 6.2.5 Authentication Using the CHUID (Removed) {#s-6-2-5}
 {:latex-toc="6.2.5 CHUID"}
@@ -290,14 +290,14 @@ the visual authentication process:
     serial number, issuer identification, agency name) are used to determine whether the cardholder
     should be granted access.
 
-Some characteristics of the visual authentication mechanism include:
+Some characteristics of the visual authentication mechanism include the following:
 
-- human inspection of the card
-- not amenable for rapid or high-volume access control
-- susceptible to human error
-- some resistance to the use of an unaltered card by a non-owner
-- low resistance to tampering and forgery
-- does not provide protection against the use of a revoked card
+- human inspection of the card,
+- not amenable for rapid or high-volume access control,
+- susceptible to human error,
+- some resistance to the use of an unaltered card by a non-owner,
+- low resistance to tampering and forgery, and
+- does not provide protection against the use of a revoked card.
 
 ## 6.3 PIV Support of Graduated Authenticator Assurance Levels {#s-6-3}
 

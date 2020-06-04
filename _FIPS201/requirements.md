@@ -227,7 +227,7 @@ of a formal name change SHALL be provided. At least one identity source document
 following forms of identification:
 
 * U.S. Passport or a U.S. Passport Card
-* Permanent Resident Card or an Alien Registration Receipt Card (Form I-551)
+* Permanent Resident Card or Alien Registration Receipt Card (Form I-551)
 * foreign passport
 * Employment Authorization Document that contains a photograph (Form I-766)
 * driver’s license or ID card that is compliant with [[REAL-ID]](../_Appendix/references.md#ref-REAL-ID) enforcement requirements pursuant to DHS regulations
