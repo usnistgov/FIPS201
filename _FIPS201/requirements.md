@@ -255,8 +255,8 @@ of the following:
 * Native American tribal document
 * U.S. Social Security Card issued by the Social Security Administration
 * original or certified copy of a birth certificate issued by a state, county, municipal
-    authority, possession, or outlying possession of the United States bearing an official seal; or
-* another piece of evidence that meets the requirements of Fair evidence specified in [[SP 800-63A]](../_Appendix/references.md#ref-SP-800-63A).
+    authority, possession, or outlying possession of the United States bearing an official seal
+* another piece of evidence that meets the requirements of Fair evidence specified in [[SP 800-63A]](../_Appendix/references.md#ref-SP-800-63A)
 
 > Note: One piece of Strong evidence and one other piece of evidence meeting the requirements of Fair evidence in [[SP 800-63A]](../_Appendix/references.md#ref-SP-800-63A) are considered sufficient for issuance of a PIV Card because the requirement for a federal background investigation is considered a compensating control for identity proofing at IAL3.
 

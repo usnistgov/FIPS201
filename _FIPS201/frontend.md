@@ -427,11 +427,6 @@ legislatively mandated medical entitlements.
 
 ![Card Back: Optional Data Placement (Example 2)]({{site.baseurl}}/{{page.collection}}/images/cardback-optional2.png){:style="width: 1047px;" latex-src="cardback-optional2.pdf" latex-fig="4-8"}
 
-~~~
-\clearpage
-~~~
-{:latex-literal="true"}
-
 ### 4.1.5 Color Representation {#s-4-1-5}
 
 [Table 4-2](frontend.md#table-4-2) provides quantitative specifications for colors in four different color systems: sRGB
@@ -456,6 +451,10 @@ uncorrected) at a working distance of 50&nbsp;cm to 200&nbsp;cm.
 |Red|12F|253, 27, 20|254, 92, 79|0, 90, 86, 0|032&nbsp;C|
 {:latex-columns="p@0.07\textwidth,p@0.06\textwidth,p@0.22\textwidth,p@0.16\textwidth,p@0.13\textwidth,p@0.15\textwidth" latex-table="4-2" latex-caption="Color Representation"}
 
+~~~
+\clearpage
+~~~
+{:latex-literal="true"}
 
 ## 4.2 PIV Card Logical Characteristics {#s-4-2}
 

@@ -87,17 +87,17 @@ Biometric Data Record
 This information
 can be in terms of raw or compressed pixels or in terms of some _biometric characteristic_ (e.g., patterns) [[ISO 2382-37]](references.md#ref-ISO/IEC-2382-37).
 
+~~~
+\clearpage
+~~~
+{:latex-literal="true"}
+
 Biometric On-Card Comparison (OCC)
 : A one-to-one _comparison_ of fingerprint _biometric data records_ transmitted to the _PIV Card_ with a biometric reference 
 previously stored on the _PIV Card_. In this Standard, OCC is used as a means of performing card activation and as part of OCC-AUTH.
 
 Biometric Verification
 : Process of confirming a biometric claim through biometric _comparison_.
-
-~~~
-\clearpage
-~~~
-{:latex-literal="true"}
 
 Biometric Verification Decision
 : A determination of whether biometric probe(s) and biometric reference(s) have 
@@ -131,6 +131,11 @@ Certification Authority
 Chain of trust
 : An interoperable data format for _PIV enrollment records_ that facilitates the import and export of records 
 between _PIV Card_ _issuers_.
+
+~~~
+\clearpage
+~~~
+{:latex-literal="true"}
 
 Comparison
 : Estimation, calculation, or measurement of similarity or dissimilarity between biometric probe(s) and biometric reference(s) [[ISO 2382-37]](references.md#ref-ISO/IEC-2382-37). 
@@ -179,11 +184,6 @@ information technology to achieve a common level of quality or some level of int
 Federation
 : A process that allows for the conveyance of _identity_ and _authentication_ information across a set of networked systems.
 
-~~~
-\clearpage
-~~~
-{:latex-literal="true"}
-
 Federation Assurance Level (FAL)
 : A category that describes the _federation_ protocol used to communicate an _assertion_ containing _authentication_ and attribute 
 information (if applicable) to an RP, as
@@ -221,6 +221,11 @@ number are examples of identifiers.
 Identity
 : The set of physical and behavioral characteristics by which an individual is uniquely
 recognizable.
+
+~~~
+\clearpage
+~~~
+{:latex-literal="true"}
 
 Identity Assurance Level (IAL)
 : A category that conveys the degree of confidence that the end user’s claimed _identity_ is their real _identity_, as
@@ -282,11 +287,6 @@ Model
 be created, operated, and analyzed to predict actual operational characteristics of the final produced
 _component_.
 
-~~~
-\clearpage
-~~~
-{:latex-literal="true"}
-
 Off-Card
 : Refers to data that is not stored within the _PIV Card_ or to a computation that is not performed
 by the integrated circuit chip (ICC) of the _PIV Card_.
@@ -316,6 +316,11 @@ Personal Identification Number (PIN)
 : A numeric secret that a _cardholder_ memorizes and uses as part of authenticating
 their _identity_.
 
+~~~
+\clearpage
+~~~
+{:latex-literal="true"}
+
 Personal Identity Verification (PIV) Account
 : The logical record containing credentialing information for a given PIV _cardholder_. This is typically stored within the _issuer’s_ _identity management system_ and includes PIV enrollment data, _cardholder_ _identity_ attributes, and information regarding authenticators bound to the _cardholder_’s _identity_ (e.g., _PIV Card_ and _derived PIV credentials_).
 
@@ -329,11 +334,6 @@ PIV Enrollment Record
 : A sequence of related _enrollment data sets_ that is created and 
 maintained by _PIV Card_ _issuers_. The PIV enrollment record typically contains data collected 
 at each step of the PIV _identity proofing_, _registration_, and issuance processes.
-
-~~~
-\clearpage
-~~~
-{:latex-literal="true"}
 
 Private Key
 : The secret part of an _asymmetric key_ pair that is typically used to digitally sign or decrypt
@@ -358,6 +358,11 @@ PKI-Card Authentication (PKI-CAK)
 an _asymmetric key_ challenge/response protocol using the card _authentication_ _key_ of the _PIV Card_ and a
 contact or contactless reader.
 
+~~~
+\clearpage
+~~~
+{:latex-literal="true"}
+
 PKI-PIV Authentication (PKI-AUTH)
 : A PIV _authentication_ mechanism that is implemented by
 an _asymmetric key_ challenge/response protocol using the PIV _authentication_ _key_ of the _PIV Card_ and a
@@ -375,16 +380,16 @@ Symmetric Key
 inverse (e.g., to encrypt, decrypt, or create a message _authentication_ code and verify
 it).
 
-~~~
-\clearpage
-~~~
-{:latex-literal="true"}
-
 Security Executive Agent
 : Individual responsible for the development, implementation, and oversight of effective, efficient, and uniform policies and procedures that govern the conduct of investigations and adjudications for eligibility to access classified information and eligibility to hold a sensitive position in the Federal Government. In accordance with Executive Order 13467 (as amended), this individual is the Director of National Intelligence (DNI).
 
 Suitability and Credentialing Executive Agent
 : Individual responsible for prescribing suitability standards and minimum standards of fitness for employment. With the issuance of Executive Order 13467, as amended, the Suitability and Credentialing Executive Agent is responsible for the development, implementation, and oversight of effective, efficient, and uniform policies and procedures governing the conduct of investigations and adjudications for Suitability, Fitness, and Credentialing determinations in the Federal Government. Pursuant to sections 1103 and 1104 of title 5, United States Code, and the Civil Service Rules, the director of the Office of Personnel Management (OPM) is the Suitability and Credentialing Executive Agent. 
+
+~~~
+\clearpage
+~~~
+{:latex-literal="true"}
 
 ## C.2 Acronyms and Abbreviations {#s-c-2}
 

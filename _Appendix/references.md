@@ -16,7 +16,7 @@ _This appendix is informative._ It lists the specifications and standards referr
 Available at <https://www.whitehouse.gov/sites/whitehouse.gov/files/omb/circulars/A130/a130revised.pdf>
  
 [[ANSI 322]](references.md#ref-ANSI322){:name="ref-ANSI322"} InterNational Committee for Information Technology Standards (2008) 
-*ANSI INCITS 322-2008 &mdash; Information Technology &mdash; Card Durability Test Methods* 
+*ANSI INCITS 322-2008 &mdash; Information Technology &mdash; Card Durability Test Methods.* 
 (ANSI, New York, NY) [or as amended]. 
 Available at <https://webstore.ansi.org/standards/incits/ansiincits3222008>
 
@@ -48,6 +48,11 @@ Available at <https://www.opm.gov/suitability/suitability-executive-agent/policy
 (U.S. Department of Commerce, Washington, DC), Federal Information Processing Standards Publication (FIPS) 180-4 [or as amended]. 
 <https://doi.org/10.6028/NIST.FIPS.180-4>
 
+~~~
+\clearpage
+~~~
+{:latex-literal="true"}
+
 [[FICAM]](references.md#ref-FICAM){:name="ref-FICAM"} Federal CIO Council, Federal Enterprise Architecture (2011)
 *Federal Identity, Credential, and Access Management (FICAM) Roadmap and Implementation Guidance.*
 (Federal CIO Council), Version 2.0 [or as amended].
@@ -57,11 +62,6 @@ Available at <https://www.idmanagement.gov/wp-content/uploads/sites/1171/uploads
 *ASTM G155-13 &mdash; Standard Practice for Operating Xenon Arc Light Apparatus for Exposure of Non-metallic Materials.*
 (ASTM International, West Conshohocken, PA) [or as amended].
 Available at <https://compass.astm.org/EDIT/html_annot.cgi?G155+13> 
-
-~~~
-\clearpage
-~~~
-{:latex-literal="true"}
 
 [[G90-17]](references.md#ref-G90-17){:name="ref-G90-17"} ASTM International (2017)
 *ASTM G90-17&mdash;Standard Practice for Performing Accelerated Outdoor Weathering of Materials Using Concentrated Natural Sunlight.*
@@ -92,6 +92,11 @@ Cardholder Authentication for the PIV Digital Signature Key.
 *The Risk Management Process for Federal Facilities: An Interagency Security Committee Standard.*
 (U.S. Department of Homeland Security, Washington, DC), 2nd edition [or as amended].
 Available at <https://www.cisa.gov/sites/default/files/publications/isc-risk-management-process-2016-508.pdf>
+
+~~~
+\clearpage
+~~~
+{:latex-literal="true"}
 
 [[ISO 2382-37]](references.md#ref-ISO/IEC-2382-37){:name="ref-ISO/IEC-2382-37"} International Organization for Standardization/International Electrotechnical Commission (2017)
 *ISO/IEC 2382-37:2017 &mdash; Information technology &mdash; Vocabulary &mdash; Part 37: Biometrics.*
@@ -155,7 +160,7 @@ Available at <https://www.iso.org/standard/70483.html>
     Available at <https://www.iso.org/standard/64598.html>
 
 [[ISO 10373]](references.md#ref-ISO10373){:name="ref-ISO10373"} International Organization for Standardization/International Electrotechnical Commission (2006-2018)
-*ISO/IEC 10373-1:2006 &mdash; Identification Cards &mdash; Test Methods &mdash.* (multiple parts):
+*ISO/IEC 10373-1:2006 &mdash; Identification Cards &mdash; Test Methods.* (multiple parts):
 
 -  International Organization for Standardization/International Electrotechnical Commission (2006)
     *ISO/IEC 10373-1:2006 &mdash; Identification Cards &mdash; Test Methods &mdash; Part 1: General Characteristics.*
@@ -176,11 +181,6 @@ Available at <https://www.iso.org/standard/70483.html>
 *ISO/IEC 14443-1:2018 &mdash; Cards and security devices for personal identification &mdash; Contactless proximity objects Part 1: Physical characteristics.*
 (International Organization for Standardization, Geneva, Switzerland) [or as amended].
 Available at <https://www.iso.org/standard/73596.html>
-
-~~~
-\clearpage
-~~~
-{:latex-literal="true"}
 
 [[M-03-22]](references.md#ref-OMB0322){:name="ref-OMB0322"} Office of Management and Budget (2003)
 *OMB Guidance for Implementing the Privacy Provisions of the E-Government Act of 2002.*
@@ -218,6 +218,11 @@ Available at <https://www.pcscworkgroup.com/specifications/>
 *X.509 Certificate and Certificate Revocation List (CRL) Extensions Profile for the Shared Service Providers (SSP) Program.*
 (Federal CIO Council), Version 1.9 [or as amended].
 
+~~~
+\clearpage
+~~~
+{:latex-literal="true"}
+
 [[REAL-ID]](references.md#ref-REAL-ID){:name="ref-REAL-ID"} "Minimum Standards for Driver’s Licenses and Identification Cards Acceptable by Federal Agencies for Official Purposes; Final Rule,"
 73 Federal Register 5271 (January 29, 2008), pp 5271-5340.
 <https://www.federalregister.gov/d/08-140>
@@ -231,11 +236,6 @@ Available at <https://www.pcscworkgroup.com/specifications/>
 *A Universally Unique IDentifier (UUID) URN Namespace.*
 (Internet Engineering Task Force (IETF) Network Working Group), IETF Request for Comments (RFC) 4122.
 <https://doi.org/10.17487/RFC4122>
-
-~~~
-\clearpage
-~~~
-{:latex-literal="true"}
 
 [[RFC 5280]](references.md#ref-RFC5280){:name="ref-RFC5280"} Cooper D, Santesson S, Farrell S, Boeyen S, Housley R, Polk W (2008)
 *Internet X.509 Public Key Infrastructure Certificate and Certificate Revocation List (CRL) Profile.*
@@ -272,6 +272,11 @@ Available at <https://www.cisa.gov/sites/default/files/publications/isc-risk-man
 (OASIS), OASIS Standard saml-authn-context-2.0-os.
 Available at <https://docs.oasis-open.org/security/saml/v2.0/saml-authn-context-2.0-os.pdf> 
 
+~~~
+\clearpage
+~~~
+{:latex-literal="true"}
+
 [[SP 800-37]](references.md#ref-SP-800-37){:name="ref-SP-800-37"} Joint Task Force (2018)
 *Risk Management Framework for Information Systems and Organizations: A System Life Cycle Approach for Security and Privacy.*
 (National Institute of Standards and Technology, Gaithersburg, MD), NIST Special Publication (SP) 800-37, Rev. 2 [or as amended].
@@ -297,11 +302,6 @@ Available at <https://docs.oasis-open.org/security/saml/v2.0/saml-authn-context-
 (National Institute of Standards and Technology, Gaithersburg, MD), NIST Special Publication (SP) 800-63A, Includes updates as of March 02, 2020 [or as amended].
 <https://doi.org/10.6028/NIST.SP.800-63A>
 
-~~~
-\clearpage
-~~~
-{:latex-literal="true"}
-
 [[SP 800-63B]](references.md#ref-SP-800-63B){:name="ref-SP-800-63B"} Grassi PA, Newton EM, Perlner RA, Regenscheid AR, Fenton JL, Burr WE, Richer JP, Lefkovitz NB, Danker JM, Choong Y-Y, Greene KK, Theofanos MF (2017)
 *Digital Identity Guidelines: Authentication and Lifecycle Management.*
 (National Institute of Standards and Technology, Gaithersburg, MD), NIST Special Publication (SP) 800-63B, Includes updates as of March 02, 2020 [or as amended].
@@ -311,6 +311,11 @@ Available at <https://docs.oasis-open.org/security/saml/v2.0/saml-authn-context-
 *Digital Identity Guidelines: Federation and Assertions.*
 (National Institute of Standards and Technology, Gaithersburg, MD), NIST Special Publication (SP) 800-63C, Includes updates as of March 02, 2020 [or as amended].
 <https://doi.org/10.6028/NIST.SP.800-63C>
+
+~~~
+\clearpage
+~~~
+{:latex-literal="true"}
 
 [[SP 800-73]](references.md#ref-SP-800-73){:name="ref-SP-800-73"} Cooper DA, Ferraiolo H, Mehta KL, Francomacaro S, Chandramouli R, Mohler J (2015)
 *Interfaces for Personal Identity Verification.*
@@ -352,15 +357,15 @@ Available at <https://docs.oasis-open.org/security/saml/v2.0/saml-authn-context-
 (National Institute of Standards and Technology, Gaithersburg, MD), NIST Special Publication (SP) 800-116, Rev. 1 [or as amended].
 <https://doi.org/10.6028/NIST.SP.800-116r1>
 
-[[SP 800-122]](references.md#ref-SP-800-122){:name="ref-SP-800-122"} McCallister E, Grance T, Scarfone KA (2010)
-*Guide to Protecting the Confidentiality of Personally Identifiable Information (PII).*
-(National Institute of Standards and Technology, Gaithersburg, MD), NIST Special Publication (SP) 800-122 [or as amended].
-<https://doi.org/10.6028/NIST.SP.800-122>
-
 ~~~
 \clearpage
 ~~~
 {:latex-literal="true"}
+
+[[SP 800-122]](references.md#ref-SP-800-122){:name="ref-SP-800-122"} McCallister E, Grance T, Scarfone KA (2010)
+*Guide to Protecting the Confidentiality of Personally Identifiable Information (PII).*
+(National Institute of Standards and Technology, Gaithersburg, MD), NIST Special Publication (SP) 800-122 [or as amended].
+<https://doi.org/10.6028/NIST.SP.800-122>
 
 [[SP 800-156]](references.md#ref-SP-800-156){:name="ref-SP-800-156"} Ferraiolo H, Chandramouli R, Mehta KL, Mohler J, Skordinski S, Brady S (2016)
 *Representation of PIV Chain-of-Trust for Import and Export.*
