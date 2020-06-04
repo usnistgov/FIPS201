@@ -606,8 +606,8 @@ provide Level 3 physical security to protect the PIV private keys in storage. Th
 for the PIV Card SHALL include all cryptographic operations performed over both the contact and
 contactless interfaces
 
-- by the PIV Card application, 
-- as part of secure messaging, as specified in this section, and 
+- by the PIV Card application; 
+- as part of secure messaging, as specified in this section; and 
 - as part of remote post issuance updates, as specified in [Section 2.9.2](requirements.md#s-2-9-2). 
 
 Specific algorithm
