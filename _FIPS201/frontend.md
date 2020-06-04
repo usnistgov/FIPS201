@@ -288,6 +288,11 @@ Zone 9F: Header
     information, such as identifying a federal emergency responder role, as depicted in [Figure 4-2](frontend.md#fig-4-2). 
     Some examples of official roles are "Law Enforcement," "Fire Fighter," and "Emergency Response Team (ERT)."
 
+~~~
+\clearpage
+~~~
+{:latex-literal="true"}
+
 Zone 11F: Agency Seal
 : If used, the seal selected by the issuing department, agency, or organization
     SHALL be printed in the area depicted. It SHALL be printed using the guidelines provided in [Figure 4-2](frontend.md#fig-4-2) to
@@ -325,6 +330,11 @@ Zone 16F: Photograph Border
 Zone 17F: Agency-Specific Data
 : In cases where other defined optional elements are not used, Zone
     17F MAY be used for other department or agency-specific information, as depicted in [Figure 4-5](frontend.md#fig-4-5).
+
+~~~
+\clearpage
+~~~
+{:latex-literal="true"}
 
 Zone 20F: Organizational Affiliation Abbreviation
 : The organizational affiliation abbreviation MAY be
@@ -364,6 +374,11 @@ Zone 6B: Additional Language for Emergency Response Officials
     choose to provide additional information to identify emergency response officials or to better identify the
     cardholder's authorized access. If used, this additional text SHALL be in the general area depicted in [Figure 4-7](frontend.md#fig-4-7) and SHALL NOT interfere with other printed text or machine-readable components. An example of a printed statement
     is provided in [Figure 4-7](frontend.md#fig-4-7).
+
+~~~
+\clearpage
+~~~
+{:latex-literal="true"}
 
 Zone 7B: Section 499, Title 18 Language
 : If used, standard Section 499, Title 18, language

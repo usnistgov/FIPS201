@@ -263,6 +263,11 @@ Issuer
 : The organization that is issuing the _PIV Card_ to an _applicant_. Typically this is an organization
 for which the _applicant_ is working.
 
+~~~
+\clearpage
+~~~
+{:latex-literal="true"}
+
 Issuing Facility
 : A physical site or location---including all equipment, staff, and
   documentation---that is responsible for carrying out one or more of the
@@ -306,6 +311,11 @@ certificates that begins with a certificate issued by the trust anchor and ends 
 Successful path validation provides strong evidence that the information in the target certificate is
 trustworthy.
 
+~~~
+\clearpage
+~~~
+{:latex-literal="true"}
+
 Personally Identifiable Information (PII)
 : Information that can be used to distinguish or trace an
 individual's _identity_&mdash;such as name, social security number, _biometric data records_&mdash;alone, or when
@@ -315,11 +325,6 @@ combined with other personal or identifying information that is linked or linkab
 Personal Identification Number (PIN)
 : A numeric secret that a _cardholder_ memorizes and uses as part of authenticating
 their _identity_.
-
-~~~
-\clearpage
-~~~
-{:latex-literal="true"}
 
 Personal Identity Verification (PIV) Account
 : The logical record containing credentialing information for a given PIV _cardholder_. This is typically stored within the _issuer’s_ _identity management system_ and includes PIV enrollment data, _cardholder_ _identity_ attributes, and information regarding authenticators bound to the _cardholder_’s _identity_ (e.g., _PIV Card_ and _derived PIV credentials_).
@@ -348,6 +353,11 @@ Public Key
 : The public part of an _asymmetric key_ pair that is typically used to verify signatures or
 encrypt data.
 
+~~~
+\clearpage
+~~~
+{:latex-literal="true"}
+
 Public Key Infrastructure (PKI)
 : A support service to the PIV system that provides the _cryptographic
 keys_ needed to perform digital signature-based _identity verification_ and to protect communications and
@@ -357,11 +367,6 @@ PKI-Card Authentication (PKI-CAK)
 : A PIV _authentication_ mechanism that is implemented by
 an _asymmetric key_ challenge/response protocol using the card _authentication_ _key_ of the _PIV Card_ and a
 contact or contactless reader.
-
-~~~
-\clearpage
-~~~
-{:latex-literal="true"}
 
 PKI-PIV Authentication (PKI-AUTH)
 : A PIV _authentication_ mechanism that is implemented by
@@ -383,13 +388,13 @@ it).
 Security Executive Agent
 : Individual responsible for the development, implementation, and oversight of effective, efficient, and uniform policies and procedures that govern the conduct of investigations and adjudications for eligibility to access classified information and eligibility to hold a sensitive position in the Federal Government. In accordance with Executive Order 13467 (as amended), this individual is the Director of National Intelligence (DNI).
 
-Suitability and Credentialing Executive Agent
-: Individual responsible for prescribing suitability standards and minimum standards of fitness for employment. With the issuance of Executive Order 13467, as amended, the Suitability and Credentialing Executive Agent is responsible for the development, implementation, and oversight of effective, efficient, and uniform policies and procedures governing the conduct of investigations and adjudications for Suitability, Fitness, and Credentialing determinations in the Federal Government. Pursuant to sections 1103 and 1104 of title 5, United States Code, and the Civil Service Rules, the director of the Office of Personnel Management (OPM) is the Suitability and Credentialing Executive Agent. 
-
 ~~~
 \clearpage
 ~~~
 {:latex-literal="true"}
+
+Suitability and Credentialing Executive Agent
+: Individual responsible for prescribing suitability standards and minimum standards of fitness for employment. With the issuance of Executive Order 13467, as amended, the Suitability and Credentialing Executive Agent is responsible for the development, implementation, and oversight of effective, efficient, and uniform policies and procedures governing the conduct of investigations and adjudications for Suitability, Fitness, and Credentialing determinations in the Federal Government. Pursuant to sections 1103 and 1104 of title 5, United States Code, and the Civil Service Rules, the director of the Office of Personnel Management (OPM) is the Suitability and Credentialing Executive Agent. 
 
 ## C.2 Acronyms and Abbreviations {#s-c-2}
 
