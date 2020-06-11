@@ -9,7 +9,7 @@ permalink: /revisions/
 
 _This appendix is informative._ It provides an overview of the changes to FIPS 201 since its initial release.
 
-|Version|Release Date|Updates|
+|Version|Release Date|Updates|Location|
 |---|---|---|
 |FIPS 201|February 2005|Initial Release|
 |FIPS 201-1|March 2006|Added the requirement for electronically distinguishable from identity credentials issued to individuals who have a completed investigation (NACI Indictor).|
@@ -39,4 +39,25 @@ _This appendix is informative._ It provides an overview of the changes to FIPS 2
 |||Require signature verification and certification path validation in the CHUID, BIO, and BIO-A authentication mechanisms.|
 |||The VIS and CHUID authentication mechanisms have been downgraded to indicate that they provide LITTLE or NO assurance in the identity of the cardholder.|
 |||Deprecated the use of the CHUID authentication mechanism. The CHUID data element has not been deprecated and continues to be mandatory.|
+|FIPS 201-3|July 2020|This version represents the 5-year review of FIPS 201 and change request inputs received from agencies. Following are the highlights of changes made in this version.||
+|||Alignment with SP 800-63-3 language and terms.||
+|||Used explicit normative language terms SHALL/SHOULD/MAY/CAN.||
+|||Updated process for binding and termination of derived PIV credentials with PIV account.|Section 2|
+|||Updated credentialing requirements for issuance of PIV Cards based on OPM guidance.|Section 2|
+|||Added requirements for supervised remote identity proofing.|Section 2|
+|||Modified identity proofing requirements to reflect updated list of accepted documents.|Section 2|
+|||Deprecated PIV NACI indicator (background investigation indicator).|Section 2|
+|||Updated guidance on collection of biometric data for credentialing.|Section 2|
+|||Updated system description and associated diagrams.|Section 3|
+|||Deprecated the use of magnetic stripes on PIV Card.|Section 4|
+|||Deprecated the use of bar codes on PIV Card.|Section 4|
+|||Updated example PIV Card diagrams.|Section 4|
+|||Removed requirement for support of Legacy PKIs.|Section 5|
+|||Removed references to OMB M-04-04 that was rescinded by OMB M-19-17.|Section 6|
+|||Expressed assurance levels in terms of PAL and AAL.|Section 6|
+|||Removed previously deprecated CHUID authentication mechanisms. The CHUID data element has not been deprecated and continues to be mandatory.|Section 6|
+|||Deprecated VIS authentication mechanism.|Section 6|
+|||Clarified biometric modalities for proofing and authentication.|Section 2, Section 6|
+|||Added section discussing federation in relationship to PIV credentials.|Section 7|
+
 {:latex-columns="p@0.13\textwidth,p@0.17\textwidth,p@0.61\textwidth" latex-longtable="true"}
