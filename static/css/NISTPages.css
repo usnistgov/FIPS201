@@ -226,6 +226,21 @@ ol.letter-list > li:before {
     border-radius: 4px;
   }
   
+  .navbar-fixed-left .navbar-nav > li#search-box {
+    float: none;
+    width: 100%;
+    font-size: smaller;
+    border-right: 1px #555555 solid;
+    border-bottom: 1px #333333 solid;
+    margin: 2px;
+    padding: 2px;
+    border-radius: 4px;
+  }
+
+  .navbar-fixed-left .navbar-nav > li#search-box input#search-input {
+    width: 100%;
+  }
+  
   .navbar-fixed-left .navbar-nav > li.active {
     background-color: #e7e7e7;
     width: 100%;

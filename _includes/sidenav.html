@@ -1,5 +1,9 @@
 <nav class="navbar navbar-default navbar-fixed-left" role="navigation">
 	<ul class="nav navbar-nav">
+      <li id="search-box">
+        <input type="text" id="search-input" placeholder="Search..." onFocus="loadSearch()">
+        <ul id="results-container"></ul>
+      </li>
       {% for link in site.navigation %}
         {% assign current = '' %}
         {% if link.url == page.url or (link.collection and page.collection == link.collection) %}
