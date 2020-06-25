@@ -205,7 +205,7 @@ Available at <https://obamawhitehouse.archives.gov/sites/default/files/omb/memor
 [[M-19-17]](references.md#ref-OMB1917){:name="ref-OMB1917"} Office of Management and Budget (2019)
 *Enabling Mission Delivery through Improved Identity, Credential, and Access Management.*
 (The White House, Washington, DC), OMB Memorandum M-19-17, May 21, 2019.
-Available at <https://obamawhitehouse.archives.gov/sites/default/files/omb/memoranda/2017/m-17-12_0.pdf>
+Available at <https://www.whitehouse.gov/wp-content/uploads/2019/05/M-19-17.pdf>
 
 [[PCSC]](references.md#ref-PCSC){:name="ref-PCSC"} Personal Computer/Smart Card Workgroup (2020)
 *PC/SC Workgroup Specifications Overview.*
