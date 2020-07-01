@@ -3,7 +3,15 @@
 {% include NISTPagesHeader.html %}
 <div class="container">
   <div class="row">
-    {{ content }}
+    <section class="home home-title">
+        <h1>{{ page.title }}</h1>
+    </section>
+
+    <section class="home home-about">
+        <div class="section-container">
+        {{ content }}
+        </section>
+    </div>
   </div>
 </div>
 
