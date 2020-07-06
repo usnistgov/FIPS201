@@ -1,7 +1,7 @@
 ---
 layout: cover
 title: "Draft FIPS 201-3 Available for Public Comment"
-description: "Draft FIPS 201-3- Personal Identity Verification of Federal Employees and Contractors"
+description: "Draft FIPS 201-3 Personal Identity Verification (PIV) of Federal Employees and Contractors"
 permalink: /
 ---
 
@@ -22,4 +22,3 @@ Relevant comments received by the deadline will be consolidated, published and a
 A printable version of the draft standard may be downloaded at: draft FIPS 201-3 (link)
 
 For more information about the PIV standard and associated technical guidelines, see the [PIV Project Page](https://csrc.nist.gov/Projects/PIV/) on the [Computer Security Resource Center](https://csrc.nist.gov).
-
