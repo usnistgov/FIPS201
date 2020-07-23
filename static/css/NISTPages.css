@@ -191,6 +191,25 @@ ol.letter-list > li:before {
   display: none !important;
 }
 
+.header-link {
+  opacity: 0;
+
+  transition: opacity 0.2s ease-in-out 0.1s;
+  
+  padding-left: 1em;
+}
+
+
+h1:hover .header-link,
+h2:hover .header-link,
+h3:hover .header-link,
+h4:hover .header-link,
+h5:hover .header-link,
+h6:hover .header-link {
+  opacity: 1;
+}
+
+
 @media screen and (max-width: 767px) {
   .nist-header {
     padding: 6px 10px;
