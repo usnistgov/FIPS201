@@ -4,7 +4,7 @@ title: "FIPS 201"
 description: "FIPS 201"
 navOrder: 1
 navTitle: Abstract
-permalink: /
+permalink: /abstract/
 ---
 
 # ABSTRACT

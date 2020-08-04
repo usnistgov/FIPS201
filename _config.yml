@@ -25,8 +25,11 @@ exclude:
 # Navigation
 # List links that should appear in the site sidebar here
 navigation:
-- text: Frontmatter
+- text: Home
   url: /
+  collection: false
+- text: Frontmatter
+  url: /abstract/
   collection: Frontmatter
 - text: FIPS 201
   url: /introduction/
