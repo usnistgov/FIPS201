@@ -38,7 +38,7 @@ Department of Commerce, NIST, Information Technology Laboratory (ITL).
 
 # 6. Applicability. {#f-6}
 
-This Standard is applicable to identification issued by federal departments and agencies to federal employees and contractors (including contractor employees) for gaining physical access to federally controlled facilities and logical access to federally controlled information systems, except for "national security systems" as defined by 44 U.S.C. 3542(b)(2) and [[SP 800-59]](_Appendix/references.md#ref-SP-800-59). Except as provided in [[HSPD-12]](_Appendix/references.md#ref-HSPD-12), nothing in this Standard alters the ability of government entities to use the Standard for additional applications.
+This Standard is applicable to identification issued by federal departments and agencies to federal employees and contractors for gaining physical access to federally controlled facilities and logical access to federally controlled information systems, except for "national security systems" as defined by 44 U.S.C. 3542(b)(2) and [[SP 800-59]](_Appendix/references.md#ref-SP-800-59). Except as provided in [[HSPD-12]](_Appendix/references.md#ref-HSPD-12), nothing in this Standard alters the ability of government entities to use the Standard for additional applications.
 
 ## 6.1 Special-Risk Security Provision. {#f-6-1}
 
