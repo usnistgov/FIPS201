@@ -14,7 +14,7 @@ The National Institute of Standards and Technology (NIST) requests comments on d
 [Draft FIPS 201-3 Personal Identity Verification (PIV) of Federal Employees and Contractors](_Frontmatter/abstract.md)
 
 ## Comments
-Comments on FIPS 201-3 must be received on or before [90 days after posting].  Comments may be submitted on the [project’s GitHub repository](https://github.com/usnistgov/FIPS201/issues), sent electronically to <piv_comments@nist.gov>  or submitted via <https://www.regulations.gov>.
+Comments on FIPS 201-3 must be received on or before [90 days after posting].  Comments may be submitted on the [project’s GitHub repository](https://github.com/usnistgov/FIPS201/issues), sent electronically to <piv_comments@nist.gov> or submitted via <https://www.regulations.gov>.
 
 Relevant comments received by the deadline will be consolidated, published and adjudicated as Issues on the project repository.  Commenters should not include information they do not wish to be posted (e.g., personal or confidential business information). Comments that contain profanity, vulgarity, threats, or other inappropriate language or content will not be posted or considered.
 
