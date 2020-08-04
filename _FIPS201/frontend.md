@@ -487,7 +487,7 @@ mechanisms interoperable across agencies:
 - an electronic facial image, and
 - card authentication data (one asymmetric private key and corresponding certificate).
 
-[^support]: The CHUID as an authentication mechanims (Section 6.2.5) has been removed from this version of the Standard. The CHUID data element itself, however, has not been removed and continues to be mandatory as it supports other PIV authentication mechanisms.
+[^support]: The CHUID as an authentication mechanism in [Section 6.2.5](authentication.md#s-6-2-5) has been removed from this version of the Standard. The CHUID data element itself, however, has not been removed and continues to be mandatory as it supports other PIV authentication mechanisms.
 
 This Standard also defines two data elements for the PIV Card data model that are mandatory if the cardholder
 has a government-issued email account at the time of PIV Card issuance. These data elements are
