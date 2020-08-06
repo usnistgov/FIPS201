@@ -299,7 +299,7 @@ Supervised remote identity proofing SHALL meet the following requirements:
 * The issuer SHALL require operators to have undergone a training program to detect potential fraud and to properly perform a supervised remote identity proofing session.
 * The operator SHALL monitor the entire identity proofing session&mdash;from which the applicant SHALL NOT depart&mdash;by at least one continuous, high-resolution video transmission of the applicant.
 * The operator SHALL require all actions taken by the applicant during the identity proofing session to be clearly visible to the operator.
-* The operator SHALL validate primary and secondary identity source documents (e.g., via chip or wireless technologies or through inspection of document security features) using scanners and sensors that are integrated into the station.
+* The operator SHALL validate the physical or cryptographic security features of primary and secondary identity source documents using scanners and sensors that are integrated into the station.
 * The issuer SHALL ensure that all communications occur over a mutually authenticated protected channel.
 
 If biometric data cannot be collected per the criteria defined in [[SP 800-76]](../_Appendix/references.md#ref-SP-800-76) or if validation of the identity evidence is inadequate, supervised remote identity proofing SHALL NOT be used and the identity proofing and enrollment shall be performed in person at the issuer’s facility.
