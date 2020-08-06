@@ -501,7 +501,7 @@ include
 - an electronic image of the left iris,
 - an electronic image of the right iris,
 - one or two fingerprint biometric templates for OCC,
-- a symmetric card authentication key for supporting physical access applications
+- a symmetric card authentication key for supporting physical access applications,
 - asymmetric keys to establish secure messaging and authenticate PIV Card in support of physical access applications, and
 - a symmetric PIV Card application administration key associated with the card management system.
 
@@ -606,7 +606,10 @@ The PIV Card MAY include an asymmetric private key and corresponding public key 
 establish symmetric keys for use with secure messaging, as specified in [[SP 800-73]](../_Appendix/references.md#ref-SP-800-73) and [[SP 800-78]](../_Appendix/references.md#ref-SP-800-78).
 Secure messaging enables data and commands transmitted between the card and an external entity to be
 both integrity-protected and encrypted. Secure messaging MAY be used, for example, to enable the use of
-on-card biometric comparison as an authentication mechanism. Secure messaging may also be used for authentication (i.e.,  SM-AUTH authentication mechanism) as the process of establishing secure messaging authenticates the PIV Card.
+on-card biometric comparison as an authentication mechanism. 
+Secure messaging may also be used for authentication (i.e., 
+SM-Auth authentication mechanism) as the process of establishing secure
+messaging authenticates the PIV Card.
 
 Once secure messaging has been established, a virtual contact interface MAY be established.
 Requirements for the virtual contact interface are specified in [[SP 800-73]](../_Appendix/references.md#ref-SP-800-73). Any operation that MAY be
