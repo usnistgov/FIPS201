@@ -183,6 +183,20 @@ Some of the characteristics of the PKI-CAK authentication mechanism are as follo
 
 [^cacpath]: The policy OID for the card authentication certificate is `id-fpki-common-cardAuth`.
 
+#### 6.2.3.3 Authentication Using Secure Messaging Key Establishment Keys (SM-Auth) {#s-6-2-3-3}
+
+The PIV Card MAY include an asymmetric private key and corresponding public key
+ certificate to establish symmetric keys for use with secure messaging. These same keys and secure messaging protocol can be used for authentication since the PIV Card is authenticated in the process of establishing secure messaging. Details of the SM-Auth authentication mechanism is specified in SP 800-73 and SP 800-78.
+ 
+ Some of the characteristics of secure messaging authentication mechanism are as
+follows:
+
+- resistant to credential forgery,
+- does not provide protection against use of a revoked card,
+- low resistance to the use of an unaltered card by a non-owner, and
+- usable with contact and contactless readers.
+
+
 ### 6.2.4 Authentication Using the Symmetric Card Authentication Key (SYM-CAK) {#s-6-2-4}
 {:latex-toc="6.2.4 Symmetric Card Authentication Key"}
 
