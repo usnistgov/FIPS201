@@ -670,9 +670,9 @@ specifies the certificate format and the key management infrastructure for asymm
 authentication keys.
 
 #### 4.2.2.3 Symmetric Card Authentication Key (Deprecated) {#s-4-2-2-3}
-The symmetric card authentication key is deprecated in this version of the Standard.  Both symmetric card authentication key and associated SYM-CAK authentication mechanism may be removed in a future revision of the Standard.  
+The symmetric card authentication key is deprecated in this version of the Standard.  Both the symmetric card authentication key and the associated SYM-CAK authentication mechanism may be removed in a future revision of the Standard.  
 
-If used, symmetric card authentication key MAY be imported
+If used, the symmetric card authentication key MAY be imported
 onto the card by the issuer or be generated on the card. If present, the symmetric card authentication
 key SHALL be unique for each PIV Card and SHALL meet the algorithm and key size requirements stated
 in [[SP 800-78]](../_Appendix/references.md#ref-SP-800-78). If present, cryptographic operations using this key MAY be performed without card

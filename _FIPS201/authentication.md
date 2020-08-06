@@ -186,7 +186,7 @@ Some of the characteristics of the PKI-CAK authentication mechanism are as follo
 ### 6.2.4 Authentication Using the Symmetric Card Authentication Key (SYM-CAK) (Deprecated) {#s-6-2-4}
 {:latex-toc="6.2.4 Symmetric Card Authentication Key"}
 
-The symmetric card authentication key and associated SYM-CAK authentication mechanism are deprecated in this version of the Standard. Both key and authentication mechism may be removed in a future version of this Standard. 
+The symmetric card authentication key and associated SYM-CAK authentication mechanism are deprecated in this version of the Standard. Both the key and the authentication mechanism may be removed in a future version of this Standard. 
 
  If the symmetric card authentication key is present, it SHALL be used for PIV cardholder authentication using the following
 steps:
@@ -351,7 +351,7 @@ assurance levels.[^combinations]
 
 |Physical Assurance Level|Applicable PIV Authentication Mechanisms|
 |---|---|
-|PAL1|PKI-CAK|
+|PAL1|PKI-CAK, SYM-CAK|
 |PAL2|BIO|
 |PAL3|BIO-A, OCC-AUTH, PKI-AUTH|
 {:latex-table="6-1" latex-caption="Applicable PIV Authentication Mechanisms for Physical Access"}
