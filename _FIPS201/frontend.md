@@ -501,8 +501,10 @@ include
 - an electronic image of the left iris,
 - an electronic image of the right iris,
 - one or two fingerprint biometric templates for OCC,
-- a symmetric card authentication key for supporting physical access applications, and
+- a symmetric card authentication key for supporting physical access applications[^supportSYM], and
 - a symmetric PIV Card application administration key associated with the card management system.
+
+[^supportSYM]: The symmetric card authentication key has been deprecated in this version of the Standard. Both the symmetric card authentication key and associated SYM-CAK authentication mechanism may be removed in a future revision of the Standard.
 
 Additional data elements are specified in [[SP 800-73]](../_Appendix/references.md#ref-SP-800-73).
 
@@ -573,7 +575,7 @@ Asymmetric card authentication key
 : A mandatory private key that supports card authentication
     for an interoperable environment. See [Section 4.2.2.2](frontend.md#s-4-2-2-2).
 
-Symmetric card authentication key
+Symmetric card authentication key (deprecated)
 : Supports card authentication for physical access and
     is optional. See [Section 4.2.2.3](frontend.md#s-4-2-2-3).
 
@@ -628,12 +630,6 @@ Specific algorithm
 testing requirements for the cryptographic operations performed by the PIV Card application are
 specified in [[SP 800-78]](../_Appendix/references.md#ref-SP-800-78).
 
-Symmetric cryptographic operations are not mandated for the contactless interface, but departments and
-agencies MAY choose to supplement the basic functionality with storage for a symmetric card
-authentication key and support for a corresponding set of cryptographic operations. For example, if a
-department or agency wants to utilize an Advanced Encryption Standard (AES) based challenge/response for
-physical access, the PIV Card SHALL contain storage for the AES key and support AES operations through
-the contactless interface. Algorithms and key sizes for each PIV key type are specified in [[SP 800-78]](../_Appendix/references.md#ref-SP-800-78).
 
 Requirements specific to storage and access for each key are detailed in the following sections. Where applicable, key
 management requirements are also specified.
@@ -673,8 +669,10 @@ the certificate SHALL be no later than the expiration date of the PIV Card. [Sec
 specifies the certificate format and the key management infrastructure for asymmetric card
 authentication keys.
 
-#### 4.2.2.3 Symmetric Card Authentication Key {#s-4-2-2-3}
-The symmetric card authentication key MAY be imported
+#### 4.2.2.3 Symmetric Card Authentication Key (Deprecated) {#s-4-2-2-3}
+The symmetric card authentication key is deprecated in this version of the Standard.  Both the symmetric card authentication key and the associated SYM-CAK authentication mechanism may be removed in a future revision of the Standard.  
+
+If used, the symmetric card authentication key MAY be imported
 onto the card by the issuer or be generated on the card. If present, the symmetric card authentication
 key SHALL be unique for each PIV Card and SHALL meet the algorithm and key size requirements stated
 in [[SP 800-78]](../_Appendix/references.md#ref-SP-800-78). If present, cryptographic operations using this key MAY be performed without card

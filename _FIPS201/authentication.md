@@ -183,11 +183,12 @@ Some of the characteristics of the PKI-CAK authentication mechanism are as follo
 
 [^cacpath]: The policy OID for the card authentication certificate is `id-fpki-common-cardAuth`.
 
-### 6.2.4 Authentication Using the Symmetric Card Authentication Key (SYM-CAK) {#s-6-2-4}
+### 6.2.4 Authentication Using the Symmetric Card Authentication Key (SYM-CAK) (Deprecated) {#s-6-2-4}
 {:latex-toc="6.2.4 Symmetric Card Authentication Key"}
 
-The PIV Card application MAY host the optional symmetric card authentication key. If present, the
-symmetric card authentication key SHALL be used for PIV cardholder authentication using the following
+The symmetric card authentication key and associated SYM-CAK authentication mechanism are deprecated in this version of the Standard. Both the key and the authentication mechanism may be removed in a future version of this Standard. 
+
+ If the symmetric card authentication key is present, it SHALL be used for PIV cardholder authentication using the following
 steps:
 
 - The CHUID, PIV authentication certificate, or card authentication certificate data element is read
@@ -214,7 +215,7 @@ follows:
 
 The content of this section has been removed since the CHUID authentication mechanism is no longer allowed under FIPS-201. 
 
-The BIO, BIO-A, and SYM-CAK authentication mechanisms use the CHUID data element as a source for the card’s expiration date.
+The BIO, BIO-A, and the deprecated SYM-CAK authentication mechanisms use the CHUID data element as a source for the card’s expiration date.
 The CHUID data element also provides the content signing certificate for some authentication mechanisms and unique identifiers for PACS ACLs. 
 Therefore, the CHUID data element remains a required on-card data element, as described in [Section 4.2.1](frontend.md#s-4-2-1).
 
