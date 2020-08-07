@@ -592,31 +592,15 @@ Key management key
 PIV Card application administration key
 : An optional symmetric key used for personalization and post-issuance activities.
     See [Section 4.2.2.6](frontend.md#s-4-2-2-6).
-
-The PIV Card MAY include additional optional keys for use with secure messaging. Such keys are defined
-in [[SP 800-73]](../_Appendix/references.md#ref-SP-800-73) and [[SP 800-78]](../_Appendix/references.md#ref-SP-800-78).
+    
+ PIV secure messaging key   
+: An optional asymmetric private key that supports key establishment for secure messaging and card authentication for physical access.
 
 The PIV Card SHALL store private keys and corresponding public key certificates and SHALL perform
 cryptographic operations using the asymmetric private keys. At a minimum, the PIV Card SHALL store the PIV authentication key,
 the asymmetric card authentication key, and the corresponding public key certificates. The PIV Card SHALL also store a digital signature key, a
 key management key, and the corresponding public key certificates unless the cardholder does not have a
 government-issued email account at the time of PIV Card issuance.
-
-The PIV Card MAY include an asymmetric private key and corresponding public key certificate to
-establish symmetric keys for use with secure messaging, as specified in [[SP 800-73]](../_Appendix/references.md#ref-SP-800-73) and [[SP 800-78]](../_Appendix/references.md#ref-SP-800-78).
-Secure messaging enables data and commands transmitted between the card and an external entity to be
-both integrity-protected and encrypted. Secure messaging MAY be used, for example, to enable the use of
-on-card biometric comparison as an authentication mechanism. 
-Secure messaging may also be used for authentication (i.e., 
-SM-Auth authentication mechanism) as the process of establishing secure
-messaging authenticates the PIV Card.
-
-Once secure messaging has been established, a virtual contact interface MAY be established.
-Requirements for the virtual contact interface are specified in [[SP 800-73]](../_Appendix/references.md#ref-SP-800-73). Any operation that MAY be
-performed over the contact interface of the PIV Card MAY also be performed over the virtual contact
-interface. With the exception of the card authentication key and keys used to establish secure
-messaging, cryptographic private key operations SHALL be performed only through the contact interface
-or the virtual contact interface.
 
 All PIV cryptographic keys SHALL be generated within a cryptographic module with overall validation at [[FIPS 140]](../_Appendix/references.md#ref-FIPS140) 
 Level 2 or above. In addition to an overall validation of Level 2, the PIV Card SHALL
@@ -719,8 +703,15 @@ key SHALL be imported onto the card by the issuer. If present, the cryptographic
 the PIV Card application administration key SHALL only be accessible using the contact interface of
 the PIV Card.
 
-#### 4.2.2.7 Assymetric Key Establishment Keys for Secure Messaging and Authentication {#s-4-2-2-7}
-Shall we add this section? Is it necesarry?
+#### 4.2.2.7 Assymetric PIV Secure Messaging Key  {#s-4-2-2-7}
+The assymetric PIV secure messaging key supports the establishment of secure messaging, authentication using SM-Auth authentication mechaism or both. If present, the key SHALL be generated on the PIV Card and SHALL NOT be exportated. The cryptographic operations that use the PIV Secure Messaging key SHALL be available through the contact and contactless interfaces of the PIV Card. Private key operations [^SMprivate] can be performed without access control restrictions. The PIV Card shall store a corresponding secure messaging card verifiable certificate (CVC) to support validation of the public
+key by the relying party. The use of the PIV secure messaging key and corresponding certificate is further specified in [[SP 800-73]](../_Appendix/references.md#ref-SP-800-73) and [[SP 800-78]](../_Appendix/references.md#ref-SP-800-78). 
+
+[^SMprivate]:  Private key operation wih the PIV secure messaging key is defines as use of the key to establish session keys for secure messaging or use of key for SM-Auth card authentication.
+
+If the key is used to establish secure messaging, it enables data and commands transmitted between the card and an external entity to be both integrity-protected and encrypted. Secure messaging MAY be used, for example, to enable the use of on-card biometric comparison. Once secure messaging has been established, a virtual contact interface MAY be established. Requirements for the virtual contact interface are specified in [[SP 800-73]](../_Appendix/references.md#ref-SP-800-73). Any operation that MAY be performed over the contact interface of the PIV Card MAY also be performed over the virtual contact interface. With the exception of the card authentication key and keys used to establish secure messaging, cryptographic private key operations SHALL be performed only through the contact interface or the virtual contact interface.
+
+If the key is used in the SM-Auth authentication mechanism, the card and thus cardholder is authenticated card authentication. The use of the PIV secure messaging key and corresponding certificate in the SM-Auth authentication mechanism is further specified in [[SP 800-73]](../_Appendix/references.md#ref-SP-800-73) and [[SP 800-78]](../_Appendix/references.md#ref-SP-800-78). 
 
 ### 4.2.3 Biometric Data Specifications {#s-4-2-3}
 
