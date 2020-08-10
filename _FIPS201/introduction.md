@@ -56,6 +56,11 @@ accordance with HSPD-12, this Standard defines the following technical requireme
 - They can be rapidly authenticated electronically.
 - They are issued only by providers whose reliability has been established by an official accreditation process.
 
+PIV enrollment causes the creation of a PIV account that is maintained by the issuer. The PIV account contains
+credentialing information for the PIV cardholder and is typically stored within the issuer's identity management
+system (IDMS) and contains enrollment data, identity attributes relating to the cardholder, and information
+regarding authenticators bound to the account (the PIV Card itself and any derived PIV credentials).
+
 This Standard defines authentication mechanisms that offer varying degrees of security for both logical and
 physical access applications. Federal departments and agencies will determine the level of security and
 authentication mechanisms appropriate for their applications. The scope of this
