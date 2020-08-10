@@ -185,9 +185,7 @@ Some of the characteristics of the PKI-CAK authentication mechanism are as follo
 
 #### 6.2.3.3 Authentication Using Secure Messaging Key Establishment Keys (SM-Auth) {#s-6-2-3-3}
 
-The PIV Card MAY include an asymmetric private key and corresponding public key
-certificate to establish symmetric keys for use with secure messaging. These same keys and 
-secure messaging protocol can be used for authentication since the PIV Card is authenticated 
+The PIV Card MAY include an asymmetric private key and corresponding certificate to establish symmetric keys for use with secure messaging. The same asymmetric keys, corresponding certificate and  key establishment protocol can also be used for authentication since the PIV Card is authenticated 
 in the process of establishing secure messaging. Details of the SM-Auth authentication 
 mechanism is specified in [[SP 800-73]](../_Appendix/references.md#ref-SP-800-73) and [[SP 800-78]](../_Appendix/references.md#ref-SP-800-78).
  
