@@ -711,7 +711,6 @@ key by the relying party. The use of the PIV secure messaging key and the CVC is
 
 If the key is used to establish secure messaging, it enables data and commands transmitted between the card and an external entity to be both integrity-protected and encrypted. Secure messaging MAY be used, for example, to enable the use of on-card biometric comparison. Once secure messaging has been established, a virtual contact interface MAY be established. Requirements for the virtual contact interface are specified in [[SP 800-73]](../_Appendix/references.md#ref-SP-800-73). Any operation that MAY be performed over the contact interface of the PIV Card MAY also be performed over the virtual contact interface. With the exception of the card authentication key and keys used to establish secure messaging, cryptographic private key operations SHALL be performed only through the contact interface or the virtual contact interface.
 
-
 ### 4.2.3 Biometric Data Specifications {#s-4-2-3}
 
 The PIV front-end subsystem employs biometric verification to automate the
