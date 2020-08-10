@@ -704,7 +704,7 @@ the PIV Card application administration key SHALL only be accessible using the c
 the PIV Card.
 
 #### 4.2.2.7 PIV Secure Messaging Key  {#s-4-2-2-7}
-The PIV secure messaging key supports the establishment of secure messaging, authentication using SM-Auth authentication mechanism or both. If present, the key SHALL be generated on the PIV Card and SHALL NOT be exported. The cryptographic operations that use the PIV Secure Messaging key SHALL be available through the contact and contactless interfaces of the PIV Card. Private key operations [^SMprivate] can be performed without access control restrictions. The PIV Card shall store a corresponding secure messaging card verifiable certificate (CVC) to support validation of the public
+The PIV secure messaging key supports the establishment of secure messaging, authentication using SM-AUTH authentication mechanism or both. If present, the key SHALL be generated on the PIV Card and SHALL NOT be exported. The cryptographic operations that use the PIV secure messaging key SHALL be available through the contact and contactless interfaces of the PIV Card. Private key operations [^SMprivate] can be performed without access control restrictions. The PIV Card shall store a corresponding secure messaging card verifiable certificate (CVC) to support validation of the public
 key by the relying party. The use of the PIV secure messaging key and corresponding certificate is further specified in [[SP 800-73]](../_Appendix/references.md#ref-SP-800-73) and [[SP 800-78]](../_Appendix/references.md#ref-SP-800-78). 
 
 [^SMprivate]:  Private key operation with the PIV secure messaging key is defines as the use of the key to establish session keys for secure messaging or the use of key for SM-AUTH card authentication.
