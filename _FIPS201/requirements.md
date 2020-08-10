@@ -558,8 +558,7 @@ following circumstances:
 + A federal employee separates (voluntarily or involuntarily) from federal service.
 + A contractor changes positions and no longer needs access to federal buildings or systems.
 + A cardholder passes away.
-+ An authorized adjudicative entity determines after completion of a cardholder's background investigation that the
-    cardholder is ineligible for a PIV Card (see [[FCS]](../_Appendix/references.md#ref-FCS)).
++ An authorized adjudicative entity determines that the cardholder is ineligible for a PIV Card after completion of a cardholder’s background investigation or review of developed information (see [[FCS]](../_Appendix/references.md#ref-FCS)).
 + A cardholder is determined to hold a fraudulent identity.
 
 Similar to the situation in which the PIV Card is compromised, normal termination procedures
