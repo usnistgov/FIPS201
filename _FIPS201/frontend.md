@@ -593,7 +593,7 @@ PIV Card application administration key
 : An optional symmetric key used for personalization and post-issuance activities.
     See [Section 4.2.2.6](frontend.md#s-4-2-2-6).
     
- PIV secure messaging key   
+ PIV secure messaging key 
 : An optional asymmetric private key that supports key establishment for secure messaging and card authentication for physical access.
 
 The PIV Card SHALL store private keys and corresponding public key certificates and SHALL perform
@@ -703,15 +703,15 @@ key SHALL be imported onto the card by the issuer. If present, the cryptographic
 the PIV Card application administration key SHALL only be accessible using the contact interface of
 the PIV Card.
 
-#### 4.2.2.7 Assymetric PIV Secure Messaging Key  {#s-4-2-2-7}
-The assymetric PIV secure messaging key supports the establishment of secure messaging, authentication using SM-Auth authentication mechaism or both. If present, the key SHALL be generated on the PIV Card and SHALL NOT be exportated. The cryptographic operations that use the PIV Secure Messaging key SHALL be available through the contact and contactless interfaces of the PIV Card. Private key operations [^SMprivate] can be performed without access control restrictions. The PIV Card shall store a corresponding secure messaging card verifiable certificate (CVC) to support validation of the public
+#### 4.2.2.7 PIV Secure Messaging Key  {#s-4-2-2-7}
+The PIV secure messaging key supports the establishment of secure messaging, authentication using SM-Auth authentication mechanism or both. If present, the key SHALL be generated on the PIV Card and SHALL NOT be exported. The cryptographic operations that use the PIV Secure Messaging key SHALL be available through the contact and contactless interfaces of the PIV Card. Private key operations [^SMprivate] can be performed without access control restrictions. The PIV Card shall store a corresponding secure messaging card verifiable certificate (CVC) to support validation of the public
 key by the relying party. The use of the PIV secure messaging key and corresponding certificate is further specified in [[SP 800-73]](../_Appendix/references.md#ref-SP-800-73) and [[SP 800-78]](../_Appendix/references.md#ref-SP-800-78). 
 
-[^SMprivate]:  Private key operation wih the PIV secure messaging key is defines as use of the key to establish session keys for secure messaging or use of key for SM-Auth card authentication.
+[^SMprivate]:  Private key operation with the PIV secure messaging key is defines as the use of the key to establish session keys for secure messaging or the use of key for SM-Auth card authentication.
 
 If the key is used to establish secure messaging, it enables data and commands transmitted between the card and an external entity to be both integrity-protected and encrypted. Secure messaging MAY be used, for example, to enable the use of on-card biometric comparison. Once secure messaging has been established, a virtual contact interface MAY be established. Requirements for the virtual contact interface are specified in [[SP 800-73]](../_Appendix/references.md#ref-SP-800-73). Any operation that MAY be performed over the contact interface of the PIV Card MAY also be performed over the virtual contact interface. With the exception of the card authentication key and keys used to establish secure messaging, cryptographic private key operations SHALL be performed only through the contact interface or the virtual contact interface.
 
-If the key is used in the SM-Auth authentication mechanism, the card and thus cardholder is authenticated card authentication. The use of the PIV secure messaging key and corresponding certificate in the SM-Auth authentication mechanism is further specified in [[SP 800-73]](../_Appendix/references.md#ref-SP-800-73) and [[SP 800-78]](../_Appendix/references.md#ref-SP-800-78). 
+If the key is used in the SM-Auth authentication mechanism, the card and thus cardholder is authenticated. The use of the PIV secure messaging key and corresponding certificate in the SM-Auth authentication mechanism is further specified in [[SP 800-73]](../_Appendix/references.md#ref-SP-800-73) and [[SP 800-78]](../_Appendix/references.md#ref-SP-800-78). 
 
 ### 4.2.3 Biometric Data Specifications {#s-4-2-3}
 
