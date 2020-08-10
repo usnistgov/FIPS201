@@ -502,7 +502,7 @@ include
 - an electronic image of the right iris,
 - one or two fingerprint biometric templates for OCC,
 - a symmetric card authentication key for supporting physical access applications,
-- asymmetric keys to establish secure messaging and authenticate PIV Card in support of physical access applications, and
+- an asymmetric key to establish secure messaging and authenticate the PIV Card in support of physical access applications, and
 - a symmetric PIV Card application administration key associated with the card management system.
 
 Additional data elements are specified in [[SP 800-73]](../_Appendix/references.md#ref-SP-800-73).
