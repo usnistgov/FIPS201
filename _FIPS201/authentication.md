@@ -185,11 +185,11 @@ Some of the characteristics of the PKI-CAK authentication mechanism are as follo
 
 #### 6.2.3.3 Authentication Using Secure Messaging Key (SM-AUTH) {#s-6-2-3-3}
 
-The PIV Card MAY include a secure messaging key and corresponding CVC to establish symmetric keys for use with secure messaging. The same key, CVC and key establishment protocol can also be used for authentication since the PIV Card is authenticated 
-in the process of establishing secure messaging. Details of the SM-Auth authentication 
-mechanism is specified in [[SP 800-73]](../_Appendix/references.md#ref-SP-800-73) and [[SP 800-78]](../_Appendix/references.md#ref-SP-800-78).
+The PIV Card MAY include a secure messaging key and corresponding CVC to establish symmetric keys for use with secure messaging. The same key, CVC, and key establishment protocol can also be used for authentication, since the PIV Card is authenticated 
+in the process of establishing secure messaging. Details of the SM-AUTH authentication 
+mechanism are specified in [[SP 800-73]](../_Appendix/references.md#ref-SP-800-73) and [[SP 800-78]](../_Appendix/references.md#ref-SP-800-78).
  
-Some of the characteristics of secure messaging authentication mechanism are as
+Some of the characteristics of the secure messaging authentication mechanism are as
 follows:
 
 - resistant to credential forgery,
