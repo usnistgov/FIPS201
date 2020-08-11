@@ -330,7 +330,7 @@ Personal Identification Number (PIN)
 their _identity_.
 
 Personal Identity Verification (PIV) Account
-: The logical record containing credentialing information for a given PIV _cardholder_. This is typically stored within the _issuer’s_ _identity management system_ and includes PIV enrollment data, _cardholder_ _identity_ attributes, and information regarding authenticators bound to the _cardholder_’s _identity_ (e.g., _PIV Card_ and _derived PIV credentials_).
+: The logical record containing credentialing information for a given PIV _cardholder_. This is stored within the _issuer’s_ _identity management system_ and includes PIV enrollment data, _cardholder_ _identity_ attributes, and information regarding the _cardholder_’s _PIV Card_ and any _derived PIV credentials_ bound to the account.
 
 Personal Identity Verification (PIV) Card
 : A physical artifact (e.g., _identity_ card, "smart" card) issued

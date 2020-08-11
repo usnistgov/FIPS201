@@ -221,7 +221,7 @@ Biometric data SHALL be captured as specified in [Section 2.3](requirements.md#s
 The applicant SHALL appear in person at least once before the issuance of a PIV Card, either at the issuing facility or at a supervised remote identity proofing station (as described in [Section 2.7.1](requirements.md#s-2-7-1)).
 
 During identity proofing, the applicant SHALL be required to provide two original forms of identity source
-documents.[^documents] The identity source documents SHALL be bound to the applicant and SHALL NOT
+documents.[^documents] These documents SHALL be validated to ensure they are genuine and authentic, not counterfeit, fake, or forgeries. Validation of physical security features SHALL be performed by trained staff. When they are available, cryptographic security features SHOULD be used to validate evidence. The identity source documents SHALL be bound to the applicant and SHALL NOT
 be expired or cancelled. If the two identity source documents bear different names, evidence
 of a formal name change SHALL be provided. At least one identity source document SHALL meet the requirements of Strong evidence as specified in [[SP 800-63A]](../_Appendix/references.md#ref-SP-800-63A) and be one of the
 following forms of identification:
@@ -276,7 +276,7 @@ vary depending on the country.
 
 [^NAC]: The NAC is an automated record check.
 
-[^documents]: Departments and agencies may choose to accept only a subset of the identity source documents listed in this section. For example, in cases where identity proofing for PIV Card issuance is performed prior to verification of employment authorization, departments and agencies may choose to require the applicant to provide identity source documents that satisfy the requirements of Form I-9, *Employment Eligibility Verification*, in addition to the requirements specified in this section. It is recommended that departments and agencies perform electronic verification of identity source documents, where possible.
+[^documents]: Departments and agencies may choose to accept only a subset of the identity source documents listed in this section. For example, in cases where identity proofing for PIV Card issuance is performed prior to verification of employment authorization, departments and agencies may choose to require the applicant to provide identity source documents that satisfy the requirements of Form I-9, *Employment Eligibility Verification*, in addition to the requirements specified in this section.
 
 [^second]: For example, if the first source document is a foreign passport (e.g., Italy), the second source document cannot be another foreign passport (e.g., France).
 
@@ -299,7 +299,7 @@ Supervised remote identity proofing SHALL meet the following requirements:
 * The issuer SHALL require operators to have undergone a training program to detect potential fraud and to properly perform a supervised remote identity proofing session.
 * The operator SHALL monitor the entire identity proofing session&mdash;from which the applicant SHALL NOT depart&mdash;by at least one continuous, high-resolution video transmission of the applicant.
 * The operator SHALL require all actions taken by the applicant during the identity proofing session to be clearly visible to the operator.
-* The operator SHALL require that all validation of evidence (e.g., via chip or wireless technologies or through inspection of document security features) be performed using scanners and sensors that are integrated into the station.
+* The operator SHALL validate the physical or cryptographic security features of primary and secondary identity source documents using scanners and sensors that are integrated into the station.
 * The issuer SHALL ensure that all communications occur over a mutually authenticated protected channel.
 
 If biometric data cannot be collected per the criteria defined in [[SP 800-76]](../_Appendix/references.md#ref-SP-800-76) or if validation of the identity evidence is inadequate, supervised remote identity proofing SHALL NOT be used and the identity proofing and enrollment shall be performed in person at the issuer’s facility.
