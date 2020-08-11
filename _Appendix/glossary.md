@@ -132,6 +132,9 @@ Chain of trust
 : An interoperable data format for _PIV enrollment records_ that facilitates the import and export of records 
 between _PIV Card_ _issuers_.
 
+Card Verifiable Certificate
+: A certificate stored on the _PIV card_ that includes a public key, the signature of a _certification authority_, and further information needed to verify the certificate.
+
 ~~~
 \clearpage
 ~~~
@@ -474,6 +477,9 @@ CTC
 
 CTE
 : Cardholder to External System
+
+CVC
+: Card Verifiable Certificate
 
 DATO
 : Denial of Authorization to Operate
