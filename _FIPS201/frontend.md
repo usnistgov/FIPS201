@@ -604,6 +604,7 @@ government-issued email account at the time of PIV Card issuance.
 With the exception of the card authentication key and keys used to establish secure messaging, cryptographic private key operations SHALL be performed only through the contact interface or the virtual contact interface.
 Any operation that MAY be performed over the contact interface of the PIV Card MAY also be performed over the virtual contact interface. 
 Requirements for the virtual contact interface are specified in [[SP 800-73]](../_Appendix/references.md#ref-SP-800-73). 
+
 All PIV cryptographic keys SHALL be generated within a cryptographic module with overall validation at [[FIPS 140]](../_Appendix/references.md#ref-FIPS140) 
 Level 2 or above. In addition to an overall validation of Level 2, the PIV Card SHALL
 provide Level 3 physical security to protect the PIV private keys in storage. The scope of the validation
