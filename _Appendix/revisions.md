@@ -58,12 +58,13 @@ _This appendix is informative._ It provides an overview of the changes to FIPS 2
 |||Updated example PIV Card diagrams.|&sect;4|
 |||Linked expiration of content signing certificate with card authentication certificate.|&sect;4|
 |||Revised PIN requirements based on SP 800-63B guidelines.|&sect;4|
-|||Deprecated symmetric card authentication key.|&sect;4| 
+|||Deprecated symmetric card authentication key.|&sect;4|
 |||Removed requirement for support of Legacy PKIs.|&sect;5|
 |||Removed references to OMB M-04-04 that was rescinded by OMB M-19-17.|&sect;6|
 |||Expressed assurance levels in terms of PAL and AAL.|&sect;6|
 |||Removed previously deprecated CHUID authentication mechanisms. The CHUID data element has not been deprecated and continues to be mandatory.|&sect;6|
 |||Deprecated VIS authentication mechanism.|&sect;6|
 |||Deprecated SYM-CAK authentication mechanism.|&sect;6|
+|||Added SM-AUTH as optional authentication mechanism.|&sect;6|
 |||Added section discussing federation in relationship to PIV credentials.|&sect;7|
 {:latex-columns="p@0.13\textwidth,p@0.17\textwidth,p@0.48\textwidth,p@0.10\textwidth" latex-longtable="true"}
