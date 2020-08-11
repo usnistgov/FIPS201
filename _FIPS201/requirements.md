@@ -573,6 +573,8 @@ must be in place. The PIV Card SHALL be revoked through the following procedure:
     certificates corresponding to the PIV authentication key and the asymmetric card
     authentication key on the PIV Card SHALL be revoked. The certificates corresponding to the
     digital signature and key management keys SHALL also be revoked, if present.
+    
+In addition, the PIV Card termination procedures SHALL ensure all derived PIV credentials bound to the PIV account are invalidated as specified in [Section 2.10.2](requirements.md#s-2-10-2).
 
 If the card cannot be collected, normal termination procedures SHALL be completed within 18&nbsp;hours of
 notification. In certain cases, 18&nbsp;hours is an unacceptable delay and in those cases emergency procedures
