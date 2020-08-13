@@ -28,7 +28,7 @@ The strength of authentication that is achieved depends on the type of
 credential, the process used to issue the credential, and the authentication mechanism
 used to validate the credential.
 
-This document establishes a standard for a Personal Identity Verification (PIV) system that meets the control and security objectives of [[HSPD-12]](_Appendix/references.md#ref-HSPD-12). It is based on secure and reliable forms of identity credentials issued by the Federal Government to its employees and contractors. These credentials are intended to authenticate individuals who require access to federally controlled facilities, information systems, and applications. This Standard addresses requirements for initial identity proofing, infrastructure to support interoperability of identity credentials, and accreditation of organizations and processes issuing PIV credentials.
+This document establishes a standard for a Personal Identity Verification (PIV) system that meets the control and security objectives of [[HSPD-12]](_Appendix/references.md#ref-HSPD-12). The Standard specifies implementation and processes for binding identities to authenticators, such as integrated circuit cards and derived credentials used in the federal PIV system. It is based on secure and reliable forms of identity credentials issued by the Federal Government to its employees and contractors. These credentials are intended to authenticate individuals who require access to federally controlled facilities, information systems, and applications. This Standard addresses requirements for initial identity proofing, infrastructure to support interoperability of identity credentials, and accreditation of organizations and processes issuing PIV credentials.
 
 ## 1.1 Purpose {#s-1-1}
 
@@ -57,7 +57,7 @@ accordance with HSPD-12, this Standard defines the following technical requireme
 - They are issued only by providers whose reliability has been established by an official accreditation process.
 
 Upon enrollment, a collection of records known as a PIV account is created and managed 
-within the issuer's identity management system (IDMS). The PIV account includes the 
+within the issuer's enterprise-wide identity management system (IDMS). The PIV account includes the 
 attributes of the PIV cardholder, the enrollment data, and information regarding the 
 PIV Card and any derived PIV credentials bound to the account.
 
