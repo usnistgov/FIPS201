@@ -114,7 +114,7 @@ Available at <https://www.iso.org/standard/63545.html>
 Available at <https://www.iso.org/standard/70483.html>
 
 [[ISO 7811]](references.md#ref-ISO7811){:name="ref-ISO7811"} International Organization for Standardization/International Electrotechnical Commission (2018)
-*ISO/IEC 7811-6:2018 &mdash; Identification cards &mdash; Recording technique.* (multiple parts):
+*ISO/IEC 7811 &mdash; Identification cards &mdash; Recording technique.* (multiple parts):
    
 - International Organization for Standardization/International Electrotechnical Commission (2018)
     *ISO/IEC 7811-6:2018 &mdash; Identification cards &mdash; Recording technique &mdash; Part 6: Magnetic stripe: High coercivity.*
@@ -160,7 +160,7 @@ Available at <https://www.iso.org/standard/70483.html>
     Available at <https://www.iso.org/standard/64598.html>
 
 [[ISO 10373]](references.md#ref-ISO10373){:name="ref-ISO10373"} International Organization for Standardization/International Electrotechnical Commission (2006-2018)
-*ISO/IEC 10373-1:2006 &mdash; Identification Cards &mdash; Test Methods.* (multiple parts):
+*ISO/IEC 10373 &mdash; Identification Cards &mdash; Test Methods.* (multiple parts):
 
 -  International Organization for Standardization/International Electrotechnical Commission (2006)
     *ISO/IEC 10373-1:2006 &mdash; Identification Cards &mdash; Test Methods &mdash; Part 1: General Characteristics.*

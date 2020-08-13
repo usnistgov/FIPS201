@@ -132,13 +132,13 @@ Chain of trust
 : An interoperable data format for _PIV enrollment records_ that facilitates the import and export of records 
 between _PIV Card_ _issuers_.
 
-Card Verifiable Certificate
-: A certificate stored on the _PIV card_ that includes a public key, the signature of a _certification authority_, and further information needed to verify the certificate.
-
 ~~~
 \clearpage
 ~~~
 {:latex-literal="true"}
+
+Card Verifiable Certificate
+: A certificate stored on the _PIV card_ that includes a public key, the signature of a _certification authority_, and further information needed to verify the certificate.
 
 Comparison
 : Estimation, calculation, or measurement of similarity or dissimilarity between biometric probe(s) and biometric reference(s) [[ISO 2382-37]](references.md#ref-ISO/IEC-2382-37). 
@@ -177,6 +177,11 @@ Federal Agency Smart Credential Number (FASC-N)
 : One of the primary
 _identifiers_ on the _PIV Card_ for physical _access control_, as required by FIPS 201. The FASC-N is a fixed length (25&nbsp;byte) data
 object that is specified in [[SP 800-73]](references.md#ref-SP-800-73), and included in several data objects on a _PIV Card_.
+
+~~~
+\clearpage
+~~~
+{:latex-literal="true"}
 
 Federal Information Processing Standards (FIPS)
 : A standard for adoption and use by federal
@@ -221,14 +226,14 @@ Identifier
 : Unique data used to represent a person's _identity_ and associated attributes. A name or a card
 number are examples of identifiers.
 
-Identity
-: The set of physical and behavioral characteristics by which an individual is uniquely
-recognizable.
-
 ~~~
 \clearpage
 ~~~
 {:latex-literal="true"}
+
+Identity
+: The set of physical and behavioral characteristics by which an individual is uniquely
+recognizable.
 
 Identity Assurance Level (IAL)
 : A category that conveys the degree of confidence that the end user’s claimed _identity_ is their real _identity_, as

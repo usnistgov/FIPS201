@@ -269,11 +269,6 @@ Zone 2B
 In addition, any available security features described in [Section 4.1.2](frontend.md#s-4-1-2) SHOULD be checked
 in a visual inspection to provide additional assurance that the PIV Card is genuine and unaltered.
 
-~~~
-\clearpage
-~~~
-{:latex-literal="true"}
-
 The PIV Card may also have several optional components on the front (see [Section 4.1.4.3](frontend.md#s-4-1-4-3)) and
 back (see [Section 4.1.4.4](frontend.md#s-4-1-4-4)) that support visual
 identification and authentication, such as:
@@ -334,6 +329,11 @@ the functional mechanism, physical protection of the mechanism, and environmenta
 authentication point. Additional standards and best practice guidelines (e.g., [[SP 800-53]](../_Appendix/references.md#ref-SP-800-53), [[FIPS 140]](../_Appendix/references.md#ref-FIPS140), and [[SP 800-116]](../_Appendix/references.md#ref-SP-800-116)) apply to the design and
 implementation of relying systems.
 
+~~~
+\clearpage
+~~~
+{:latex-literal="true"}
+
 ### 6.3.1 Physical Access {#s-6-3-1}
 
 The PIV Card can be used to authenticate the cardholder in a physical access control
@@ -369,6 +369,11 @@ assurance levels.[^combinations]
 |PAL2|BIO|
 |PAL3|BIO-A, OCC-AUTH, PKI-AUTH|
 {:latex-table="6-1" latex-caption="Applicable PIV Authentication Mechanisms for Physical Access"}
+
+~~~
+\clearpage
+~~~
+{:latex-literal="true"}
 
 ### 6.3.2 Logical Access {#s-6-3-2}
 

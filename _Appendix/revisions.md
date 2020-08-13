@@ -39,7 +39,7 @@ _This appendix is informative._ It provides an overview of the changes to FIPS 2
 |||Require signature verification and certification path validation in the CHUID, BIO, and BIO-A authentication mechanisms.||
 |||The VIS and CHUID authentication mechanisms have been downgraded to indicate that they provide LITTLE or NO assurance in the identity of the cardholder.||
 |||Deprecated the use of the CHUID authentication mechanism. The CHUID data element has not been deprecated and continues to be mandatory.||
-|FIPS 201-3|July 2020|This version represents the 5-year review of FIPS 201 and change request inputs received from agencies. Following are the highlights of changes made in this version.||
+|FIPS 201-3|August 2020|This version represents the 5-year review of FIPS 201 and change request inputs received from agencies. Following are the highlights of changes made in this version.||
 |||Alignment with SP 800-63-3 language and terms.||
 |||Used explicit normative language terms SHALL/SHOULD/MAY/CAN.||
 |||Updated process for binding and termination of derived PIV credentials with PIV account.|&sect;2|

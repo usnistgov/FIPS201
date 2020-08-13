@@ -42,7 +42,7 @@ pdf:
           part_template: _pdftemplate/sectionpart.tex
           template: _pdftemplate/appendix.tex
     doi_url: https://doi.org/10.6028/NIST.FIPS.201-3-draft
-    issued_date: July 2020
+    issued_date: August 2020
     long_doc_number: Federal Information Processing Standards Publication 201-3
     doc_short_title: FIPS PUB 201-3 (DRAFT)
     page_doc_number: FIPS 201-3 (DRAFT)
