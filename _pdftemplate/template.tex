@@ -63,11 +63,34 @@
 
 %: if config.watermark
 
+% Turn on watermark overlay
+
 \usepackage{draftwatermark}
 \SetWatermarkText{\VAR{config.watermark}}
 \SetWatermarkScale{1}
 
 %: endif
+
+%: if config.boundingbox
+
+% Turn on visible bounding boxes
+\usepackage[
+  heightrounded,   % ensure an integer number of lines
+  showframe,       % show the main blocks
+  verbose,         % show the values of the parameters in the log file
+]{geometry}
+
+%: endif
+
+%: if config.lineno
+
+% Turn on line numbering
+\usepackage{lineno}
+\linenumbers
+
+%: endif
+
+
 
 \usepackage{tocloft}	% change typeset, titles, and format list of appendices/figures/tables
 \renewcommand{\contentsname}{Table of Contents}
@@ -161,14 +184,6 @@ pdfkeywords={}
 
 \widowpenalty500
 \clubpenalty500
-
-%: if config.lineno
-
-% Turn on line numbering
-\usepackage{lineno}
-\linenumbers
-
-%: endif
 
 % Set up hyphenation rules
 \pretolerance=5000
