@@ -47,8 +47,12 @@ pdf:
     doc_short_title: FIPS PUB 201-3 (DRAFT)
     page_doc_number: FIPS 201-3 (DRAFT)
     page_title: Personal Identity Verification (PIV)
-    doc_title: Personal Identity Verification (PIV)\\of Federal Employees and Contractors
-    pdf_title: 'FIPS 201-3: Personal Identity Verification (PIV) of Federal Employees and Contractors'
+    display_title: Personal Identity Verification (PIV)\\of Federal Employees and Contractors
+    title: Personal Identity Verification (PIV) of Federal Employees and Contractors
+    author: 'National Institute of Standards and Technology'
+    subject: "This document establishes a standard for a Personal Identity Verification (PIV) system that meets the control and security objectives of Homeland Security Presidential Directive-12. It is based on secure and reliable forms of identity credentials issued by the Federal Government to its employees and contractors. These credentials are used by mechanisms that authenticate individuals who require access to federally controlled facilities, information systems, and applications. This Standard addresses requirements for initial identity proofing, infrastructure to support interoperability of identity credentials, and accreditation of organizations and processes issuing PIV credentials."
+    keywords: 'Information Security, Identity, Security'
+    language: 'en-US'
     lineno: true
     supersedes: FIPS 201-2
     category: Information Security
