@@ -44,7 +44,7 @@ PIV Relying Subsystem
 [Figure 3-1. PIV System Overview](system.md#fig-3-1){:name="fig-3-1"}
 {:latex-ignore="true"}
 
-![PIV System Overview]({{site.baseurl}}/{{page.collection}}/images/system.png){:style="width: 1047px;" latex-src="system.pdf" latex-fig="3-1"}
+![Diagram overview of the PIV system.]({{site.baseurl}}/{{page.collection}}/images/system.png 'PIV System Overview'){:style="width: 1047px;" latex-src="system.pdf" latex-fig="3-1"}
 
 [Figure 3-1](system.md#fig-3-1) illustrates a notional model for the operational PIV system, identifying the various system
 components. The boundary shown in the figure
@@ -143,7 +143,7 @@ Card termination as the end of life activity.
 [Figure 3-2. PIV Card Lifecycle Activities](system.md#fig-3-2){:name="fig-3-2"}
 {:latex-ignore="true"}
 
-![PIV Card Lifecycle Activities]({{site.baseurl}}/{{page.collection}}/images/lifecycle.png){:style="width: 1047px;" latex-src="lifecycle.pdf" latex-fig="3-2" latex-place="p"}
+![Diagram of PIV Card lifecycle.]({{site.baseurl}}/{{page.collection}}/images/lifecycle.png 'PIV Card Lifecycle Activities'){:style="width: 1047px;" latex-src="lifecycle.pdf" latex-fig="3-2" latex-place="p"}
 
 The seven card lifecycle activities are as follows:
 
@@ -195,7 +195,7 @@ flows between these components are shown in [Figure 3-3](system.md#fig-3-3).
 [Figure 3-3. PIV System Connections](system.md#fig-3-3){:name="fig-3-3"}
 {:latex-ignore="true"}
 
-![PIV System Connections]({{site.baseurl}}/{{page.collection}}/images/system-direct.png){:style="width: 1047px;" latex-src="system-direct.pdf" latex-fig="3-3" latex-place="p"}
+![Diagram of connections between components in a PIV system.]({{site.baseurl}}/{{page.collection}}/images/system-direct.png 'PIV System Connections'){:style="width: 1047px;" latex-src="system-direct.pdf" latex-fig="3-3" latex-place="p"}
 
 While it is possible to directly accept a PIV Card issued by another agency, the recommended interoperability mechanism for most agencies 
 is to use a federation protocol, as discussed in [Section 7](federation.md#s-7). In this method, the PIV cardholder authenticates to an
@@ -208,7 +208,7 @@ or authentication at the IdP. The connections and data flows between these compo
 [Figure 3-4. PIV System Federation Connections](system.md#fig-3-4){:name="fig-3-4"}
 {:latex-ignore="true"}
 
-![PIV System Federation Connections]({{site.baseurl}}/{{page.collection}}/images/system-federation.png){:style="width: 1047px;" latex-src="system-federation.pdf" latex-fig="3-4" latex-place="bp"}
+![Diagram of connections between components in a federated system using PIV credentials.]({{site.baseurl}}/{{page.collection}}/images/system-federation.png 'PIV System Federation Connections'){:style="width: 1047px;" latex-src="system-federation.pdf" latex-fig="3-4" latex-place="bp"}
 
 While this Standard makes no requirements on when to apply direct or federated authentication mechanisms, there are some
 natural mappings. For example, physical access systems are not usually well-suited for a federation protocol. Also,

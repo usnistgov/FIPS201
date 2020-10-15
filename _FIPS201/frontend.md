@@ -178,16 +178,16 @@ Zone 2F: Name
 
 |Name|Characteristics|Example|
 |---|---|---|
-|John Doe|Simple full name of individual who does not have a middle name, two lines sufficient at 10&nbsp;pt.|![]({{site.baseurl}}/{{page.collection}}/images/name1.png){:style="width: 400px;" latex-src="name1.pdf"}|
-|Anna Maria Eriksson|Simple full name, two lines sufficient at 10&nbsp;pt.|![]({{site.baseurl}}/{{page.collection}}/images/name2.png){:style="width: 400px;" latex-src="name2.pdf"}|
-|Anna Maria Eriksson|Simple full name with abbreviated middle name, two lines sufficient at 10&nbsp;pt.|![]({{site.baseurl}}/{{page.collection}}/images/name3.png){:style="width: 400px;" latex-src="name3.pdf"}|
-|Anna Maria Eriksson|Simple full name, one line sufficient for full name at 10&nbsp;pt.|![]({{site.baseurl}}/{{page.collection}}/images/name4.png){:style="width: 400px;" latex-src="name4.pdf"}|
-|Susie Margaret Smith-Jones|Longer full name in two lines, sufficient space at 10&nbsp;pt.|![]({{site.baseurl}}/{{page.collection}}/images/name5.png){:style="width: 400px;" latex-src="name5.pdf"}|
-|Susie Margaret Smith-Jones|Longer full name wrapped, two lines sufficient at 10&nbsp;pt.|![]({{site.baseurl}}/{{page.collection}}/images/name6.png){:style="width: 400px;" latex-src="name6.pdf"}|
-|Chayapa Dejthamrong Krusuang Nilavadhanananda|Longer full name wrapped, two lines not sufficient at 10&nbsp;pt. Reduce to 8&nbsp;pt.|![]({{site.baseurl}}/{{page.collection}}/images/name7.png){:style="width: 400px;" latex-src="name7.pdf"}|
-|Vaasa Silvaan Beenelong Wooloomooloo Warrandyte Warwarnambool|Longer full name, two lines not sufficient at 8&nbsp;pt, 7&nbsp;pt allows sufficient space for three lines in Zone 2F.|![]({{site.baseurl}}/{{page.collection}}/images/name8.png){:style="width: 400px;" latex-src="name8.pdf"}|
-|Vaasa Silvaan Beenelong Wooloomooloo Warrandyte Warwarnambool|Same as previous but full name is wrapped.|![]({{site.baseurl}}/{{page.collection}}/images/name9.png){:style="width: 400px;" latex-src="name9.pdf"}|
-|Dingo Pontooroomooloo Vaasa Silvaan Beenelong Wooloomooloo Warrandyte Warwarnambool|Truncated full name, three lines at 7&nbsp;pt not sufficient.|![]({{site.baseurl}}/{{page.collection}}/images/name10.png){:style="width: 400px;" latex-src="name10.pdf"}|
+|John Doe|Simple full name of individual who does not have a middle name, two lines sufficient at 10&nbsp;pt.|![Graphical depiction of the name "John Doe".]({{site.baseurl}}/{{page.collection}}/images/name1.png){:style="width: 400px;" latex-src="name1.pdf"}|
+|Anna Maria Eriksson|Simple full name, two lines sufficient at 10&nbsp;pt.|![Graphical depiction of the name "Anna Maria Eriksson".]({{site.baseurl}}/{{page.collection}}/images/name2.png){:style="width: 400px;" latex-src="name2.pdf"}|
+|Anna Maria Eriksson|Simple full name with abbreviated middle name, two lines sufficient at 10&nbsp;pt.|![Graphical depiction of the name "Anna Maria Eriksson".]({{site.baseurl}}/{{page.collection}}/images/name3.png){:style="width: 400px;" latex-src="name3.pdf"}|
+|Anna Maria Eriksson|Simple full name, one line sufficient for full name at 10&nbsp;pt.|![Graphical depiction of the name "Anna Maria Eriksson".]({{site.baseurl}}/{{page.collection}}/images/name4.png){:style="width: 400px;" latex-src="name4.pdf"}|
+|Susie Margaret Smith-Jones|Longer full name in two lines, sufficient space at 10&nbsp;pt.|![Graphical depiction of the name "Susie Margaret Smith-Jones".]({{site.baseurl}}/{{page.collection}}/images/name5.png){:style="width: 400px;" latex-src="name5.pdf"}|
+|Susie Margaret Smith-Jones|Longer full name wrapped, two lines sufficient at 10&nbsp;pt.|![Graphical depiction of the name "Susie Margaret Smith-Jones".]({{site.baseurl}}/{{page.collection}}/images/name6.png){:style="width: 400px;" latex-src="name6.pdf"}|
+|Chayapa Dejthamrong Krusuang Nilavadhanananda|Longer full name wrapped, two lines not sufficient at 10&nbsp;pt. Reduce to 8&nbsp;pt.|![Graphical depiction of the name "Chayapa Dejthamrong Krusuang Nilavadhanananda".]({{site.baseurl}}/{{page.collection}}/images/name7.png){:style="width: 400px;" latex-src="name7.pdf"}|
+|Vaasa Silvaan Beenelong Wooloomooloo Warrandyte Warwarnambool|Longer full name, two lines not sufficient at 8&nbsp;pt, 7&nbsp;pt allows sufficient space for three lines in Zone 2F.|![Graphical depiction of the name "Vaasa Silvaan Beenelong Wooloomooloo Warrandyte Warwarnambool".]({{site.baseurl}}/{{page.collection}}/images/name8.png){:style="width: 400px;" latex-src="name8.pdf"}|
+|Vaasa Silvaan Beenelong Wooloomooloo Warrandyte Warwarnambool|Same as previous but full name is wrapped.|![Graphical depiction of the name "Vaasa Silvaan Beenelong Wooloomooloo Warrandyte Warwarnambool".]({{site.baseurl}}/{{page.collection}}/images/name9.png){:style="width: 400px;" latex-src="name9.pdf"}|
+|Dingo Pontooroomooloo Vaasa Silvaan Beenelong Wooloomooloo Warrandyte Warwarnambool|Truncated full name, three lines at 7&nbsp;pt not sufficient.|![Graphical depiction of the name "Dingo Pontooroomooloo Vaasa Silvaan Beenelong Wooloomooloo Warrandyte Warwarnambool".]({{site.baseurl}}/{{page.collection}}/images/name10.png){:style="width: 400px;" latex-src="name10.pdf"}|
 {:latex-columns="p@0.28\textwidth,p@0.38\textwidth,m@0.25\textwidth" latex-table="4-1" latex-caption="Name Examples" latex-place="p"}
 
 Zone 7F: Contact Area
@@ -405,42 +405,42 @@ legislatively mandated medical entitlements.
 [Figure 4-1. Card Front: Printable Areas and Required Data](frontend.md#fig-4-1){:name="fig-4-1"}
 {:latex-ignore="true"}
 
-![Card Front: Printable Areas and Required Data]({{site.baseurl}}/{{page.collection}}/images/cardfront-required.png){:style="width: 1047px;" latex-src="cardfront-required.pdf" latex-fig="4-1"}
+![Diagram of Printable Areas and Required Data on front of card.]({{site.baseurl}}/{{page.collection}}/images/cardfront-required.png 'Card Front: Printable Areas and Required Data'){:style="width: 1047px;" latex-src="cardfront-required.pdf" latex-fig="4-1"}
 
 [Figure 4-2. Card Front: Optional Data Placement (Example 1)](frontend.md#fig-4-2){:name="fig-4-2"}
 {:latex-ignore="true"}
 
-![Card Front: Optional Data Placement (Example 1)]({{site.baseurl}}/{{page.collection}}/images/cardfront-optional1.png){:style="width: 1047px;" latex-src="cardfront-optional1.pdf" latex-fig="4-2"}
+![Diagram of Optional Data Placement on front of card (Example 1).]({{site.baseurl}}/{{page.collection}}/images/cardfront-optional1.png 'Card Front: Optional Data Placement (Example 1)'){:style="width: 1047px;" latex-src="cardfront-optional1.pdf" latex-fig="4-2"}
 
 [Figure 4-3. Card Front: Optional Data Placement (Example 2)](frontend.md#fig-4-3){:name="fig-4-3"}
 {:latex-ignore="true"}
 
-![Card Front: Optional Data Placement (Example 2)]({{site.baseurl}}/{{page.collection}}/images/cardfront-optional2.png){:style="width: 1047px;" latex-src="cardfront-optional2.pdf" latex-fig="4-3"}
+![Diagram of Optional Data Placement on front of card (Example 2).]({{site.baseurl}}/{{page.collection}}/images/cardfront-optional2.png 'Card Front: Optional Data Placement (Example 2)'){:style="width: 1047px;" latex-src="cardfront-optional2.pdf" latex-fig="4-3"}
 
 [Figure 4-4. Card Front: Optional Data Placement (Example 3)](frontend.md#fig-4-4){:name="fig-4-4"}
 {:latex-ignore="true"}
 
-![Card Front: Optional Data Placement (Example 3)]({{site.baseurl}}/{{page.collection}}/images/cardfront-optional3.png){:style="width: 1047px;" latex-src="cardfront-optional3.pdf" latex-fig="4-4"}
+![Diagram of Optional Data Placement on front of card (Example 3).]({{site.baseurl}}/{{page.collection}}/images/cardfront-optional3.png 'Card Front: Optional Data Placement (Example 3)'){:style="width: 1047px;" latex-src="cardfront-optional3.pdf" latex-fig="4-4"}
 
 [Figure 4-5. Card Front: Optional Data Placement (Example 4)](frontend.md#fig-4-5){:name="fig-4-5"}
 {:latex-ignore="true"}
 
-![Card Front: Optional Data Placement (Example 4)]({{site.baseurl}}/{{page.collection}}/images/cardfront-optional4.png){:style="width: 1047px;" latex-src="cardfront-optional4.pdf" latex-fig="4-5"}
+![Diagram of Optional Data Placement on front of card (Example 4).]({{site.baseurl}}/{{page.collection}}/images/cardfront-optional4.png 'Card Front: Optional Data Placement (Example 4)'){:style="width: 1047px;" latex-src="cardfront-optional4.pdf" latex-fig="4-5"}
 
 [Figure 4-6. Card Back: Printable Areas and Required Data](frontend.md#fig-4-6){:name="fig-4-6"}
 {:latex-ignore="true"}
 
-![Card Back: Printable Areas and Required Data]({{site.baseurl}}/{{page.collection}}/images/cardback-required.png){:style="width: 1047px;" latex-src="cardback-required.pdf" latex-fig="4-6"}
+![Diagram of Printable Areas and Required Data on back of card.]({{site.baseurl}}/{{page.collection}}/images/cardback-required.png 'Card Back: Printable Areas and Required Data'){:style="width: 1047px;" latex-src="cardback-required.pdf" latex-fig="4-6"}
 
 [Figure 4-7. Card Back: Optional Data Placement (Example 1)](frontend.md#fig-4-7){:name="fig-4-7"}
 {:latex-ignore="true"}
 
-![Card Back: Optional Data Placement (Example 1)]({{site.baseurl}}/{{page.collection}}/images/cardback-optional1.png){:style="width: 1047px;" latex-src="cardback-optional1.pdf" latex-fig="4-7"}
+![Diagram of Optional Data Placement on back of card (Example 1).]({{site.baseurl}}/{{page.collection}}/images/cardback-optional1.png 'Card Back: Optional Data Placement (Example 1)'){:style="width: 1047px;" latex-src="cardback-optional1.pdf" latex-fig="4-7"}
 
 [Figure 4-8. Card Back: Optional Data Placement (Example 2)](frontend.md#fig-4-8){:name="fig-4-8"}
 {:latex-ignore="true"}
 
-![Card Back: Optional Data Placement (Example 2)]({{site.baseurl}}/{{page.collection}}/images/cardback-optional2.png){:style="width: 1047px;" latex-src="cardback-optional2.pdf" latex-fig="4-8"}
+![Diagram of Optional Data Placement on back of card (Example 2).]({{site.baseurl}}/{{page.collection}}/images/cardback-optional2.png 'Card Back: Optional Data Placement (Example 2)'){:style="width: 1047px;" latex-src="cardback-optional2.pdf" latex-fig="4-8"}
 
 ### 4.1.5 Color Representation {#s-4-1-5}
 
