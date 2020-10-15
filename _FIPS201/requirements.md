@@ -428,7 +428,7 @@ In the case of a lost, stolen, or compromised card, normal revocation procedures
 within 18&nbsp;hours of notification. In certain cases, 18&nbsp;hours is an unacceptable delay, and in those cases
 emergency procedures SHOULD be executed to disseminate the information as rapidly as possible.
 
-If there is any data change about the cardholder, the issuer will record this in the PIV enrollment record, if
+If there is any data change about the cardholder, the issuer SHALL record this data change in the PIV enrollment record, if
 applicable. If the changed data is the cardholder's name, then the issuer SHALL meet the requirements in
 [Section 2.9.1.1](requirements.md#s-2-9-1-1).
 
