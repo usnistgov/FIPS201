@@ -282,10 +282,10 @@ Available at <https://docs.oasis-open.org/security/saml/v2.0/saml-authn-context-
 (National Institute of Standards and Technology, Gaithersburg, MD), NIST Special Publication (SP) 800-37, Rev. 2 [or as amended].
 <https://doi.org/10.6028/NIST.SP.800-37r2>
 
-[[SP 800-53]](references.md#ref-SP-800-53){:name="ref-SP-800-53"} Joint Task Force Transformation Initiative (2013)
-*Security and Privacy Controls for Federal Information Systems and Organizations.*
-(National Institute of Standards and Technology, Gaithersburg, MD), NIST Special Publication (SP) 800-53, Rev. 4, Includes updates as of January 22, 2015 [or as amended].
-<https://doi.org/10.6028/NIST.SP.800-53r4>
+[[SP 800-53]](references.md#ref-SP-800-53){:name="ref-SP-800-53"} Joint Task Force (2020)
+*Security and Privacy Controls for Information Systems and Organizations.*
+(National Institute of Standards and Technology, Gaithersburg, MD), NIST Special Publication (SP) 800-53, Rev. 5.
+<https://doi.org/10.6028/NIST.SP.800-53r5>
 
 [[SP 800-59]](references.md#ref-SP-800-59){:name="ref-SP-800-59"} Barker WC (2003)
 *Guideline for Identifying an Information System as a National Security System.*
