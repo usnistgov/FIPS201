@@ -1,7 +1,7 @@
 # Site settings
 title: FIPS 201
 description: FIPS 201
-baseurl: "/FIPS-201" # the subpath of your site, e.g. /blog
+baseurl: "/FIPS201" # the subpath of your site, e.g. /blog
 
 # Build settings
 markdown: kramdown
