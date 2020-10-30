@@ -17,3 +17,6 @@ numbers, or names of other individuals, should not be included. Do not submit co
 or protected information. Comments that contain profanity, vulgarity, threats, or other inappropriate language or content will not 
 be posted or considered.
 
+## Build Instructions
+
+If you wish to generate the document directly from its source, see the [build instructions](BUILD.md).
