@@ -11,9 +11,13 @@
         {% endif %}
         
         <li class="{{ current }}">
-          <a href="{{ site.baseurl }}{{ link.url }}">{{ link.text }}</a>
+          {% if page.collapsed and link.anchor %}
+              <a href="{{ site.baseurl }}/fips201.html#{{ link.anchor }}">{{ link.text }}</a>
+          {% else %}
+              <a href="{{ site.baseurl }}{{ link.url }}">{{ link.text }}</a>
+          {% endif %}
           
-          {% if link.collection and page.collection == link.collection %}
+          {% if link.collection and (page.collection == link.collection or page.collapsed) %}
         
             {% assign c = site.collections | where: "label", link.collection | first %}
             {% assign pages = c.docs | sort: 'navOrder' %}
@@ -26,7 +30,11 @@
                 {% assign scurrent = 'active' %}
               {% endif %}
               
-              <li class="{{ scurrent }}"><a href="{{ site.baseurl }}{{ p.url }}">{{ p.navTitle }}</a></li>
+              {% if page.collapsed and p.anchor %}
+                  <li class="{{ scurrent }}"><a href="{{ site.baseurl }}/fips201.html#{{ p.anchor }}">{{ p.navTitle }}</a></li>
+              {% else %}
+                  <li class="{{ scurrent }}"><a href="{{ site.baseurl }}{{ p.url }}">{{ p.navTitle }}</a></li>
+              {% endif %}
               
             {% endfor %}
           

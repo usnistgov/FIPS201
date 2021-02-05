@@ -7,6 +7,14 @@
             });
         }
         $(function() {
+          {% if page.collapsed %}
+          // Convert all links to on-page within document in collapsed view
+          $('.container a[href^="{{ site.baseurl }}/"]').filter('a[href*="#"]').each(function(i, el) {
+              var $el = $(el);
+              var newPath = $el.attr('href').replace(/(.*)(\#.+)/, "$2");
+              $el.attr('href', newPath);
+          });
+          {% endif %}
           return $("h1, h2, h3, h4, h5, h6").each(function(i, el) {
             var $el, icon, id;
             $el = $(el);
