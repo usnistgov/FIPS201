@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Foreword
-navOrder: 2
+navOrder: 1
 navTitle: Foreword
 permalink: /foreword/
 anchor: foreword
