@@ -324,7 +324,7 @@ Zone 16F: Photograph Border
 : A border MAY be used with the photograph to further identify employee affiliation,
     as depicted in [Figure 4-3](frontend.md#fig-4-3). This border MAY be used in conjunction with Zone 15F to enable departments
     and agencies to develop various employee categories. The photograph border SHALL NOT obscure the photograph. The
-    border MAY be a solid or patterned line. For solid and patterned lines, red SHALL be reserved for emergency
+    border MAY be a solid or patterned line. For solid and patterned lines the following colors SHALL be reserved: red for emergency
     response officials, blue for foreign nationals, and green for contractors. All other colors MAY be used at
     the department or agency's discretion.
 
