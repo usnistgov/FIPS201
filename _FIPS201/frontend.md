@@ -528,7 +528,7 @@ Cardholder-to-External (CTE) authentication
 ### 4.2.1 Cardholder Unique Identifier (CHUID) {#s-4-2-1}
 {:latex-toc="4.2.1 Cardholder Unique Identifier"}
 
-Note: The CHUID authentication mechanims (Section 6.2.5) has been
+Note: The CHUID authentication mechanism (Section 6.2.5) has been
 removed from this version of the Standard. The CHUID data element itself, however, has not been removed and continues to be mandatory as it supports other PIV authentication mechanisms. For example, the BIO, BIO-A, and SYM-CAK authentication mechanisms use the CHUID data
  element as a source for the card’s expiration date. The CHUID data element also provides the content signing certificate for some authentication mechanisms and unique identifiers for PACS ACLs. 
  
