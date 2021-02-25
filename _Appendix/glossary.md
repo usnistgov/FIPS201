@@ -413,7 +413,7 @@ AAL
 : Authenticator Assurance Level
 
 AAMVA
-: American Association of Motor Vehicle Association
+: American Association of Motor Vehicle Administrators
 
 ACL
 : Access Control List
