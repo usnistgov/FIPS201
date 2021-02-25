@@ -595,7 +595,8 @@ Key management key
 PIV Card application administration key
 : An optional symmetric key used for personalization and post-issuance activities.
     See [Section 4.2.2.6](frontend.md#s-4-2-2-6).
- PIV secure messaging key 
+
+PIV secure messaging key 
 : An optional asymmetric private key that supports key establishment for secure messaging and card authentication for physical access.
 
 The PIV Card SHALL store private keys and corresponding public key certificates and SHALL perform
