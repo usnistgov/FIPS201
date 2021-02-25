@@ -112,7 +112,7 @@ Cardholder
 : An individual who possesses an issued _PIV Card_.
 
 Card Management System
-: The card management system manages the lifecycle of a _PIV Card_
+: The system that manages the lifecycle of a _PIV Card_
 application.
 
 Central Verification System
