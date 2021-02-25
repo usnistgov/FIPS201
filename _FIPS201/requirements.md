@@ -448,7 +448,7 @@ Key management keys and certificates MAY be imported to the new PIV Card.
 #### 2.9.1.1 Special Rule for Name Change by Cardholder {#s-2-9-1-1}
 
 Name changes frequently occur as a result of marriage, divorce, or as a matter of personal preference. In
-the event that a cardholder notifies a card issuer that their name has changed and presents the card
+the event that a cardholder notifies the card issuer that their name has changed and presents the card
 issuer with evidence of a formal name change&mdash;such as a marriage certificate, a divorce decree, judicial
 recognition of a name change, or other mechanism permitted by state law or regulation&mdash;the card issuer
 SHALL issue the cardholder a new card following the procedures set out in [Section 2.9.1](requirements.md#s-2-9-1)
