@@ -4,7 +4,10 @@ title: Announcement
 navOrder: 3
 navTitle: Announcement
 permalink: /announcement/
+anchor: announcement
 ---
+
+[](announcement.md#announcement){:name="announcement"}
 
 Federal Information Processing Standards Publications (FIPS PUBS) are issued by the National Institute of Standards and Technology (NIST) after approval by the Secretary of Commerce pursuant to Section 5131 of the Information Technology Management Reform Act of 1996 (Public Law 104-106) and the Computer Security Act of 1987 (Public Law 100-235).
 

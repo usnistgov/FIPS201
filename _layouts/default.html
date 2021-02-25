@@ -3,13 +3,22 @@
 {% include NISTPagesHeader.html %}
 
 <body>
+
 {% include sidenav.html %}
-<!-- HTML elements for search -->
-	<div class="container">
-	  <div class="row">
-		{{ content }}
-	  </div>
-	</div>
+
+<div class="page-switch">
+{% if page.collapsed %}
+View this document as: <b>a single page</b> | <a href="{{ site.baseurl }}/abstract/">multiple pages</a>.
+{% else %}
+View this document as: <a href="{{ site.baseurl }}/fips201.html">a single page</a> | <b>multiple pages</b>.
+{% endif %}
+</div>
+
+<div class="container">
+  <div class="row">
+	{{ content }}
+  </div>
+</div>
 <footer role="contentInfo" class="site-footer">
   <div class="section-container">
     <div class="section-content">

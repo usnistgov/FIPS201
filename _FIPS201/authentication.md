@@ -4,6 +4,7 @@ title: PIV Cardholder Authentication
 navOrder: 6
 navTitle: Authentication
 permalink: /authentication/
+anchor: s-6
 ---
 
 # 6. PIV Cardholder Authentication {#s-6}
