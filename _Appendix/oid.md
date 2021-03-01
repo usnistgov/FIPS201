@@ -4,6 +4,7 @@ title: PIV Object Identifiers and Certificate Extension
 navOrder: 2
 navTitle: OID
 permalink: /oid/
+anchor: s-b
 ---
 
 # Appendix B. PIV Object Identifiers and Certificate Extension {#s-b}

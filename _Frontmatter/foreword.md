@@ -1,12 +1,13 @@
 ---
 layout: default
 title: Foreword
-navOrder: 2
+navOrder: 1
 navTitle: Foreword
 permalink: /foreword/
+anchor: foreword
 ---
 
-# FOREWORD
+# FOREWORD {#foreword}
 
 The Federal Information Processing Standards Publication Series of the National Institute of Standards and Technology is the official series of publications relating to standards and guidelines adopted and promulgated under the provisions of the Federal Information Security Modernization Act (FISMA) of 2014. 
 

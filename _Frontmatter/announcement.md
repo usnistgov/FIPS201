@@ -4,7 +4,10 @@ title: Announcement
 navOrder: 3
 navTitle: Announcement
 permalink: /announcement/
+anchor: announcement
 ---
+
+[](announcement.md#announcement){:name="announcement"}
 
 Federal Information Processing Standards Publications (FIPS PUBS) are issued by the National Institute of Standards and Technology (NIST) after approval by the Secretary of Commerce pursuant to Section 5131 of the Information Technology Management Reform Act of 1996 (Public Law 104-106) and the Computer Security Act of 1987 (Public Law 100-235).
 
@@ -18,7 +21,7 @@ Information Security. **Subcategory**. Identity.
 
 # 3. Explanation. {#f-3}
 
-Homeland Security Presidential Directive-12 [[HSPD-12]](_Appendix/references.md#ref-HSPD-12), dated August 27, 2004, entitled "Policy for a Common Identification Standard for Federal Employees and Contractors," directs the promulgation of a federal standard for secure and reliable forms of identification for federal employees and contractors. It further specifies secure and reliable identification that
+Homeland Security Presidential Directive-12 [[HSPD-12]](../_Appendix/references.md#ref-HSPD-12), dated August 27, 2004, entitled "Policy for a Common Identification Standard for Federal Employees and Contractors," directs the promulgation of a federal standard for secure and reliable forms of identification for federal employees and contractors. It further specifies secure and reliable identification that
 
 1. is issued based on sound criteria for verifying an individual employee's identity;
 2. is strongly resistant to identity fraud, tampering, counterfeiting, and terrorist exploitation;
@@ -38,7 +41,7 @@ Department of Commerce, NIST, Information Technology Laboratory (ITL).
 
 # 6. Applicability. {#f-6}
 
-This Standard is applicable to identification issued by federal departments and agencies to federal employees and contractors for gaining physical access to federally controlled facilities and logical access to federally controlled information systems, except for "national security systems" as defined by 44 U.S.C. 3542(b)(2) and [[SP 800-59]](_Appendix/references.md#ref-SP-800-59). Except as provided in [[HSPD-12]](_Appendix/references.md#ref-HSPD-12), nothing in this Standard alters the ability of government entities to use the Standard for additional applications.
+This Standard is applicable to identification issued by federal departments and agencies to federal employees and contractors for gaining physical access to federally controlled facilities and logical access to federally controlled information systems, except for "national security systems" as defined by 44 U.S.C. 3542(b)(2) and [[SP 800-59]](../_Appendix/references.md#ref-SP-800-59). Except as provided in [[HSPD-12]](../_Appendix/references.md#ref-HSPD-12), nothing in this Standard alters the ability of government entities to use the Standard for additional applications.
 
 ## 6.1 Special-Risk Security Provision. {#f-6-1}
 
@@ -46,22 +49,22 @@ The U.S. Government has personnel, facilities, and other assets deployed and ope
 
 # 7. Implementations. {#f-7}
 
-This Standard satisfies the control objectives, security requirements, and technical interoperability requirements of [[HSPD-12]](_Appendix/references.md#ref-HSPD-12). The Standard specifies implementation and processes for binding identities to authenticators, such as integrated circuit cards and derived credentials used in the federal
+This Standard satisfies the control objectives, security requirements, and technical interoperability requirements of [[HSPD-12]](../_Appendix/references.md#ref-HSPD-12). The Standard specifies implementation and processes for binding identities to authenticators, such as integrated circuit cards and derived credentials used in the federal
 PIV system.
 
 In implementing PIV systems and pursuant to Section 508 of the Rehabilitation Act of 1973 (the Act), as amended, agencies have the responsibility to accommodate federal employees and contractors with disabilities to have access to and use of information and data comparable to the access to and use of such information and data by federal employees and contractors who are not individuals with disabilities. In instances where federal agencies assert exceptions to Section 508 accessibility requirements (e.g., undue burden, national security, commercial non-availability), Sections 501 and 504 of the Act require federal agencies to provide reasonable accommodation for federal employees and contractors with disabilities whose needs are not met by the baseline accessibility provided under Section 508. While Section 508 compliance is the responsibility of federal agencies and departments, this Standard specifies several options to aid in the implementation of the requirements:
 
-+ [Section 4.1.4.3](_FIPS201/frontend.md#s-4-1-4-3) specifies Zones 21F and 22F as options for orientation markers of the PIV Card.
-+ [Section 2.8](_FIPS201/requirements.md#s-2-8) and [Section 2.9](_FIPS201/requirements.md#s-2-9) specify alternatives for the biometric capture device interactions required at PIV Card issuance, reissuance, and reset.
-+ [Section 2.10](_FIPS201/requirements.md#s-2-10) defines alternatives to smart card-based PIV credentials in the form of derived PIV credentials.
-+ [Section 6](_FIPS201/authentication.md#s-6) defines authentication mechanisms with varying characteristics for both physical and logical access (e.g., with or without PIN, over contact, contactless, or virtual contact interface).
-+ [Section 7](_FIPS201/federation.md#s-7) defines federation as a means for a relying system to interoperate with credentials issued by other agencies.
++ [Section 4.1.4.3](../_FIPS201/frontend.md#s-4-1-4-3) specifies Zones 21F and 22F as options for orientation markers of the PIV Card.
++ [Section 2.8](../_FIPS201/requirements.md#s-2-8) and [Section 2.9](../_FIPS201/requirements.md#s-2-9) specify alternatives for the biometric capture device interactions required at PIV Card issuance, reissuance, and reset.
++ [Section 2.10](../_FIPS201/requirements.md#s-2-10) defines alternatives to smart card-based PIV credentials in the form of derived PIV credentials.
++ [Section 6](../_FIPS201/authentication.md#s-6) defines authentication mechanisms with varying characteristics for both physical and logical access (e.g., with or without PIN, over contact, contactless, or virtual contact interface).
++ [Section 7](../_FIPS201/federation.md#s-7) defines federation as a means for a relying system to interoperate with credentials issued by other agencies.
 
 The Office of Management and Budget (OMB) provides implementation oversight for this Standard. 
 
-PIV cards can only be issued by accredited issuers. The responsibility and authority for PIV card issuance and management rests in the  departments and agencies employing federal employees and contractors regardless of whether these functions are performed in-house or outsourced to an external public or private organization. To ensure consistency in the operations of issuers, NIST provides guidelines for the accreditation of PIV Card issuers and derived PIV credential issuers in [[SP 800-79]](_Appendix/references.md#ref-SP-800-79). The Standard also covers security and interoperability requirements for PIV Cards. For this purpose, NIST has established the PIV Validation Program, which tests implementations for conformance with this Standard as specified in [[SP 800-73]](_Appendix/references.md#ref-SP-800-73) and [[SP 800-78]](_Appendix/references.md#ref-SP-800-78) (see [Appendix A.3](_Appendix/accreditation.md#s-a-3)).
+PIV cards can only be issued by accredited issuers. The responsibility and authority for PIV card issuance and management rests in the  departments and agencies employing federal employees and contractors regardless of whether these functions are performed in-house or outsourced to an external public or private organization. To ensure consistency in the operations of issuers, NIST provides guidelines for the accreditation of PIV Card issuers and derived PIV credential issuers in [[SP 800-79]](../_Appendix/references.md#ref-SP-800-79). The Standard also covers security and interoperability requirements for PIV Cards. For this purpose, NIST has established the PIV Validation Program, which tests implementations for conformance with this Standard as specified in [[SP 800-73]](../_Appendix/references.md#ref-SP-800-73) and [[SP 800-78]](../_Appendix/references.md#ref-SP-800-78) (see [Appendix A.3](../_Appendix/accreditation.md#s-a-3)).
 
-FIPS 201 compliance of PIV components and subsystems is provided in accordance with OMB [[M-19-17]](_Appendix/references.md#ref-OMB1917) through products and services from the U.S. General Services Administration's (GSA) Interoperability Test Program and Approved Products and Services List (see [Appendix A.5](_Appendix/accreditation.md#s-a-5)). Implementation guidance for PIV-enabled federal facilities and information systems in accordance with OMB [[M-19-17]](_Appendix/references.md#ref-OMB1917) will be outlined by [[FICAM]](_Appendix/references.md#ref-FICAM) as playbooks and best practice repositories. See also [[SP 800-116]](_Appendix/references.md#ref-SP-800-116) and [[ISC-RISK]](_Appendix/references.md#ref-ISC-RISK).
+FIPS 201 compliance of PIV components and subsystems is provided in accordance with OMB [[M-19-17]](../_Appendix/references.md#ref-OMB1917) through products and services from the U.S. General Services Administration's (GSA) Interoperability Test Program and Approved Products and Services List (see [Appendix A.5](../_Appendix/accreditation.md#s-a-5)). Implementation guidance for PIV-enabled federal facilities and information systems in accordance with OMB [[M-19-17]](../_Appendix/references.md#ref-OMB1917) will be outlined by [[FICAM]](../_Appendix/references.md#ref-FICAM) as playbooks and best practice repositories. See also [[SP 800-116]](../_Appendix/references.md#ref-SP-800-116) and [[ISC-RISK]](../_Appendix/references.md#ref-ISC-RISK).
 
 # 8. Patents. {#f-8}
 
