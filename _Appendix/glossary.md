@@ -112,8 +112,11 @@ Cardholder
 : An individual who possesses an issued _PIV Card_.
 
 Card Management System
-: The card management system manages the lifecycle of a _PIV Card_
+: The system that manages the lifecycle of a _PIV Card_
 application.
+
+Card Verifiable Certificate
+: A certificate stored on the _PIV card_ that includes a public key, the signature of a _certification authority_, and further information needed to verify the certificate.
 
 Central Verification System
 : A system operated by the Office of Personnel Management that contains information on security clearances, investigations, suitability, fitness determinations, [[HSPD-12]](references.md#ref-HSPD-12) decisions, PIV credentials, and polygraph data.
@@ -137,9 +140,6 @@ between _PIV Card_ _issuers_.
 \clearpage
 ~~~
 {:latex-literal="true"}
-
-Card Verifiable Certificate
-: A certificate stored on the _PIV card_ that includes a public key, the signature of a _certification authority_, and further information needed to verify the certificate.
 
 Comparison
 : Estimation, calculation, or measurement of similarity or dissimilarity between biometric probe(s) and biometric reference(s) [[ISO 2382-37]](references.md#ref-ISO/IEC-2382-37). 
@@ -413,7 +413,7 @@ AAL
 : Authenticator Assurance Level
 
 AAMVA
-: American Association of Motor Vehicle Association
+: American Association of Motor Vehicle Administrators
 
 ACL
 : Access Control List

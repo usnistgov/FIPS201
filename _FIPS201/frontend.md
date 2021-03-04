@@ -35,7 +35,7 @@ with the ICCs or related components, nor SHALL it obstruct access to machine-rea
 
 ### 4.1.2 Tamper-proofing and Resistance {#s-4-1-2}
 
-To combat counterfeiting and alterations, the PIV Card SHALL contain security features outlined in the American Association of Motor Vehicle Association’s (AAMVA) Drivers License/Identification Card (DL/ID) Card Design Standard [[CDS]](../_Appendix/references.md#ref-CDS). The Card Design Standard classifies security features into three categories, depending on the inspection level required for verification:
+To combat counterfeiting and alterations, the PIV Card SHALL contain security features outlined in the American Association of Motor Vehicle Administrators (AAMVA) Drivers License/Identification Card (DL/ID) Card Design Standard [[CDS]](../_Appendix/references.md#ref-CDS). The Card Design Standard classifies security features into three categories, depending on the inspection level required for verification:
 
 Inspection Level 1
 : Security features that can be examined without tools or aids and include easily identifiable visual or tactile features for rapid inspection at point of usage. Examples include an embossed surface pattern, an optically variable device (such as a hologram), or color-shifting inks.
@@ -324,7 +324,7 @@ Zone 16F: Photograph Border
 : A border MAY be used with the photograph to further identify employee affiliation,
     as depicted in [Figure 4-3](frontend.md#fig-4-3). This border MAY be used in conjunction with Zone 15F to enable departments
     and agencies to develop various employee categories. The photograph border SHALL NOT obscure the photograph. The
-    border MAY be a solid or patterned line. For solid and patterned lines, red SHALL be reserved for emergency
+    border MAY be a solid or patterned line. For solid and patterned lines the following colors SHALL be reserved: red for emergency
     response officials, blue for foreign nationals, and green for contractors. All other colors MAY be used at
     the department or agency's discretion.
 
@@ -528,7 +528,7 @@ Cardholder-to-External (CTE) authentication
 ### 4.2.1 Cardholder Unique Identifier (CHUID) {#s-4-2-1}
 {:latex-toc="4.2.1 Cardholder Unique Identifier"}
 
-Note: The CHUID authentication mechanims (Section 6.2.5) has been
+Note: The CHUID authentication mechanism (Section 6.2.5) has been
 removed from this version of the Standard. The CHUID data element itself, however, has not been removed and continues to be mandatory as it supports other PIV authentication mechanisms. For example, the BIO, BIO-A, and SYM-CAK authentication mechanisms use the CHUID data
  element as a source for the card’s expiration date. The CHUID data element also provides the content signing certificate for some authentication mechanisms and unique identifiers for PACS ACLs. 
  
@@ -595,8 +595,10 @@ Key management key
 PIV Card application administration key
 : An optional symmetric key used for personalization and post-issuance activities.
     See [Section 4.2.2.6](frontend.md#s-4-2-2-6).
- PIV secure messaging key 
+
+PIV secure messaging key 
 : An optional asymmetric private key that supports key establishment for secure messaging and card authentication for physical access.
+    See [Section 4.2.2.7](frontend.md#s-4-2-2-7).
 
 The PIV Card SHALL store private keys and corresponding public key certificates and SHALL perform
 cryptographic operations using the asymmetric private keys. At a minimum, the PIV Card SHALL store the PIV authentication key,
