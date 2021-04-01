@@ -42,3 +42,6 @@ Stable identifier
 
 Simplicity
 : Processing of a federation protocol is simpler for the RP since credential validation and management are tasked to the credential issuer/IdP. This is further exemplified by the use of federation technologies to provide authentication and authorization to mobile applications, smart devices, and other non-traditional applications. 
+
+Usability
+: The use of federation can increase the usability of the system by allowing the cardholder to present their credentials to the IdP instead of separately to each RP. As a consequence, the IdP can use one authenticated session to create assertions to multiple RPs. For example, an RP requiring continuous presentation of the PIV Card certificate over mutual TLS would necessitate the cardholder entering their PIN to unlock the card with every request or relying on workarounds such as a PIN cache.
