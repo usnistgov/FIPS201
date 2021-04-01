@@ -207,6 +207,11 @@ Available at <https://obamawhitehouse.archives.gov/sites/default/files/omb/memor
 (The White House, Washington, DC), OMB Memorandum M-19-17, May 21, 2019.
 Available at <https://www.whitehouse.gov/wp-content/uploads/2019/05/M-19-17.pdf>
 
+[[OIDC4IA]](references.md#ref-OIDC4IA){:name="ref-OIDC4IA"} Lodderstedt T, Fett D (2020)
+*OpenID Connect for Identity Assurance 1.0*
+OpenID Foundation eKYC-IDA Working Group, July 6, 2020. 
+Available at <https://openid.net/specs/openid-connect-4-identity-assurance-1_0.html>
+
 [[PCSC]](references.md#ref-PCSC){:name="ref-PCSC"} Personal Computer/Smart Card Workgroup (2020)
 *PC/SC Workgroup Specifications Overview.*
 Available at <https://www.pcscworkgroup.com/specifications/>

@@ -26,7 +26,7 @@ Note that processing the PIV Card's PKI-based certificate directly is not a form
 
 [[SP 800-63]](../_Appendix/references.md#ref-SP-800-63) defines three dimensions of assurance: IAL, AAL, and FAL. The use of a PIV credential or a derived PIV credential for authentication in a federation transaction will determine the IAL and AAL of that transaction, but the FAL is determined independently of the credential itself. As with all credentials, the PIV credential MAY be used with any FAL, regardless of the IAL and AAL that the credential represents. Guidance for determining the correct FAL for a given application is available in [[SP 800-63]](../_Appendix/references.md#ref-SP-800-63).
 
-The IAL, AAL, and FAL SHALL be known to the RP during the federation transaction. This information MAY be pre-established or the IdP MAY communicate this at runtime in the assertion. For example, the information can be presented using technologies defined in [[RFC 8485]](../_Appendix/references.md#ref-RFC8485) or [[SAML-AC]](../_Appendix/references.md#ref-SAML-AC).
+The IAL, AAL, and FAL SHALL be known to the RP during the federation transaction. This information MAY be pre-established or the IdP MAY communicate this at runtime in the assertion. For example, the information can be presented using technologies defined in [[RFC 8485]](../_Appendix/references.md#ref-RFC8485), [[OIDC4IA]](../_Appendix/references.md#ref-OIDC4IA), or [[SAML-AC]](../_Appendix/references.md#ref-SAML-AC).
 
 ## 7.3 Benefits of Federation {#s-7-3}
 
