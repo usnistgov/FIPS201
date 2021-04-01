@@ -378,7 +378,7 @@ assurance levels.[^combinations]
 ### 6.3.2 Logical Access {#s-6-3-2}
 
 The PIV Card can be used to authenticate the cardholder in support of decisions regarding access to
-logical information resources. For example, a cardholder may log in to their department or agency
+logical information resources. For example, a cardholder may authenticate to their department or agency
 network using the PIV Card; the identity established through this authentication process can be used to
 determine access to information systems and applications available on the network.
 
