@@ -211,5 +211,5 @@ or authentication at the IdP. The connections and data flows between these compo
 ![Diagram of connections between components in a federated system using PIV credentials.]({{site.baseurl}}/{{page.collection}}/images/system-federation.png 'PIV System Federation Connections'){:style="width: 1047px;" latex-src="system-federation.pdf" latex-fig="3-4" latex-place="bp"}
 
 While this Standard makes no requirements on when to apply direct or federated authentication mechanisms, there are some
-natural mappings. For example, physical access systems tend note to use federation protocols and instead rely on direct authentication. Also,
+natural mappings. For example, physical access systems tend not to use federation protocols and instead rely on direct authentication. Also,
 many derived PIV credentials can only be verified by their issuer and are therefore better suited for use as part of a federation protocol.
