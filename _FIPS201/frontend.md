@@ -536,13 +536,13 @@ removed from this version of the Standard. The CHUID data element itself, howeve
 Agency Smart Credential Number (FASC-N) and the card UUID in the Global Unique Identification Number (GUID) data element of the CHUID. 
 Each identifier uniquely identifies each card as specified in [[SP 800-73]](../_Appendix/references.md#ref-SP-800-73).
 The value of the card UUID SHALL
-be a 16&nbsp;byte binary representation of a valid UUID as specified in [[RFC 4122]](../_Appendix/references.md#ref-RFC4122). The
+be the 16&nbsp;byte binary representation of a valid UUID as specified in [[RFC 4122]](../_Appendix/references.md#ref-RFC4122). The
 CHUID SHALL also include an expiration date data element in machine-readable format that specifies when
 the card expires. The expiration date format and encoding rules are as specified in [[SP 800-73]](../_Appendix/references.md#ref-SP-800-73).
 
 A CHUID MAY also include a Cardholder UUID that represents a persistent identifier of the cardholder, as specified
 in [[SP 800-73]](../_Appendix/references.md#ref-SP-800-73). The value of the cardholder UUID SHALL
-be a 16&nbsp;byte binary representation of valid UUID, as specified in [[RFC 4122]](../_Appendix/references.md#ref-RFC4122).
+be the 16&nbsp;byte binary representation of valid UUID, as specified in [[RFC 4122]](../_Appendix/references.md#ref-RFC4122).
 
 The CHUID SHALL be accessible from both the contact and contactless interfaces of the PIV Card without
 card activation. 
