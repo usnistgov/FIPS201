@@ -485,7 +485,10 @@ management key ([Section 4.2.2.5](frontend.md#s-4-2-2-5)) was compromised, the c
 
 ### 2.9.3 PIV Card Activation Reset {#s-2-9-3}
 
-The Personal Identification Number (PIN) on a PIV Card may need to be reset if the cardholder has
+The activation methods for a PIV Card, including both Personal Identification Number (PIN) and OCC, 
+can be reset in certain circumstances.
+
+The PIN on a PIV Card may need to be reset if the cardholder has
 forgotten the PIN or if PIN-based cardholder authentication has been disabled by the usage of an
 invalid PIN more than the allowed number of retries. A maximum of 10 consecutive PIN retries SHALL be permitted unless a lower limit is stipulated by the department or agency.
 Cardholders MAY change their PINs at any time by providing the current PIN and the new PIN values.
