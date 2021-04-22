@@ -40,7 +40,9 @@ PIV Issuance and Management Subsystem
 
 PIV Relying Subsystem
 : The physical and logical access control systems, protected resources,
-    and authorization data.
+    and authorization data. When discussed in the context of another external
+    system or process, the relying subsystem is sometimes also referred to as the
+    relying system; these terms are equivalent within this specification.
 
 [Figure 3-1. PIV System Overview](system.md#fig-3-1){:name="fig-3-1"}
 {:latex-ignore="true"}
@@ -114,7 +116,7 @@ The PIV relying subsystem in [Figure 3-1](system.md#fig-3-1) includes components
 cardholder's access to a physical or logical resource.[^DPC] A physical resource is the secured facility (e.g.,
 building, room, parking garage) that the cardholder wishes to access. The logical resource is typically a
 network or a location on the network (e.g., computer workstation, folder, file, database record, software
-program) to which the cardholder wants to gain access.
+program) to which the cardholder wants to gain access. 
 
 [^DPC]: The cardholder may authenticate with the PIV Card or a derived PIV credential.
 
