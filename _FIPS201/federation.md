@@ -42,4 +42,4 @@ Stable identifier
 : The identifier in the assertion IdP is stable across multiple certificates over time and can be associated with all of the cardholder's authenticators.
 
 Simplicity
-: Processing of a federation protocol is simpler for the RP since credential validation and management are tasked to the credential issuer/IdP. This is further exemplified by the use of federation technologies to provide authentication and authorization to mobile applications, smart devices, and other non-traditional applications. 
+: Processing of a federation protocol is simpler for the RP since credential validation is tasked to the IdP. The IdP in turn relies on the CSP for managing the PIV account, and they are often the same entity. This simplicity is further exemplified by the use of federation technologies to provide authentication and authorization to mobile applications, smart devices, and other non-traditional applications. 
