@@ -165,8 +165,8 @@ PIV enrollment records SHOULD include the following data:
     the name and role of the acquiring agent, the office and organization, time, place, and acquisition
     method. The enrollment data record MAY also document unavailable biometric data or failed attempts
     to collect biometric data. The enrollment data record MAY contain historical biometric data records.
-+ The most recent unique identifiers issued to the individual, such as the Federal Agency Smart Credential Number (FASC-N) and 
-    the card Universally Unique Identifier (UUID). The record MAY contain historical
++ The most recent unique identifiers issued to the individual, such as the Federal Agency Smart Credential Number (FASC-N),
+    cardholder Universally Unique Identifier (UUID), and the card UUID. The record MAY contain historical
     unique identifiers.
 + Information about the authorizing entity who has approved the issuance of a credential.
 + Current status of the background investigation, including the results of the investigation once
