@@ -418,9 +418,6 @@ AAMVA
 ACL
 : Access Control List
 
-AES
-: Advanced Encryption Standard
-
 AID
 : Application Identifier
 
