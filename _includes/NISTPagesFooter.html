@@ -15,6 +15,11 @@
               $el.attr('href', newPath);
           });
           {% endif %}
+          $('strong').filter(':contains("SHALL"), :contains("SHALL NOT"), :contains("SHOULD"), :contains("SHOULD NOT"), :contains("MAY"), :contains("NEED NOT"), :contains("CAN"), :contains("CANNOT"), :contains("CAPITALS")').each(function(i, el) {
+            var $el;
+            $el = $(el);
+            $el.addClass('normative');
+          });
           return $("h1, h2, h3, h4, h5, h6").each(function(i, el) {
             var $el, icon, id;
             $el = $(el);

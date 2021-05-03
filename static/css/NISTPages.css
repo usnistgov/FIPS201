@@ -218,6 +218,12 @@ h6:hover .header-link {
 }
 
 
+strong.normative {
+  font-variant: small-caps;
+  font-size: 0.9em;
+  background: #eeeeee;
+}
+
 @media screen and (max-width: 767px) {
   .nist-header {
     padding: 6px 10px;
