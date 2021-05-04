@@ -118,15 +118,15 @@ _This subsection is normative._
 
 When a feature is to be discontinued or is no longer needed, it is deprecated. In general, a feature that is
 currently in use by relying systems would only be deprecated if there were a compelling
-reason to do so (e.g., security). Deprecated features MAY continue to be used but SHOULD be phased out in future systems
-since the feature will likely be removed in the next revision of the Standard. Removed features SHALL NOT be used. For example, the CHUID
+reason to do so (e.g., security). Deprecated features **MAY** continue to be used but **SHOULD** be phased out in future systems
+since the feature will likely be removed in the next revision of the Standard. Removed features **SHALL NOT** be used. For example, the CHUID
 authentication mechanism ([Section 6.2.5](authentication.md#s-6-2-5)) has been removed from this version of the Standard
-and relying systems SHALL NOT use this authentication
+and relying systems **SHALL NOT** use this authentication
 mechanism.[^CHUID] The PIV Visual Credentials (VIS) authentication mechanism ([Section 6.2.6](authentication.md#s-6-2-6)) has been deprecated as a stand-alone
-authentication mechanism, but it MAY still be used in conjunction with other authentication mechanisms.
+authentication mechanism, but it **MAY** still be used in conjunction with other authentication mechanisms.
 
 In the case of deprecated features on PIV Cards such as the magnetic stripe ([Section 4.1.4.4](frontend.md#s-4-1-4-4)), existing PIV Cards
-with the deprecated features remain valid. However, new PIV Cards SHOULD NOT include the deprecated
+with the deprecated features remain valid. However, new PIV Cards **SHOULD NOT** include the deprecated
 features.
 
 [^CHUID]: The CHUID data element has not been removed and continues to be mandatory.
