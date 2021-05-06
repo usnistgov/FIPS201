@@ -211,10 +211,10 @@ Interagency transfer
 
 Identity proofing and registration requirements for the issuance of PIV Cards meet Identity Assurance Level (IAL) 3 since they follow a tailored process based on [[SP 800-63A]](../_Appendix/references.md#ref-SP-800-63A) IAL3 requirements. Departments, agencies, and organizations SHALL follow an identity proofing and registration process that meets the requirements defined below when issuing PIV Cards.
 
-The department, agency, or organization SHALL adopt and use an identity proofing and registration process that is approved in
+The department or agency SHALL adopt and use an identity proofing and registration process that is approved in
 accordance with [[SP 800-79]](../_Appendix/references.md#ref-SP-800-79).
 
-The department, agency, or organization SHALL follow investigative requirements as outlined in [Section 2.2](requirements.md#s-2-2).
+The department or agency SHALL follow investigative requirements as outlined in [Section 2.2](requirements.md#s-2-2).
 
 Biometric data SHALL be captured as specified in [Section 2.3](requirements.md#s-2-3) and [Section 2.4](requirements.md#s-2-4).
 
@@ -320,7 +320,7 @@ satisfying the requirements below and approved in writing by the head or deputy 
 of the federal department or agency.
 
 + PIV Cards SHALL be issued only after the adjudicative entity has authorized issuance of the credential.
-+ The department, agency, or organization SHALL use an approved PIV credential issuance process in accordance with
++ The department or agency SHALL use an approved PIV credential issuance process in accordance with
     [[SP 800-79]](../_Appendix/references.md#ref-SP-800-79).
 + Before issuing the PIV Card, the issuer SHALL ensure that the individual receiving it has been properly processed per [Section 2.1](requirements.md#s-2-1), [Section 2.2](requirements.md#s-2-2), and [Section 2.7](requirements.md#s-2-7).
 + Biometric data used to personalize the PIV Card SHALL be those captured during the identity proofing and registration process.
@@ -334,7 +334,7 @@ of the federal department or agency.
     no biometric data records are available, the cardholder SHALL provide two identity source documents (as
     specified in [Section 2.7](requirements.md#s-2-7)), and an attending operator SHALL inspect these and compare the cardholder
     with the photograph printed on the PIV Card.
-+ The department, agency, or organization SHALL issue PIV credentials only through systems and providers whose reliability has
++ The department or agency SHALL issue PIV credentials only through systems and providers whose reliability has
     been established by the agency and so documented and approved in writing (i.e., accredited) in
     accordance with [[SP 800-79]](../_Appendix/references.md#ref-SP-800-79).
 + The PIV Card SHALL be valid for no more than six years.
