@@ -4,6 +4,7 @@ title: References
 navOrder: 4
 navTitle: References
 permalink: /references/
+anchor: s-d
 ---
 
 # Appendix D. References {#s-d}
@@ -53,7 +54,7 @@ Available at <https://www.opm.gov/suitability/suitability-executive-agent/policy
 ~~~
 {:latex-literal="true"}
 
-[[FICAM]](references.md#ref-FICAM){:name="ref-FICAM"} Federal CIO Council, Federal Enterprise Architecture (2011)
+[[FICAM-Roadmap]](references.md#ref-FICAM-roadmap){:name="ref-FICAM-roadmap"} Federal CIO Council, Federal Enterprise Architecture (2011)
 *Federal Identity, Credential, and Access Management (FICAM) Roadmap and Implementation Guidance.*
 (Federal CIO Council), Version 2.0 [or as amended].
 Available at <https://www.idmanagement.gov/wp-content/uploads/sites/1171/uploads/FICAM_Roadmap_and_Implem_Guid.pdf> 
@@ -206,6 +207,11 @@ Available at <https://obamawhitehouse.archives.gov/sites/default/files/omb/memor
 *Enabling Mission Delivery through Improved Identity, Credential, and Access Management.*
 (The White House, Washington, DC), OMB Memorandum M-19-17, May 21, 2019.
 Available at <https://www.whitehouse.gov/wp-content/uploads/2019/05/M-19-17.pdf>
+
+[[OIDC4IA]](references.md#ref-OIDC4IA){:name="ref-OIDC4IA"} Lodderstedt T, Fett D (2020)
+*OpenID Connect for Identity Assurance 1.0*
+OpenID Foundation eKYC-IDA Working Group, July 6, 2020. 
+Available at <https://openid.net/specs/openid-connect-4-identity-assurance-1_0.html>
 
 [[PCSC]](references.md#ref-PCSC){:name="ref-PCSC"} Personal Computer/Smart Card Workgroup (2020)
 *PC/SC Workgroup Specifications Overview.*

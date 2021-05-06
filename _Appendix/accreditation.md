@@ -4,6 +4,7 @@ title: PIV Validation, Certification, and Accreditation
 navOrder: 1
 navTitle: Accreditation
 permalink: /accreditation/
+anchor: s-a
 ---
 # Appendix A. PIV Validation, Certification, and Accreditation {#s-a}
 
@@ -13,7 +14,7 @@ _This appendix is normative._ It provides compliance requirements for PIV valida
 {:latex-toc="A.1 Accreditation of PIV Card Issuers and Derived PIV Credential Issuers"}
 
 [[HSPD-12]](references.md#ref-HSPD-12) requires that PIV credentials be issued by providers whose reliability has been established by an
-official accreditation process. Consistent assessment guidelines are established for PIV Card Issuers (PCI) and Derived PIV Credential Issuers (DPCI) in [[SP 800-79]](references.md#ref-SP-800-79), which SHALL be followed by all credential issuers in order to achieve accreditation.
+official accreditation process. Consistent assessment guidelines are established for PIV Card Issuers (PCI) and Derived PIV Credential Issuers (DPCI) in [[SP 800-79]](references.md#ref-SP-800-79), which **SHALL** be followed by all credential issuers in order to achieve accreditation.
 
 The entire spectrum of activities in the PCI and DPCI accreditation methodology is divided into the following four
 phases:
@@ -62,7 +63,7 @@ validation certificates. Information about NPIVP is available at
 ## A.4 Cryptographic Testing and Validation {#s-a-4}
 
 All on-card cryptographic modules that host the PIV Card application and cryptographic modules of card
-issuance and maintenance systems SHALL be validated to [[FIPS 140]](references.md#ref-FIPS140) with an overall Security Level 2 (or
+issuance and maintenance systems **SHALL** be validated to [[FIPS 140]](references.md#ref-FIPS140) with an overall Security Level 2 (or
 higher). The facilities for [[FIPS 140]](references.md#ref-FIPS140) testing are the Cryptographic and Security Testing Laboratories
 accredited by the NVLAP program of NIST. Vendors who want to supply cryptographic modules can
 select any of the accredited laboratories. The tests that these laboratories conduct for all vendor

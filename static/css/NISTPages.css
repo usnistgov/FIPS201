@@ -92,6 +92,14 @@ ul.audiences li {
   padding-left: 160px;
 }
 
+.page-switch {
+  padding-left: 165px;
+  padding-right: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background: #f8f8f8;
+}
+
 .nist-header + .container {
     padding-left: 15px;
 }
@@ -209,6 +217,11 @@ h6:hover .header-link {
   opacity: 1;
 }
 
+
+strong.normative {
+  font-size: 0.9em;
+  background: #eeeeee;
+}
 
 @media screen and (max-width: 767px) {
   .nist-header {

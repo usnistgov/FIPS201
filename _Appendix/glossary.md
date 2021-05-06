@@ -4,6 +4,7 @@ title: Glossary of Terms, Acronyms, and Notations
 navOrder: 3
 navTitle: Glossary
 permalink: /glossary/
+anchor: s-c
 ---
 
 # Appendix C. Glossary of Terms, Acronyms, and Notations {#s-c}
@@ -111,8 +112,11 @@ Cardholder
 : An individual who possesses an issued _PIV Card_.
 
 Card Management System
-: The card management system manages the lifecycle of a _PIV Card_
+: The system that manages the lifecycle of a _PIV Card_
 application.
+
+Card Verifiable Certificate
+: A certificate stored on the _PIV card_ that includes a public key, the signature of a _certification authority_, and further information needed to verify the certificate.
 
 Central Verification System
 : A system operated by the Office of Personnel Management that contains information on security clearances, investigations, suitability, fitness determinations, [[HSPD-12]](references.md#ref-HSPD-12) decisions, PIV credentials, and polygraph data.
@@ -136,9 +140,6 @@ between _PIV Card_ _issuers_.
 \clearpage
 ~~~
 {:latex-literal="true"}
-
-Card Verifiable Certificate
-: A certificate stored on the _PIV card_ that includes a public key, the signature of a _certification authority_, and further information needed to verify the certificate.
 
 Comparison
 : Estimation, calculation, or measurement of similarity or dissimilarity between biometric probe(s) and biometric reference(s) [[ISO 2382-37]](references.md#ref-ISO/IEC-2382-37). 
@@ -412,13 +413,10 @@ AAL
 : Authenticator Assurance Level
 
 AAMVA
-: American Association of Motor Vehicle Association
+: American Association of Motor Vehicle Administrators
 
 ACL
 : Access Control List
-
-AES
-: Advanced Encryption Standard
 
 AID
 : Application Identifier
@@ -690,8 +688,8 @@ This Standard uses the following typographical conventions in text:
 
 - ASN.1 data types are represented in a `monospaced font`. For example, `SignedData` and `SignerInfo` are data types
     defined for digital signatures.
-- Specific terms in CAPITALS represent normative requirements. When these same terms are not in CAPITALS, the term does not represent a normative requirement. 
-    - The terms "SHALL" and "SHALL NOT" indicate requirements to be followed strictly in order to conform to the publication and from which no deviation is permitted.
-    - The terms "SHOULD" and "SHOULD NOT" indicate that among several possibilities, one is recommended as particularly suitable without mentioning or excluding others, that a certain course of action is preferred but not necessarily required, or that (in the negative form) a certain possibility or course of action is discouraged but not prohibited.
-    - The terms "MAY" and "NEED NOT" indicate a course of action permissible within the limits of the publication.
-    - The terms "CAN" and "CANNOT" indicate a possibility and capability&mdash;whether material, physical, or causal&mdash;or, in the negative, the absence of that possibility or capability.
+- Specific terms in **CAPITALS** represent normative requirements. When these same terms are not in **CAPITALS**, the term does not represent a normative requirement. 
+    - The terms "**SHALL**" and "**SHALL NOT**" indicate requirements to be followed strictly in order to conform to the publication and from which no deviation is permitted.
+    - The terms "**SHOULD**" and "**SHOULD NOT**" indicate that among several possibilities, one is recommended as particularly suitable without mentioning or excluding others, that a certain course of action is preferred but not necessarily required, or that (in the negative form) a certain possibility or course of action is discouraged but not prohibited.
+    - The terms "**MAY**" and "**NEED NOT**" indicate a course of action permissible within the limits of the publication.
+    - The terms "**CAN**" and "**CANNOT**" indicate a possibility and capability&mdash;whether material, physical, or causal&mdash;or, in the negative, the absence of that possibility or capability.
