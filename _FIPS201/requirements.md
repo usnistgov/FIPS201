@@ -165,8 +165,8 @@ PIV enrollment records **SHOULD** include the following data:
     the name and role of the acquiring agent, the office and organization, time, place, and acquisition
     method. The enrollment data record **MAY** also document unavailable biometric data or failed attempts
     to collect biometric data. The enrollment data record **MAY** contain historical biometric data records.
-+ The most recent unique identifiers issued to the individual, such as the Federal Agency Smart Credential Number (FASC-N) and 
-    the card Universally Unique Identifier (UUID). The record **MAY** contain historical
++ Unique identifiers issued to the individual, such as the Federal Agency Smart Credential Number (FASC-N),
+    cardholder Universally Unique Identifier (UUID), and the card UUID. The record **MAY** contain historical
     unique identifiers.
 + Information about the authorizing entity who has approved the issuance of a credential.
 + Current status of the background investigation, including the results of the investigation once
@@ -211,10 +211,10 @@ Interagency transfer
 
 Identity proofing and registration requirements for the issuance of PIV Cards meet Identity Assurance Level (IAL) 3 since they follow a tailored process based on [[SP 800-63A]](../_Appendix/references.md#ref-SP-800-63A) IAL3 requirements. Departments and agencies **SHALL** follow an identity proofing and registration process that meets the requirements defined below when issuing PIV Cards.
 
-The organization **SHALL** adopt and use an identity proofing and registration process that is approved in
+The department or agency **SHALL** adopt and use an identity proofing and registration process that is approved in
 accordance with [[SP 800-79]](../_Appendix/references.md#ref-SP-800-79).
 
-The organization **SHALL** follow investigative requirements as outlined in [Section 2.2](requirements.md#s-2-2).
+The department or agency **SHALL** follow investigative requirements as outlined in [Section 2.2](requirements.md#s-2-2).
 
 Biometric data **SHALL** be captured as specified in [Section 2.3](requirements.md#s-2-3) and [Section 2.4](requirements.md#s-2-4).
 
@@ -320,7 +320,7 @@ satisfying the requirements below and approved in writing by the head or deputy 
 of the federal department or agency.
 
 + PIV Cards **SHALL** be issued only after the adjudicative entity has authorized issuance of the credential.
-+ The organization **SHALL** use an approved PIV credential issuance process in accordance with
++ The department or agency **SHALL** use an approved PIV credential issuance process in accordance with
     [[SP 800-79]](../_Appendix/references.md#ref-SP-800-79).
 + Before issuing the PIV Card, the issuer **SHALL** ensure that the individual receiving it has been properly processed per [Section 2.1](requirements.md#s-2-1), [Section 2.2](requirements.md#s-2-2), and [Section 2.7](requirements.md#s-2-7).
 + Biometric data used to personalize the PIV Card **SHALL** be those captured during the identity proofing and registration process.
@@ -334,7 +334,7 @@ of the federal department or agency.
     no biometric data records are available, the cardholder **SHALL** provide two identity source documents (as
     specified in [Section 2.7](requirements.md#s-2-7)), and an attending operator **SHALL** inspect these and compare the cardholder
     with the photograph printed on the PIV Card.
-+ The organization **SHALL** issue PIV credentials only through systems and providers whose reliability has
++ The department or agency **SHALL** issue PIV credentials only through systems and providers whose reliability has
     been established by the agency and so documented and approved in writing (i.e., accredited) in
     accordance with [[SP 800-79]](../_Appendix/references.md#ref-SP-800-79).
 + The PIV Card **SHALL** be valid for no more than six years.
@@ -485,7 +485,10 @@ management key ([Section 4.2.2.5](frontend.md#s-4-2-2-5)) was compromised, the c
 
 ### 2.9.3 PIV Card Activation Reset {#s-2-9-3}
 
-The Personal Identification Number (PIN) on a PIV Card may need to be reset if the cardholder has
+Both the Personal Identification Number (PIN) and OCC activation methods for a PIV Card
+can be reset in certain circumstances.
+
+The PIN on a PIV Card may need to be reset if the cardholder has
 forgotten the PIN or if PIN-based cardholder authentication has been disabled by the usage of an
 invalid PIN more than the allowed number of retries. A maximum of 10 consecutive PIN retries **SHALL** be permitted unless a lower limit is stipulated by the department or agency.
 Cardholders **MAY** change their PINs at any time by providing the current PIN and the new PIN values.

@@ -366,7 +366,7 @@ assurance levels.[^combinations]
 
 |Physical Assurance Level|Applicable PIV Authentication Mechanisms|
 |---|---|
-|PAL1|PKI-CAK, SYM-CAK|
+|PAL1|PKI-CAK, SM-AUTH, SYM-CAK (deprecated)|
 |PAL2|BIO|
 |PAL3|BIO-A, OCC-AUTH, PKI-AUTH|
 {:latex-table="6-1" latex-caption="Applicable PIV Authentication Mechanisms for Physical Access"}

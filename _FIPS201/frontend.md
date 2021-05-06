@@ -536,13 +536,13 @@ removed from this version of the Standard. The CHUID data element itself, howeve
 Agency Smart Credential Number (FASC-N) and the card UUID in the Global Unique Identification Number (GUID) data element of the CHUID. 
 Each identifier uniquely identifies each card as specified in [[SP 800-73]](../_Appendix/references.md#ref-SP-800-73).
 The value of the card UUID **SHALL**
-be a 16&nbsp;byte binary representation of a valid UUID as specified in [[RFC 4122]](../_Appendix/references.md#ref-RFC4122). The
+be the 16&nbsp;byte binary representation of a valid UUID as specified in [[RFC 4122]](../_Appendix/references.md#ref-RFC4122). The
 CHUID **SHALL** also include an expiration date data element in machine-readable format that specifies when
 the card expires. The expiration date format and encoding rules are as specified in [[SP 800-73]](../_Appendix/references.md#ref-SP-800-73).
 
 A CHUID **MAY** also include a Cardholder UUID that represents a persistent identifier of the cardholder, as specified
 in [[SP 800-73]](../_Appendix/references.md#ref-SP-800-73). The value of the cardholder UUID **SHALL**
-be a 16&nbsp;byte binary representation of valid UUID, as specified in [[RFC 4122]](../_Appendix/references.md#ref-RFC4122).
+be the 16&nbsp;byte binary representation of a valid UUID, as specified in [[RFC 4122]](../_Appendix/references.md#ref-RFC4122).
 
 The CHUID **SHALL** be accessible from both the contact and contactless interfaces of the PIV Card without
 card activation. 
@@ -708,8 +708,9 @@ the PIV Card application administration key **SHALL** only be accessible using t
 the PIV Card.
 
 #### 4.2.2.7 PIV Secure Messaging Key  {#s-4-2-2-7}
+
 The PIV secure messaging key supports the establishment of secure messaging and authentication using the SM-AUTH authentication mechanism. If present, the key **SHALL** be generated on the PIV Card and **SHALL NOT** be exported. The cryptographic operations that use the PIV secure messaging key **SHALL** be available through the contact and contactless interfaces of the PIV Card. Private key operations[^SMprivate] can be performed without access control restrictions. The PIV Card **SHALL** store a corresponding secure messaging card verifiable certificate (CVC) to support validation of the public
-key by the relying party. The use of the PIV secure messaging key and the CVC is further specified in [[SP 800-73]](../_Appendix/references.md#ref-SP-800-73) and [[SP 800-78]](../_Appendix/references.md#ref-SP-800-78). 
+key by the relying system. The use of the PIV secure messaging key and the CVC is further specified in [[SP 800-73]](../_Appendix/references.md#ref-SP-800-73) and [[SP 800-78]](../_Appendix/references.md#ref-SP-800-78). 
 
 [^SMprivate]:  Private key operation with the PIV secure messaging key is defined as the use of the key to establish session keys for secure messaging or the use of key for SM-AUTH card authentication.
 
