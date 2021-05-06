@@ -163,7 +163,7 @@ PIV enrollment records **SHOULD** include the following data:
 + An enrollment data record that contains the most recent collection of each of the biometric data
     collected. The enrollment data record describes the circumstances of biometric acquisition including
     the name and role of the acquiring agent, the office and organization, time, place, and acquisition
-    method. The enrollment data record MAY also document unavailable biometric data or failed attempts
+    method. The enrollment data record **MAY** also document unavailable biometric data or failed attempts
     to collect biometric data. The enrollment data record **MAY** contain historical biometric data records.
 + Unique identifiers issued to the individual, such as the Federal Agency Smart Credential Number (FASC-N),
     cardholder Universally Unique Identifier (UUID), and the card UUID. The record **MAY** contain historical
@@ -209,7 +209,7 @@ Interagency transfer
 
 ## 2.7 PIV Identity Proofing and Registration Requirements {#s-2-7}
 
-Identity proofing and registration requirements for the issuance of PIV Cards meet Identity Assurance Level (IAL) 3 since they follow a tailored process based on [[SP 800-63A]](../_Appendix/references.md#ref-SP-800-63A) IAL3 requirements. Departments, agencies, and organizations **SHALL** follow an identity proofing and registration process that meets the requirements defined below when issuing PIV Cards.
+Identity proofing and registration requirements for the issuance of PIV Cards meet Identity Assurance Level (IAL) 3 since they follow a tailored process based on [[SP 800-63A]](../_Appendix/references.md#ref-SP-800-63A) IAL3 requirements. Departments and agencies **SHALL** follow an identity proofing and registration process that meets the requirements defined below when issuing PIV Cards.
 
 The department or agency **SHALL** adopt and use an identity proofing and registration process that is approved in
 accordance with [[SP 800-79]](../_Appendix/references.md#ref-SP-800-79).
