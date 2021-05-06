@@ -16,7 +16,7 @@ pdf:
               - content: _Frontmatter/foreword.md
                 template: _pdftemplate/foreword.tex
               - content: _Frontmatter/abstract.md
-                template: _pdftemplate/foreword.tex
+                template: _pdftemplate/abstract.tex
               - content: _Frontmatter/announcement.md
                 template: _pdftemplate/announcement.tex
           part_template: _pdftemplate/sectionpart.tex
@@ -51,7 +51,6 @@ pdf:
     title: Personal Identity Verification (PIV) of Federal Employees and Contractors
     author: 'National Institute of Standards and Technology'
     subject: "This document establishes a standard for a Personal Identity Verification (PIV) system that meets the control and security objectives of Homeland Security Presidential Directive-12. It is based on secure and reliable forms of identity credentials issued by the Federal Government to its employees and contractors. These credentials are used by mechanisms that authenticate individuals who require access to federally controlled facilities, information systems, and applications. This Standard addresses requirements for initial identity proofing, infrastructure to support interoperability of identity credentials, and accreditation of organizations and processes issuing PIV credentials."
-    keywords: 'authentication, authenticator, biometrics, credential, cryptography, derived PIV credentials, digital identity, Federal Information Processing Standards (FIPS), HSPD-12, federation, identification, identity proofing, integrated circuit card, Personal Identity Verification, PIV, PIV account, public key infrastructure, verification'
     language: 'en-US'
     lineno: true
     supersedes: FIPS 201-2
