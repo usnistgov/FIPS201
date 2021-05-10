@@ -194,7 +194,7 @@ Extended enrollment
     to the corresponding fingers in the ten-fingerprint data set in the PIV enrollment record.
 
 Reissuance
-: A PIV cardholder loses their card. Since the card issuer has biometric data
+: A PIV cardholder, for example, loses their card. Since the card issuer has biometric data
     records from enrollment, the cardholder can perform a biometric comparison against the biometric data stored in the PIV enrollment record. 
     The card issuer **NEED NOT** repeat the identity proofing and registration process on a positive biometric verification decision. Instead, the card issuer 
     revokes the lost card and proceeds to issue a new card as described in [Section 2.9.1](requirements.md#s-2-9-1).
