@@ -63,9 +63,9 @@ The minimum requirement for PIV Credential eligibility determination is a comple
 
 Before an individual is determined eligible to be issued a PIV Card when no corresponding prior investigation exists, the appropriate required investigation **SHALL** be initiated with the authorized federal investigative service provider and the FBI NCHC portion of the background investigation **SHALL** be completed and favorably adjudicated.
 
-Once the investigation is completed, the authorized adjudicative entity **SHALL** adjudicate the investigation and report the final eligibility determination to the Central Verification System (or successor). This determination **SHALL** be recorded in the PIV enrollment record to reflect PIV eligibility for the PIV cardholder and, if applicable, their enrollment in the Continuous Vetting Program.
+Once the investigation is completed, the authorized adjudicative entity **SHALL** adjudicate the investigation and report the final eligibility determination to the Central Verification System (or successor). This determination **SHALL** be recorded in the PIV enrollment record to reflect PIV eligibility for the PIV cardholder and, if applicable, their enrollment in the Continuous Vetting Program as defined in EO 13467 as amended.
 
-For full guidance on PIV credentialing investigative and adjudicative requirements, issuers must work closely with their personnel security/suitability offices to ensure adherence to the latest federal personnel vetting guidance as provided by the Executive Agents. 
+For full guidance on PIV credentialing investigative and adjudicative requirements, to include continuous vetting, issuers must work closely with their personnel security/suitability offices to ensure adherence to the latest federal personnel vetting guidance as provided by the Executive Agents. 
 
 
 [^OPM]: For example, [[FCS]](../references/#ref-FCS) and the Federal Investigative Standards or subsequent standards.
@@ -230,7 +230,7 @@ following forms of identification:
 * Permanent Resident Card or Alien Registration Receipt Card (Form I-551)
 * foreign passport
 * Employment Authorization Document that contains a photograph (Form I-766)
-* driver’s license or ID card that is compliant with [[REAL-ID]](../_Appendix/references.md#ref-REAL-ID) enforcement requirements pursuant to DHS regulations
+* driver’s license or ID card that is compliant with [[REAL-ID]](../_Appendix/references.md#ref-REAL-ID) enforcement requirements pursuant to DHS regulations.[^enforcement]
 * U.S. Military ID card
 * U.S. Military dependent's ID card
 * PIV Card
@@ -279,6 +279,8 @@ vary depending on the country.
 [^documents]: Departments and agencies may choose to accept only a subset of the identity source documents listed in this section. For example, in cases where identity proofing for PIV Card issuance is performed prior to verification of employment authorization, departments and agencies may choose to require the applicant to provide identity source documents that satisfy the requirements of Form I-9, *Employment Eligibility Verification*, in addition to the requirements specified in this section.
 
 [^second]: For example, if the first source document is a foreign passport (e.g., Italy), the second source document cannot be another foreign passport (e.g., France).
+
+[^enforcement]: State-issued driver's licenses and ID cards that are not (yet) [[REAL-ID]](../_Appendix/references.md#ref-REAL-ID)   compliant **MIGHT** be used until [[REAL-ID]](../_Appendix/references.md#ref-REAL-ID) compliance is required per DHS enforcement regulations.
 
 ### 2.7.1 Supervised Remote Identity Proofing {#s-2-7-1}
 
@@ -570,7 +572,7 @@ Similar to the situation in which the PIV Card is compromised, normal terminatio
 must be in place. The PIV Card **SHALL** be revoked through the following procedure:
 
 * The PIV Card **SHALL** be collected and destroyed, if possible.
-* Per OPM guidance, the Central Verification System (or successor) **SHALL** be updated to reflect the change in status.
+* Per OPM guidance, the Central Verification System (or successor) **SHALL** be updated to reflect the change in status (see [Section 2.2](requirements.md#s-2-2)).
 * Any databases maintained by the PIV Card issuer that indicate current valid or invalid
     FASC-N or card UUID values **SHALL** be updated to reflect the change in status.
 * If the PIV Card cannot be collected and destroyed, the CA **SHALL** be informed and the
