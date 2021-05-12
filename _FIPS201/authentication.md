@@ -206,8 +206,7 @@ The symmetric card authentication key and associated SYM-CAK authentication mech
  If the symmetric card authentication key is present, it **SHALL** be used for PIV cardholder authentication using the following
 steps:
 
-- The CHUID, PIV authentication certificate, or card authentication certificate data element is read
-    from the PIV Card and is checked to ensure that the card has not expired.
+- The CHUID or another data element[^expired2] is read from the card. The signature of the CHUID or another data element is verified to ensure that the card has not expired and that the card comes from a trusted source.
 - The digital signature on the data element is checked to ensure that it was signed by a trusted source
     and is unaltered.
 - The reader issues a challenge string to the card and requests a response.
@@ -224,6 +223,8 @@ follows:
 - does not provide protection against use of a revoked card,
 - low resistance to the use of an unaltered card by a non-owner, and
 - usable with contact and contactless readers.
+
+[^expired2]: The PIV authentication certificate or card authentication certificate may be leveraged instead of the CHUID to verify that the card is not expired.
 
 ### 6.2.5 Authentication Using the CHUID (Removed) {#s-6-2-5}
 {:latex-toc="6.2.5 CHUID"}
