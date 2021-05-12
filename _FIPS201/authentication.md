@@ -142,7 +142,7 @@ The following steps **SHALL** be performed for PKI-AUTH:
     other card activation mechanisms, as specified in [[SP 800-73]](../_Appendix/references.md#ref-SP-800-73), **MAY** be used to activate the card.
 - The relying system issues a challenge string to the card and requests an asymmetric operation in
     response.
-- The card responds to the previously issued challenge by signing it using the PIV authentication
+- The card responds to the challenge by signing it using the PIV authentication
     private key.
 - The relying system verifies the signature using the public key in the PIV authentication certificate.
 - A unique identifier from the PIV authentication certificate is extracted and passed as input to the
