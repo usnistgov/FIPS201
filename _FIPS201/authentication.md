@@ -393,9 +393,11 @@ meet the requirements for a lower assurance level.
 [Table 6-2. Applicable PIV Authentication Mechanisms for Logical Access](authentication.md#table-6-2){:name="table-6-2"}
 {:latex-ignore="true"}
 
-|Required Authenticator Assurance Level|Local Workstation Environment|Remote/Network System Environment|
+|Required Authenticator Assurance Level|Local Authentication|Remote/Network Authentication|
 |---|---|---|
 |AAL1|PKI-CAK|PKI-CAK|
 |AAL2|BIO||
 |AAL3|BIO-A, OCC-AUTH, PKI-AUTH|PKI-AUTH|
 {:latex-table="6-2" latex-caption="Applicable PIV Authentication Mechanisms for Logical Access"}
+
+In the above table, local authentication refers to authentication to a resource co-located with the cardholder, while remote/network authentication is digital authentication of the cardholder to a system over a network.
