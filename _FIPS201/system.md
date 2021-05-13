@@ -57,21 +57,17 @@ information about data flow and connections between components.
 ### 3.1.1 PIV Front-End Subsystem {#s-3-1-1}
 
 The PIV Front-End Subsystem in [Figure 3-1](system.md#fig-3-1) consists of credentials and devices that are used during authentication.
-The PIV Card is issued to the applicant when all identity proofing, registration, and issuance
-processes have been completed. Derived PIV credentials might also be bound, issued, and managed after these processes are complete. The PIV Card takes the physical form of the [[ISO 7816]](../_Appendix/references.md#ref-ISO7816) ID-1 card type (i.e., traditional payment card) with one or more
+The PIV Card takes the physical form of the [[ISO 7816]](../_Appendix/references.md#ref-ISO7816) ID-1 card type (i.e., traditional payment card) with one or more
 embedded Integrated Circuit Chips (ICC) that provide memory capacity and computational capability. The
 PIV Card is the primary component of the PIV system. The cardholder uses the PIV Card for authentication
-to access various physical and logical resources. Alternatively, derived PIV credentials increasingly play an important role as additional authenticators, especially in environments where use of the PIV Card is not easily supported. These AAL2 and AAL3 authenticators are not embedded in the PIV Card but, rather, are stand-alone or integrated in a variety of devices and platforms. 
+to access various physical and logical resources.
+
+Alternatively, derived PIV credentials increasingly play an important role as additional authenticators, especially in environments where use of the PIV Card is not easily supported. These AAL2 and AAL3 authenticators are not embedded in the PIV Card but, rather, are stand-alone or integrated in a variety of devices and platforms. 
 
 Card readers are located at access points for controlled resources to allow a cardholder to gain
 physical or logical access using the PIV Card. The reader communicates with a PIV Card to
 perform the authentication protocol and relay that information to the access control
 systems for granting or denying access.
-
-Card writers, which are similar to card readers, personalize and initialize the information stored
-on PIV Cards. Card writers may also be used to perform remote PIV Card updates (see [Section 2.9.2](requirements.md#s-2-9-2)).
-The data to be stored on PIV Cards includes cardholder information, certificates, cryptographic keys, the
-PIN, and biometric data.
 
 PIN input devices can be used along with card readers when a higher level of authentication assurance is
 required. The cardholder presenting the PIV Card types their PIN into the PIN input device.
@@ -95,10 +91,18 @@ authentication ("something you are").
 
 The registration and issuance activities in [Figure 3-1](system.md#fig-3-1) start with identity proofing and registration, during which all information and documentation required for enrollment are collected, stored, and maintained. The collected information is subsequently used to personalize and issue the PIV Card, as well as to bind and issue derived PIV credentials as additional PIV authenticators.
 
+The PIV Card is issued to the applicant when all identity proofing, registration, and issuance
+processes have been completed. Derived PIV credentials might also be bound, issued, and managed after these processes are complete. 
+
 The PIV Card issuance process focuses on the personalization of the physical (visual
 surface) and logical (contents of the ICC) aspects of the card at the time of issuance and maintenance
 thereafter. This includes printing photographs, names, and other information on the card and loading the
 relevant card applications, biometric data, and other data.
+
+Card writers, which are similar to card readers, personalize and initialize the information stored
+on PIV Cards. Card writers may also be used to perform remote PIV Card updates (see [Section 2.9.2](requirements.md#s-2-9-2)).
+The data to be stored on PIV Cards includes cardholder information, certificates, cryptographic keys, the
+PIN, and biometric data. Biometric capture devices are also part of the identity proofing and registration process that support the PIV Issuance and Management Subsystem.
 
 The PKI component provides services for PKI-based PIV credentials. This component is used throughout the
 lifecycle of PIV Cards and PKI-based derived PIV credentials&mdash;from generation and loading of asymmetric keys and PKI credentials, to usage of these keys for secure operations, to eventual reissuance or termination of the PIV Card and associated PKI-based derived PIV credentials. At the personalization phase, the PKI component issues and distributes the digital certificates for the keys generated on-card and keys generated for PKI-based derived PIV credentials. During use of the PIV credentials at authentication, the PKI component provides the
@@ -121,8 +125,8 @@ program) to which the cardholder wants to gain access.
 [^DPC]: The cardholder may authenticate with the PIV Card or a derived PIV credential.
 
 The relying subsystem depends on authorization mechanisms that define the privileges (authorizations)
-possessed by entities requesting to access a particular logical or physical resource. An example of this is
-an Access Control List (ACL) associated with a file on a computer system.
+possessed by entities requesting to access a particular logical or physical resource. Examples of this include
+an Access Control List (ACL) associated with a file on a computer system and a secure E-PACS control panel within a facility.
 
 The PIV relying subsystem becomes relevant when the PIV Card or derived PIV credential is used to authenticate a cardholder who
 is seeking access to a physical or logical resource. Although this Standard does not provide technical
