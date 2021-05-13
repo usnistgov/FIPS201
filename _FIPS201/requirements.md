@@ -122,8 +122,8 @@ mechanism through an off-card comparison scheme (BIO or BIO-A) as described in [
 the primary means of authentication during PIV issuance and maintenance processes.
 
 The optional fingerprints **MAY** be used for the preparation of biometric templates for OCC
-as described in [Section 4.2.3.1](frontend.md#s-4-2-3-1). OCC **MAY** be used to support card activation as described in 
-[Section 4.3.1](frontend.md#s-4-3-1). OCC **MAY** also be used for cardholder authentication (OCC-AUTH) as described in [Section 6.2.2](authentication.md#s-6-2-2).
+as described in [Section 4.2.3.1](frontend.md#s-4-2-3-1). OCC **MAY** be used for PIV issuance and maintenance processes as applicable, card activation as described in 
+[Section 4.3.1](frontend.md#s-4-3-1) and cardholder authentication (OCC-AUTH) as described in [Section 6.2.2](authentication.md#s-6-2-2).
 
 Agencies **MAY**
 choose to collect electronic iris images as an additional biometric characteristic. If collected,
