@@ -34,6 +34,11 @@ Available at <https://www.idmanagement.gov/wp-content/uploads/sites/1171/uploads
 [[E-Gov]](references.md#ref-E-Gov){:name="ref-E-Gov"} E-Government Act of 2002, Pub. L. 107-347, 116 Stat 2899. 
 <https://www.govinfo.gov/app/details/PLAW-107publ347>
 
+[[EO-13764]](references.md#ref-EO-13764){:name="ref-EO-13764"} Executive Order 13764 (2017)
+*Amending the Civil Service Rules, Executive Order 13488, and Executive Order 13467 To Modernize the Executive Branch-Wide Governance Structure and Processes for Security Clearances, Suitability and Fitness for Employment, and Credentialing, and Related Matters.*
+(Executive Office of the President), January 17, 2017 [or as amended].
+<https://www.federalregister.gov/executive-order/13764>
+
 [[FCS]](references.md#ref-FCS){:name="ref-FCS"} U.S. Office of Personnel Management (2008)
 *Final Credentialing Standards for Issuing Personal Identity Verification Cards under HSPD-12.*
 (U.S. Office of Personnel Management, Washington, DC), July 31, 2008. 
