@@ -92,7 +92,7 @@ authentication ("something you are").
 The registration and issuance activities in [Figure 3-1](system.md#fig-3-1) start with identity proofing and registration, during which all information and documentation required for enrollment are collected, stored, and maintained. The collected information is subsequently used to personalize and issue the PIV Card, as well as to bind and issue derived PIV credentials as additional PIV authenticators.
 
 The PIV Card is issued to the applicant when all identity proofing, registration, and issuance
-processes have been completed. Derived PIV credentials might also be registered after these processes are complete. 
+processes have been completed. Derived PIV credentials might also be bound, issued, and managed after these processes are complete. 
 
 The PIV Card issuance process focuses on the personalization of the physical (visual
 surface) and logical (contents of the ICC) aspects of the card at the time of issuance and maintenance

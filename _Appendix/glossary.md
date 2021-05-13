@@ -20,6 +20,9 @@ Access Control
 related information processing services and 2) enter specific physical facilities (e.g., federal buildings,
 military establishments, border crossing entrances).
 
+Adjudicative Entity
+: An agency authorized by law, Executive Order, designation by the Security Executive Agent, or delegation by the Suitability & Credentialing Executive Agent to make an adjudication. Adjudication has the meaning provided in [[Executive Order 13764]](references.md#ref-EO-13764), "(a) 'Adjudication' means the evaluation of pertinent data in a background investigation, as well as any other available information that is relevant and reliable, to determine whether a covered individual is: (i) suitable for Government employment; (ii) eligible for logical and physical access; (iii) eligible for access to classified information; (iv) eligible to hold a sensitive position; or (v) fit to perform work for or on behalf of the Government as a Federal employee, contractor, or non-appropriated fund employee."
+
 Applicant
 : An individual applying for a _PIV Card_ or _derived PIV credential_. The applicant may be a current or
 prospective federal hire, a federal employee, or a contractor.

@@ -26,8 +26,7 @@ accreditation process.
 Each agency's PIV implementation **SHALL** meet the four control objectives (a) through (d) listed above
 such that
 
-+ A credential is issued only to an individual whose identity has been verified and who has been appropriately vetted as per [Section 2.2](requirements.md#s-2-2)
-    after a proper authority has authorized issuance of the credential.
++ A credential is issued to an individual only after a proper authority has authorized issuance of the credential, the individual's identity has been verified, and the individual has been vetted per [Section 2.2](requirements.md#s-2-2).
 + A credential is issued only after an individual’s eligibility has been favorably adjudicated
     based on the prerequisite federal investigation (See [Section 2.2](requirements.md#s-2-2)). If there 
 		is no investigation meeting the investigative standards, the PIV credential eligibility may be approved 
