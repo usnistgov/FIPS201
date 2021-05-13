@@ -126,7 +126,7 @@ program) to which the cardholder wants to gain access.
 
 The relying subsystem depends on authorization mechanisms that define the privileges (authorizations)
 possessed by entities requesting to access a particular logical or physical resource. Examples of this include
-an Access Control List (ACL) associated with a file on a computer system and a secure E-PACS controlled portal within a facility.
+an Access Control List (ACL) associated with a file on a computer system and a secure E-PACS control panel within a facility.
 
 The PIV relying subsystem becomes relevant when the PIV Card or derived PIV credential is used to authenticate a cardholder who
 is seeking access to a physical or logical resource. Although this Standard does not provide technical
