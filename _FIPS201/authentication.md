@@ -400,4 +400,4 @@ meet the requirements for a lower assurance level.
 |AAL3|BIO-A, OCC-AUTH, PKI-AUTH|PKI-AUTH|
 {:latex-table="6-2" latex-caption="Applicable PIV Authentication Mechanisms for Logical Access"}
 
-In the above table, local authentication refers to authentication to a resource co-located with the cardholder, while remote/network authentication is digital authentication of the cardholder to a system over a network.
+In the above table, local authentication refers to authentication to a resource co-located with the cardholder, while remote/network authentication is authentication of the cardholder to a system over a network.
