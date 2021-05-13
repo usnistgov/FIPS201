@@ -230,7 +230,7 @@ following forms of identification:
 * Permanent Resident Card or Alien Registration Receipt Card (Form I-551)
 * foreign passport
 * Employment Authorization Document that contains a photograph (Form I-766)
-* driver’s license or ID card that is compliant with [[REAL-ID]](../_Appendix/references.md#ref-REAL-ID) enforcement requirements pursuant to DHS regulations.[^enforcement]
+* driver’s license or ID card that is compliant with [[REAL-ID]](../_Appendix/references.md#ref-REAL-ID) requirements pursuant to DHS regulations.[^enforcement]
 * U.S. Military ID card
 * U.S. Military dependent's ID card
 * PIV Card
@@ -280,7 +280,7 @@ vary depending on the country.
 
 [^second]: For example, if the first source document is a foreign passport (e.g., Italy), the second source document cannot be another foreign passport (e.g., France).
 
-[^enforcement]: State-issued driver's licenses and ID cards that are not (yet) [[REAL-ID]](../_Appendix/references.md#ref-REAL-ID)   compliant **MIGHT** be used until [[REAL-ID]](../_Appendix/references.md#ref-REAL-ID) compliance is required per DHS enforcement regulations.
+[^enforcement]: State-issued driver's licenses and ID cards that are not (yet) [[REAL-ID]](../_Appendix/references.md#ref-REAL-ID) compliant **MAY** be used until [[REAL-ID]](../_Appendix/references.md#ref-REAL-ID) compliance is required per DHS enforcement regulations.
 
 ### 2.7.1 Supervised Remote Identity Proofing {#s-2-7-1}
 
