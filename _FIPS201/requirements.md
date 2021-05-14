@@ -11,6 +11,8 @@ anchor: s-2
 _This section is normative._ It addresses the fundamental control and security objectives outlined in [[HSPD-12]](../_Appendix/references.md#ref-HSPD-12), including
 the identity proofing requirements for federal employees and contractors.
 
+Note that identity proofing, registration, issuance and maintenance processes outlined in this Section  may be outsourced in various degrees by the issuer to third-party organizations or service providers. For further details on outsourcing issuer functions, refer to [[SP 800-79]](../_Appendix/references.md#ref-SP-800-79), Section 2.2. 
+
 ## 2.1 Control Objectives {#s-2-1}
 
 [[HSPD-12]](../_Appendix/references.md#ref-HSPD-12) establishes control objectives for secure and reliable identification of federal employees and
