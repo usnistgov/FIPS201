@@ -76,13 +76,13 @@ For full guidance on PIV credentialing investigative and adjudicative requiremen
 
 ## 2.3 Biometric Data Collection for Background Investigations {#s-2-3}
 
-A full set of fingerprints **SHALL** be collected from each PIV applicant. 
+This section applies to applicant that **DO NOT** have a completed and favorably adjudicated Tier 1 or higher federal background investigation on record that can be located and referenced.
+
+A full set of fingerprints **SHALL** be collected from each PIV applicant who is lacking on-record background investigation. 
 
 Biometric identification using fingerprints is the primary input to law
 enforcement checks. In cases where ten fingerprints are not available, then as many fingers as
 possible **SHALL** be imaged as per guidance in [[SP 800-76]](../_Appendix/references.md#ref-SP-800-76). In cases where no fingers are available to be imaged, agencies **SHALL** seek guidance from their respective investigative service provider for alternative means of performing law enforcement checks.
-
-This collection is not necessary for applicants who have a completed and favorably adjudicated Tier 1 or higher federal background investigation on record that can be located and referenced.
 
 Fingerprint collection **SHALL** conform to the procedural and technical specifications of [[SP 800-76]](../_Appendix/references.md#ref-SP-800-76).
 
