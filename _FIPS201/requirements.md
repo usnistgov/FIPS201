@@ -76,7 +76,7 @@ For full guidance on PIV credentialing investigative and adjudicative requiremen
 
 ## 2.3 Biometric Data Collection for Background Investigations {#s-2-3}
 
-This section applies to applicant that **DO NOT** have a completed and favorably adjudicated Tier 1 or higher federal background investigation on record that can be located and referenced.
+This section applies to applicants that do not have a completed and favorably adjudicated Tier 1 or higher federal background investigation on record that can be located and referenced.
 
 A full set of fingerprints **SHALL** be collected from each PIV applicant who is lacking on-record background investigation. 
 
