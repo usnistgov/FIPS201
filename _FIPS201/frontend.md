@@ -64,7 +64,7 @@ This section describes the physical requirements for the PIV Card.
 The PIV Card **SHALL** contain a contact and a contactless ICC interface.
 
 The card body **SHALL** be white in accordance with color representation in [Section 4.1.5](frontend.md#s-4-1-5). Only
-security features, as described in [Section 4.1.2](frontend.md#s-4-1-2), may modify the perceived color slightly. Presence of
+security features, as described in [Section 4.1.2](frontend.md#s-4-1-2), may modify the perceived color slightly. The presence of
 security features **SHALL NOT** prevent the recognition of white as the principal card body color by a person
 with normal vision (corrected or uncorrected) at a working distance of 50&nbsp;cm to 200&nbsp;cm.
 
@@ -166,11 +166,11 @@ Zone 2F: Name
     each fits on one line. Departments and agencies **SHALL** use the largest font in the range of 7&nbsp;pt to 10&nbsp;pt Arial Bold that allows
     the full name to be printed. Using 7&nbsp;pt Arial Bold allows space for three lines and **SHALL** only be used if the full
     name does not fit on two lines in 8&nbsp;pt Arial Bold. [Table 4-1](frontend.md#table-4-1) provides examples of separate primary
-    and secondary identifier lines, single line with identifiers, wrapped full names, and full name in three
-    lines. Note that the truncation **SHOULD** only occur if the full name cannot be printed in 7&nbsp;pt Arial Bold.
+    and secondary identifier lines, single line with identifiers, wrapped full names, and the full name in three
+    lines. Note that truncation **SHOULD** only occur if the full name cannot be printed in 7&nbsp;pt Arial Bold.
     
     Names in the primary identifier and the first name in the secondary identifier **SHALL NOT** be abbreviated.
-    Other names and conventional prefixes and suffixes, which **SHALL** be included in the secondary identifier,
+    If other names and conventional prefixes and suffixes are included, they **SHALL** be included in the secondary identifier and
     **MAY** be abbreviated. The special character "." (period) **SHALL** indicate such abbreviations, as shown in
     [Figure 4-2](frontend.md#fig-4-2). Other uses of special symbols (e.g., the apostrophe in "O'BRIEN") are at the discretion of the issuer.
 
@@ -479,10 +479,10 @@ This section defines the PIV Card's logical identity credentials and the require
 To support a variety of authentication mechanisms, the PIV Card **SHALL** contain multiple data elements for
 the purpose of verifying the cardholder's identity at graduated assurance levels. The following mandatory
 data elements are part of the data model for PIV Card logical credentials that support authentication
-mechanisms interoperable across agencies:
+mechanisms that are interoperable across agencies:
 
 - a PIN,
-- a Cardholder Unique Identifier (CHUID)[^support],
+- a Cardholder Unique Identifier (CHUID),[^support]
 - PIV authentication data (one asymmetric private key and corresponding certificate),
 - two fingerprint biometric templates,
 - an electronic facial image, and
@@ -528,7 +528,7 @@ Cardholder-to-External (CTE) authentication
 ### 4.2.1 Cardholder Unique Identifier (CHUID) {#s-4-2-1}
 {:latex-toc="4.2.1 Cardholder Unique Identifier"}
 
-Note: The CHUID authentication mechanism (Section 6.2.5) has been
+Note: The CHUID authentication mechanism ([Section 6.2.5](authentication.md#s-6-2-5)) has been
 removed from this version of the Standard. The CHUID data element itself, however, has not been removed and continues to be mandatory as it supports other PIV authentication mechanisms. For example, the BIO, BIO-A, and SYM-CAK authentication mechanisms use the CHUID data
  element as a source for the card’s expiration date. The CHUID data element also provides the content signing certificate for some authentication mechanisms and unique identifiers for PACS ACLs. 
  
@@ -587,7 +587,7 @@ Digital signature key
     PIV Card issuance. See [Section 4.2.2.4](frontend.md#s-4-2-2-4).
 
 Key management key
-: An asymmetric private key that supports key establishment and transport,
+: An asymmetric private key that supports key establishment,
     and it is mandatory if the cardholder has a government-issued email account at the
     time of PIV Card issuance. Optionally, up to 20 retired key management keys may also be
     stored on the PIV Card. See [Section 4.2.2.5](frontend.md#s-4-2-2-5).
@@ -755,7 +755,7 @@ CBEFF signature block [[IR 6529-A]](../_Appendix/references.md#ref-CBEFF).
 The format for a CBEFF header is specified in [[SP 800-76]](../_Appendix/references.md#ref-SP-800-76).
 
 The CBEFF signature block contains the digital signature of the biometric data record and
-facilitates the verification of integrity of the biometric data record. The CBEFF signature block **SHALL** be
+facilitates the verification of the integrity of the biometric data record. The CBEFF signature block **SHALL** be
 encoded as a CMS external digital signature as specified in [[SP 800-76]](../_Appendix/references.md#ref-SP-800-76). The algorithm and key size
 requirements for the digital signature and digest algorithm are detailed in [[SP 800-78]](../_Appendix/references.md#ref-SP-800-78).
 
@@ -850,7 +850,7 @@ specified in this Standard.
 
 ### 4.4.2 Contactless Reader Requirements {#s-4-4-2}
 
-Contactless card readers **SHALL** conform to [[ISO 14443]](../_Appendix/references.md#ref-ISO14443) for the card-to-reader interface and data
+Contactless card readers **SHALL** conform to [[ISO 14443]](../_Appendix/references.md#ref-ISO14443) for the card-to-reader interface, and data
 transmitted over the [[ISO 14443]](../_Appendix/references.md#ref-ISO14443) link **SHALL** conform to [[ISO 7816]](../_Appendix/references.md#ref-ISO7816). In cases where these readers are
 connected to general-purpose desktop computing systems, they **SHALL** conform to [[PCSC]](../_Appendix/references.md#ref-PCSC) for the reader-to-host system interface and **SHALL** conform to the requirements
 specified in [[SP 800-96]](../_Appendix/references.md#ref-SP-800-96). In systems where the readers are not connected to general-purpose desktop
@@ -876,4 +876,4 @@ The specifications for fingerprint biometric capture devices for OCC are given i
 
 Malicious code could be introduced into PIN capture and biometric capture devices for the purpose of
 compromising or otherwise exploiting the PIV Card. General good practice to mitigate malicious code
-threats is outside of the scope of this document (see [[SP 800-53]](../_Appendix/references.md#ref-SP-800-53)).
+threats is outside of the scope of this document (see [[SP 800-53]](../_Appendix/references.md#ref-SP-800-53) for a catalog of security and privacy controls for federal information systems).

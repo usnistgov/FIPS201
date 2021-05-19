@@ -147,7 +147,7 @@ PIV background investigation, identity proofing, registration, and issuance proc
 
 A card issuer **SHALL** maintain the enrollment record for each issued PIV Card.
 These enrollment records are created and maintained through the methods of 
-contemporaneous acquisition at each step of the PIV issuance process&mdash;typically including identity proofing, registration 
+contemporaneous acquisition at each step of the PIV issuance process&mdash;typically including identity proofing, registration, 
 and biometric enrollment&mdash;and are generally stored as part of the cardholder's PIV account.
 
 PIV enrollment records maintain an auditable sequence of enrollment events to facilitate binding an applicant 
@@ -220,7 +220,7 @@ Biometric data **SHALL** be captured as specified in [Section 2.3](requirements.
 The applicant **SHALL** appear in person at least once before the issuance of a PIV Card, either at the issuing facility or at a supervised remote identity proofing station (as described in [Section 2.7.1](requirements.md#s-2-7-1)).
 
 During identity proofing, the applicant **SHALL** be required to provide two original forms of identity source
-documents.[^documents] These documents **SHALL** be validated to ensure they are genuine and authentic, not counterfeit, fake, or forgeries. Validation of physical security features **SHALL** be performed by trained staff. When they are available, cryptographic security features **SHOULD** be used to validate evidence. The identity source documents **SHALL** be bound to the applicant and **SHALL NOT**
+documents.[^documents] These documents **SHALL** be validated to ensure that they are genuine and authentic, not counterfeit, fake, or forgeries. Validation of physical security features **SHALL** be performed by trained staff. When they are available, cryptographic security features **SHOULD** be used to validate evidence. The identity source documents **SHALL** be bound to the applicant and **SHALL NOT**
 be expired or cancelled. If the two identity source documents bear different names, evidence
 of a formal name change **SHALL** be provided. At least one identity source document **SHALL** meet the requirements of Strong evidence as specified in [[SP 800-63A]](../_Appendix/references.md#ref-SP-800-63A) and be one of the
 following forms of identification:
@@ -268,7 +268,7 @@ accredited by the department or agency as satisfying the requirements above and 
 the head or deputy (or equivalent) of the federal department or agency.
 
 The requirements for identity proofing and registration also apply to citizens of foreign countries who are
-working for the Federal Government overseas. However, a process for identity proofing and registration
+working for the U.S. Federal Government overseas. However, a process for identity proofing and registration
 **SHALL** be established using a method approved by the U.S. Department of State's Bureau of Diplomatic
 Security, except for employees under the command of a U.S. area military commander. These procedures
 vary depending on the country.
@@ -287,8 +287,8 @@ Supervised remote identity proofing takes advantage of improvements in sensor te
 
 The following forms of protection **SHALL** be provided by either inherent capabilities of the station or staff at the station location:
 
-* ensuring that only the applicant interacts with the station during any session;
-* ensuring that the physical integrity of the station and its sensors is maintained at all times; and
+* ensuring that only the applicant interacts with the station during any session,
+* ensuring that the physical integrity of the station and its sensors is maintained at all times, and
 * reporting any problems with the station to the issuer.
 
 Supervised remote identity proofing **SHALL** meet the following requirements:
@@ -301,7 +301,7 @@ Supervised remote identity proofing **SHALL** meet the following requirements:
 * The operator **SHALL** validate the physical or cryptographic security features of primary and secondary identity source documents using scanners and sensors that are integrated into the station.
 * The issuer **SHALL** ensure that all communications occur over a mutually authenticated protected channel.
 
-If biometric data cannot be collected per the criteria defined in [[SP 800-76]](../_Appendix/references.md#ref-SP-800-76) or if validation of the identity evidence is inadequate, supervised remote identity proofing **SHALL NOT** be used and the identity proofing and enrollment shall be performed in person at the issuer’s facility.
+If biometric data cannot be collected per the criteria defined in [[SP 800-76]](../_Appendix/references.md#ref-SP-800-76) or if validation of the identity evidence is inadequate, supervised remote identity proofing **SHALL NOT** be used and the identity proofing and enrollment will be performed in person at the issuer’s facility.
 The trained operator **SHALL** terminate a supervised remote identity proofing
 session and require in-person identity proofing at an issuing facility if
 there is reasonable basis to believe[^believe] that the applicant is attempting
@@ -577,7 +577,7 @@ must be in place. The PIV Card **SHALL** be revoked through the following proced
     authentication key on the PIV Card **SHALL** be revoked. The certificates corresponding to the
     digital signature and key management keys **SHALL** also be revoked, if present.
     
-In addition, the PIV Card termination procedures **SHALL** ensure all derived PIV credentials bound to the PIV account are invalidated as specified in [Section 2.10.2](requirements.md#s-2-10-2).
+In addition, the PIV Card termination procedures **SHALL** ensure that all derived PIV credentials bound to the PIV account are invalidated as specified in [Section 2.10.2](requirements.md#s-2-10-2).
 
 If the card cannot be collected, normal termination procedures **SHALL** be completed within 18&nbsp;hours of
 notification. In certain cases, 18&nbsp;hours is an unacceptable delay and in those cases emergency procedures

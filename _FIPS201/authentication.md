@@ -81,7 +81,7 @@ Some characteristics of the authentication mechanisms using biometric data are a
 The following steps **SHALL** be performed for unattended authentication using biometric data:
 
 - The CHUID or another data element[^expired] is read from the card. The signature of the CHUID or another data element is verified to ensure that the card has not expired and that the card comes from a trusted source.
-- The cardholder is prompted to enter a PIN, activating the PIV Card.
+- The cardholder is prompted to enter a PIN to activate the PIV Card.
 - The biometric data record is read from the card.
 - The signature on the biometric data record is verified to ensure that the biometric data record is intact and comes from a trusted
     source. Note that the signature verification may require retrieval of the content signing certificate
@@ -107,7 +107,7 @@ are the same as in [Section 6.2.1.1](authentication.md#s-6-2-1-1).
 {:latex-toc="6.2.2 On-Card Biometric One-to-One Comparison"}
 
 The PIV Card application **MAY** host an optional OCC algorithm. In this case,
-OCC data is stored on the card, which cannot be read but could be used for
+OCC data is stored on the card, which cannot be read externally but could be used for
 biometric verification. A fingerprint biometric template is supplied to the card to perform CTC
 authentication, and the card responds with a positive or negative biometric verification decision.
 The response includes information that allows the reader to authenticate the card. The
@@ -136,7 +136,7 @@ The following steps **SHALL** be performed for PKI-AUTH:
 
 - The PIV authentication certificate is read from the PIV Card application.
 - The relying system validates the PIV authentication certificate from the PIV Card application using
-    certificate path validation specified in [[RFC 5280]](references.md#ref-RFC5280) to ensure that it is neither expired nor revoked and that it is
+    certificate path validation as specified in [[RFC 5280]](references.md#ref-RFC5280) to ensure that it is neither expired nor revoked and that it is
     from a trusted source. Path validation **SHOULD** be configured to specify which policy OIDs are trusted.[^pivpath]
 - The cardholder is prompted to enter a PIN, which is used to activate the card. If implemented,
     other card activation mechanisms, as specified in [[SP 800-73]](../_Appendix/references.md#ref-SP-800-73), **MAY** be used to activate the card.
@@ -165,10 +165,10 @@ The following steps **SHALL** be performed for PKI-CAK:
 
 - The card authentication certificate is read from the PIV Card application.
 - The relying system validates the card authentication certificate from the PIV Card application using
-    certificate path validation specified in [[RFC 5280]](references.md#ref-RFC5280) to ensure that it is neither expired nor revoked and that it is
+    certificate path validation as specified in [[RFC 5280]](references.md#ref-RFC5280) to ensure that it is neither expired nor revoked and that it is
     from a trusted source. Path validation **SHOULD** be configured to specify which policy OIDs are trusted.[^cacpath]
-- The relying system issues a challenge string to the card and requests an asymmetric operation in
-    response.
+- The relying system issues a challenge string to the card and requests an operation using
+    an asymmetric cryptographic algorithm in response.
 - The card responds to the previously issued challenge by signing it using the card authentication
     private key.
 - The relying system verifies the signature using the public key in the card authentication certificate.

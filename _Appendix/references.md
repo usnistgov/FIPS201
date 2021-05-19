@@ -44,11 +44,6 @@ Available at <https://www.opm.gov/suitability/suitability-executive-agent/policy
 (U.S. Department of Commerce, Washington, DC), Federal Information Processing Standards Publication (FIPS) 140-3 [or as amended].
 <https://doi.org/10.6028/NIST.FIPS.140-3>
 
-[[FIPS 180]](references.md#ref-FIPS180){:name="ref-FIPS180"} National Institute of Standards and Technology (2015)
-*Secure Hash Standard (SHS).*
-(U.S. Department of Commerce, Washington, DC), Federal Information Processing Standards Publication (FIPS) 180-4 [or as amended]. 
-<https://doi.org/10.6028/NIST.FIPS.180-4>
-
 ~~~
 \clearpage
 ~~~

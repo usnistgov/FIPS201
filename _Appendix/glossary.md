@@ -154,7 +154,7 @@ verification_ support&mdash;within the PIV system.
 
 Conformance Testing
 : A process established by NIST within its responsibilities of developing,
-promulgating, and supporting FIPS for testing specific characteristics of _components_, products,
+promulgating, and supporting a FIPS for testing specific characteristics of _components_, products,
 services, people, and organizations for compliance with a FIPS.
 
 Credential
@@ -180,7 +180,7 @@ the acquiring agent, office and organization, time, place, and acquisition metho
 Federal Agency Smart Credential Number (FASC-N)
 : One of the primary
 _identifiers_ on the _PIV Card_ for physical _access control_, as required by FIPS 201. The FASC-N is a fixed length (25&nbsp;byte) data
-object that is specified in [[SP 800-73]](references.md#ref-SP-800-73), and included in several data objects on a _PIV Card_.
+object that is specified in [[SP 800-73]](references.md#ref-SP-800-73) and included in several data objects on a _PIV Card_.
 
 ~~~
 \clearpage
@@ -210,18 +210,6 @@ defined in [[SP 800-63]](references.md#ref-SP-800-63) in terms of three levels:
 	FAL3
 	: VERY HIGH confidence
 
-Hash Function
-: A function that maps a bit string of arbitrary length to a fixed length bit string. Secure
-hash functions [[FIPS 180]](references.md#ref-FIPS180) satisfy the following properties:
-
-    One-Way
-    : It is computationally infeasible to find any input that maps to any pre-specified
-  output.
-  
-    Collision Resistant
-    : It is computationally infeasible to find any two distinct inputs that map to
-  the same output.
-
 Identification
 : The process of discovering the _identity_ (i.e., origin or initial history) of a person or item
 from the entire collection of similar persons or items.
@@ -240,7 +228,7 @@ Identity
 recognizable.
 
 Identity Assurance Level (IAL)
-: A category that conveys the degree of confidence that the end user’s claimed _identity_ is their real _identity_, as
+: A category that conveys the degree of confidence that a person’s claimed _identity_ is their real _identity_, as
 defined in [[SP 800-63]](references.md#ref-SP-800-63) in terms of three levels:
 
 	IAL1
@@ -272,7 +260,7 @@ requesting access with those previously proven and associated with the _PIV Card
 the _identity_ being claimed.
 
 Issuer
-: The organization that is issuing the _PIV Card_ to an _applicant_. Typically this is an organization
+: The organization that is issuing the _PIV Card_ to an _applicant_. Typically, this is an organization
 for which the _applicant_ is working.
 
 ~~~
@@ -288,7 +276,7 @@ Issuing Facility
   * _identity proofing_ and _registration_;
   * card and token production;
   * activation and issuance;
-  * post-issuance binding of _derived PIV credential_; and
+  * post-issuance binding of _derived PIV credentials_; and
   * maintenance.
 
 Key
@@ -330,7 +318,7 @@ trustworthy.
 
 Personally Identifiable Information (PII)
 : Information that can be used to distinguish or trace an
-individual's _identity_&mdash;such as name, social security number, _biometric data records_&mdash;alone, or when
+individual's _identity_&mdash;such as name, social security number, _biometric data records_&mdash;either alone or when
 combined with other personal or identifying information that is linked or linkable to a specific individual
 (e.g., date and place of birth, mother's maiden name, etc.) [[M-17-12]](references.md#ref-OMB1712).
 
@@ -343,7 +331,7 @@ Personal Identity Verification (PIV) Account
 
 Personal Identity Verification (PIV) Card
 : A physical artifact (e.g., _identity_ card, "smart" card) issued
-to an individual that contains a PIV Card application which stores _identity_ _credentials_ (e.g., photograph,
+to an individual that contains a PIV Card application that stores _identity_ _credentials_ (e.g., photograph,
 _cryptographic keys_, digitized fingerprint representation) so that the claimed _identity_ of the _cardholder_ can
 be verified against the stored _credentials_.
 
@@ -394,8 +382,8 @@ Registration
 
 Symmetric Key
 : A _cryptographic key_ that is used to perform both the cryptographic operation and its
-inverse (e.g., to encrypt, decrypt, or create a message _authentication_ code and verify
-it).
+inverse (e.g., to encrypt, decrypt, create a message authentication code, or verify
+a message authentication code).
 
 Security Executive Agent
 : Individual responsible for the development, implementation, and oversight of effective, efficient, and uniform policies and procedures that govern the conduct of investigations and adjudications for eligibility to access classified information and eligibility to hold a sensitive position in the Federal Government. In accordance with Executive Order 13467 (as amended), this individual is the Director of National Intelligence (DNI).
@@ -406,7 +394,7 @@ Security Executive Agent
 {:latex-literal="true"}
 
 Suitability and Credentialing Executive Agent
-: Individual responsible for prescribing suitability standards and minimum standards of fitness for employment. With the issuance of Executive Order 13467, as amended, the Suitability and Credentialing Executive Agent is responsible for the development, implementation, and oversight of effective, efficient, and uniform policies and procedures governing the conduct of investigations and adjudications for Suitability, Fitness, and Credentialing determinations in the Federal Government. Pursuant to sections 1103 and 1104 of title 5, United States Code, and the Civil Service Rules, the director of the Office of Personnel Management (OPM) is the Suitability and Credentialing Executive Agent. 
+: Individual responsible for prescribing suitability standards and minimum standards of fitness for employment. With the issuance of Executive Order 13467, as amended, the Suitability and Credentialing Executive Agent is responsible for the development, implementation, and oversight of effective, efficient, and uniform policies and procedures governing the conduct of investigations and adjudications for Suitability, Fitness, and Credentialing determinations in the Federal Government. Pursuant to Sections 1103 and 1104 of Title 5, United States Code, and the Civil Service Rules, the director of the Office of Personnel Management (OPM) is the Suitability and Credentialing Executive Agent. 
 
 ## C.2 Acronyms and Abbreviations {#s-c-2}
 
@@ -597,9 +585,6 @@ NCHC
 
 NIST
 : National Institute of Standards and Technology
-
-NISTIR
-: National Institute of Standards and Technology Interagency Report
 
 NPIVP
 : NIST Personal Identity Verification Program
