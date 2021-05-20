@@ -100,9 +100,9 @@ authentication (i.e., using the PKI-CAK authentication mechanism).
 A backward incompatible change is a change or modification to an existing feature such that the
 modified feature cannot be used with existing relying systems. For example, changing the format of the
 biometric data records would not be compatible with the existing system because a biometric authentication
-attempt with the modified format would fail. Similarly, since all systems interacting with the 
-PIV Card would need to change if the PIV Card Application Identifier (AID) changed (defined in [[SP 800-73]](../_Appendix/references.md#ref-SP-800-73)),
-this would be a backward incompatible change.
+attempt with the modified format would fail.
+Similarly, changing the PIV Card Application Identifier (AID) (defined in [[SP 800-73]](../_Appendix/references.md#ref-SP-800-73))
+would be a backward incompatible change because all systems interacting with the PIV Card would need to to be modified to use the new AID.
 
 ### 1.3.3 New Features {#s-1-3-3}
 
