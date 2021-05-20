@@ -155,7 +155,7 @@ verification_ support&mdash;within the PIV system.
 Conformance Testing
 : A process established by NIST within its responsibilities of developing,
 promulgating, and supporting a FIPS for testing specific characteristics of _components_, products,
-services, people, and organizations for compliance with a FIPS.
+services, people, and organizations for compliance with the FIPS.
 
 Credential
 : Evidence attesting to one's right to credit or authority. In this Standard, it is the _PIV Card_

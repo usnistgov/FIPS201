@@ -107,7 +107,7 @@ are the same as in [Section 6.2.1.1](authentication.md#s-6-2-1-1).
 {:latex-toc="6.2.2 On-Card Biometric One-to-One Comparison"}
 
 The PIV Card application **MAY** host an optional OCC algorithm. In this case,
-OCC data is stored on the card, which cannot be read externally but could be used for
+OCC data is stored on the card, which cannot be read from the card but could be used for
 biometric verification. A fingerprint biometric template is supplied to the card to perform CTC
 authentication, and the card responds with a positive or negative biometric verification decision.
 The response includes information that allows the reader to authenticate the card. The
