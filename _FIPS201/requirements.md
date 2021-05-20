@@ -230,7 +230,7 @@ following forms of identification:
 * Permanent Resident Card or Alien Registration Receipt Card (Form I-551)
 * foreign passport
 * Employment Authorization Document that contains a photograph (Form I-766)
-* driver’s license or ID card that is compliant with [[REAL-ID]](../_Appendix/references.md#ref-REAL-ID) requirements pursuant to DHS regulations.[^enforcement]
+* driver’s license or ID card that is compliant with [[REAL-ID]](../_Appendix/references.md#ref-REAL-ID) requirements described below
 * U.S. Military ID card
 * U.S. Military dependent's ID card
 * PIV Card
@@ -260,6 +260,8 @@ of the following:
 
 > Note: One piece of Strong evidence and one other piece of evidence meeting the requirements of Fair evidence in [[SP 800-63A]](../_Appendix/references.md#ref-SP-800-63A) are considered sufficient for issuance of a PIV Card because the requirement for a federal background investigation is considered a compensating control for identity proofing at IAL3.
 
+Departments and agencies **SHALL** ensure that driver’s licenses and ID cards presented by applicants comply with [[REAL-ID]](../_Appendix/references.md#ref-REAL-ID) when required pursuant to DHS regulations. State-issued driver's licenses and ID cards that are not (yet) [[REAL-ID]](../_Appendix/references.md#ref-REAL-ID) compliant **MAY** be used until the full enforcement date of [[REAL-ID]](../_Appendix/references.md#ref-REAL-ID).
+
 The PIV identity proofing, registration, issuance, and reissuance processes **SHALL** adhere to the
 principle of separation of duties to ensure that no single individual has the capability to issue a PIV
 Card without the cooperation of another authorized person.
@@ -279,8 +281,6 @@ vary depending on the country.
 [^documents]: Departments and agencies may choose to accept only a subset of the identity source documents listed in this section. For example, in cases where identity proofing for PIV Card issuance is performed prior to verification of employment authorization, departments and agencies may choose to require the applicant to provide identity source documents that satisfy the requirements of Form I-9, *Employment Eligibility Verification*, in addition to the requirements specified in this section.
 
 [^second]: For example, if the first source document is a foreign passport (e.g., Italy), the second source document cannot be another foreign passport (e.g., France).
-
-[^enforcement]: State-issued driver's licenses and ID cards that are not (yet) [[REAL-ID]](../_Appendix/references.md#ref-REAL-ID) compliant **MAY** be used until [[REAL-ID]](../_Appendix/references.md#ref-REAL-ID) compliance is required per DHS enforcement regulations.
 
 ### 2.7.1 Supervised Remote Identity Proofing {#s-2-7-1}
 
