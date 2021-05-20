@@ -586,6 +586,9 @@ NCHC
 NIST
 : National Institute of Standards and Technology
 
+NISTIR
+: National Institute of Standards and Technology Interagency or Internal Report
+
 NPIVP
 : NIST Personal Identity Verification Program
 

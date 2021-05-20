@@ -688,7 +688,7 @@ The expiration date of the certificate **SHALL** be no later than the expiration
 [Section 5](keymanagement.md#s-5) of this document specifies the certificate format and the key management infrastructure for
 PIV digital signature keys.
 
-[^cardholderauthentication]: NIST [[IR 7863]](../references/#ref-NISTIR7863) addresses the appropriate use of PIN caching related to digital signatures.
+[^cardholderauthentication]: [[NISTIR 7863]](../references/#ref-NISTIR7863) addresses the appropriate use of PIN caching related to digital signatures.
 
 #### 4.2.2.5 Key Management Key {#s-4-2-2-5}
 This key **MAY** be generated on the PIV Card or imported to the card. If
@@ -750,7 +750,7 @@ with the preparation and formatting specifications of [[SP 800-76]](../_Appendix
 The integrity of all biometric data records, except for fingerprint biometric templates for OCC, **SHALL** be
 protected using digital signatures. The records **SHALL** be prepended with a Common Biometric
 Exchange Formats Framework (CBEFF) header and appended with the
-CBEFF signature block [[IR 6529-A]](../_Appendix/references.md#ref-CBEFF).
+CBEFF signature block [[NISTIR 6529-A]](../_Appendix/references.md#ref-CBEFF).
 
 The format for a CBEFF header is specified in [[SP 800-76]](../_Appendix/references.md#ref-SP-800-76).
 
