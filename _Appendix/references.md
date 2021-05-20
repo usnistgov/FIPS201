@@ -26,6 +26,9 @@ Available at <https://webstore.ansi.org/standards/incits/ansiincits3222008>
 (American Association of Motor Vehicle Administrators, Arlington, VA), Version 1.0.
 Available at <https://www.aamva.org/DL-ID-Card-Design-Standard/>
 
+[[6 CFR § 37.5]](references.md#ref-6CFR37){:name="ref-6CFR37"} Validity periods and deadlines for REAL ID driver's licenses and identification cards, 6 C.F.R. § 37.5 (2021).
+<https://ecfr.federalregister.gov/current/title-6/chapter-I/part-37/subpart-A/section-37.5>
+
 [[COMMON]](references.md#ref-COMMON){:name="ref-COMMON"} Federal Public Key Infrastructure Policy Authority (2020)
 *X.509 Certificate Policy for the U.S. Federal PKI Common Policy Framework.*
 (Federal CIO Council), Version 1.32 [or as amended].
