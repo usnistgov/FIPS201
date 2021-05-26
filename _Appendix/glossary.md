@@ -274,6 +274,9 @@ comparing the _credentials_ of a person
 requesting access with those previously proven and associated with the _PIV Card_ or a _derived PIV credential_ associated with
 the _identity_ being claimed.
 
+Invalidate
+: To render a credential or authenticator incapable of being used for authentication by causing its authenticator output to no longer be accepted by relying parties.
+
 Issuer
 : The organization that is issuing the _PIV Card_ to an _applicant_. Typically this is an organization
 for which the _applicant_ is working.
