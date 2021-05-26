@@ -606,11 +606,15 @@ Derived PIV credentials **SHALL** be invalidated in any of the following circums
 * Upon request of the PIV cardholder as a result of loss, failure, compromise, or intent to discontinue use of a derived PIV credential
 * At the determination of the issuer upon reported loss or suspected compromise of a derived PIV credential
 * At the determination of the issuer upon observation of possible fraudulent activity
-* When a cardholder is no longer eligible to have a PIV Card as specified in [Section 2.9.4](requirements.md#s-2-9-4); in this situation, all derived PIV credentials associated with the PIV account **SHALL** be invalidated.
+* When the associated PIV Card is terminated as specified in [Section 2.9.4](requirements.md#s-2-9-4); in this situation, all derived PIV credentials associated with the PIV account **SHALL** be invalidated.
 
 If the derived PIV credential to be invalidated contains a derived PIV authentication certificate and the corresponding private key cannot be securely zeroized or destroyed, the CA **SHALL** be informed and the certificate corresponding to the derived PIV authentication key **SHALL** be revoked.
 
 A derived PIV credential **SHALL NOT** be accepted for authentication once the credential has been invalidated. When invalidation occurs, the issuer **SHALL** notify the cardholder of the change.
+
+### 2.10.3 Derived PIV Credential Reissuance and Post-Issuance Update Requirements {#s-2-10-3}
+
+PKI-based derived PIV Credentials (i.e., those containing attribute information describing the PIV cardholder) SHALL be modified or reissued as described in [[SP 800-157]](../_Appendix/references.md#ref-SP-800-157) Section 2.3 when the corresponding PIV Card is updated or reissued. Non-PKI derived PIV credentials are not required to be modified or reissued in these situations.
 
 ## 2.11 PIV Privacy Requirements {#s-2-11}
 
