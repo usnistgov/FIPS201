@@ -52,6 +52,9 @@ Authentication
 : The process of establishing confidence of authenticity; in this case, the validity of a
 person's _identity_ and an authenticator (e.g., _PIV Card_ or _derived PIV credential_).
 
+Authenticator
+: Something the claimant possesses and controls (typically a cryptographic module or password) that is used to authenticate the claimant’s identity. Sometimes referred to as a _token_.
+
 Authenticator Assurance Level (AAL)
 : A measure of the strength of an _authentication_ mechanism and, therefore, the confidence in it, as
 defined in [[SP 800-63]](references.md#ref-SP-800-63) in terms of three levels:
