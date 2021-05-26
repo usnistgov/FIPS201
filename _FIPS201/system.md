@@ -62,7 +62,7 @@ embedded Integrated Circuit Chips (ICC) that provide memory capacity and computa
 PIV Card is the primary component of the PIV system. The cardholder uses the PIV Card for authentication
 to access various physical and logical resources.
 
-Alternatively, derived PIV credentials increasingly play an important role as additional authenticators, especially in environments where use of the PIV Card is not easily supported. These AAL2 and AAL3 authenticators are not embedded in the PIV Card but, rather, are stand-alone or integrated in a variety of devices and platforms. 
+Additionally, derived PIV credentials increasingly play an important role as supplemental authenticators, especially in environments where use of the PIV Card is not easily supported. These AAL2 and AAL3 authenticators are not embedded in the PIV Card but, rather, are stand-alone or integrated in a variety of devices and platforms. 
 
 Card readers are located at access points for controlled resources to allow a cardholder to gain
 physical or logical access using the PIV Card. The reader communicates with a PIV Card to
