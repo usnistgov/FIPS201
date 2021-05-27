@@ -502,7 +502,6 @@ In person
     to be reset and another primary identity source document (as specified in [Section 2.7](requirements.md#s-2-7)). An attending
     operator **SHALL** inspect these and compare the cardholder with the electronic facial image retrieved from the
     enrollment data record and the photograph printed on the card.
-    
 Issuer-operated kiosk
 : PIN reset at an issuer-operated kiosk **SHALL** ensure that the PIV Card is authenticated and
     that the cardholder's biometric characteristics elicit a positive biometric verification decision when compared to either the stored biometric on the PIV Card through an on-card one-to-one comparison or biometric data records stored in the PIV enrollment record through an off-card one-to-one
