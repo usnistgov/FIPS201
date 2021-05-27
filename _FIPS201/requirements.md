@@ -406,13 +406,12 @@ If the expiration date of the new PIV Card is later than the expiration date of 
 about the cardholder is being changed, the card issuer **SHALL** ensure that an adjudicative entity has authorized
 the issuance of the new PIV Card. The issuer **SHALL** ensure that the adjudicative entity has verified that there is a PIV eligibility determination in an authoritative record, such as the agency's IDMS or the Central Verification System (or successor).
 
-The issuer **SHALL** perform a biometric verification of the applicant to the biometric data records of the PIV enrollment record or to the biometric data records of the  PIV Card and performing BIO-A  or OCC-AUTH authentication mechanism. Minimum accuracy requirements for
+The issuer **SHALL** perform a biometric verification of the applicant to the biometric data records of the PIV enrollment record or to the biometric data records of the PIV Card using the BIO-A or OCC-AUTH authentication mechanisms. Minimum accuracy requirements for
 the biometric verification are specified in [[SP 800-76]](../_Appendix/references.md#ref-SP-800-76). On a positive biometric verification decision, the new PIV Card **SHALL** be
 released to the applicant. If the biometric verification decision is negative, or if no biometric data records are available, the cardholder
 **SHALL** provide two identity source documents (as specified in [Section 2.7](requirements.md#s-2-7)), and an attending operator **SHALL**
 inspect these and compare the cardholder with the electronic facial image retrieved from the enrollment data record
 and the photograph printed on the new PIV Card.
-
 
 The old PIV Card **SHALL** be revoked when the new PIV Card is issued. The revocation process **SHALL** include the following:
 
@@ -498,7 +497,7 @@ remotely via a general computing platform or a supervised remote identity proofi
 In person
 : When PIN reset is performed in person at the issuing facility, before providing the reset PIV Card
     back to the cardholder, the issuer **SHALL** perform a biometric verification to ensure that the cardholder's
-    biometric characteristics elicit a positive biometric verification decision when compared to biometric data records stored in the PIV enrollment record or when compared to the biometric data records on the PIV Card using BIO-A or OCC-AUTH authentication mechanism. In cases where a negative biometric verification decision is returned or the cardholder's biometric characteristics are not successfully acquired, the cardholder **SHALL** provide the PIV Card
+    biometric characteristics elicit a positive biometric verification decision when compared to biometric data records stored in the PIV enrollment record or when compared to the biometric data records on the PIV Card using the BIO-A or OCC-AUTH authentication mechanisms. In cases where a negative biometric verification decision is returned or the cardholder's biometric characteristics are not successfully acquired, the cardholder **SHALL** provide the PIV Card
     to be reset and another primary identity source document (as specified in [Section 2.7](requirements.md#s-2-7)). An attending
     operator **SHALL** inspect these and compare the cardholder with the electronic facial image retrieved from the
     enrollment data record and the photograph printed on the card.
@@ -508,7 +507,7 @@ Issuer-operated kiosk
     that the cardholder's biometric characteristics elicit a positive biometric verification decision when compared to either the stored biometric on the PIV Card through an on-card one-to-one comparison or biometric data records stored in the PIV enrollment record through an off-card one-to-one
     comparison. If the biometric verification decision is negative, the cardholder's biometric characteristics are not successfully acquired, or card authentication is unsuccessful, the kiosk **SHALL NOT**
     reset the PIV Card. The session **SHALL** be terminated and the PIN reset **SHALL** be performed in person at the issuing facility or at a supervised remote identity proofing station.
-    The kiosk **MAY** be unattended while used for PIN reset operations. 
+    The kiosk **MAY** be unattended while used for PIN reset operations.
 
 Supervised remote identity proofing station
 : PIN reset at a supervised remote identity proofing station combines the assurance
@@ -517,7 +516,7 @@ Supervised remote identity proofing station
     procedure. The operator **SHALL** initiate a biometric verification to ensure that
     the cardholder's biometric characteristics captured at the station elicit a
     positive biometric verification decision when compared to biometric data
-    records stored in the PIV enrollment record or when compared to the biometric data records on the PIV Card and using BIO-A or OCC-AUTH authentication mechanism. In
+    records stored in the PIV enrollment record or when compared to the biometric data records on the PIV Card and using the BIO-A or OCC-AUTH authentication mechanisms. In
     cases where a negative biometric verification decision is returned or the
     cardholder's biometric characteristics are not successfully acquired, the
     cardholder **SHALL** provide the PIV Card to be reset and another primary identity
