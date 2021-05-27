@@ -359,6 +359,12 @@ Public Key
 : The public part of an _asymmetric key_ pair that is typically used to verify signatures or
 encrypt data.
 
+Public Key Certificate
+: A digital document issued and digitally signed by the _private key_ of a CA
+that binds an _identifier_ to a cardholder through a _public key_. The certificate indicates that the
+cardholder identified in the certificate has sole control and access to the _private key_.
+See also [[RFC 5280]](references.md#ref-RFC5280).
+
 ~~~
 \clearpage
 ~~~
