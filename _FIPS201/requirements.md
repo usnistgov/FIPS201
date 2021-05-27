@@ -78,13 +78,13 @@ For full guidance on PIV credentialing investigative and adjudicative requiremen
 
 ## 2.3 Biometric Data Collection for Background Investigations {#s-2-3}
 
-A full set of fingerprints **SHALL** be collected from each PIV applicant. 
+This section applies to applicants that do not have a completed and favorably adjudicated Tier 1 or higher federal background investigation on record that can be located and referenced.
+
+A full set of fingerprints **SHALL** be collected from each PIV applicant who is lacking on-record background investigation. 
 
 Biometric identification using fingerprints is the primary input to law
 enforcement checks. In cases where ten fingerprints are not available, then as many fingers as
 possible **SHALL** be imaged as per guidance in [[SP 800-76]](../_Appendix/references.md#ref-SP-800-76). In cases where no fingers are available to be imaged, agencies **SHALL** seek guidance from their respective investigative service provider for alternative means of performing law enforcement checks.
-
-This collection is not necessary for applicants who have a completed and favorably adjudicated Tier 1 or higher federal background investigation on record that can be located and referenced.
 
 Fingerprint collection **SHALL** conform to the procedural and technical specifications of [[SP 800-76]](../_Appendix/references.md#ref-SP-800-76).
 
@@ -104,7 +104,7 @@ The following biometric data **MAY** be collected from a PIV applicant:
 
 If the identity proofing and enrollment process is performed over multiple visits, a biometric verification attempt comparing the applicant's newly captured biometric characteristics against biometric data collected during a previous visit **SHALL** be performed at each visit and return a positive verification decision.
 
-If collection of biometric data as specified in this section and in [Section 2.3](requirements.md#s-2-3) occur on separate
+If biometric data was collected as specified in [Section 2.3](requirements.md#s-2-3) and if collection of biometric data as specified in this section and in [Section 2.3](requirements.md#s-2-3) occur on separate
 occasions, a biometric comparison **SHALL** be performed to confirm that the two fingerprints collected for off-card one-to-one comparisons elicit a positive biometric verification decision when compared to the same two fingerprints from the original set of ten fingerprints.
 
 Biometric data collection **SHALL** conform to the procedural and technical specifications of [[SP 800-76]](../_Appendix/references.md#ref-SP-800-76).
