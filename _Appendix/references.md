@@ -26,6 +26,9 @@ Available at <https://webstore.ansi.org/standards/incits/ansiincits3222008>
 (American Association of Motor Vehicle Administrators, Arlington, VA), Version 1.0.
 Available at <https://www.aamva.org/DL-ID-Card-Design-Standard/>
 
+[[6 CFR &sect; 37.5]](references.md#ref-6CFR37){:name="ref-6CFR37"} Validity periods and deadlines for REAL ID driver's licenses and identification cards, 6 C.F.R. &sect; 37.5 (2021).
+<https://ecfr.federalregister.gov/current/title-6/chapter-I/part-37/subpart-A/section-37.5>
+
 [[COMMON]](references.md#ref-COMMON){:name="ref-COMMON"} Federal Public Key Infrastructure Policy Authority (2020)
 *X.509 Certificate Policy for the U.S. Federal PKI Common Policy Framework.*
 (Federal CIO Council), Version 1.32 [or as amended].
@@ -33,6 +36,11 @@ Available at <https://www.idmanagement.gov/wp-content/uploads/sites/1171/uploads
 
 [[E-Gov]](references.md#ref-E-Gov){:name="ref-E-Gov"} E-Government Act of 2002, Pub. L. 107-347, 116 Stat 2899. 
 <https://www.govinfo.gov/app/details/PLAW-107publ347>
+
+[[EO-13764]](references.md#ref-EO-13764){:name="ref-EO-13764"} Executive Order 13764 (2017)
+*Amending the Civil Service Rules, Executive Order 13488, and Executive Order 13467 To Modernize the Executive Branch-Wide Governance Structure and Processes for Security Clearances, Suitability and Fitness for Employment, and Credentialing, and Related Matters.*
+(Executive Office of the President), January 17, 2017 [or as amended].
+<https://www.federalregister.gov/executive-order/13764>
 
 [[FCS]](references.md#ref-FCS){:name="ref-FCS"} U.S. Office of Personnel Management (2008)
 *Final Credentialing Standards for Issuing Personal Identity Verification Cards under HSPD-12.*
