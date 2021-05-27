@@ -260,7 +260,7 @@ of the following:
 
 > Note: One piece of Strong evidence and one other piece of evidence meeting the requirements of Fair evidence in [[SP 800-63A]](../_Appendix/references.md#ref-SP-800-63A) are considered sufficient for issuance of a PIV Card because the requirement for a federal background investigation is considered a compensating control for identity proofing at IAL3.
 
-Departments and agencies **SHALL** ensure that driver’s licenses and ID cards presented by applicants comply with [[REAL-ID]](../_Appendix/references.md#ref-REAL-ID) when required pursuant to DHS regulations. State-issued driver's licenses and ID cards that are not (yet) [[REAL-ID]](../_Appendix/references.md#ref-REAL-ID) compliant **MAY** be used until the full enforcement date under [[6 CFR § 37.5]](../_Appendix/references.md#ref-ref-6CFR37).
+Departments and agencies **SHALL** ensure that driver’s licenses and ID cards presented by applicants comply with [[REAL-ID]](../_Appendix/references.md#ref-REAL-ID) when required pursuant to DHS regulations. State-issued driver's licenses and ID cards that are not [[REAL-ID]](../_Appendix/references.md#ref-REAL-ID) compliant **MAY** be used until the full enforcement date under [[6 CFR § 37.5]](../_Appendix/references.md#ref-6CFR37).
 
 The PIV identity proofing, registration, issuance, and reissuance processes **SHALL** adhere to the
 principle of separation of duties to ensure that no single individual has the capability to issue a PIV
