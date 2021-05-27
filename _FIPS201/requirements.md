@@ -143,6 +143,8 @@ when fingerprint biometric data records are unavailable.
 
 PIV background investigation, identity proofing, registration, and issuance processes **MAY** be performed across multiple sessions at different facilities. If multiple sessions are needed, the applicant **SHALL** be linked through a positive biometric verification decision by comparing biometric characteristics captured at a previous session with biometric characteristics captured during the current session. Issuers **SHALL** follow applicable federal laws and regulations regarding the retention and destruction of biometric data.
 
+For linking background investigations, only fingerprints **SHALL** be used, since fingerprints are the only biometric characteristic used for background investigations.  For all other purposes, verification attempts **MAY** be performed against any available biometric characteristic stored electronically on the PIV Card or in the enrollment record.
+
 ## 2.6 PIV Enrollment Records {#s-2-6}
 
 > Note: This section was formerly entitled "Chain-of-Trust".
