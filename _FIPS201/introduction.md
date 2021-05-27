@@ -125,8 +125,8 @@ and relying systems **SHALL NOT** use this authentication
 mechanism.[^CHUID] The PIV Visual Credentials (VIS) authentication mechanism ([Section 6.2.6](authentication.md#s-6-2-6)) has been deprecated as a stand-alone
 authentication mechanism, but it **MAY** still be used in conjunction with other authentication mechanisms.
 
-In the case of deprecated features on PIV Cards such as the magnetic stripe ([Section 4.1.4.4](frontend.md#s-4-1-4-4)), existing PIV Cards
-with the deprecated features remain valid. However, new PIV Cards **SHOULD NOT** include the deprecated
+In the case of deprecated features on PIV Cards such as the magnetic stripe ([Section 4.1.4.4](frontend.md#s-4-1-4-4)), existing PIV Card stock 
+with the deprecated features remain valid. However, future PIV Card stock acquisitions **SHOULD** exclude the deprecated
 features.
 
 [^CHUID]: The CHUID data element has not been removed and continues to be mandatory.
