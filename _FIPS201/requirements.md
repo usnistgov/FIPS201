@@ -406,7 +406,7 @@ If the expiration date of the new PIV Card is later than the expiration date of 
 about the cardholder is being changed, the card issuer **SHALL** ensure that an adjudicative entity has authorized
 the issuance of the new PIV Card. The issuer **SHALL** ensure that the adjudicative entity has verified that there is a PIV eligibility determination in an authoritative record, such as the agency's IDMS or the Central Verification System (or successor).
 
-The issuer **SHALL** perform a biometric verification of the applicant to the biometric data records of the PIV enrollment record or to the biometric data records of the  PIV card and performing BIO-A  or OCC-AUTH authentication mechanism. Minimum accuracy requirements for
+The issuer **SHALL** perform a biometric verification of the applicant to the biometric data records of the PIV enrollment record or to the biometric data records of the  PIV Card and performing BIO-A  or OCC-AUTH authentication mechanism. Minimum accuracy requirements for
 the biometric verification are specified in [[SP 800-76]](../_Appendix/references.md#ref-SP-800-76). On a positive biometric verification decision, the new PIV Card **SHALL** be
 released to the applicant. If the biometric verification decision is negative, or if no biometric data records are available, the cardholder
 **SHALL** provide two identity source documents (as specified in [Section 2.7](requirements.md#s-2-7)), and an attending operator **SHALL**
