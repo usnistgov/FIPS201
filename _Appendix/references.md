@@ -52,11 +52,6 @@ Available at <https://www.opm.gov/suitability/suitability-executive-agent/policy
 (U.S. Department of Commerce, Washington, DC), Federal Information Processing Standards Publication (FIPS) 140-3 [or as amended].
 <https://doi.org/10.6028/NIST.FIPS.140-3>
 
-[[FIPS 180]](references.md#ref-FIPS180){:name="ref-FIPS180"} National Institute of Standards and Technology (2015)
-*Secure Hash Standard (SHS).*
-(U.S. Department of Commerce, Washington, DC), Federal Information Processing Standards Publication (FIPS) 180-4 [or as amended]. 
-<https://doi.org/10.6028/NIST.FIPS.180-4>
-
 ~~~
 \clearpage
 ~~~
@@ -86,16 +81,6 @@ Available at <https://www.dhs.gov/homeland-security-presidential-directive-12>
 *IEC 61966-2-1:1999 &mdash; Multimedia systems and equipment &mdash; Colour measurement and management&mdash;Part 2-1: Colour management&mdash;Default RGB colour space &mdash; sRGB.*
 (International Electrotechnical Commission, Geneva, Switzerland) [or as amended].
 Available at <https://webstore.iec.ch/publication/6169>
-
-[[IR 6529-A]](references.md#ref-CBEFF){:name="ref-CBEFF"} Podio FL, Dunn JS, Reinert L, Tilton CJ, Struif B, Herr F, Russell J (2004)
-*Common Biometric Exchange Formats Framework (CBEFF).*
-(National Institute of Standards and Technology, Gaithersburg, MD), NIST Interagency or Internal Report (IR) 6529-A.
-<https://doi.org/10.6028/NIST.IR.6529-a>
-
-[[IR 7863]](references.md#ref-NISTIR7863){:name="ref-NISTIR7863"} Polk WT, Ferraiolo H, Cooper DA (2015)
-Cardholder Authentication for the PIV Digital Signature Key.
-(National Institute of Standards and Technology, Gaithersburg, MD), NIST Interagency or Internal Report (IR) 7863.
-<https://doi.org/10.6028/NIST.IR.7863>
 
 [[ISC-RISK]](references.md#ref-ISC-RISK){:name="ref-ISC-RISK"} Interagency Security Committee (2016)
 *The Risk Management Process for Federal Facilities: An Interagency Security Committee Standard.*
@@ -215,6 +200,16 @@ Available at <https://obamawhitehouse.archives.gov/sites/default/files/omb/memor
 *Enabling Mission Delivery through Improved Identity, Credential, and Access Management.*
 (The White House, Washington, DC), OMB Memorandum M-19-17, May 21, 2019.
 Available at <https://www.whitehouse.gov/wp-content/uploads/2019/05/M-19-17.pdf>
+
+[[NISTIR 6529-A]](references.md#ref-CBEFF){:name="ref-CBEFF"} Podio FL, Dunn JS, Reinert L, Tilton CJ, Struif B, Herr F, Russell J (2004)
+*Common Biometric Exchange Formats Framework (CBEFF).*
+(National Institute of Standards and Technology, Gaithersburg, MD), NIST Interagency or Internal Report (IR) 6529-A.
+<https://doi.org/10.6028/NIST.IR.6529-a>
+
+[[NISTIR 7863]](references.md#ref-NISTIR7863){:name="ref-NISTIR7863"} Polk WT, Ferraiolo H, Cooper DA (2015)
+Cardholder Authentication for the PIV Digital Signature Key.
+(National Institute of Standards and Technology, Gaithersburg, MD), NIST Interagency or Internal Report (IR) 7863.
+<https://doi.org/10.6028/NIST.IR.7863>
 
 [[OIDC4IA]](references.md#ref-OIDC4IA){:name="ref-OIDC4IA"} Lodderstedt T, Fett D (2020)
 *OpenID Connect for Identity Assurance 1.0*

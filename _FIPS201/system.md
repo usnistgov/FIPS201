@@ -108,7 +108,7 @@ The PKI component provides services for PKI-based PIV credentials. This componen
 lifecycle of PIV Cards and PKI-based derived PIV credentials&mdash;from generation and loading of asymmetric keys and PKI credentials, to usage of these keys for secure operations, to eventual reissuance or termination of the PIV Card and associated PKI-based derived PIV credentials. At the personalization phase, the PKI component issues and distributes the digital certificates for the keys generated on-card and keys generated for PKI-based derived PIV credentials. During use of the PIV credentials at authentication, the PKI component provides the
 requesting application with the certificate status information of the PKI credentials requesting access.
 
-The enterprise IDMS serves as the central repository for the cardholder’s digital identities. It is where the relevant cardholder attributes are maintained. The IDMS creates the PIV account and associates the cardholder's PIV Card and derived PIV credentials with the account. The account is maintained throughout the cardholder’s employment with the department or agency. Various Identity, Credential, and Access Management (ICAM)-related systems connect to the IDMS to request or update cardholder attributes. For example
+The enterprise IDMS serves as the central repository for the cardholder’s digital identities. It is where the relevant cardholder attributes are maintained. The IDMS creates the PIV account and associates the cardholder's PIV Card and derived PIV credentials with the account. The account is maintained throughout the cardholder’s employment with the department or agency. Various Identity, Credential, and Access Management (ICAM)-related systems connect to the IDMS to request or update cardholder attributes. For example:
 
   * A security office may provide updated background investigative information to the IDMS.
   * An HR system may relay hiring status updates.
@@ -143,7 +143,7 @@ by communicating with an IdP through a federation protocol as discussed in [Sect
 The PIV Card lifecycle consists of seven activities.[^DPCLifecycle] The activities that take place during fabrication and
 pre-personalization of the card at the manufacturer are not considered a part of this lifecycle model.
 [Figure 3-2](system.md#fig-3-2) presents these PIV activities and depicts the PIV Card request as the initial activity and PIV
-Card termination as the end of life activity.
+Card termination as the end-of-life activity.
 
 [^DPCLifecycle]: The lifecycle activities of derived PIV credentials are described in SP 800-157.
 
@@ -183,7 +183,7 @@ PIV Card Maintenance
 
 PIV Card Termination
 : Permanent destruction or invalidation of the
-    PIV Card and the data and keys needed for authentication so as to prevent any future use of the PIV Card
+    PIV Card and the data and keys needed for authentication to prevent any future use of the PIV Card
     for authentication.
 
  [^enroll]: In some other National Institute of Standards and Technology (NIST) documents such as [[SP 800-63A]](../_Appendix/references.md#ref-SP-800-63A), registration is referred to as *enrollment*.

@@ -82,7 +82,7 @@ components of the PIV system.
 
 Every revision of this Standard introduces refinements and changes that may impact existing
 implementations. FIPS 201 and associated normative specifications encourage implementation approaches that
-reduce the high cost of configuration and change management by architecting resilience to change into
+reduce the high cost of configuration and change management by architecting resilience into
 system processes and components. Nevertheless, changes and modifications are required over time.
 
 This section provides change management principles and guidance to implementers of relying systems to
@@ -100,9 +100,9 @@ authentication (i.e., using the PKI-CAK authentication mechanism).
 A backward incompatible change is a change or modification to an existing feature such that the
 modified feature cannot be used with existing relying systems. For example, changing the format of the
 biometric data records would not be compatible with the existing system because a biometric authentication
-attempt with the modified format would fail. Similarly, all systems interacting with the 
-PIV Card would need to change if the PIV Card Application Identifier (AID) changed (defined in [[SP 800-73]](../_Appendix/references.md#ref-SP-800-73)),
-indicating a backward incompatible change.
+attempt with the modified format would fail.
+Similarly, changing the PIV Card Application Identifier (AID) (defined in [[SP 800-73]](../_Appendix/references.md#ref-SP-800-73))
+would be a backward incompatible change because all systems interacting with the PIV Card would need to to be modified to use the new AID.
 
 ### 1.3.3 New Features {#s-1-3-3}
 
@@ -178,7 +178,7 @@ informative (i.e., provide information details that do not affect compliance). T
 + [Section 1, Introduction](introduction.md#s-1), provides background information for understanding the scope of this
     Standard. This section is *informative* unless otherwise marked as normative.
 + [Section 2, Common Identification, Security, and Privacy Requirements](requirements.md#s-2), outlines the requirements
-    for identity proofing, registration, and issuance, by establishing the control and security
+    for identity proofing, registration, and issuance by establishing the control and security
     objectives for compliance with [[HSPD-12]](../_Appendix/references.md#ref-HSPD-12). This section is *normative*.
 + [Section 3, PIV System Overview](system.md#s-3), provides an overview of the different components
     of the PIV system. This section is *informative*.

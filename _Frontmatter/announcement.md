@@ -85,7 +85,7 @@ The security provided by the PIV system is dependent on many factors outside the
 
 + assurance provided by the issuer of an identity credential that the individual in possession of the credential has been correctly identified;
 + protection provided to an identity credential stored within the PIV Card and transmitted between the card and the PIV issuance and relying subsystems;
-+ infrastructure protection provided for derived PIV credential in the binding, maintenance and use of the identity credential; and
++ infrastructure protection provided for derived PIV credential in the binding, maintenance, and use of the identity credential; and
 + protection provided to the identity verification system infrastructure and components throughout the entire lifecycle.
 
 Although it is the intent of this Standard to specify mechanisms and support systems that provide high assurance personal identity verification, conformance to this Standard does not assure that a particular implementation is secure. It is the implementer's responsibility to ensure that components, interfaces, communications, storage media, managerial processes, and services used within the identity verification system are designed and built in a secure manner.
