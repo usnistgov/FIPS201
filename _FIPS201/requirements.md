@@ -618,7 +618,7 @@ A derived PIV credential **SHALL NOT** be accepted for authentication once the c
 
 ### 2.10.3 Derived PIV Credential Reissuance and Post-Issuance Update Requirements {#s-2-10-3}
 
-PKI-based derived PIV Credentials (i.e., those containing attribute information describing the PIV cardholder) SHALL be modified or reissued as described in [[SP 800-157]](../_Appendix/references.md#ref-SP-800-157) Section 2.3 when the corresponding PIV Card is updated or reissued. Non-PKI derived PIV credentials are not required to be modified or reissued in these situations.
+PKI-based derived PIV Credentials (i.e., those containing attribute information describing the PIV cardholder) **SHALL** be modified or reissued as described in [[SP 800-157]](../_Appendix/references.md#ref-SP-800-157) Section 2.3 when the corresponding PIV Card is updated or reissued. Non-PKI derived PIV credentials are not required to be modified or reissued in these situations.
 
 ## 2.11 PIV Privacy Requirements {#s-2-11}
 
