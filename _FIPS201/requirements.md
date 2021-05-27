@@ -601,7 +601,7 @@ Derived PIV credentials are additional PIV credentials that are issued based on 
 Issuance of a derived PIV credential is an instance of the post-enrollment binding of an authenticator described in [[SP 800-63B]](../_Appendix/references.md#ref-SP-800-63B) and **SHALL** be performed in accordance with the requirements that apply to physical authenticators as well as the requirements in this section.
 
 The binding and issuance of derived PIV credentials **SHALL** use valid PIV Cards to establish cardholder identity in accordance with
-[[SP 800-157]](../_Appendix/references.md#ref-SP-800-157). Derived PIV credentials **MAY** be created at the same Authenticator Assurance Level (AAL) as the PIV Card itself (i.e., AAL3) or **MAY** be created at AAL2, depending on the security characteristics of the authenticator. The issuer **SHALL** attempt to promptly notify the cardholder of the binding of a derived PIV credential through an independent means that would not afford an attacker an opportunity to erase the notification. More than one independent notification method **MAY** be used to ensure prompt receipt by the cardholder. Derived PIV credentials **SHALL** be bound to the cardholder's PIV account only by the organization that manages that PIV account.
+[[SP 800-157]](../_Appendix/references.md#ref-SP-800-157). Derived PIV credentials **SHALL** meet the requirements for Authenticator Assurance Level (AAL) 2 or 3 specified in [[SP 800-63B]](../_Appendix/references.md#ref-SP-800-63B). All derived PIV credentials meeting AAL2 but not AAL3 requirements **SHALL** be supported at AAL2 only. Note that derived PIV credentials meeting AAL3 requirements also fulfill the requirements of AAL2 and can be used in circumstances requiring AAL2. The issuer **SHALL** attempt to promptly notify the cardholder of the binding of a derived PIV credential through an independent means that would not afford an attacker an opportunity to erase the notification. More than one independent notification method **MAY** be used to ensure prompt receipt by the cardholder. Derived PIV credentials **SHALL** be bound to the cardholder's PIV account only by the organization that manages that PIV account.
 
 ### 2.10.2 Derived PIV Credential Invalidation Requirements {#s-2-10-2}
 
@@ -610,11 +610,15 @@ Derived PIV credentials **SHALL** be invalidated in any of the following circums
 * Upon request of the PIV cardholder as a result of loss, failure, compromise, or intent to discontinue use of a derived PIV credential
 * At the determination of the issuer upon reported loss or suspected compromise of a derived PIV credential
 * At the determination of the issuer upon observation of possible fraudulent activity
-* When a cardholder is no longer eligible to have a PIV Card as specified in [Section 2.9.4](requirements.md#s-2-9-4); in this situation, all derived PIV credentials associated with the PIV account **SHALL** be invalidated.
+* When the associated PIV Card is terminated as specified in [Section 2.9.4](requirements.md#s-2-9-4); in this situation, all derived PIV credentials associated with the PIV account **SHALL** be invalidated.
 
 If the derived PIV credential to be invalidated contains a derived PIV authentication certificate and the corresponding private key cannot be securely zeroized or destroyed, the CA **SHALL** be informed and the certificate corresponding to the derived PIV authentication key **SHALL** be revoked.
 
 A derived PIV credential **SHALL NOT** be accepted for authentication once the credential has been invalidated. When invalidation occurs, the issuer **SHALL** notify the cardholder of the change.
+
+### 2.10.3 Derived PIV Credential Reissuance and Post-Issuance Update Requirements {#s-2-10-3}
+
+PKI-based derived PIV Credentials (i.e., those containing attribute information describing the PIV cardholder) SHALL be modified or reissued as described in [[SP 800-157]](../_Appendix/references.md#ref-SP-800-157) Section 2.3 when the corresponding PIV Card is updated or reissued. Non-PKI derived PIV credentials are not required to be modified or reissued in these situations.
 
 ## 2.11 PIV Privacy Requirements {#s-2-11}
 

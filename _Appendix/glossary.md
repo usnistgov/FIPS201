@@ -52,6 +52,9 @@ Authentication
 : The process of establishing confidence of authenticity; in this case, the validity of a
 person's _identity_ and an authenticator (e.g., _PIV Card_ or _derived PIV credential_).
 
+Authenticator
+: Something the cardholder possesses and controls (e.g., _PIV Card_ or _derived PIV credential_) that is used to authenticate the cardholder’s identity.
+
 Authenticator Assurance Level (AAL)
 : A measure of the strength of an _authentication_ mechanism and, therefore, the confidence in it, as
 defined in [[SP 800-63]](references.md#ref-SP-800-63) in terms of three levels:
@@ -258,6 +261,9 @@ Identity Verification
 comparing the _credentials_ of a person
 requesting access with those previously proven and associated with the _PIV Card_ or a _derived PIV credential_ associated with
 the _identity_ being claimed.
+
+Invalidate
+: To render a credential or authenticator incapable of being used for authentication by causing its authenticator output to no longer be accepted by relying parties.
 
 Issuer
 : The organization that is issuing the _PIV Card_ to an _applicant_. Typically, this is an organization

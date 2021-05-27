@@ -331,6 +331,8 @@ the functional mechanism, physical protection of the mechanism, and environmenta
 authentication point. Additional standards and best practice guidelines (e.g., [[SP 800-53]](../_Appendix/references.md#ref-SP-800-53), [[FIPS 140]](../_Appendix/references.md#ref-FIPS140), and [[SP 800-116]](../_Appendix/references.md#ref-SP-800-116)) apply to the design and
 implementation of relying systems.
 
+The authentication mechanisms described in the subsections below apply specifically to the use of PIV Cards for physical and logical access. Authentication mechanisms for physical and logical access using derived PIV credentials is described in [[SP 800-157]](../_Appendix/references.md#ref-SP-800-157).
+
 ~~~
 \clearpage
 ~~~
