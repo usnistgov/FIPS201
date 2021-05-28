@@ -104,7 +104,7 @@ Biometric On-Card Comparison (OCC)
 previously stored on the _PIV Card_. In this Standard, OCC is used as a means of performing card activation and as part of OCC-AUTH.
 
 Biometric Verification
-: Process of confirming a biometric claim through biometric _comparison_ [[ISO 2382-37]](references.md#ref-ISO/IEC-2382-37).
+: Automated process of confirming a biometric claim through biometric _comparison_ [[ISO 2382-37]](references.md#ref-ISO/IEC-2382-37).
 
 Biometric Verification Decision
 : A determination of whether biometric probe(s) and biometric reference(s) have 
