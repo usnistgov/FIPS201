@@ -102,7 +102,7 @@ The following biometric data **MAY** be collected from a PIV applicant:
 + An electronic image of the right iris.
 + Two fingerprints for on-card comparison (OCC). These fingerprints **MAY** be taken from the full set of fingerprints collected in [Section 2.3](requirements.md#s-2-3) and **SHOULD** be imaged from fingers not imaged for off-card one-to-one comparison.
 
-If the identity proofing and enrollment process is performed over multiple visits, a biometric verification attempt comparing the applicant's newly captured biometric characteristics against biometric data collected during a previous visit **SHALL** be performed at each visit and return a positive verification decision.
+If the identity proofing and enrollment process is performed over multiple visits, an automated biometric verification attempt comparing the applicant's newly captured biometric characteristics against biometric data collected during a previous visit **SHALL** be performed at each visit and return a positive verification decision.
 
 If biometric data was collected as specified in [Section 2.3](requirements.md#s-2-3) and if collection of biometric data as specified in this section and in [Section 2.3](requirements.md#s-2-3) occur on separate
 occasions, a biometric comparison **SHALL** be performed to confirm that the two fingerprints collected for off-card one-to-one comparisons elicit a positive biometric verification decision when compared to the same two fingerprints from the original set of ten fingerprints.
@@ -141,7 +141,7 @@ other authentication processes from [Section 6.2](authentication.md#s-6-2).
 The electronic facial image is a secondary means of authentication during operator-attended PIV issuance and maintenance processes
 when fingerprint biometric data records are unavailable.
 
-PIV background investigation, identity proofing, registration, and issuance processes **MAY** be performed across multiple sessions at different facilities. If multiple sessions are needed, the applicant **SHALL** be linked through a positive biometric verification decision by comparing biometric characteristics captured at a previous session with biometric characteristics captured during the current session. Issuers **SHALL** follow applicable federal laws and regulations regarding the retention and destruction of biometric data.
+PIV background investigation, identity proofing, registration, and issuance processes **MAY** be performed across multiple sessions at different facilities. If multiple sessions are needed, the applicant **SHALL** be linked through a positive biometric verification decision by automated comparison of biometric characteristics captured at a previous session and biometric characteristics captured during the current session. Issuers **SHALL** follow applicable federal laws and regulations regarding the retention and destruction of biometric data.
 
 For linking background investigations, only fingerprints **SHALL** be used, since fingerprints are the only biometric characteristic used for background investigations.  For all other purposes, verification attempts **MAY** be performed against any available biometric characteristic stored electronically on the PIV Card or in the enrollment record.
 
