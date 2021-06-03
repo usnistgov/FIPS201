@@ -1,4 +1,4 @@
-name: Build and publish document
+name: Build HTML
 
 on:
   push:
@@ -10,10 +10,10 @@ on:
 jobs:
 
   publishPRDraft:
-    name: Build and publish draft
+    name: Build Pull Request HTML
     runs-on: ubuntu-latest
     if: github.event_name == 'pull_request' && github.ref != 'refs/heads/main'
     steps:
     - uses: actions/checkout@v2
     - name: Build the artifacts with the docker image
-      run: sudo docker-compose run server build
+      run: docker-compose run --user=root server build

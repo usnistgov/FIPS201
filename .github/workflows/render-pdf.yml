@@ -1,4 +1,4 @@
-name: Build and publish document
+name: Build PDF
 
 on:
   push:
@@ -10,7 +10,7 @@ on:
 jobs:
 
   publishPRDraft:
-    name: Build and publish draft
+    name: Build Pull Request PDF
     runs-on: ubuntu-latest
     if: github.event_name == 'pull_request' && github.ref != 'refs/heads/main'
     steps:
