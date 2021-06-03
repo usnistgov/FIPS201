@@ -16,4 +16,4 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Build the artifacts with the docker image
-      run: docker-compose run --user=root server build
+      run: docker-compose run server github 
