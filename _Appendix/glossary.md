@@ -122,13 +122,13 @@ Card Management System
 application.
 
 Card Verifiable Certificate
-: A certificate stored on the _PIV card_ that includes a public key, the signature of a _certification authority_, and further information needed to verify the certificate.
+: A certificate stored on the _PIV card_ that includes a _public key_, the signature of a _certification authority_, and further information needed to verify the certificate.
 
 Central Verification System
 : A system operated by the Office of Personnel Management that contains information on security clearances, investigations, suitability, fitness determinations, [[HSPD-12]](references.md#ref-HSPD-12) decisions, PIV credentials, and polygraph data.
 
 Certificate Revocation List
-: A list of revoked _public key_ certificates created and digitally signed by a
+: A list of revoked _public key certificates_ created and digitally signed by a
 _certification authority_ [[RFC 5280]](references.md#ref-RFC5280) [[RFC 6818]](references.md#ref-RFC6818).
 
 Certification
@@ -136,7 +136,7 @@ Certification
 to its correctness.
 
 Certification Authority
-: A trusted entity that issues and revokes _public key_ certificates.
+: A trusted entity that issues and revokes _public key certificates_.
 
 Chain of trust
 : An interoperable data format for _PIV enrollment records_ that facilitates the import and export of records 
@@ -308,7 +308,7 @@ integrated circuit chip (ICC) of the _PIV Card_.
 
 Online Certificate Status Protocol (OCSP)
 : An online protocol used to determine the status of a _public
-key_ certificate [[RFC 6960]](references.md#ref-RFC6960).
+key certificate_ [[RFC 6960]](references.md#ref-RFC6960).
 
 Path Validation
 : The process of verifying the binding between the subject _identifier_ and subject _public
