@@ -141,7 +141,7 @@ other authentication processes from [Section 6.2](authentication.md#s-6-2).
 The electronic facial image is a secondary means of authentication during operator-attended PIV issuance and maintenance processes
 when fingerprint biometric data records are unavailable.
 
-PIV background investigation, identity proofing, registration, and issuance processes **MAY** be performed across multiple sessions at different facilities. If multiple sessions are needed, the applicant **SHALL** be linked through a positive biometric verification decision by automated comparison of biometric characteristics captured at a previous session and biometric characteristics captured during the current session. Issuers **SHALL** follow applicable federal laws and regulations regarding the retention and destruction of biometric data.
+PIV background investigation, identity proofing, registration, and issuance processes **MAY** be performed across multiple sessions at different facilities. If multiple sessions are needed, the applicant **SHALL** be linked through a positive biometric verification decision obtained from an automated comparison of biometric characteristics captured at a previous session to biometric characteristics captured during the current session. Issuers **SHALL** follow applicable federal laws and regulations regarding the retention and destruction of biometric data.
 
 For linking background investigations, only fingerprints **SHALL** be used, since fingerprints are the only biometric characteristic used for background investigations.  For all other purposes, verification attempts **MAY** be performed against any available biometric characteristic stored electronically on the PIV Card or in the enrollment record.
 
