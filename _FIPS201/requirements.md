@@ -43,8 +43,8 @@ such that
     for identity proofing and whose fingerprints are checked against databases is the person to whom the
     credential is issued.
 + No credential is issued unless requested by the proper authority.
-+ A credential remains serviceable only up to its expiration date and a process
-    exists to invalidate, revoke, or destroy any derived PIV credentials associated with an expired, revoked, or destroyed PIV Card.
++ A credential remains serviceable only up to its expiration date.
++ A process exists to invalidate, revoke, or destroy credentials when the cardholder loses eligibility or when the credential is lost, stolen, or compromised.
 + A single corrupt official in the process may not issue a credential with an incorrect identity or to a
     person not entitled to the credential.
 + An issued credential is not duplicated or forged.
