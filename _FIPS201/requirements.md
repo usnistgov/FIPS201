@@ -294,7 +294,10 @@ Supervised remote identity proofing takes advantage of improvements in sensor te
 The following forms of protection **SHALL** be provided by either inherent capabilities of the station or staff at the station location:
 
 * ensuring that only the applicant interacts with the station during any session,
-* ensuring that the physical integrity of the station and its sensors is maintained at all times, and
+* ensuring that the physical integrity of the station and its sensors is maintained at all times, 
+* ensuring that no malicious code is  introduced to compromise or otherwise exploit the station and the PIV Card. General good practice to mitigate malicious code
+threats is outside the scope of this document (see [[SP 800-53]](../_Appendix/references.md#ref-SP-800-53) for a catalog of security and privacy controls for federal information systems),
+and
 * reporting any problems with the station to the issuer.
 
 Supervised remote identity proofing **SHALL** meet the following requirements:
