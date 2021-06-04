@@ -496,7 +496,9 @@ can be reset in certain circumstances.
 The PIN on a PIV Card may need to be reset if the cardholder has
 forgotten the PIN or if PIN-based cardholder authentication has been disabled by the usage of an
 invalid PIN more than the allowed number of retries. A maximum of 10 consecutive PIN retries **SHALL** be permitted unless a lower limit is stipulated by the department or agency.
-Cardholders **MAY** change their PINs at any time by providing the current PIN and the new PIN values.
+
+Cardholders **MAY** change their PINs at any time by providing the current PIN and the new PIN values as specified in [[SP 800-73]](../_Appendix/references.md#ref-SP-800-73).
+
 PIN reset **MAY** be performed in person at an issuing facility, at a kiosk operated by the issuer, or
 remotely via a general computing platform or a supervised remote identity proofing station:
 
