@@ -166,7 +166,7 @@ The requirements for the accreditation of PIV Card issuers are specified in [[SP
 The unique organizational codes for federal agencies are assigned in [[SP 800-87]](../_Appendix/references.md#ref-SP-800-87).
 The requirements for PIV Card readers are provided in [[SP 800-96]](../_Appendix/references.md#ref-SP-800-96).
 The format for encoding PIV enrollment records for import and export is specified in [[SP 800-156]](../_Appendix/references.md#ref-SP-800-156).
-The requirements for issuing derived PIV credentials are specified in [[SP 800-157]](../_Appendix/references.md#ref-SP-800-157). Guidelines for the Use of Federation with PIV Credentials will be specified in SP 800-217. 
+The requirements for issuing derived PIV credentials are specified in [[SP 800-157]](../_Appendix/references.md#ref-SP-800-157). Guidelines for the use of federations with PIV Credentials will be specified in [[SP 800-217]](../_Appendix/references.md#ref-SP-800-217).
 
 This Standard contains normative references to other documents. Should normative text in this
 Standard conflict with normative text in a referenced document, the normative text in this Standard
