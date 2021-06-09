@@ -331,11 +331,11 @@ of the federal department or agency.
 + Biometric data used to personalize the PIV Card **SHALL** be those captured during the identity proofing and registration process.
 + During the issuance process, the issuer **SHALL** verify that the individual to whom the PIV Card is to be
     issued is the same as the intended applicant/recipient as approved by the appropriate authority.
-    Before the PIV Card is provided to the applicant, the issuer **SHALL** perform a one-to-one comparison of the
-    applicant against biometric data records available on the PIV Card or in the PIV enrollment record. The one-to-one
+    Before the PIV Card is activated and provided to the applicant, the issuer **SHALL** perform a one-to-one comparison of the
+    applicant against biometric data records in the PIV enrollment record or unsigned biometric data records that would be transferred to and signed on the PIV Card. The one-to-one
     comparison requires either a comparison of fingerprints or, if unavailable, other optional biometric data records that are
     available. Minimum accuracy requirements for the biometric verification are specified in [[SP 800-76]](../_Appendix/references.md#ref-SP-800-76). On
-    a positive biometric verification decision, the PIV Card **SHALL** be released to the applicant. If the biometric verification decision is negative, or if
+    a positive biometric verification decision, the biometric data records **SHALL** be signed and the PIV Card **SHALL** be activated and released to the applicant. If the biometric verification decision is negative, or if
     no biometric data records are available, the cardholder **SHALL** provide two identity source documents (as
     specified in [Section 2.7](requirements.md#s-2-7)), and an attending operator **SHALL** inspect these and compare the cardholder
     with the photograph printed on the PIV Card.
