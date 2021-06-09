@@ -548,7 +548,7 @@ Regardless of the PIN reset procedure used, the chosen PIN **SHALL** meet the ac
 
 The PIV Card's activation methods for OCC may also be 
 reset by the card issuer. Before the reset, the issuer 
-**SHALL** perform a biometric verification of the cardholder to the biometric data records in the PIV enrollment record. If no alternative biometric data records are available, the 
+**SHALL** perform a biometric verification of the cardholder to the biometric data records in the PIV enrollment record[^occ_reset_characteristic]. If no alternative biometric data records are available, the 
 cardholder **SHALL** provide the PIV Card to be reset and another primary identity source document (as
 specified in [Section 2.7](requirements.md#s-2-7)). An attending operator **SHALL** inspect these and compare the cardholder with the
 electronic facial image retrieved from the enrollment data record and the photograph printed on the PIV Card.
@@ -556,6 +556,8 @@ electronic facial image retrieved from the enrollment data record and the photog
 Departments and agencies **MAY** adopt more stringent procedures for PIN/OCC reset (including
 disallowing resets); such procedures **SHALL** be formally documented by each department
 and agency.
+
+[^occ_reset_characteristic]: If OCC is being reset due to epidermal damage on a specific finger, it may be prudent to perform the biometric comparison with a different finger or different biometric characteristic. However, it is possible that the comparison algorithm available to the issuer could obtain a positive biometric verification decision with damaged epidermis while the OCC algorithm could not.
 
 ### 2.9.4 PIV Card Termination Requirements {#s-2-9-4}
 
