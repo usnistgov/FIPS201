@@ -501,8 +501,8 @@ PIN reset **MAY** be performed in person at an issuing facility, at a kiosk oper
 remotely via a general computing platform or a supervised remote identity proofing station:
 
 In person
-: When PIN reset is performed in person at the issuing facility, before providing the reset PIV Card
-    back to the cardholder, the issuer **SHALL** perform a biometric verification to ensure that the cardholder's
+: When PIN reset is performed in person at the issuing facility, before
+    resetting the PIV Card's PIN, the issuer **SHALL** first perform a biometric verification to ensure that the cardholder's
     biometric characteristics elicit a positive biometric verification decision when compared to biometric data records stored in the PIV enrollment record or when compared to the biometric data records on the PIV Card using the BIO-A or OCC-AUTH authentication mechanisms. In cases where a negative biometric verification decision is returned or the cardholder's biometric characteristics are not successfully acquired, the cardholder **SHALL** provide the PIV Card
     to be reset and another primary identity source document (as specified in [Section 2.7](requirements.md#s-2-7)). An attending
     operator **SHALL** inspect these and compare the cardholder with the electronic facial image retrieved from the
