@@ -495,7 +495,7 @@ can be reset in certain circumstances.
 
 The PIN on a PIV Card may need to be reset if the cardholder has
 forgotten the PIN or if PIN-based cardholder authentication has been disabled by the usage of an
-invalid PIN more than the allowed number of retries. A maximum of 10 consecutive activation retries (i.e., PIN or OCC attempts) **SHALL** be permitted unless a lower limit is stipulated by the department or agency.
+invalid PIN more than the allowed number of retries. OCC may need to be reset if the cardholder has developed epidermal scaring or similar, resulting in false negative biometric verification decisions, or if OCC has been disabled by exceeding the allowed number of negative biometric verification decisions.  A maximum of 10 consecutive activation retries (i.e., PIN or OCC attempts) **SHALL** be permitted unless a lower limit is stipulated by the department or agency.
 Cardholders **MAY** change their PINs at any time by providing the current PIN and the new PIN values.
 PIN reset **MAY** be performed in person at an issuing facility, at a kiosk operated by the issuer, or
 remotely via a general computing platform or a supervised remote identity proofing station:
