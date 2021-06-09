@@ -357,12 +357,9 @@ VERY HIGH confidence in the asserted identity's validity (strongest).
 The selection of authentication assurance levels **SHALL** be made in accordance with the applicable policies for a facility’s security level [[RISK-MGMT-FACILITIES]](../_Appendix/references.md#ref-RISK-MGMT-FACILITIES). Additional guidelines for the selection and use of PIV authentication mechanisms for facility access can be found in NIST [[SP 800-116]](../_Appendix/references.md#ref-SP-800-116).
 
 The PIV-supported authentication mechanisms
-for physical access control systems are summarized in [Table 6-1](authentication.md#table-6-1). An authentication mechanism that is
-suitable for a higher assurance level can also be applied to meet the requirements for a lower assurance
-level. Moreover, the authentication mechanisms in [Table 6-1](authentication.md#table-6-1) can be combined to achieve higher
-assurance levels.[^combinations]
+for physical access control systems are summarized in [Table 6-1](authentication.md#table-6-1).  These mechanism represent one or two factors of authentication, depending on the authenciation mechanim. The mechanisms **CAN** be  [^combined] to achieve 3 factor authentication (e.g., to access exclusion security area). The number of factors afforded by each authentication mechanisms and the requried factors to access controlled, limited or exclusion security access area are detailed in  [[SP 800-116]](../references/#ref-SP-800-116).
 
-[^combinations]: Combinations of authentication mechanisms are specified in [[SP 800-116]](../references/#ref-SP-800-116).
+[^combined]: Combinations of authentication mechanisms are specified in [[SP 800-116]](../references/#ref-SP-800-116).
 
 [Table 6-1. Applicable PIV Authentication Mechanisms for Physical Access](authentication.md#table-6-1){:name="table-6-1"}
 {:latex-ignore="true"}
