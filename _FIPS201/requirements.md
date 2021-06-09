@@ -552,6 +552,7 @@ reset by the card issuer. Before the reset, the issuer
 cardholder **SHALL** provide the PIV Card to be reset and another primary identity source document (as
 specified in [Section 2.7](requirements.md#s-2-7)). An attending operator **SHALL** inspect these and compare the cardholder with the
 electronic facial image retrieved from the enrollment data record and the photograph printed on the PIV Card.
+When replacing one fingerprint used for OCC, all other OCC data **SHALL** also be replaced.
 
 Departments and agencies **MAY** adopt more stringent procedures for PIN/OCC reset (including
 disallowing resets); such procedures **SHALL** be formally documented by each department
