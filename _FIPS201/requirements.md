@@ -138,7 +138,7 @@ It **SHALL** be printed on the PIV Card according to [Section 4.1.4.1](frontend.
 The image **MAY** be used for cardholder authentication (BIO or BIO-A) as described in [Section 6.2.1](authentication.md#s-6-2-1).
 It **MAY** be retrieved and displayed on guard workstations to augment 
 other authentication processes from [Section 6.2](authentication.md#s-6-2).
-The electronic facial image is a secondary means of authentication during operator-attended PIV issuance and maintenance processes
+The electronic facial image is an additional means of authentication during operator-attended PIV issuance and maintenance processes
 when fingerprint biometric data records are unavailable.
 
 PIV background investigation, identity proofing, registration, and issuance processes **MAY** be performed across multiple sessions at different facilities. If multiple sessions are needed, the applicant **SHALL** be linked through a positive biometric verification decision obtained from an automated comparison of biometric characteristics captured at a previous session to biometric characteristics captured during the current session. Issuers **SHALL** follow applicable federal laws and regulations regarding the retention and destruction of biometric data.
