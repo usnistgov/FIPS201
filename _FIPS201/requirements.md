@@ -332,9 +332,8 @@ of the federal department or agency.
 + During the issuance process, the issuer **SHALL** verify that the individual to whom the PIV Card is to be
     issued is the same as the intended applicant/recipient as approved by the appropriate authority.
     Before the PIV Card is provided to the applicant, the issuer **SHALL** perform a one-to-one comparison of the
-    applicant against biometric data records available on the PIV Card or in the PIV enrollment record. The one-to-one
-    comparison requires either a comparison of fingerprints or, if unavailable, other optional biometric data records that are
-    available. Minimum accuracy requirements for the biometric verification are specified in [[SP 800-76]](../_Appendix/references.md#ref-SP-800-76). On
+    applicant against biometric data records available on the PIV Card or in the PIV enrollment record.
+    Minimum accuracy requirements for the biometric verification are specified in [[SP 800-76]](../_Appendix/references.md#ref-SP-800-76). On
     a positive biometric verification decision, the PIV Card **SHALL** be released to the applicant. If the biometric verification decision is negative, or if
     no biometric data records are available, the cardholder **SHALL** provide two identity source documents (as
     specified in [Section 2.7](requirements.md#s-2-7)), and an attending operator **SHALL** inspect these and compare the cardholder
@@ -376,8 +375,8 @@ When issuing a PIV Card under the grace period, the card issuer **SHALL** verify
 been authorized by a proper authority and that the employee or contractor's background investigation is
 valid. Re-investigations **SHALL** be performed, if required, in accordance with the federal investigative standards. At the time
 of issuance, the card issuer **SHALL** perform biometric verification of the applicant to the biometric data records in 
-the applicant's previous PIV enrollment record. The one-to-one comparison requires either a comparison of fingerprints or, if unavailable, other
-optional biometric data records that are available. On a positive biometric verification decision, the new PIV Card **SHALL** be released to the
+the applicant's previous PIV enrollment record.
+On a positive biometric verification decision, the new PIV Card **SHALL** be released to the
 applicant. If the biometric verification decision is negative, or if no biometric data records are available, the cardholder **SHALL** provide
 two identity source documents (as specified in [Section 2.7](requirements.md#s-2-7)), and an attending operator **SHALL** inspect these
 and compare the cardholder with the electronic facial image retrieved from the enrollment data record and the photograph
