@@ -186,9 +186,6 @@ PIV enrollment records contain Personally Identifiable Information (PII). PII **
 in a manner that protects the individual's privacy and maintains the integrity of the records
 both in transit and at rest. 
 
-To facilitate interoperability between PIV issuers, systems may import and export enrollment records in the manner and
-representation described in [[SP 800-156]](../_Appendix/references.md#ref-SP-800-156).
-
 PIV enrollment records can be applied in several situations, including the following:
 
 Extended enrollment
@@ -209,6 +206,9 @@ Interagency transfer
     employee's PIV enrollment record from the card issuer in the old agency. The
     employee performs a biometric comparison against the biometric data stored in this record, and the interaction proceeds as
     described in [Section 2.8.2](requirements.md#s-2-8-2).
+
+To facilitate interoperability between PIV issuers, systems may import and export enrollment records in the manner and
+representation described in [[SP 800-156]](../_Appendix/references.md#ref-SP-800-156).
 
 ## 2.7 PIV Identity Proofing and Registration Requirements {#s-2-7}
 
