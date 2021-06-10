@@ -341,9 +341,9 @@ to an individual that contains a PIV Card application that stores _identity_ _cr
 _cryptographic keys_, digitized fingerprint representation) so that the claimed _identity_ of the _cardholder_ can
 be verified against the stored _credentials_.
 
-PIV Credintial
-: The credentials that are stored on the PIV card that authoritatively binds
-an identity (and, optionally, additional attributes) to the authenticated card holder.
+PIV Credential
+: The _credentials_ that are stored on the _PIV card_ that authoritatively binds
+an _identity_ (and, optionally, additional attributes) to the authenticated _cardholder_.
 
 PIV Enrollment Record
 : A sequence of related _enrollment data sets_ that is created and 
