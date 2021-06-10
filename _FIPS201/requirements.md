@@ -295,7 +295,7 @@ The following forms of protection **SHALL** be provided by either inherent capab
 
 * ensuring that only the applicant interacts with the station during any session,
 * ensuring that the physical integrity of the station and its sensors is maintained at all times, 
-* ensuring that no malicious code is  introduced to compromise or otherwise exploit the station and the PIV Card, and
+* ensuring that no malicious code[^malicious] is  introduced to compromise or otherwise exploit the station and the PIV Card, and
 * reporting any problems with the station to the issuer.
 
 Supervised remote identity proofing **SHALL** meet the following requirements:
