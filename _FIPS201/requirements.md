@@ -175,8 +175,7 @@ PIV enrollment records **SHOULD** include the following data:
 + Current status of the background investigation, including the results of the investigation once
     completed.
 + The evidence of authorization if the credential is issued under a pseudonym.
-+ Any data or any subsequent changes in the data about the cardholder. If the changed data is the
-    cardholder's name, then the issuer **SHOULD** include the evidence of a formal name change.
++ Any data about the cardholder, including subsequent changes in the data (e.g., cardholder name changes).
 
 The biometric data records in the PIV enrollment records **SHALL** be valid for a maximum of 12&nbsp;years. In order to mitigate aging
 effects and thereby maintain operational readiness of a cardholder's PIV Card, agencies **MAY** require
