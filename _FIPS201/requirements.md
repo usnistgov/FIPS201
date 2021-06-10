@@ -539,7 +539,7 @@ General computing platform
     
     * The cardholder initiates a PIN reset with the issuer operator.
     * The operator authenticates the owner of the PIV Card through an independent
-        procedure such as authenticating the cardholder with an associated derived PIV credential or corfirming reset via email to the on-record goverment issued email address.
+        procedure such as authenticating the cardholder with an associated derived PIV credential or confirming reset via email to the on-record government-issued email address.
     * The cardholder's biometric characteristics elicit a positive biometric verification decision when compared to the stored biometric data records on the PIV Card through OCC.
 
 The remote PIN reset operation **SHALL** satisfy the requirements for remote, post-issuance updates
