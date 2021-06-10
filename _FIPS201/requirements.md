@@ -203,7 +203,7 @@ Interagency transfer
 : A federal employee is transferred from one agency to another. When the
     employee leaves the old agency, they surrender their PIV Card and it is destroyed. When the
     employee arrives at the new agency and is processed in, the card issuer in the new agency requests and receives the
-    employee's PIV enrollment record from the card issuer in the old agency. The
+    employee's PIV enrollment record from the card issuer in the old agency in a secure manner. The
     employee performs a biometric comparison against the biometric data stored in this record, and the interaction proceeds as
     described in [Section 2.8.2](requirements.md#s-2-8-2).
 
