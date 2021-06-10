@@ -207,7 +207,7 @@ Interagency transfer
     employee performs a biometric comparison against the biometric data stored in this record, and the interaction proceeds as
     described in [Section 2.8.2](requirements.md#s-2-8-2).
 
-To facilitate interoperability between PIV issuers, systems may import and export enrollment records in the manner and
+To facilitate interoperability between PIV issuers, and support interagency transfer of enrollment data, systems may import and export enrollment records in the manner and
 representation described in [[SP 800-156]](../_Appendix/references.md#ref-SP-800-156).
 
 ## 2.7 PIV Identity Proofing and Registration Requirements {#s-2-7}
