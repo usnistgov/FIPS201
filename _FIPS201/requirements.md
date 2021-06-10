@@ -152,10 +152,10 @@ For linking background investigations, only fingerprints **SHALL** be used, sinc
 A card issuer **SHALL** maintain the enrollment record for each issued PIV Card.
 These enrollment records are created and maintained through the methods of 
 contemporaneous acquisition at each step of the PIV issuance process&mdash;typically including identity proofing, registration, 
-and biometric enrollment&mdash;and are generally stored as part of the cardholder's PIV account.
+and biometric enrollment.
 
 PIV enrollment records maintain an auditable sequence of enrollment events to facilitate binding an applicant 
-to multiple transactions that might take place at different times and locations.[^fingerprints]
+to multiple transactions that might take place at different times and locations.[^fingerprints] These records are generally stored as part of the cardholder's PIV account, either as part of the issuer's IDMS or through links to records in other related systems (e.g., card management systems).
 
 [^fingerprints]: For example, ten fingerprints for law enforcement checks may be collected at one time and place, and two fingerprints for PIV Card templates may be collected at a later time and different place, provided that a biometric comparison confirms that the two fingerprints belong to the original set of ten fingerprints. 
 
