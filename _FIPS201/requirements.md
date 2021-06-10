@@ -62,7 +62,7 @@ Federal departments and agencies must follow investigative requirements establis
 
 The minimum requirement for PIV Credential eligibility determination is a completed and favorably adjudicated Tier 1 investigation, formerly called a National Agency Check with Written Inquiries (NACI).[^TierOne]
 
-Before an individual is determined eligible to be issued a PIV Card when no corresponding prior investigation exists, the appropriate required investigation **SHALL** be initiated with the authorized federal investigative service provider and the FBI NCHC portion of the background investigation **SHALL** be completed and favorably adjudicated.
+For individuals for whom no prior investigation exists, the appropriate required investigation **SHALL** be initiated with the authorized federal investigative service provider and the FBI NCHC portion of the background investigation **SHALL** be completed and favorably adjudicated prior to PIV Card issuance.
 
 Once the investigation is completed, the authorized adjudicative entity **SHALL** adjudicate the investigation and report the final eligibility determination to the Central Verification System (or successor). This determination **SHALL** be recorded in the PIV enrollment record to reflect PIV eligibility for the PIV cardholder and, if applicable, their enrollment in the Continuous Vetting Program as defined in [[EO 13764]](../_Appendix/references.md#ref-EO-13764).
 
@@ -294,7 +294,8 @@ Supervised remote identity proofing takes advantage of improvements in sensor te
 The following forms of protection **SHALL** be provided by either inherent capabilities of the station or staff at the station location:
 
 * ensuring that only the applicant interacts with the station during any session,
-* ensuring that the physical integrity of the station and its sensors is maintained at all times, and
+* ensuring that the physical integrity of the station and its sensors is maintained at all times, 
+* ensuring that no malicious code[^malicious] is introduced to compromise or otherwise impair the station and the PIV Card, and
 * reporting any problems with the station to the issuer.
 
 Supervised remote identity proofing **SHALL** meet the following requirements:
@@ -316,6 +317,8 @@ to bypass protection capabilities of the station.
 [^controlled]: A controlled-access environment is a location with limited egress points where staff can see the station while performing other duties.
 
 [^believe]: A reasonable basis to believe occurs when a disinterested observer with knowledge of the same facts and circumstances would reasonably reach the same conclusion.
+
+[^malicious]: Security practices to mitigate malicious code threats are outside the scope of this document (see [[SP 800-53]](../references/#ref-SP-800-53) for a catalog of security and privacy controls for federal information systems).
 
 ## 2.8 PIV Card Issuance Requirements {#s-2-8}
 
@@ -496,7 +499,9 @@ can be reset in certain circumstances.
 The PIN on a PIV Card may need to be reset if the cardholder has
 forgotten the PIN or if PIN-based cardholder authentication has been disabled by the usage of an
 invalid PIN more than the allowed number of retries. No more than 10 consecutive PIN retries **SHALL** be permitted. Card issuers **MAY** further restrict the maximum retry limit to a lower value. 
-Cardholders **MAY** change their PINs at any time by providing the current PIN and the new PIN values.
+
+Cardholders **MAY** change their PINs at any time by providing the current PIN and the new PIN values, as specified in [[SP 800-73]](../_Appendix/references.md#ref-SP-800-73).
+
 PIN reset **MAY** be performed in person at an issuing facility, at a kiosk operated by the issuer, or
 remotely via a general computing platform or a supervised remote identity proofing station:
 
@@ -537,7 +542,7 @@ General computing platform
     
     * The cardholder initiates a PIN reset with the issuer operator.
     * The operator authenticates the owner of the PIV Card through an independent
-        procedure.
+        procedure, for example by authenticating the cardholder with an associated derived PIV credential or by confirming reset via email to the on-record government-issued email address.
     * The cardholder's biometric characteristics elicit a positive biometric verification decision when compared to the stored biometric data records on the PIV Card through OCC.
 
 The remote PIN reset operation **SHALL** satisfy the requirements for remote, post-issuance updates
