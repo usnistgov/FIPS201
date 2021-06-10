@@ -152,10 +152,10 @@ For linking background investigations, only fingerprints **SHALL** be used, sinc
 A card issuer **SHALL** maintain the enrollment record for each issued PIV Card.
 These enrollment records are created and maintained through the methods of 
 contemporaneous acquisition at each step of the PIV issuance process&mdash;typically including identity proofing, registration, 
-and biometric enrollment&mdash;and are generally stored as part of the cardholder's PIV account.
+and biometric enrollment.
 
 PIV enrollment records maintain an auditable sequence of enrollment events to facilitate binding an applicant 
-to multiple transactions that might take place at different times and locations.[^fingerprints]
+to multiple transactions that might take place at different times and locations.[^fingerprints] These records are generally stored as part of the cardholder's PIV account, either as part of the issuer's IDMS or through links to records in other related systems (e.g., card management systems).
 
 [^fingerprints]: For example, ten fingerprints for law enforcement checks may be collected at one time and place, and two fingerprints for PIV Card templates may be collected at a later time and different place, provided that a biometric comparison confirms that the two fingerprints belong to the original set of ten fingerprints. 
 
@@ -175,8 +175,7 @@ PIV enrollment records **SHOULD** include the following data:
 + Current status of the background investigation, including the results of the investigation once
     completed.
 + The evidence of authorization if the credential is issued under a pseudonym.
-+ Any data or any subsequent changes in the data about the cardholder. If the changed data is the
-    cardholder's name, then the issuer **SHOULD** include the evidence of a formal name change.
++ Any data about the cardholder, including subsequent changes in the data (e.g., cardholder name changes per [Section 2.9.1.1](requirements.md#s-2-9-1-1)).
 
 The biometric data records in the PIV enrollment records **SHALL** be valid for a maximum of 12&nbsp;years. In order to mitigate aging
 effects and thereby maintain operational readiness of a cardholder's PIV Card, agencies **MAY** require
@@ -185,9 +184,6 @@ biometric enrollment more frequently than 12&nbsp;years.
 PIV enrollment records contain Personally Identifiable Information (PII). PII **SHALL** be protected
 in a manner that protects the individual's privacy and maintains the integrity of the records
 both in transit and at rest. 
-
-To facilitate interoperability between PIV issuers, systems may import and export enrollment records in the manner and
-representation described in [[SP 800-156]](../_Appendix/references.md#ref-SP-800-156).
 
 PIV enrollment records can be applied in several situations, including the following:
 
@@ -206,9 +202,12 @@ Interagency transfer
 : A federal employee is transferred from one agency to another. When the
     employee leaves the old agency, they surrender their PIV Card and it is destroyed. When the
     employee arrives at the new agency and is processed in, the card issuer in the new agency requests and receives the
-    employee's PIV enrollment record from the card issuer in the old agency. The
+    employee's PIV enrollment record from the card issuer in the old agency in a secure manner. The
     employee performs a biometric comparison against the biometric data stored in this record, and the interaction proceeds as
     described in [Section 2.8.2](requirements.md#s-2-8-2).
+
+To facilitate interagency transfer of enrollment data, systems may import and export enrollment records in the manner and
+representation described in [[SP 800-156]](../_Appendix/references.md#ref-SP-800-156).
 
 ## 2.7 PIV Identity Proofing and Registration Requirements {#s-2-7}
 
