@@ -295,9 +295,7 @@ The following forms of protection **SHALL** be provided by either inherent capab
 
 * ensuring that only the applicant interacts with the station during any session,
 * ensuring that the physical integrity of the station and its sensors is maintained at all times, 
-* ensuring that no malicious code is  introduced to compromise or otherwise exploit the station and the PIV Card. General good practice to mitigate malicious code
-threats is outside the scope of this document (see [[SP 800-53]](../_Appendix/references.md#ref-SP-800-53) for a catalog of security and privacy controls for federal information systems),
-and
+* ensuring that no malicious code is  introduced to compromise or otherwise exploit the station and the PIV Card, and
 * reporting any problems with the station to the issuer.
 
 Supervised remote identity proofing **SHALL** meet the following requirements:
@@ -319,6 +317,8 @@ to bypass protection capabilities of the station.
 [^controlled]: A controlled-access environment is a location with limited egress points where staff can see the station while performing other duties.
 
 [^believe]: A reasonable basis to believe occurs when a disinterested observer with knowledge of the same facts and circumstances would reasonably reach the same conclusion.
+
+[^malicious]: General good practice to mitigate malicious code threats is outside the scope of this document (see [[SP 800-53]](../references/#ref-SP-800-53) for a catalog of security and privacy controls for federal information systems),
 
 ## 2.8 PIV Card Issuance Requirements {#s-2-8}
 
