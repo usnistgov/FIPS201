@@ -497,7 +497,7 @@ The PIN on a PIV Card may need to be reset if the cardholder has
 forgotten the PIN or if PIN-based cardholder authentication has been disabled by the usage of an
 invalid PIN more than the allowed number of retries. A maximum of 10 consecutive PIN retries **SHALL** be permitted unless a lower limit is stipulated by the department or agency.
 
-Cardholders **MAY** change their PINs at any time by providing the current PIN and the new PIN values as specified in [[SP 800-73]](../_Appendix/references.md#ref-SP-800-73).
+Cardholders **MAY** change their PINs at any time by providing the current PIN and the new PIN values, as specified in [[SP 800-73]](../_Appendix/references.md#ref-SP-800-73).
 
 PIN reset **MAY** be performed in person at an issuing facility, at a kiosk operated by the issuer, or
 remotely via a general computing platform or a supervised remote identity proofing station:
@@ -539,7 +539,7 @@ General computing platform
     
     * The cardholder initiates a PIN reset with the issuer operator.
     * The operator authenticates the owner of the PIV Card through an independent
-        procedure such as authenticating the cardholder with an associated derived PIV credential or confirming reset via email to the on-record government-issued email address.
+        procedure, for example by authenticating the cardholder with an associated derived PIV credential or by confirming reset via email to the on-record government-issued email address.
     * The cardholder's biometric characteristics elicit a positive biometric verification decision when compared to the stored biometric data records on the PIV Card through OCC.
 
 The remote PIN reset operation **SHALL** satisfy the requirements for remote, post-issuance updates
