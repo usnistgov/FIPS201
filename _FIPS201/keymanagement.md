@@ -53,7 +53,7 @@ relationship is described below:
     [[SP 800-78]](../_Appendix/references.md#ref-SP-800-78).
 
 The expiration date of the PIV authentication and card authentication certificates 
-**SHALL NOT** be after the expiration date of the PIV Card. If the card is revoked, 
+**SHALL NOT** be after the expiration date of the PIV Card. The exiration of the PIV card is the is the date printed on the card (zone 14F). The CHUID contains the 'digital copy'/representation of that date. See section 4.2.1 for definition of the CHUID format. If the card is revoked, 
 the PIV authentication and card authentication certificates **SHALL** be revoked in cases where the card cannot be collected and destroyed.
 However, a PIV authentication or card authentication certificate **MAY** be revoked and subsequently replaced without revoking the
 PIV Card. The presence of a valid, unexpired, and unrevoked authentication
