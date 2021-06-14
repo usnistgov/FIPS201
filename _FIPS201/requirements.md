@@ -498,7 +498,7 @@ can be reset in certain circumstances.
 
 The PIN on a PIV Card may need to be reset if the cardholder has
 forgotten the PIN or if PIN-based cardholder authentication has been disabled by the usage of an
-invalid PIN more than the allowed number of retries. OCC may need to be reset if the cardholder has developed epidermal scaring or similar, resulting in false negative biometric verification decisions, or if OCC has been disabled by exceeding the allowed number of negative biometric verification decisions.  A maximum of 10 consecutive activation retries for each of the activation methods (i.e., PIN and OCC attempts) **SHALL** be permitted unless a lower limit is stipulated by the department or agency.
+invalid PIN more than the allowed number of retries. OCC may need to be reset if the cardholder has developed epidermal scarring or similar, resulting in false negative biometric verification decisions, or if OCC has been disabled by exceeding the allowed number of negative biometric verification decisions.  A maximum of 10 consecutive activation retries for each of the activation methods (i.e., PIN and OCC attempts) **SHALL** be permitted unless a lower limit is stipulated by the department or agency.
 
 Cardholders **MAY** change their PINs at any time by providing the current PIN and the new PIN values, as specified in [[SP 800-73]](../_Appendix/references.md#ref-SP-800-73).
 
@@ -553,7 +553,7 @@ Regardless of the PIN reset procedure used, the chosen PIN **SHALL** meet the ac
 
 The PIV Card's activation methods for OCC may also be 
 reset by the card issuer. Before the reset, the issuer 
-**SHALL** perform a biometric verification of the cardholder to the biometric data records in the PIV enrollment record[^occ_reset_characteristic]. If the biometric verification decision is negative or no alternative biometric data records are available, the 
+**SHALL** perform a biometric verification of the cardholder to the biometric data records in the PIV enrollment record.[^occ_reset_characteristic] If the biometric verification decision is negative or no alternative biometric data records are available, the 
 cardholder **SHALL** provide the PIV Card to be reset and another primary identity source document (as
 specified in [Section 2.7](requirements.md#s-2-7)). An attending operator **SHALL** inspect these and compare the cardholder with the
 electronic facial image retrieved from the enrollment data record and the photograph printed on the PIV Card.
