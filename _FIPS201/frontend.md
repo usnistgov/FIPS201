@@ -589,8 +589,10 @@ Digital signature key
 Key management key
 : An asymmetric private key that supports key establishment,
     and it is mandatory if the cardholder has a government-issued email account at the
-    time of PIV Card issuance. Optionally, up to 20 retired key management keys may also be
+    time of PIV Card issuance. Optionally, up to 20 retired key management keys[^retired] may also be
     stored on the PIV Card. See [Section 4.2.2.5](frontend.md#s-4-2-2-5).
+   
+   [^retired]: Retired key management keys are keys that have expired, have been revoked or have otherwise been superseded. 
 
 PIV Card application administration key
 : An optional symmetric key used for personalization and post-issuance activities.
