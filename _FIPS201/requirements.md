@@ -223,10 +223,12 @@ Biometric data **SHALL** be captured as specified in [Section 2.3](requirements.
 The applicant **SHALL** appear in person at least once before the issuance of a PIV Card, either at the issuing facility or at a supervised remote identity proofing station (as described in [Section 2.7.1](requirements.md#s-2-7-1)).
 
 During identity proofing, the applicant **SHALL** be required to provide two original forms of identity source
-documents.[^documents] These documents **SHALL** be validated to ensure that they are genuine and authentic, not counterfeit, fake, or forgeries. Validation of physical security features **SHALL** be performed by trained staff. When they are available, cryptographic security features **SHOULD** be used to validate evidence. The identity source documents **SHALL** relate to the applicant. The identity source documents **SHALL NOT**
+documents.[^documents] These documents **SHALL** be validated to ensure that they are genuine and authentic, not counterfeit, fake, or forgeries. Validation of physical security features **SHALL** be performed by trained staff. When they are available, cryptographic security features **SHOULD** be used to validate evidence[^cryptoValidate]. The identity source documents **SHALL** relate to the applicant. The identity source documents **SHALL NOT**
 be expired or cancelled. If the two identity source documents bear different names, evidence
 of a formal name change **SHALL** be provided. At least one identity source document **SHALL** meet the requirements of Strong evidence as specified in [[SP 800-63A]](../_Appendix/references.md#ref-SP-800-63A) and be one of the
 following forms of identification:
+
+[^cryptoValidate]: For example, digital identity evidence signed by the issuing authority can be cryptographically verified (e.g., MRZ signature validation of passports).
 
 * U.S. Passport or a U.S. Passport Card
 * Permanent Resident Card or Alien Registration Receipt Card (Form I-551)
