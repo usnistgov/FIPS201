@@ -547,7 +547,7 @@ be the 16&nbsp;byte binary representation of a valid UUID, as specified in [[RFC
 The CHUID **SHALL** be accessible from both the contact and contactless interfaces of the PIV Card without
 card activation. 
 
-The FASC-N, card UUID, and expiration date **SHALL NOT** be modified post-issuance.
+The FASC-N, card UUID, expiration date, and, if present, cardholder UUID **SHALL NOT** be modified post-issuance.
 
 This Standard requires inclusion of the asymmetric signature field in the CHUID container. The
 asymmetric signature data element of the CHUID **SHALL** be encoded as a Cryptographic Message Syntax
