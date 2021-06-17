@@ -498,6 +498,9 @@ invalid PIN more than the allowed number of retries. Fingers may need to be re-e
 
 Cardholders **MAY** change their PINs at any time by providing the current PIN and the new PIN values, as specified in [[SP 800-73]](../_Appendix/references.md#ref-SP-800-73).
 
+Departments and agencies **MAY** adopt more stringent procedures for PIN/OCC
+reset (including disallowing resets); such procedures **SHALL** be formally
+documented by each department and agency.
 PIN reset **MAY** be performed in person at an issuing facility, at a kiosk operated by the issuer, or
 remotely via a general computing platform or a supervised remote identity proofing station:
 
@@ -554,9 +557,6 @@ cardholder **SHALL** provide the PIV Card to be reset and another primary identi
 specified in [Section 2.7](requirements.md#s-2-7)). An attending operator **SHALL** inspect these and compare the cardholder with the
 electronic facial image retrieved from the enrollment data record and the photograph printed on the PIV Card.
 
-Departments and agencies **MAY** adopt more stringent procedures for PIN/OCC reset (including
-disallowing resets); such procedures **SHALL** be formally documented by each department
-and agency.
 
 ### 2.9.4 PIV Card Termination Requirements {#s-2-9-4}
 
