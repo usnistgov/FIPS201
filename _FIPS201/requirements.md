@@ -586,7 +586,8 @@ must be in place. The PIV Card **SHALL** be revoked through the following proced
     certificates corresponding to the PIV authentication key and the asymmetric card
     authentication key on the PIV Card **SHALL** be revoked. The certificates corresponding to the
     digital signature and key management keys **SHALL** also be revoked, if present.
-    * Card managment systems **SHALL** be updated to reflect PIV Card termination and method of termination (e.g., PIV Card destruction for collected PIV cards or certificates revocations for uncollected PIV Cards).
+* Card managment systems **SHALL** be updated to reflect PIV Card termination and method of termination 
+    (e.g., PIV Card destruction for collected PIV cards or certificates revocations for uncollected PIV Cards).
     
 In addition, the PIV Card termination procedures **SHALL** ensure that all derived PIV credentials bound to the PIV account are invalidated as specified in [Section 2.10.2](requirements.md#s-2-10-2).
 
