@@ -498,7 +498,7 @@ invalid PIN more than the allowed number of retries. Fingers may need to be re-e
 
 Cardholders **MAY** change their PINs at any time by providing the current PIN and the new PIN values, as specified in [[SP 800-73]](../_Appendix/references.md#ref-SP-800-73).
 
-Departments and agencies **MAY** adopt more stringent procedures for PIN/OCC
+Departments and agencies **MAY** adopt more stringent procedures for PIN or OCC
 reset (including disallowing resets); such procedures **SHALL** be formally
 documented by each department and agency.
 
@@ -561,7 +561,7 @@ OCC reset **MAY** be performed in person at an issuing facility
 or a supervised remote identity proofing station:
 
 In person
-: When OCC reset is performed in person at the issuing facility,  before the
+: When OCC reset is performed in person at the issuing facility, before the
     reset, the issuer **SHALL** perform a biometric verification of the
     cardholder to the biometric data records in the PIV enrollment
     record.[^occ_reset_characteristic] If the biometric verification decision is
@@ -581,7 +581,7 @@ Supervised remote identity proofing station
     characteristics captured at the station elicit a positive biometric
     verification decision when compared to biometric data records stored in the
     PIV enrollment record or when compared to the biometric data records on the
-    PIV Card and using the BIO-A  authentication
+    PIV Card and using the BIO-A authentication
     mechanism.[^occ_reset_characteristic] In cases where a negative biometric
     verification decision is returned or the cardholder's biometric
     characteristics are not successfully acquired, the cardholder **SHALL**
