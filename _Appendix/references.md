@@ -386,7 +386,7 @@ Available at <https://docs.oasis-open.org/security/saml/v2.0/saml-authn-context-
 (National Institute of Standards and Technology, Gaithersburg, MD), NIST Special Publication (SP) 800-157 [or as amended].
 <https://doi.org/10.6028/NIST.SP.800-157>
 
-[[SP 800-271]](references.md#ref-SP-800-217){:name="ref-SP-800-217"} 
-*Guidelines for the Use of Personal Identity Verification (PIV) Credentials with Federations.*
+[[SP 800-217]](references.md#ref-SP-800-217){:name="ref-SP-800-217"} 
+*Guidelines for the Use of Personal Identity Verification (PIV) Credentials with Federation.*
 (National Institute of Standards and Technology, Gaithersburg, MD), NIST Draft Special Publication (SP) 800-217 [or as amended].
 <https://doi.org/10.6028/NIST.SP.800-217-draft>
