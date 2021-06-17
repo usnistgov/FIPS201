@@ -36,7 +36,7 @@ PIV Issuance and Management Subsystem
 : The components responsible for identity
     proofing and registration, card and key issuance and management, and the various repositories and
     services required as part of
-    the verification infrastructure, such as Public Key Infrastructure (PKI) directories and certificate status servers. This subsystem also manages the binding and termination of derived PIV credentials as described in [Section 2.10](requirements.md#s-2-10).
+    the verification infrastructure, such as Public Key Infrastructure (PKI) directories and certificate status servers. This subsystem also manages the binding, issuance, and termination of derived PIV credentials as described in [Section 2.10](requirements.md#s-2-10).
 
 PIV Relying Subsystem
 : The physical and logical access control systems, protected resources,

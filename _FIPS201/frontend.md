@@ -547,7 +547,7 @@ be the 16&nbsp;byte binary representation of a valid UUID, as specified in [[RFC
 The CHUID **SHALL** be accessible from both the contact and contactless interfaces of the PIV Card without
 card activation. 
 
-The FASC-N, card UUID, and expiration date **SHALL NOT** be modified post-issuance.
+The FASC-N, card UUID, expiration date, and, if present, cardholder UUID **SHALL NOT** be modified post-issuance.
 
 This Standard requires inclusion of the asymmetric signature field in the CHUID container. The
 asymmetric signature data element of the CHUID **SHALL** be encoded as a Cryptographic Message Syntax
@@ -589,7 +589,7 @@ Digital signature key
 Key management key
 : An asymmetric private key that supports key establishment,
     and it is mandatory if the cardholder has a government-issued email account at the
-    time of PIV Card issuance. Optionally, up to 20 retired key management keys may also be
+    time of PIV Card issuance. Optionally, up to 20 retired key management keys[^retired] may also be
     stored on the PIV Card. See [Section 4.2.2.5](frontend.md#s-4-2-2-5).
 
 PIV Card application administration key
@@ -624,9 +624,10 @@ Specific algorithm
 testing requirements for the cryptographic operations performed by the PIV Card application are
 specified in [[SP 800-78]](../_Appendix/references.md#ref-SP-800-78).
 
-
 Requirements specific to storage and access for each key are detailed in the following sections. Where applicable, key
 management requirements are also specified.
+
+[^retired]: Retired key management keys are keys that have expired, have been revoked, or have otherwise been superseded. 
 
 #### 4.2.2.1 PIV Authentication Key {#s-4-2-2-1}
 This key **SHALL** be generated on the PIV Card. The PIV Card **SHALL NOT**
