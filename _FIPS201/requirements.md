@@ -335,7 +335,7 @@ of the federal department or agency.
     applicant against biometric data records in the PIV enrollment record. The one-to-one
     comparison requires either a comparison of fingerprints or, if unavailable, other optional biometric data records that are
     available. Minimum accuracy requirements for the biometric verification are specified in [[SP 800-76]](../_Appendix/references.md#ref-SP-800-76). On
-    a positive biometric verification decision the PIV Card **SHALL** be activated and released to the applicant. If the biometric verification decision is negative, or if
+    a positive biometric verification decision, the PIV Card **SHALL** be activated and released to the applicant. If the biometric verification decision is negative, or if
     no biometric data records are available, the cardholder **SHALL** provide two identity source documents (as
     specified in [Section 2.7](requirements.md#s-2-7)), and an attending operator **SHALL** inspect these and compare the cardholder
     with the photograph printed on the PIV Card.
