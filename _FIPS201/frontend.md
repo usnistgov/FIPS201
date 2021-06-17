@@ -591,8 +591,6 @@ Key management key
     and it is mandatory if the cardholder has a government-issued email account at the
     time of PIV Card issuance. Optionally, up to 20 retired key management keys[^retired] may also be
     stored on the PIV Card. See [Section 4.2.2.5](frontend.md#s-4-2-2-5).
-   
-   [^retired]: Retired key management keys are keys that have expired, have been revoked or have otherwise been superseded. 
 
 PIV Card application administration key
 : An optional symmetric key used for personalization and post-issuance activities.
@@ -626,9 +624,10 @@ Specific algorithm
 testing requirements for the cryptographic operations performed by the PIV Card application are
 specified in [[SP 800-78]](../_Appendix/references.md#ref-SP-800-78).
 
-
 Requirements specific to storage and access for each key are detailed in the following sections. Where applicable, key
 management requirements are also specified.
+
+[^retired]: Retired key management keys are keys that have expired, have been revoked or have otherwise been superseded. 
 
 #### 4.2.2.1 PIV Authentication Key {#s-4-2-2-1}
 This key **SHALL** be generated on the PIV Card. The PIV Card **SHALL NOT**
