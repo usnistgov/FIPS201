@@ -501,6 +501,9 @@ Cardholders **MAY** change their PINs at any time by providing the current PIN a
 Departments and agencies **MAY** adopt more stringent procedures for PIN/OCC
 reset (including disallowing resets); such procedures **SHALL** be formally
 documented by each department and agency.
+
+#### 2.9.3.1 PIN Reset {#s-2-9-3-1}
+
 PIN reset **MAY** be performed in person at an issuing facility, at a kiosk operated by the issuer, or
 remotely via a general computing platform or a supervised remote identity proofing station:
 
@@ -550,13 +553,51 @@ specified in [Section 2.9.2](requirements.md#s-2-9-2).
 
 Regardless of the PIN reset procedure used, the chosen PIN **SHALL** meet the activation requirements specified in [Section 4.3.1](frontend.md#s-4-3-1).
 
-The PIV Card's activation methods for OCC may also be 
-reset by the card issuer. Before the reset, the issuer 
-**SHALL** perform a biometric verification of the cardholder to the biometric data records in the PIV enrollment record. If no biometric data records are available, the 
-cardholder **SHALL** provide the PIV Card to be reset and another primary identity source document (as
-specified in [Section 2.7](requirements.md#s-2-7)). An attending operator **SHALL** inspect these and compare the cardholder with the
-electronic facial image retrieved from the enrollment data record and the photograph printed on the PIV Card.
+#### 2.9.3.2 OCC Reset {#s-2-9-3-2}
 
+Both fingerprints used for OCC **SHALL** be replaced during an OCC reset.
+
+OCC reset **MAY** be performed in person at an issuing facility
+or a supervised remote identity proofing station:
+
+In person
+: When OCC reset is performed in person at the issuing facility,  before the
+    reset, the issuer **SHALL** perform a biometric verification of the
+    cardholder to the biometric data records in the PIV enrollment
+    record.[^occ_reset_characteristic] If the biometric verification decision is
+    negative or no alternative biometric data records are available, the
+    cardholder **SHALL** provide the PIV Card to be reset and another primary
+    identity source document (as specified in [Section
+    2.7](requirements.md#s-2-7)). An attending operator **SHALL** inspect these
+    and compare the cardholder with the electronic facial image retrieved from
+    the enrollment data record and the photograph printed on the PIV Card.
+
+Supervised remote identity proofing station
+: PIN reset at a supervised remote identity proofing station combines the 
+    assurance of an in-person reset with the convenience of a kiosk reset. All
+    protections and requirements of [Section 2.7.1](requirements.md#s-2-7-1)
+    **SHALL** be observed during the procedure. The operator **SHALL** initiate
+    a biometric verification to ensure that the cardholder's biometric
+    characteristics captured at the station elicit a positive biometric
+    verification decision when compared to biometric data records stored in the
+    PIV enrollment record or when compared to the biometric data records on the
+    PIV Card and using the BIO-A  authentication
+    mechanism.[^occ_reset_characteristic] In cases where a negative biometric
+    verification decision is returned or the cardholder's biometric
+    characteristics are not successfully acquired, the cardholder **SHALL**
+    provide the PIV Card to be reset and another primary identity source
+    document (as specified in [Section 2.7](requirements.md#s-2-7)) via the
+    scanners and sensors integrated into the station. The remote operator
+    **SHALL** inspect these items and compare the video feed of the cardholder
+    with the electronic facial image retrieved from the enrollment data record
+    and the photograph printed on the PIV Card. 
+
+[^occ_reset_characteristic]: If OCC is being reset due to epidermal damage on a
+specific finger, it may be prudent to perform the biometric comparison with a
+different finger or different biometric characteristic. However, it is possible
+that the comparison algorithm available to the issuer could obtain a positive
+biometric verification decision with damaged epidermis while the OCC algorithm
+could not.
 
 ### 2.9.4 PIV Card Termination Requirements {#s-2-9-4}
 
