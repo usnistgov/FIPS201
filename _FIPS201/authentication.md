@@ -378,11 +378,11 @@ logical information resources. For example, a cardholder may authenticate to the
 network using the PIV Card; the identity established through this authentication process can be used to
 determine access to information systems and applications available on the network.
 
-[Table 6-3](authentication.md#table-6-1 lists the authentication mechanisms defined for this Standard to support logical access
+[Table 6-2](authentication.md#table-6-2 lists the authentication mechanisms defined for this Standard to support logical access
 control for remote/networked access. An authentication mechanism that is suitable for a higher assurance level can also be applied to
 meet the requirements for a lower assurance level.
 
-[Table 6-3. PIV Authentication Mechanisms for Remote/Network Access](authentication.md#table-6-1){:name="table-6-3"}
+[Table 6-2. PIV Authentication Mechanisms for Remote/Network Access](authentication.md#table-6-1){:name="table-6-2"}
 {:latex-ignore="true"}
 
 |PIV Authentication Mechanism|Supported Authenticator Assurance Level|
