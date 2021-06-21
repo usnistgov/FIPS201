@@ -360,7 +360,7 @@ The PIV Card can be used to authenticate the cardholder in a physical access con
 
 {:latex-table="6-1" latex-caption="PIV Authentication Mechanisms for Physical Access"}
 
-Each PIV authentication mechanism provides one or two factors of authentication. These **CAN** be [^combined] to achieve up to three factors of authentication (e.g., to access exclusion security area). The number of factors afforded by each authentication mechanism and the required factors to access the controlled, limited or exclusion security areas are furter detailed in [[SP 800-116]](../references/#ref-SP-800-116).
+Each PIV authentication mechanism provides one or two factors of authentication. The mechanisms can be combined[^combined] to achieve up to three factors of authentication (e.g., to access exclusion security area). The number of factors afforded by each authentication mechanism and the required factors to access the controlled, limited or exclusion security areas are furter detailed in [[SP 800-116]](../references/#ref-SP-800-116).
 
 The selection of authentication assurance levels **SHALL** be made in accordance with the applicable policies for a facility’s security level [[RISK-MGMT-FACILITIES]](../_Appendix/references.md#ref-RISK-MGMT-FACILITIES). Additional guidelines for the selection and use of PIV authentication mechanisms for facility access can be found in NIST [[SP 800-116]](../_Appendix/references.md#ref-SP-800-116).
 
