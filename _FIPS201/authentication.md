@@ -343,7 +343,22 @@ The authentication mechanisms described in the subsections below apply specifica
 
 ### 6.3.1 Physical Access {#s-6-3-1}
 
-The PIV Card can be used to authenticate the cardholder in a physical access control environment using the authentication mechanisms described [Section 6.2](authentication.md#s-6-2). Each authentication mechanism provides a degree of authentication assurance based on its characteristics outlined in [Section 6.2](authentication.md#s-6-2). Generally, the mechanisms can be categorized into three authentication assurance levels. The  highest level of authentication assurance is provided by BIO-A, OCC-AUTH and PKI-AUTH. Medium authentication assurance is provided by BIO authentication mechanism, while the lowest level of authenication assurance is afforded by PKI-CAK, SYM-CAK and SM-AUTH.  
+The PIV Card can be used to authenticate the cardholder in a physical access control environment using the authentication mechanisms described [Section 6.2](authentication.md#s-6-2). Each authentication mechanism provides a degree of authentication assurance based on its characteristics outlined in [Section 6.2](authentication.md#s-6-2). Generally, the mechanisms can be categorized into three authentication assurance levels. The  highest level of authentication assurance is provided by BIO-A, OCC-AUTH and PKI-AUTH. Medium authentication assurance is provided by BIO authentication mechanism, while the lowest level of authenication assurance is afforded by PKI-CAK, SYM-CAK and SM-AUTH. 
+
+[Table 6-1. PIV Authentication Mechanisms for Physical Access](authentication.md#table-6-1){:name="table-6-1"}
+{:latex-ignore="true"}
+
+|PIV Authentication Mechanism|Assurance Provided|
+|---|---|
+|PKI-CAK|Some confidence in the asserted identity's validity|
+|SYM-CAK|Some confidence in the asserted identity's validity|
+|SM-AUTH|Some confidence in the asserted identity's validity|
+|BIO|Medium confidence in the asserted identity's validity|
+|BIO-A|High confidence in the asserted identity's validity|
+|OCC-AUTH|High confidence in the asserted identity's validity|
+|PKI-AUTH|High confidence in the asserted identity's validity|
+
+{:latex-table="6-1" latex-caption="PIV Authentication Mechanisms for Physical Access"}
 
 Each PIV authentication mechanism provides one or two factors of authentication. These **CAN** be [^combined] to achieve up to three factors of authentication (e.g., to access exclusion security area). The number of factors afforded by each authentication mechanism and the required factors to access the controlled, limited or exclusion security areas are furter detailed in [[SP 800-116]](../references/#ref-SP-800-116).
 
