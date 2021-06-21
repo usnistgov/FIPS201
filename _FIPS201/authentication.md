@@ -378,21 +378,17 @@ logical information resources. For example, a cardholder may authenticate to the
 network using the PIV Card; the identity established through this authentication process can be used to
 determine access to information systems and applications available on the network.
 
-
-[Table 6-1](authentication.md#table-6-1 lists the authentication mechanisms defined for this Standard to support logical access
+[Table 6-3](authentication.md#table-6-1 lists the authentication mechanisms defined for this Standard to support logical access
 control for remote/networked access. An authentication mechanism that is suitable for a higher assurance level can also be applied to
 meet the requirements for a lower assurance level.
 
-[Table 6-1. Applicable PIV Authentication Mechanisms for Remote/Network Access](authentication.md#table-6-1){:name="table-6-1"}
+[Table 6-3. Applicable PIV Authentication Mechanisms for Remote/Network Access](authentication.md#table-6-1){:name="table-6-3"}
 {:latex-ignore="true"}
 
-|Remote/Network Authentication|Required Authenticator Assurance Level|
+|Remote/Network Authentication|Supported Authenticator Assurance Level|
 |---|---|
 |PKI-CAK|AAL1|
-|AAL2| |
 |PKI-AUTH|AA3|
 {:latex-table="6-1" latex-caption="Applicable PIV Authentication Mechanisms for Remote/Network Access"}
-
-Selection of required AAL **SHALL** be made using the risk management process specified in [[SP 800-63]](../_Appendix/references.md#ref-SP-800-63).
 
 The [[SP 800-63]](../_Appendix/references.md#ref-SP-800-63) defined authenticator assurance level apply to networked/remote access and not for local authentication (e.g.; authentication to a resource co-located with the cardholder). Nevertheless, the assurance levels and associated authentication mechanism listed in [Table 6-1](authentication.md#table-6-1) **MAY** be used for local authentication. In addition, local authentication **MAY** use BIO for medium assurance while BIO-A and OCC-AUTH **MAY** be applied to high assurance local environments. An authentication mechanism that is suitable for a higher assurance level can also be applied to meet the requirements for a lower assurance level
