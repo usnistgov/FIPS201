@@ -343,7 +343,7 @@ The authentication mechanisms described in the subsections below apply specifica
 
 ### 6.3.1 Physical Access {#s-6-3-1}
 
-The PIV Card can be used to authenticate the cardholder in a physical access control environment using the authentication mechanisms described [Section 6.2](authentication.md#s-6-2). Each authentication mechanism provides a degree of authentication assurance based on its characteristics outlined in [Section 6.2](authentication.md#s-6-2). Generally, the mechanisms can be categorized into three authentication assurance levels. The  highest level of authentication assurance is provided by BIO-A, OCC-AUTH and PKI-AUTH. Medium authentication assurance is provided by BIO authentication mechanism, while the lowest level of authenication assurance is afforded by PKI-CAK, SYM-CAK and SM-AUTH. 
+The PIV Card can be used to authenticate the cardholder in a physical access control environment using the authentication mechanisms described [Section 6.2](authentication.md#s-6-2). Each authentication mechanism provides a degree of authentication assurance based on its characteristics outlined in [Section 6.2](authentication.md#s-6-2), as summarized in [Table 6-1](authentication.md#table-6-1).
 
 [Table 6-1. PIV Authentication Mechanisms for Physical Access](authentication.md#table-6-1){:name="table-6-1"}
 {:latex-ignore="true"}
