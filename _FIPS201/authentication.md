@@ -41,7 +41,7 @@ individuals and organizations that could occur as a result of errors in the auth
 cardholder. Once the required assurance level has been determined, one of the authentication mechanisms
 specified in [Section 6.2](authentication.md#s-6-2) **SHALL** be applied to achieve that assurance level.
 
-[^compensating]: As described in [Section 2.7](requirements.md#s-2-7), compensating controls can be applied for identity source documents evidence to achieve IAL3 since the Standard only specifies one piece of Strong evidence and one other piece of Fair evidence. Issuance of PIV Card meets IAL3 since the federal background investigation serves as a camparable compensating control for IAL3 identity proofing. 
+[^compensating]: As described in [Section 2.7](requirements.md#s-2-7), compensating controls can be applied for identity source documents evidence to achieve IAL3 since the Standard only specifies one piece of Strong evidence and one other piece of Fair evidence. Issuance of PIV Card meets IAL3 since the federal background investigation serves as a comparable compensating control for IAL3 identity proofing. 
 
 
 ### 6.1.1 Relationship to Federal Identity Policy (Removed) {#s-6-1-1}
