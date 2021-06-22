@@ -321,7 +321,7 @@ assurance levels. The assurance levels used for remote/networked access within t
 NIST [[SP 800-63]](../_Appendix/references.md#ref-SP-800-63), which specifies a digital identity risk management process that is cited by OMB [[M-19-17]](../_Appendix/references.md#ref-OMB1917).
 
 The following subsections specify which PIV
-authentication mechanisms **CAN** be used to support the various identity assurance levels
+authentication mechanisms can be used to support the various identity assurance levels
 described in this section. Two or more authentication mechanisms **MAY** be applied in
 unison to achieve additional assurance of the identity of the PIV cardholder. For example, PKI-AUTH and BIO may be applied in unison to achieve additional assurance of cardholder identity.
 
