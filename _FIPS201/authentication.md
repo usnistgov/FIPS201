@@ -391,10 +391,7 @@ meet the requirements for a lower assurance level.
 |PKI-AUTH|AA3|
 {:latex-table="6-1" latex-caption="PIV Authentication Mechanisms for Remote/Network Access"}
 
-The [[SP 800-63]](../_Appendix/references.md#ref-SP-800-63) defined authenticator assurance level apply to networked/remote access and not for local authentication (e.g.; authentication to a resource co-located with the cardholder). Nevertheless, the assurance levels and associated authentication mechanism listed in [Table 6-1](authentication.md#table-6-1) **MAY** be used for local authentication. In addition, local authentication **MAY** use BIO for medium assurance while BIO-A and OCC-AUTH **MAY** be applied to high assurance local environments. An authentication mechanism that is suitable for a higher assurance level can also be applied to meet the requirements for a lower assurance level
-
-[Table 6-3](authentication.md#table-6-2 lists the authentication mechanisms defined for this Standard to support logical access
-control for remote/networked access
+The [[SP 800-63]](../_Appendix/references.md#ref-SP-800-63) defined authenticator assurance levels are not specified for local authentication use cases (e.g.; authentication to a resource co-located with the cardholder). Nevertheless, the PIV authentication mechanisms provide for gradulated levels of authentication assurance for local authentication use cases based on its characteristics outlined in [Section 6.2](authentication.md#s-6-2). The assurance provided by each of the PIV authentication mechanisms for local authentication use cases is summarized in [Table 6-3](authentication.md#table-6-3).
 
 [Table 6-3. PIV Authentication Mechanisms for Local Workstation Access](authentication.md#table-6-1){:name="table-6-3"}
 {:latex-ignore="true"}
