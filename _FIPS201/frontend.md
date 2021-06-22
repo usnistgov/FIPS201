@@ -823,8 +823,7 @@ check is successful, the PIV Card is activated. The PIV Card **SHALL** include m
 activation of the card after a number of consecutive failed activation attempts. A maximum of 10
 consecutive PIN retries **SHALL** be permitted unless a lower limit is imposed by the department or agency.
 
-The PIN should not be easily guessable or otherwise individually identifiable in nature (e.g., part of a
-Social Security Number or phone number). The PIN **SHALL** be a minimum of six digits in length. The PIV Card **SHALL** compare the chosen PIN against a list of at least 10 commonly-chosen values (e.g., 000000, 123456) and require the choice of a different value if one of those is selected by the cardholder.
+The card management system **SHALL** guide the cardholder in selecting a strong PIN value. The PIN **SHALL** be a minimum of six digits in length and **SHOULD NOT** be easily guessable, individually identifiable (e.g., part of a Social Security Number or phone number), or commonly used (e.g., 000000, 123456).   
 
 ### 4.3.2 Activation by Card Management System {#s-4-3-2}
 
@@ -868,7 +867,7 @@ The content of this section has been removed since the PIV middleware specified 
 ### 4.4.4 Card Activation Device Requirements {#s-4-4-4}
 
 When the PIV Card is used with a PIN or OCC data for physical access, the input device **SHALL** be
-integrated with the PIV Card reader. When the PIV Card is used with a PIN or OCC data for logical
+integral to (i.e., built into) the PIV Card reader. When the PIV Card is used with a PIN or OCC data for logical
 access (e.g., to authenticate to a website or other server), the input device is not required to be integrated
 with the PIV Card reader. If the input device is not integrated with the PIV Card reader, the PIN or
 OCC data **SHALL** be transmitted securely and directly to the PIV Card for card activation.
