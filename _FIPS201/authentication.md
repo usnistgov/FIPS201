@@ -388,7 +388,7 @@ meet the requirements for a lower assurance level.
 |PIV Authentication Mechanism|Supported Authenticator Assurance Level|
 |---|---|
 |PKI-CAK|AAL1|
-|PKI-AUTH|AA3|
+|PKI-AUTH|AAL3|
 {:latex-table="6-1" latex-caption="PIV Authentication Mechanisms for Remote/Network Access"}
 
 The [[SP 800-63]](../_Appendix/references.md#ref-SP-800-63) defined authenticator assurance levels are not specified for local authentication use cases (e.g.; authentication to a resource co-located with the cardholder). Nevertheless, the PIV authentication mechanisms provide for graduated levels of authentication assurance for local authentication use cases based on their characteristics outlined in [Section 6.2](authentication.md#s-6-2). The assurance provided by each of the PIV authentication mechanisms for local authentication use cases is summarized in [Table 6-3](authentication.md#table-6-3).
