@@ -326,7 +326,7 @@ described in this section. Two or more authentication mechanisms **MAY** be appl
 unison to achieve additional assurance of the identity of the PIV cardholder. For example, PKI-AUTH and BIO may be applied in unison to achieve additional assurance of cardholder identity.
 
 Adequately designed and implemented relying systems can achieve the PIV Card
-assurance levels stated in [Section 6.3.1](authentication.md#s-6-3-1) for physical access and in  [Section 6.3.2](authentication.md#s-6-3-2) for logical access. Relying systems that are inadequately designed
+assurance levels stated in [Section 6.3.1](authentication.md#s-6-3-1) for physical access and in [Section 6.3.2](authentication.md#s-6-3-2) for logical access. Relying systems that are inadequately designed
 or implemented may only achieve lower assurance levels. The design of the
 components of relying systems&mdash;including card readers, biometric capture devices, cryptographic modules, and
 key management systems&mdash;involves many factors not fully specified by FIPS 201, such as correctness of
