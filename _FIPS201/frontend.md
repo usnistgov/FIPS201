@@ -867,7 +867,7 @@ The content of this section has been removed since the PIV middleware specified 
 ### 4.4.4 Card Activation Device Requirements {#s-4-4-4}
 
 When the PIV Card is used with a PIN or OCC data for physical access, the input device **SHALL** be
-integrated with the PIV Card reader. When the PIV Card is used with a PIN or OCC data for logical
+integral to (e.g., built-in) the PIV Card reader. When the PIV Card is used with a PIN or OCC data for logical
 access (e.g., to authenticate to a website or other server), the input device is not required to be integrated
 with the PIV Card reader. If the input device is not integrated with the PIV Card reader, the PIN or
 OCC data **SHALL** be transmitted securely and directly to the PIV Card for card activation.
