@@ -350,13 +350,13 @@ The PIV Card can be used to authenticate the cardholder in a physical access con
 
 |PIV Authentication Mechanism|Assurance Provided|
 |---|---|
-|PKI-CAK|Some confidence in the asserted identity's validity|
-|SYM-CAK|Some confidence in the asserted identity's validity|
-|SM-AUTH|Some confidence in the asserted identity's validity|
-|BIO|Medium confidence in the asserted identity's validity|
-|BIO-A|High confidence in the asserted identity's validity|
-|OCC-AUTH|High confidence in the asserted identity's validity|
-|PKI-AUTH|High confidence in the asserted identity's validity|
+|PKI-CAK|Some confidence in the asserted identity|
+|SYM-CAK|Some confidence in the asserted identity|
+|SM-AUTH|Some confidence in the asserted identity|
+|BIO|Medium confidence in the asserted identity|
+|BIO-A|High confidence in the asserted identity|
+|OCC-AUTH|High confidence in the asserted identity|
+|PKI-AUTH|High confidence in the asserted identity|
 
 {:latex-table="6-1" latex-caption="PIV Authentication Mechanisms for Physical Access"}
 
@@ -398,10 +398,10 @@ The [[SP 800-63]](../_Appendix/references.md#ref-SP-800-63) defined authenticato
 
 |PIV Authentication Mechanism|Assurance Provided|
 |---|---|
-|PKI-CAK|Some confidence in the asserted identity's validity|
-|BIO|Medium confidence in the asserted identity's validity|
-|BIO-A|High confidence in the asserted identity's validity|
-|OCC-AUTH|High confidence in the asserted identity's validity|
-|PKI-AUTH|High confidence in the asserted identity's validity|
+|PKI-CAK|Some confidence in the asserted identity|
+|BIO|Medium confidence in the asserted identity|
+|BIO-A|High confidence in the asserted identity|
+|OCC-AUTH|High confidence in the asserted identity|
+|PKI-AUTH|High confidence in the asserted identity|
 
 {:latex-table="6-3" latex-caption="PIV Authentication Mechanisms for Local Workstation Access"}
