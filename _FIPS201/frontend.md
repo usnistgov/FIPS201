@@ -295,7 +295,7 @@ Zone 9F: Header
 {:latex-literal="true"}
 
 Zone 11F: Agency Seal
-: If used, the seal selected by the issuing department, agency, or organization
+: The Agency seal in Zone 11F may become a mandatory field in the next revision of the Standard. If used, the seal selected by the issuing department, agency, or organization
     **SHALL** be printed in the area depicted. It **SHALL** be printed using the guidelines provided in [Figure 4-2](frontend.md#fig-4-2) to
     ensure that information printed on the seal is legible and clearly visible.
 

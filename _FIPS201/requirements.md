@@ -25,8 +25,7 @@ electronically; and (d) is issued only by providers whose reliability has been e
 accreditation process.
 
 
-Each agency's PIV implementation **SHALL** meet the four control objectives (a) through (d) listed above
-such that
+Each agency's PIV implementation **SHALL** meet the control objectives listed above including, but not limited to, processes that ensure that
 
 + A credential is issued to an individual only after a proper authority has authorized issuance of the credential, the individual's identity has been verified, and the individual has been vetted per [Section 2.2](requirements.md#s-2-2).
 + A credential is issued only after an individual’s eligibility has been favorably adjudicated
