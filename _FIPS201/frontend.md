@@ -823,8 +823,7 @@ check is successful, the PIV Card is activated. The PIV Card **SHALL** include m
 activation of the card after a number of consecutive failed activation attempts. A maximum of 10
 consecutive PIN retries **SHALL** be permitted unless a lower limit is imposed by the department or agency.
 
-The PIN should not be easily guessable or otherwise individually identifiable in nature (e.g., part of a
-Social Security Number or phone number). The PIN **SHALL** be a minimum of six digits in length. The PIV Card **SHALL** compare the chosen PIN against a list of at least 10 commonly-chosen values (e.g., 000000, 123456) and require the choice of a different value if one of those is selected by the cardholder.
+The card management system **SHALL** guide the cardholder in selecting a strong PIN value. The PIN **SHALL** be a minimum of six digits in length and should not be easily guessable, otherwise individually identifiable in nature (e.g., part of a Social Security Number or phone number) or commonly-used (e.g., 000000, 123456).   
 
 ### 4.3.2 Activation by Card Management System {#s-4-3-2}
 
