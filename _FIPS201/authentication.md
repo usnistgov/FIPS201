@@ -343,7 +343,7 @@ The authentication mechanisms described in the subsections below apply specifica
 
 ### 6.3.1 Physical Access {#s-6-3-1}
 
-The PIV Card can be used to authenticate the cardholder in a physical access control environment using the authentication mechanisms described [Section 6.2](authentication.md#s-6-2). Each authentication mechanism provides a degree of authentication assurance based on its characteristics outlined in [Section 6.2](authentication.md#s-6-2), as summarized in [Table 6-1](authentication.md#table-6-1).
+The PIV Card can be used to authenticate the cardholder in a physical access control environment using the authentication mechanisms described in [Section 6.2](authentication.md#s-6-2). Each authentication mechanism provides a degree of physical security assurance based on its characteristics outlined in [Section 6.2](authentication.md#s-6-2), as summarized in [Table 6-1](authentication.md#table-6-1).
 
 [Table 6-1. PIV Authentication Mechanisms for Physical Access](authentication.md#table-6-1){:name="table-6-1"}
 {:latex-ignore="true"}
