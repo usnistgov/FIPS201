@@ -227,6 +227,11 @@ Available at <https://www.pcscworkgroup.com/specifications/>
 *X.509 Certificate and Certificate Revocation List (CRL) Extensions Profile for the Shared Service Providers (SSP) Program.*
 (Federal CIO Council), Version 1.9 [or as amended].
 
+[[PublicSans]](references.md#ref-PublicSans){:name="ref-PublicSans"} U.S. Web Design Systems
+Public Sans Typeface.
+(U.S. Web Design Systems).
+Available at <https://public-sans.digital.gov/>
+
 ~~~
 \clearpage
 ~~~
