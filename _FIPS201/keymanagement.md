@@ -21,7 +21,7 @@ CAs that issue certificates to support PIV private keys **SHALL** participate in
 for the Common Policy managed by the Federal PKI. 
 
 CA certificates **SHALL** conform to
-[[PROF]](../_Appendix/references.md#ref-PROF).
+[[COMMON]](../_Appendix/references.md#ref-COMMON).
 
 ## 5.2 PKI Certificate {#s-5-2}
 
