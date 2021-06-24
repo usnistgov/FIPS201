@@ -285,7 +285,7 @@ vary depending on the country.
 
 ### 2.7.1 Supervised Remote Identity Proofing {#s-2-7-1}
 
-Departments and agencies **MAY** use a supervised remote identity proofing process for the issuance of PIV Cards. This process involves the use of an issuer-controlled station at a remote location that is connected to a trained operator at a central location. The goal of this arrangement is to permit identity proofing of individuals in remote locations where it is not practical for them to travel to the agency for in-person identity proofing.
+Departments and agencies **MAY** use a supervised remote identity proofing process for the identity proofing of PIV Card applicants. This process involves the use of an issuer-controlled station at a remote location that is connected to a trained operator at a central location. The goal of this arrangement is to permit identity proofing of individuals in remote locations where it is not practical for them to travel to the agency for in-person identity proofing.
 
 Supervised remote identity proofing takes advantage of improvements in sensor technology (e.g., cameras and biometric capture devices) and communications bandwidth to closely duplicate the security of in-person identity proofing. This is done through the use of specialized equipment to support an enrollment station that is under the control of either the issuer or a third party that is trusted by the issuer.
 
@@ -384,6 +384,18 @@ and compare the cardholder with the electronic facial image retrieved from the e
 printed on the new PIV Card.
 
 [^lapse]: For the purposes of this section, a lapse is considered to be brief if it is not long enough to require that a new or updated background investigation be performed consistent with Executive Agents' guidance. 
+
+### 2.8.3 Remote Issuance {#s-2-8-3}
+
+Departments and agencies **MAY** use a supervised remote identity proofing station as described in [Section 2.7.1](requirements.md#s-2-7-1) for the processes involved in the issuance of PIV Cards. This involves the use of an issuer-controlled station at a remote location that is connected to a trained operator at a central location. The goal of this arrangement is to permit issuance to individuals in remote locations where it is not practical for them to travel to the agency for in-person issuance of their PIV credential.
+
+Remote issuance **SHALL** satisfy all of the requirements of [Section 2.8](requirements.md#s-2-8). The issuer **SHALL** have local trained staff to securely maintain custody of card stock received by the remote station when the station is used for PIV Card issuance.
+
+If biometric data cannot be positively verified per the criteria defined in [[SP 800-76]](../_Appendix/references.md#ref-SP-800-76), remote issuance **SHALL NOT** be used and issuance will be performed in person at the issuer’s facility.
+The trained operator **SHALL** terminate a remote issuance
+session and require in-person issuance at an issuing facility if
+there is reasonable basis to believe[^believe] that the applicant is attempting
+to bypass protection capabilities of the station.
 
 ## 2.9 PIV Card Maintenance Requirements {#s-2-9}
 
