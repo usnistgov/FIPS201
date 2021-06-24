@@ -769,7 +769,7 @@ the CHUID, the `certificates` field of the CMS external digital signature **SHAL
 Additional descriptions for the PIV object identifiers are provided in [Appendix B](../_Appendix/oid.md#s-b). The content
 signing certificate **SHALL NOT** expire before the expiration of the card authentication certificate.
 
-[^notInBioRec]: The biometric record's CMS external digital signature`certificates` field is omitted.
+[^notInBioRec]: The biometric record's CMS external digital signature `certificates` field is omitted.
 
 #### 4.2.3.3 Biometric Data Record Access {#s-4-2-3-3}
 
