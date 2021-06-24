@@ -49,7 +49,9 @@ specified in [Section 6.2](authentication.md#s-6-2) **SHALL** be applied to achi
 
 > Note: This section was formerly entitled "Relationship to OMB’s E-Authentication Guidance."
 
-The content of this section has been removed since OMB [[M-04-04]](../_Appendix/references.md#ref-OMB0404) has been rescinded by OMB [[M-19-17]](../_Appendix/references.md#ref-OMB1917), which recognizes the IALs defined in NIST [[SP 800-63]](../_Appendix/references.md#ref-SP-800-63) as the framework for managing digital identity risks within the Federal Government. A mapping between PIV authentication mechanisms and SP 800-63 assurance levels can be found in [Section 6.3.2](authentication.md#s-6-3-2).
+The content of this section has been removed since OMB [[M-04-04]](../_Appendix/references.md#ref-OMB0404) has been rescinded by OMB [[M-19-17]](../_Appendix/references.md#ref-OMB1917), which recognizes the IALs and AALs defined in NIST [[SP 800-63]](../_Appendix/references.md#ref-SP-800-63) as the framework for managing digital identity risks within the Federal Government. The requirements stated by [[HSPD-12]](../_Appendix/references.md#ref-HSPD-12) sill apply under this new memorandum. 
+
+A mapping between PIV authentication mechanisms and SP 800-63 authenticator assurance levels can be found in [Section 6.3.2](authentication.md#s-6-3-2).
 
 ## 6.2 PIV Card Authentication Mechanisms {#s-6-2}
 
