@@ -146,8 +146,11 @@ right corner or in the lower portion. Printing restrictions apply only to the ar
 embedded module is located.
 
 Unless otherwise specified, all data labels **SHALL** be printed in 5&nbsp;pt Arial with the corresponding
-data in 6&nbsp;pt Arial Bold. Unless otherwise specified, all text **SHALL** be printed in black.
-
+data in 6&nbsp;pt Arial Bold.
+If the Arial font is not available, a visually similar font such as Public Sans [[PublicSans]](../_Appendix/references#ref-PublicSans) **MAY** 
+be substituted for all references to Arial within this document. If such a substitution is made, the substitution
+**SHALL** be consistently applied to all uses of the Arial font.
+ Unless otherwise specified, all text **SHALL** be printed in black.
 #### 4.1.4.1 Mandatory Items on the Front of the PIV Card {#s-4-1-4-1}
 
 Zone 1F: Photograph
