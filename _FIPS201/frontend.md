@@ -760,13 +760,13 @@ facilitates the verification of the integrity of the biometric data record. The 
 encoded as a CMS external digital signature as specified in [[SP 800-76]](../_Appendix/references.md#ref-SP-800-76). The algorithm and key size
 requirements for the digital signature and digest algorithm are detailed in [[SP 800-78]](../_Appendix/references.md#ref-SP-800-78).
 
-The public key required to verify the digital signature **SHALL** be contained in a content signing certificate,
-which **SHALL** be issued under the `id-fpki-common-piv-contentSigning` policy of [[COMMON]](../_Appendix/references.md#ref-COMMON). The content
-signing certificate **SHALL** also include an extended key usage (`extKeyUsage`) extension asserting `id-PIV-content-signing`. If the signature on the biometric data record was generated with a different key than the signature on
-the CHUID, the `certificates` field of the CMS external digital signature **SHALL** include the content signing
-certificate required to verify the signature on the biometric data record. Otherwise, the `certificates` field **SHALL** be
-omitted. Additional descriptions for the PIV object identifiers are provided in [Appendix B](../_Appendix/oid.md#s-b). The content
+The public key required to verify the digital signature **SHALL** be in a content signing certificate,
+which **SHALL** be issued under the `id-fpki-common-piv-contentSigning` policy of [[COMMON]](../_Appendix/references.md#ref-COMMON) and **SHALL** include an extended key usage (`extKeyUsage`) extension asserting `id-PIV-content-signing`. The signature on the biometric data record is generated with the same signing key as the signature on the CHUID data object. The public key required to verify the digital signature is contained in the CHUID data object's content signing certificate [^notInBioRec] as detailed in [Section 4.2.1](frontend.md#s-4-2-1). Note this Standard has an option to use a different signing key to sign the biometric data record than the key that signed the CHUID data object. However, Department and Agenices have not excersised the option and the feature will be deprecated in the next revision of the Standard if it remains unutilized.  
+
+Additional descriptions for the PIV object identifiers are provided in [Appendix B](../_Appendix/oid.md#s-b). The content
 signing certificate **SHALL NOT** expire before the expiration of the card authentication certificate.
+
+[^notInBioRec]: The biometric record's CMS external digital signature`certificates` field is omitted.
 
 #### 4.2.3.3 Biometric Data Record Access {#s-4-2-3-3}
 
