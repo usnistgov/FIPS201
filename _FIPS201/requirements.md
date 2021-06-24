@@ -291,9 +291,9 @@ Supervised remote identity proofing takes advantage of improvements in sensor te
 
 The following forms of protection **SHALL** be provided by either inherent capabilities of the station or staff at the station location:
 
-* ensuring that only the applicant interacts with the station during any session,
-* ensuring that the physical integrity of the station (e.g., door locks, restricted access) and integral nature of its sensor devices (e.g., fingerprint readers and cameras) are maintained at all times to protect against tampering, removal, or replacement, 
-* ensuring that no malicious code[^malicious] is introduced to compromise or otherwise impair the station and the PIV Card, and
+* ensuring that only the applicant interacts with the station during any session;
+* ensuring that the physical integrity of the station (e.g., door locks, restricted access) and integral nature of its sensor devices (e.g., fingerprint readers and cameras) are maintained at all times to protect against tampering, removal, or replacement; 
+* ensuring that no malicious code[^malicious] is introduced to compromise or otherwise impair the station and the PIV Card; and
 * reporting any problems with the station to the issuer.
 
 Supervised remote identity proofing **SHALL** meet the following requirements:
