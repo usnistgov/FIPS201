@@ -117,8 +117,6 @@ thickness added due to a laminate layer **SHALL NOT** interfere with the smart c
 card material **SHALL** allow production of a flat card in accordance with [[ISO 7810]](../_Appendix/references.md#ref-ISO7810) after lamination of
 one or both sides of the card.
 
-The PIV Card **MAY** be subjected to additional testing.
-
 [^orientation]: For some individuals, the contact surface for the ICC may be sufficient for determining the orientation of the card.
 
 ### 4.1.4 Visual Card Topography {#s-4-1-4}
