@@ -391,7 +391,7 @@ Departments and agencies **MAY** use a supervised remote identity proofing stati
 
 Remote issuance **SHALL** satisfy all of the requirements of [Section 2.8](requirements.md#s-2-8). The issuer **SHALL** have local trained staff to securely maintain custody of card stock received by the remote station when the station is used for PIV Card issuance.
 
-If biometric data cannot be collected per the criteria defined in [[SP 800-76]](../_Appendix/references.md#ref-SP-800-76), remote issuance **SHALL NOT** be used and issuance will be performed in person at the issuer’s facility.
+If biometric data cannot be positively verified per the criteria defined in [[SP 800-76]](../_Appendix/references.md#ref-SP-800-76), remote issuance **SHALL NOT** be used and issuance will be performed in person at the issuer’s facility.
 The trained operator **SHALL** terminate a remote issuance
 session and require in-person issuance at an issuing facility if
 there is reasonable basis to believe[^believe] that the applicant is attempting
