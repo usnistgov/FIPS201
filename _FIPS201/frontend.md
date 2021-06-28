@@ -696,7 +696,7 @@ PIV digital signature keys.
 
 #### 4.2.2.5 Key Management Key {#s-4-2-2-5}
 This key **MAY** be generated on the PIV Card or imported to the card. If
-present, the cryptographic operations that use the key management key **SHALL** available through 
+present, the cryptographic operations that use the key management key **SHALL** be available through 
 the contact and virtual contact interfaces of the PIV Card and **SHALL NOT** be available through the contactless interface of the PIV Card. Private key operations **MAY** be
 performed using an activated PIV Card without explicit user action (e.g., the PIN need not be
 supplied for each operation).
