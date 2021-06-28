@@ -709,7 +709,7 @@ key management keys.
 If present, the PIV Card application administration
 key **SHALL** be imported onto the card by the issuer. If present, the cryptographic operations that use
 the PIV Card application administration key **SHALL** be available through the contact interface of
-the PIV Card and **SHALL NOT** be available through the virtual contact interface of the PIV Card.
+the PIV Card and **SHALL NOT** be available through the virtual contact and contactless interfaces of the PIV Card.
 
 #### 4.2.2.7 PIV Secure Messaging Key  {#s-4-2-2-7}
 
