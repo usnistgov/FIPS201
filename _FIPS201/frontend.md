@@ -633,8 +633,8 @@ management requirements are also specified.
 #### 4.2.2.1 PIV Authentication Key {#s-4-2-2-1}
 This key **SHALL** be generated on the PIV Card. The PIV Card **SHALL NOT**
 permit exportation of the PIV authentication key. The cryptographic operations that use the PIV
-authentication key **SHALL** be available only through the contact and virtual contact interfaces of the
-PIV Card. Private key operations **MAY** be performed using an activated PIV Card without explicit
+authentication key **SHALL** be available through the contact interface and **MAY** additionally be available over the virtual contact interface of the
+PIV Card. Operations that use the PIV authentication key **SHALL NOT** be available through the contactless interface of the PIV Card. Private key operations **MAY** be performed using an activated PIV Card without explicit
 user action (e.g., the PIN need not be supplied for each operation).
 
 The PIV Card **SHALL** store a corresponding X.509 certificate to support validation of the public key.
@@ -652,7 +652,7 @@ specifies the certificate format and the key management infrastructure for the P
 The asymmetric card authentication key **MAY** be generated
 on the PIV Card or imported to the card. The PIV Card **SHALL NOT** permit exportation of the card
 authentication key. Cryptographic operations that use the card authentication key **SHALL** be available
-through the contact and contactless interfaces of the PIV Card. Private key operations **MAY** be
+through the contact and contactless interfaces of the PIV Card and **SHALL NOT** be available through the virtual contact interface of the PIV card. Private key operations **MAY** be
 performed using this key without card activation (e.g., the PIN need not be supplied for operations
 with this key).
 
@@ -673,15 +673,15 @@ onto the card by the issuer or be generated on the card. If present, the symmetr
 key **SHALL** be unique for each PIV Card and **SHALL** meet the algorithm and key size requirements stated
 in [[SP 800-78]](../_Appendix/references.md#ref-SP-800-78). If present, cryptographic operations using this key **MAY** be performed without card
 activation (e.g., the PIN need not be supplied for operations with this key). The cryptographic
-operations that use the card authentication key **SHALL** be available through the contact and
-contactless interfaces of the PIV Card. This Standard does not specify key management protocols or
+operations that use the symmetric card authentication key **SHALL** be available through the contact and
+contactless interfaces of the PIV Card and **SHALL NOT** be available through the virtual contact interface of the PIV Card. This Standard does not specify key management protocols or
 infrastructure requirements.
 
 #### 4.2.2.4 Digital Signature Key {#s-4-2-2-4}
 The PIV digital signature key **SHALL** be generated on the PIV Card. The PIV
 Card **SHALL NOT** permit exportation of the digital signature key. If this key is present, cryptographic operations
-using the digital signature key **SHALL** be performed using the contact and virtual contact
-interfaces of the PIV Card. Private key operations **SHALL NOT** be performed without explicit user action,
+that use the digital signature key **SHALL** be available through the contact interface and **MAY** additionally be available over the virtual contact
+interface of the PIV Card. Operations that use the digital signature key **SHALL NOT** be available through the contactless interface of the PIV Card. Private key operations **SHALL NOT** be performed without explicit user action,
 as this Standard requires the cardholder to authenticate to the PIV Card each time it performs a
 private key computation with the digital signature key.[^cardholderauthentication]
 
@@ -694,8 +694,8 @@ PIV digital signature keys.
 
 #### 4.2.2.5 Key Management Key {#s-4-2-2-5}
 This key **MAY** be generated on the PIV Card or imported to the card. If
-present, the cryptographic operations that use the key management key **SHALL** only be accessible using
-the contact and virtual contact interfaces of the PIV Card. Private key operations **MAY** be
+present, the cryptographic operations that use the key management key **SHALL** be available through 
+the contact interface and **MAY** additionally be available over the virtual contact interface of the PIV Card. Operations that use the key management key **SHALL NOT** be available through the contactless interface of the PIV Card. Private key operations **MAY** be
 performed using an activated PIV Card without explicit user action (e.g., the PIN need not be
 supplied for each operation).
 
@@ -706,8 +706,8 @@ key management keys.
 #### 4.2.2.6 PIV Card Application Administration Key {#s-4-2-2-6}
 If present, the PIV Card application administration
 key **SHALL** be imported onto the card by the issuer. If present, the cryptographic operations that use
-the PIV Card application administration key **SHALL** only be accessible using the contact interface of
-the PIV Card.
+the PIV Card application administration key **SHALL** be available through the contact interface of
+the PIV Card and **SHALL NOT** be available through the virtual contact and contactless interfaces of the PIV Card.
 
 #### 4.2.2.7 PIV Secure Messaging Key  {#s-4-2-2-7}
 
