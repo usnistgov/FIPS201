@@ -168,7 +168,7 @@ PIV Card Issuance
     and issuance of the card to the intended applicant.
 
 PKI Credential Issuance
-: Generation of logical credentials and loading them
+: Generation of PKI credentials and loading them
     onto the PIV Card.
 
 PIV Card Usage
