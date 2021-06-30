@@ -542,7 +542,7 @@ Supervised remote identity proofing station
     procedure. The operator **SHALL** initiate a biometric verification to ensure that
     the cardholder's biometric characteristics captured at the station elicit a
     positive biometric verification decision when compared to biometric data
-    records stored in the PIV enrollment record or when compared to the biometric data records on the PIV Card and using the BIO-A or OCC-AUTH authentication mechanisms. In
+    records stored in the PIV enrollment record or when compared to the biometric data records on the PIV Card using the BIO-A or OCC-AUTH authentication mechanisms. In
     cases where a negative biometric verification decision is returned or the
     cardholder's biometric characteristics are not successfully acquired, the
     cardholder **SHALL** provide the PIV Card to be reset and another primary identity
@@ -594,7 +594,7 @@ Supervised remote identity proofing station
     characteristics captured at the station elicit a positive biometric
     verification decision when compared to biometric data records stored in the
     PIV enrollment record or when compared to the biometric data records on the
-    PIV Card and using the BIO-A authentication
+    PIV Card using the BIO-A authentication
     mechanism.[^occ_reset_characteristic] In cases where a negative biometric
     verification decision is returned or the cardholder's biometric
     characteristics are not successfully acquired, the cardholder **SHALL**
