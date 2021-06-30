@@ -586,7 +586,7 @@ In person
     the enrollment data record and the photograph printed on the PIV Card.
 
 Supervised remote identity proofing station
-: PIN reset at a supervised remote identity proofing station combines the 
+: OCC reset at a supervised remote identity proofing station combines the
     assurance of an in-person reset with the convenience of a kiosk reset. All
     protections and requirements of [Section 2.7.1](requirements.md#s-2-7-1)
     **SHALL** be observed during the procedure. The operator **SHALL** initiate
