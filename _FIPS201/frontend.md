@@ -117,8 +117,6 @@ thickness added due to a laminate layer **SHALL NOT** interfere with the smart c
 card material **SHALL** allow production of a flat card in accordance with [[ISO 7810]](../_Appendix/references.md#ref-ISO7810) after lamination of
 one or both sides of the card.
 
-The PIV Card **MAY** be subjected to additional testing.
-
 [^orientation]: For some individuals, the contact surface for the ICC may be sufficient for determining the orientation of the card.
 
 ### 4.1.4 Visual Card Topography {#s-4-1-4}
@@ -146,8 +144,11 @@ right corner or in the lower portion. Printing restrictions apply only to the ar
 embedded module is located.
 
 Unless otherwise specified, all data labels **SHALL** be printed in 5&nbsp;pt Arial with the corresponding
-data in 6&nbsp;pt Arial Bold. Unless otherwise specified, all text **SHALL** be printed in black.
-
+data in 6&nbsp;pt Arial Bold.
+If the Arial font is not available, a visually similar font, such as Public Sans [[PublicSans]](../_Appendix/references#ref-PublicSans), **MAY** 
+be substituted for all references to Arial within this Standard. If such a substitution is made, the substitution
+**SHALL** be consistently applied to all uses of the Arial font on the PIV Card.
+ Unless otherwise specified, all text **SHALL** be printed in black.
 #### 4.1.4.1 Mandatory Items on the Front of the PIV Card {#s-4-1-4-1}
 
 Zone 1F: Photograph
@@ -209,7 +210,7 @@ Zone 14F: Card Expiration Date
 : The card expiration date **SHALL** be printed on the card as depicted in
     [Figure 4-1](frontend.md#fig-4-1). The card expiration date **SHALL** be in a YYYYMMMDD format. The YYYY characters
     represent the four-digit year; the DD characters represent the two-digit day of the month; and the MMM characters
-    represent the three-letter month abbreviation as follows: JAN, FEB, MAR, APR, **MAY**, JUN, JUL, AUG,
+    represent the three-letter month abbreviation as follows: JAN, FEB, MAR, APR, MAY, JUN, JUL, AUG,
     SEP, OCT, NOV, and DEC. The Zone 14F expiration date **SHALL** be printed in 6&nbsp;pt to 9&nbsp;pt Arial Bold.
 
 Zone 15F: Color-Coding for Employee Affiliation
@@ -235,7 +236,7 @@ Zone 19F: Card Expiration Date
 : The card expiration date **SHALL** be printed in a MMMYYYY format in
     the upper right-hand corner as depicted in [Figure 4-1](frontend.md#fig-4-1). The YYYY characters
     represent the four-digit year and the MMM characters
-    represent the three-letter month abbreviation as follows: JAN, FEB, MAR, APR, **MAY**, JUN, JUL, AUG,
+    represent the three-letter month abbreviation as follows: JAN, FEB, MAR, APR, MAY, JUN, JUL, AUG,
     SEP, OCT, NOV, and DEC. The Zone 19F expiration date **SHALL** be printed in
     12&nbsp;pt Arial Bold.
 
@@ -295,13 +296,13 @@ Zone 9F: Header
 {:latex-literal="true"}
 
 Zone 11F: Agency Seal
-: If used, the seal selected by the issuing department, agency, or organization
+: The Agency seal in Zone 11F may become a mandatory field in the next revision of the Standard. If used, the seal selected by the issuing department, agency, or organization
     **SHALL** be printed in the area depicted. It **SHALL** be printed using the guidelines provided in [Figure 4-2](frontend.md#fig-4-2) to
     ensure that information printed on the seal is legible and clearly visible.
 
 Zone 12F: Footer
-: If used as the federal emergency response official identification
-    label, a department or agency **SHALL** print "Federal Emergency Response Official" as depicted in
+: If the PIV Card is used to identify a federal emergency response official,
+    a department or agency **SHALL** print "Federal Emergency Response Official" as depicted in
     [Figure 4-2](frontend.md#fig-4-2). The label **SHOULD** be in white lettering on a red background. Additional information
     regarding the federal emergency responder role **MAY** be included in Zone 9F, as depicted in [Figure 4-2](frontend.md#fig-4-2).
     
@@ -317,7 +318,7 @@ Zone 13F: Issue Date
 : If used, the card issuance date **SHALL** be printed above the Zone 14F expiration
     date in YYYYMMMDD format, as depicted in [Figure 4-3](frontend.md#fig-4-3). The YYYY characters
     represent the four-digit year; the DD characters represent the two-digit day of the month; and the MMM characters
-    represent the three-letter month abbreviation as follows: JAN, FEB, MAR, APR, **MAY**, JUN, JUL, AUG,
+    represent the three-letter month abbreviation as follows: JAN, FEB, MAR, APR, MAY, JUN, JUL, AUG,
     SEP, OCT, NOV, and DEC.
 
 Zone 16F: Photograph Border
@@ -632,8 +633,8 @@ management requirements are also specified.
 #### 4.2.2.1 PIV Authentication Key {#s-4-2-2-1}
 This key **SHALL** be generated on the PIV Card. The PIV Card **SHALL NOT**
 permit exportation of the PIV authentication key. The cryptographic operations that use the PIV
-authentication key **SHALL** be available only through the contact and virtual contact interfaces of the
-PIV Card. Private key operations **MAY** be performed using an activated PIV Card without explicit
+authentication key **SHALL** be available through the contact interface and **MAY** additionally be available over the virtual contact interface of the
+PIV Card. Operations that use the PIV authentication key **SHALL NOT** be available through the contactless interface of the PIV Card. Private key operations **MAY** be performed using an activated PIV Card without explicit
 user action (e.g., the PIN need not be supplied for each operation).
 
 The PIV Card **SHALL** store a corresponding X.509 certificate to support validation of the public key.
@@ -651,7 +652,7 @@ specifies the certificate format and the key management infrastructure for the P
 The asymmetric card authentication key **MAY** be generated
 on the PIV Card or imported to the card. The PIV Card **SHALL NOT** permit exportation of the card
 authentication key. Cryptographic operations that use the card authentication key **SHALL** be available
-through the contact and contactless interfaces of the PIV Card. Private key operations **MAY** be
+through the contact and contactless interfaces of the PIV Card and **SHALL NOT** be available through the virtual contact interface of the PIV card. Private key operations **MAY** be
 performed using this key without card activation (e.g., the PIN need not be supplied for operations
 with this key).
 
@@ -672,15 +673,15 @@ onto the card by the issuer or be generated on the card. If present, the symmetr
 key **SHALL** be unique for each PIV Card and **SHALL** meet the algorithm and key size requirements stated
 in [[SP 800-78]](../_Appendix/references.md#ref-SP-800-78). If present, cryptographic operations using this key **MAY** be performed without card
 activation (e.g., the PIN need not be supplied for operations with this key). The cryptographic
-operations that use the card authentication key **SHALL** be available through the contact and
-contactless interfaces of the PIV Card. This Standard does not specify key management protocols or
+operations that use the symmetric card authentication key **SHALL** be available through the contact and
+contactless interfaces of the PIV Card and **SHALL NOT** be available through the virtual contact interface of the PIV Card. This Standard does not specify key management protocols or
 infrastructure requirements.
 
 #### 4.2.2.4 Digital Signature Key {#s-4-2-2-4}
 The PIV digital signature key **SHALL** be generated on the PIV Card. The PIV
 Card **SHALL NOT** permit exportation of the digital signature key. If this key is present, cryptographic operations
-using the digital signature key **SHALL** be performed using the contact and virtual contact
-interfaces of the PIV Card. Private key operations **SHALL NOT** be performed without explicit user action,
+that use the digital signature key **SHALL** be available through the contact interface and **MAY** additionally be available over the virtual contact
+interface of the PIV Card. Operations that use the digital signature key **SHALL NOT** be available through the contactless interface of the PIV Card. Private key operations **SHALL NOT** be performed without explicit user action,
 as this Standard requires the cardholder to authenticate to the PIV Card each time it performs a
 private key computation with the digital signature key.[^cardholderauthentication]
 
@@ -693,8 +694,8 @@ PIV digital signature keys.
 
 #### 4.2.2.5 Key Management Key {#s-4-2-2-5}
 This key **MAY** be generated on the PIV Card or imported to the card. If
-present, the cryptographic operations that use the key management key **SHALL** only be accessible using
-the contact and virtual contact interfaces of the PIV Card. Private key operations **MAY** be
+present, the cryptographic operations that use the key management key **SHALL** be available through 
+the contact interface and **MAY** additionally be available over the virtual contact interface of the PIV Card. Operations that use the key management key **SHALL NOT** be available through the contactless interface of the PIV Card. Private key operations **MAY** be
 performed using an activated PIV Card without explicit user action (e.g., the PIN need not be
 supplied for each operation).
 
@@ -705,8 +706,8 @@ key management keys.
 #### 4.2.2.6 PIV Card Application Administration Key {#s-4-2-2-6}
 If present, the PIV Card application administration
 key **SHALL** be imported onto the card by the issuer. If present, the cryptographic operations that use
-the PIV Card application administration key **SHALL** only be accessible using the contact interface of
-the PIV Card.
+the PIV Card application administration key **SHALL** be available through the contact interface of
+the PIV Card and **SHALL NOT** be available through the virtual contact and contactless interfaces of the PIV Card.
 
 #### 4.2.2.7 PIV Secure Messaging Key  {#s-4-2-2-7}
 
@@ -760,13 +761,16 @@ facilitates the verification of the integrity of the biometric data record. The 
 encoded as a CMS external digital signature as specified in [[SP 800-76]](../_Appendix/references.md#ref-SP-800-76). The algorithm and key size
 requirements for the digital signature and digest algorithm are detailed in [[SP 800-78]](../_Appendix/references.md#ref-SP-800-78).
 
-The public key required to verify the digital signature **SHALL** be contained in a content signing certificate,
-which **SHALL** be issued under the `id-fpki-common-piv-contentSigning` policy of [[COMMON]](../_Appendix/references.md#ref-COMMON). The content
-signing certificate **SHALL** also include an extended key usage (`extKeyUsage`) extension asserting `id-PIV-content-signing`. If the signature on the biometric data record was generated with a different key than the signature on
-the CHUID, the `certificates` field of the CMS external digital signature **SHALL** include the content signing
-certificate required to verify the signature on the biometric data record. Otherwise, the `certificates` field **SHALL** be
-omitted. Additional descriptions for the PIV object identifiers are provided in [Appendix B](../_Appendix/oid.md#s-b). The content
+The public key required to verify the digital signature **SHALL** be in a content signing certificate,
+which **SHALL** be issued under the `id-fpki-common-piv-contentSigning` policy of [[COMMON]](../_Appendix/references.md#ref-COMMON) and **SHALL** include an extended key usage (`extKeyUsage`) extension asserting `id-PIV-content-signing`. The signature on the biometric data record **SHOULD** be generated with the same signing key as the signature on the CHUID data object. The public key required to verify the digital signature is contained in the CHUID data object's content signing certificate[^notInBioRec] as detailed in [Section 4.2.1](frontend.md#s-4-2-1). 
+
+The use of an different content signing key from that which signs the CHUID is deprecated in this revision of the Standard.If the signature on the biometric data record was generated with a different key than the signature on
+the CHUID, the `certificates` field of the CMS external digital signature **SHALL** include the content signing certificate required to verify the signature on the biometric data record. Otherwise, the `certificates` field **SHALL** be omitted.
+
+Additional descriptions for the PIV object identifiers are provided in [Appendix B](../_Appendix/oid.md#s-b). The content
 signing certificate **SHALL NOT** expire before the expiration of the card authentication certificate.
+
+[^notInBioRec]: The biometric record's CMS external digital signature `certificates` field is omitted.
 
 #### 4.2.3.3 Biometric Data Record Access {#s-4-2-3-3}
 
@@ -823,8 +827,7 @@ check is successful, the PIV Card is activated. The PIV Card **SHALL** include m
 activation of the card after a number of consecutive failed activation attempts. A maximum of 10
 consecutive PIN retries **SHALL** be permitted unless a lower limit is imposed by the department or agency.
 
-The PIN should not be easily guessable or otherwise individually identifiable in nature (e.g., part of a
-Social Security Number or phone number). The PIN **SHALL** be a minimum of six digits in length. The PIV Card **SHALL** compare the chosen PIN against a list of at least 10 commonly-chosen values (e.g., 000000, 123456) and require the choice of a different value if one of those is selected by the cardholder.
+The card management system **SHALL** guide the cardholder in selecting a strong PIN value. The PIN **SHALL** be a minimum of six digits in length and **SHOULD NOT** be easily guessable, individually identifiable (e.g., part of a Social Security Number or phone number), or commonly used (e.g., 000000, 123456).   
 
 ### 4.3.2 Activation by Card Management System {#s-4-3-2}
 
@@ -868,7 +871,7 @@ The content of this section has been removed since the PIV middleware specified 
 ### 4.4.4 Card Activation Device Requirements {#s-4-4-4}
 
 When the PIV Card is used with a PIN or OCC data for physical access, the input device **SHALL** be
-integrated with the PIV Card reader. When the PIV Card is used with a PIN or OCC data for logical
+integral to (i.e., built into) the PIV Card reader. When the PIV Card is used with a PIN or OCC data for logical
 access (e.g., to authenticate to a website or other server), the input device is not required to be integrated
 with the PIV Card reader. If the input device is not integrated with the PIV Card reader, the PIN or
 OCC data **SHALL** be transmitted securely and directly to the PIV Card for card activation.

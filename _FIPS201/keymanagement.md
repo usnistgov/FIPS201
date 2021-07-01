@@ -21,7 +21,7 @@ CAs that issue certificates to support PIV private keys **SHALL** participate in
 for the Common Policy managed by the Federal PKI. 
 
 CA certificates **SHALL** conform to
-[[PROF]](../_Appendix/references.md#ref-PROF).
+[[COMMON]](../_Appendix/references.md#ref-COMMON).
 
 ## 5.2 PKI Certificate {#s-5-2}
 
@@ -53,7 +53,9 @@ relationship is described below:
     [[SP 800-78]](../_Appendix/references.md#ref-SP-800-78).
 
 The expiration date of the PIV authentication and card authentication certificates 
-**SHALL NOT** be after the expiration date of the PIV Card. If the card is revoked, 
+**SHALL NOT** be after the expiration date of the PIV Card. 
+The expiration date of the PIV card is printed on the card in Zone 14F (see [Section 4.1.4](#s-4-1-4)) and is contained in the CHUID data object (see [Section 4.2.1](#s-4-2-1)). 
+If the card is revoked, 
 the PIV authentication and card authentication certificates **SHALL** be revoked in cases where the card cannot be collected and destroyed.
 However, a PIV authentication or card authentication certificate **MAY** be revoked and subsequently replaced without revoking the
 PIV Card. The presence of a valid, unexpired, and unrevoked authentication

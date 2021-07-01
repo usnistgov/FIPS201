@@ -24,12 +24,12 @@ authorizations granted to that identity for access to various physical and logic
 
 The authentication mechanisms in this section describe how to authenticate using the PIV Card directly. The 
 authenticated identity can also be used to create an identity assertion as part of a federation
-protocol, as described in [Section 7](federation.md#s-7).
+protocol, as described in [Section 7](federation.md#s-7) and further specified in [[SP 800-217]](../_Appendix/references.md#ref-SP-800-217).
 
 ## 6.1 PIV Assurance Levels {#s-6-1}
 
 This Standard defines multiple levels of assurance for logical and physical access. Each assurance level establishes a degree of confidence that the presenter of
-the PIV Card is the person referred to by the PIV credential. The entity performing the authentication further establishes confidence that the person referred to by the PIV credential is a specific person identified through the rigor of the identity proofing process conducted prior to issuance of the PIV Card and the security of the PIV Card issuance and maintenance processes specified in [Section 2](requirements.md#s-2). The PIV identity proofing, registration, issuance, and maintenance processes meet or exceed the
+the PIV Card is the person referred to by the PIV credential. The entity performing the authentication further establishes confidence that the person referred to by the PIV credential is a specific person identified through the rigor of the identity proofing process conducted prior to issuance of the PIV Card and the security of the PIV Card and issuance and maintenance processes specified in [Section 2](requirements.md#s-2). The PIV identity proofing, registration, issuance, and maintenance processes meet [^compensating] the
 requirements for IAL3, as defined in [[SP 800-63A]](../_Appendix/references.md#ref-SP-800-63A).
 
 The PIV Card contains a number of logical credentials that are used by the authentication mechanisms specified in [Section 6.2](authentication.md#s-6-2). PIV assurance levels may vary
@@ -41,12 +41,17 @@ individuals and organizations that could occur as a result of errors in the auth
 cardholder. Once the required assurance level has been determined, one of the authentication mechanisms
 specified in [Section 6.2](authentication.md#s-6-2) **SHALL** be applied to achieve that assurance level.
 
+[^compensating]: As described in [Section 2.7](requirements.md#s-2-7), compensating controls can be applied for identity source documents evidence to achieve IAL3 since the Standard only specifies one piece of Strong evidence and one other piece of Fair evidence. Issuance of PIV Card meets IAL3 since the federal background investigation serves as a comparable compensating control for IAL3 identity proofing. 
+
+
 ### 6.1.1 Relationship to Federal Identity Policy (Removed) {#s-6-1-1}
 {:latex-toc="6.1.1 Relationship to Federal Identity Policy"}
 
 > Note: This section was formerly entitled "Relationship to OMB’s E-Authentication Guidance."
 
-The content of this section has been removed since OMB [[M-04-04]](../_Appendix/references.md#ref-OMB0404) has been rescinded by OMB [[M-19-17]](../_Appendix/references.md#ref-OMB1917), which recognizes the IALs defined in NIST [[SP 800-63]](../_Appendix/references.md#ref-SP-800-63) as the framework for managing digital identity risks within the Federal Government. A mapping between PIV authentication mechanisms and SP 800-63 assurance levels can be found in [Section 6.3.2](authentication.md#s-6-3-2).
+The content of this section has been removed since OMB [[M-04-04]](../_Appendix/references.md#ref-OMB0404) has been rescinded by OMB [[M-19-17]](../_Appendix/references.md#ref-OMB1917), which recognizes the IALs and AALs defined in NIST [[SP 800-63]](../_Appendix/references.md#ref-SP-800-63) as the framework for managing digital identity risks within the Federal Government. The policy established by [[HSPD-12]](../_Appendix/references.md#ref-HSPD-12) still applies under this new memorandum. 
+
+A mapping between PIV authentication mechanisms and SP 800-63 authenticator assurance levels can be found in [Section 6.3.2](authentication.md#s-6-3-2).
 
 ## 6.2 PIV Card Authentication Mechanisms {#s-6-2}
 
@@ -314,16 +319,16 @@ Some characteristics of the visual authentication mechanism include the followin
 ## 6.3 PIV Support of Graduated Authenticator Assurance Levels {#s-6-3}
 
 The PIV Card supports a set of authentication mechanisms that can be used to implement graduated
-assurance levels. The assurance levels used within this Standard are closely aligned with
+assurance levels. The assurance levels used for remote/networked access within this Standard are closely aligned with
 NIST [[SP 800-63]](../_Appendix/references.md#ref-SP-800-63), which specifies a digital identity risk management process that is cited by OMB [[M-19-17]](../_Appendix/references.md#ref-OMB1917).
 
 The following subsections specify which PIV
-authentication mechanisms **CAN** be used to support the various authenticator assurance levels
+authentication mechanisms can be used to support various assurance levels
 described in this section. Two or more authentication mechanisms **MAY** be applied in
 unison to achieve additional assurance of the identity of the PIV cardholder. For example, PKI-AUTH and BIO may be applied in unison to achieve additional assurance of cardholder identity.
 
 Adequately designed and implemented relying systems can achieve the PIV Card
-assurance levels stated in [Table 6-1](authentication.md#table-6-1) for physical access and [Table 6-2](authentication.md#table-6-2) for logical access. Relying systems that are inadequately designed
+assurance levels stated in [Section 6.3.1](authentication.md#s-6-3-1) for physical access and in [Section 6.3.2](authentication.md#s-6-3-2) for logical access. Relying systems that are inadequately designed
 or implemented may only achieve lower assurance levels. The design of the
 components of relying systems&mdash;including card readers, biometric capture devices, cryptographic modules, and
 key management systems&mdash;involves many factors not fully specified by FIPS 201, such as correctness of
@@ -340,39 +345,28 @@ The authentication mechanisms described in the subsections below apply specifica
 
 ### 6.3.1 Physical Access {#s-6-3-1}
 
-The PIV Card can be used to authenticate the cardholder in a physical access control
-environment.
+The PIV Card can be used to authenticate the cardholder in a physical access control environment using the authentication mechanisms described in [Section 6.2](authentication.md#s-6-2). Each authentication mechanism provides a degree of assurance based on its characteristics outlined in [Section 6.2](authentication.md#s-6-2), as summarized in [Table 6-1](authentication.md#table-6-1).
 
-The three levels of authentication assurance for physical access, referred to as the Physical Assurance Level (PAL), are defined as:
-
-PAL1
-: Formerly SOME confidence in the asserted identity's validity (weakest).
-
-PAL2
-: Formerly HIGH confidence in the asserted identity's validity.
-
-PAL3
-: Formerly VERY HIGH confidence in the asserted identity's validity (strongest).
-
-Selection of the PAL **SHALL** be made in accordance with the applicable policies for a facility’s security level [[RISK-MGMT-FACILITIES]](../_Appendix/references.md#ref-RISK-MGMT-FACILITIES). Additional guidelines for the selection and use of PIV authentication mechanisms for facility access can be found in NIST [[SP 800-116]](../_Appendix/references.md#ref-SP-800-116).
-
-The PIV-supported authentication mechanisms
-for physical access control systems are summarized in [Table 6-1](authentication.md#table-6-1). An authentication mechanism that is
-suitable for a higher assurance level can also be applied to meet the requirements for a lower assurance
-level. Moreover, the authentication mechanisms in [Table 6-1](authentication.md#table-6-1) can be combined to achieve higher
-assurance levels.[^combinations]
-
-[^combinations]: Combinations of authentication mechanisms are specified in [[SP 800-116]](../references/#ref-SP-800-116).
-
-[Table 6-1. Applicable PIV Authentication Mechanisms for Physical Access](authentication.md#table-6-1){:name="table-6-1"}
+[Table 6-1. PIV Authentication Mechanisms for Physical Access](authentication.md#table-6-1){:name="table-6-1"}
 {:latex-ignore="true"}
 
-|Physical Assurance Level|Applicable PIV Authentication Mechanisms|
+|PIV Authentication Mechanism|Assurance Provided|
 |---|---|
-|PAL1|PKI-CAK, SM-AUTH, SYM-CAK (deprecated)|
-|PAL2|BIO|
-|PAL3|BIO-A, OCC-AUTH, PKI-AUTH|
-{:latex-table="6-1" latex-caption="Applicable PIV Authentication Mechanisms for Physical Access"}
+|PKI-CAK|Some confidence in the asserted identity|
+|SYM-CAK|Some confidence in the asserted identity|
+|SM-AUTH|Some confidence in the asserted identity|
+|BIO|Medium confidence in the asserted identity|
+|BIO-A|High confidence in the asserted identity|
+|OCC-AUTH|High confidence in the asserted identity|
+|PKI-AUTH|High confidence in the asserted identity|
+
+{:latex-table="6-1" latex-caption="PIV Authentication Mechanisms for Physical Access"}
+
+Each PIV authentication mechanism provides one or two factors of authentication. The mechanisms can be combined[^combined] to achieve up to three authentication factors (e.g., to access exclusion security areas). The number of factors afforded by each authentication mechanism and the required factors to access the controlled, limited, or exclusion security areas are further detailed in [[SP 800-116]](../references/#ref-SP-800-116).
+
+The selection of authentication assurance levels **SHALL** be made in accordance with the applicable policies for a facility’s security level [[RISK-MGMT-FACILITIES]](../_Appendix/references.md#ref-RISK-MGMT-FACILITIES). Additional guidelines for the selection and use of PIV authentication mechanisms for facility access can be found in NIST [[SP 800-116]](../_Appendix/references.md#ref-SP-800-116).
+
+[^combined]: Combinations of authentication mechanisms are specified in [[SP 800-116]](../references/#ref-SP-800-116).
 
 ~~~
 \clearpage
@@ -386,20 +380,30 @@ logical information resources. For example, a cardholder may authenticate to the
 network using the PIV Card; the identity established through this authentication process can be used to
 determine access to information systems and applications available on the network.
 
-Selection of required AAL **SHALL** be made using the risk management process specified in [[SP 800-63]](../_Appendix/references.md#ref-SP-800-63).
-
-[Table 6-2](authentication.md#table-6-2) describes the authentication mechanisms defined for this Standard to support logical access
-control. An authentication mechanism that is suitable for a higher assurance level can also be applied to
+[Table 6-2](authentication.md#table-6-2) lists the authentication mechanisms defined for this Standard to support logical access
+control for remote/networked access. An authentication mechanism that is suitable for a higher assurance level can also be applied to
 meet the requirements for a lower assurance level.
 
-[Table 6-2. Applicable PIV Authentication Mechanisms for Logical Access](authentication.md#table-6-2){:name="table-6-2"}
+[Table 6-2. PIV Authentication Mechanisms for Remote/Network Access](authentication.md#table-6-1){:name="table-6-2"}
 {:latex-ignore="true"}
 
-|Required Authenticator Assurance Level|Local Authentication|Remote/Network Authentication|
-|---|---|---|
-|AAL1|PKI-CAK|PKI-CAK|
-|AAL2|BIO||
-|AAL3|BIO-A, OCC-AUTH, PKI-AUTH|PKI-AUTH|
-{:latex-table="6-2" latex-caption="Applicable PIV Authentication Mechanisms for Logical Access"}
+|PIV Authentication Mechanism|Supported Authenticator Assurance Level|
+|---|---|
+|PKI-CAK|AAL1|
+|PKI-AUTH|AAL3|
+{:latex-table="6-1" latex-caption="PIV Authentication Mechanisms for Remote/Network Access"}
 
-In the above table, local authentication refers to authentication to a resource co-located with the cardholder, while remote/network authentication is authentication of the cardholder to a system over a network.
+The [[SP 800-63]](../_Appendix/references.md#ref-SP-800-63) defined authenticator assurance levels are not specified for local authentication use cases (i.e., authentication to a resource co-located with the cardholder). Nevertheless, the PIV authentication mechanisms provide for graduated levels of authentication assurance for local authentication use cases based on their characteristics outlined in [Section 6.2](authentication.md#s-6-2). The assurance provided by each of the PIV authentication mechanisms for local authentication use cases is summarized in [Table 6-3](authentication.md#table-6-3).
+
+[Table 6-3. PIV Authentication Mechanisms for Local Workstation Access](authentication.md#table-6-1){:name="table-6-3"}
+{:latex-ignore="true"}
+
+|PIV Authentication Mechanism|Assurance Provided|
+|---|---|
+|PKI-CAK|Some confidence in the asserted identity|
+|BIO|Medium confidence in the asserted identity|
+|BIO-A|High confidence in the asserted identity|
+|OCC-AUTH|High confidence in the asserted identity|
+|PKI-AUTH|High confidence in the asserted identity|
+
+{:latex-table="6-3" latex-caption="PIV Authentication Mechanisms for Local Workstation Access"}

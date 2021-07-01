@@ -58,7 +58,7 @@ accordance with HSPD-12, this Standard defines the following technical requireme
 - They are issued only by providers whose reliability has been established by an official accreditation process.
 
 Upon enrollment, a collection of records known as a PIV account is created and managed 
-within the issuer's enterprise identity management system (IDMS). The PIV account includes the 
+within the issuing department or agency's enterprise identity management system (IDMS). The PIV account includes the 
 attributes of the PIV cardholder, the enrollment data, and information regarding the 
 PIV Card and any derived PIV credentials bound to the account.
 
