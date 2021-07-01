@@ -74,7 +74,6 @@ Aspects of the implementation of this Standard may be covered by U.S. or foreign
 
 This Standard will be effective immediately upon final publication of this revision, superseding FIPS 201-2. The Standard includes new and updated features as well as features that are being deprecated or removed as outlined in the [revision history](../_FIPS201/revision.md).  The effective dates of these features depend upon the release of revised NIST Special Publications or the release of new NIST Special Publications which are targeted to be released within 18 month of publication of this Standard. An enumeration of NIST Special Publications associated with this Standard is provided in [Section 1.4](introduction.md#s-1-4). Per [Section 7](../_FIPS201/announcement.md#s-7), the OMB provides implementation oversight for this Standard. NIST's Special Publications may reflect implementation targets as appropriate or be provided separately by OMB.  
 
-[^listOfPubs]: See [Section 1.4](introduction.md#s-1-4) for an enumeration of NIST Special Publications associated with this Standard.
 
 # 10. Specifications. {#f-10}
 
