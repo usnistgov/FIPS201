@@ -530,8 +530,7 @@ In person
 
 Issuer-operated kiosk
 : PIN reset at an issuer-operated kiosk **SHALL** ensure that the PIV Card is authenticated and
-    that the cardholder's biometric characteristics elicit a positive biometric verification decision when compared to either the stored biometric on the PIV Card through an on-card one-to-one comparison or biometric data records stored in the PIV enrollment record through an off-card one-to-one
-    comparison. If the biometric verification decision is negative, the cardholder's biometric characteristics are not successfully acquired, or card authentication is unsuccessful, the kiosk **SHALL NOT**
+    that the cardholder's biometric characteristics elicit a positive biometric verification decision when compared to biometric data records stored in the PIV enrollment record or when compared to the biometric data records on the PIV Card using the BIO, BIO-A, or OCC-AUTH authentication mechanisms. In cases where a negative biometric verification decision is returned, the cardholder's biometric characteristics are not successfully acquired, or card authentication is unsuccessful, the kiosk **SHALL NOT**
     reset the PIV Card. The session **SHALL** be terminated and the PIN reset **SHALL** be performed in person at the issuing facility or at a supervised remote identity proofing station.
     The kiosk **MAY** be unattended while used for PIN reset operations.
 
@@ -558,7 +557,7 @@ General computing platform
     * The cardholder initiates a PIN reset with the issuer operator.
     * The operator authenticates the owner of the PIV Card through an independent
         procedure, for example by authenticating the cardholder with an associated derived PIV credential or by confirming reset via email to the on-record government-issued email address.
-    * The cardholder's biometric characteristics elicit a positive biometric verification decision when compared to the stored biometric data records on the PIV Card through OCC.
+    * The cardholder's biometric characteristics elicit a positive biometric verification decision when compared to the stored biometric data records on the PIV Card through the OCC-AUTH authentication mechanism.
 
 The remote PIN reset operation **SHALL** satisfy the requirements for remote, post-issuance updates
 specified in [Section 2.9.2](requirements.md#s-2-9-2).
