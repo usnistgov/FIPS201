@@ -51,6 +51,7 @@ _This appendix is informative._ It provides an overview of the changes to FIPS 2
 |||Updated guidance on collection of biometric data for credentialing.|&sect;2|
 |||Clarified multi-session proofing and enrollment.|&sect;2|
 |||Provided clarification on grace periods.|&sect;2|
+|||Moved PIV Card activation reset procedures into new subsections for each activation method.|&sect;2|
 |||Clarified biometric modalities for proofing and authentication.|&sect;2, &sect;6|
 |||Updated system description and associated diagrams.|&sect;3|
 |||Generalized chain of trust records to enrollment records and made them required.|&sect;3|
