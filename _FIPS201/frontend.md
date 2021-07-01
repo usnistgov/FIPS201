@@ -706,8 +706,7 @@ key management keys.
 #### 4.2.2.6 PIV Card Application Administration Key {#s-4-2-2-6}
 If present, the PIV Card application administration
 key **SHALL** be imported onto the card by the issuer. If present, the cryptographic operations that use
-the PIV Card application administration key **SHALL** be available through the contact interface of
-the PIV Card and **SHALL NOT** be available through the virtual contact and contactless interfaces of the PIV Card.
+the PIV Card application administration key **SHALL** only be available through the contact interface unless otherwise specified by [[SP 800-73]](../_Appendix/references.md#ref-SP-800-73).
 
 #### 4.2.2.7 PIV Secure Messaging Key  {#s-4-2-2-7}
 
