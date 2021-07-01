@@ -28,7 +28,6 @@ _This appendix is informative._ It provides an overview of the changes to FIPS 2
 |||Added requirements for issuing a PIV Card to an individual under a pseudonymous identity.||
 |||Added requirements for issuing a PIV Card to an individual within grace period.||
 |||Added requirements for post-issuance updates.||
-|||Moved PIV Card activation reset procedures into new subsections for each activation method.||
 |||Added option to allow for remote PIN resets.||
 |||Introduced the ability to issue derived PIV credentials.||
 |||The employee affiliation color-coding and the large expiration date in the upper right-hand corner of the card are now mandatory.||
@@ -52,6 +51,7 @@ _This appendix is informative._ It provides an overview of the changes to FIPS 2
 |||Updated guidance on collection of biometric data for credentialing.|&sect;2|
 |||Clarified multi-session proofing and enrollment.|&sect;2|
 |||Provided clarification on grace periods.|&sect;2|
+|||Moved PIV Card activation reset procedures into new subsections for each activation method.|&sect;2||
 |||Clarified biometric modalities for proofing and authentication.|&sect;2, &sect;6|
 |||Updated system description and associated diagrams.|&sect;3|
 |||Generalized chain of trust records to enrollment records and made them required.|&sect;3|
