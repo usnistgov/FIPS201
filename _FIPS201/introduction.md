@@ -57,8 +57,8 @@ accordance with HSPD-12, this Standard defines the following technical requireme
 - They can be rapidly authenticated electronically.
 - They are issued only by providers whose reliability has been established by an official accreditation process.
 
-Upon enrollment, a collection of records known as a PIV account is created and managed 
-within the issuing department or agency's enterprise identity management system (IDMS). The PIV account includes the 
+Upon enrollment, a collection of records known as a PIV identity account is created and managed 
+within the issuing department or agency's enterprise identity management system (IDMS). The PIV identity account includes the 
 attributes of the PIV cardholder, the enrollment data, and information regarding the 
 PIV Card and any derived PIV credentials bound to the account.
 
@@ -70,9 +70,9 @@ decisions are outside of the scope of this Standard. Moreover, requirements for 
 a new or replacement PIV credential arrives are out of the scope of this Standard.
 
 While this Standard remains predominantly focused on PIV Cards, derived PIV credentials and
-federation protocols also play important roles in the use of PIV accounts.
+federation protocols also play important roles in the use of PIV identity accounts.
 [Section 2.10](requirements.md#s-2-10) of this Standard defines mechanisms for derived PIV credentials
-associated with an active PIV account. Derived PIV credentials
+associated with an active PIV identity account. Derived PIV credentials
 have authentication and lifecycle requirements that may differ from the PIV Card itself. This
 Standard also discusses federation protocols in [Section 7](federation.md#s-7) as a means of 
 accepting PIV credentials issued by other agencies. See [Section 3](system.md#s-3) for more information on
