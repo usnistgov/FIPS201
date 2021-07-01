@@ -115,8 +115,7 @@ The PIV Card application **MAY** host an optional OCC algorithm. In this case,
 OCC data is stored on the card, which cannot be read from the card but could be used for
 biometric verification. A fingerprint biometric template is supplied to the card to perform CTC
 authentication, and the card responds with a positive or negative biometric verification decision.
-The response includes information that allows the reader to authenticate the card. The
-cardholder PIN is not required for this operation. The PIV Card **SHALL** include a mechanism to block this
+The response includes information that allows the reader to authenticate the card. The cardholder PIN is not required for OCC-AUTH. The PIV Card **SHALL** include a mechanism to block this
 authentication mechanism after a number of consecutive failed authentication attempts as stipulated by
 the department or agency. As with BIO and BIO-A, if agencies choose to
 implement OCC, it **SHALL** be implemented as defined in [[SP 800-73]](../_Appendix/references.md#ref-SP-800-73) and
@@ -127,6 +126,7 @@ Some of the characteristics of OCC-AUTH are as follows:
 - highly resistant to credential forgery
 - strong resistance to use of unaltered card by non-owner
 - usable with contact and contactless card readers
+- privacy-enhancing as the OCC data is never exported and is stored and processed directly on the PIV card 
 
 ### 6.2.3 Authentication Using PIV Asymmetric Cryptography {#s-6-2-3}
 {:latex-toc="6.2.3 PIV Asymmetric Cryptography"}
