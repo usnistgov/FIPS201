@@ -333,7 +333,7 @@ of the federal department or agency.
 + During the issuance process, the issuer **SHALL** verify that the individual to whom the PIV Card is to be
     issued is the same as the intended applicant/recipient as approved by the appropriate authority.
     Before the PIV Card is activated and provided to the applicant, the issuer **SHALL** perform a one-to-one comparison of the
-    applicant against biometric data records available on the PIV Card or in the PIV enrollment record.
+    applicant against biometric data records available in the PIV enrollment record.
     Minimum accuracy requirements for biometric verification and presentation attack detection are specified in [[SP 800-76]](../_Appendix/references.md#ref-SP-800-76). On
     a positive biometric verification decision, the PIV Card **SHALL** be activated and released to the applicant. If the biometric verification decision is negative, or if
     no biometric data records are available, the cardholder **SHALL** provide two identity source documents (as
