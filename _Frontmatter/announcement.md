@@ -72,7 +72,8 @@ Aspects of the implementation of this Standard may be covered by U.S. or foreign
 
 # 9. Effective Date. {#f-9}
 
-This Standard will be effective immediately upon final publication of this revision, superseding FIPS 201-2. Features of this Standard that depend upon the release of new or revised NIST Special Publications, including features that are optional, deprecated, or removed, are effective upon final publication of the supporting Special Publications.
+This Standard will be effective immediately upon final publication of this revision, superseding FIPS 201-2. The Standard includes new and updated features as well as features that are being deprecated or removed as outlined in the revision history in [Appendix E](../_Appendix/revisions.md).  The effective dates of these features depend upon the release of revised NIST Special Publications or the release of new NIST Special Publications that are targeted to be released within 18 months of publication of this Standard. An enumeration of NIST Special Publications associated with this Standard is provided in [Section 1.4](introduction.md#s-1-4). Per [item 7](../_FIPS201/announcement.md#f-7) of this preamble, OMB provides implementation oversight for this Standard. The implementation schedule may be reflected in NIST's Special Publications or may be provided separately by OMB, as appropriate.
+
 
 # 10. Specifications. {#f-10}
 
