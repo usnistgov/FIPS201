@@ -43,7 +43,7 @@ _This appendix is informative._ It provides an overview of the changes to FIPS 2
 |FIPS 201-3|November 2020|This version represents the 5-year review of FIPS 201 and change request inputs received from agencies. Following are the highlights of changes made in this version.||
 |||Alignment with SP 800-63-3 language and terms.||
 |||Used explicit normative language terms **SHALL**/**SHOULD**/**MAY**/**CAN**.||
-|||Updated process for binding and termination of derived PIV credentials with PIV account.|&sect;2|
+|||Updated process for binding and termination of derived PIV credentials with PIV identity account.|&sect;2|
 |||Updated credentialing requirements for issuance of PIV Cards based on OPM guidance.|&sect;2|
 |||Added requirements for supervised remote identity proofing and PIV Card maintenance.|&sect;2|
 |||Modified identity proofing requirements to reflect updated list of accepted documents.|&sect;2|
