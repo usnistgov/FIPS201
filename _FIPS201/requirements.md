@@ -152,7 +152,7 @@ contemporaneous acquisition at each step of the PIV issuance process&mdash;typic
 and biometric enrollment.
 
 PIV enrollment records maintain an auditable sequence of enrollment events to facilitate binding an applicant 
-to multiple transactions that might take place at different times and locations.[^fingerprints] These records are generally stored as part of the cardholder's PIV account, either as part of the issuer's IDMS or through links to records in other related systems (e.g., card management systems).
+to multiple transactions that might take place at different times and locations.[^fingerprints] These records are generally stored as part of the cardholder's PIV identity account, either as part of the issuer's IDMS or through links to records in other related systems (e.g., card management systems).
 
 [^fingerprints]: For example, ten fingerprints for law enforcement checks may be collected at one time and place, and two fingerprints for PIV Card templates may be collected at a later time and different place, provided that a biometric comparison confirms that the two fingerprints belong to the original set of ten fingerprints. 
 
@@ -639,7 +639,7 @@ must be in place. The PIV Card **SHALL** be revoked through the following proced
 * Card managment systems **SHALL** be updated to reflect PIV Card termination and method of termination 
     (e.g., PIV Card destruction for collected PIV cards or certificates revocations for uncollected PIV Cards).
     
-In addition, the PIV Card termination procedures **SHALL** ensure that all derived PIV credentials bound to the PIV account are invalidated as specified in [Section 2.10.2](requirements.md#s-2-10-2).
+In addition, the PIV Card termination procedures **SHALL** ensure that all derived PIV credentials bound to the PIV identity account are invalidated as specified in [Section 2.10.2](requirements.md#s-2-10-2).
 
 If the card cannot be collected, normal termination procedures **SHALL** be completed within 18&nbsp;hours of
 notification. In certain cases, 18&nbsp;hours is an unacceptable delay and in those cases emergency procedures
@@ -659,7 +659,7 @@ Issuance of a derived PIV credential is an instance of the post-enrollment bindi
 The binding and issuance of derived PIV credentials **SHALL** use valid PIV Cards to establish cardholder identity in accordance with
 [[SP 800-157]](../_Appendix/references.md#ref-SP-800-157). Derived PIV credentials **SHALL** meet the requirements for Authenticator Assurance Level (AAL) 2 or 3 specified in [[SP 800-63B]](../_Appendix/references.md#ref-SP-800-63B). All derived PIV credentials meeting AAL2 but not AAL3 requirements **SHALL** be supported at AAL2 only. Note that derived PIV credentials meeting AAL3 requirements also fulfill the requirements of AAL2 and can be used in circumstances requiring AAL2. The issuer **SHALL** attempt to promptly notify the cardholder of the binding of a derived PIV credential through an independent means that would not afford an attacker an opportunity to erase the notification. More than one independent notification method **MAY** be used to ensure prompt receipt by the cardholder. 
 
-Derived PIV credentials **SHALL** be bound to the cardholder's PIV account only by the issuing department or agency responsible for managing that PIV account. If the issuing department or agency relies on shared services for portions of the PIV card or Derived PIV credential issuance process, it is the responsibility of the issuing department or agency to ensure that all credentials and IDMS records are properly maintained throughout the PIV lifecycle.
+Derived PIV credentials **SHALL** be bound to the cardholder's PIV identity account only by the issuing department or agency responsible for managing that PIV identity account. If the issuing department or agency relies on shared services for portions of the PIV card or Derived PIV credential issuance process, it is the responsibility of the issuing department or agency to ensure that all credentials and IDMS records are properly maintained throughout the PIV lifecycle.
 
 ### 2.10.2 Derived PIV Credential Invalidation Requirements {#s-2-10-2}
 
@@ -668,7 +668,7 @@ Derived PIV credentials **SHALL** be invalidated in any of the following circums
 * Upon request of the PIV cardholder as a result of loss, failure, compromise, or intent to discontinue use of a derived PIV credential
 * At the determination of the issuer upon reported loss or suspected compromise of a derived PIV credential
 * At the determination of the issuer upon observation of possible fraudulent activity
-* When the associated PIV Card is terminated as specified in [Section 2.9.4](requirements.md#s-2-9-4); in this situation, all derived PIV credentials associated with the PIV account **SHALL** be invalidated.
+* When the associated PIV Card is terminated as specified in [Section 2.9.4](requirements.md#s-2-9-4); in this situation, all derived PIV credentials associated with the PIV identity account **SHALL** be invalidated.
 
 If the derived PIV credential to be invalidated contains a derived PIV authentication certificate and the corresponding private key cannot be securely zeroized or destroyed, the CA **SHALL** be informed and the certificate corresponding to the derived PIV authentication key **SHALL** be revoked.
 

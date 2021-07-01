@@ -108,11 +108,13 @@ The PKI component provides services for PKI-based PIV credentials. This componen
 lifecycle of PIV Cards and PKI-based derived PIV credentials&mdash;from generation and loading of asymmetric keys and PKI credentials, to usage of these keys for secure operations, to eventual reissuance or termination of the PIV Card and associated PKI-based derived PIV credentials. At the personalization phase, the PKI component issues and distributes the digital certificates for the keys generated on-card and keys generated for PKI-based derived PIV credentials. During use of the PIV credentials at authentication, the PKI component provides the
 requesting application with the certificate status information of the PKI credentials requesting access.
 
-The enterprise IDMS serves as the central repository for the cardholder’s digital identities. It is where the relevant cardholder attributes are maintained. The IDMS creates the PIV account and associates the cardholder's PIV Card and derived PIV credentials with the account. The account is maintained throughout the cardholder’s employment with the department or agency. Various Identity, Credential, and Access Management (ICAM)-related systems connect to the IDMS to request or update cardholder attributes. For example:
+The enterprise IDMS serves as the central repository for the cardholder’s digital identities. It is where the relevant cardholder identity attributes are maintained. The IDMS creates the PIV identity account and associates the cardholder's PIV Card and derived PIV credentials with the account. The account is maintained throughout the cardholder’s employment with the department or agency. Various Identity, Credential, and Access Management (ICAM)-related systems connect to the IDMS to request or update cardholder attributes. For example:
 
   * A security office may provide updated background investigative information to the IDMS.
   * An HR system may relay hiring status updates.
-  * The IDMS may serve as the Identity Provider (IdP), authenticating the cardholder on behalf of a Relying Party (RP) and issuing assertions of attributes relating to the PIV account to the RP.
+  * The IDMS may serve as the Identity Provider (IdP), authenticating the cardholder on behalf of a Relying Party (RP) and issuing assertions of attributes relating to the PIV identity account to the RP.
+
+Different functions of the IDMS might be provided by different components within the department or agency, or outsourced to a shared service provider. For example, card management functions and recordkeeping may be provided by a different component from the component handling HR records or the component serving as an IdP. Regardless of how these components are implemented, they are collectively responsible for managing the identities of federal employees and contractors who are issued PIV credentials. It is ultimately the responsibility of the issuing department or agency to ensure that the relevant identity attributes, credentials, and records stored across these components are maintained properly and in a timely manner, preferably using technical means and automation whenever possible.
 
 ### 3.1.3 PIV Relying Subsystem {#s-3-1-3}
 
@@ -196,7 +198,7 @@ PIV Card Termination
 ## 3.3 Connections Between System Components {#s-3-3}
 
 To perform authentication for logical or physical access using a PIV Card or a derived PIV credential directly, the credential is verified and 
-attributes from the PIV account are provided to the relying subsystem. The connections and data 
+attributes from the PIV identity account are provided to the relying subsystem. The connections and data 
 flows between these components are shown in [Figure 3-3](system.md#fig-3-3). 
 
 [Figure 3-3. PIV System Connections](system.md#fig-3-3){:name="fig-3-3"}
@@ -208,7 +210,7 @@ While it is possible to directly accept a PIV Card issued by another agency, the
 is to use a federation protocol, as discussed in [Section 7](federation.md#s-7). In this method, the PIV cardholder authenticates to an
 IdP, which is part of the PIV Issuance and Management Subsystem, 
 using their PIV Card or derived PIV credential. The IdP verifies the credential and determines the attributes 
-associated with the PIV account. The IdP then creates an assertion that is sent to the
+associated with the PIV identity account. The IdP then creates an assertion that is sent to the
 relying subsystem. The RP validates the assertion from the IdP, but the RP never sees the credential
 or authentication at the IdP. The connections and data flows between these components are shown in [Figure 3-4](system.md#fig-3-4).
 
