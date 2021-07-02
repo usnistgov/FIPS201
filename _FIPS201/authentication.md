@@ -126,7 +126,7 @@ Some of the characteristics of OCC-AUTH are as follows:
 - highly resistant to credential forgery
 - strong resistance to use of unaltered card by non-owner
 - usable with contact and contactless card readers
-- privacy-enhancing as the OCC data is never exported and is stored and processed directly on the PIV card 
+- privacy-enhancing, as the biometric template is both never exported and compared directly on the PIV Card 
 
 ### 6.2.3 Authentication Using PIV Asymmetric Cryptography {#s-6-2-3}
 {:latex-toc="6.2.3 PIV Asymmetric Cryptography"}
