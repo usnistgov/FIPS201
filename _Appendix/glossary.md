@@ -101,7 +101,10 @@ can be in terms of raw or compressed pixels or in terms of some _biometric chara
 
 Biometric On-Card Comparison (OCC)
 : A one-to-one _comparison_ of fingerprint _biometric data records_ transmitted to the _PIV Card_ with a biometric reference 
-previously stored on the _PIV Card_. In this Standard, OCC is used as a means of performing card activation and as part of OCC-AUTH.
+previously stored on the _PIV Card_. In this Standard, OCC is used as a means of performing card activation and as part of _Biometric On-Card Comparison Authentication (OCC-AUTH)_.
+
+Biometric On-Card Comparison Authentication (OCC-AUTH)
+: An _authentication_ mechanism where _biometric on-card comparison (OCC)_ is used instead of a PIN to activate a _PIV Card_ for authentication.
 
 Biometric Verification
 : Automated process of confirming a biometric claim through biometric _comparison_ [[ISO 2382-37]](references.md#ref-ISO/IEC-2382-37).
@@ -349,6 +352,9 @@ PIV Enrollment Record
 maintained by _PIV Card_ _issuers_. The PIV enrollment record typically contains data collected 
 at each step of the PIV _identity proofing_, _registration_, and issuance processes.
 
+PIV Visual Credential Authentication (VIS)
+: An _authentication_ mechanism where a human guard inspects the _PIV Card_ and the person presenting it and makes an _access control_ decision based on validity of the card and its correspondence with the presenter. This mechanism is deprecated.
+
 Private Key
 : The secret part of an _asymmetric key_ pair that is typically used to digitally sign or decrypt
 data.
@@ -400,8 +406,14 @@ Symmetric Key
 inverse (e.g., to encrypt, decrypt, create a message authentication code, or verify
 a message authentication code).
 
+Secure Messaging Key Authentication (SM-AUTH)
+: An _authentication_ mechanism where the secure messaging key and associated certificate are used for authentication.
+
 Security Executive Agent
 : Individual responsible for the development, implementation, and oversight of effective, efficient, and uniform policies and procedures that govern the conduct of investigations and adjudications for eligibility to access classified information and eligibility to hold a sensitive position in the Federal Government. In accordance with Executive Order 13467 (as amended), this individual is the Director of National Intelligence (DNI).
+
+Symmetric Card Authentication Key Authentication (SYM-CAK)
+: An _authentication_ mechanism where the _PIV Card_ is identified using the CHUID or another data element, and then the card responds to a challenge by signing the challenge value with the symmetric card authentication key. This mechanism is deprecated.
 
 ~~~
 \clearpage
