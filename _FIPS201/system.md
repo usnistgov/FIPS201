@@ -8,7 +8,7 @@ anchor: s-3
 ---
 # 3. PIV System Overview {#s-3}
 
-_This section is informative._ It serves to provide an overview of the different components of the PIV system.
+_This section is informative._ It provides an overview of the different components of the PIV system.
 
 The PIV system is composed of components and processes that support a common
 platform for identity authentication across federal departments and agencies for access to multiple types
@@ -147,7 +147,7 @@ pre-personalization of the card at the manufacturer are not considered a part of
 [Figure 3-2](system.md#fig-3-2) presents these PIV activities and depicts the PIV Card request as the initial activity and PIV
 Card termination as the end-of-life activity.
 
-[^DPCLifecycle]: The lifecycle activities of derived PIV credentials are described in SP 800-157.
+[^DPCLifecycle]: The lifecycle activities of derived PIV credentials are described in [[SP 800-157]](../_Appendix/references.md#ref-SP-800-157).
 
 [Figure 3-2. PIV Card Lifecycle Activities](system.md#fig-3-2){:name="fig-3-2"}
 {:latex-ignore="true"}
@@ -207,7 +207,7 @@ flows between these components are shown in [Figure 3-3](system.md#fig-3-3).
 ![Diagram of connections between components in a PIV system.]({{site.baseurl}}/{{page.collection}}/images/system-direct.png 'PIV System Connections'){:style="width: 1047px;" latex-src="system-direct.pdf" latex-fig="3-3" latex-place="p"}
 
 While it is possible to directly accept a PIV Card issued by another agency, the recommended interoperability mechanism for most agencies 
-is to use a federation protocol, as discussed in [Section 7](federation.md#s-7). In this method, the PIV cardholder authenticates to an
+is to use a federation protocol, as discussed in [Section 7](federation.md#s-7). In this method, the PIV cardholder authenticates to their
 IdP, which is part of the PIV Issuance and Management Subsystem, 
 using their PIV Card or derived PIV credential. The IdP verifies the credential and determines the attributes 
 associated with the PIV identity account. The IdP then creates an assertion that is sent to the

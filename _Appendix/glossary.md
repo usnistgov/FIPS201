@@ -122,7 +122,7 @@ Card Management System
 application.
 
 Card Verifiable Certificate
-: A certificate stored on the _PIV card_ that includes a _public key_, the signature of a _certification authority_, and further information needed to verify the certificate.
+: A certificate stored on the _PIV Card_ that includes a _public key_, the signature of a _certification authority_, and further information needed to verify the certificate.
 
 Central Verification System
 : A system operated by the Office of Personnel Management that contains information on security clearances, investigations, suitability, fitness determinations, [[HSPD-12]](references.md#ref-HSPD-12) decisions, PIV credentials, and polygraph data.
@@ -342,7 +342,7 @@ _cryptographic keys_, digitized fingerprint representation) so that the claimed 
 be verified against the stored _credentials_.
 
 PIV Credential
-: A _credential_ that authoritatively binds an _identity_ (and, optionally, additional attributes) to the authenticated _cardholder_ that is issued, managed, and used in accordance with the PIV standards. These credentials include _public key certificates_ stored on a _PIV card_ as well as other _authenticators_ bound to a _PIV identity account_ as _derived PIV credentials_.
+: A _credential_ that authoritatively binds an _identity_ (and, optionally, additional attributes) to the authenticated _cardholder_ that is issued, managed, and used in accordance with the PIV standards. These credentials include _public key certificates_ stored on a _PIV Card_ as well as other _authenticators_ bound to a _PIV identity account_ as _derived PIV credentials_.
 
 PIV Enrollment Record
 : A sequence of related _enrollment data sets_ that is created and 
@@ -439,9 +439,6 @@ ASN.1
 ASTM
 : American Society for Testing and Materials
 
-ATO
-: Authorization to Operate
-
 CA
 : Certification Authority
 
@@ -490,9 +487,6 @@ CTE
 CVC
 : Card Verifiable Certificate
 
-DATO
-: Denial of Authorization to Operate
-
 DHS
 : Department of Homeland Security
 
@@ -501,6 +495,9 @@ DN
 
 DOB
 : Date of Birth
+
+DPCI
+: Derived PIV Credential Issuer
 
 dpi
 : Dots Per Inch
@@ -546,9 +543,6 @@ HTTPS
 
 IAL
 : Identity Assurance Level
-
-ICAMSC
-: Identity, Credential, and Access Management Subcommittee
 
 ICC
 : Integrated Circuit Chip
@@ -624,9 +618,6 @@ OMB
 
 OPM
 : Office of Personnel Management
-
-PAL
-: Physical Assurance Level
 
 PCI
 : PIV Card Issuer

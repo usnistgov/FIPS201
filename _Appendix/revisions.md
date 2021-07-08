@@ -45,14 +45,15 @@ _This appendix is informative._ It provides an overview of the changes to FIPS 2
 |||Used explicit normative language terms **SHALL**/**SHOULD**/**MAY**/**CAN**.||
 |||Updated process for binding and termination of derived PIV credentials with PIV identity account.|&sect;2|
 |||Updated credentialing requirements for issuance of PIV Cards based on OPM guidance.|&sect;2|
-|||Added requirements for supervised remote identity proofing and PIV Card maintenance.|&sect;2|
+|||Added requirements for supervised remote identity proofing, enrollment, issuance, and PIV Card maintenance.|&sect;2|
 |||Modified identity proofing requirements to reflect updated list of accepted documents.|&sect;2|
 |||Deprecated PIV NACI indicator (background investigation indicator).|&sect;2|
 |||Updated guidance on collection of biometric data for credentialing.|&sect;2|
 |||Clarified multi-session proofing and enrollment.|&sect;2|
 |||Provided clarification on grace periods.|&sect;2|
 |||Moved PIV Card activation reset procedures into new subsections for each activation method.|&sect;2|
-|||Clarified biometric modalities for proofing and authentication.|&sect;2, &sect;6|
+|||Added OCC card activation limits and reset guidelines.|&sect;2|
+|||Clarified biometric modalities for proofing, PIV card issuance/maintenance processes, and authentication.|&sect;2, &sect;6|
 |||Updated system description and associated diagrams.|&sect;3|
 |||Generalized chain of trust records to enrollment records and made them required.|&sect;3|
 |||Deprecated the use of magnetic stripes on PIV Card.|&sect;4|
@@ -64,7 +65,8 @@ _This appendix is informative._ It provides an overview of the changes to FIPS 2
 |||Deprecated use of separate content signing keys for biometric data and CHUID.|&sect;4|
 |||Removed requirement for support of Legacy PKIs.|&sect;5|
 |||Removed references to OMB M-04-04 that was rescinded by OMB M-19-17.|&sect;6|
-|||Expressed assurance levels in terms of PAL and AAL.|&sect;6|
+|||Expressed authentication mechanism strength for physical and local workstation access.|&sect;6|
+|||Expressed assurance levels in terms of AAL for remote/network access.|&sect;6|
 |||Removed previously deprecated CHUID authentication mechanisms. The CHUID data element has not been deprecated and continues to be mandatory.|&sect;6|
 |||Deprecated VIS authentication mechanism.|&sect;6|
 |||Deprecated SYM-CAK authentication mechanism.|&sect;6|
