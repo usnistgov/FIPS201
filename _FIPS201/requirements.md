@@ -699,7 +699,7 @@ To ensure privacy throughout the PIV lifecycle, departments and agencies **SHALL
     oversees privacy-related matters in the PIV system and is responsible for implementing the privacy
     requirements in the Standard. The individual serving in this role **SHALL NOT** assume any other
     operational role in the PIV system.
-- Conduct a comprehensive Privacy Impact Assessment (PIA) on systems containing PII for the
+- Conduct a comprehensive Privacy Impact Assessment (PIA) and a periodic review and update of the assessment on systems containing PII for the
     purpose of implementing PIV consistent with the methodology of [[E-Gov]](../_Appendix/references.md#ref-E-Gov) and the requirements of
     [[M-03-22]](../_Appendix/references.md#ref-OMB0322). Consult with appropriate personnel responsible for privacy issues at the department or
     agency (e.g., Chief Information Officer) implementing the PIV system.
