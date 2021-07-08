@@ -579,8 +579,7 @@ Asymmetric card authentication key
     for an interoperable environment. See [Section 4.2.2.2](frontend.md#s-4-2-2-2).
 
 Symmetric card authentication key (deprecated)
-: Supports card authentication for physical access and
-    is optional. See [Section 4.2.2.3](frontend.md#s-4-2-2-3).
+: An optional symmetric key supporting card authentication for physical access. See [Section 4.2.2.3](frontend.md#s-4-2-2-3).
 
 Digital signature key
 : An asymmetric private key that supports document signing, and it is
