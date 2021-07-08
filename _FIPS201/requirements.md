@@ -458,9 +458,8 @@ is reused with the new PIV Card, the digital signature must be recomputed with t
 UUID.
 
 A new PIV authentication certificate and a new card authentication certificate **SHALL** be generated. The
-corresponding certificates **SHALL** be populated with the new FASC-N and card UUID. For cardholders who are
-required to have a digital signature certificate, a new digital signature certificate **SHALL** also be generated.
-Key management keys and certificates **MAY** be imported to the new PIV Card.
+corresponding certificates **SHALL** be populated with the new FASC-N and card UUID. For cardholders with government-issued email accounts, the digital signature and key management keys and associated certificates **SHALL** be populated. A new digital signature key and associated certificate **SHALL** be generated on the new PIV card, while 
+key management keys and associated certificates **MAY** be imported to the new PIV Card.
 
 #### 2.9.1.1 Special Rule for Name Change by Cardholder {#s-2-9-1-1}
 
