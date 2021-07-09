@@ -46,7 +46,7 @@ specified in [Section 6.2](authentication.md#s-6-2) **SHALL** be applied to achi
 ### 6.1.1 Relationship to Federal Identity Policy (Removed) {#s-6-1-1}
 {:latex-toc="6.1.1 Relationship to Federal Identity Policy"}
 
-> Note: This section was formerly entitled "Relationship to OMB’s E-Authentication Guidance."
+> Note: This section was formerly entitled "Relationship to OMB's E-Authentication Guidance."
 
 The content of this section has been removed since OMB [[M-04-04]](../_Appendix/references.md#ref-OMB0404) has been rescinded by OMB [[M-19-17]](../_Appendix/references.md#ref-OMB1917), which recognizes the IALs and AALs defined in NIST [[SP 800-63]](../_Appendix/references.md#ref-SP-800-63) as the framework for managing digital identity risks within the Federal Government. The policy established by [[HSPD-12]](../_Appendix/references.md#ref-HSPD-12) still applies under this new memorandum. 
 
@@ -235,7 +235,7 @@ follows:
 
 The content of this section has been removed since the CHUID authentication mechanism is no longer allowed under FIPS-201. 
 
-The BIO, BIO-A, and the deprecated SYM-CAK authentication mechanisms use the CHUID data element as a source for the card’s expiration date.
+The BIO, BIO-A, and the deprecated SYM-CAK authentication mechanisms use the CHUID data element as a source for the card's expiration date.
 The CHUID data element also provides the content signing certificate for some authentication mechanisms and unique identifiers for PACS ACLs. 
 Therefore, the CHUID data element remains a required on-card data element, as described in [Section 4.2.1](frontend.md#s-4-2-1).
 
@@ -363,7 +363,7 @@ The PIV Card can be used to authenticate the cardholder in a physical access con
 
 Each PIV authentication mechanism provides one or two factors of authentication. The mechanisms can be combined[^combined] to achieve up to three authentication factors (e.g., to access exclusion security areas). The number of factors afforded by each authentication mechanism and the required factors to access the controlled, limited, or exclusion security areas are further detailed in [[SP 800-116]](../references/#ref-SP-800-116).
 
-The selection of authentication assurance levels **SHALL** be made in accordance with the applicable policies for a facility’s security level [[RISK-MGMT-FACILITIES]](../_Appendix/references.md#ref-RISK-MGMT-FACILITIES). Additional guidelines for the selection and use of PIV authentication mechanisms for facility access can be found in NIST [[SP 800-116]](../_Appendix/references.md#ref-SP-800-116).
+The selection of authentication assurance levels **SHALL** be made in accordance with the applicable policies for a facility's security level [[RISK-MGMT-FACILITIES]](../_Appendix/references.md#ref-RISK-MGMT-FACILITIES). Additional guidelines for the selection and use of PIV authentication mechanisms for facility access can be found in NIST [[SP 800-116]](../_Appendix/references.md#ref-SP-800-116).
 
 [^combined]: Combinations of authentication mechanisms are specified in [[SP 800-116]](../references/#ref-SP-800-116).
 

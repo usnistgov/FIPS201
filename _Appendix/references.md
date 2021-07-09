@@ -242,7 +242,7 @@ Available at <https://public-sans.digital.gov/>
 ~~~
 {:latex-literal="true"}
 
-[[REAL-ID]](references.md#ref-REAL-ID){:name="ref-REAL-ID"} "Minimum Standards for Driver’s Licenses and Identification Cards Acceptable by Federal Agencies for Official Purposes; Final Rule,"
+[[REAL-ID]](references.md#ref-REAL-ID){:name="ref-REAL-ID"} "Minimum Standards for Driver's Licenses and Identification Cards Acceptable by Federal Agencies for Official Purposes; Final Rule,"
 73 Federal Register 5271 (January 29, 2008), pp 5271-5340.
 <https://www.federalregister.gov/d/08-140>
 

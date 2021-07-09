@@ -28,7 +28,7 @@ accreditation process.
 Each agency's PIV implementation **SHALL** meet the control objectives listed above including, but not limited to, processes that ensure that
 
 + A credential is issued to an individual only after a proper authority has authorized issuance of the credential, the individual's identity has been verified, and the individual has been vetted per [Section 2.2](requirements.md#s-2-2).
-+ A credential is issued only after an individual’s eligibility has been favorably adjudicated
++ A credential is issued only after an individual's eligibility has been favorably adjudicated
     based on the prerequisite federal investigation (See [Section 2.2](requirements.md#s-2-2)). If there 
 		is no investigation meeting the investigative standards, the PIV credential eligibility may be approved 
 		upon favorable initiation of the prerequisite investigation[^initiation] and once the Federal Bureau of
@@ -227,7 +227,7 @@ following forms of identification:
 [^cryptoValidate]: For example, digital identity evidence signed by the issuing authority can be cryptographically verified (e.g., MRZ signature validation of passports).
 
 * U.S. Passport or a U.S. Passport Card
-* driver’s license or ID card that is compliant with [[REAL-ID]](../_Appendix/references.md#ref-REAL-ID) requirements described in this section
+* driver's license or ID card that is compliant with [[REAL-ID]](../_Appendix/references.md#ref-REAL-ID) requirements described in this section
 * Permanent Resident Card or Alien Registration Receipt Card (Form I-551)
 * foreign passport
 * Employment Authorization Document that contains a photograph (Form I-766)
@@ -260,7 +260,7 @@ of the following:
 
 > Note: One piece of Strong evidence and one other piece of evidence meeting the requirements of Fair evidence in [[SP 800-63A]](../_Appendix/references.md#ref-SP-800-63A) are considered sufficient for issuance of a PIV Card because the requirement for a federal background investigation is considered a compensating control for identity proofing at IAL3.
 
-Departments and agencies **SHALL** ensure that driver’s licenses and ID cards presented by applicants comply with [[REAL-ID]](../_Appendix/references.md#ref-REAL-ID) when required pursuant to DHS regulations. State-issued driver's licenses and ID cards that are not [[REAL-ID]](../_Appendix/references.md#ref-REAL-ID) compliant **MAY** be used until the full enforcement date under [[6 CFR &sect; 37.5]](../_Appendix/references.md#ref-6CFR37).
+Departments and agencies **SHALL** ensure that driver's licenses and ID cards presented by applicants comply with [[REAL-ID]](../_Appendix/references.md#ref-REAL-ID) when required pursuant to DHS regulations. State-issued driver's licenses and ID cards that are not [[REAL-ID]](../_Appendix/references.md#ref-REAL-ID) compliant **MAY** be used until the full enforcement date under [[6 CFR &sect; 37.5]](../_Appendix/references.md#ref-6CFR37).
 
 The PIV identity proofing, registration, issuance, and reissuance processes **SHALL** adhere to the
 principle of separation of duties to ensure that no single individual has the capability to issue a PIV
@@ -305,7 +305,7 @@ Supervised remote identity proofing **SHALL** meet the following requirements:
 * The operator **SHALL** validate the physical or cryptographic security features of primary and secondary identity source documents using scanners and sensors that are integrated into the station.
 * The issuer **SHALL** ensure that all communications occur over a mutually authenticated protected channel.
 
-If biometric data cannot be collected per the criteria defined in [[SP 800-76]](../_Appendix/references.md#ref-SP-800-76) or if validation of the identity evidence is inadequate, supervised remote identity proofing **SHALL NOT** be used and the identity proofing and enrollment will be performed in person at the issuer’s facility.
+If biometric data cannot be collected per the criteria defined in [[SP 800-76]](../_Appendix/references.md#ref-SP-800-76) or if validation of the identity evidence is inadequate, supervised remote identity proofing **SHALL NOT** be used and the identity proofing and enrollment will be performed in person at the issuer's facility.
 The trained operator **SHALL** terminate a supervised remote identity proofing
 session and require in-person identity proofing at an issuing facility if
 there is reasonable basis to believe[^believe] that the applicant is attempting
@@ -390,7 +390,7 @@ Departments and agencies **MAY** use a supervised remote identity proofing stati
 
 Remote issuance **SHALL** satisfy all of the requirements of [Section 2.8](requirements.md#s-2-8). The issuer **SHALL** have local trained staff to securely maintain custody of card stock received by the remote station when the station is used for PIV Card issuance.
 
-If biometric data cannot be positively verified per the criteria defined in [[SP 800-76]](../_Appendix/references.md#ref-SP-800-76), remote issuance **SHALL NOT** be used and issuance will be performed in person at the issuer’s facility.
+If biometric data cannot be positively verified per the criteria defined in [[SP 800-76]](../_Appendix/references.md#ref-SP-800-76), remote issuance **SHALL NOT** be used and issuance will be performed in person at the issuer's facility.
 The trained operator **SHALL** terminate a remote issuance
 session and require in-person issuance at an issuing facility if
 there is reasonable basis to believe[^believe] that the applicant is attempting
@@ -614,7 +614,7 @@ following circumstances:
 + A contractor changes positions and no longer needs access to federal buildings or systems.
 + A cardholder passes away.
 + An authorized adjudicative entity determines that the
-    cardholder is ineligible for a PIV Card after completion of a cardholder’s background investigation
+    cardholder is ineligible for a PIV Card after completion of a cardholder's background investigation
     or review of developed information (see [[FCS]](../_Appendix/references.md#ref-FCS) and [[CSP]](../_Appendix/references.md#ref-CSP)).
 + A cardholder is determined to hold a fraudulent identity.
 
@@ -710,7 +710,7 @@ To ensure privacy throughout the PIV lifecycle, departments and agencies **SHALL
     credential issuance.[^access]
 - Coordinate with appropriate department or agency officials to define consequences for violating
     privacy policies of the PIV system.
-- Ensure that the technologies used in the department or agency’s implementation of the PIV system 
+- Ensure that the technologies used in the department or agency's implementation of the PIV system 
     allow for continuous auditing of compliance with stated privacy policies and with practices governing
 		the collection, use, and distribution of information in the operation of the program.
 - Utilize security controls described in [[SP 800-53]](../_Appendix/references.md#ref-SP-800-53) to accomplish privacy goals, where applicable.

@@ -532,9 +532,9 @@ Cardholder-to-External (CTE) authentication
 
 > Note: The CHUID authentication mechanism ([Section 6.2.5](authentication.md#s-6-2-5)) has been
 removed from this version of the Standard. The CHUID data element itself, however, has not been removed and continues to be mandatory as it supports other PIV authentication mechanisms. For example, the BIO, BIO-A, and SYM-CAK authentication mechanisms use the CHUID data
-element as a source for the card’s expiration date. The CHUID data element also provides the content signing certificate for some authentication mechanisms and unique identifiers for PACS ACLs. 
+element as a source for the card's expiration date. The CHUID data element also provides the content signing certificate for some authentication mechanisms and unique identifiers for PACS ACLs. 
  
- The PIV Card **SHALL** include the CHUID, as defined in [[SP 800-73]](../_Appendix/references.md#ref-SP-800-73). The CHUID **SHALL** include two card identifiers: the Federal
+The PIV Card **SHALL** include the CHUID, as defined in [[SP 800-73]](../_Appendix/references.md#ref-SP-800-73). The CHUID **SHALL** include two card identifiers: the Federal
 Agency Smart Credential Number (FASC-N) and the card UUID in the Global Unique Identification Number (GUID) data element of the CHUID. 
 Each identifier uniquely identifies each card as specified in [[SP 800-73]](../_Appendix/references.md#ref-SP-800-73).
 The value of the card UUID **SHALL**

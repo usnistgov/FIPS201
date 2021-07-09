@@ -9,7 +9,7 @@ anchor: s-5
 
 # 5. PIV Key Management Requirements {#s-5}
 
-_This section is normative._ It defines the processes and components required for managing a PIV Card’s lifecycle and provides the requirements and specifications related to key management.
+_This section is normative._ It defines the processes and components required for managing a PIV Card's lifecycle and provides the requirements and specifications related to key management.
 
 PIV Cards consistent with this specification **SHALL** have two or more asymmetric private keys. To manage
 the public keys associated with the asymmetric private keys, departments and agencies **SHALL** issue and
