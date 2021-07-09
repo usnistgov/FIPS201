@@ -64,7 +64,7 @@ PIV Card and any derived PIV credentials bound to the account.
 
 This Standard defines authentication mechanisms that offer varying degrees of security for both logical and
 physical access applications. Federal departments and agencies will determine the level of security and
-authentication mechanisms appropriate for their applications. The scope of this
+the authentication mechanisms appropriate for their applications. The scope of this
 Standard is limited to the authentication of an individual's identity. Authorization and access control
 decisions are outside of the scope of this Standard. Moreover, requirements for a temporary credential used until
 a new or replacement PIV credential arrives are out of the scope of this Standard.
@@ -120,13 +120,13 @@ When a feature is to be discontinued or is no longer needed, it is deprecated. I
 currently in use by relying systems would only be deprecated if there were a compelling
 reason to do so (e.g., security). Deprecated features **MAY** continue to be used but **SHOULD** be phased out in future systems
 since the feature will likely be removed in the next revision of the Standard. Removed features **SHALL NOT** be used. For example, the CHUID
-authentication mechanism ([Section 6.2.5](authentication.md#s-6-2-5)) has been removed from this version of the Standard
-and relying systems **SHALL NOT** use this authentication
+authentication mechanism ([Section 6.2.5](authentication.md#s-6-2-5)) was previously deprecated in FIPS 201-2 and has been removed from this version of the Standard.
+Therefore, relying systems must not use this authentication
 mechanism.[^CHUID] The PIV Visual Credentials (VIS) authentication mechanism ([Section 6.2.6](authentication.md#s-6-2-6)) has been deprecated as a stand-alone
-authentication mechanism, but it **MAY** still be used in conjunction with other authentication mechanisms.
+authentication mechanism, but it could still be used in conjunction with other authentication mechanisms.
 
 In the case of deprecated features on PIV Cards such as the magnetic stripe ([Section 4.1.4.4](frontend.md#s-4-1-4-4)), existing PIV Card stock 
-with the deprecated features remain valid. However, future PIV Card stock acquisitions **SHOULD** exclude the deprecated
+with deprecated features remains valid. However, future PIV Card stock acquisitions **SHOULD** exclude the deprecated
 features.
 
 [^CHUID]: The CHUID data element has not been removed and continues to be mandatory.
@@ -140,13 +140,16 @@ include but are not limited to PIV Cards, PIV middleware software, and card issu
 New version numbers will be assigned in [[SP 800-73]](../_Appendix/references.md#ref-SP-800-73), if needed, based on the nature of the change. For
 example, new mandatory features introduced in a revision of this Standard may necessitate a new PIV
 Card Application version number so that systems can quickly discover the new mandatory features.
-Optional features may be discoverable by an on-card discovery mechanism.
+Optional features can be discovered by an on-card discovery mechanism.
 
 ### 1.3.6 Section Number Stability {#s-1-3-6}
 
-Section numbers have not been changed in this revision. Any deleted sections have had their contents 
+Section numbers have not been changed in this revision. 
+While the general focus of each section's content remain the same, some section titles
+have changed to better reflect the updated content.
+Any deleted sections have had their content
 removed and replaced with a removal notice while retaining the section header and number. New subsections
-have been added at the end of their respective sections with a new subsection number.
+have been added at the end of their respective sections with a new subsection number. 
 
 ## 1.4 Document Organization {#s-1-4}
 

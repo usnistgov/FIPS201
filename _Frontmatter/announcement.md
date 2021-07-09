@@ -62,7 +62,7 @@ In implementing PIV systems and pursuant to Section 508 of the Rehabilitation Ac
 
 The Office of Management and Budget (OMB) provides implementation oversight for this Standard. 
 
-PIV cards can only be issued by accredited issuers. The responsibility and authority for PIV card issuance and management rests in the  departments and agencies employing federal employees and contractors regardless of whether these functions are performed in-house or outsourced to an external public or private organization. To ensure consistency in the operations of issuers, NIST provides guidelines for the accreditation of PIV Card issuers and derived PIV credential issuers in [[SP 800-79]](../_Appendix/references.md#ref-SP-800-79). The Standard also covers security and interoperability requirements for PIV Cards. For this purpose, NIST has established the PIV Validation Program, which tests implementations for conformance with this Standard as specified in [[SP 800-73]](../_Appendix/references.md#ref-SP-800-73) and [[SP 800-78]](../_Appendix/references.md#ref-SP-800-78) (see [Appendix A.3](../_Appendix/accreditation.md#s-a-3)).
+PIV Cards can only be issued by accredited issuers. The responsibility and authority for PIV Card issuance and management rests in the  departments and agencies employing federal employees and contractors regardless of whether these functions are performed in-house or outsourced to an external public or private organization. To ensure consistency in the operations of issuers, NIST provides guidelines for the accreditation of PIV Card issuers and derived PIV credential issuers in [[SP 800-79]](../_Appendix/references.md#ref-SP-800-79). The Standard also covers security and interoperability requirements for PIV Cards. For this purpose, NIST has established the PIV Validation Program, which tests implementations for conformance with this Standard as specified in [[SP 800-73]](../_Appendix/references.md#ref-SP-800-73) and [[SP 800-78]](../_Appendix/references.md#ref-SP-800-78) (see [Appendix A.3](../_Appendix/accreditation.md#s-a-3)).
 
 FIPS 201 compliance of PIV components and subsystems is provided in accordance with OMB [[M-19-17]](../_Appendix/references.md#ref-OMB1917) through products and services from the U.S. General Services Administration's (GSA) Interoperability Test Program and Approved Products and Services List (see [Appendix A.5](../_Appendix/accreditation.md#s-a-5)). Implementation guidance for PIV-enabled federal facilities and information systems in accordance with OMB [[M-19-17]](../_Appendix/references.md#ref-OMB1917) will be outlined by [[FICAM-Roadmap]](../_Appendix/references.md#ref-FICAM-roadmap) as playbooks and best practice repositories. See also [[SP 800-116]](../_Appendix/references.md#ref-SP-800-116) and [[ISC-RISK]](../_Appendix/references.md#ref-ISC-RISK).
 
@@ -82,14 +82,14 @@ Personal Identity Verification (PIV) of Federal Employees and Contractors.
 
 # 11. Qualifications. {#f-11}
 
-The security provided by the PIV system is dependent on many factors outside the scope of this Standard. Organizations must be aware that the overall security of the personal identification system relies on
+The security provided by the PIV system is dependent on many factors outside the scope of this Standard. Organizations must be aware that the overall security of the PIV system relies on
 
 + assurance provided by the issuer of an identity credential that the individual in possession of the credential has been correctly identified;
 + protection provided to an identity credential stored within the PIV Card and transmitted between the card and the PIV issuance and relying subsystems;
-+ infrastructure protection provided for derived PIV credential in the binding, maintenance, and use of the identity credential; and
-+ protection provided to the identity verification system infrastructure and components throughout the entire lifecycle.
++ infrastructure protection provided for derived PIV credentials in the binding, maintenance, and use of the identity credential; and
++ protection provided to the PIV system infrastructure and components throughout the entire lifecycle.
 
-Although it is the intent of this Standard to specify mechanisms and support systems that provide high assurance personal identity verification, conformance to this Standard does not assure that a particular implementation is secure. It is the implementer's responsibility to ensure that components, interfaces, communications, storage media, managerial processes, and services used within the identity verification system are designed and built in a secure manner.
+Although it is the intent of this Standard to specify mechanisms and support systems that provide high assurance personal identity verification, conformance to this Standard does not assure that a particular implementation is secure. It is the implementer's responsibility to ensure that components, interfaces, communications, storage media, managerial processes, and services used within the PIV system are designed and built in a secure manner.
 
 Similarly, the use of a product that conforms to this Standard does not guarantee the security of the overall system in which the product is used. The responsible authority in each department and agency must ensure that an overall system provides the acceptable level of security.
 
