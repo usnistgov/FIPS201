@@ -11,17 +11,17 @@ anchor: s-1
 _This section is informative except where otherwise marked as normative._ It provides background information for understanding the
 scope of this Standard.
 
-Authentication of an individual’s identity is a fundamental component of both physical and
+Authentication of an individual's identity is a fundamental component of both physical and
 logical access control. An access control decision must be made
 when an individual attempts to access security-sensitive 
 buildings, information systems, and applications. An 
-accurate determination of an individual’s identity supports making sound access control
+accurate determination of an individual's identity supports making sound access control
 decisions.
 
 In the past, a wide range of legacy mechanisms has been employed to authenticate an individual,
-utilizing various classes of identity credentials. For physical access, an individual’s
+utilizing various classes of identity credentials. For physical access, an individual's
 identity has been authenticated using paper or other non-automated, hand-carried
-credentials such as badges and driver’s licenses. For logical access, authorization to access
+credentials such as badges and driver's licenses. For logical access, authorization to access
 computers and data has been based on identities authenticated through user-selected
 passwords. Today, cryptographic mechanisms and biometric techniques
 are replacing these legacy mechanisms in physical and logical security applications.

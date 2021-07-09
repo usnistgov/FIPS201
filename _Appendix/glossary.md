@@ -53,7 +53,7 @@ Authentication
 person's _identity_ and an authenticator (e.g., _PIV Card_ or _derived PIV credential_).
 
 Authenticator
-: Something the cardholder possesses and controls (e.g., _PIV Card_ or _derived PIV credential_) that is used to authenticate the cardholder’s identity.
+: Something the cardholder possesses and controls (e.g., _PIV Card_ or _derived PIV credential_) that is used to authenticate the cardholder's identity.
 
 Authenticator Assurance Level (AAL)
 : A measure of the strength of an _authentication_ mechanism and, therefore, the confidence in it, as
@@ -234,7 +234,7 @@ Identity
 recognizable.
 
 Identity Assurance Level (IAL)
-: A category that conveys the degree of confidence that a person’s claimed _identity_ is their real _identity_, as
+: A category that conveys the degree of confidence that a person's claimed _identity_ is their real _identity_, as
 defined in [[SP 800-63]](references.md#ref-SP-800-63) in terms of three levels:
 
 	IAL1
@@ -336,7 +336,7 @@ Personal Identification Number (PIN)
 their _identity_.
 
 Personal Identity Verification (PIV) Identity Account
-: The logical record containing credentialing information for a given PIV _cardholder_. This is stored within the _issuer’s_ _identity management system_ and includes PIV enrollment data, _cardholder_ _identity_ attributes, and information regarding the _cardholder_’s _PIV Card_ and any _derived PIV credentials_ bound to the account.
+: The logical record containing credentialing information for a given PIV _cardholder_. This is stored within the _issuer's_ _identity management system_ and includes PIV enrollment data, _cardholder_ _identity_ attributes, and information regarding the _cardholder_'s _PIV Card_ and any _derived PIV credentials_ bound to the account.
 
 Personal Identity Verification (PIV) Card
 : A physical artifact (e.g., _identity_ card, "smart" card) issued
