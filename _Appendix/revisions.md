@@ -53,7 +53,7 @@ _This appendix is informative._ It provides an overview of the changes to FIPS 2
 |||Provided clarification on grace periods.|&sect;2|
 |||Moved PIV Card activation reset procedures into new subsections for each activation method.|&sect;2|
 |||Added OCC card activation limits and reset guidelines.|&sect;2|
-|||Clarified biometric modalities for proofing, PIV card issuance/maintenance processes, and authentication.|&sect;2, &sect;6|
+|||Clarified biometric modalities for proofing, PIV Card issuance/maintenance processes, and authentication.|&sect;2, &sect;6|
 |||Updated system description and associated diagrams.|&sect;3|
 |||Generalized chain of trust records to enrollment records and made them required.|&sect;3|
 |||Deprecated the use of magnetic stripes on PIV Card.|&sect;4|
