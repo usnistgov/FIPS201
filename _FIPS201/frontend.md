@@ -77,13 +77,13 @@ integrity, surface abrasion, temperature and humidity-induced dye migration, ult
 exposure, and laundry test. Cards **SHALL NOT** malfunction or delaminate after hand cleaning with a
 mild soap and water mixture.
 
-The card **SHALL** be subjected to sunlight exposure in accordance with Section 5.12 of [[ISO 10373]](../_Appendix/references.md#ref-ISO10373)
+Sample cards **SHALL** be subjected to sunlight exposure in accordance with Section 5.12 of [[ISO 10373]](../_Appendix/references.md#ref-ISO10373)
 or to ultraviolet and daylight fading exposure in accordance with [[ANSI 322]](../_Appendix/references.md#ref-ANSI322).
 Sunlight exposure in accordance with [[ISO 10373]](../_Appendix/references.md#ref-ISO10373) **SHALL** be in the
 form of actual, concentrated, or artificial sunlight that appropriately reflect 2&thinsp;000&nbsp;hours of 
 southwestern United States' sunlight. 
 Concentrated sunlight exposure **SHALL** be performed in accordance with [[G90-17]](../_Appendix/references.md#ref-G90-17) and accelerated 
-exposure in accordance with [[G155-2013]](../_Appendix/references.md#ref-G155-2013). The card 
+exposure in accordance with [[G155-2013]](../_Appendix/references.md#ref-G155-2013). Sample cards
 **SHALL** be subjected to the
 [[ISO 10373]](../_Appendix/references.md#ref-ISO10373) dynamic bending test and **SHALL** have no visible 
 cracks or failures after the [[ISO 10373]](../_Appendix/references.md#ref-ISO10373) or [[ANSI 322]](../_Appendix/references.md#ref-ANSI322) exposure. 
@@ -148,7 +148,8 @@ data in 6&nbsp;pt Arial Bold.
 If the Arial font is not available, a visually similar font, such as Public Sans [[PublicSans]](../_Appendix/references#ref-PublicSans), **MAY** 
 be substituted for all references to Arial within this Standard. If such a substitution is made, the substitution
 **SHALL** be consistently applied to all uses of the Arial font on the PIV Card.
- Unless otherwise specified, all text **SHALL** be printed in black.
+Unless otherwise specified, all text **SHALL** be printed in black.
+
 #### 4.1.4.1 Mandatory Items on the Front of the PIV Card {#s-4-1-4-1}
 
 Zone 1F: Photograph
@@ -483,11 +484,11 @@ data elements are part of the data model for PIV Card logical credentials that s
 mechanisms that are interoperable across agencies:
 
 - a PIN,
-- a Cardholder Unique Identifier (CHUID),[^support]
 - PIV authentication data (one asymmetric private key and corresponding certificate),
+- card authentication data (one asymmetric private key and corresponding certificate),
 - two fingerprint biometric templates,
 - an electronic facial image, and
-- card authentication data (one asymmetric private key and corresponding certificate).
+- a Cardholder Unique Identifier (CHUID).[^support]
 
 [^support]: The CHUID as an authentication mechanism in [Section 6.2.5](authentication.md#s-6-2-5) has been removed from this version of the Standard. The CHUID data element itself, however, has not been removed and continues to be mandatory as it supports other PIV authentication mechanisms.
 
@@ -529,7 +530,7 @@ Cardholder-to-External (CTE) authentication
 ### 4.2.1 Cardholder Unique Identifier (CHUID) {#s-4-2-1}
 {:latex-toc="4.2.1 Cardholder Unique Identifier"}
 
-Note: The CHUID authentication mechanism ([Section 6.2.5](authentication.md#s-6-2-5)) has been
+> Note: The CHUID authentication mechanism ([Section 6.2.5](authentication.md#s-6-2-5)) has been
 removed from this version of the Standard. The CHUID data element itself, however, has not been removed and continues to be mandatory as it supports other PIV authentication mechanisms. For example, the BIO, BIO-A, and SYM-CAK authentication mechanisms use the CHUID data
 element as a source for the card's expiration date. The CHUID data element also provides the content signing certificate for some authentication mechanisms and unique identifiers for PACS ACLs. 
  
@@ -579,17 +580,17 @@ Asymmetric card authentication key
     for an interoperable environment. See [Section 4.2.2.2](frontend.md#s-4-2-2-2).
 
 Symmetric card authentication key (deprecated)
-: Supports card authentication for physical access and
-    is optional. See [Section 4.2.2.3](frontend.md#s-4-2-2-3).
+: An optional symmetric key that supports physical access.
+    See [Section 4.2.2.3](frontend.md#s-4-2-2-3).
 
 Digital signature key
-: An asymmetric private key that supports document signing, and it is
+: An asymmetric private key that supports document signing; it is
     mandatory if the cardholder has a government-issued email account at the time of
     PIV Card issuance. See [Section 4.2.2.4](frontend.md#s-4-2-2-4).
 
 Key management key
-: An asymmetric private key that supports key establishment,
-    and it is mandatory if the cardholder has a government-issued email account at the
+: An asymmetric private key that supports key establishment;
+    it is mandatory if the cardholder has a government-issued email account at the
     time of PIV Card issuance. Optionally, up to 20 retired key management keys[^retired] may also be
     stored on the PIV Card. See [Section 4.2.2.5](frontend.md#s-4-2-2-5).
 
@@ -652,7 +653,7 @@ specifies the certificate format and the key management infrastructure for the P
 The asymmetric card authentication key **MAY** be generated
 on the PIV Card or imported to the card. The PIV Card **SHALL NOT** permit exportation of the card
 authentication key. Cryptographic operations that use the card authentication key **SHALL** be available
-through the contact and contactless interfaces of the PIV Card and **SHALL NOT** be available through the virtual contact interface of the PIV card. Private key operations **MAY** be
+through the contact and contactless interfaces of the PIV Card and **SHALL NOT** be available through the virtual contact interface of the PIV Card. Private key operations **MAY** be
 performed using this key without card activation (e.g., the PIN need not be supplied for operations
 with this key).
 
@@ -724,7 +725,7 @@ recognition of cardholders based on their biological characteristics. The PIV
 Card can digitally store fingerprint, face, and iris biometric characteristics.
 Techniques for storage, protection, and access of these biometric data records
 are outlined in the following sections and explained in depth in
-[[SP 800-76]](../_Appendix/references.md#ref-SP-800-76).
+[[SP 800-76]](../_Appendix/references.md#ref-SP-800-76) and [[SP 800-73]](../_Appendix/references.md#ref-SP-800-73).
 
 #### 4.2.3.1 Biometric Data Representation {#s-4-2-3-1}
 
@@ -763,7 +764,7 @@ requirements for the digital signature and digest algorithm are detailed in [[SP
 The public key required to verify the digital signature **SHALL** be in a content signing certificate,
 which **SHALL** be issued under the `id-fpki-common-piv-contentSigning` policy of [[COMMON]](../_Appendix/references.md#ref-COMMON) and **SHALL** include an extended key usage (`extKeyUsage`) extension asserting `id-PIV-content-signing`. The signature on the biometric data record **SHOULD** be generated with the same signing key as the signature on the CHUID data object. The public key required to verify the digital signature is contained in the CHUID data object's content signing certificate[^notInBioRec] as detailed in [Section 4.2.1](frontend.md#s-4-2-1). 
 
-The use of an different content signing key from that which signs the CHUID is deprecated in this revision of the Standard.If the signature on the biometric data record was generated with a different key than the signature on
+The use of an different content signing key from that which signs the CHUID is deprecated in this revision of the Standard. If the signature on the biometric data record was generated with a different key than the signature on
 the CHUID, the `certificates` field of the CMS external digital signature **SHALL** include the content signing certificate required to verify the signature on the biometric data record. Otherwise, the `certificates` field **SHALL** be omitted.
 
 Additional descriptions for the PIV object identifiers are provided in [Appendix B](../_Appendix/oid.md#s-b). The content

@@ -18,7 +18,7 @@ manage X.509 public key certificates as specified in this section.
 ## 5.1 Architecture {#s-5-1}
 
 CAs that issue certificates to support PIV private keys **SHALL** participate in the hierarchical PKI
-for the Common Policy managed by the Federal PKI. 
+for the Common Policy managed by the Federal PKI Management Authority.
 
 CA certificates **SHALL** conform to
 [[COMMON]](../_Appendix/references.md#ref-COMMON).
@@ -46,7 +46,7 @@ relationship is described below:
 - Certificates that contain the public key associated with a digital signature private key **SHALL** conform to the
     *End Entity Signature Certificate Profile* in [[PROF]](../_Appendix/references.md#ref-PROF) and **SHALL** specify the `id-fpki-common-hardware` policy of [[COMMON]](../_Appendix/references.md#ref-COMMON) in the certificate policies
     extension ([Section 4.2.2.4](frontend.md#s-4-2-2-4)).
-- Certificates containing the public key associated with a key management private key **SHALL** conform to
+- Certificates containing the public key associated with a key management private key **SHALL** conform to the
     *Key Management Certificate Profile* in [[PROF]](../_Appendix/references.md#ref-PROF) and **SHALL** specify the `id-fpki-common-policy` or `id-fpki-common-hardware` policy of [[COMMON]](../_Appendix/references.md#ref-COMMON) in the certificate policies extension
     ([Section 4.2.2.5](frontend.md#s-4-2-2-5)).
 - Requirements for algorithms and key sizes for each type of PIV asymmetric key are given in
@@ -54,7 +54,7 @@ relationship is described below:
 
 The expiration date of the PIV authentication and card authentication certificates 
 **SHALL NOT** be after the expiration date of the PIV Card. 
-The expiration date of the PIV card is printed on the card in Zone 14F (see [Section 4.1.4](#s-4-1-4)) and is contained in the CHUID data object (see [Section 4.2.1](#s-4-2-1)). 
+The expiration date of the PIV Card is printed on the card in Zone 14F (see [Section 4.1.4](#s-4-1-4)) and is contained in the CHUID data object (see [Section 4.2.1](#s-4-2-1)). 
 If the card is revoked, 
 the PIV authentication and card authentication certificates **SHALL** be revoked in cases where the card cannot be collected and destroyed.
 However, a PIV authentication or card authentication certificate **MAY** be revoked and subsequently replaced without revoking the

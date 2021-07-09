@@ -34,6 +34,11 @@ Available at <https://www.aamva.org/DL-ID-Card-Design-Standard/>
 (Federal CIO Council), Version 1.32 [or as amended].
 Available at <https://www.idmanagement.gov/wp-content/uploads/sites/1171/uploads/fpki-x509-cert-policy-common.pdf>
 
+[[CSP]](references.md#ref-CSP){:name="ref-CSP"} U.S. Office of Personnel Management (2020)
+*Credentialing Standards Procedures for Issuing Personal Identity Verification Cards under HSPD-12 and New Requirement for Suspension or Revocation of Eligibility for Personal Identity Verification Credentials*
+(U.S. Office of Personnel Management, Washington, DC), December 15, 2020.
+Available at <https://www.opm.gov/suitability/suitability-executive-agent/policy/cred-standards.pdf>
+
 [[E-Gov]](references.md#ref-E-Gov){:name="ref-E-Gov"} E-Government Act of 2002, Pub. L. 107-347, 116 Stat 2899. 
 <https://www.govinfo.gov/app/details/PLAW-107publ347>
 

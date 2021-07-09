@@ -29,7 +29,7 @@ protocol, as described in [Section 7](federation.md#s-7) and further specified i
 ## 6.1 PIV Assurance Levels {#s-6-1}
 
 This Standard defines multiple levels of assurance for logical and physical access. Each assurance level establishes a degree of confidence that the presenter of
-the PIV Card is the person referred to by the PIV credential. The entity performing the authentication further establishes confidence that the person referred to by the PIV credential is a specific person identified through the rigor of the identity proofing process conducted prior to issuance of the PIV Card and the security of the PIV Card and issuance and maintenance processes specified in [Section 2](requirements.md#s-2). The PIV identity proofing, registration, issuance, and maintenance processes meet [^compensating] the
+the PIV Card is the person referred to by the PIV credential. The entity performing the authentication further establishes confidence that the person referred to by the PIV credential is a specific person identified through the rigor of the identity proofing process conducted prior to issuance of the PIV Card and the security of the PIV Card and issuance and maintenance processes specified in [Section 2](requirements.md#s-2). The PIV identity proofing, registration, issuance, and maintenance processes meet[^compensating] the
 requirements for IAL3, as defined in [[SP 800-63A]](../_Appendix/references.md#ref-SP-800-63A).
 
 The PIV Card contains a number of logical credentials that are used by the authentication mechanisms specified in [Section 6.2](authentication.md#s-6-2). PIV assurance levels may vary
@@ -41,8 +41,7 @@ individuals and organizations that could occur as a result of errors in the auth
 cardholder. Once the required assurance level has been determined, one of the authentication mechanisms
 specified in [Section 6.2](authentication.md#s-6-2) **SHALL** be applied to achieve that assurance level.
 
-[^compensating]: As described in [Section 2.7](requirements.md#s-2-7), compensating controls can be applied for identity source documents evidence to achieve IAL3 since the Standard only specifies one piece of Strong evidence and one other piece of Fair evidence. Issuance of PIV Card meets IAL3 since the federal background investigation serves as a comparable compensating control for IAL3 identity proofing. 
-
+[^compensating]: As described in [Section 2.7](requirements.md#s-2-7), compensating controls can be applied for identity source document evidence to achieve IAL3 since the Standard only specifies one piece of Strong evidence and one other piece of Fair evidence. Issuance of PIV Card meets IAL3 since the federal background investigation serves as a comparable compensating control for IAL3 identity proofing. 
 
 ### 6.1.1 Relationship to Federal Identity Policy (Removed) {#s-6-1-1}
 {:latex-toc="6.1.1 Relationship to Federal Identity Policy"}
@@ -72,12 +71,12 @@ define two authentication mechanisms that make use of biometric data records.[^b
 Some characteristics of the authentication mechanisms using biometric data are as follows:
 
 - strong resistance to use of the PIV Card by a non-owner since both PIN entry and cardholder biometric characteristics are
-    required
-- digital signature on biometric data records, which is checked to further strengthen the mechanism
-- slower since it requires multiple interactions with the cardholder for presentation of the PIN and acquisition of a biometric sample
-- does not provide protection against use of a revoked card
+    required,
+- digital signature on biometric data records, which is checked to further strengthen the mechanism,
+- slower since it requires multiple interactions with the cardholder for presentation of the PIN and acquisition of a biometric sample,
+- does not provide protection against use of a revoked card, and
 - usable with both contact card readers and contactless card readers that support the virtual contact
-    interface
+    interface.
 
 [^bioreaders]: As noted in [Section 4.2.3.1](../frontend/#s-4-2-3-1), fingerprint biometric templates are not guaranteed to contain biometric characteristic data since it may not be possible to collect fingerprints from some cardholders. Additionally, electronic iris images are not guaranteed to be present on a PIV Card since iris biometric capture is optional. When biometric verification cannot be performed, PKI-AUTH is the recommended alternate authentication mechanism.
 
@@ -100,7 +99,7 @@ The following steps **SHALL** be performed for unattended authentication using b
 - A unique identifier within the CHUID or other data element is used as input to the authorization
     check to determine whether the cardholder should be granted access.
 
-[^expired]: The PIV authentication certificate or card authentication certificate may be leveraged instead of the CHUID to verify that the card is not expired.
+[^expired]: The PIV authentication certificate or card authentication certificate may be used instead of the CHUID to verify that the card is not expired.
 
 #### 6.2.1.2 Attended Authentication Using Biometric Data (BIO-A) {#s-6-2-1-2}
 
@@ -123,10 +122,10 @@ implement OCC, it **SHALL** be implemented as defined in [[SP 800-73]](../_Appen
 
 Some of the characteristics of OCC-AUTH are as follows:
 
-- highly resistant to credential forgery
-- strong resistance to use of unaltered card by non-owner
-- usable with contact and contactless card readers
-- privacy-enhancing, as the biometric template is compared directly on the PIV Card and never exported
+- highly resistant to credential forgery;
+- strong resistance to use of unaltered card by non-owner;
+- usable with contact and contactless card readers; and
+- privacy-enhancing, as the biometric template is compared directly on the PIV Card and never exported.
 
 ### 6.2.3 Authentication Using PIV Asymmetric Cryptography {#s-6-2-3}
 {:latex-toc="6.2.3 PIV Asymmetric Cryptography"}
@@ -155,12 +154,12 @@ The following steps **SHALL** be performed for PKI-AUTH:
 
 Some of the characteristics of the PKI-based authentication mechanism are as follows:
 
-- requires the use of certificate status checking infrastructure
-- highly resistant to credential forgery
-- strong resistance to the use of an unaltered card by a non-owner since card activation is required
-- protection against the use of a revoked card
+- requires the use of certificate status checking infrastructure,
+- highly resistant to credential forgery,
+- strong resistance to the use of an unaltered card by a non-owner since card activation is required,
+- protection against the use of a revoked card, and
 - usable with both contact card readers and contactless card readers that support the virtual contact
-    interface
+    interface.
 
 [^pivpath]: The policy OID for the PIV authentication certificate is `id-fpki-common-authentication`.
 
@@ -310,7 +309,7 @@ the visual authentication process:
 Some characteristics of the visual authentication mechanism include the following:
 
 - human inspection of the card,
-- not amenable for rapid or high-volume access control,
+- does not provide rapid or high-volume access control,
 - susceptible to human error,
 - some resistance to the use of an unaltered card by a non-owner,
 - low resistance to tampering and forgery, and
@@ -324,8 +323,8 @@ NIST [[SP 800-63]](../_Appendix/references.md#ref-SP-800-63), which specifies a 
 
 The following subsections specify which PIV
 authentication mechanisms can be used to support various assurance levels
-described in this section. Two or more authentication mechanisms **MAY** be applied in
-unison to achieve additional assurance of the identity of the PIV cardholder. For example, PKI-AUTH and BIO may be applied in unison to achieve additional assurance of cardholder identity.
+described in this section. Two or more authentication mechanisms **MAY** be applied together
+to achieve additional assurance of the identity of the PIV cardholder. For example, PKI-AUTH and BIO may be applied in unison to achieve additional assurance of cardholder identity.
 
 Adequately designed and implemented relying systems can achieve the PIV Card
 assurance levels stated in [Section 6.3.1](authentication.md#s-6-3-1) for physical access and in [Section 6.3.2](authentication.md#s-6-3-2) for logical access. Relying systems that are inadequately designed
@@ -345,7 +344,7 @@ The authentication mechanisms described in the subsections below apply specifica
 
 ### 6.3.1 Physical Access {#s-6-3-1}
 
-The PIV Card can be used to authenticate the cardholder in a physical access control environment using the authentication mechanisms described in [Section 6.2](authentication.md#s-6-2). Each authentication mechanism provides a degree of assurance based on its characteristics outlined in [Section 6.2](authentication.md#s-6-2), as summarized in [Table 6-1](authentication.md#table-6-1).
+The PIV Card can be used to authenticate the cardholder in a physical access control environment using the authentication mechanisms described in [Section 6.2](authentication.md#s-6-2). Each authentication mechanism provides a degree of assurance, as summarized in [Table 6-1](authentication.md#table-6-1), based on its characteristics outlined in [Section 6.2](authentication.md#s-6-2).
 
 [Table 6-1. PIV Authentication Mechanisms for Physical Access](authentication.md#table-6-1){:name="table-6-1"}
 {:latex-ignore="true"}
@@ -353,13 +352,13 @@ The PIV Card can be used to authenticate the cardholder in a physical access con
 |PIV Authentication Mechanism|Assurance Provided|
 |---|---|
 |PKI-CAK|Some confidence in the asserted identity|
-|SYM-CAK|Some confidence in the asserted identity|
 |SM-AUTH|Some confidence in the asserted identity|
 |BIO|Medium confidence in the asserted identity|
 |BIO-A|High confidence in the asserted identity|
 |OCC-AUTH|High confidence in the asserted identity|
 |PKI-AUTH|High confidence in the asserted identity|
-
+|VIS (deprecated)|Little or no confidence in the asserted identity|
+|SYM-CAK (deprecated)|Some confidence in the asserted identity|
 {:latex-table="6-1" latex-caption="PIV Authentication Mechanisms for Physical Access"}
 
 Each PIV authentication mechanism provides one or two factors of authentication. The mechanisms can be combined[^combined] to achieve up to three authentication factors (e.g., to access exclusion security areas). The number of factors afforded by each authentication mechanism and the required factors to access the controlled, limited, or exclusion security areas are further detailed in [[SP 800-116]](../references/#ref-SP-800-116).
@@ -384,18 +383,18 @@ determine access to information systems and applications available on the networ
 control for remote/networked access. An authentication mechanism that is suitable for a higher assurance level can also be applied to
 meet the requirements for a lower assurance level.
 
-[Table 6-2. PIV Authentication Mechanisms for Remote/Network Access](authentication.md#table-6-1){:name="table-6-2"}
+[Table 6-2. PIV Authentication Mechanisms for Remote/Network Access](authentication.md#table-6-2){:name="table-6-2"}
 {:latex-ignore="true"}
 
 |PIV Authentication Mechanism|Supported Authenticator Assurance Level|
 |---|---|
 |PKI-CAK|AAL1|
 |PKI-AUTH|AAL3|
-{:latex-table="6-1" latex-caption="PIV Authentication Mechanisms for Remote/Network Access"}
+{:latex-table="6-2" latex-caption="PIV Authentication Mechanisms for Remote/Network Access"}
 
 The [[SP 800-63]](../_Appendix/references.md#ref-SP-800-63) defined authenticator assurance levels are not specified for local authentication use cases (i.e., authentication to a resource co-located with the cardholder). Nevertheless, the PIV authentication mechanisms provide for graduated levels of authentication assurance for local authentication use cases based on their characteristics outlined in [Section 6.2](authentication.md#s-6-2). The assurance provided by each of the PIV authentication mechanisms for local authentication use cases is summarized in [Table 6-3](authentication.md#table-6-3).
 
-[Table 6-3. PIV Authentication Mechanisms for Local Workstation Access](authentication.md#table-6-1){:name="table-6-3"}
+[Table 6-3. PIV Authentication Mechanisms for Local Workstation Access](authentication.md#table-6-3){:name="table-6-3"}
 {:latex-ignore="true"}
 
 |PIV Authentication Mechanism|Assurance Provided|
@@ -405,5 +404,4 @@ The [[SP 800-63]](../_Appendix/references.md#ref-SP-800-63) defined authenticato
 |BIO-A|High confidence in the asserted identity|
 |OCC-AUTH|High confidence in the asserted identity|
 |PKI-AUTH|High confidence in the asserted identity|
-
 {:latex-table="6-3" latex-caption="PIV Authentication Mechanisms for Local Workstation Access"}
