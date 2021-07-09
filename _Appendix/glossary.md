@@ -60,13 +60,13 @@ Authenticator Assurance Level (AAL)
 defined in [[SP 800-63]](references.md#ref-SP-800-63) in terms of three levels:
 
     AAL1
-	: SOME confidence
+	: Some confidence
   
 	AAL2
-	: HIGH confidence
+	: High confidence
   
 	AAL3
-	: VERY HIGH confidence
+	: Very high confidence
 
 Biometric Authentication (BIO, BIO-A)
 : A form of _authentication_ in which authenticity is established by _biometric
@@ -208,13 +208,13 @@ information (if applicable) to an RP, as
 defined in [[SP 800-63]](references.md#ref-SP-800-63) in terms of three levels:
 
     FAL1
-	: SOME confidence
+	: Some confidence
   
 	FAL2
-	: HIGH confidence
+	: High confidence
   
 	FAL3
-	: VERY HIGH confidence
+	: Very high confidence
 
 Identification
 : The process of discovering the _identity_ (i.e., origin or initial history) of a person or item
@@ -238,13 +238,13 @@ Identity Assurance Level (IAL)
 defined in [[SP 800-63]](references.md#ref-SP-800-63) in terms of three levels:
 
 	IAL1
-	: SOME confidence
+	: Some confidence
   
 	IAL2
-	: HIGH confidence
+	: High confidence
   
 	IAL3
-	: VERY HIGH confidence
+	: Very high confidence
 
 Identity Proofing
 : The process of providing sufficient information (e.g., _identity_ history, _credentials_,
