@@ -15,11 +15,11 @@ Comments concerning Federal Information Processing Standard publications are wel
 
 ~~~
 {
-\leftskip 0.6\textwidth
+\leftskip 0.55\textwidth
 ~~~
 {:latex-literal="true"}
 
-James A. St. Pierre, Acting Director
+James A. St. Pierre, Acting Director\\
 Information Technology Laboratory
 
 ~~~
