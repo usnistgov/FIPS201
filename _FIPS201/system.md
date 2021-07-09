@@ -140,6 +140,11 @@ access control decision.
 The relying subsystem identifies and authenticates cardholders either by interacting with the PIV Card using mechanisms discussed in [Section 6](authentication.md#s-6) or 
 by communicating with an IdP through a federation protocol as discussed in [Section 7](federation.md#s-7). Once authenticated, authorization mechanisms that support the relying subsystem grant or deny access to resources based on the privileges assigned to the cardholder.
 
+~~~
+\clearpage
+~~~
+{:latex-literal="true"}
+
 ## 3.2 PIV Card Lifecycle Activities {#s-3-2}
 
 The PIV Card lifecycle consists of seven activities.[^DPCLifecycle] The activities that take place during fabrication and

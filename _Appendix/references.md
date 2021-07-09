@@ -47,6 +47,11 @@ Available at <https://www.opm.gov/suitability/suitability-executive-agent/policy
 (Executive Office of the President), January 17, 2017 [or as amended].
 <https://www.federalregister.gov/executive-order/13764>
 
+~~~
+\clearpage
+~~~
+{:latex-literal="true"}
+
 [[FCS]](references.md#ref-FCS){:name="ref-FCS"} U.S. Office of Personnel Management (2008)
 *Final Credentialing Standards for Issuing Personal Identity Verification Cards under HSPD-12.*
 (U.S. Office of Personnel Management, Washington, DC), July 31, 2008. 
@@ -56,11 +61,6 @@ Available at <https://www.opm.gov/suitability/suitability-executive-agent/policy
 *Security Requirements for Cryptographic Modules.*
 (U.S. Department of Commerce, Washington, DC), Federal Information Processing Standards Publication (FIPS) 140-3 [or as amended].
 <https://doi.org/10.6028/NIST.FIPS.140-3>
-
-~~~
-\clearpage
-~~~
-{:latex-literal="true"}
 
 [[FICAM-Roadmap]](references.md#ref-FICAM-roadmap){:name="ref-FICAM-roadmap"} Federal CIO Council, Federal Enterprise Architecture (2011)
 *Federal Identity, Credential, and Access Management (FICAM) Roadmap and Implementation Guidance.*
@@ -216,6 +216,11 @@ Cardholder Authentication for the PIV Digital Signature Key.
 (National Institute of Standards and Technology, Gaithersburg, MD), NIST Interagency or Internal Report (IR) 7863.
 <https://doi.org/10.6028/NIST.IR.7863>
 
+~~~
+\clearpage
+~~~
+{:latex-literal="true"}
+
 [[OIDC4IA]](references.md#ref-OIDC4IA){:name="ref-OIDC4IA"} Lodderstedt T, Fett D (2020)
 *OpenID Connect for Identity Assurance 1.0*
 OpenID Foundation eKYC-IDA Working Group, July 6, 2020. 
@@ -236,11 +241,6 @@ Available at <https://www.pcscworkgroup.com/specifications/>
 Public Sans Typeface.
 (U.S. Web Design Systems).
 Available at <https://public-sans.digital.gov/>
-
-~~~
-\clearpage
-~~~
-{:latex-literal="true"}
 
 [[REAL-ID]](references.md#ref-REAL-ID){:name="ref-REAL-ID"} "Minimum Standards for Driver's Licenses and Identification Cards Acceptable by Federal Agencies for Official Purposes; Final Rule,"
 73 Federal Register 5271 (January 29, 2008), pp 5271-5340.
@@ -271,6 +271,11 @@ Available at <https://public-sans.digital.gov/>
 (Internet Engineering Task Force (IETF)), IETF Request for Comments (RFC) 6818.
 <https://doi.org/10.17487/RFC6818>
 
+~~~
+\clearpage
+~~~
+{:latex-literal="true"}
+
 [[RFC 6960]](references.md#ref-RFC6960){:name="ref-RFC6960"} Santesson S, Myers M, Ankney R, Malpani A, Galperin S, Adams C (2013)
 *X.509 Internet Public Key Infrastructure Online Certificate Status Protocol &mdash; OCSP.*
 (Internet Engineering Task Force (IETF)), IETF Request for Comments (RFC) 6960.
@@ -290,11 +295,6 @@ Available at <https://www.cisa.gov/sites/default/files/publications/isc-risk-man
 *Authentication Context for the OASIS Security Assertion Markup Language (SAML) V2.0.*
 (OASIS), OASIS Standard saml-authn-context-2.0-os.
 Available at <https://docs.oasis-open.org/security/saml/v2.0/saml-authn-context-2.0-os.pdf> 
-
-~~~
-\clearpage
-~~~
-{:latex-literal="true"}
 
 [[SP 800-37]](references.md#ref-SP-800-37){:name="ref-SP-800-37"} Joint Task Force (2018)
 *Risk Management Framework for Information Systems and Organizations: A System Life Cycle Approach for Security and Privacy.*
@@ -316,6 +316,11 @@ Available at <https://docs.oasis-open.org/security/saml/v2.0/saml-authn-context-
 (National Institute of Standards and Technology, Gaithersburg, MD), NIST Special Publication (SP) 800-63-3, Includes updates as of March 02, 2020 [or as amended].
 <https://doi.org/10.6028/NIST.SP.800-63-3>
 
+~~~
+\clearpage
+~~~
+{:latex-literal="true"}
+
 [[SP 800-63A]](references.md#ref-SP-800-63A){:name="ref-SP-800-63A"} Grassi PA, Fenton JL, Lefkovitz NB, Danker JM, Choong Y-Y, Greene KK, Theofanos MF (2017)
 *Digital Identity Guidelines: Enrollment and Identity Proofing.*
 (National Institute of Standards and Technology, Gaithersburg, MD), NIST Special Publication (SP) 800-63A, Includes updates as of March 02, 2020 [or as amended].
@@ -330,11 +335,6 @@ Available at <https://docs.oasis-open.org/security/saml/v2.0/saml-authn-context-
 *Digital Identity Guidelines: Federation and Assertions.*
 (National Institute of Standards and Technology, Gaithersburg, MD), NIST Special Publication (SP) 800-63C, Includes updates as of March 02, 2020 [or as amended].
 <https://doi.org/10.6028/NIST.SP.800-63C>
-
-~~~
-\clearpage
-~~~
-{:latex-literal="true"}
 
 [[SP 800-73]](references.md#ref-SP-800-73){:name="ref-SP-800-73"} Cooper DA, Ferraiolo H, Mehta KL, Francomacaro S, Chandramouli R, Mohler J (2015)
 *Interfaces for Personal Identity Verification.*
@@ -356,6 +356,11 @@ Available at <https://docs.oasis-open.org/security/saml/v2.0/saml-authn-context-
 (National Institute of Standards and Technology, Gaithersburg, MD), NIST Special Publication (SP) 800-79-2 [or as amended].
 <https://doi.org/10.6028/NIST.SP.800-79-2>
 
+~~~
+\clearpage
+~~~
+{:latex-literal="true"}
+
 [[SP 800-85A]](references.md#ref-SP-800-85A){:name="ref-SP-800-85A"} Chandramouli R, Mehta KL, Uzamere PA, II, Simon D, Ghadiali N, Founds AP (2016)
 *PIV Card Application and Middleware Interface Test Guidelines (SP 800-73-4 Compliance).*
 (National Institute of Standards and Technology, Gaithersburg, MD), NIST Special Publication (SP) 800-85A-4 [or as amended].
@@ -375,11 +380,6 @@ Available at <https://docs.oasis-open.org/security/saml/v2.0/saml-authn-context-
 *A Recommendation for the Use of PIV Credentials in Physical Access Control Systems (PACS).*
 (National Institute of Standards and Technology, Gaithersburg, MD), NIST Special Publication (SP) 800-116, Rev. 1 [or as amended].
 <https://doi.org/10.6028/NIST.SP.800-116r1>
-
-~~~
-\clearpage
-~~~
-{:latex-literal="true"}
 
 [[SP 800-122]](references.md#ref-SP-800-122){:name="ref-SP-800-122"} McCallister E, Grance T, Scarfone KA (2010)
 *Guide to Protecting the Confidentiality of Personally Identifiable Information (PII).*

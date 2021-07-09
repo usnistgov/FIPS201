@@ -60,13 +60,13 @@ Authenticator Assurance Level (AAL)
 defined in [[SP 800-63]](references.md#ref-SP-800-63) in terms of three levels:
 
     AAL1
-	: SOME confidence
+	: Some confidence
   
 	AAL2
-	: HIGH confidence
+	: High confidence
   
 	AAL3
-	: VERY HIGH confidence
+	: Very high confidence
 
 Biometric Authentication (BIO, BIO-A)
 : A form of _authentication_ in which authenticity is established by _biometric
@@ -78,6 +78,11 @@ attendant must oversee the process of biometric _capture_.
 Biometric Capture Device
 : Device that collects a signal from a _biometric characteristic_ and converts it 
 to a captured biometric sample. [[ISO 2382-37]](references.md#ref-ISO/IEC-2382-37)
+
+~~~
+\clearpage
+~~~
+{:latex-literal="true"}
 
 Biometric Characteristic
 : Biological attribute of an individual from which 
@@ -93,11 +98,6 @@ Biometric Data Record
 : Electronic data record containing biometric data.
 This information
 can be in terms of raw or compressed pixels or in terms of some _biometric characteristic_ (e.g., patterns) [[ISO 2382-37]](references.md#ref-ISO/IEC-2382-37).
-
-~~~
-\clearpage
-~~~
-{:latex-literal="true"}
 
 Biometric On-Card Comparison (OCC)
 : A one-to-one _comparison_ of fingerprint _biometric data records_ transmitted to the _PIV Card_ with a biometric reference 
@@ -124,6 +124,11 @@ Card Management System
 : The system that manages the lifecycle of a _PIV Card_
 application.
 
+~~~
+\clearpage
+~~~
+{:latex-literal="true"}
+
 Card Verifiable Certificate
 : A certificate stored on the _PIV Card_ that includes a _public key_, the signature of a _certification authority_, and further information needed to verify the certificate.
 
@@ -145,11 +150,6 @@ Chain of trust
 : An interoperable data format for _PIV enrollment records_ that facilitates the import and export of records 
 between _PIV Card_ _issuers_.
 
-~~~
-\clearpage
-~~~
-{:latex-literal="true"}
-
 Comparison
 : Estimation, calculation, or measurement of similarity or dissimilarity between biometric probe(s) and biometric reference(s) [[ISO 2382-37]](references.md#ref-ISO/IEC-2382-37). 
 See also _Identification_. 
@@ -167,6 +167,11 @@ Credential
 : Evidence attesting to one's right to credit or authority. In this Standard, it is the _PIV Card_
 or _derived PIV credential_ associated with an individual that authoritatively binds an _identity_ (and, optionally,
 additional attributes) to that individual.
+
+~~~
+\clearpage
+~~~
+{:latex-literal="true"}
 
 Cryptographic Key (Key)
 : A parameter used in conjunction with a cryptographic algorithm that
@@ -188,11 +193,6 @@ Federal Agency Smart Credential Number (FASC-N)
 _identifiers_ on the _PIV Card_ for physical _access control_, as required by FIPS 201. The FASC-N is a fixed length (25&nbsp;byte) data
 object that is specified in [[SP 800-73]](references.md#ref-SP-800-73) and included in several data objects on a _PIV Card_.
 
-~~~
-\clearpage
-~~~
-{:latex-literal="true"}
-
 Federal Information Processing Standards (FIPS)
 : A standard for adoption and use by federal
 departments and agencies that has been developed within the Information Technology Laboratory and
@@ -208,13 +208,13 @@ information (if applicable) to an RP, as
 defined in [[SP 800-63]](references.md#ref-SP-800-63) in terms of three levels:
 
     FAL1
-	: SOME confidence
+	: Some confidence
   
 	FAL2
-	: HIGH confidence
+	: High confidence
   
 	FAL3
-	: VERY HIGH confidence
+	: Very high confidence
 
 Identification
 : The process of discovering the _identity_ (i.e., origin or initial history) of a person or item
@@ -223,11 +223,6 @@ from the entire collection of similar persons or items.
 Identifier
 : Unique data used to represent a person's _identity_ and associated attributes. A name or a card
 number are examples of identifiers.
-
-~~~
-\clearpage
-~~~
-{:latex-literal="true"}
 
 Identity
 : The set of physical and behavioral characteristics by which an individual is uniquely
@@ -238,13 +233,13 @@ Identity Assurance Level (IAL)
 defined in [[SP 800-63]](references.md#ref-SP-800-63) in terms of three levels:
 
 	IAL1
-	: SOME confidence
+	: Some confidence
   
 	IAL2
-	: HIGH confidence
+	: High confidence
   
 	IAL3
-	: VERY HIGH confidence
+	: Very high confidence
 
 Identity Proofing
 : The process of providing sufficient information (e.g., _identity_ history, _credentials_,
@@ -271,11 +266,6 @@ Invalidate
 Issuer
 : The organization that is issuing the _PIV Card_ to an _applicant_. Typically, this is an organization
 for which the _applicant_ is working.
-
-~~~
-\clearpage
-~~~
-{:latex-literal="true"}
 
 Issuing Facility
 : A physical site or location---including all equipment, staff, and
@@ -319,11 +309,6 @@ key_ in a certificate, based on the _public key_ of a trust anchor, through the 
 certificates that begins with a certificate issued by the trust anchor and ends with the target certificate.
 Successful path validation provides strong evidence that the information in the target certificate is
 trustworthy.
-
-~~~
-\clearpage
-~~~
-{:latex-literal="true"}
 
 Personally Identifiable Information (PII)
 : Information that can be used to distinguish or trace an
@@ -374,11 +359,6 @@ that binds an _identifier_ to a cardholder through a _public key_. The certifica
 cardholder identified in the certificate has sole control and access to the _private key_.
 See also [[RFC 5280]](references.md#ref-RFC5280).
 
-~~~
-\clearpage
-~~~
-{:latex-literal="true"}
-
 Public Key Infrastructure (PKI)
 : A support service to the PIV system that provides the _cryptographic
 keys_ needed to perform digital signature-based _identity verification_ and to protect communications and
@@ -401,6 +381,11 @@ use or the procedures to follow to achieve a common level of quality or level of
 Registration
 : See _Identity Registration_.
 
+~~~
+\clearpage
+~~~
+{:latex-literal="true"}
+
 Symmetric Key
 : A _cryptographic key_ that is used to perform both the cryptographic operation and its
 inverse (e.g., to encrypt, decrypt, create a message authentication code, or verify
@@ -414,11 +399,6 @@ Security Executive Agent
 
 Symmetric Card Authentication Key Authentication (SYM-CAK)
 : An _authentication_ mechanism where the _PIV Card_ is identified using the CHUID or another data element, and then the card responds to a challenge by signing the challenge value with the symmetric card authentication key. This mechanism is deprecated.
-
-~~~
-\clearpage
-~~~
-{:latex-literal="true"}
 
 Suitability and Credentialing Executive Agent
 : Individual responsible for prescribing suitability standards and minimum standards of fitness for employment. With the issuance of Executive Order 13467, as amended, the Suitability and Credentialing Executive Agent is responsible for the development, implementation, and oversight of effective, efficient, and uniform policies and procedures governing the conduct of investigations and adjudications for Suitability, Fitness, and Credentialing determinations in the Federal Government. Pursuant to Sections 1103 and 1104 of Title 5, United States Code, and the Civil Service Rules, the director of the Office of Personnel Management (OPM) is the Suitability and Credentialing Executive Agent. 
@@ -690,6 +670,11 @@ UUID
 
 UV
 : Ultraviolet
+
+~~~
+\clearpage
+~~~
+{:latex-literal="true"}
 
 ## C.3 Notations {#s-c-3}
 

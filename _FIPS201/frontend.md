@@ -157,6 +157,11 @@ Zone 1F: Photograph
     and be a frontal pose from top of the head to shoulder. A minimum of 300&nbsp;dots per inch (DPI)
     resolution **SHALL** be used. The background **SHALL** follow recommendations set forth in [[SP 800-76]](../_Appendix/references.md#ref-SP-800-76).
 
+~~~
+\clearpage
+~~~
+{:latex-literal="true"}
+
 Zone 2F: Name
 : The full name[^pseudonym] **SHALL** be printed directly under the photograph in capital letters from the American Standard Code for Information Interchange (ASCII) character set specified in [[RFC 20]](../_Appendix/references.md#ref-RFC20). The
     full name **SHALL** be composed of a primary identifier (i.e., surnames or family names) and a secondary
@@ -252,6 +257,11 @@ Zone 1B: Agency Card Serial Number
     but variable placement along the outer edge is allowed in accordance with
     other FIPS 201 requirements, as shown in [Figure 4-8](frontend.md#fig-4-8).
 
+~~~
+\clearpage
+~~~
+{:latex-literal="true"}
+
 Zone 2B: Issuer Identification Number
 : This item **SHALL** be printed as depicted in [Figure 4-6](frontend.md#fig-4-6) and consist
     of six characters for the department code, four characters for the agency code, and a five-digit number
@@ -285,16 +295,16 @@ Zone 6F: Portable Data File (PDF) 417 Two-Dimensional Bar Code (Deprecated)
     conjunction with a PIV Card containing a cardholder signature will satisfy the anticipated PDF data storage requirements. 
     Note that this zone overlaps with an area that some card manufacturers might not allow to be used for printing.
 
+~~~
+\clearpage
+~~~
+{:latex-literal="true"}
+
 Zone 9F: Header
 : If used, the text "United States Government" **SHALL** be placed as depicted in 
     [Figure 4-3](frontend.md#fig-4-3), [Figure 4-4](frontend.md#fig-4-4), and [Figure 4-5](frontend.md#fig-4-5). Departments and agencies **MAY** instead use this zone for other department or agency-specific
     information, such as identifying a federal emergency responder role, as depicted in [Figure 4-2](frontend.md#fig-4-2). 
     Some examples of official roles are "Law Enforcement," "Fire Fighter," and "Emergency Response Team (ERT)."
-
-~~~
-\clearpage
-~~~
-{:latex-literal="true"}
 
 Zone 11F: Agency Seal
 : The Agency seal in Zone 11F may become a mandatory field in the next revision of the Standard. If used, the seal selected by the issuing department, agency, or organization
@@ -334,11 +344,6 @@ Zone 17F: Agency-Specific Data
 : In cases where other defined optional elements are not used, Zone
     17F **MAY** be used for other department or agency-specific information, as depicted in [Figure 4-5](frontend.md#fig-4-5).
 
-~~~
-\clearpage
-~~~
-{:latex-literal="true"}
-
 Zone 20F: Organizational Affiliation Abbreviation
 : The organizational affiliation abbreviation **MAY** be
     printed in the upper right-hand corner below the Zone 19F expiration date as shown in [Figure 4-2](frontend.md#fig-4-2). If
@@ -377,11 +382,6 @@ Zone 6B: Additional Language for Emergency Response Officials
     choose to provide additional information to identify emergency response officials or to better identify the
     cardholder's authorized access. If used, this additional text **SHALL** be in the general area depicted in [Figure 4-7](frontend.md#fig-4-7) and **SHALL NOT** interfere with other printed text or machine-readable components. An example of a printed statement
     is provided in [Figure 4-7](frontend.md#fig-4-7).
-
-~~~
-\clearpage
-~~~
-{:latex-literal="true"}
 
 Zone 7B: Section 499, Title 18 Language
 : If used, standard Section 499, Title 18, language
@@ -445,6 +445,11 @@ legislatively mandated medical entitlements.
 
 ![Diagram of Optional Data Placement on back of card (Example 2).]({{site.baseurl}}/{{page.collection}}/images/cardback-optional2.png 'Card Back: Optional Data Placement (Example 2)'){:style="width: 1047px;" latex-src="cardback-optional2.pdf" latex-fig="4-8"}
 
+~~~
+\clearpage
+~~~
+{:latex-literal="true"}
+
 ### 4.1.5 Color Representation {#s-4-1-5}
 
 [Table 4-2](frontend.md#table-4-2) provides quantitative specifications for colors in four different color systems: sRGB
@@ -468,11 +473,6 @@ uncorrected) at a working distance of 50&nbsp;cm to 200&nbsp;cm.
 |Blue|15F|0, 255, 255|0, 255, 255|100, 0, 0, 0|630&nbsp;C
 |Red|12F|253, 27, 20|254, 92, 79|0, 90, 86, 0|032&nbsp;C|
 {:latex-columns="p@0.07\textwidth,p@0.06\textwidth,p@0.22\textwidth,p@0.16\textwidth,p@0.13\textwidth,p@0.15\textwidth" latex-table="4-2" latex-caption="Color Representation"}
-
-~~~
-\clearpage
-~~~
-{:latex-literal="true"}
 
 ## 4.2 PIV Card Logical Characteristics {#s-4-2}
 

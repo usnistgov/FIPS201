@@ -2,6 +2,10 @@
 
 \begin{center}
 
+\refstepcounter{section} % Increase section counter
+\sectionmark{ANNOUNCEMENT}
+\addcontentsline{toc}{section}{ANNOUNCEMENT} % Add section to Toc for PDF bookmarks (does not show up in real ToC by default)
+
 \normalsize{\textbf{\textsc{\VAR{config.long_doc_number}}}}\\
 \vspace{10pt}
 \normalsize{\textbf{\VAR{config.issued_date}}}\\
@@ -17,7 +21,10 @@
 \titleformat{\subsection}[runin]{\normalsize\raggedright\bfseries}{}{0em}{}	% required for heading numbering style
 \titlespacing{\subsection}{0em}{*1}{1em}
 
+\hypersetup{bookmarksdepth=-2} % hide announcement headers from PDF bookmarks
+
 \VAR{body}
 
+\hypersetup{bookmarksdepth} % pick up bookmarks again
 
 }

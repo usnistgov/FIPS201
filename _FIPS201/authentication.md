@@ -7,6 +7,11 @@ permalink: /authentication/
 anchor: s-6
 ---
 
+~~~
+\addtocontents{toc}{\protect\clearpage} % force a page break in the ToC
+~~~
+{:latex-literal="true"}
+
 # 6. PIV Cardholder Authentication {#s-6}
 
 _This section is normative._ It defines a suite of authentication mechanisms that are supported by all PIV Cards as well as
@@ -337,11 +342,6 @@ implementation of relying systems.
 
 The authentication mechanisms described in the subsections below apply specifically to the use of PIV Cards for physical and logical access. Authentication mechanisms for physical and logical access using derived PIV credentials is described in [[SP 800-157]](../_Appendix/references.md#ref-SP-800-157).
 
-~~~
-\clearpage
-~~~
-{:latex-literal="true"}
-
 ### 6.3.1 Physical Access {#s-6-3-1}
 
 The PIV Card can be used to authenticate the cardholder in a physical access control environment using the authentication mechanisms described in [Section 6.2](authentication.md#s-6-2). Each authentication mechanism provides a degree of assurance, as summarized in [Table 6-1](authentication.md#table-6-1), based on its characteristics outlined in [Section 6.2](authentication.md#s-6-2).
@@ -366,11 +366,6 @@ Each PIV authentication mechanism provides one or two factors of authentication.
 The selection of authentication assurance levels **SHALL** be made in accordance with the applicable policies for a facility's security level [[RISK-MGMT-FACILITIES]](../_Appendix/references.md#ref-RISK-MGMT-FACILITIES). Additional guidelines for the selection and use of PIV authentication mechanisms for facility access can be found in NIST [[SP 800-116]](../_Appendix/references.md#ref-SP-800-116).
 
 [^combined]: Combinations of authentication mechanisms are specified in [[SP 800-116]](../references/#ref-SP-800-116).
-
-~~~
-\clearpage
-~~~
-{:latex-literal="true"}
 
 ### 6.3.2 Logical Access {#s-6-3-2}
 
