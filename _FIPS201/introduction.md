@@ -18,18 +18,12 @@ buildings, information systems, and applications. An
 accurate determination of an individual's identity supports making sound access control
 decisions.
 
-In the past, a wide range of legacy mechanisms has been employed to authenticate an individual,
-utilizing various classes of identity credentials. For physical access, an individual's
-identity has been authenticated using paper or other non-automated, hand-carried
-credentials such as badges and driver's licenses. For logical access, authorization to access
-computers and data has been based on identities authenticated through user-selected
-passwords. Today, cryptographic mechanisms and biometric techniques
-are replacing these legacy mechanisms in physical and logical security applications.
-The strength of authentication that is achieved depends on the type of
-credential, the process used to issue the credential, and the authentication mechanism
-used to validate the credential.
+In the past, a wide range of legacy mechanisms has been employed to authenticate an individual including hand-carried
+credentials such as badges and driver's licenses for physical access to federal facilities and password for logical access to federal information systems. Today, cryptographic mechanisms and biometric techniques are replacing these legacy mechanisms in physical and logical security applications.
 
-This document establishes a standard for a Personal Identity Verification (PIV) system that meets the control and security objectives of [[HSPD-12]](../_Appendix/references.md#ref-HSPD-12). The Standard specifies implementation and processes for binding identities to authenticators, such as integrated circuit cards and derived credentials used in the federal PIV system. It is based on secure and reliable forms of identity credentials issued by the Federal Government to its employees and contractors. These credentials are intended to authenticate individuals who require access to federally controlled facilities, information systems, and applications. This Standard addresses requirements for initial identity proofing, infrastructure to support interoperability of identity credentials, and accreditation of organizations and processes issuing PIV credentials.
+This document establishes a standard for a Personal Identity Verification (PIV) system that meets the control and security objectives of [[HSPD-12]](../_Appendix/references.md#ref-HSPD-12). The Standard specifies implementation and processes for binding identities to authenticators, such as integrated circuit cards and derived credentials used in the federal PIV system. It is based on secure and reliable forms of identity credentials issued by the Federal Government to its employees and contractors. These credentials are intended to authenticate individuals who require access to federally controlled facilities, information systems, and applications. The Standard addresses requirements for initial identity proofing, infrastructure to support interoperability of identity credentials, and accreditation of organizations and processes issuing PIV credentials.
+
+Each revision of this Standard incorporate lesson's learned by Departments and Agencies and adaptation to changes in the environment. This revision  broadening the set of derived PIV credentials to accomodate a diverse and growing set of user device platforms. Interoperability of these PIV credntials accross federal goverment can be achieved via PIV Federation as outlined in the Standard and further defined in [[SP 800-217]](../_Appendix/references.md#ref-SP-800-217). As envisioned by M-19-17, this revision also expands lifecycle activities of the PIV cards to PIV identity accounts in general where all PIV credentials including derived PIV credentials are managed and maintaned.    
 
 ## 1.1 Purpose {#s-1-1}
 
