@@ -47,7 +47,7 @@ _This appendix is informative._ It provides an overview of the changes to FIPS 2
 |||Updated credentialing requirements for issuance of PIV Cards based on OPM guidance.|&sect;2|
 |||Added requirements for supervised remote identity proofing, enrollment, issuance, and PIV Card maintenance.|&sect;2|
 |||Modified identity proofing requirements to reflect updated list of accepted documents.|&sect;2|
-|||Deprecated PIV NACI indicator (background investigation indicator).|&sect;2|
+|||Deprecated PIV NACI indicator (background investigation indicator).|&sect;2, &sect;B|
 |||Updated guidance on collection of biometric data for credentialing.|&sect;2|
 |||Clarified multi-session proofing and enrollment.|&sect;2|
 |||Provided clarification on grace periods.|&sect;2|
@@ -61,7 +61,7 @@ _This appendix is informative._ It provides an overview of the changes to FIPS 2
 |||Updated example PIV Card diagrams.|&sect;4|
 |||Linked expiration of content signing certificate with card authentication certificate.|&sect;4|
 |||Revised PIN requirements based on SP 800-63B guidelines.|&sect;4|
-|||Deprecated symmetric card authentication key.|&sect;4|
+|||Deprecated symmetric card authentication key and associated SYM-CAK authentication mechanism.|&sect;4, &sec6|
 |||Deprecated use of separate content signing keys for biometric data and CHUID.|&sect;4|
 |||Removed requirement for support of Legacy PKIs.|&sect;5|
 |||Removed references to OMB M-04-04 that was rescinded by OMB M-19-17.|&sect;6|
@@ -69,7 +69,6 @@ _This appendix is informative._ It provides an overview of the changes to FIPS 2
 |||Expressed assurance levels in terms of AAL for remote/network access.|&sect;6|
 |||Removed previously deprecated CHUID authentication mechanisms. The CHUID data element has not been deprecated and continues to be mandatory.|&sect;6|
 |||Deprecated VIS authentication mechanism.|&sect;6|
-|||Deprecated SYM-CAK authentication mechanism.|&sect;6|
 |||Added SM-AUTH as optional authentication mechanism.|&sect;6|
 |||Added section discussing federation in relationship to PIV credentials.|&sect;7|
 {:latex-columns="p@0.13\textwidth,p@0.17\textwidth,p@0.48\textwidth,p@0.10\textwidth" latex-longtable="true"}
