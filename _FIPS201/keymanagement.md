@@ -45,12 +45,14 @@ relationship is described below:
     ([Section 4.2.2.2](frontend.md#s-4-2-2-2)).
 - Certificates that contain the public key associated with a digital signature private key **SHALL** conform to the
     *End Entity Signature Certificate Profile* in [[PROF]](../_Appendix/references.md#ref-PROF) and **SHALL** specify the `id-fpki-common-hardware` policy of [[COMMON]](../_Appendix/references.md#ref-COMMON) in the certificate policies
-    extension ([Section 4.2.2.4](frontend.md#s-4-2-2-4)).
+    extension ([Section 4.2.2.4](frontend.md#s-4-2-2-4)), except as provided below.
 - Certificates containing the public key associated with a key management private key **SHALL** conform to the
     *Key Management Certificate Profile* in [[PROF]](../_Appendix/references.md#ref-PROF) and **SHALL** specify the `id-fpki-common-policy` or `id-fpki-common-hardware` policy of [[COMMON]](../_Appendix/references.md#ref-COMMON) in the certificate policies extension
-    ([Section 4.2.2.5](frontend.md#s-4-2-2-5)).
+    ([Section 4.2.2.5](frontend.md#s-4-2-2-5)), except as provided below.
 - Requirements for algorithms and key sizes for each type of PIV asymmetric key are given in
     [[SP 800-78]](../_Appendix/references.md#ref-SP-800-78).
+- Departments and agencies that operate their own PKI that is cross-certified with the Federal 
+    Bridge CA or Federal Common Policy CA **MAY** specify and assert certificate policies that have been mapped to the respective aforementioned policies in [[COMMON]](../_Appendix/references.md#ref-COMMON) in lieu of or in addition to those policies. This allowance is considered deprecated and will be removed in subsequent revisions of this Standard.
 
 The expiration date of the PIV authentication and card authentication certificates 
 **SHALL NOT** be after the expiration date of the PIV Card. 
@@ -70,7 +72,7 @@ CAs that issue certificates corresponding to PIV private keys **SHALL** issue CR
 ## 5.4 Legacy PKIs (Removed) {#s-5-4}
 {:latex-toc="5.4 Legacy PKIs"}
 
-The content of this section has been removed since [[COMMON]](../_Appendix/references.md#ref-COMMON) provides the requirements for department and agency CAs that might be issuing cross-certified PIV authentication certificates and card authentication certificates.
+The content of this section has been removed. Details for certificates issued to support PIV private keys are specified in [Section 5.2](keymanagement.md#s-5-2).
 
 ## 5.5 PKI Repository and Online Certificate Status Protocol (OCSP) Responders {#s-5-5}
 {:latex-toc="5.5 PKI Repository and Online Certificate Status Protocol Responders"}
