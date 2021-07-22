@@ -303,6 +303,11 @@ Online Certificate Status Protocol (OCSP)
 : An online protocol used to determine the status of a _public
 key certificate_ [[RFC 6960]](references.md#ref-RFC6960).
 
+~~~
+\clearpage
+~~~
+{:latex-literal="true"}
+
 Path Validation
 : The process of verifying the binding between the subject _identifier_ and subject _public
 key_ in a certificate, based on the _public key_ of a trust anchor, through the validation of a chain of
@@ -336,6 +341,11 @@ PIV Enrollment Record
 : A sequence of related _enrollment data sets_ that is created and 
 maintained by _PIV Card_ _issuers_. The PIV enrollment record typically contains data collected 
 at each step of the PIV _identity proofing_, _registration_, and issuance processes.
+
+~~~
+\clearpage
+~~~
+{:latex-literal="true"}
 
 PIV Visual Credential Authentication (VIS)
 : An _authentication_ mechanism where a human guard inspects the _PIV Card_ and the person presenting it and makes an _access control_ decision based on validity of the card and its correspondence with the presenter. This mechanism is deprecated.
@@ -380,11 +390,6 @@ use or the procedures to follow to achieve a common level of quality or level of
 
 Registration
 : See _Identity Registration_.
-
-~~~
-\clearpage
-~~~
-{:latex-literal="true"}
 
 Symmetric Key
 : A _cryptographic key_ that is used to perform both the cryptographic operation and its
