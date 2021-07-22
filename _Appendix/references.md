@@ -303,7 +303,7 @@ Available at <https://docs.oasis-open.org/security/saml/v2.0/saml-authn-context-
 
 [[SP 800-53]](references.md#ref-SP-800-53){:name="ref-SP-800-53"} Joint Task Force (2020)
 *Security and Privacy Controls for Information Systems and Organizations.*
-(National Institute of Standards and Technology, Gaithersburg, MD), NIST Special Publication (SP) 800-53, Rev. 5.
+(National Institute of Standards and Technology, Gaithersburg, MD), NIST Special Publication (SP) 800-53, Rev. 5 [or as amended].
 <https://doi.org/10.6028/NIST.SP.800-53r5>
 
 [[SP 800-59]](references.md#ref-SP-800-59){:name="ref-SP-800-59"} Barker WC (2003)
@@ -398,5 +398,5 @@ Available at <https://docs.oasis-open.org/security/saml/v2.0/saml-authn-context-
 
 [[SP 800-217]](references.md#ref-SP-800-217){:name="ref-SP-800-217"} 
 *Guidelines for the Use of Personal Identity Verification (PIV) Credentials with Federation.*
-(National Institute of Standards and Technology, Gaithersburg, MD), NIST Draft Special Publication (SP) 800-217 [or as amended].
-<https://doi.org/10.6028/NIST.SP.800-217-draft>
+(National Institute of Standards and Technology, Gaithersburg, MD), NIST Special Publication (SP) 800-217 [or as amended].
+<https://doi.org/10.6028/NIST.SP.800-217>

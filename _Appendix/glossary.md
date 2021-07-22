@@ -77,7 +77,7 @@ attendant must oversee the process of biometric _capture_.
 
 Biometric Capture Device
 : Device that collects a signal from a _biometric characteristic_ and converts it 
-to a captured biometric sample. [[ISO 2382-37]](references.md#ref-ISO/IEC-2382-37)
+to a captured biometric sample. SOURCE: [[ISO 2382-37]](references.md#ref-ISO/IEC-2382-37)
 
 ~~~
 \clearpage
@@ -88,16 +88,16 @@ Biometric Characteristic
 : Biological attribute of an individual from which 
 distinctive and repeatable values can be extracted for the purpose 
 of automated recognition. Fingerprint ridge structure and face topography are 
-examples of biometric characteristics [[ISO 2382-37]](references.md#ref-ISO/IEC-2382-37).
+examples of biometric characteristics. SOURCE: [[ISO 2382-37, adapted]](references.md#ref-ISO/IEC-2382-37)
 
 Biometric Data
 : Biometric sample or aggregation of biometric samples at any stage of 
-processing [[ISO 2382-37]](references.md#ref-ISO/IEC-2382-37).
+processing. SOURCE: [[ISO 2382-37]](references.md#ref-ISO/IEC-2382-37)
 
 Biometric Data Record
 : Electronic data record containing biometric data.
 This information
-can be in terms of raw or compressed pixels or in terms of some _biometric characteristic_ (e.g., patterns) [[ISO 2382-37]](references.md#ref-ISO/IEC-2382-37).
+can be in terms of raw or compressed pixels or in terms of some _biometric characteristic_ (e.g., patterns). SOURCE: [[ISO 2382-37, adapted]](references.md#ref-ISO/IEC-2382-37)
 
 Biometric On-Card Comparison (OCC)
 : A one-to-one _comparison_ of fingerprint _biometric data records_ transmitted to the _PIV Card_ with a biometric reference 
@@ -107,15 +107,15 @@ Biometric On-Card Comparison Authentication (OCC-AUTH)
 : An _authentication_ mechanism where _biometric on-card comparison (OCC)_ is used instead of a PIN to activate a _PIV Card_ for authentication.
 
 Biometric Verification
-: Automated process of confirming a biometric claim through biometric _comparison_ [[ISO 2382-37]](references.md#ref-ISO/IEC-2382-37).
+: Automated process of confirming a biometric claim through biometric _comparison_. SOURCE: [[ISO 2382-37, adapted]](references.md#ref-ISO/IEC-2382-37)
 
 Biometric Verification Decision
 : A determination of whether biometric probe(s) and biometric reference(s) have 
 the same biometric source based on _comparison_ score(s) during a _biometric verification_ 
-transaction [[ISO 2382-37]](references.md#ref-ISO/IEC-2382-37).
+transaction. SOURCE: [[ISO 2382-37, adapted]](references.md#ref-ISO/IEC-2382-37)
 
 Capture
-: Series of actions undertaken to obtain and record, in a retrievable form, signals of _biometric characteristics_ directly from individuals [[ISO 2382-37]](references.md#ref-ISO/IEC-2382-37).
+: Series of actions undertaken to obtain and record, in a retrievable form, signals of _biometric characteristics_ directly from individuals. SOURCE: [[ISO 2382-37, adapted]](references.md#ref-ISO/IEC-2382-37)
 
 Cardholder
 : An individual who possesses an issued _PIV Card_.
@@ -137,7 +137,7 @@ Central Verification System
 
 Certificate Revocation List
 : A list of revoked _public key certificates_ created and digitally signed by a
-_certification authority_ [[RFC 5280]](references.md#ref-RFC5280) [[RFC 6818]](references.md#ref-RFC6818).
+_certification authority_. SOURCES: [[RFC 5280, adapted]](references.md#ref-RFC5280) [[RFC 6818, adapted]](references.md#ref-RFC6818)
 
 Certification
 : The process of verifying the correctness of a statement or claim and issuing a certificate as
@@ -151,8 +151,7 @@ Chain of trust
 between _PIV Card_ _issuers_.
 
 Comparison
-: Estimation, calculation, or measurement of similarity or dissimilarity between biometric probe(s) and biometric reference(s) [[ISO 2382-37]](references.md#ref-ISO/IEC-2382-37). 
-See also _Identification_. 
+: Estimation, calculation, or measurement of similarity or dissimilarity between biometric probe(s) and biometric reference(s). See also _Identification_. SOURCE: [[ISO 2382-37]](references.md#ref-ISO/IEC-2382-37)
 
 Component
 : An element of a large system&mdash;such as an _identity_ card, _issuer_, card reader, or _identity
@@ -284,7 +283,7 @@ Key
 Match
 : _Comparison_ decision stating that the biometric probe(s) and the biometric 
 reference are from the same source. Match is a possible result of a 
-_Comparison_. The opposite of a match is a non-match [[ISO 2382-37]](references.md#ref-ISO/IEC-2382-37).
+_Comparison_. The opposite of a match is a non-match. SOURCE: [[ISO 2382-37, adapted]](references.md#ref-ISO/IEC-2382-37)
 
 Model
 : A detailed description or scaled representation of one _component_ of a larger system that can
@@ -301,7 +300,7 @@ integrated circuit chip (ICC) of the _PIV Card_.
 
 Online Certificate Status Protocol (OCSP)
 : An online protocol used to determine the status of a _public
-key certificate_ [[RFC 6960]](references.md#ref-RFC6960).
+key certificate_. SOURCE: [[RFC 6960, adapted]](references.md#ref-RFC6960)
 
 Path Validation
 : The process of verifying the binding between the subject _identifier_ and subject _public
@@ -314,7 +313,7 @@ Personally Identifiable Information (PII)
 : Information that can be used to distinguish or trace an
 individual's _identity_&mdash;such as name, social security number, _biometric data records_&mdash;either alone or when
 combined with other personal or identifying information that is linked or linkable to a specific individual
-(e.g., date and place of birth, mother's maiden name, etc.) [[M-17-12]](references.md#ref-OMB1712).
+(e.g., date and place of birth, mother's maiden name, etc.). SOURCE: [[M-17-12, adapted]](references.md#ref-OMB1712)
 
 Personal Identification Number (PIN)
 : A numeric secret that a _cardholder_ memorizes and uses as part of authenticating
@@ -357,7 +356,7 @@ Public Key Certificate
 : A digital document issued and digitally signed by the _private key_ of a _certification authority_
 that binds an _identifier_ to a cardholder through a _public key_. The certificate indicates that the
 cardholder identified in the certificate has sole control and access to the _private key_.
-See also [[RFC 5280]](references.md#ref-RFC5280).
+SOURCE: [[RFC 5280, adapted]](references.md#ref-RFC5280)
 
 Public Key Infrastructure (PKI)
 : A support service to the PIV system that provides the _cryptographic
