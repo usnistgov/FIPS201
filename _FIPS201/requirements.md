@@ -49,7 +49,7 @@ Each agency's PIV implementation **SHALL** meet the control objectives listed ab
 + An issued credential is not duplicated or forged.
 + An issued credential is not modified by an unauthorized entity.
 
-[^initiation]: See [CSP]](../references/#ref-CSP) for investigation initiation process.
+[^initiation]: See [CSP]](../references/#ref-CSP) for details about the investigation initiation process.
 
 
 ## 2.2 Credentialing Requirements {#s-2-2}
