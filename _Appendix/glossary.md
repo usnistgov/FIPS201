@@ -115,7 +115,7 @@ the same biometric source based on _comparison_ score(s) during a _biometric ver
 transaction. SOURCE: [[ISO 2382-37, adapted]](references.md#ref-ISO/IEC-2382-37)
 
 Capture
-: Series of actions undertaken to obtain and record, in a retrievable form, signals of _biometric characteristics_ directly from individuals. SOURCE: [[ISO 2382-37, adapted]](references.md#ref-ISO/IEC-2382-37).
+: Series of actions undertaken to obtain and record, in a retrievable form, signals of _biometric characteristics_ directly from individuals. SOURCE: [[ISO 2382-37, adapted]](references.md#ref-ISO/IEC-2382-37)
 
 Cardholder
 : An individual who possesses an issued _PIV Card_.
