@@ -72,7 +72,7 @@ CAs that issue certificates corresponding to PIV private keys **SHALL** issue CR
 ## 5.4 Legacy PKIs (Removed) {#s-5-4}
 {:latex-toc="5.4 Legacy PKIs"}
 
-The content of this section has been removed since [[COMMON]](../_Appendix/references.md#ref-COMMON) provides the requirements for department and agency CAs that might be issuing cross-certified PIV authentication certificates and card authentication certificates.
+The content of this section has been removed. Details for certificates issued to support PIV private keys are specified in [Section 5.2](keymanagement.md#s-5-2).
 
 ## 5.5 PKI Repository and Online Certificate Status Protocol (OCSP) Responders {#s-5-5}
 {:latex-toc="5.5 PKI Repository and Online Certificate Status Protocol Responders"}
