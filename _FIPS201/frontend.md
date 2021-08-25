@@ -212,6 +212,11 @@ Zone 10F: Agency, Department, or Organization
 : The organizational affiliation **SHALL** be printed as
     depicted in [Figure 4-1](frontend.md#fig-4-1).
 
+~~~
+\clearpage
+~~~
+{:latex-literal="true"}
+
 Zone 14F: Card Expiration Date
 : The card expiration date **SHALL** be printed on the card as depicted in
     [Figure 4-1](frontend.md#fig-4-1). The card expiration date **SHALL** be in a YYYYMMMDD format. The YYYY characters
@@ -256,11 +261,6 @@ Zone 1B: Agency Card Serial Number
     the issuing department or agency. The preferred placement is as depicted in [Figure 4-6](frontend.md#fig-4-6), 
     but variable placement along the outer edge is allowed in accordance with
     other FIPS 201 requirements, as shown in [Figure 4-8](frontend.md#fig-4-8).
-
-~~~
-\clearpage
-~~~
-{:latex-literal="true"}
 
 Zone 2B: Issuer Identification Number
 : This item **SHALL** be printed as depicted in [Figure 4-6](frontend.md#fig-4-6) and consist
@@ -372,6 +372,11 @@ Zone 3B: Magnetic Stripe (Deprecated)
 Zone 4B: Return Address
 : If used, the "return if lost" language **SHALL** be placed on the back of
     the card in the general area depicted in [Figure 4-7](frontend.md#fig-4-7).
+
+~~~
+\clearpage
+~~~
+{:latex-literal="true"}
 
 Zone 5B: Physical Characteristics of Cardholder
 : If used, the cardholder physical characteristics (e.g.,

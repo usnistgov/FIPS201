@@ -249,6 +249,12 @@ Therefore, the CHUID data element remains a required on-card data element, as de
 
 Visual authentication of a PIV cardholder as a stand-alone authentication mechanism has been deprecated in this version of the Standard. The mechanism provides little or no assurance of the cardholder's identity and **SHOULD NOT** be used. It is expected that the stand-alone use of visual authentication will be removed from this Standard in a future revision. 
 
+~~~
+\clearpage
+~~~
+{:latex-literal="true"}
+
+
 The PIV Card has several mandatory features on the front (see [Section 4.1.4.1](frontend.md#s-4-1-4-1)) and
 back (see [Section 4.1.4.2](frontend.md#s-4-1-4-2)) that support visual
 identification and authentication:
