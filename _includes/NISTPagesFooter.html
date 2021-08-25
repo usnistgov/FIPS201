@@ -20,7 +20,7 @@
             $el = $(el);
             $el.addClass('normative');
           });
-          return $("h1, h2, h3, h4, h5, h6").each(function(i, el) {
+          $("h1, h2, h3, h4, h5, h6").each(function(i, el) {
             var $el, icon, id;
             $el = $(el);
             id = $el.attr('id');
@@ -28,6 +28,14 @@
             if (id) {
               return $el.append($("<a />").addClass("header-link").attr("href", "#" + id).html(icon));
             }
+          });
+          // highlight the target
+          $('a:target').parent().addClass('target');
+          $(':target').addClass('target');
+          $(window).on('hashchange', function(e) {
+            $('.target').removeClass('target');
+            $('a:target').parent().addClass('target');
+            $(':target').addClass('target');
           });
         });
     </script>
