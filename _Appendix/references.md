@@ -281,7 +281,7 @@ Available at <https://public-sans.digital.gov/>
 (Internet Engineering Task Force (IETF)), IETF Request for Comments (RFC) 6960.
 <https://doi.org/10.17487/RFC6960>
 
-[[RFC 8485]](references.md#ref-RFC8485){:name="ref-RFC8485"} Richer J (ed.), Johansson L (2018)
+[[RFC 8485]](references.md#ref-RFC8485){:name="ref-RFC8485"} Richer J, Johansson L (2018)
 *Vectors of Trust.*
 (Internet Engineering Task Force (IETF)), IETF Request for Comments (RFC) 8485.
 <https://doi.org/10.17487/RFC8485>
