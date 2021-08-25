@@ -451,7 +451,7 @@ applicable. If the changed data is the cardholder's name, then the issuer **SHAL
 
 Previously collected biometric data **MAY** be reused with the new PIV Card if the expiration date of the
 new PIV Card is no later than 12&nbsp;years after the date that the biometric data was obtained. As
-biometric system error rates generally increase with the time elapsed since initial collection (reference aging, [[ISO 2382-37]](references.md#ref-ISO/IEC-2382-37)), issuers **MAY** refresh
+biometric system error rates generally increase with the time elapsed since initial collection (reference aging, [[ISO 2382-37]](../_Appendix/references.md#ref-ISO/IEC-2382-37)), issuers **MAY** refresh
 biometric data in the PIV enrollment record during the re-issuance process. Even if the same biometric data
 is reused with the new PIV Card, the digital signature must be recomputed with the new FASC-N and
 card UUID.

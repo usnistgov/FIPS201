@@ -9,7 +9,7 @@
         $(function() {
           {% if page.collapsed %}
           // Convert all links to on-page within document in collapsed view
-          $('.container a[href^="{{ site.baseurl }}/"]').filter('a[href*="#"]').each(function(i, el) {
+          $('.container a[href^="{{ site.baseurl }}/"], .container a[href^="../"]').filter('a[href*="#"]').each(function(i, el) {
               var $el = $(el);
               var newPath = $el.attr('href').replace(/(.*)(\#.+)/, "$2");
               $el.attr('href', newPath);

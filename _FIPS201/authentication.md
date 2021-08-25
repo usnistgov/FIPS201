@@ -46,7 +46,7 @@ individuals and organizations that could occur as a result of errors in the auth
 cardholder. Once the required assurance level has been determined, one of the authentication mechanisms
 specified in [Section 6.2](authentication.md#s-6-2) **SHALL** be applied to achieve that assurance level.
 
-[^compensating]: As described in [Section 2.7](requirements.md#s-2-7), compensating controls can be applied for identity source document evidence to achieve IAL3 since the Standard only specifies one piece of Strong evidence and one other piece of Fair evidence. Issuance of PIV Card meets IAL3 since the federal background investigation serves as a comparable compensating control for IAL3 identity proofing. 
+[^compensating]: As described in [Section 2.7](../requirements/#s-2-7), compensating controls can be applied for identity source document evidence to achieve IAL3 since the Standard only specifies one piece of Strong evidence and one other piece of Fair evidence. Issuance of PIV Card meets IAL3 since the federal background investigation serves as a comparable compensating control for IAL3 identity proofing. 
 
 ### 6.1.1 Relationship to Federal Identity Policy (Removed) {#s-6-1-1}
 {:latex-toc="6.1.1 Relationship to Federal Identity Policy"}
@@ -145,7 +145,7 @@ The following steps **SHALL** be performed for PKI-AUTH:
 
 - The PIV authentication certificate is read from the PIV Card application.
 - The relying system validates the PIV authentication certificate from the PIV Card application using
-    certificate path validation as specified in [[RFC 5280]](references.md#ref-RFC5280) to ensure that it is neither expired nor revoked and that it is
+    certificate path validation as specified in [[RFC 5280]](../_Appendix/references.md#ref-RFC5280) to ensure that it is neither expired nor revoked and that it is
     from a trusted source. Path validation **SHOULD** be configured to specify which policy OIDs are trusted.[^pivpath]
 - The cardholder is prompted to enter a PIN, which is used to activate the card. If implemented,
     other card activation mechanisms, as specified in [[SP 800-73]](../_Appendix/references.md#ref-SP-800-73), **MAY** be used to activate the card.
@@ -174,7 +174,7 @@ The following steps **SHALL** be performed for PKI-CAK:
 
 - The card authentication certificate is read from the PIV Card application.
 - The relying system validates the card authentication certificate from the PIV Card application using
-    certificate path validation as specified in [[RFC 5280]](references.md#ref-RFC5280) to ensure that it is neither expired nor revoked and that it is
+    certificate path validation as specified in [[RFC 5280]](../_Appendix/references.md#ref-RFC5280) to ensure that it is neither expired nor revoked and that it is
     from a trusted source. Path validation **SHOULD** be configured to specify which policy OIDs are trusted.[^cacpath]
 - The relying system issues a challenge string to the card and requests an operation using
     an asymmetric cryptographic algorithm in response.
