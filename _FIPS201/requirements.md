@@ -49,8 +49,7 @@ Each agency's PIV implementation **SHALL** meet the control objectives listed ab
 + An issued credential is not duplicated or forged.
 + An issued credential is not modified by an unauthorized entity.
 
-[^initiation]: See [CSP]](../references/#ref-CSP) for details about the investigation initiation process.
-
+[^initiation]: See [[CSP]](../references/#ref-CSP) for details about the investigation initiation process.
 
 ## 2.2 Credentialing Requirements {#s-2-2}
 
@@ -668,6 +667,7 @@ If the derived PIV credential to be invalidated contains a derived PIV authentic
 A derived PIV credential **SHALL NOT** be accepted for authentication once the credential has been invalidated. When invalidation occurs, the issuer **SHALL** notify the cardholder of the change.
 
 ### 2.10.3 Derived PIV Credential Reissuance and Post-Issuance Update Requirements {#s-2-10-3}
+{:latex-toc="2.10.3 Derived PIV Credential Reissuance and Update Requirements"}
 
 PKI-based derived PIV Credentials (i.e., those containing attribute information describing the PIV cardholder) **SHALL** be updated or reissued as described in [[SP 800-157]](../_Appendix/references.md#ref-SP-800-157) Section 2.3 when the corresponding PIV Card is updated or reissued. Non-PKI derived PIV credentials are not required to be updated or reissued in these situations.
 
