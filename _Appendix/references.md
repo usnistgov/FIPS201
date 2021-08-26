@@ -228,7 +228,7 @@ Available at <https://openid.net/specs/openid-connect-4-identity-assurance-1_0.h
 
 [[PCSC]](references.md#ref-PCSC){:name="ref-PCSC"} Personal Computer/Smart Card Workgroup (2020)
 *PC/SC Workgroup Specifications Overview.*
-Available at <https://www.pcscworkgroup.com/specifications/>
+Available at <https://pcscworkgroup.com/specifications/>
 
 [[PRIVACY]](references.md#ref-PRIVACY){:name="ref-PRIVACY"} Privacy Act of 1974, Pub. L. 93-579, 88 Stat 1896. 
 <https://www.govinfo.gov/content/pkg/STATUTE-88/pdf/STATUTE-88-Pg1896.pdf> 
