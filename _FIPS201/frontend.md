@@ -199,7 +199,7 @@ Zone 2F: Name
 {:latex-columns="p@0.28\textwidth,p@0.38\textwidth,m@0.25\textwidth" latex-table="4-1" latex-caption="Name Examples" latex-place="p"}
 
 Zone 7F: Contact Area
-: The electronic contact interface for the card as defined by [[ISO 7816]](../_Appendix/references.md#ISO7816). Printed items
+: The electronic contact interface for the card as defined by [[ISO 7816]](../_Appendix/references.md#ref-ISO7816). Printed items
     **SHALL NOT** cover the contact surface. The total size of the contact surface can vary between manufacturers. The area shown
     in [Figure 4-1](frontend.md#fig-4-1) roughly represents the minimal possible size.
 
