@@ -15,7 +15,7 @@ _This appendix is informative._ It lists the specifications and standards referr
 *Managing Information as a Strategic Resource.*
 (The White House, Washington, DC), OMB Circular A-130, July 28, 2016. 
 Available at <https://www.whitehouse.gov/sites/whitehouse.gov/files/omb/circulars/A130/a130revised.pdf>
- 
+
 [[ANSI 322]](references.md#ref-ANSI322){:name="ref-ANSI322"} InterNational Committee for Information Technology Standards (2008) 
 *ANSI INCITS 322-2008 &mdash; Information Technology &mdash; Card Durability Test Methods.* 
 (ANSI, New York, NY) [or as amended]. 
@@ -32,7 +32,7 @@ Available at <https://www.aamva.org/DL-ID-Card-Design-Standard/>
 [[COMMON]](references.md#ref-COMMON){:name="ref-COMMON"} Federal Public Key Infrastructure Policy Authority (2020)
 *X.509 Certificate Policy for the U.S. Federal PKI Common Policy Framework.*
 (Federal CIO Council), Version 1.32 [or as amended].
-Available at <https://www.idmanagement.gov/wp-content/uploads/sites/1171/uploads/fpki-x509-cert-policy-common.pdf>
+Available at <https://www.idmanagement.gov/docs/fpki-x509-cert-policy-common.pdf>
 
 [[CSP]](references.md#ref-CSP){:name="ref-CSP"} U.S. Office of Personnel Management (2020)
 *Credentialing Standards Procedures for Issuing Personal Identity Verification Cards under HSPD-12 and New Requirement for Suspension or Revocation of Eligibility for Personal Identity Verification Credentials*
@@ -65,7 +65,7 @@ Available at <https://www.opm.gov/suitability/suitability-executive-agent/policy
 [[FICAM-Roadmap]](references.md#ref-FICAM-roadmap){:name="ref-FICAM-roadmap"} Federal CIO Council, Federal Enterprise Architecture (2011)
 *Federal Identity, Credential, and Access Management (FICAM) Roadmap and Implementation Guidance.*
 (Federal CIO Council), Version 2.0 [or as amended].
-Available at <https://www.idmanagement.gov/wp-content/uploads/sites/1171/uploads/FICAM_Roadmap_and_Implem_Guid.pdf> 
+Available at <https://www.idmanagement.gov/docs/roadmap-ficam.pdf>
 
 [[G155-2013]](references.md#ref-G155-2013){:name="ref-G155-2013"} ASTM International (2013)
 *ASTM G155-13 &mdash; Standard Practice for Operating Xenon Arc Light Apparatus for Exposure of Non-metallic Materials.*
@@ -228,7 +228,7 @@ Available at <https://openid.net/specs/openid-connect-4-identity-assurance-1_0.h
 
 [[PCSC]](references.md#ref-PCSC){:name="ref-PCSC"} Personal Computer/Smart Card Workgroup (2020)
 *PC/SC Workgroup Specifications Overview.*
-Available at <https://www.pcscworkgroup.com/specifications/>
+Available at <https://pcscworkgroup.com/specifications/>
 
 [[PRIVACY]](references.md#ref-PRIVACY){:name="ref-PRIVACY"} Privacy Act of 1974, Pub. L. 93-579, 88 Stat 1896. 
 <https://www.govinfo.gov/content/pkg/STATUTE-88/pdf/STATUTE-88-Pg1896.pdf> 
@@ -236,6 +236,7 @@ Available at <https://www.pcscworkgroup.com/specifications/>
 [[PROF]](references.md#ref-PROF){:name="ref-PROF"} Federal Public Key Infrastructure Policy Authority (2018)
 *X.509 Certificate and Certificate Revocation List (CRL) Extensions Profile for the Shared Service Providers (SSP) Program.*
 (Federal CIO Council), Version 1.9 [or as amended].
+<https://www.idmanagement.gov/docs/fpki-x509-cert-profiles-pivi.pdf>
 
 [[PublicSans]](references.md#ref-PublicSans){:name="ref-PublicSans"} U.S. Web Design Systems
 Public Sans Typeface.
@@ -281,7 +282,7 @@ Available at <https://public-sans.digital.gov/>
 (Internet Engineering Task Force (IETF)), IETF Request for Comments (RFC) 6960.
 <https://doi.org/10.17487/RFC6960>
 
-[[RFC 8485]](references.md#ref-RFC8485){:name="ref-RFC8485"} Richer J (ed.), Johansson L (2018)
+[[RFC 8485]](references.md#ref-RFC8485){:name="ref-RFC8485"} Richer J, Johansson L (2018)
 *Vectors of Trust.*
 (Internet Engineering Task Force (IETF)), IETF Request for Comments (RFC) 8485.
 <https://doi.org/10.17487/RFC8485>

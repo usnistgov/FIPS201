@@ -219,8 +219,14 @@ h6:hover .header-link {
 
 
 strong.normative {
-  font-size: 0.9em;
+  font-size: 0.75em;
+  font-weight: bold;
   background: #eeeeee;
+  padding: 1px 3px;
+}
+
+.target {
+  background-color: #EEEFFF;
 }
 
 @media screen and (max-width: 767px) {

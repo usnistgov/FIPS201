@@ -145,7 +145,7 @@ embedded module is located.
 
 Unless otherwise specified, all data labels **SHALL** be printed in 5&nbsp;pt Arial with the corresponding
 data in 6&nbsp;pt Arial Bold.
-If the Arial font is not available, a visually similar font, such as Public Sans [[PublicSans]](../_Appendix/references#ref-PublicSans), **MAY** 
+If the Arial font is not available, a visually similar font, such as Public Sans [[PublicSans]](../_Appendix/references.md#ref-PublicSans), **MAY** 
 be substituted for all references to Arial within this Standard. If such a substitution is made, the substitution
 **SHALL** be consistently applied to all uses of the Arial font on the PIV Card.
 Unless otherwise specified, all text **SHALL** be printed in black.
@@ -199,7 +199,7 @@ Zone 2F: Name
 {:latex-columns="p@0.28\textwidth,p@0.38\textwidth,m@0.25\textwidth" latex-table="4-1" latex-caption="Name Examples" latex-place="p"}
 
 Zone 7F: Contact Area
-: The electronic contact interface for the card as defined by [[ISO 7816]](../_Appendix/references.md#ISO7816). Printed items
+: The electronic contact interface for the card as defined by [[ISO 7816]](../_Appendix/references.md#ref-ISO7816). Printed items
     **SHALL NOT** cover the contact surface. The total size of the contact surface can vary between manufacturers. The area shown
     in [Figure 4-1](frontend.md#fig-4-1) roughly represents the minimal possible size.
 
@@ -211,6 +211,11 @@ Zone 8F: Employee Affiliation
 Zone 10F: Agency, Department, or Organization
 : The organizational affiliation **SHALL** be printed as
     depicted in [Figure 4-1](frontend.md#fig-4-1).
+
+~~~
+\clearpage
+~~~
+{:latex-literal="true"}
 
 Zone 14F: Card Expiration Date
 : The card expiration date **SHALL** be printed on the card as depicted in
@@ -256,11 +261,6 @@ Zone 1B: Agency Card Serial Number
     the issuing department or agency. The preferred placement is as depicted in [Figure 4-6](frontend.md#fig-4-6), 
     but variable placement along the outer edge is allowed in accordance with
     other FIPS 201 requirements, as shown in [Figure 4-8](frontend.md#fig-4-8).
-
-~~~
-\clearpage
-~~~
-{:latex-literal="true"}
 
 Zone 2B: Issuer Identification Number
 : This item **SHALL** be printed as depicted in [Figure 4-6](frontend.md#fig-4-6) and consist
@@ -372,6 +372,11 @@ Zone 3B: Magnetic Stripe (Deprecated)
 Zone 4B: Return Address
 : If used, the "return if lost" language **SHALL** be placed on the back of
     the card in the general area depicted in [Figure 4-7](frontend.md#fig-4-7).
+
+~~~
+\clearpage
+~~~
+{:latex-literal="true"}
 
 Zone 5B: Physical Characteristics of Cardholder
 : If used, the cardholder physical characteristics (e.g.,
@@ -490,7 +495,7 @@ mechanisms that are interoperable across agencies:
 - an electronic facial image, and
 - a Cardholder Unique Identifier (CHUID).[^support]
 
-[^support]: The CHUID as an authentication mechanism in [Section 6.2.5](authentication.md#s-6-2-5) has been removed from this version of the Standard. The CHUID data element itself, however, has not been removed and continues to be mandatory as it supports other PIV authentication mechanisms.
+[^support]: The CHUID as an authentication mechanism in [Section 6.2.5](../authentication#s-6-2-5) has been removed from this version of the Standard. The CHUID data element itself, however, has not been removed and continues to be mandatory as it supports other PIV authentication mechanisms.
 
 This Standard also defines two data elements for the PIV Card data model that are mandatory if the cardholder
 has a government-issued email account at the time of PIV Card issuance. These data elements are

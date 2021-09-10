@@ -84,7 +84,7 @@ comparison with a real-time captured biometric sample. The use of biometric char
 authentication ("something you are").
 
 
-[^somethingyouknow]: For more information on the terms "something you know," "something you have," and "something you are," see [[SP 800-63]](../_Appendix/references.md#ref-SP-800-63).
+[^somethingyouknow]: For more information on the terms "something you know," "something you have," and "something you are," see [[SP 800-63]](../references/#ref-SP-800-63).
 [^oncardbiometric]: Alternatively, a biometric on-card one-to-one comparison can be used to activate the PIV Card.
 
 ### 3.1.2 PIV Issuance and Management Subsystem {#s-3-1-2}
@@ -152,7 +152,7 @@ pre-personalization of the card at the manufacturer are not considered a part of
 [Figure 3-2](system.md#fig-3-2) presents these PIV activities and depicts the PIV Card request as the initial activity and PIV
 Card termination as the end-of-life activity.
 
-[^DPCLifecycle]: The lifecycle activities of derived PIV credentials are described in [[SP 800-157]](../_Appendix/references.md#ref-SP-800-157).
+[^DPCLifecycle]: The lifecycle activities of derived PIV credentials are described in [[SP 800-157]](../references/#ref-SP-800-157).
 
 [Figure 3-2. PIV Card Lifecycle Activities](system.md#fig-3-2){:name="fig-3-2"}
 {:latex-ignore="true"}
@@ -193,7 +193,7 @@ PIV Card Termination
     PIV Card and the data and keys needed for authentication to prevent any future use of the PIV Card
     for authentication.
 
- [^enroll]: In some other National Institute of Standards and Technology (NIST) documents such as [[SP 800-63A]](../_Appendix/references.md#ref-SP-800-63A), registration is referred to as *enrollment*.
+[^enroll]: In some other National Institute of Standards and Technology (NIST) documents such as [[SP 800-63A]](../references/#ref-SP-800-63A), registration is referred to as *enrollment*.
 
 ~~~
 \clearpage

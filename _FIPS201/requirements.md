@@ -49,8 +49,7 @@ Each agency's PIV implementation **SHALL** meet the control objectives listed ab
 + An issued credential is not duplicated or forged.
 + An issued credential is not modified by an unauthorized entity.
 
-[^initiation]: See [CSP]](../references/#ref-CSP) for details about the investigation initiation process.
-
+[^initiation]: See [[CSP]](../references/#ref-CSP) for details about the investigation initiation process.
 
 ## 2.2 Credentialing Requirements {#s-2-2}
 
@@ -451,7 +450,7 @@ applicable. If the changed data is the cardholder's name, then the issuer **SHAL
 
 Previously collected biometric data **MAY** be reused with the new PIV Card if the expiration date of the
 new PIV Card is no later than 12&nbsp;years after the date that the biometric data was obtained. As
-biometric system error rates generally increase with the time elapsed since initial collection (reference aging, [[ISO 2382-37]](references.md#ref-ISO/IEC-2382-37)), issuers **MAY** refresh
+biometric system error rates generally increase with the time elapsed since initial collection (reference aging, [[ISO 2382-37]](../_Appendix/references.md#ref-ISO/IEC-2382-37)), issuers **MAY** refresh
 biometric data in the PIV enrollment record during the re-issuance process. Even if the same biometric data
 is reused with the new PIV Card, the digital signature must be recomputed with the new FASC-N and
 card UUID.
@@ -668,6 +667,7 @@ If the derived PIV credential to be invalidated contains a derived PIV authentic
 A derived PIV credential **SHALL NOT** be accepted for authentication once the credential has been invalidated. When invalidation occurs, the issuer **SHALL** notify the cardholder of the change.
 
 ### 2.10.3 Derived PIV Credential Reissuance and Post-Issuance Update Requirements {#s-2-10-3}
+{:latex-toc="2.10.3 Derived PIV Credential Reissuance and Update Requirements"}
 
 PKI-based derived PIV Credentials (i.e., those containing attribute information describing the PIV cardholder) **SHALL** be updated or reissued as described in [[SP 800-157]](../_Appendix/references.md#ref-SP-800-157) Section 2.3 when the corresponding PIV Card is updated or reissued. Non-PKI derived PIV credentials are not required to be updated or reissued in these situations.
 
