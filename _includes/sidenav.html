@@ -11,13 +11,17 @@
         {% endif %}
         
         <li class="{{ current }}">
-          {% if page.collapsed and link.anchor %}
-              <a href="{{ site.baseurl }}/fips201.html#{{ link.anchor }}">{{ link.text }}</a>
+          {% if page.collapsed and link.collection %}
+              {% if page.singlepage %}
+                  <a href="{{ site.baseurl }}/{{ page.collection }}.html">{{ link.text }}</a>
+              {% else %}
+                  <a href="{{ site.baseurl }}/{{ link.collection }}.html">{{ link.text }}</a>
+              {% endif %}
           {% else %}
               <a href="{{ site.baseurl }}{{ link.url }}">{{ link.text }}</a>
           {% endif %}
           
-          {% if link.collection and (page.collection == link.collection or page.collapsed) %}
+          {% if link.collection and (page.collection == link.collection or page.singlepage) %}
         
             {% assign c = site.collections | where: "label", link.collection | first %}
             {% assign pages = c.docs | sort: 'navOrder' %}
@@ -25,17 +29,22 @@
             <ul class="subnav">
             {% for p in pages %}
               
-              {% assign scurrent = '' %}
-              {% if page.url == p.url %}
-                {% assign scurrent = 'active' %}
-              {% endif %}
+              {% if p.navOrder >= 0 %}
               
-              {% if page.collapsed and p.anchor %}
-                  <li class="{{ scurrent }}"><a href="{{ site.baseurl }}/fips201.html#{{ p.anchor }}">{{ p.navTitle }}</a></li>
-              {% else %}
-                  <li class="{{ scurrent }}"><a href="{{ site.baseurl }}{{ p.url }}">{{ p.navTitle }}</a></li>
-              {% endif %}
+                {% assign scurrent = '' %}
+                
+                {% if page.url == p.url %}
+                  {% assign scurrent = 'active' %}
+                {% endif %}
+                
+                {% if page.collapsed and p.anchor %}
+                    <li class="{{ scurrent }}"><a href="{{ site.baseurl }}/{{ page.collection }}.html#{{ p.anchor }}">{{ p.navTitle }}</a></li>
+                {% else %}
+                    <li class="{{ scurrent }}"><a href="{{ site.baseurl }}{{ p.url }}">{{ p.navTitle }}</a></li>
+                {% endif %}
               
+              {% endif %}
+
             {% endfor %}
           
             </ul>

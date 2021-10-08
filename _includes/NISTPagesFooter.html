@@ -1,41 +1,49 @@
-    <script type="text/javascript">
-        function loadSearch() {
-            var sjs = SimpleJekyllSearch({
-              searchInput: document.getElementById('search-input'),
-              resultsContainer: document.getElementById('results-container'),
-              json: '{{ site.baseurl }}/search.json'
-            });
-        }
-        $(function() {
-          {% if page.collapsed %}
-          // Convert all links to on-page within document in collapsed view
-          $('.container a[href^="{{ site.baseurl }}/"], .container a[href^="../"]').filter('a[href*="#"]').each(function(i, el) {
-              var $el = $(el);
-              var newPath = $el.attr('href').replace(/(.*)(\#.+)/, "$2");
-              $el.attr('href', newPath);
-          });
-          {% endif %}
-          $('strong').filter(':contains("SHALL"), :contains("SHALL NOT"), :contains("SHOULD"), :contains("SHOULD NOT"), :contains("MAY"), :contains("NEED NOT"), :contains("CAN"), :contains("CANNOT"), :contains("CAPITALS")').each(function(i, el) {
-            var $el;
-            $el = $(el);
-            $el.addClass('normative');
-          });
-          $("h1, h2, h3, h4, h5, h6").each(function(i, el) {
-            var $el, icon, id;
-            $el = $(el);
-            id = $el.attr('id');
-            icon = '<i class="fa fa-link"></i>';
-            if (id) {
-              return $el.append($("<a />").addClass("header-link").attr("href", "#" + id).html(icon));
-            }
-          });
-          // highlight the target
-          $('a:target').parent().addClass('target');
-          $(':target').addClass('target');
-          $(window).on('hashchange', function(e) {
-            $('.target').removeClass('target');
-            $('a:target').parent().addClass('target');
-            $(':target').addClass('target');
-          });
+<script type="text/javascript">
+    function loadSearch() {
+        var sjs = SimpleJekyllSearch({
+          searchInput: document.getElementById('search-input'),
+          resultsContainer: document.getElementById('results-container'),
+          json: '{{ site.baseurl }}/search.json'
         });
-    </script>
+    }
+    $(function() {
+      {% if page.collapsed %}
+      // Convert all links to on-page within document in collapsed view
+      $('.container a[href^="{{ site.baseurl }}/{% if page.collection %}{{ page.collection }}/{% endif %}"], .container a[href^="../"]').filter('a[href*="#"]').each(function(i, el) {
+          var $el = $(el);
+          var newPath = $el.attr('href').replace(/(.*)(\#.+)/, "$2");
+          $el.attr('href', newPath);
+      });
+      // Convert all cross-document links when in collapsed view
+      $('.container a[href^="{{ site.baseurl }}/"]').not('a[href*="{{ page.collection }}"]').each(function(i, el) {
+          var $el = $(el);
+          var newPath = $el.attr('href').replace(new RegExp('({{ site.baseurl }})/([^/]+)(/.*)?/(#.*)?'), '$1/$2.html$4');
+          $el.attr('href', newPath);
+      });
+      {% endif %}
+      // highlight normative language by adding classes
+      $('strong').filter(':contains("SHALL"), :contains("SHALL NOT"), :contains("SHOULD"), :contains("SHOULD NOT"), :contains("MAY"), :contains("NEED NOT"), :contains("CAN"), :contains("CANNOT"), :contains("CAPITALS")').each(function(i, el) {
+        var $el;
+        $el = $(el);
+        $el.addClass('normative');
+      });
+      // add header link anchors
+      $("h1, h2, h3, h4, h5, h6").each(function(i, el) {
+        var $el, icon, id;
+        $el = $(el);
+        id = $el.attr('id');
+        icon = '<i class="fa fa-link"></i>';
+        if (id) {
+          return $el.append($("<a />").addClass("header-link").attr("href", "#" + id).html(icon));
+        }
+      });
+      // highlight the target
+      $('a:target').parent().addClass('target');
+      $(':target').addClass('target');
+      $(window).on('hashchange', function(e) {
+        $('.target').removeClass('target');
+        $('a:target').parent().addClass('target');
+        $(':target').addClass('target');
+      });
+    });
+</script>
