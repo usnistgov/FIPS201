@@ -18,10 +18,10 @@ docker-compose -f docker-compose-pdf.yml up
 
 This will build a PDF file found in `_pdf/FIPS201/FIPS201.pdf`.
 
-The source of the document is separated into three parts, each in a different source directory:
+The source of the document is found in the `_FIPS201` source directory, consisting of three portions:
 
-* `_Frontmatter` contains the abstract, foreword, and announcement letter.
-* `_FIPS201` contains all seven sections of the core document text.
-* `_Appendix` contains the appendices including the glossary, references, and table of revisions.
+* The front matter consists of the abstract, foreword, and announcement letter.
+* All seven sections of the core document text.
+* The appendix contains the the glossary, references, and table of revisions.
 
-Within these directories, each section of the document has its own source file.
+Within this directory, each section of the document has its own source file.

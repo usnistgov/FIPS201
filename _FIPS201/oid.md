@@ -1,7 +1,7 @@
 ---
 layout: default
 title: PIV Object Identifiers and Certificate Extension
-navOrder: 2
+navOrder: 12
 navTitle: OID
 permalink: /oid/
 anchor: s-b
@@ -9,7 +9,7 @@ anchor: s-b
 
 # Appendix B. PIV Object Identifiers and Certificate Extension {#s-b}
 
-_This appendix is normative._ It provides additional details for the PIV objects identified in [Section 4](../_FIPS201/frontend.md#s-4).
+_This appendix is normative._ It provides additional details for the PIV objects identified in [Section 4](frontend.md#s-4).
 
 ## B.1 PIV Object Identifiers {#s-b-1}
 

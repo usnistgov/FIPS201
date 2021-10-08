@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Glossary of Terms, Acronyms, and Notations
-navOrder: 3
+navOrder: 13
 navTitle: Glossary
 permalink: /glossary/
 anchor: s-c

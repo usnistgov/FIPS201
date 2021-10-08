@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Revision History
-navOrder: 5
+navOrder: 15
 navTitle: Revisions
 permalink: /revisions/
 anchor: s-e
