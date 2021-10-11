@@ -20,8 +20,8 @@ exclude:
 - "*/images/*.pdf"
 
 # GitHub information will uncomment ones names are finalized and NIST GitHub Pages resources have been allocated
-#org_name: usnistgov
-#repo_name: nistpages-shell
+org_name: usnistgov
+repo_name: FIPS201
 
 # Navigation
 # List links that should appear in the site sidebar here
