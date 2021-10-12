@@ -9,15 +9,17 @@
     $(function() {
       {% if page.collapsed %}
       // Convert all links to on-page within document in collapsed view
-      $('.container a[href^="{{ site.baseurl }}/{% if page.collection %}{{ page.collection }}/{% endif %}"], .container a[href^="../"]').filter('a[href*="#"]').each(function(i, el) {
+      $('.container a[href^="{{ site.baseurl }}/{% if page.collectionpath %}{{ page.collectionpath }}/{% endif %}"], .container a[href^="../"]').filter('a[href*="#"]').each(function(i, el) {
           var $el = $(el);
           var newPath = $el.attr('href').replace(/(.*)(\#.+)/, "$2");
+          //console.log('1: ' + $el.attr('href') + ' :: ' + newPath);
           $el.attr('href', newPath);
       });
       // Convert all cross-document links when in collapsed view
-      $('.container a[href^="{{ site.baseurl }}/"]').not('a[href*="{{ page.collection }}"]').each(function(i, el) {
+      $('.container a[href^="{{ site.baseurl }}/"]'){% if page.collectionpath %}.not('a[href*="{{ page.collectionpath }}/"]'){% endif %}.each(function(i, el) {
           var $el = $(el);
           var newPath = $el.attr('href').replace(new RegExp('({{ site.baseurl }})/([^/]+)(/.*)?/(#.*)?'), '$1/$2.html$4');
+          //console.log('2: ' + $el.attr('href') + ' :: ' + newPath);
           $el.attr('href', newPath);
       });
       {% endif %}

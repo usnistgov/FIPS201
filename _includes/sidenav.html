@@ -12,16 +12,12 @@
         
         <li class="{{ current }}">
           {% if page.collapsed and link.collection %}
-              {% if page.singlepage %}
-                  <a href="{{ site.baseurl }}/{{ page.collection }}.html">{{ link.text }}</a>
-              {% else %}
-                  <a href="{{ site.baseurl }}/{{ link.collection }}.html">{{ link.text }}</a>
-              {% endif %}
+              <a href="{{ site.baseurl }}/{{ link.collection }}.html">{{ link.text }}</a>
           {% else %}
               <a href="{{ site.baseurl }}{{ link.url }}">{{ link.text }}</a>
           {% endif %}
           
-          {% if link.collection and (page.collection == link.collection or page.singlepage) %}
+          {% if link.collection and (page.collection == link.collection) %}
         
             {% assign c = site.collections | where: "label", link.collection | first %}
             {% assign pages = c.docs | sort: 'navOrder' %}

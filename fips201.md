@@ -3,8 +3,7 @@ layout: page
 title: "FIPS 201-3"
 description: "FIPS 201-3"
 collapsed: true
-singlepage: true
-collection: fips201
+collection: FIPS201
 ---
 
 {{ site.time | date_to_rfc822 }}
