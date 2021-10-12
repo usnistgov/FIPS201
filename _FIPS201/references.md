@@ -1,7 +1,7 @@
 ---
 layout: default
 title: References
-navOrder: 4
+navOrder: 14
 navTitle: References
 permalink: /references/
 anchor: s-d

@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Common Identification, Security, and Privacy Requirements
-navOrder: 2
+navOrder: 5
 navTitle: Requirements
 permalink: /requirements/
 anchor: s-2
 ---
 # 2. Common Identification, Security, and Privacy Requirements {#s-2}
 
-_This section is normative._ It addresses the fundamental control and security objectives outlined in [[HSPD-12]](../_Appendix/references.md#ref-HSPD-12), including
+_This section is normative._ It addresses the fundamental control and security objectives outlined in [[HSPD-12]](references.md#ref-HSPD-12), including
 the identity proofing requirements for federal employees and contractors.
 
-Note that identity proofing, registration, issuance and maintenance processes outlined in this section, or portions thereof, may be outsourced by the issuer to third-party organizations or service providers. For further details on outsourcing issuer functions, refer to Section 2.2 of [[SP 800-79]](../_Appendix/references.md#ref-SP-800-79).
+Note that identity proofing, registration, issuance and maintenance processes outlined in this section, or portions thereof, may be outsourced by the issuer to third-party organizations or service providers. For further details on outsourcing issuer functions, refer to Section 2.2 of [[SP 800-79]](references.md#ref-SP-800-79).
 
 ## 2.1 Control Objectives {#s-2-1}
 
-[[HSPD-12]](../_Appendix/references.md#ref-HSPD-12) establishes control objectives for secure and reliable identification of federal employees and
+[[HSPD-12]](references.md#ref-HSPD-12) establishes control objectives for secure and reliable identification of federal employees and
 contractors. These control objectives, provided in paragraph 3 of the directive, are quoted here:
 
 > (3) "Secure and reliable forms of identification" for purposes of this directive means identification that (a)
@@ -62,7 +62,7 @@ The minimum requirement for PIV Credential eligibility determination is a comple
 
 For individuals for whom no prior investigation exists, the appropriate required investigation **SHALL** be initiated with the authorized federal investigative service provider and the FBI NCHC portion of the background investigation **SHALL** be completed and favorably adjudicated prior to PIV Card issuance.
 
-Once the investigation is completed, the authorized adjudicative entity **SHALL** adjudicate the investigation and report the final eligibility determination to the Central Verification System (or successor) and, if applicable, their enrollment in the Continuous Vetting Program as defined in [[EO 13764]](../_Appendix/references.md#ref-EO-13764). This determination **SHALL** be recorded in or referenced by the PIV enrollment record to reflect PIV eligibility for the PIV cardholder.
+Once the investigation is completed, the authorized adjudicative entity **SHALL** adjudicate the investigation and report the final eligibility determination to the Central Verification System (or successor) and, if applicable, their enrollment in the Continuous Vetting Program as defined in [[EO 13764]](references.md#ref-EO-13764). This determination **SHALL** be recorded in or referenced by the PIV enrollment record to reflect PIV eligibility for the PIV cardholder.
 
 For full guidance on PIV credentialing investigative and adjudicative requirements, to include continuous vetting, issuers must work closely with their personnel security/suitability offices to ensure adherence to the latest federal personnel vetting guidance as provided by the Executive Agents. 
 
@@ -82,9 +82,9 @@ A full set of fingerprints **SHALL** be collected from each PIV applicant who is
 
 Biometric identification using fingerprints is the primary input to law
 enforcement checks. In cases where ten fingerprints are not available, then as many fingers as
-possible **SHALL** be imaged as per guidance in [[SP 800-76]](../_Appendix/references.md#ref-SP-800-76). In cases where no fingers are available to be imaged, agencies **SHALL** seek guidance from their respective investigative service provider for alternative means of performing law enforcement checks.
+possible **SHALL** be imaged as per guidance in [[SP 800-76]](references.md#ref-SP-800-76). In cases where no fingers are available to be imaged, agencies **SHALL** seek guidance from their respective investigative service provider for alternative means of performing law enforcement checks.
 
-Fingerprint collection **SHALL** conform to the procedural and technical specifications of [[SP 800-76]](../_Appendix/references.md#ref-SP-800-76).
+Fingerprint collection **SHALL** conform to the procedural and technical specifications of [[SP 800-76]](references.md#ref-SP-800-76).
 
 ## 2.4 Biometric Data Collection for PIV Card {#s-2-4}
 
@@ -105,9 +105,9 @@ If the identity proofing and enrollment process is performed over multiple visit
 If biometric data was collected as specified in [Section 2.3](requirements.md#s-2-3) and if collection of biometric data as specified in this section and in [Section 2.3](requirements.md#s-2-3) occur on separate
 occasions, a biometric comparison **SHALL** be performed to confirm that the two fingerprints collected for off-card one-to-one comparisons elicit a positive biometric verification decision when compared to the same two fingerprints from the original set of ten fingerprints.
 
-Biometric data collection **SHALL** conform to the procedural and technical specifications of [[SP 800-76]](../_Appendix/references.md#ref-SP-800-76).
+Biometric data collection **SHALL** conform to the procedural and technical specifications of [[SP 800-76]](references.md#ref-SP-800-76).
 The choice of fingers to use for mandatory fingerprint templates and optional fingerprint templates **MAY** vary between persons. The recommended
-selection and order is specified in [[SP 800-76]](../_Appendix/references.md#ref-SP-800-76).
+selection and order is specified in [[SP 800-76]](references.md#ref-SP-800-76).
 
 ## 2.5 Biometric Data Use {#s-2-5}
 
@@ -202,14 +202,14 @@ Interagency transfer
     described in [Section 2.8.2](requirements.md#s-2-8-2).
 
 To facilitate interagency transfer of enrollment data, systems may import and export enrollment records in the manner and
-representation described in [[SP 800-156]](../_Appendix/references.md#ref-SP-800-156).
+representation described in [[SP 800-156]](references.md#ref-SP-800-156).
 
 ## 2.7 PIV Identity Proofing and Registration Requirements {#s-2-7}
 
-Identity proofing and registration requirements for the issuance of PIV Cards meet Identity Assurance Level (IAL) 3 since they follow a tailored process based on [[SP 800-63A]](../_Appendix/references.md#ref-SP-800-63A) IAL3 requirements. Departments and agencies **SHALL** follow an identity proofing and registration process that meets the requirements defined below when issuing PIV Cards.
+Identity proofing and registration requirements for the issuance of PIV Cards meet Identity Assurance Level (IAL) 3 since they follow a tailored process based on [[SP 800-63A]](references.md#ref-SP-800-63A) IAL3 requirements. Departments and agencies **SHALL** follow an identity proofing and registration process that meets the requirements defined below when issuing PIV Cards.
 
 The department or agency **SHALL** adopt and use an identity proofing and registration process that is approved in
-accordance with [[SP 800-79]](../_Appendix/references.md#ref-SP-800-79).
+accordance with [[SP 800-79]](references.md#ref-SP-800-79).
 
 The department or agency **SHALL** follow investigative requirements as outlined in [Section 2.2](requirements.md#s-2-2).
 
@@ -220,13 +220,13 @@ The applicant **SHALL** appear in person at least once before the issuance of a 
 During identity proofing, the applicant **SHALL** be required to provide two original forms of identity source
 documents.[^documents] These documents **SHALL** be validated to ensure that they are genuine and authentic, not counterfeit, fake, or forgeries. Validation of physical security features **SHALL** be performed by trained staff. When they are available, cryptographic security features **SHOULD** be used to validate evidence.[^cryptoValidate] The identity source documents **SHALL** relate to the applicant. The identity source documents **SHALL NOT**
 be expired or cancelled. If the two identity source documents bear different names, evidence
-of a formal name change **SHALL** be provided. At least one identity source document **SHALL** meet the requirements of Strong evidence as specified in [[SP 800-63A]](../_Appendix/references.md#ref-SP-800-63A) and be one of the
+of a formal name change **SHALL** be provided. At least one identity source document **SHALL** meet the requirements of Strong evidence as specified in [[SP 800-63A]](references.md#ref-SP-800-63A) and be one of the
 following forms of identification:
 
 [^cryptoValidate]: For example, digital identity evidence signed by the issuing authority can be cryptographically verified (e.g., MRZ signature validation of passports).
 
 * U.S. Passport or a U.S. Passport Card
-* driver's license or ID card that is compliant with [[REAL-ID]](../_Appendix/references.md#ref-REAL-ID) requirements described in this section
+* driver's license or ID card that is compliant with [[REAL-ID]](references.md#ref-REAL-ID) requirements described in this section
 * Permanent Resident Card or Alien Registration Receipt Card (Form I-551)
 * foreign passport
 * Employment Authorization Document that contains a photograph (Form I-766)
@@ -255,11 +255,11 @@ of the following:
 * U.S. Social Security Card issued by the Social Security Administration
 * original or certified copy of a birth certificate issued by a state, county, municipal
     authority, possession, or outlying possession of the United States bearing an official seal
-* another piece of evidence that meets the requirements of Fair evidence specified in [[SP 800-63A]](../_Appendix/references.md#ref-SP-800-63A)
+* another piece of evidence that meets the requirements of Fair evidence specified in [[SP 800-63A]](references.md#ref-SP-800-63A)
 
-> Note: One piece of Strong evidence and one other piece of evidence meeting the requirements of Fair evidence in [[SP 800-63A]](../_Appendix/references.md#ref-SP-800-63A) are considered sufficient for issuance of a PIV Card because the requirement for a federal background investigation is considered a compensating control for identity proofing at IAL3. Similarly, the federal background investigation requirement is considered a compensating control for the SP 800-63A requirement to validate evidence by comparison of details with the issuing or authoritative sources.
+> Note: One piece of Strong evidence and one other piece of evidence meeting the requirements of Fair evidence in [[SP 800-63A]](references.md#ref-SP-800-63A) are considered sufficient for issuance of a PIV Card because the requirement for a federal background investigation is considered a compensating control for identity proofing at IAL3. Similarly, the federal background investigation requirement is considered a compensating control for the SP 800-63A requirement to validate evidence by comparison of details with the issuing or authoritative sources.
 
-Departments and agencies **SHALL** ensure that driver's licenses and ID cards presented by applicants comply with [[REAL-ID]](../_Appendix/references.md#ref-REAL-ID) when required pursuant to DHS regulations. State-issued driver's licenses and ID cards that are not [[REAL-ID]](../_Appendix/references.md#ref-REAL-ID) compliant **MAY** be used until the full enforcement date under [[6 CFR &sect; 37.5]](../_Appendix/references.md#ref-6CFR37).
+Departments and agencies **SHALL** ensure that driver's licenses and ID cards presented by applicants comply with [[REAL-ID]](references.md#ref-REAL-ID) when required pursuant to DHS regulations. State-issued driver's licenses and ID cards that are not [[REAL-ID]](references.md#ref-REAL-ID) compliant **MAY** be used until the full enforcement date under [[6 CFR &sect; 37.5]](references.md#ref-6CFR37).
 
 The PIV identity proofing, registration, issuance, and reissuance processes **SHALL** adhere to the
 principle of separation of duties to ensure that no single individual has the capability to issue a PIV
@@ -304,7 +304,7 @@ Supervised remote identity proofing **SHALL** meet the following requirements:
 * The operator **SHALL** validate the physical or cryptographic security features of primary and secondary identity source documents using scanners and sensors that are integrated into the station.
 * The issuer **SHALL** ensure that all communications occur over a mutually authenticated protected channel.
 
-If biometric data cannot be collected per the criteria defined in [[SP 800-76]](../_Appendix/references.md#ref-SP-800-76) or if validation of the identity evidence is inadequate, supervised remote identity proofing **SHALL NOT** be used and the identity proofing and enrollment will be performed in person at the issuer's facility.
+If biometric data cannot be collected per the criteria defined in [[SP 800-76]](references.md#ref-SP-800-76) or if validation of the identity evidence is inadequate, supervised remote identity proofing **SHALL NOT** be used and the identity proofing and enrollment will be performed in person at the issuer's facility.
 The trained operator **SHALL** terminate a supervised remote identity proofing
 session and require in-person identity proofing at an issuing facility if
 there is reasonable basis to believe[^believe] that the applicant is attempting
@@ -325,21 +325,21 @@ of the federal department or agency.
 
 + PIV Cards **SHALL** be issued only after the adjudicative entity has authorized issuance of the credential.
 + The department or agency **SHALL** use an approved PIV credential issuance process in accordance with
-    [[SP 800-79]](../_Appendix/references.md#ref-SP-800-79).
+    [[SP 800-79]](references.md#ref-SP-800-79).
 + Before issuing the PIV Card, the issuer **SHALL** ensure that the individual receiving it has been properly processed per [Section 2.1](requirements.md#s-2-1), [Section 2.2](requirements.md#s-2-2), and [Section 2.7](requirements.md#s-2-7).
 + Biometric data used to personalize the PIV Card **SHALL** be those captured during the identity proofing and registration process.
 + During the issuance process, the issuer **SHALL** verify that the individual to whom the PIV Card is to be
     issued is the same as the intended applicant/recipient as approved by the appropriate authority.
     Before the PIV Card is provided to the applicant, the issuer **SHALL** perform a one-to-one comparison of the
     applicant against biometric data records available on the PIV Card or in the PIV enrollment record.
-    Minimum accuracy requirements for biometric verification and presentation attack detection are specified in [[SP 800-76]](../_Appendix/references.md#ref-SP-800-76). On
+    Minimum accuracy requirements for biometric verification and presentation attack detection are specified in [[SP 800-76]](references.md#ref-SP-800-76). On
     a positive biometric verification decision, the PIV Card **SHALL** be released to the applicant. If the biometric verification decision is negative, or if
     no biometric data records are available, the cardholder **SHALL** provide two identity source documents (as
     specified in [Section 2.7](requirements.md#s-2-7)), and an attending operator **SHALL** inspect these and compare the cardholder
     with the photograph printed on the PIV Card.
 + The department or agency **SHALL** issue PIV credentials only through systems and providers whose reliability has
     been established by the agency and so documented and approved in writing (i.e., accredited) in
-    accordance with [[SP 800-79]](../_Appendix/references.md#ref-SP-800-79).
+    accordance with [[SP 800-79]](references.md#ref-SP-800-79).
 + The PIV Card **SHALL** be valid for no more than six years.
 
 PIV Cards that contain topographical defects (e.g., scratches, poor color, fading, etc.) or that are not
@@ -389,7 +389,7 @@ Departments and agencies **MAY** use a supervised remote identity proofing stati
 
 Remote issuance **SHALL** satisfy all of the requirements of [Section 2.8](requirements.md#s-2-8). The issuer **SHALL** have local trained staff to securely maintain custody of card stock received by the remote station when the station is used for PIV Card issuance.
 
-If biometric data cannot be positively verified per the criteria defined in [[SP 800-76]](../_Appendix/references.md#ref-SP-800-76), remote issuance **SHALL NOT** be used and issuance will be performed in person at the issuer's facility.
+If biometric data cannot be positively verified per the criteria defined in [[SP 800-76]](references.md#ref-SP-800-76), remote issuance **SHALL NOT** be used and issuance will be performed in person at the issuer's facility.
 The trained operator **SHALL** terminate a remote issuance
 session and require in-person issuance at an issuing facility if
 there is reasonable basis to believe[^believe] that the applicant is attempting
@@ -423,7 +423,7 @@ about the cardholder is being changed, the card issuer **SHALL** ensure that an 
 the issuance of the new PIV Card. The issuer **SHALL** ensure that the adjudicative entity has verified that there is a PIV eligibility determination in an authoritative record, such as the agency's IDMS or the Central Verification System (or successor).
 
 The issuer **SHALL** perform a biometric verification of the applicant to the biometric data records of the PIV enrollment record or to the biometric data records of the PIV Card using the BIO-A or OCC-AUTH authentication mechanisms. Minimum accuracy requirements for
-the biometric verification are specified in [[SP 800-76]](../_Appendix/references.md#ref-SP-800-76). On a positive biometric verification decision, the new PIV Card **SHALL** be
+the biometric verification are specified in [[SP 800-76]](references.md#ref-SP-800-76). On a positive biometric verification decision, the new PIV Card **SHALL** be
 released to the applicant. If the biometric verification decision is negative, or if no biometric data records are available, the cardholder
 **SHALL** provide two identity source documents (as specified in [Section 2.7](requirements.md#s-2-7)), and an attending operator **SHALL**
 inspect these and compare the cardholder with the electronic facial image retrieved from the enrollment data record
@@ -450,7 +450,7 @@ applicable. If the changed data is the cardholder's name, then the issuer **SHAL
 
 Previously collected biometric data **MAY** be reused with the new PIV Card if the expiration date of the
 new PIV Card is no later than 12&nbsp;years after the date that the biometric data was obtained. As
-biometric system error rates generally increase with the time elapsed since initial collection (reference aging, [[ISO 2382-37]](../_Appendix/references.md#ref-ISO/IEC-2382-37)), issuers **MAY** refresh
+biometric system error rates generally increase with the time elapsed since initial collection (reference aging, [[ISO 2382-37]](references.md#ref-ISO/IEC-2382-37)), issuers **MAY** refresh
 biometric data in the PIV enrollment record during the re-issuance process. Even if the same biometric data
 is reused with the new PIV Card, the digital signature must be recomputed with the new FASC-N and
 card UUID.
@@ -506,7 +506,7 @@ The PIN on a PIV Card may need to be reset if the cardholder has
 forgotten the PIN or if PIN-based cardholder authentication has been disabled by the usage of an
 invalid PIN more than the allowed number of retries. Fingers might need to be re-enrolled for OCC if the cardholder has experienced epidermal scarring or similar physical changes, resulting in false negative biometric verification decisions, or if OCC has been disabled by exceeding the allowed number of negative biometric verification decisions. No more than 10 consecutive activation retries for each of the activation methods (i.e., PIN and OCC attempts) **SHALL** be permitted. Card issuers **MAY** further restrict the maximum retry limit to a lower value.
 
-Cardholders **MAY** change their PINs at any time by providing the current PIN and the new PIN values, as specified in [[SP 800-73]](../_Appendix/references.md#ref-SP-800-73).
+Cardholders **MAY** change their PINs at any time by providing the current PIN and the new PIN values, as specified in [[SP 800-73]](references.md#ref-SP-800-73).
 
 Departments and agencies **MAY** adopt more stringent procedures for PIN or OCC
 reset (including disallowing resets); such procedures **SHALL** be formally
@@ -614,7 +614,7 @@ following circumstances:
 + A cardholder passes away.
 + An authorized adjudicative entity determines that the
     cardholder is ineligible for a PIV Card after completion of a cardholder's background investigation
-    or review of developed information (see [[FCS]](../_Appendix/references.md#ref-FCS) and [[CSP]](../_Appendix/references.md#ref-CSP)).
+    or review of developed information (see [[FCS]](references.md#ref-FCS) and [[CSP]](references.md#ref-CSP)).
 + A cardholder is determined to hold a fraudulent identity.
 
 Similar to the situation in which the PIV Card is compromised, normal termination procedures
@@ -646,10 +646,10 @@ Derived PIV credentials are additional PIV credentials that are issued based on 
 
 ### 2.10.1 Derived PIV Credential Issuance Requirements {#s-2-10-1}
 
-Issuance of a derived PIV credential is an instance of the post-enrollment binding of an authenticator described in [[SP 800-63B]](../_Appendix/references.md#ref-SP-800-63B) and **SHALL** be performed in accordance with the requirements that apply to physical authenticators as well as the requirements in this section.
+Issuance of a derived PIV credential is an instance of the post-enrollment binding of an authenticator described in [[SP 800-63B]](references.md#ref-SP-800-63B) and **SHALL** be performed in accordance with the requirements that apply to physical authenticators as well as the requirements in this section.
 
 The binding and issuance of derived PIV credentials **SHALL** use valid PIV Cards to establish cardholder identity in accordance with
-[[SP 800-157]](../_Appendix/references.md#ref-SP-800-157). Derived PIV credentials **SHALL** meet the requirements for Authenticator Assurance Level (AAL) 2 or 3 specified in [[SP 800-63B]](../_Appendix/references.md#ref-SP-800-63B). All derived PIV credentials meeting AAL2 but not AAL3 requirements **SHALL** allow authentication at AAL2 only. Derived PIV credentials meeting AAL3 requirements also fulfill the requirements of AAL2 and can be used in circumstances requiring AAL2. The issuer **SHALL** attempt to promptly notify the cardholder of the binding of a derived PIV credential through an independent means that would not afford an attacker an opportunity to erase the notification. More than one independent notification method **MAY** be used to ensure prompt receipt by the cardholder. 
+[[SP 800-157]](references.md#ref-SP-800-157). Derived PIV credentials **SHALL** meet the requirements for Authenticator Assurance Level (AAL) 2 or 3 specified in [[SP 800-63B]](references.md#ref-SP-800-63B). All derived PIV credentials meeting AAL2 but not AAL3 requirements **SHALL** allow authentication at AAL2 only. Derived PIV credentials meeting AAL3 requirements also fulfill the requirements of AAL2 and can be used in circumstances requiring AAL2. The issuer **SHALL** attempt to promptly notify the cardholder of the binding of a derived PIV credential through an independent means that would not afford an attacker an opportunity to erase the notification. More than one independent notification method **MAY** be used to ensure prompt receipt by the cardholder. 
 
 Derived PIV credentials **SHALL** be bound to the cardholder's PIV identity account only by the issuing department or agency responsible for managing that PIV identity account. If the issuing department or agency relies on shared services for portions of the PIV Card or Derived PIV credential issuance process, it is the responsibility of the issuing department or agency to ensure that all credentials and IDMS records are properly maintained throughout the PIV lifecycle.
 
@@ -669,21 +669,21 @@ A derived PIV credential **SHALL NOT** be accepted for authentication once the c
 ### 2.10.3 Derived PIV Credential Reissuance and Post-Issuance Update Requirements {#s-2-10-3}
 {:latex-toc="2.10.3 Derived PIV Credential Reissuance and Update Requirements"}
 
-PKI-based derived PIV Credentials (i.e., those containing attribute information describing the PIV cardholder) **SHALL** be updated or reissued as described in [[SP 800-157]](../_Appendix/references.md#ref-SP-800-157) Section 2.3 when the corresponding PIV Card is updated or reissued. Non-PKI derived PIV credentials are not required to be updated or reissued in these situations.
+PKI-based derived PIV Credentials (i.e., those containing attribute information describing the PIV cardholder) **SHALL** be updated or reissued as described in [[SP 800-157]](references.md#ref-SP-800-157) Section 2.3 when the corresponding PIV Card is updated or reissued. Non-PKI derived PIV credentials are not required to be updated or reissued in these situations.
 
 ## 2.11 PIV Privacy Requirements {#s-2-11}
 
-[[HSPD-12]](../_Appendix/references.md#ref-HSPD-12) explicitly states that "protect[ing] personal privacy" is a requirement of the PIV system. As
+[[HSPD-12]](references.md#ref-HSPD-12) explicitly states that "protect[ing] personal privacy" is a requirement of the PIV system. As
 such, all departments and agencies **SHALL** implement the PIV system in accordance with the spirit and letter
 of all privacy controls specified in this Standard, as well as those specified in federal privacy laws and
-policies including but not limited to the E-Government Act of 2002 [[E-Gov]](../_Appendix/references.md#ref-E-Gov), the Privacy Act of 1974
-[[PRIVACY]](../_Appendix/references.md#ref-PRIVACY), and OMB [[M-03-22]](../_Appendix/references.md#ref-OMB0322), as applicable.
+policies including but not limited to the E-Government Act of 2002 [[E-Gov]](references.md#ref-E-Gov), the Privacy Act of 1974
+[[PRIVACY]](references.md#ref-PRIVACY), and OMB [[M-03-22]](references.md#ref-OMB0322), as applicable.
 
 Departments and agencies may have a wide variety of uses for the PIV system and its components that
-were not intended or anticipated by the President in issuing [[HSPD-12]](../_Appendix/references.md#ref-HSPD-12). In considering whether a
+were not intended or anticipated by the President in issuing [[HSPD-12]](references.md#ref-HSPD-12). In considering whether a
 proposed use of the PIV system is appropriate, departments and agencies **SHALL** consider the
 aforementioned control objectives and the purpose of this Standard, namely "to enhance security, increase
-Government efficiency, reduce identity fraud, and protect personal privacy" as per [[HSPD-12]](../_Appendix/references.md#ref-HSPD-12). No department
+Government efficiency, reduce identity fraud, and protect personal privacy" as per [[HSPD-12]](references.md#ref-HSPD-12). No department
 or agency **SHALL** implement a use of the identity credential inconsistent with these control objectives.
 
 To ensure privacy throughout the PIV lifecycle, departments and agencies **SHALL** do the following:
@@ -693,8 +693,8 @@ To ensure privacy throughout the PIV lifecycle, departments and agencies **SHALL
     requirements in the Standard. The individual serving in this role **SHALL NOT** assume any other
     operational role in the PIV system.
 - Conduct a comprehensive Privacy Impact Assessment (PIA) and a periodic review and update of the assessment on systems containing PII for the
-    purpose of implementing PIV consistent with the methodology of [[E-Gov]](../_Appendix/references.md#ref-E-Gov) and the requirements of
-    [[M-03-22]](../_Appendix/references.md#ref-OMB0322). Consult with appropriate personnel responsible for privacy issues at the department or
+    purpose of implementing PIV consistent with the methodology of [[E-Gov]](references.md#ref-E-Gov) and the requirements of
+    [[M-03-22]](references.md#ref-OMB0322). Consult with appropriate personnel responsible for privacy issues at the department or
     agency (e.g., Chief Information Officer) implementing the PIV system.
 - Write, publish, and maintain a clear and comprehensive document listing the types of information that
     will be collected (e.g., transactional information, PII), the purpose of collection, what information
@@ -703,7 +703,7 @@ To ensure privacy throughout the PIV lifecycle, departments and agencies **SHALL
 - Provide PIV applicants with full disclosure of the intended uses of the information associated with the PIV
     Card and the related privacy implications.
 - Ensure that systems that contain PII for the purpose of enabling the implementation of PIV are
-    handled in full compliance with fair information practices, as defined in [[PRIVACY]](../_Appendix/references.md#ref-PRIVACY).
+    handled in full compliance with fair information practices, as defined in [[PRIVACY]](references.md#ref-PRIVACY).
 - Maintain appeal procedures for those who are denied a credential or whose credentials are revoked.
 - Ensure that only personnel with a legitimate need for access to PII in the PIV system are authorized to
     access the PII, including but not limited to information and databases maintained for registration and
@@ -713,7 +713,7 @@ To ensure privacy throughout the PIV lifecycle, departments and agencies **SHALL
 - Ensure that the technologies used in the department or agency's implementation of the PIV system 
     allow for continuous auditing of compliance with stated privacy policies and with practices governing
 		the collection, use, and distribution of information in the operation of the program.
-- Utilize security controls described in [[SP 800-53]](../_Appendix/references.md#ref-SP-800-53) to accomplish privacy goals, where applicable.
+- Utilize security controls described in [[SP 800-53]](references.md#ref-SP-800-53) to accomplish privacy goals, where applicable.
 - Ensure that the technologies used to implement PIV sustain and do not erode privacy protections
     relating to the use, collection, and disclosure of PII. Agencies **MAY** choose to deploy PIV Cards with
     electromagnetically opaque holders or other technology to protect against any unauthorized

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: PIV Validation, Certification, and Accreditation
-navOrder: 1
+navOrder: 11
 navTitle: Accreditation
 permalink: /accreditation/
 anchor: s-a

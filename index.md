@@ -11,7 +11,7 @@ The National Institute of Standards and Technology (NIST) requests comments on d
 
 ## Available Online
 
-[Draft FIPS 201-3 Personal Identity Verification (PIV) of Federal Employees and Contractors](_Frontmatter/abstract.md)
+[Draft FIPS 201-3 Personal Identity Verification (PIV) of Federal Employees and Contractors](_FIPS201/abstract.md)
 
 ## Comments
 The draft of FIPS 201-3 is available for review and comment on the NIST Pages website at <https://pages.nist.gov/FIPS201/>.

@@ -13,11 +13,11 @@ pdf:
           template: _pdftemplate/toc.tex
         - name: frontmatter
           parts: 
-              - content: _Frontmatter/foreword.md
+              - content: _FIPS201/foreword.md
                 template: _pdftemplate/foreword.tex
-              - content: _Frontmatter/abstract.md
+              - content: _FIPS201/abstract.md
                 template: _pdftemplate/abstract.tex
-              - content: _Frontmatter/announcement.md
+              - content: _FIPS201/announcement.md
                 template: _pdftemplate/announcement.tex
           part_template: _pdftemplate/sectionpart.tex
           template: _pdftemplate/frontmatter.tex
@@ -34,11 +34,11 @@ pdf:
           template: _pdftemplate/body.tex
         - name: appendix
           parts:
-              - _Appendix/accreditation.md
-              - _Appendix/oid.md
-              - _Appendix/glossary.md
-              - _Appendix/references.md
-              - _Appendix/revisions.md
+              - _FIPS201/accreditation.md
+              - _FIPS201/oid.md
+              - _FIPS201/glossary.md
+              - _FIPS201/references.md
+              - _FIPS201/revisions.md
           part_template: _pdftemplate/sectionpart.tex
           template: _pdftemplate/appendix.tex
     doi_url: https://doi.org/10.6028/NIST.FIPS.201-3

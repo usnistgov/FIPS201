@@ -1,7 +1,7 @@
 ---
 layout: default
 title: PIV System Overview
-navOrder: 3
+navOrder: 6
 navTitle: System
 permalink: /system/
 anchor: s-3
@@ -57,7 +57,7 @@ information about data flow and connections between components.
 ### 3.1.1 PIV Front-End Subsystem {#s-3-1-1}
 
 The PIV Front-End Subsystem in [Figure 3-1](system.md#fig-3-1) consists of credentials and devices that are used during authentication and, as described in [Section 3.1.2](system.md#s-3-1-2), for PIV issuance and management.
-The PIV Card takes the physical form of the [[ISO 7816]](../_Appendix/references.md#ref-ISO7816) ID-1 card type (i.e., traditional payment card) with one or more
+The PIV Card takes the physical form of the [[ISO 7816]](references.md#ref-ISO7816) ID-1 card type (i.e., traditional payment card) with one or more
 embedded Integrated Circuit Chips (ICC) that provide memory capacity and computational capability. The
 PIV Card is the primary component of the PIV system. The cardholder uses the PIV Card for authentication
 to access various physical and logical resources.
@@ -133,7 +133,7 @@ an Access Control List (ACL) associated with a file on a computer system and a s
 The PIV relying subsystem becomes relevant when the PIV Card or derived PIV credential is used to authenticate a cardholder who
 is seeking access to a physical or logical resource. Although this Standard does not provide technical
 specifications for this subsystem, various mechanisms for authentication are defined in
-[Section 6](authentication.md#s-6) for PIV Cards and in [[SP 800-157]](../_Appendix/references.md#ref-SP-800-157) for derived PIV credentials
+[Section 6](authentication.md#s-6) for PIV Cards and in [[SP 800-157]](references.md#ref-SP-800-157) for derived PIV credentials
 to provide consistent and secure means for performing the authentication function preceding an
 access control decision.
 

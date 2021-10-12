@@ -20,8 +20,8 @@ exclude:
 - "*/images/*.pdf"
 
 # GitHub information will uncomment ones names are finalized and NIST GitHub Pages resources have been allocated
-#org_name: usnistgov
-#repo_name: nistpages-shell
+org_name: usnistgov
+repo_name: FIPS201
 
 # Navigation
 # List links that should appear in the site sidebar here
@@ -29,26 +29,14 @@ navigation:
 - text: Home
   url: /
   collection: false
-- text: Frontmatter
-  url: /abstract/
-  collection: Frontmatter
-  anchor: abstract
 - text: FIPS 201
   url: /introduction/
   collection: FIPS201
   anchor: s-1
-- text: Appendices
-  url: /accreditation/
-  collection: Appendix
-  anchor: s-a
   
   
 collections:
-  Frontmatter:
-    output: true
   FIPS201:
-    output: true
-  Appendix:
     output: true
 
 relative_links:
