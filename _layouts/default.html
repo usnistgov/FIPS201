@@ -8,9 +8,9 @@
 
 <div class="page-switch">
 {% if page.collapsed %}
-View this document as: <b>a single page</b> | <a href="{{ site.baseurl }}/abstract/">multiple pages</a>.
+View this document as: <b>a single page</b> | <a href="{{ site.baseurl }}/{% if page.collectionpath %}{{ page.collectionpath }}/{% endif %}{% if page.start %}{{ page.start }}/{% endif %}">multiple pages</a>.
 {% else %}
-View this document as: <a href="{{ site.baseurl }}/fips201.html">a single page</a> | <b>multiple pages</b>.
+View this document as: <a href="{{ site.baseurl }}/{{ page.collection}}.html">a single page</a> | <b>multiple pages</b>.
 {% endif %}
 </div>
 
@@ -22,10 +22,11 @@ View this document as: <a href="{{ site.baseurl }}/fips201.html">a single page</
 <footer role="contentInfo" class="site-footer">
   <div class="section-container">
     <div class="section-content">
-		{% include NISTPagesFooter.html %}
     </div>
   </div>
 </footer>
+
+{% include NISTPagesFooter.html %}
 
 </body>
 </html>

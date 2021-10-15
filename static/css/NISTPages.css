@@ -175,29 +175,57 @@ table.authors td{
   border:hidden;
 }
 
+/* Footnote block */
+
 .footnotes {
   background: #f8f8f8;
   border-top: 2px solid #e7e7e7;
   margin-top: 3em;
 }
 
-ol.letter-list {
-    counter-reset: list;
+/* Ordered lists marked with a), b), etc */
+
+ol.letter-list > li:first-child {
+    counter-reset: letter-list;
 }
+
 ol.letter-list > li {
     list-style: none;
     position: relative;
 }
+
 ol.letter-list > li:before {
-    counter-increment: list;
-    content: counter(list, lower-alpha) ") ";
+    counter-increment: letter-list;
+    content: counter(letter-list, lower-alpha) ") ";
     position: absolute;
     left: -1.4em;
 }
 
+/* Ordered lists marked with i), ii), etc */
+
+ol.roman-list > li:first-child {
+    counter-reset: roman-list;
+}
+
+ol.roman-list > li {
+    list-style: none;
+    position: relative;
+}
+
+ol.roman-list > li:before {
+  counter-increment: roman-list;
+    content: counter(roman-list, lower-roman) ") ";
+    position: absolute;
+    left: -1.4em;
+}
+
+/* Direct commands to the PDF engine, don't display in HTML. */
+
 [latex-literal="true"] {
   display: none !important;
 }
+
+/* Automatically-added links to section headers. */
 
 .header-link {
   opacity: 0;
@@ -217,19 +245,58 @@ h6:hover .header-link {
   opacity: 1;
 }
 
-
-strong.normative {
-  font-size: 0.75em;
-  font-weight: bold;
-  background: #eeeeee;
-  padding: 1px 3px;
-}
+/* Targeted section headers are highlighted. */
 
 .target {
   background-color: #EEEFFF;
 }
 
+/* Normative statments marked in special block. */
+
+strong.normative {
+  font-size: 0.85em;
+  font-weight: bold;
+  background: #eeeeee;
+  padding: 1px 3px;
+}
+
+/* Side-set images for section callouts. */
+
+.callout-image {
+  width: 100%;
+  clear: both;
+  background: #eeeeee;
+  padding: 0.5em;
+  border-radius: 6px;
+}
+
+.callout-image img {
+  float: left;
+  max-width: 20%;
+  margin: 5px;
+  margin-right: 1.5em;
+}
+
+/* Search functionality. */
+
+.navbar #search-box {
+  width: 100%;
+  display: block;
+}
+
+.navbar #search-box input {
+  width: 100%;
+  display: block;
+}
+
+.navbar #results-container {
+  background-color: #EEEFFF;
+}
+
+/* Commands for mobile rendering. */
+
 @media screen and (max-width: 767px) {
+  /* Collapse the header and menu. */
   .nist-header {
     padding: 6px 10px;
   }
@@ -262,21 +329,6 @@ strong.normative {
     margin: 2px;
     padding: 2px;
     border-radius: 4px;
-  }
-  
-  .navbar-fixed-left .navbar-nav > li#search-box {
-    float: none;
-    width: 100%;
-    font-size: smaller;
-    border-right: 1px #555555 solid;
-    border-bottom: 1px #333333 solid;
-    margin: 2px;
-    padding: 2px;
-    border-radius: 4px;
-  }
-
-  .navbar-fixed-left .navbar-nav > li#search-box input#search-input {
-    width: 100%;
   }
   
   .navbar-fixed-left .navbar-nav > li.active {
@@ -326,6 +378,23 @@ strong.normative {
     background-color: #d6d6d6;
   }
 
+  .navbar-fixed-left .navbar-nav > li#search-box {
+    float: none;
+    width: 100%;
+    font-size: smaller;
+    border-right: 1px #555555 solid;
+    border-bottom: 1px #333333 solid;
+    margin: 2px;
+    padding: 2px;
+    border-radius: 4px;
+  }
+
+  .navbar-fixed-left .navbar-nav > li#search-box input#search-input {
+    width: 100%;
+  }
+  
+  /* Containers and rows don't need the sidebar offset anymore. */
+
   .container {
     padding-left: 5px;
     padding-right: 5px;
@@ -336,6 +405,13 @@ strong.normative {
     margin-left: 0px;
   }
   
+  .page-switch {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  
+  /* All images shouldn't be larger than the page. */
+  
   img {
     max-width: 100% !important;
     max-height: auto !important;
@@ -344,6 +420,8 @@ strong.normative {
     width: auto !important;
     height: auto !important;
   }
+
+  /* Links shouldn't be longer than the page. Mostly important for bare URL links. */
 
   a {
     word-break: break-all;
