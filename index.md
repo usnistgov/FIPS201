@@ -14,7 +14,7 @@ The National Institute of Standards and Technology (NIST) is pleased to announce
 [FIPS 201-3 Personal Identity Verification (PIV) of Federal Employees and Contractors](_FIPS201/abstract.md)
 
 ## Summary of Changes
-FIPS 201-2 addresses the comments received during the public comment period in November 2020.  High level changes include:
+FIPS 201-3 addresses the comments received during the public comment period in November 2020.  High level changes include:
 * Alignment with current NIST technical guidelines on identity management, OMB policy guidelines, and changes in commercially available technologies and services
 * Accommodation of additional types of authenticators through an expanded definition of derived PIV credentials
 * Focus on the use of federation to facilitate interoperability and interagency trust
