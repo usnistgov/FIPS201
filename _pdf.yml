@@ -42,7 +42,7 @@ pdf:
           part_template: _pdftemplate/sectionpart.tex
           template: _pdftemplate/appendix.tex
     doi_url: https://doi.org/10.6028/NIST.FIPS.201-3
-    issued_date: October 2021
+    issued_date: January 2022
     long_doc_number: Federal Information Processing Standards Publication 201-3
     doc_short_title: FIPS PUB 201-3
     page_doc_number: FIPS 201-3
