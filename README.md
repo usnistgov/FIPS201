@@ -1,5 +1,5 @@
 # FIPS 201-3: Personal Identity Verification (PIV) of Federal Employees and Contractors
-The National Institute of Standards and Technology (NIST) is pleased to announce the approval of Federal Information Processing Standard (FIPS) Publication 201-3, Personal Identity Verification of Federal Employees and Contractors. (See the Federal Register Notice announcing FIPS 201-3 approval.)
+The National Institute of Standards and Technology (NIST) is pleased to announce the approval of Federal Information Processing Standard (FIPS) Publication 201-3, Personal Identity Verification of Federal Employees and Contractors. See the Federal Register Notice announcing FIPS 201-3 approval at <https://www.federalregister.gov/d/2022-01246>.
 
 The rendered version is available from NIST pages <https://pages.nist.gov/FIPS201/>.
 
