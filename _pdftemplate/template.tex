@@ -30,6 +30,9 @@
 \usepackage{changepage}
 \usepackage[sf]{titlesec}
 
+\DisableLigatures[f,l,i]{encoding = *, family = *}
+
+% Command for inverting the color on table and diagram headers
 \newcommand{\colorsection}[1]{%
   \colorbox{black}{\noindent\parbox{\dimexpr\textwidth-2\fboxsep}{\color{white}\ #1}}}
 
@@ -133,7 +136,7 @@ runcolor = {.},
 pdftitle = {\VAR{config.title}},
 pdfsubject = {\VAR{config.subject}},
 pdfauthor = {\VAR{config.author}},
-pdfkeywords = {\VAR{config.keywords}},
+pdfkeywords = {\VAR{site.abstract.keywords}},
 pdflang = {\VAR{config.language}},
 pdfstartpage = 1,
 pdfstartview = {XYZ null null 1.00},

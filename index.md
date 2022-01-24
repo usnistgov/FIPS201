@@ -1,34 +1,30 @@
 ---
 layout: cover
-title: "Draft FIPS 201-3 Available for Public Comment"
-description: "Draft FIPS 201-3 Personal Identity Verification (PIV) of Federal Employees and Contractors"
+title: "FIPS 201-3 Personal Identity Verification (PIV) of Federal Employees and Contractors"
+description: "FIPS 201-3 Personal Identity Verification (PIV) of Federal Employees and Contractors"
 permalink: /
 ---
 
-## Posted: November, 2020
+## Posted: Jan 24, 2022
 
-The National Institute of Standards and Technology (NIST) requests comments on draft Federal Information Processing Standard (FIPS) 201-3, Personal Identity Verification (PIV) of Federal Employees and Contractors. This revision proposes several revisions to support the policy objectives outlined in [OMB M-19-17](https://www.whitehouse.gov/wp-content/uploads/2019/05/M-19-17.pdf), align with emerging standards and technologies for digital identity, support the use of alternative authenticators, and encourage interoperability through federation.
+The National Institute of Standards and Technology (NIST) is pleased to announce the approval of Federal Information Processing Standard (FIPS) Publication 201-3, Personal Identity Verification of Federal Employees and Contractors. See the Federal Register Notice announcing FIPS 201-3 approval at <https://www.federalregister.gov/d/2022-01246>.
 
 ## Available Online
 
-[Draft FIPS 201-3 Personal Identity Verification (PIV) of Federal Employees and Contractors](_Frontmatter/abstract.md)
+[FIPS 201-3 Personal Identity Verification (PIV) of Federal Employees and Contractors](_FIPS201/abstract.md)
 
-## Comments
-The draft of FIPS 201-3 is available for review and comment on the NIST Pages website at <https://pages.nist.gov/FIPS201/>.
+## Summary of Changes
+FIPS 201-3 addresses the comments received during the public comment period in November 2020.  High level changes include:
+* Alignment with current NIST technical guidelines on identity management, OMB policy guidelines, and changes in commercially available technologies and services
+* Accommodation of additional types of authenticators through an expanded definition of derived PIV credentials
+* Focus on the use of federation to facilitate interoperability and interagency trust
+* Addition of supervised remote identity proofing processes
+* Removal of the previously deprecated Cardholder Unique Identifier (CHUID) authentication mechanism and deprecation of the symmetric card authentication key and visual authentication mechanisms (VIS)
+* Support for the secure messaging authentication mechanism (SM-AUTH)
 
-**Comments on FIPS 201-3 must be received on or before February 1, 2021.** Comments should be submitted on the project repository 
-at <https://github.com/usnistgov/FIPS201/issues>. Comments may alternatively be sent to <piv_comments@nist.gov> preferably using 
-the comment template available at <https://csrc.nist.gov/publications/detail/fips/201/3/draft>.
-
-All submissions, including attachments and other supporting materials, will become part of the public record and subject to public 
-disclosure. NIST reserves the right to publish relevant comments, unedited and in their entirety. Relevant comments received by 
-the deadline will be published electronically at <https://github.com/usnistgov/FIPS201> without change or redaction, so commenters 
-should not include information they do not wish to be posted. Personal information, such as account numbers or Social Security 
-numbers, or names of other individuals, should not be included. Do not submit confidential business information or otherwise sensitive 
-or protected information. Comments that contain profanity, vulgarity, threats, or other inappropriate language or content will not 
-be posted or considered.
+A detailed list of changes is available in [FIPS 201-3, Appendix E, Revision History](_FIPS201/revisions.md), and all comments and dispositions can be found on the [project repository](https://github.com/usnistgov/FIPS201/issues) or in the [2020 Draft comments and dispositions](https://csrc.nist.gov/publications/detail/fips/201/3/final).
 
 ## More Information:
-A printable PDF is available on the NIST Computer Security Resource Center at <https://csrc.nist.gov/publications/detail/fips/201/3/draft>.
+A printable PDF is available on the NIST Computer Security Resource Center at <https://csrc.nist.gov/publications/detail/fips/201/3/final>.
 
 For more information about the PIV standard and associated technical guidelines, see the [PIV Project Page](https://csrc.nist.gov/Projects/PIV/) on the [Computer Security Resource Center](https://csrc.nist.gov).

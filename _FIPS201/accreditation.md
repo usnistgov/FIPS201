@@ -1,7 +1,7 @@
 ---
 layout: default
 title: PIV Validation, Certification, and Accreditation
-navOrder: 1
+navOrder: 11
 navTitle: Accreditation
 permalink: /accreditation/
 anchor: s-a
@@ -14,7 +14,7 @@ _This appendix is normative._ It provides compliance requirements for PIV valida
 {:latex-toc="A.1 Accreditation of PIV Card Issuers and Derived PIV Credential Issuers"}
 
 [[HSPD-12]](references.md#ref-HSPD-12) requires that PIV credentials be issued by providers whose reliability has been established by an
-official accreditation process. Consistent assessment guidelines are established for PIV Card Issuers (PCI) and Derived PIV Credential Issuers (DPCI) in [[SP 800-79]](references.md#ref-SP-800-79), which SHALL be followed by all credential issuers in order to achieve accreditation.
+official accreditation process. Consistent assessment guidelines are established for PIV Card Issuers (PCI) and Derived PIV Credential Issuers (DPCI) in [[SP 800-79]](references.md#ref-SP-800-79), which **SHALL** be followed by all credential issuers in order to achieve accreditation.
 
 The entire spectrum of activities in the PCI and DPCI accreditation methodology is divided into the following four
 phases:
@@ -37,7 +37,7 @@ the accreditation decision.
 
 The accreditation of the capability and reliability of a PCI and DPCI using the methodology outlined in [[SP 800-79]](references.md#ref-SP-800-79) depends on adequate security for the information systems that are used for PCI and DPCI functions. The
 assurance that such a security exists in a PCI and DPCI is obtained through evidence of the application of the Risk
-Management Framework guidelines specified in [[SP 800-37]](references.md#ref-SP-800-37). The methodology in [[SP 800-37]](references.md#ref-SP-800-37)was, in turn,
+Management Framework guidelines specified in [[SP 800-37]](references.md#ref-SP-800-37). The methodology in [[SP 800-37]](references.md#ref-SP-800-37) was, in turn,
 created pursuant to a mandate in Appendix III of Office of Management and Budget (OMB) Circular
 [[A-130]](references.md#ref-A-130). An information system authorization decision, together with evidence of security control
 monitoring compliant with [[SP 800-37]](references.md#ref-SP-800-37) guidelines, signifies that a PCI/DPCI organization's official accepts
@@ -55,7 +55,7 @@ Program (NPIVP). Under this program, NIST has developed test procedures in [[SP 
 for conformance testing of PIV Card applications. NPIVP conformance testing also includes PIV middleware, but conformance testing may be discontinued at a future time since computer operating systems increasingly provide built-in support for smart cards.
 
 Commercial products under these two categories are tested by the set of test laboratories accredited under
-the National Voluntary Laboratory Accreditation Program (NVLAP) program using the NIST-supplied
+the National Voluntary Laboratory Accreditation Program (NVLAP) using the NIST-supplied
 test procedures and toolkit. The outcomes of the test results are validated by NIST, which then issues
 validation certificates. Information about NPIVP is available at
 <https://csrc.nist.gov/projects/nist-s-personal-identity-verification-program>.
@@ -63,10 +63,10 @@ validation certificates. Information about NPIVP is available at
 ## A.4 Cryptographic Testing and Validation {#s-a-4}
 
 All on-card cryptographic modules that host the PIV Card application and cryptographic modules of card
-issuance and maintenance systems SHALL be validated to [[FIPS 140]](references.md#ref-FIPS140) with an overall Security Level 2 (or
+issuance and maintenance systems **SHALL** be validated to [[FIPS 140]](references.md#ref-FIPS140) with an overall Security Level 2 (or
 higher). The facilities for [[FIPS 140]](references.md#ref-FIPS140) testing are the Cryptographic and Security Testing Laboratories
 accredited by the NVLAP program of NIST. Vendors who want to supply cryptographic modules can
-select any of the accredited laboratories. The tests that these laboratories conduct for all vendor
+select an accredited laboratory. The tests that these laboratories conduct for all vendor
 submissions are validated, and a validation certificate for each vendor module is issued by the
 Cryptographic Module Validation Program (CMVP), a joint program run by NIST and the
 Communications Security Establishment (CSE) of the Government of Canada. The details of the CMVP

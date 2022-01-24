@@ -1,7 +1,7 @@
 ---
 layout: default
 title: PIV Object Identifiers and Certificate Extension
-navOrder: 2
+navOrder: 12
 navTitle: OID
 permalink: /oid/
 anchor: s-b
@@ -9,7 +9,7 @@ anchor: s-b
 
 # Appendix B. PIV Object Identifiers and Certificate Extension {#s-b}
 
-_This appendix is normative._ It provides additional details for the PIV objects identified in [Section 4](../_FIPS201/frontend.md#s-4).
+_This appendix is normative._ It provides additional details for the PIV objects identified in [Section 4](frontend.md#s-4).
 
 ## B.1 PIV Object Identifiers {#s-b-1}
 
@@ -32,7 +32,7 @@ _This appendix is normative._ It provides additional details for the PIV objects
 |`pivCardholder-Name`|2.16.840.1.101.3.6.3|The attribute value is of type DirectoryString and specifies the PIV cardholder's name.|
 |`pivCardholder-DN`|2.16.840.1.101.3.6.4|The attribute value is an X.501 type Name and specifies the DN associated with the PIV cardholder in the PIV certificates.|
 |`pivSigner-DN`|2.16.840.1.101.3.6.5|The attribute value is an X.501 type Name and specifies the subject name that appears in the PKI certificate for the entity that signed the biometric data record or CHUID.|
-|`pivFASC-N`|2.16.840.1.101.3.6.6|The `pivFASC-N` OID MAY appear as an X.501 type Name in the `otherName` field of the Subject Alternative Name extension of X.509 certificates or a signed attribute in CMS external signatures. Where used as an X.501 type Name, the syntax is OCTET STRING. Where used as an attribute, the attribute value is of type OCTET STRING. In each case, the value specifies the FASC-N of the PIV Card.|
+|`pivFASC-N`|2.16.840.1.101.3.6.6|The `pivFASC-N` OID **MAY** appear as an X.501 type Name in the `otherName` field of the Subject Alternative Name extension of X.509 certificates or a signed attribute in CMS external signatures. Where used as an X.501 type Name, the syntax is OCTET STRING. Where used as an attribute, the attribute value is of type OCTET STRING. In each case, the value specifies the FASC-N of the PIV Card.|
 {:latex-columns="p@0.25\textwidth,p@0.24\textwidth,p@0.40\textwidth" latex-table="B-2" latex-caption="PIV Object Identifiers for PIV Attributes"}
 
 [Table B-3. PIV Object Identifiers for PIV Extended Key Usage](oid.md#table-B-3){:name="table-B-3"}
@@ -40,7 +40,7 @@ _This appendix is normative._ It provides additional details for the PIV objects
 
 |ID| Object Identifier|Description|
 |---|---|---|
-|`id-PIV-content-signing`|2.16.840.1.101.3.6.7|This specifies that the public key MAY be used to verify signatures on CHUIDs and biometric data records.|
+|`id-PIV-content-signing`|2.16.840.1.101.3.6.7|This specifies that the public key **MAY** be used to verify signatures on CHUIDs and biometric data records.|
 |`id-PIV-cardAuth`|2.16.840.1.101.3.6.8|This specifies that the public key is used to authenticate the PIV Card rather than the PIV cardholder.|
 {:latex-columns="p@0.25\textwidth,p@0.24\textwidth,p@0.40\textwidth" latex-table="B-3" latex-caption="PIV Object Identifiers for PIV Extended Key Usage"}
 
@@ -52,7 +52,7 @@ The OIDs for certificate policies are specified in [[COMMON]](references.md#ref-
 The PIV background investigation indicator (previously known as the NACI indicator) is deprecated under this version of the 
 Standard, and it is expected that the indicator will be removed from a future revision.
 Instead of the on-card indicator, background investigative status is commonly maintained in each 
-agency IDMS and personnel security system as well as in the Central Verification System (or successor). Status of the investigation can be communicated as needed using 
+agency IDMS and personnel security system as well as in the Central Verification System (or successor). The status of the investigation can be communicated as needed using 
 federation protocols. 
 
 If used, the PIV background investigation indicator extension indicates to the issuer whether the subject's

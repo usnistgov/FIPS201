@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Revision History
-navOrder: 5
+navOrder: 15
 navTitle: Revisions
 permalink: /revisions/
 anchor: s-e
@@ -40,18 +40,20 @@ _This appendix is informative._ It provides an overview of the changes to FIPS 2
 |||Require signature verification and certification path validation in the CHUID, BIO, and BIO-A authentication mechanisms.||
 |||The VIS and CHUID authentication mechanisms have been downgraded to indicate that they provide LITTLE or NO assurance in the identity of the cardholder.||
 |||Deprecated the use of the CHUID authentication mechanism. The CHUID data element has not been deprecated and continues to be mandatory.||
-|FIPS 201-3|November 2020|This version represents the 5-year review of FIPS 201 and change request inputs received from agencies. Following are the highlights of changes made in this version.||
+|FIPS 201-3|January 2022|This version represents the 5-year review of FIPS 201 and change request inputs received from agencies. Following are the highlights of changes made in this version.||
 |||Alignment with SP 800-63-3 language and terms.||
-|||Used explicit normative language terms SHALL/SHOULD/MAY/CAN.||
-|||Updated process for binding and termination of derived PIV credentials with PIV account.|&sect;2|
+|||Used explicit normative language terms **SHALL**/**SHOULD**/**MAY**/**CAN**.||
+|||Updated process for binding and termination of derived PIV credentials with PIV identity account.|&sect;2|
 |||Updated credentialing requirements for issuance of PIV Cards based on OPM guidance.|&sect;2|
-|||Added requirements for supervised remote identity proofing and PIV Card maintenance.|&sect;2|
+|||Added requirements for supervised remote identity proofing, enrollment, issuance, and PIV Card maintenance.|&sect;2|
 |||Modified identity proofing requirements to reflect updated list of accepted documents.|&sect;2|
-|||Deprecated PIV NACI indicator (background investigation indicator).|&sect;2|
+|||Deprecated PIV NACI indicator (background investigation indicator).|&sect;2, &sect;B|
 |||Updated guidance on collection of biometric data for credentialing.|&sect;2|
 |||Clarified multi-session proofing and enrollment.|&sect;2|
 |||Provided clarification on grace periods.|&sect;2|
-|||Clarified biometric modalities for proofing and authentication.|&sect;2, &sect;6|
+|||Moved PIV Card activation reset procedures into new subsections for each activation method.|&sect;2|
+|||Added OCC card activation limits and reset guidelines.|&sect;2|
+|||Clarified biometric modalities for proofing, PIV Card issuance/maintenance processes, and authentication.|&sect;2, &sect;6|
 |||Updated system description and associated diagrams.|&sect;3|
 |||Generalized chain of trust records to enrollment records and made them required.|&sect;3|
 |||Deprecated the use of magnetic stripes on PIV Card.|&sect;4|
@@ -59,13 +61,14 @@ _This appendix is informative._ It provides an overview of the changes to FIPS 2
 |||Updated example PIV Card diagrams.|&sect;4|
 |||Linked expiration of content signing certificate with card authentication certificate.|&sect;4|
 |||Revised PIN requirements based on SP 800-63B guidelines.|&sect;4|
-|||Deprecated symmetric card authentication key.|&sect;4|
+|||Deprecated symmetric card authentication key and associated SYM-CAK authentication mechanism.|&sect;4, &sect;6|
+|||Deprecated use of separate content signing keys for biometric data and CHUID.|&sect;4|
 |||Removed requirement for support of Legacy PKIs.|&sect;5|
 |||Removed references to OMB M-04-04 that was rescinded by OMB M-19-17.|&sect;6|
-|||Expressed assurance levels in terms of PAL and AAL.|&sect;6|
+|||Expressed authentication mechanism strength for physical and local workstation access.|&sect;6|
+|||Expressed assurance levels in terms of AAL for remote/network access.|&sect;6|
 |||Removed previously deprecated CHUID authentication mechanisms. The CHUID data element has not been deprecated and continues to be mandatory.|&sect;6|
 |||Deprecated VIS authentication mechanism.|&sect;6|
-|||Deprecated SYM-CAK authentication mechanism.|&sect;6|
 |||Added SM-AUTH as optional authentication mechanism.|&sect;6|
 |||Added section discussing federation in relationship to PIV credentials.|&sect;7|
 {:latex-columns="p@0.13\textwidth,p@0.17\textwidth,p@0.48\textwidth,p@0.10\textwidth" latex-longtable="true"}
