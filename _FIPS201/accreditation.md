@@ -5,7 +5,9 @@ navOrder: 11
 navTitle: Accreditation
 permalink: /accreditation/
 anchor: s-a
+section: A
 ---
+
 # Appendix A. PIV Validation, Certification, and Accreditation {#s-a}
 
 _This appendix is normative._ It provides compliance requirements for PIV validation, certification, and accreditation.

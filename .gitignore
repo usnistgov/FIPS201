@@ -7,3 +7,4 @@ Gemfile.lock
 *.css.map
 *~
 _pdf/
+_template_workspace/
