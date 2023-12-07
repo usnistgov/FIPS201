@@ -85,10 +85,14 @@ ul.audiences li {
 
 .navbar-fixed-left .navbar-nav > li {
   float: none;  /* Cancel default li float: left */
-  width: 139px;
+  width: 155px;
 }
 
 .container {
+  padding-left: 160px;
+}
+
+.navbar-fixed-left ~ #nistfootergoeshere {
   padding-left: 160px;
 }
 
@@ -121,6 +125,7 @@ ul.audiences li {
 .navbar-fixed-left .navbar-nav .subnav {
   font-size: smaller;
   line-height: 1.1em;
+  padding-left: 20px;
 }
 
 .navbar-fixed-left .navbar-nav .subnav>li {
@@ -131,6 +136,16 @@ ul.audiences li {
 .navbar-fixed-left .navbar-nav .subnav>li.active {
   font-weight: bold;
   list-style: disc;
+}
+
+.navbar-fixed-left .navbar-nav .subnav>li span.section {
+  font-size: 0.8em;
+  color: white;
+  background: #8f8f8f;
+  border-radius: 2px;
+  padding-left: 2px;
+  padding-right: 2px;
+  margin-right: 2px;
 }
 
 .navbar-fixed-left .navbar-nav .subnav a {
@@ -243,6 +258,39 @@ h4:hover .header-link,
 h5:hover .header-link,
 h6:hover .header-link {
   opacity: 1;
+}
+
+/* Automated header numbering, when data-section attribute is set */
+
+h1 {
+    counter-reset: h2
+}
+
+h2 {
+    counter-reset: h3
+}
+
+h3 {
+    counter-reset: h4
+}
+
+h1[data-section]:before {
+    content: attr(data-section) ". "
+}
+
+h2[data-section]:before {
+    counter-increment: h2;
+    content: attr(data-section) "." counter(h2) ". "
+}
+
+h3[data-section]:before {
+    counter-increment: h3;
+    content: attr(data-section) "." counter(h2) "." counter(h3) ". "
+}
+
+h4[data-section]:before {
+    counter-increment: h4;
+    content: attr(data-section) "." counter(h2) "." counter(h3) "." counter(h4) ". "
 }
 
 /* Targeted section headers are highlighted. */
@@ -410,6 +458,10 @@ strong.normative {
     padding-right: 5px;
   }
   
+  .navbar-fixed-left ~ #nistfootergoeshere {
+    padding-left: 0px;
+  }
+
   /* All images shouldn't be larger than the page. */
   
   img {

@@ -5,6 +5,7 @@ navOrder: 13
 navTitle: Glossary
 permalink: /glossary/
 anchor: s-c
+section: C
 ---
 
 # Appendix C. Glossary of Terms, Acronyms, and Notations {#s-c}
