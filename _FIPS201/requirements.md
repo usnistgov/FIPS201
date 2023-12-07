@@ -5,7 +5,9 @@ navOrder: 5
 navTitle: Requirements
 permalink: /requirements/
 anchor: s-2
+section: 2
 ---
+
 # 2. Common Identification, Security, and Privacy Requirements {#s-2}
 
 _This section is normative._ It addresses the fundamental control and security objectives outlined in [[HSPD-12]](references.md#ref-HSPD-12), including

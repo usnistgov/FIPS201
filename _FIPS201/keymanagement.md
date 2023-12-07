@@ -5,6 +5,7 @@ navOrder: 8
 navTitle: Keys
 permalink: /keymanagement/
 anchor: s-5
+section: 5
 ---
 
 # 5. PIV Key Management Requirements {#s-5}

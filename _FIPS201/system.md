@@ -5,7 +5,9 @@ navOrder: 6
 navTitle: System
 permalink: /system/
 anchor: s-3
+section: 3
 ---
+
 # 3. PIV System Overview {#s-3}
 
 _This section is informative._ It provides an overview of the different components of the PIV system.
